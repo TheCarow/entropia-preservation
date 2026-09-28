@@ -144,12 +144,14 @@
       ]
     },
     "5.1": {
-      "date": "2003-06-13",
+      "date": "2003-07-03",
       "title": "PE",
       "engine": "NetImmerse",
       "client_status": "partial",
+      "note": "Released 2003-07-03, when MindArk's client news posted the VU 5.1 update listing. The notes document is dated 2003-06-13 in draft and 2003-06-25 in its final form.",
       "sources": [
         {"tier": 1, "label": "project-entropia.com - news page", "url": "https://web.archive.org/web/20031011191311/http://www.project-entropia.com/news/main.jsp", "from_sheet": true},
+        {"tier": 1, "label": "project-entropia.com - client news: VU 5.1 Update listing", "url": "https://web.archive.org/web/20030704022939/http://www.project-entropia.com:80/client/index.asp", "date": "2003-07-03", "names_only": true},
         {"tier": 4, "label": "computergames.ro - client v5.1 download page, notes in its description", "url": "https://web.archive.org/web/20040119064353/http://www.computergames.ro:80/download.php/optiune-show_download/did-1634/index.html", "date": "2003-06-25"},
         {"tier": 4, "label": "perc.info - VU 5.1 listing (fan site, 2004)", "url": "https://web.archive.org/web/20041026223130/http://www.perc.info:80/index.asp?page=75"},
         {"tier": 5, "label": "Entropia Universe forum - VU 5.1 Listing (GeeKman, 2005 repost)", "url": "https://forum.entropiauniverse.com/t/vu-5-1-listing/139", "date": "2005-01-29"},
