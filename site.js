@@ -29,7 +29,7 @@
     origin: ["label", "url"],
     file: ["version", "version_estimated", "label", "name", "bytes", "size_mb", "date", "data_ini", "status", "note",
       "sources"],
-    fileSource: ["label", "url", "available", "image", "evidence", "note", "preservation_needed"],
+    fileSource: ["label", "physical", "url", "available", "image", "evidence", "note", "preservation_needed"],
     evidence: ["label", "url"],
   };
   const DATE = /^\d{4}(-\d{2}(-\d{2})?)?$/;
@@ -668,6 +668,7 @@
           unknown(s, "fileSource", at, which);
           const source = {
             label: checkText(s.label, at.concat("label"), which, "label"),
+            physical: checkFlag(s.physical, at.concat("physical"), which, "physical"),
             url: checkText(s.url, at.concat("url"), which, "url"),
             available: checkFlag(s.available, at.concat("available"), which, "available"),
             image: checkText(s.image, at.concat("image"), which, "image"),
@@ -699,6 +700,7 @@
           file.sources.push(source);
         });
       }
+      file.physical = file.sources.some((s) => s.physical);
       files.push(file);
     });
 
@@ -709,7 +711,7 @@
       const note = notes.get(v);
       const body = note ? note.body : "";
       const e = {v, index, anchor: anchorOf(v), major: /^\d+\.\d+$/.test(v), engine: o.engine || "",
-        changes: o.changes || [], files: own, body, hasText: body !== ""};
+        changes: o.changes || [], files: own, physical: own.some((f) => f.physical), body, hasText: body !== ""};
       if (o.date) {
         e.date = o.date;
         e.approx = !FULL_DATE.test(o.date);
@@ -823,7 +825,7 @@
         }
       }
       return {k, f, name, family, engineWhy: family ? engineWhy : "", isFile: !!f.name, vu: f.label || f.version,
-        date: f.date,
+        physical: f.physical, date: f.date,
         approx: f.date !== "" && !FULL_DATE.test(f.date), why: "The date of the client file",
         anchor: "file-" + (slug(name) || String(f.n + 1))};
     });
@@ -997,6 +999,7 @@
     const clients = [["", "Any"]].concat(STATUSES.map((s) => [s, `${BADGE[s]} (${m.counts[s]})`]));
     const engines = [["", "Any"]].concat(FAMILIES.filter((f) => m.rows.some((r) => r.family === f)).map((f) =>
       [f, `${f} (${m.rows.filter((r) => r.family === f).length})`]));
+    const sources = [["", "Any"], ["physical", `Physical media (${m.rows.filter((r) => r.physical).length})`]];
     const last = years.length ? years[years.length - 1][0] : "";
     return `<div class="filters" role="search" aria-label="Filter the versions">
 <div class="range" role="group" aria-label="Date"><span>Date</span>${select("from", "From year", years, years.length ? years[0][0] : "")}`
@@ -1004,6 +1007,7 @@
 <label><span>Title</span>${select("title", "Title", titles, "")}</label>
 <label><span>Client</span>${select("client", "Client", clients, "")}</label>
 <label><span>Engine</span>${select("engine", "Engine", engines, "")}</label>
+<label><span>Source</span>${select("source", "Source", sources, "")}</label>
 <span class="spacer"></span><button type="button" class="fclear" hidden>Clear filters</button>
 </div>`;
   }
@@ -1036,7 +1040,8 @@
     let body;
     if (s.label) {
       label = s.available ? "Found on" : "Once on";
-      body = `<div>${sourceText(s)}</div>${note}` + (s.evidence.length ? evidenceHTML(s.evidence, true) : "");
+      const kind = s.physical ? ' <span class="kind">Physical media</span>' : "";
+      body = `<div>${sourceText(s)}${kind}</div>${note}` + (s.evidence.length ? evidenceHTML(s.evidence, true) : "");
     } else {
       label = "Known from";
       body = evidenceHTML(s.evidence, false) + note;
@@ -1157,7 +1162,7 @@ ${rows}
   function wire(m, root) {
     const first = m.years[0];
     const last = m.years[m.years.length - 1];
-    const state = {from: first, to: last, title: "", client: "", engine: ""};
+    const state = {from: first, to: last, title: "", client: "", engine: "", source: ""};
     for (const r of m.rows) {
       r.el = root.querySelector(r.f ? `.entry[data-file="${r.k}"]` : `.entry[data-i="${r.index}"]`);
     }
@@ -1182,14 +1187,15 @@ ${rows}
 
     const apply = () => {
       const full = state.from === first && state.to === last;
-      const filtered = !full || state.title !== "" || state.client !== "" || state.engine !== "";
+      const filtered = !full || state.title !== "" || state.client !== "" || state.engine !== "" || state.source !== "";
       let shown = 0;
       const sectionShown = new Set();
       for (const r of m.rows) {
         const on = (r.year ? r.year >= state.from && r.year <= state.to : full)
           && (state.title === "" || r.title === state.title)
           && (state.client === "" || r.st === state.client)
-          && (state.engine === "" || r.family === state.engine);
+          && (state.engine === "" || r.family === state.engine)
+          && (state.source === "" || r.physical);
         r.el.hidden = !on;
         if (on) {
           shown += 1;
@@ -1204,7 +1210,7 @@ ${rows}
     };
 
     const clear = () => {
-      Object.assign(state, {from: first, to: last, title: "", client: "", engine: ""});
+      Object.assign(state, {from: first, to: last, title: "", client: "", engine: "", source: ""});
       for (const select of selects) {
         select.value = String(state[select.dataset.filter]);
       }

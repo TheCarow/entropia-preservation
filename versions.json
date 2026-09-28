@@ -2067,6 +2067,7 @@
       "sources": [
         {
           "label": "Project Entropia Commercial Trial CD",
+          "physical": true,
           "available": false,
           "image": "images/discs/project-entropia-commercial-trial-cd.jpg",
           "evidence": [
@@ -2107,7 +2108,7 @@
       "status": "preserved",
       "note": "Commercial Open Trial.",
       "sources": [
-        {"label": "Italian GMC DVD", "available": true, "image": "images/discs/italian-gmc-dvd.jpg"},
+        {"label": "Italian GMC DVD", "physical": true, "available": true, "image": "images/discs/italian-gmc-dvd.jpg"},
         {"label": "Archive.org: GMC GIOCHI PER IL MIO COMPUTER 2002 SETTEMBRE DVD", "url": "https://archive.org/details/gmc-giochi-per-il-mio-computer-2002-settembre-dvd", "available": true, "preservation_needed": "1 Backup"},
         {"label": "http://ftp02.project-entropia.com/pub/pe_cot36.exe", "available": false}
       ]
@@ -2163,7 +2164,7 @@
       "data_ini": "4.2",
       "status": "preserved",
       "sources": [
-        {"label": "Świat Gier Komputerowych magazine 1/03 CD #2 (Poland)", "available": true, "image": "images/discs/swiat-gier-komputerowych-magazine-1-03-cd-2-poland.png", "preservation_needed": "Archive.org"},
+        {"label": "Świat Gier Komputerowych magazine 1/03 CD #2 (Poland)", "physical": true, "available": true, "image": "images/discs/swiat-gier-komputerowych-magazine-1-03-cd-2-poland.png", "preservation_needed": "Archive.org"},
         {"label": "Archive.org: Świat Gier Komputerowych Wydanie Specjalne 1/2003 CD 2", "url": "https://archive.org/details/sgk-wydanie-specjalne-2003-01-cd", "available": true}
       ]
     },
@@ -2176,7 +2177,7 @@
       "status": "preserved",
       "note": "Offered by MindArk as pe42en.exe.",
       "sources": [
-        {"label": "Mega Score nº 90 (Portugal), CD 2", "available": true, "image": "images/discs/mega-score-no-90-portugal-cd-2.jpg"},
+        {"label": "Mega Score nº 90 (Portugal), CD 2", "physical": true, "available": true, "image": "images/discs/mega-score-no-90-portugal-cd-2.jpg"},
         {"label": "Archive.org: Revista Mega Score", "url": "https://archive.org/details/revista_mega_score_pt", "available": true, "preservation_needed": "1 Backup"},
         {
           "label": "ftp://ftp1.md.air2.net/Clients/pe42en.exe",
@@ -2197,7 +2198,7 @@
       "status": "preserved",
       "note": "Offered by MindArk and AusGamers as pe43.exe.",
       "sources": [
-        {"label": "CHIP Magazin (Hungary), DVD edition", "available": true, "image": "images/discs/chip-magazin-hungary-dvd-edition.jpg"},
+        {"label": "CHIP Magazin (Hungary), DVD edition", "physical": true, "available": true, "image": "images/discs/chip-magazin-hungary-dvd-edition.jpg"},
         {"label": "Archive.org: Chip Magazin (1989-2023) - Mellékletek", "url": "https://archive.org/details/chip_magazin_1989_2023_mellekletek", "available": true, "preservation_needed": "1 Backup"},
         {
           "label": "ftp://ftp1.md.air2.net/Clients/pe43.exe",
@@ -2223,10 +2224,10 @@
       "status": "preserved",
       "note": "Not a full game install: the program, terrain and music only.",
       "sources": [
-        {"label": "PC Gamer CD Disk 7.33 November 2003", "available": true, "image": "images/discs/pc-gamer-cd-disk-7-33-november-2003.jpg"},
+        {"label": "PC Gamer CD Disk 7.33 November 2003", "physical": true, "available": true, "image": "images/discs/pc-gamer-cd-disk-7-33-november-2003.jpg"},
         {"label": "Archive.org: PC Gamer CD-ROMs - 2003", "url": "https://archive.org/details/PC_Gamer_CD-ROMs_2003", "available": true},
         {"label": "Archive.org: PCGAMER Disc 7.33 NOVEMBER 2003", "url": "https://archive.org/details/pcgamer-disc-7.33", "available": true},
-        {"label": "Maximum PC magazine September 2003 - Maximum CD", "available": true, "image": "images/discs/maximum-pc-magazine-september-2003-maximum-cd.jpg"},
+        {"label": "Maximum PC magazine September 2003 - Maximum CD", "physical": true, "available": true, "image": "images/discs/maximum-pc-magazine-september-2003-maximum-cd.jpg"},
         {"label": "Archive.org: Maximum CD September 2003 CD", "url": "https://archive.org/details/maximum-cd-september-2003-cd", "available": true},
         {"label": "Archive.org: Maximum CD - September 2003 (USA)", "url": "https://archive.org/details/Nova_MaximumPC_September2003_USA", "available": true},
         {"label": "Archive.org: Maximum PC Magazine Coverdisc MaximumCD October 2003", "url": "https://archive.org/details/Maximum_PC_Magazine_Coverdisc_MaximumCD_October_2003_2003-10", "available": true},
@@ -2345,6 +2346,7 @@
       "sources": [
         {
           "label": "Project Entropia CD from DreamHack 2003",
+          "physical": true,
           "available": false,
           "evidence": [
             {"label": "RobZon, 2007-08-08", "url": "https://forum.entropiauniverse.com/t/project-entropia-cd-vu-5-2-1/72173/1"}
@@ -2360,7 +2362,7 @@
       "data_ini": "5.4.0",
       "status": "preserved",
       "sources": [
-        {"label": "Czech Level 109 DVD", "available": true, "image": "images/discs/czech-level-109-dvd.jpg"},
+        {"label": "Czech Level 109 DVD", "physical": true, "available": true, "image": "images/discs/czech-level-109-dvd.jpg"},
         {"label": "Archive.org: (Czech) Level 109 (2004-01) DVD (Turok 2)", "url": "https://archive.org/details/czlevel109dvd", "available": true, "preservation_needed": "1 Backup"},
         {
           "label": "http://ftp.iinet.net.au/pub/games/mmog/Project_Entropia/PE_5.4.0.exe",
@@ -2380,7 +2382,7 @@
       "status": "preserved",
       "note": "Installs the same files as PE_5.4.0.exe.",
       "sources": [
-        {"label": "Gamer Chick / Anime Girl and Free Project-Entropia PC Game (barcode 0823931002420)", "available": true, "image": "images/discs/gamer-chick-anime-girl-and-free-project-entropia-pc-game-barcode-0823931002420.jpg", "note": "E3 handout. The disc was mastered on 2004-02-08."},
+        {"label": "Gamer Chick / Anime Girl and Free Project-Entropia PC Game (barcode 0823931002420)", "physical": true, "available": true, "image": "images/discs/gamer-chick-anime-girl-and-free-project-entropia-pc-game-barcode-0823931002420.jpg", "note": "E3 handout. The disc was mastered on 2004-02-08."},
         {"label": "Archive.org: Gamer Chick / Anime Girl and Free Project-Entropia PC Game", "url": "https://archive.org/details/project_entropia_and_music_promo_cd", "available": true, "preservation_needed": "1 Backup"}
       ]
     },
@@ -2448,6 +2450,7 @@
       "sources": [
         {
           "label": "Project Entropia CD",
+          "physical": true,
           "available": false,
           "image": "images/discs/project-entropia-cd.jpg",
           "evidence": [
@@ -2678,7 +2681,7 @@
       "data_ini": "9010301",
       "status": "preserved",
       "sources": [
-        {"label": "PC Gamer Lietuva DVD 2008 Nr. 4 (Lithuania)", "available": true, "image": "images/discs/pc-gamer-lietuva-dvd-2008-nr-4-lithuania.png", "note": "Installed files."},
+        {"label": "PC Gamer Lietuva DVD 2008 Nr. 4 (Lithuania)", "physical": true, "available": true, "image": "images/discs/pc-gamer-lietuva-dvd-2008-nr-4-lithuania.png", "note": "Installed files."},
         {"label": "Archive.org: PC Gamer Lietuva DVD 2008 Nr. 4", "url": "https://archive.org/details/pcg-lt-04-2008-dvd_202403", "available": true, "note": "Installed files.", "preservation_needed": "1 Backup"}
       ]
     },
@@ -2738,7 +2741,7 @@
       "data_ini": "9030501",
       "status": "preserved",
       "sources": [
-        {"label": "PC Advisor magazine issue 161 December 2008 DVD (United Kingdom)", "available": true, "image": "images/discs/pc-advisor-magazine-issue-161-december-2008-dvd-united-kingdom.jpg", "preservation_needed": "Archive.org"},
+        {"label": "PC Advisor magazine issue 161 December 2008 DVD (United Kingdom)", "physical": true, "available": true, "image": "images/discs/pc-advisor-magazine-issue-161-december-2008-dvd-united-kingdom.jpg", "preservation_needed": "Archive.org"},
         {"label": "Unknown Google Drive: entropia_9.3.5-NX4NMX8E.exe", "url": "https://drive.google.com/file/u/1/d/1oHH26odpkbtpr1_27tMLfeqL7g52Iple/view?usp=sharing", "available": true}
       ]
     },
@@ -2796,6 +2799,7 @@
       "sources": [
         {
           "label": "Project Entropia beta CD",
+          "physical": true,
           "available": false,
           "image": "images/discs/project-entropia-beta-cd.jpg",
           "evidence": [
@@ -2834,6 +2838,7 @@
       "sources": [
         {
           "label": "Project Entropia Promotional CD",
+          "physical": true,
           "available": false,
           "image": "images/discs/project-entropia-promotional-cd.jpg",
           "evidence": [
@@ -2850,6 +2855,7 @@
       "sources": [
         {
           "label": "Entropia Universe PC DVD-ROM Special Edition",
+          "physical": true,
           "available": false,
           "image": "images/discs/entropia-universe-promotional-dvd.jpg",
           "evidence": [
@@ -2867,6 +2873,7 @@
       "sources": [
         {
           "label": "Entropia Universe Promotional DVD (gatefold)",
+          "physical": true,
           "available": false,
           "image": "images/discs/entropia-universe-promotional-dvd-gatefold.jpg",
           "evidence": [
@@ -2890,6 +2897,7 @@
       "sources": [
         {
           "label": "Entropia Universe Promotional Disc",
+          "physical": true,
           "available": false,
           "image": "images/discs/entropia-universe-promotional-disc.jpg",
           "evidence": [

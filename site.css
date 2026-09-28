@@ -147,6 +147,7 @@ ol.sources li { margin: 4px 0; }
 .src-thumb { display: flex; gap: 10px; align-items: flex-start; min-width: 0; }
 .thumb { width: 64px; height: 64px; object-fit: contain; flex: none; border-radius: 4px; }
 .src-note { margin: 2px 0 0; }
+.kind { margin-left: 6px; font-size: 11.5px; font-weight: 600; color: var(--muted); text-transform: uppercase; letter-spacing: .04em; white-space: nowrap; }
 .evidence { display: flex; gap: 8px; margin-top: 3px; font-size: 13px; }
 .evidence > span { color: var(--muted); flex: none; }
 ul.plain { list-style: none; margin: 0; padding: 0; min-width: 0; }
