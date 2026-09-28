@@ -2884,6 +2884,22 @@
       ]
     },
     {
+      "date": "2008",
+      "status": "lost",
+      "note": "Dated by its artwork, the same scene as the 2008 login screen.",
+      "sources": [
+        {
+          "label": "Entropia Universe Promotional Disc",
+          "available": false,
+          "image": "images/discs/entropia-universe-promotional-disc.jpg",
+          "evidence": [
+            {"label": "Lelanders, 2021-05-03", "url": "https://www.youtube.com/watch?v=lCt9T9hACUk"}
+          ],
+          "note": "Shown with a Gold Card and its key-fob reader."
+        }
+      ]
+    },
+    {
       "version": "8.X",
       "name": "Project Entropia Universe.exe",
       "bytes": 1268321126,
