@@ -22,7 +22,8 @@ a { color: var(--link); }
 a:hover { color: var(--fg); }
 :focus-visible { outline: 2px solid var(--link); outline-offset: 2px; }
 code { font-family: var(--mono); font-size: .9em; }
-h1 { margin: 0 0 8px; font-size: 1.6rem; line-height: 1.25; font-weight: 700; }
+h1 { display: flex; align-items: center; gap: 12px; margin: 0 0 8px; font-size: 1.6rem; line-height: 1.25; font-weight: 700; }
+h1 .logo { flex: none; width: 40px; height: 40px; }
 .intro { margin: 0 0 24px; }
 .intro p { margin: 0 0 12px; }
 .intro p:last-child { margin-bottom: 0; }
