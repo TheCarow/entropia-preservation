@@ -4,7 +4,7 @@
     "3.4": {
       "date": "2002-05-20",
       "title": "PE",
-      "engine": "NetImmerse 4.1.0.12",
+      "engine": "NetImmerse",
       "sources": [
         {"tier": 1, "label": "ftp02.project-entropia.com - client Download Terminal (names this version only)", "url": "https://web.archive.org/web/20020605030401/http://ftp02.project-entropia.com/", "from_sheet": true, "names_only": true}
       ]
@@ -31,14 +31,14 @@
     },
     "3.6": {
       "title": "PE",
-      "engine": "NetImmerse 4.1.0.12",
+      "engine": "NetImmerse",
       "sources": [
         {"tier": 1, "label": "project-entropia.com - Updates news (names this version only)", "url": "https://web.archive.org/web/20021026123019/http://www.project-entropia.com/news/main.asp?newsSubjectGo=update", "from_sheet": true, "names_only": true}
       ]
     },
     "3.7": {
       "title": "PE",
-      "engine": "NetImmerse 4.1.0.12",
+      "engine": "NetImmerse",
       "sources": [
         {"tier": 1, "label": "project-entropia.com - Updates news (names this version only)", "url": "https://web.archive.org/web/20021026123019/http://www.project-entropia.com/news/main.asp?newsSubjectGo=update", "from_sheet": true, "names_only": true}
       ]
@@ -47,7 +47,7 @@
     "3.9": {
       "date": "2002-10-25",
       "title": "PE",
-      "engine": "NetImmerse 4.1.0.12",
+      "engine": "NetImmerse",
       "note": "Listed as 3.X in earlier versions of this compilation. MindArk's own description calls the late-October 2002 stability patch version 3.9.",
       "transcribed_from": [
         {"label": "EntropiaPlanets - We released a patch in late October, version 3.9.", "url": "https://web.archive.org/web/20240530061110/http://www.entropiaplanets.com/wiki/3.9"}
@@ -60,7 +60,7 @@
     "4.0": {
       "date": "2002-11-29",
       "title": "PE",
-      "engine": "NetImmerse 4.1.0.12",
+      "engine": "NetImmerse",
       "changes": ["Skills and construction systems"],
       "sources": [
         {"tier": 1, "label": "project-entropia.com - Teaser from the new patch!", "url": "https://web.archive.org/web/20021206160732/http://www.project-entropia.com:80/news/main.asp?newsSubjectGo=update", "date": "2002-11-25"},
@@ -72,7 +72,7 @@
     "4.1": {
       "date": "2002-12-20",
       "title": "PE",
-      "engine": "NetImmerse 4.1.0.12",
+      "engine": "NetImmerse",
       "changes": ["Tripling of the geographical size of Calypso"],
       "sources": [
         {"tier": 1, "label": "project-entropia.com - Project Entropia Version 4.1 Update Information - 2003-01-09", "url": "https://web.archive.org/web/20030214131729/http://www.project-entropia.com:80/news/main.asp?newsSubjectGo=update", "date": "2003-01-09"},
@@ -83,7 +83,7 @@
     "4.2": {
       "date": "2003-01-30",
       "title": "PE",
-      "engine": "NetImmerse 4.1.0.12",
+      "engine": "NetImmerse",
       "changes": ["Gold release", "PVP"],
       "sources": [
         {"tier": 4, "label": "RPGDot - Project Entropia Version Update Golden", "url": "https://web.archive.org/web/20031118012830/http://www.rpgdot.com:80/index.php?hsaction=10077&newsid=14672", "date": "2003-02-13"},
@@ -99,7 +99,7 @@
     "4.3": {
       "date": "2003-03-04",
       "title": "PE",
-      "engine": "NetImmerse 4.1.0.12",
+      "engine": "NetImmerse",
       "sources": [
         {"tier": 1, "label": "project-entropia.com - Project Entropia VU 4.3 Live!", "url": "https://web.archive.org/web/20030405031013/http://www.project-entropia.com:80/news/main.asp?newsSubjectGo=update", "date": "2003-03-12"},
         {"tier": 4, "label": "EntropiaPlanets - The latest Version Update has been implemented into Project Entropia.", "url": "https://web.archive.org/web/20250516070406/http://entropiaplanets.com/threads/project-entropia-vu-4-3-live.23100/", "date": "2003-03-12"},
@@ -113,7 +113,7 @@
     "4.4": {
       "date": "2003-04-04",
       "title": "PE",
-      "engine": "NetImmerse 4.1.0.12",
+      "engine": "NetImmerse",
       "changes": ["Auction"],
       "sources": [
         {"tier": 1, "label": "project-entropia.com - Project Entropia Version Update 4.4 - 2003-04-03", "url": "https://web.archive.org/web/20030407071347/http://www.project-entropia.com:80/client/main.asp?lang=2", "date": "2003-04-03"},
@@ -125,7 +125,7 @@
     "4.5": {
       "date": "2003-05",
       "title": "PE",
-      "engine": "NetImmerse 4.1.0.12",
+      "engine": "NetImmerse",
       "sources": [
         {"tier": 4, "label": "perc.info - VU 4.5 listing (fan site, 2004)", "url": "https://web.archive.org/web/20041026163540/http://www.perc.info:80/index.asp?page=67"},
         {"tier": 5, "label": "Entropia Universe forum - VU 4.5 Listing (GeeKman, 2005 repost)", "url": "https://forum.entropiauniverse.com/t/vu-4-5-listing/141", "date": "2005-01-29"},
@@ -147,6 +147,7 @@
       "date": "2003-06-13",
       "title": "PE",
       "engine": "NetImmerse",
+      "client_status": "partial",
       "sources": [
         {"tier": 1, "label": "project-entropia.com - news page", "url": "https://web.archive.org/web/20031011191311/http://www.project-entropia.com/news/main.jsp", "from_sheet": true},
         {"tier": 4, "label": "computergames.ro - client v5.1 download page, notes in its description", "url": "https://web.archive.org/web/20040119064353/http://www.computergames.ro:80/download.php/optiune-show_download/did-1634/index.html", "date": "2003-06-25"},
@@ -1267,7 +1268,7 @@
     "9.1": {
       "date": "2007-12-11",
       "title": "EU",
-      "engine": "Gamebryo 10.1.0.0",
+      "engine": "Gamebryo",
       "changes": ["Limited Armor Sets", "New music"],
       "sources": [
         {"tier": 1, "label": "entropiauniverse.com - VU 9.1 content list", "url": "https://web.archive.org/web/20071213220932/http://www.entropiauniverse.com:80/en/rich/107067.html", "date": "2007-12-13"},
@@ -1342,7 +1343,7 @@
     "9.2": {
       "date": "2008-01-29",
       "title": "EU",
-      "engine": "Gamebryo 10.1.0.0",
+      "engine": "Gamebryo",
       "changes": ["Ongoing CryENGINE2 integration work"],
       "sources": [
         {"tier": 1, "label": "entropiauniverse.com - VU 9.2 content list", "url": "https://web.archive.org/web/20080201090733/http://www.entropiauniverse.com:80/en/rich/107185.html", "date": "2008-02-01"},
@@ -1405,7 +1406,7 @@
     "9.3": {
       "date": "2008-05-20",
       "title": "EU",
-      "engine": "Gamebryo 10.1.0.0",
+      "engine": "Gamebryo",
       "changes": ["New music"],
       "sources": [
         {"tier": 1, "label": "entropiauniverse.com - VU 9.3 content list", "url": "https://web.archive.org/web/20080526210921/http://www.entropiauniverse.com:80/en/rich/107398.html", "date": "2008-05-26"},
@@ -1435,7 +1436,7 @@
     "9.3.4": {
       "date": "2008-08-26",
       "title": "EU",
-      "engine": "Gamebryo 10.1.0.0",
+      "engine": "Gamebryo",
       "sources": [
         {"tier": 1, "label": "entropiauniverse.com - Additional Version Update Information", "url": "https://web.archive.org/web/20080922223946/http://account.entropiauniverse.com:80/pe/en/rich/6717.html", "date": "2008-08-29"},
         {"tier": 1, "label": "entropiauniverse.com - VU 9.3.4 content list", "url": "https://web.archive.org/web/20080830023620/http://www.entropiauniverse.com:80/en/rich/107469.html", "date": "2008-08-30"},
@@ -2171,9 +2172,18 @@
       "date": "2003-03",
       "data_ini": "4.2",
       "status": "preserved",
+      "note": "Offered by MindArk as pe42en.exe.",
       "sources": [
         {"label": "Mega Score nº 90 (Portugal), CD 2", "available": true, "image": "images/discs/mega-score-no-90-portugal-cd-2.jpg"},
-        {"label": "Archive.org: Revista Mega Score", "url": "https://archive.org/details/revista_mega_score_pt", "available": true, "preservation_needed": "1 Backup"}
+        {"label": "Archive.org: Revista Mega Score", "url": "https://archive.org/details/revista_mega_score_pt", "available": true, "preservation_needed": "1 Backup"},
+        {
+          "label": "ftp://ftp1.md.air2.net/Clients/pe42en.exe",
+          "available": false,
+          "evidence": [
+            {"label": "Archive.org: ftp1.md.air2.net", "url": "https://web.archive.org/web/20030211154941/http://ftp1.md.air2.net/main.html"},
+            {"label": "Archive.org: FileMirrors", "url": "https://web.archive.org/web/20030202052459/http://www.filemirrors.com/search.src?file=pe42en.exe&size=516066090"}
+          ]
+        }
       ]
     },
     {
@@ -2183,24 +2193,41 @@
       "date": "2003-10",
       "data_ini": "4.3",
       "status": "preserved",
+      "note": "Offered by MindArk and AusGamers as pe43.exe.",
       "sources": [
         {"label": "CHIP Magazin (Hungary), DVD edition", "available": true, "image": "images/discs/chip-magazin-hungary-dvd-edition.jpg"},
-        {"label": "Archive.org: Chip Magazin (1989-2023) - Mellékletek", "url": "https://archive.org/details/chip_magazin_1989_2023_mellekletek", "available": true, "preservation_needed": "1 Backup"}
+        {"label": "Archive.org: Chip Magazin (1989-2023) - Mellékletek", "url": "https://archive.org/details/chip_magazin_1989_2023_mellekletek", "available": true, "preservation_needed": "1 Backup"},
+        {
+          "label": "ftp://ftp1.md.air2.net/Clients/pe43.exe",
+          "available": false,
+          "evidence": [
+            {"label": "Archive.org: project-entropia.com", "url": "https://web.archive.org/web/20030405005602/http://www.project-entropia.com/download/main.asp"}
+          ]
+        },
+        {
+          "label": "AusGamers",
+          "available": false,
+          "evidence": [
+            {"label": "Archive.org: AusGamers file 5771", "url": "https://web.archive.org/web/20030429045119/http://www.ausgamers.com/files/details/html/5771"}
+          ]
+        }
       ]
     },
     {
-      "version": "4.3",
-      "version_estimated": true,
+      "version": "5.1",
       "name": "PE_PCG.exe",
       "bytes": 157629853,
       "date": "2003-07-17",
       "status": "preserved",
-      "note": "Not a full game install.",
+      "note": "Not a full game install: the program, terrain and music only.",
       "sources": [
         {"label": "PC Gamer CD Disk 7.33 November 2003", "available": true, "image": "images/discs/pc-gamer-cd-disk-7-33-november-2003.jpg"},
         {"label": "Archive.org: PC Gamer CD-ROMs - 2003", "url": "https://archive.org/details/PC_Gamer_CD-ROMs_2003", "available": true},
+        {"label": "Archive.org: PCGAMER Disc 7.33 NOVEMBER 2003", "url": "https://archive.org/details/pcgamer-disc-7.33", "available": true},
         {"label": "Maximum PC magazine September 2003 - Maximum CD", "available": true, "image": "images/discs/maximum-pc-magazine-september-2003-maximum-cd.jpg"},
         {"label": "Archive.org: Maximum CD September 2003 CD", "url": "https://archive.org/details/maximum-cd-september-2003-cd", "available": true},
+        {"label": "Archive.org: Maximum CD - September 2003 (USA)", "url": "https://archive.org/details/Nova_MaximumPC_September2003_USA", "available": true},
+        {"label": "Archive.org: Maximum PC Magazine Coverdisc MaximumCD October 2003", "url": "https://archive.org/details/Maximum_PC_Magazine_Coverdisc_MaximumCD_October_2003_2003-10", "available": true},
         {"label": "Archive.org: Project Entropia (2003)", "url": "https://archive.org/details/ProjectEntropia", "available": true}
       ]
     },
@@ -2225,9 +2252,9 @@
     {
       "version": "4.4",
       "name": "pe44.exe",
-      "size_mb": "~523",
       "date": "2003-06",
       "status": "lost",
+      "note": "Named only in hidden markup on MindArk's download page.",
       "sources": [
         {
           "label": "ftp://ftp1.md.air2.net/Clients/pe44.exe",
@@ -2248,7 +2275,7 @@
         {
           "available": false,
           "evidence": [
-            {"label": "Archive.org: omputergames.ro", "url": "https://web.archive.org/web/20031104012043/http://www.computergames.ro/download.php?optiune=show_download&did=1634"}
+            {"label": "Archive.org: computergames.ro", "url": "https://web.archive.org/web/20031104012043/http://www.computergames.ro/download.php?optiune=show_download&did=1634"}
           ]
         }
       ]
@@ -2259,7 +2286,7 @@
       "name": "PE_MiniUpdate.exe",
       "date": "2003-10",
       "status": "lost",
-      "note": "Install Fix for PC Gamer & DLL errors.",
+      "note": "Install Fix for PC Gamer & DLL errors, for version 5.1 or version 5.1 PC Gamer.",
       "sources": [
         {
           "label": "ftp://217.212.241.43/Updates/PE_MiniUpdate.exe",
@@ -2309,27 +2336,65 @@
       ]
     },
     {
+      "version": "5.2.1",
+      "version_estimated": true,
+      "date": "2003",
+      "status": "lost",
+      "sources": [
+        {
+          "label": "Project Entropia CD from DreamHack 2003",
+          "available": false,
+          "evidence": [
+            {"label": "RobZon, 2007-08-08", "url": "https://forum.entropiauniverse.com/t/project-entropia-cd-vu-5-2-1/72173/1"}
+          ]
+        }
+      ]
+    },
+    {
       "version": "5.4",
       "name": "PE_5.4.0.exe",
       "bytes": 522691811,
       "date": "2004-01",
-      "data_ini": "5.4",
+      "data_ini": "5.4.0",
       "status": "preserved",
       "sources": [
         {"label": "Czech Level 109 DVD", "available": true, "image": "images/discs/czech-level-109-dvd.jpg"},
-        {"label": "Archive.org: (Czech) Level 109 (2004-01) DVD (Turok 2)", "url": "https://archive.org/details/czlevel109dvd", "available": true, "preservation_needed": "1 Backup"}
+        {"label": "Archive.org: (Czech) Level 109 (2004-01) DVD (Turok 2)", "url": "https://archive.org/details/czlevel109dvd", "available": true, "preservation_needed": "1 Backup"},
+        {
+          "label": "http://ftp.iinet.net.au/pub/games/mmog/Project_Entropia/PE_5.4.0.exe",
+          "available": false,
+          "evidence": [
+            {"label": "Archive.org: ftp.iinet.net.au", "url": "https://web.archive.org/web/20050518072711/http://ftp.iinet.net.au/pub/games/mmog/Project_Entropia/"}
+          ]
+        }
       ]
     },
     {
       "version": "5.4",
       "name": "PE_Install.exe",
       "bytes": 522691812,
-      "date": "2004-03",
-      "data_ini": "5.4",
+      "date": "2004-01-13",
+      "data_ini": "5.4.0",
       "status": "preserved",
+      "note": "Installs the same files as PE_5.4.0.exe.",
       "sources": [
-        {"label": "Gamer Chick / Anime Girl and Free Project-Entropia PC Game (barcode 0823931002420)", "available": true, "image": "images/discs/gamer-chick-anime-girl-and-free-project-entropia-pc-game-barcode-0823931002420.jpg", "note": "E3 handout."},
+        {"label": "Gamer Chick / Anime Girl and Free Project-Entropia PC Game (barcode 0823931002420)", "available": true, "image": "images/discs/gamer-chick-anime-girl-and-free-project-entropia-pc-game-barcode-0823931002420.jpg", "note": "E3 handout. The disc was mastered on 2004-02-08."},
         {"label": "Archive.org: Gamer Chick / Anime Girl and Free Project-Entropia PC Game", "url": "https://archive.org/details/project_entropia_and_music_promo_cd", "available": true, "preservation_needed": "1 Backup"}
+      ]
+    },
+    {
+      "version": "5.5",
+      "name": "PE_5.5.0.exe",
+      "date": "2004-04",
+      "status": "lost",
+      "sources": [
+        {
+          "label": "ftp://217.212.241.43/Updates/PE_5.5.0.exe",
+          "available": false,
+          "evidence": [
+            {"label": "Archive.org: alchemicdream.com", "url": "https://web.archive.org/web/20040406195525/http://www.alchemicdream.com/entropia/index2.php"}
+          ]
+        }
       ]
     },
     {
@@ -2357,21 +2422,50 @@
       "sources": [
         {"label": "Archive.org: ftp.ii.net/games/mmog/Project_Entropia", "url": "https://web.archive.org/web/20050722002742id_/http://ftp.ii.net/games/mmog/Project_Entropia/PE_5.7.1.exe", "available": true, "note": "Partial raw bytes (104,857,600 bytes). Missing textures, terrain, string tables, volumes, and most sounds/music."},
         {"label": "Unknown Google Drive: PE_5.7.1.exe-wayback-iinet-prefix.zip", "url": "https://drive.google.com/file/d/1nK-uRTvd4PTVWsd_gyajzPZaK9c__3E_/view?usp=sharing", "available": true, "note": "Partial raw bytes + extracted files.", "preservation_needed": "Move from GDrive"},
-        {"label": "ftp://217.212.241.43/Updates/PE_5.7.1.exe", "available": false},
-        {"label": "g4mers-zone.sapo.pt/download.aspx?file=611", "available": false}
+        {
+          "label": "ftp://217.212.241.43/Updates/PE_5.7.1.exe",
+          "available": false,
+          "evidence": [
+            {"label": "fuska.se, 2004-06-28", "url": "https://fuska.se/forum/topic/19531-project-entropia/"}
+          ]
+        },
+        {
+          "label": "g4mers-zone.sapo.pt/download.aspx?file=611",
+          "available": false,
+          "evidence": [
+            {"label": "Archive.org: g4mers-zone.sapo.pt", "url": "https://web.archive.org/web/20040806211957/http://g4mers-zone.sapo.pt/download.aspx?file=611"}
+          ]
+        }
       ]
     },
     {
       "version": "6.1",
       "date": "2004",
       "status": "lost",
+      "note": "A promotional pressing. Its inner ring reads Version 6.1.0.",
       "sources": [
         {
           "label": "Project Entropia CD",
           "available": false,
           "image": "images/discs/project-entropia-cd.jpg",
           "evidence": [
-            {"label": "Entropia Museum", "url": "https://www.entropiamuseum.com/gallery/?year=2004&month="}
+            {"label": "Entropia Museum", "url": "https://www.entropiamuseum.com/gallery/view/224/"}
+          ]
+        }
+      ]
+    },
+    {
+      "version": "6.2",
+      "name": "PE_6.2.0.exe",
+      "date": "2005-10",
+      "status": "lost",
+      "note": "A player burned a copy to disc in October 2005.",
+      "sources": [
+        {
+          "label": "MindArk FTP",
+          "available": false,
+          "evidence": [
+            {"label": "Hybrid, 2005-10-06", "url": "https://forum.entropiauniverse.com/t/starting-pe/6024/10"}
           ]
         }
       ]
@@ -2379,13 +2473,14 @@
     {
       "version": "6.4.5",
       "size_mb": "~630",
+      "date": "2005-05",
       "status": "lost",
       "sources": [
         {
           "label": "MindArk FTP",
           "available": false,
           "evidence": [
-            {"label": "forum t/1965 #9", "url": "https://forum.entropiauniverse.com/t/download-sizes-for-noobs/1965/9"}
+            {"label": "FireW0lf, 2005-05-11", "url": "https://forum.entropiauniverse.com/t/download-sizes-for-noobs/1965/9"}
           ]
         }
       ]
@@ -2401,7 +2496,8 @@
           "label": "ftp://ftp.project-entropia.com/Clients/",
           "available": false,
           "evidence": [
-            {"label": "forum t/4928", "url": "https://forum.entropiauniverse.com/t/game-download/4928/7"}
+            {"label": "SharpAce, 2005-08-31", "url": "https://forum.entropiauniverse.com/t/game-download/4928/7"},
+            {"label": "tejon, 2005-10-30", "url": "https://forum.entropiauniverse.com/t/connection-difficulties/7269/2"}
           ]
         }
       ]
@@ -2435,7 +2531,7 @@
           "label": "ftp://anonymous@ftp.project-entropia.com/Updates/PE_Installer.exe",
           "available": false,
           "evidence": [
-            {"label": "forum.pcgames.de", "url": "http://forum.pcgames.de/"}
+            {"label": "forum.pcgames.de, November 2005", "url": "https://forum.pcgames.de/threads/wer-kennt-projekt-entropia.4188111/"}
           ]
         }
       ]
@@ -2444,13 +2540,14 @@
       "version": "7.7",
       "name": "PE_7.7.0.exe",
       "size_mb": "~807",
-      "date": "2006-02",
+      "date": "2005-12",
       "status": "lost",
       "sources": [
         {
           "label": "ftp://ftp.project-entropia.com/Clients/PE_7.7.0.exe",
           "available": false,
           "evidence": [
+            {"label": "e-lite, 2005-12-15", "url": "https://forum.entropiauniverse.com/t/corrupt-patch-file-invalid-checksum/10519/5"},
             {"label": "toro, 2006-02-08", "url": "https://forum.entropiauniverse.com/t/reinstalling-pe/14947/5"}
           ]
         }
@@ -2464,10 +2561,10 @@
       "status": "lost",
       "sources": [
         {
-          "label": "ftp://ftp.project-entropia.com/Clients/",
+          "label": "MindArk FTP",
           "available": false,
           "evidence": [
-            {"label": "punkee, t/21622", "url": "https://forum.entropiauniverse.com/t/downloading-entropia/21622/1"}
+            {"label": "punkee, 2006-04-23", "url": "https://forum.entropiauniverse.com/t/downloading-entropia/21622/1"}
           ]
         }
       ]
@@ -2475,7 +2572,8 @@
     {
       "version": "8.3",
       "name": "Entropia_8.3.0.exe",
-      "size_mb": "~1100",
+      "size_mb": "~1137",
+      "date": "2006-08",
       "status": "lost",
       "sources": [
         {
@@ -2484,6 +2582,13 @@
           "evidence": [
             {"label": "frewer, 2006-09-08", "url": "https://forum.entropiauniverse.com/t/problem-with-connect-server/35061/1"}
           ]
+        },
+        {
+          "label": "http://ftp.bih.net.ba/pub/ga/full/Entropia_8.3.0.exe",
+          "available": false,
+          "evidence": [
+            {"label": "Archive.org: ftp.bih.net.ba", "url": "https://web.archive.org/web/20090210043606/http://ftp.bih.net.ba/pub/ga/full/"}
+          ]
         }
       ]
     },
@@ -2491,6 +2596,7 @@
       "version": "8.6.3",
       "name": "Entropia_8.6.3.exe",
       "size_mb": "~1130",
+      "date": "2006-10",
       "status": "lost",
       "sources": [
         {
@@ -2505,6 +2611,7 @@
     {
       "version": "8.8",
       "name": "Entropia_8.8.0.exe",
+      "date": "2007-01",
       "status": "lost",
       "sources": [
         {
@@ -2533,9 +2640,10 @@
     },
     {
       "version": "8.11",
-      "name": "Entropia_8.11.0.exe (inferred)",
+      "name": "Entropia_8.11.0.exe",
       "date": "2007-04",
       "status": "lost",
+      "note": "Its name is inferred.",
       "sources": [
         {
           "available": false,
@@ -2555,7 +2663,7 @@
         {
           "available": false,
           "evidence": [
-            {"label": "Ausgamer", "url": "https://www.ausgamers.com/files/browsegame/html/10/619"}
+            {"label": "AusGamers", "url": "https://www.ausgamers.com/files/browsegame/html/10/619"}
           ]
         }
       ]
@@ -2587,9 +2695,16 @@
       "version": "9.3.2",
       "name": "entropia_9.3.2.exe",
       "bytes": 1450160197,
-      "date": "2008",
+      "date": "2008-07-21",
       "status": "lost",
       "sources": [
+        {
+          "label": "BigPond GameArena",
+          "available": false,
+          "evidence": [
+            {"label": "Archive.org: gamearena.com.au", "url": "https://web.archive.org/web/20080808164016/http://www.gamearena.com.au/downloads/details.php/entropia-universe-installer-v932"}
+          ]
+        },
         {
           "label": "ftp://ftp.entropiauniverse.com/clients/entropia_9.3.2.exe",
           "available": false,
@@ -2628,19 +2743,35 @@
     {
       "version": "10.0",
       "name": "Entropia_Universe_setup_100028255",
-      "size_mb": "~3770",
+      "size_mb": "~3860",
       "status": "lost",
       "sources": [
-        {"label": "https://bt4gprx.com/magnet/fuyOYWbMofFAl7a3fpjfvDYWnZzHQOoLI", "url": "https://bt4gprx.com/magnet/fuyOYWbMofFAl7a3fpjfvDYWnZzHQOoLI", "available": false, "note": "Torrent."}
+        {"label": "BitTorrent, a magnet listing", "available": false}
+      ]
+    },
+    {
+      "version": "10.0",
+      "name": "Entropia_Universe_setup_100028255.7z",
+      "bytes": 3838948979,
+      "date": "2009-08-28",
+      "status": "lost",
+      "sources": [
+        {
+          "label": "AusGamers",
+          "available": false,
+          "evidence": [
+            {"label": "Archive.org: AusGamers file 46796", "url": "https://web.archive.org/web/20090829222717/http://www.ausgamers.com/files/details/html/46796"}
+          ]
+        }
       ]
     },
     {
       "version": "10.0.8",
       "name": "entropia_universe_10.0.8_setup",
-      "size_mb": "~3060",
+      "size_mb": "~3133",
       "status": "lost",
       "sources": [
-        {"label": "https://bt4gprx.com/magnet/J2w78e1JTohaUIdyfjcf1IwfoNZuwwfle", "url": "https://bt4gprx.com/magnet/J2w78e1JTohaUIdyfjcf1IwfoNZuwwfle", "available": false, "note": "Torrent."}
+        {"label": "BitTorrent, a magnet listing", "available": false}
       ]
     },
     {
@@ -2651,13 +2782,51 @@
       "data_ini": "10.3.0.35944",
       "status": "preserved",
       "sources": [
-        {"label": "FilePlanet:  Entropia Universe Installer", "url": "https://www.fileplanet.com/archive/p-6712/Entropia-Universe-Installer", "available": true, "preservation_needed": "Archive.org"},
+        {"label": "FilePlanet: Entropia Universe Installer", "url": "https://www.fileplanet.com/archive/p-6712/Entropia-Universe-Installer", "available": true, "preservation_needed": "Archive.org"},
+        {"label": "Archive.org: Fileplanet Archive: ftp1/022003/", "url": "https://archive.org/details/Fileplanet_ftp1_022003", "available": true, "note": "Inside Fileplanet_ftp1_022003.tar."},
         {"label": "Unknown Google Drive: entropia_universe_10.3.0.35944_setup.exe", "url": "https://drive.google.com/file/d/1tBah29fAgcvUnTpEVInYpifBj2KwjIlh/view?usp=sharing", "available": true, "preservation_needed": "Move from GDrive"},
-        {"label": "black-sky.nl torrent", "url": "http://black-sky.nl/downloads/entropia/entropia_universe_10.3.0.35944_setup.exe.torrent", "available": false}
+        {"label": "BitTorrent, a .torrent on black-sky.nl", "available": false}
+      ]
+    },
+    {
+      "date": "2001",
+      "status": "lost",
+      "sources": [
+        {
+          "label": "Project Entropia beta CD",
+          "available": false,
+          "image": "images/discs/project-entropia-beta-cd.jpg",
+          "evidence": [
+            {"label": "nergal's photo, 2004", "url": "https://web.archive.org/web/20040910013814/http://spectre.rajraj.net/pe/PE_skivan/pe_skiva.JPG"}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Project Entropia.zip",
+      "size_mb": "~309",
+      "date": "2002-11-18",
+      "status": "lost",
+      "sources": [
+        {
+          "label": "http://ftp1.md.air2.net/files/Project%20Entropia.zip",
+          "available": false,
+          "evidence": [
+            {"label": "Archive.org: ftp1.md.air2.net", "url": "https://web.archive.org/web/20021118191041/http://ftp1.md.air2.net/"}
+          ]
+        },
+        {
+          "label": "http://ftp2.md.air2.net/files/Project%20Entropia.zip",
+          "available": false,
+          "evidence": [
+            {"label": "Archive.org: ftp2.md.air2.net", "url": "https://web.archive.org/web/20021118191714/http://ftp2.md.air2.net/"}
+          ]
+        }
       ]
     },
     {
       "version": "7.X",
+      "version_estimated": true,
       "date": "2005-11",
       "status": "lost",
       "sources": [
@@ -2666,25 +2835,42 @@
           "available": false,
           "image": "images/discs/project-entropia-promotional-cd.jpg",
           "evidence": [
-            {"label": "dutch_chap, 2006-04-12", "url": "https://forum.entropiauniverse.com/t/reinstalling-pe/14947/5"}
+            {"label": "dutch_chap, 2006-04-12", "url": "https://forum.entropiauniverse.com/t/poster-looted/20536/10"},
+            {"label": "dutch_chap's photo, 2006-04-12", "url": "https://forum.entropiauniverse.com/t/poster-looted/20536/14"}
           ],
           "note": "Promo CD later repurposed as loot."
         }
       ]
     },
     {
-      "name": "Entropia_Quickguide_image.iso",
-      "bytes": 2062057472,
       "date": "2006",
       "status": "lost",
       "sources": [
         {
-          "label": "Entropia Universe Promotional DVD",
+          "label": "Entropia Universe PC DVD-ROM Special Edition",
           "available": false,
           "image": "images/discs/entropia-universe-promotional-dvd.jpg",
           "evidence": [
             {"label": "Ludvig_MindArk, 2011-08-28", "url": "https://forum.entropiauniverse.com/t/cool-find/177000/1"}
           ]
+        }
+      ]
+    },
+    {
+      "name": "Entropia_Quickguide_image.iso",
+      "bytes": 2062057472,
+      "date": "2007-07-25",
+      "status": "lost",
+      "note": "Matched to the 2007 disc by its name and date, not by its contents.",
+      "sources": [
+        {
+          "label": "Entropia Universe Promotional DVD (gatefold)",
+          "available": false,
+          "image": "images/discs/entropia-universe-promotional-dvd-gatefold.jpg",
+          "evidence": [
+            {"label": "Orion, 2020-03-15", "url": "https://forum.entropiauniverse.com/t/figurines/253152/4"}
+          ],
+          "note": "GC Leipzig (Aug 2007). DVDs were also handed out at GC Leipzig (Aug 2008) and the Gothenburg Convention (Apr 2008)."
         },
         {
           "label": "ftp://ftp.project-entropia.com/campaign/bigworld/_mindark_dvd_client_image/Entropia_Quickguide_image.iso",
@@ -2696,36 +2882,34 @@
       ]
     },
     {
-      "date": "2008",
+      "version": "8.X",
+      "name": "Project Entropia Universe.exe",
+      "bytes": 1268321126,
+      "date": "2007-08-17",
       "status": "lost",
+      "note": "Its size falls between the VU 8.3 and 8.9 installers'. The name is not MindArk's.",
       "sources": [
-        {
-          "label": "Entropia Universe Promotional DVD (gatefold)",
-          "available": false,
-          "image": "images/discs/entropia-universe-promotional-dvd-gatefold.jpg",
-          "evidence": [
-            {"label": "Orion, 2020-03-15", "url": "https://forum.entropiauniverse.com/t/figurines/253152/4"}
-          ],
-          "note": "GC Leipzig (Aug 2007, Aug 2008) and Gothenburg Convention (Apr 2008)."
-        }
+        {"label": "BitTorrent, listed on torrentportal.com in 2007", "available": false, "note": "No seed found yet."}
       ]
     },
     {
-      "version": "9.X",
+      "name": "entropia_installer.exe",
+      "bytes": 3429713,
+      "date": "2008-03-30",
+      "status": "preserved",
+      "note": "A web installer, which downloads the client.",
+      "sources": [
+        {"label": "Archive.org: Fileplanet Archive: ftp1/022003/", "url": "https://archive.org/details/Fileplanet_ftp1_022003", "available": true, "note": "Inside Fileplanet_ftp1_022003.tar."}
+      ]
+    },
+    {
       "name": "Entropia Universe.exe",
       "bytes": 1288493548,
-      "date": "2008-07",
+      "date": "2008-07-26",
       "status": "lost",
+      "note": "Made in July 2008, but smaller than the VU 8.9 installer, so it may be an older build.",
       "sources": [
-        {"label": "BitTorrent DHT torrent infohash 8e38c500f4a61b25fbd8c2bb946464aca4f6fc6d", "available": false}
-      ]
-    },
-    {
-      "name": "Project_Entropia.zip",
-      "size_mb": "~309",
-      "status": "lost",
-      "sources": [
-        {"label": "http://ftp2.md.air2.net/files/Project%20Entropia.zip", "available": false}
+        {"label": "BitTorrent, listed on torrent sites from 2008 to 2010", "available": false, "note": "No seed found yet."}
       ]
     }
   ]

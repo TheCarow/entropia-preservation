@@ -1,4 +1,4 @@
-/* Entropia Preservation Project: this page, drawn in the browser from versions.json and notes.md.
+/* Entropia Archive: this page, drawn in the browser from versions.json and notes.md.
 
    Nothing is built beforehand. Edit versions.json or notes.md, reload, and the page shows the change. The data
    holds only what research establishes, and the rest is worked out here: a version's client status from its
@@ -814,8 +814,13 @@
         family = oneFamily(entries.filter((e) => e.v.split(".")[0] === series[1]));
         engineWhy = `Not recorded for this file; taken from the ${series[1]}.x versions`;
       } else if (f.date) {
-        family = oneFamily(entries.filter((e) => e.date.startsWith(f.date)));
-        engineWhy = `Not recorded for this file; taken from the versions released in ${f.date}`;
+        for (const span of new Set([f.date, f.date.slice(0, 7), f.date.slice(0, 4)])) {
+          family = oneFamily(entries.filter((e) => e.date.startsWith(span)));
+          if (family) {
+            engineWhy = `Not recorded for this file; taken from the versions released in ${span}`;
+            break;
+          }
+        }
       }
       return {k, f, name, family, engineWhy: family ? engineWhy : "", isFile: !!f.name, vu: f.label || f.version,
         date: f.date,
@@ -978,7 +983,7 @@
     return `<section aria-label="Surviving clients at a glance">
 <div aria-hidden="true"><div class="strip-labels">${labels}</div><div class="strip">${cells}</div></div>
 <ul class="legend"><li><span class="swatch preserved"></span>Preserved</li><li><span class="swatch partial"></span>Partial</li>`
-      + `<li><span class="swatch lost"></span>Lost: no copy found</li></ul>
+      + `<li><span class="swatch lost"></span>Lost</li></ul>
 </section>`;
   }
 

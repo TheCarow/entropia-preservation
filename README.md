@@ -1,4 +1,4 @@
-# Entropia Preservation Project
+# Entropia Archive
 
 ## Files
 
@@ -19,13 +19,13 @@ Renaming a version changes its link, and its `## VU` heading in `notes.md` has t
 |---|---|
 | `date` | The release date as `YYYY-MM-DD`, or `YYYY-MM` or `YYYY` when that's all that is known. A shorter date is shown as approximate. Without a date, the page shows the date of the version's earliest file, marked as such. |
 | `title` | `"PE"` or `"EU"`, which decides the section the version appears in: Project Entropia or Entropia Universe. Without one, the version takes the title of the nearest version that has one. |
-| `engine` | For example `"NetImmerse 4.1.0.12"`. It must start with NetImmerse, Gamebryo or CryENGINE2. The Engine column shows that name, with the exact version as hover text. Without one, the version takes the engine of the nearest version that has one, and the hover text says so. |
+| `engine` | `"NetImmerse"`, `"Gamebryo"` or `"CryENGINE2"`, shown in the Engine column. The data gives only the name for now. A version may follow it, as in `"NetImmerse 4.1.0.12"`, and would show as hover text. Without an engine, the version takes the engine of the nearest version that has one, and the hover text says so. |
 | `changes` | The important changes, shown in the row: `["Auction", "Mindforce"]`. |
 | `sources` | Where the release notes survive. See [Source ranking](#source-ranking). |
 | `note` | Shown above the notes. |
 | `note_until_transcribed` | Shown only while `notes.md` has no text for the version. Use it for anything that stops being true once the notes are in, such as "the notes are in the first source below". |
 | `transcribed_from` | The sources the text in `notes.md` was transcribed from, shown under the notes as "Transcribed from …". |
-| `client_status` | `"preserved"`, `"partial"` or `"lost"`. Set it only to override what the files say. 7.7 uses it, because its one preserved file is an installer with no data files. |
+| `client_status` | `"preserved"`, `"partial"` or `"lost"`. Set it only to override what the files say. 7.7 and 5.1 use it, because each one's only preserved file is an installer without the full game data. |
 | `sort_after` | Only for a version whose name isn't a number: the version it comes after. `"COT Patch 2"` comes after `"3.4"`. |
 
 A version's client status comes from its files: preserved if any of its files is preserved, partial if
