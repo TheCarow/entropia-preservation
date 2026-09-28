@@ -1,4 +1,4 @@
-# The Project Entropia Preservation Project
+# Entropia Preservation Project
 
 ## Files
 
@@ -18,8 +18,8 @@ Renaming a version changes its link, and its `## VU` heading in `notes.md` has t
 | Field | What it holds |
 |---|---|
 | `date` | The release date as `YYYY-MM-DD`, or `YYYY-MM` or `YYYY` when that's all that is known. A shorter date is shown as approximate. Without a date, the page shows the date of the version's earliest file, marked as such. |
-| `title` | `"PE"` or `"EU"`. Without one, the version takes the title of the nearest version that has one. |
-| `engine` | For example `"NetImmerse 4.1.0.12"`. It must start with NetImmerse, Gamebryo or CryENGINE2, which decides the section of the page the version appears in. Without one, the version takes the engine of the nearest version that has one. |
+| `title` | `"PE"` or `"EU"`, which decides the section the version appears in: Project Entropia or Entropia Universe. Without one, the version takes the title of the nearest version that has one. |
+| `engine` | For example `"NetImmerse 4.1.0.12"`. It must start with NetImmerse, Gamebryo or CryENGINE2. The Engine column shows that name, with the exact version as hover text. Without one, the version takes the engine of the nearest version that has one, and the hover text says so. |
 | `changes` | The important changes, shown in the row: `["Auction", "Mindforce"]`. |
 | `sources` | Where the release notes survive. See [Source ranking](#source-ranking). |
 | `note` | Shown above the notes. |
@@ -38,7 +38,7 @@ A version gets a Changes button if it has any of the release-note fields (`sourc
 
 | Field | What it holds |
 |---|---|
-| `version` | The version the file belongs to. If this names a version, the file is listed under that version. A partial name such as `"7.X"`, or no `version` at all, lists the file under Other client files instead. A plain number that isn't a version is reported as a mistake, since it is probably a typo. |
+| `version` | The version the file belongs to. If this names a version, the file is listed under that version. A partial name such as `"7.X"`, or no `version` at all, gives the file a row of its own in the list: after the versions of that series (`"7.X"` after the last 7.x version), by its `date` when it has no version, or at the very end when it has neither. A plain number that isn't a version is reported as a mistake, since it is probably a typo. |
 | `version_estimated` | `true` when `version` is a best guess. The file is then shown as "4.3 (est)". |
 | `label` | How to describe the file's version where the number alone would mislead, such as `"Patch 3.6 to 3.8"`. |
 | `name` | The file name. |
@@ -58,7 +58,7 @@ Each source of a file has these fields:
 
 | Field | What it holds |
 |---|---|
-| `label` | What the source is: a disc, a site, or an FTP address. |
+| `label` | What the source is: a disc, a site, or an FTP address. A copy on Google Drive is labelled `"Unknown Google Drive: <file name>"`. |
 | `url` | The source's link. |
 | `available` | `true` if the file can still be had there, shown as "Found on". `false` if it once could, shown as "Once on". |
 | `image` | A picture of the disc, such as `"images/discs/czech-level-109-dvd.jpg"`. |
@@ -90,9 +90,9 @@ Every version has the id `vu-<version>`, so a link scrolls to that version and o
 - `#vu-cot-patch-2` for the unnumbered 2002 patches
 
 `#vu-5.7`, `#5.7`, and `#vu-4` (for `#vu-4.0`) all work. A link to a version that has no release notes
-opens its files instead, and a link to a version the filters hide clears the filters first. The `#` at
-the end of each row is that row's link. Files under Other client files have links too, such as
-`#file-entropia-universe-exe`.
+opens its files instead, and a link to a version the filters hide clears the filters first. Adding
+`-files` or `-notes` opens that panel instead: `#vu-5.4-files`. The `#` at the end of each row is that
+row's link. Files on rows of their own have links too, such as `#file-entropia-universe-exe`.
 
 ## Source ranking
 

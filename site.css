@@ -23,9 +23,21 @@ a:hover { color: var(--fg); }
 :focus-visible { outline: 2px solid var(--link); outline-offset: 2px; }
 code { font-family: var(--mono); font-size: .9em; }
 h1 { margin: 0 0 8px; font-size: 1.6rem; line-height: 1.25; font-weight: 700; }
-.lede { margin: 0 0 24px; }
+.intro { margin: 0 0 24px; }
+.intro p { margin: 0 0 12px; }
+.intro p:last-child { margin-bottom: 0; }
 .muted { color: var(--muted); }
+.footer { margin: 48px 0 0; padding-top: 12px; border-top: 1px solid var(--line); font-size: 14px; text-align: center; }
+.footer p { margin: 0 auto 4px; max-width: 640px; text-wrap: balance; }
+.footer p:last-child { margin-bottom: 0; }
 .empty { margin: 0; color: var(--muted); font-style: italic; }
+
+/* What's new: dated entries, newest first */
+.news { margin: 0 0 24px; font-size: 14px; }
+.news h2 { margin: 0 0 6px; font-size: 12px; font-weight: 600; color: var(--muted); text-transform: uppercase; letter-spacing: .06em; }
+.news ul { list-style: none; margin: 0; padding: 0; }
+.news li { display: grid; grid-template-columns: 92px minmax(0, 1fr); column-gap: 12px; margin: 3px 0; }
+.news time { font-variant-numeric: tabular-nums; }
 
 /* What the page could not use from its data, and why */
 .problems { margin: 0 0 20px; padding: 8px 14px; background: var(--panel); border-left: 3px solid var(--t3); font-size: 14px; }
@@ -35,9 +47,8 @@ h1 { margin: 0 0 8px; font-size: 1.6rem; line-height: 1.25; font-weight: 700; }
 .fatal { margin: 0; padding: 10px 14px; background: var(--panel); border-left: 3px solid var(--t3); }
 
 /* The survivors at a glance: one notch per x.y update, its patches rolled in */
-.strip-eras { display: flex; gap: 6px; margin-bottom: 6px; font-size: 12px; font-weight: 600; color: var(--muted); text-transform: uppercase; letter-spacing: .06em; }
-.strip-eras span { min-width: 0; white-space: nowrap; }
-.strip-eras span:last-child { display: flex; justify-content: flex-end; }
+.strip-labels { display: flex; gap: 6px; margin-bottom: 6px; font-size: 12px; font-weight: 600; color: var(--muted); text-transform: uppercase; letter-spacing: .06em; }
+.strip-labels span { min-width: 0; white-space: nowrap; }
 .strip { display: flex; gap: 6px; align-items: flex-end; height: 30px; margin-bottom: 28px; }
 .strip-group { min-width: 0; display: flex; gap: 2px; align-items: flex-end; }
 .cell { display: block; flex: 1 1 0px; height: 30px; position: relative; }
@@ -59,17 +70,15 @@ h1 { margin: 0 0 8px; font-size: 1.6rem; line-height: 1.25; font-weight: 700; }
 .fclear { font: inherit; font-size: 14px; padding: 0 2px; border: 0; background: none; color: var(--link); text-decoration: underline; cursor: pointer; }
 .nomatch { margin: 28px 0 0; color: var(--muted); font-style: italic; }
 
-/* An engine's section, and the list of its versions */
-.era { margin-top: 30px; }
-.era-head { display: flex; align-items: baseline; justify-content: space-between; gap: 4px 16px; flex-wrap: wrap; }
-.era-head h2 { font-size: 1.1rem; margin: 0; }
-.era-head h2 span { font-weight: 400; color: var(--muted); }
-.era-sub { margin: 2px 0 0; font-size: 14px; color: var(--muted); }
-.labels, .row { display: grid; grid-template-columns: 76px 92px 26px 88px minmax(0, 1fr) 14px; column-gap: 12px; align-items: baseline; }
+/* A title's section, and the list of its versions and files */
+.section { margin-top: 30px; }
+.section-head { display: flex; align-items: baseline; justify-content: space-between; gap: 4px 16px; flex-wrap: wrap; }
+.section-head h2 { font-size: 1.1rem; margin: 0; }
+.section-head h2 span { font-weight: 400; color: var(--muted); }
+.section-sub { margin: 2px 0 0; font-size: 14px; color: var(--muted); }
+.labels, .row { display: grid; grid-template-columns: 76px 92px 84px 80px minmax(0, 1fr) 14px; column-gap: 12px; align-items: baseline; }
 .labels { padding: 8px 6px 4px; font-size: 11.5px; font-weight: 600; color: var(--muted); text-transform: uppercase; letter-spacing: .04em; }
 .list-end { border-top: 1px solid var(--line); }
-.divider { display: flex; align-items: center; gap: 12px; margin: 16px 0; font-size: 12px; font-weight: 600; color: var(--muted); text-transform: uppercase; letter-spacing: .06em; }
-.divider::before, .divider::after { content: ""; flex: 1 1 0px; border-top: 1px solid var(--line); }
 
 .row { font-size: 15px; line-height: 1.45; padding: 5px 6px; border-top: 1px solid var(--line); }
 .row.major { padding: 7px 6px; }
@@ -79,7 +88,7 @@ h1 { margin: 0 0 8px; font-size: 1.6rem; line-height: 1.25; font-weight: 700; }
 .date { font-variant-numeric: tabular-nums; white-space: nowrap; }
 .date.approx { text-decoration: underline dotted; text-underline-offset: 3px; }
 .date.unknown { font-style: italic; color: var(--muted); }
-.title { font-size: 12px; font-weight: 600; letter-spacing: .04em; }
+.engine { font-size: 12px; font-weight: 600; letter-spacing: .04em; }
 .main { min-width: 0; display: flex; align-items: baseline; gap: 4px 10px; }
 .changes { flex: 1 1 auto; min-width: 0; font-size: 14px; }
 .toggles { flex: none; display: grid; grid-template-columns: 74px 80px; gap: 6px; }
@@ -128,7 +137,10 @@ ol.sources li { margin: 4px 0; }
 .flabel { font-size: 13px; white-space: nowrap; }
 .card-meta { display: flex; flex-wrap: wrap; gap: 2px 20px; margin-top: 2px; font-variant-numeric: tabular-nums; }
 .card-note { margin: 4px 0 0; }
-.card-sources { display: grid; grid-template-columns: 84px minmax(0, 1fr); gap: 8px 12px; margin-top: 8px; }
+.card-sources { display: grid; grid-template-columns: 84px minmax(0, 1fr); gap: 0 12px; margin-top: 8px; }
+.card-sources > * { padding: 7px 0; }
+/* a line above every source but the first, across its content: children alternate label, content */
+.card-sources > :nth-child(2n+4) { border-top: 1px solid var(--line); }
 .src-label { color: var(--muted); }
 .src { min-width: 0; }
 .src-thumb { display: flex; gap: 10px; align-items: flex-start; min-width: 0; }

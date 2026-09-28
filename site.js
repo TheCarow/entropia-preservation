@@ -1,4 +1,4 @@
-/* The Project Entropia Preservation Project: this page, drawn in the browser from versions.json and notes.md.
+/* Entropia Preservation Project: this page, drawn in the browser from versions.json and notes.md.
 
    Nothing is built beforehand. Edit versions.json or notes.md, reload, and the page shows the change. The data
    holds only what research establishes, and the rest is worked out here: a version's client status from its
@@ -766,30 +766,6 @@
       seenAnchors.set(e.anchor, e.v);
     }
 
-    // ---- the engine sections
-    const names = FAMILIES.filter((f) => entries.some((e) => e.family === f));
-    if (entries.some((e) => !FAMILIES.includes(e.family))) {
-      names.push("Engine not recorded");
-    }
-    const eras = names.map((name) => {
-      const rows = entries.filter((e) => e.family === name);
-      const years = rows.map((e) => e.year).filter(Boolean);
-      const exact = new Map();
-      for (const e of rows) {
-        if (e.engine && e.engine !== name) {
-          exact.set(e.engine, (exact.get(e.engine) || []).concat(e.v));
-        }
-      }
-      const sub = [...exact].map(([engine, vs]) =>
-        `${engine} in VU ${vs[0]}${vs.length > 1 ? ` to ${vs[vs.length - 1]}` : ""}.`).join(" ");
-      const span = years.length ? (Math.min(...years) === Math.max(...years) ? `${years[0]}`
-        : `${Math.min(...years)}-${Math.max(...years)}`) : "";
-      return {name, id: "era-" + slug(name), rows, sub, span};
-    });
-    for (const e of entries) {
-      e.era = eras.find((era) => era.name === e.family);
-    }
-
     // ---- the timeline: one notch per x.y update, its patches rolled in, in the order the sections show them
     const parentOf = (e) => {
       let v = e.v;
@@ -817,27 +793,32 @@
         notch.members.push(e);
       }
     }
-    const notches = eras.flatMap((era) => era.rows.filter((e) => e.major).map((e) => {
+    const notches = entries.filter((e) => e.major).map((e) => {
       const n = notchOf.get(e.v);
       n.st = n.members.map((x) => x.st).reduce((a, b) => (RANK[b] > RANK[a] ? b : a));
+      n.target = n.members.find((x) => x.st === n.st && x.files.length) || n.e;
       return n;
-    }));
+    });
 
-    // ---- the files no version is named for
-    const firstEU = entries.find((e) => e.title === "EU") || null;
+    // ---- the files no version is named for; each takes the engine its series or its year had, when that was one
+    const oneFamily = (rows) => {
+      const found = [...new Set(rows.map((e) => e.family))];
+      return found.length === 1 && FAMILIES.includes(found[0]) ? found[0] : "";
+    };
     const others = files.filter((f) => !f.key).map((f, k) => {
       const name = f.name || (f.sources.find((s) => s.label) || {}).label || "";
       const series = /^(\d+)\.[Xx]$/.exec(f.version);
-      let title = "";
-      if (firstEU && series) {
-        const major = Number(series[1]);
-        const [euMajor, euMinor] = firstEU.v.split(".").map(Number);
-        title = major < euMajor ? "PE" : major > euMajor || euMinor === 0 ? "EU" : "";
-      } else if (firstEU && firstEU.year && f.date) {
-        const year = Number(f.date.slice(0, 4));
-        title = year < firstEU.year ? "PE" : year > firstEU.year ? "EU" : "";
+      let family = "";
+      let engineWhy = "";
+      if (series) {
+        family = oneFamily(entries.filter((e) => e.v.split(".")[0] === series[1]));
+        engineWhy = `Not recorded for this file; taken from the ${series[1]}.x versions`;
+      } else if (f.date) {
+        family = oneFamily(entries.filter((e) => e.date.startsWith(f.date)));
+        engineWhy = `Not recorded for this file; taken from the versions released in ${f.date}`;
       }
-      return {k, f, name, title, isFile: !!f.name, vu: f.label || f.version, date: f.date,
+      return {k, f, name, family, engineWhy: family ? engineWhy : "", isFile: !!f.name, vu: f.label || f.version,
+        date: f.date,
         approx: f.date !== "" && !FULL_DATE.test(f.date), why: "The date of the client file",
         anchor: "file-" + (slug(name) || String(f.n + 1))};
     });
@@ -851,12 +832,61 @@
       seenFiles.add(anchor);
     }
 
+    // ---- the listing: every version, and each of those files in its place among them: after the versions of its
+    //      series ("7.X" after the last 7.x), by its date when it has no version (after the last version released
+    //      by then), and at the very end when it has neither
+    const placeOf = (o) => {
+      const key = sortKey(o.f.version);
+      if (key) {
+        const at = entries.findIndex((e) => sortKey(e.v) && compareKeys(sortKey(e.v), key) > 0);
+        return at === -1 ? entries.length : at;
+      }
+      if (o.date) {
+        let at = -1;
+        entries.forEach((e, i) => {
+          if (e.date && e.date.slice(0, o.date.length) <= o.date) {
+            at = i;
+          }
+        });
+        return at + 1;
+      }
+      return entries.length;
+    };
+    const placed = others.map((o) => [placeOf(o), o]);
+    const rows = [];
+    entries.forEach((e, i) => {
+      rows.push(...placed.filter(([at]) => at === i).map(([, o]) => o), e);
+    });
+    rows.push(...placed.filter(([at]) => at === entries.length).map(([, o]) => o));
+    rows.forEach((row, i) => {
+      if (row.f) {
+        const before = rows.slice(0, i).reverse().find((x) => !x.f);
+        const after = rows.slice(i + 1).find((x) => !x.f);
+        row.title = (before || after || {}).title || "";
+        row.st = row.f.status;
+        row.year = row.date ? Number(row.date.slice(0, 4)) : null;
+      }
+    });
+
+    // ---- the sections: one per title, in the order the listing reaches them
+    const sections = [...new Set(rows.map((r) => r.title))].map((title) => {
+      const own = rows.filter((r) => r.title === title);
+      const years = own.filter((r) => !r.f).map((r) => r.year).filter(Boolean);
+      const name = TITLE_NAME[title] || "Title not recorded";
+      const span = years.length ? (Math.min(...years) === Math.max(...years) ? `${years[0]}`
+        : `${Math.min(...years)}-${Math.max(...years)}`) : "";
+      return {name, title, id: slug(name), rows: own, span};
+    });
+    for (const r of rows) {
+      r.section = sections.find((section) => section.title === r.title);
+    }
+
     const counts = {preserved: 0, partial: 0, lost: 0};
-    entries.forEach((e) => { counts[e.st] += 1; });
+    rows.forEach((r) => { counts[r.st] += 1; });
     const years = entries.map((e) => e.year).filter(Boolean);
     const span = years.length ? Array.from({length: Math.max(...years) - Math.min(...years) + 1},
       (_, k) => Math.min(...years) + k) : [];
-    return {entries, eras, notches, others, counts, firstEU, problems, files, years: span,
+    return {entries, rows, sections, notches, others, counts, problems, files, years: span,
       images: [...new Set(files.flatMap((f) => f.sources.map((s) => s.image)).filter(Boolean))]};
   }
 
@@ -882,12 +912,18 @@
     return `<span class="date">${esc(item.date)}</span>`;
   }
 
-  function titleHTML(title) {
-    return title ? `<span class="title" title="${TITLE_NAME[title]}">${title}</span>` : '<span class="title"></span>';
+  function engineHTML(e) {
+    if (!FAMILIES.includes(e.family)) {
+      return '<span class="engine"></span>';
+    }
+    const why = !e.engine ? "Not recorded for this version; taken from the versions around it"
+      : e.engine !== e.family ? e.engine : "";
+    return `<span class="engine"${why ? ` title="${esc(why)}"` : ""}>${esc(e.family)}</span>`;
   }
 
   function notchTitle(n) {
-    const parts = [n.e.v, n.e.date || "date unknown", TITLE_NAME[n.e.title] || ""].filter(Boolean);
+    const parts = [n.e.v, n.e.date || "date unknown", TITLE_NAME[n.e.title] || "",
+      FAMILIES.includes(n.e.family) ? n.e.family : ""].filter(Boolean);
     const said = {preserved: "client preserved", partial: "client partly preserved"};
     for (const st of ["preserved", "partial"]) {
       const vs = n.members.filter((m) => m.st === st).map((m) => m.v);
@@ -904,7 +940,7 @@
     }
     const k = n.members.length - 1;
     if (k) {
-      parts.push(`${count(k, "patch", "patches")} rolled in`);
+      parts.push(`+${count(k, "patch", "patches")}`);
     }
     return parts.join(" · ");
   }
@@ -930,17 +966,17 @@
 
   function overviewHTML(m) {
     const years = yearLabels(m.notches, 2);
-    const groups = m.eras.map((era) => m.notches.filter((n) => n.e.era === era)).filter((g) => g.length);
+    const groups = m.sections.map((section) => m.notches.filter((n) => n.e.section === section)).filter((g) => g.length);
     let i = 0;
     const cells = groups.map((g) => `<div class="strip-group" style="flex: ${g.length} 1 0px;">` + g.map((n) => {
       const year = years.get(i);
       i += 1;
       const label = year ? `<span class="year ${year[1]}">${year[0]}</span>` : "";
-      return `<a class="cell ${n.st}" href="#${esc(n.e.anchor)}" tabindex="-1" title="${esc(notchTitle(n))}">${label}</a>`;
+      return `<a class="cell ${n.st}" href="#${esc(n.target.anchor)}" tabindex="-1" title="${esc(notchTitle(n))}">${label}</a>`;
     }).join("") + "</div>").join("");
-    const eraLabels = groups.map((g) => `<span style="flex: ${g.length} 1 0px;">${esc(g[0].e.era.name)}</span>`).join("");
+    const labels = groups.map((g) => `<span style="flex: ${g.length} 1 0px;">${esc(g[0].e.section.name)}</span>`).join("");
     return `<section aria-label="Surviving clients at a glance">
-<div aria-hidden="true"><div class="strip-eras">${eraLabels}</div><div class="strip">${cells}</div></div>
+<div aria-hidden="true"><div class="strip-labels">${labels}</div><div class="strip">${cells}</div></div>
 <ul class="legend"><li><span class="swatch preserved"></span>Preserved</li><li><span class="swatch partial"></span>Partial</li>`
       + `<li><span class="swatch lost"></span>Lost: no copy found</li></ul>
 </section>`;
@@ -952,9 +988,10 @@
         .join("") + "</select>";
     const years = m.years.map((y) => [String(y), String(y)]);
     const titles = [["", "Any"]].concat(["PE", "EU"].map((t) =>
-      [t, `${TITLE_NAME[t]} (${m.entries.filter((e) => e.title === t).length})`]));
+      [t, `${TITLE_NAME[t]} (${m.rows.filter((r) => r.title === t).length})`]));
     const clients = [["", "Any"]].concat(STATUSES.map((s) => [s, `${BADGE[s]} (${m.counts[s]})`]));
-    const engines = [["", "Any"]].concat(m.eras.map((era) => [era.name, `${era.name} (${era.rows.length})`]));
+    const engines = [["", "Any"]].concat(FAMILIES.filter((f) => m.rows.some((r) => r.family === f)).map((f) =>
+      [f, `${f} (${m.rows.filter((r) => r.family === f).length})`]));
     const last = years.length ? years[years.length - 1][0] : "";
     return `<div class="filters" role="search" aria-label="Filter the versions">
 <div class="range" role="group" aria-label="Date"><span>Date</span>${select("from", "From year", years, years.length ? years[0][0] : "")}`
@@ -1063,51 +1100,39 @@
     const toggles = (n ? button("pf", filesId, count(n, "file")) : "") + (e.onSite ? button("pn", notesId, "Changes") : "");
     return `<div class="entry" data-i="${e.index}">
 <div class="row${e.major ? " major" : ""}" id="${esc(e.anchor)}"><span class="ver">${esc(e.v)}</span>${dateHTML(e)}`
-      + `${titleHTML(e.title)}<span class="client">${columnBadge(e.st)}</span><div class="main"><span class="changes">`
-      + `${esc(e.changes.join(" · "))}</span><div class="toggles">${toggles}</div></div>`
+      + `${engineHTML(e)}<span class="client">${columnBadge(e.st)}</span><div class="main"><span class="changes">`
+      + `${e.changes.map(esc).join("<br>")}</span><div class="toggles">${toggles}</div></div>`
       + `<a class="permalink" href="#${esc(e.anchor)}" title="Link to this version">#</a></div>`
       + (n ? `\n<div class="panel files" id="${esc(filesId)}" hidden="until-found">${e.files.map((f) => fileCard(f, true)).join("")}</div>` : "")
       + (e.onSite ? `\n<div class="panel notes" id="${esc(notesId)}" hidden="until-found">${notesPanel(e)}</div>` : "")
       + "\n</div>";
   }
 
-  const LABELS = '<div class="labels"><span>VU</span><span>Date</span><span>Title</span><span>Client</span>'
+  const LABELS = '<div class="labels"><span>VU</span><span>Date</span><span>Engine</span><span>Client</span>'
     + "<span>Important changes</span><span></span></div>";
 
-  function eraHTML(era, k, m) {
-    const rows = era.rows.map((e) => (m.firstEU && e === m.firstEU && m.entries.some((x) => x.title === "PE")
-      ? `<p class="divider">Entropia Universe (EU) from VU ${esc(e.v)}</p>\n` : "") + entryHTML(e)).join("\n");
-    const sub = era.sub ? `<p class="era-sub">${esc(era.sub)}</p>` : "";
-    return `<section class="era" data-era="${k}" aria-labelledby="${era.id}">
-<div class="era-head"><h2 id="${era.id}">${esc(era.name)} <span>${era.span}</span></h2></div>
-${sub}${LABELS}
+  function sectionHTML(section, k) {
+    const rows = section.rows.map((r) => (r.f ? fileRowHTML(r) : entryHTML(r))).join("\n");
+    return `<section class="section" data-section="${k}" aria-labelledby="${section.id}">
+<div class="section-head"><h2 id="${section.id}">${esc(section.name)} <span>${section.span}</span></h2></div>
+${LABELS}
 ${rows}
 <div class="list-end"></div>
 </section>`;
   }
 
-  function othersHTML(m) {
-    if (!m.others.length) {
-      return "";
-    }
-    const rows = m.others.map((o) => {
-      const vu = o.vu ? `<span class="ver">${esc(o.vu)}</span>` : '<span class="ver muted">-</span>';
-      const name = o.isFile ? `<span class="fname-cell">${esc(o.name)}</span>` : esc(o.name);
-      const panelId = `${o.anchor}-files`;
-      return `<div class="entry" data-other="${o.k}">
-<div class="row" id="${esc(o.anchor)}">${vu}${dateHTML(o)}${titleHTML(o.title)}<span class="client">${columnBadge(o.f.status)}</span>`
-        + `<div class="main"><span class="changes">${name}</span><div class="toggles">${button("pf", panelId, "1 file")}</div></div>`
-        + `<a class="permalink" href="#${esc(o.anchor)}" title="Link to this file">#</a></div>
+  function fileRowHTML(o) {
+    const vu = o.vu ? `<span class="ver">${esc(o.vu)}</span>` : '<span class="ver muted">-</span>';
+    const name = o.isFile ? `<span class="fname-cell">${esc(o.name)}</span>` : esc(o.name);
+    const engine = o.family ? `<span class="engine" title="${esc(o.engineWhy)}">${esc(o.family)}</span>`
+      : '<span class="engine"></span>';
+    const panelId = `${o.anchor}-files`;
+    return `<div class="entry" data-file="${o.k}">
+<div class="row" id="${esc(o.anchor)}">${vu}${dateHTML(o)}${engine}<span class="client">${columnBadge(o.st)}</span>`
+      + `<div class="main"><span class="changes">${name}</span><div class="toggles">${button("pf", panelId, "1 file")}</div></div>`
+      + `<a class="permalink" href="#${esc(o.anchor)}" title="Link to this file">#</a></div>
 <div class="panel files" id="${esc(panelId)}" hidden="until-found">${fileCard(o.f, false)}</div>
 </div>`;
-    }).join("\n");
-    return `<section class="era others" aria-labelledby="other-files">
-<div class="era-head"><h2 id="other-files">Other client files</h2></div>
-<p class="era-sub">Discs and builds that are not tied to one version.</p>
-${LABELS.replace("<span>Important changes</span>", "<span>File</span>")}
-${rows}
-<div class="list-end"></div>
-</section>`;
   }
 
   function showProblems(problems) {
@@ -1128,14 +1153,12 @@ ${rows}
     const first = m.years[0];
     const last = m.years[m.years.length - 1];
     const state = {from: first, to: last, title: "", client: "", engine: ""};
-    for (const e of m.entries) {
-      e.el = root.querySelector(`.entry[data-i="${e.index}"]`);
+    for (const r of m.rows) {
+      r.el = root.querySelector(r.f ? `.entry[data-file="${r.k}"]` : `.entry[data-i="${r.index}"]`);
     }
-    m.eras.forEach((era, k) => {
-      era.el = root.querySelector(`section[data-era="${k}"]`);
+    m.sections.forEach((section, k) => {
+      section.el = root.querySelector(`section[data-section="${k}"]`);
     });
-    const divider = root.querySelector(".divider");
-    const others = root.querySelector("section.others");
     const nomatch = root.querySelector(".nomatch");
     const clearButton = root.querySelector(".fclear");
     const selects = [...root.querySelectorAll("select[data-filter]")];
@@ -1156,29 +1179,21 @@ ${rows}
       const full = state.from === first && state.to === last;
       const filtered = !full || state.title !== "" || state.client !== "" || state.engine !== "";
       let shown = 0;
-      let anyPE = false;
-      const eraShown = new Set();
-      for (const e of m.entries) {
-        const on = (e.year ? e.year >= state.from && e.year <= state.to : full)
-          && (state.title === "" || e.title === state.title)
-          && (state.client === "" || e.st === state.client)
-          && (state.engine === "" || e.family === state.engine);
-        e.el.hidden = !on;
+      const sectionShown = new Set();
+      for (const r of m.rows) {
+        const on = (r.year ? r.year >= state.from && r.year <= state.to : full)
+          && (state.title === "" || r.title === state.title)
+          && (state.client === "" || r.st === state.client)
+          && (state.engine === "" || r.family === state.engine);
+        r.el.hidden = !on;
         if (on) {
           shown += 1;
-          eraShown.add(e.era);
-          anyPE = anyPE || e.title === "PE";
+          sectionShown.add(r.section);
         }
       }
-      m.eras.forEach((era) => {
-        era.el.hidden = !eraShown.has(era);
+      m.sections.forEach((section) => {
+        section.el.hidden = !sectionShown.has(section);
       });
-      if (divider) {
-        divider.hidden = !(m.firstEU && !m.firstEU.el.hidden && anyPE);
-      }
-      if (others) {
-        others.hidden = filtered;
-      }
       nomatch.hidden = shown > 0;
       clearButton.hidden = !filtered;
     };
@@ -1200,6 +1215,16 @@ ${rows}
     }
 
     root.addEventListener("click", (event) => {
+      const cell = event.target.closest("a.cell");
+      if (cell) {
+        event.preventDefault();
+        const id = cell.getAttribute("href").slice(1);
+        if (location.hash.slice(1) !== id) {
+          history.pushState(null, "", "#" + id);
+        }
+        show(document.getElementById(id), "files");
+        return;
+      }
       const control = event.target.closest("button[aria-controls]");
       if (control) {
         const panel = document.getElementById(control.getAttribute("aria-controls"));
@@ -1219,7 +1244,27 @@ ${rows}
     });
 
     // A link to a version opens its release notes, as it always has (#vu-5.7, #5.7, #vu-4 for 4.0), or its files
-    // when it has no notes; a link to a file of its own opens that file.
+    // when it has no notes; a link to a file of its own opens that file; #vu-5.4-files or #vu-5.4-notes opens that
+    // panel. A timeline notch opens files first.
+    const show = (el, first) => {
+      if (el.closest(".entry[hidden], section[hidden]")) {
+        clear();
+      }
+      const holder = el.closest(".entry");
+      if (holder && el.classList.contains("panel")) {
+        setPanel(el, true);
+        el = holder.querySelector(":scope > .row");
+      } else if (holder && el.classList.contains("row")) {
+        const notes = holder.querySelector(":scope > .panel.notes");
+        const files = holder.querySelector(":scope > .panel.files");
+        const panel = first === "files" ? files || notes : notes || files;
+        if (panel) {
+          setPanel(panel, true);
+        }
+      }
+      el.scrollIntoView();
+    };
+
     const openFromHash = () => {
       const raw = decodeURIComponent(location.hash.slice(1)).trim();
       if (!raw) {
@@ -1228,20 +1273,9 @@ ${rows}
       const lower = raw.toLowerCase().replace(/\s+/g, "-");
       const bare = lower.replace(/^vu-/, "");
       const el = [raw, lower, "vu-" + bare, "vu-" + bare + ".0"].map((id) => document.getElementById(id)).find(Boolean);
-      if (!el) {
-        return;
+      if (el) {
+        show(el, "notes");
       }
-      if (el.closest(".entry[hidden], section[hidden]")) {
-        clear();
-      }
-      const holder = el.closest(".entry");
-      if (holder && el.classList.contains("row")) {
-        const panel = holder.querySelector(":scope > .panel.notes") || holder.querySelector(":scope > .panel.files");
-        if (panel) {
-          setPanel(panel, true);
-        }
-      }
-      el.scrollIntoView();
     };
 
     apply();
@@ -1289,8 +1323,8 @@ ${rows}
       return;
     }
     const m = build(data, notes.replace(/\r\n?/g, "\n"), scanned);
-    app.innerHTML = [overviewHTML(m), filtersHTML(m), m.eras.map((era, k) => eraHTML(era, k, m)).join("\n"),
-      '<p class="nomatch" hidden>No versions match these filters.</p>', othersHTML(m)].join("\n");
+    app.innerHTML = [overviewHTML(m), filtersHTML(m), m.sections.map(sectionHTML).join("\n"),
+      '<p class="nomatch" hidden>No versions match these filters.</p>'].join("\n");
     showProblems(m.problems);
     wire(m, app);
     for (const image of m.images) {
@@ -1305,7 +1339,7 @@ ${rows}
 
   if (typeof module === "object" && module.exports) {
     module.exports = {scan, build, markdown, inline, holdsNotes, notchTitle, yearLabels, fileCard, notesPanel,
-      noteSourceHTML, entryHTML, othersHTML, overviewHTML, filtersHTML};
+      noteSourceHTML, entryHTML, fileRowHTML, overviewHTML, filtersHTML};
   } else {
     start();
   }
