@@ -7,7 +7,6 @@
 | `versions.json` | Every version and every client file. Edited by hand. |
 | `notes.md` | The release notes' text, one `## VU <version>` section per version. Edited by hand. |
 | `images/discs/` | Pictures of the discs that client files were found on. |
-| `index.html`, `site.js`, `site.css` | The page. It reads `versions.json` and `notes.md` each time it loads. |
 
 ### A version
 
