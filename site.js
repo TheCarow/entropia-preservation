@@ -1208,12 +1208,61 @@ ${rows}
       clearButton.hidden = !filtered;
     };
 
+    // The element an address's #... names: #vu-5.7, #5.7 and #vu-4 (for 4.0) all name a version.
+    const hashTarget = () => {
+      let raw;
+      try {
+        raw = decodeURIComponent(location.hash.slice(1)).trim();
+      } catch (error) {
+        return null;
+      }
+      if (!raw) {
+        return null;
+      }
+      const lower = raw.toLowerCase().replace(/\s+/g, "-");
+      const bare = lower.replace(/^vu-/, "");
+      return [raw, lower, "vu-" + bare, "vu-" + bare + ".0"].map((id) => document.getElementById(id)).find(Boolean) || null;
+    };
+
+    // The filters are in the address too, so that a filtered list can be shared: ?client=lost&source=physical. Only
+    // a filter that is set is written, in lower case, and the rest of the query is left as it was. A #... naming a row
+    // the filters now hide is dropped, since opening that address would clear them.
+    const readAddress = () => {
+      const query = new URLSearchParams(location.search);
+      for (const select of selects) {
+        const key = select.dataset.filter;
+        const wanted = (query.get(key) || "").trim().toLowerCase();
+        const option = wanted ? [...select.options].find((o) => o.value.toLowerCase() === wanted) : null;
+        if (option) {
+          select.value = option.value;
+          state[key] = key === "from" || key === "to" ? Number(option.value) : option.value;
+        }
+      }
+    };
+
+    const writeAddress = () => {
+      const query = new URLSearchParams(location.search);
+      const keys = selects.map((select) => select.dataset.filter);
+      keys.forEach((key) => query.delete(key));
+      for (const key of keys) {
+        const unset = state[key] === "" || (key === "from" && state.from === first) || (key === "to" && state.to === last);
+        if (!unset) {
+          query.append(key, String(state[key]).toLowerCase());
+        }
+      }
+      const target = hashTarget();
+      const hash = target && target.closest(".entry[hidden], section[hidden]") ? "" : location.hash;
+      const search = query.toString();
+      history.replaceState(history.state, "", location.pathname + (search ? `?${search}` : "") + hash);
+    };
+
     const clear = () => {
       Object.assign(state, {from: first, to: last, title: "", client: "", engine: "", source: ""});
       for (const select of selects) {
         select.value = String(state[select.dataset.filter]);
       }
       apply();
+      writeAddress();
     };
 
     for (const select of selects) {
@@ -1221,6 +1270,7 @@ ${rows}
         const key = select.dataset.filter;
         state[key] = key === "from" || key === "to" ? Number(select.value) : select.value;
         apply();
+        writeAddress();
       });
     }
 
@@ -1276,21 +1326,17 @@ ${rows}
     };
 
     const openFromHash = () => {
-      const raw = decodeURIComponent(location.hash.slice(1)).trim();
-      if (!raw) {
-        return;
-      }
-      const lower = raw.toLowerCase().replace(/\s+/g, "-");
-      const bare = lower.replace(/^vu-/, "");
-      const el = [raw, lower, "vu-" + bare, "vu-" + bare + ".0"].map((id) => document.getElementById(id)).find(Boolean);
+      const el = hashTarget();
       if (el) {
         show(el, "notes");
       }
     };
 
+    readAddress();
     apply();
     window.addEventListener("hashchange", openFromHash);
     openFromHash();
+    writeAddress();
   }
 
   async function get(url) {

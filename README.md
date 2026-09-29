@@ -95,6 +95,12 @@ opens its files instead, and a link to a version the filters hide clears the fil
 `-files` or `-notes` opens that panel instead: `#vu-5.4-files`. The `#` at the end of each row is that
 row's link. Files on rows of their own have links too, such as `#file-entropia-universe-exe`.
 
+The filters are in the address as well, so a filtered list can be shared: `index.html?client=lost&source=physical`.
+The parameters are `from` and `to` (years), `title` (`pe` or `eu`), `client` (`preserved`, `partial` or `lost`),
+`engine` (`netimmerse`, `gamebryo` or `cryengine2`) and `source` (`physical`). Only the filters that are set appear,
+and the address changes as they are chosen. A link can carry both, as in `?client=lost#vu-6.1`; if the filters hide
+that version, they are cleared first, as above.
+
 ## Source ranking
 
 1. **Official**: MindArk's own website, read through the Wayback Machine.
