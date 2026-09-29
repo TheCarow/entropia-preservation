@@ -914,7 +914,7 @@
     if (item.approx) {
       const why = item.why || (item.date.length === 4 ? "Approximate: the year is known, the month is not"
         : "Approximate: the month is known, the day is not");
-      return `<span class="date approx" title="${esc(why)}">${esc(item.date)}</span>`;
+      return `<span class="date approx" title="${esc(why)}">c. ${esc(item.date)}</span>`;
     }
     return `<span class="date">${esc(item.date)}</span>`;
   }

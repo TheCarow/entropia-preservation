@@ -4,6 +4,7 @@
   --t1: #1f7a3a; --t2: #2f5f9e; --t3: #7a5a12; --t4: #6b6b66; --t5: #8a8a84;
   --lostfill: #e0e0d9; --heldfill: #5cb572; --partialfill: #c0992a;
   --mono: ui-monospace, "Cascadia Mono", Consolas, "Liberation Mono", monospace;
+  --serif: Charter, "Bitstream Charter", "Sitka Text", Cambria, Georgia, serif;
   color-scheme: light dark;
 }
 @media (prefers-color-scheme: dark) {
@@ -22,6 +23,8 @@ a { color: var(--link); }
 a:hover { color: var(--fg); }
 :focus-visible { outline: 2px solid var(--link); outline-offset: 2px; }
 code { font-family: var(--mono); font-size: .9em; }
+/* Headings and prose are set in a serif; the list, the filters and the file details keep the interface font. */
+h1, .intro, .news, .section-head h2, .panel.notes, .footer { font-family: var(--serif); }
 h1 { display: flex; align-items: center; gap: 12px; margin: 0 0 8px; font-size: 1.6rem; line-height: 1.25; font-weight: 700; }
 h1 .logo { flex: none; width: 40px; height: 40px; }
 .intro { margin: 0 0 24px; }
@@ -35,7 +38,7 @@ h1 .logo { flex: none; width: 40px; height: 40px; }
 
 /* What's new: dated entries, newest first */
 .news { margin: 0 0 24px; font-size: 14px; }
-.news h2 { margin: 0 0 6px; font-size: 12px; font-weight: 600; color: var(--muted); text-transform: uppercase; letter-spacing: .06em; }
+.news h2 { margin: 0 0 6px; font-size: 1rem; font-weight: 600; }
 .news ul { list-style: none; margin: 0; padding: 0; }
 .news li { display: grid; grid-template-columns: 92px minmax(0, 1fr); column-gap: 12px; margin: 3px 0; }
 .news time { font-variant-numeric: tabular-nums; }
@@ -48,7 +51,7 @@ h1 .logo { flex: none; width: 40px; height: 40px; }
 .fatal { margin: 0; padding: 10px 14px; background: var(--panel); border-left: 3px solid var(--t3); }
 
 /* The survivors at a glance: one notch per x.y update, its patches rolled in */
-.strip-labels { display: flex; gap: 6px; margin-bottom: 6px; font-size: 12px; font-weight: 600; color: var(--muted); text-transform: uppercase; letter-spacing: .06em; }
+.strip-labels { display: flex; gap: 6px; margin-bottom: 6px; font-size: 13px; color: var(--muted); }
 .strip-labels span { min-width: 0; white-space: nowrap; }
 .strip { display: flex; gap: 6px; align-items: flex-end; height: 30px; margin-bottom: 28px; }
 .strip-group { min-width: 0; display: flex; gap: 2px; align-items: flex-end; }
@@ -64,10 +67,10 @@ h1 .logo { flex: none; width: 40px; height: 40px; }
 .swatch { display: inline-block; width: 8px; height: 16px; flex: none; }
 
 /* The filter bar */
-.filters { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 18px; margin: 28px 0 0; padding: 10px 12px; background: var(--panel); border-radius: 8px; font-size: 14px; }
+.filters { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 18px; margin: 28px 0 0; padding: 10px 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); font-size: 14px; }
 .filters .range, .filters label { display: flex; align-items: center; gap: 6px; }
 .filters .spacer { flex: 1 1 auto; }
-.fsel { font: inherit; font-size: 14px; min-height: 32px; padding: 0 4px; border: 1px solid var(--control); border-radius: 6px; background: var(--bg); color: var(--fg); cursor: pointer; }
+.fsel { font: inherit; font-size: 14px; min-height: 32px; padding: 0 4px; border: 1px solid var(--control); border-radius: 0; background: var(--bg); color: var(--fg); cursor: pointer; }
 .fclear { font: inherit; font-size: 14px; padding: 0 2px; border: 0; background: none; color: var(--link); text-decoration: underline; cursor: pointer; }
 .nomatch { margin: 28px 0 0; color: var(--muted); font-style: italic; }
 
@@ -78,7 +81,7 @@ h1 .logo { flex: none; width: 40px; height: 40px; }
 .section-head h2 span { font-weight: 400; color: var(--muted); }
 .section-sub { margin: 2px 0 0; font-size: 14px; color: var(--muted); }
 .labels, .row { display: grid; grid-template-columns: 76px 92px 80px 84px minmax(0, 1fr) 14px; column-gap: 12px; align-items: baseline; }
-.labels { padding: 8px 6px 4px; font-size: 11.5px; font-weight: 600; color: var(--muted); text-transform: uppercase; letter-spacing: .04em; }
+.labels { padding: 8px 6px 4px; font-size: 13px; font-weight: 600; color: var(--muted); }
 .list-end { border-top: 1px solid var(--line); }
 
 .row { font-size: 15px; line-height: 1.45; padding: 5px 6px; border-top: 1px solid var(--line); }
@@ -87,7 +90,6 @@ h1 .logo { flex: none; width: 40px; height: 40px; }
 .ver { font-variant-numeric: tabular-nums; overflow-wrap: anywhere; }
 .major .ver { font-weight: 650; }
 .date { font-variant-numeric: tabular-nums; white-space: nowrap; }
-.date.approx { text-decoration: underline dotted; text-underline-offset: 3px; }
 .date.unknown { font-style: italic; color: var(--muted); }
 .engine { font-size: 12px; letter-spacing: .04em; }
 .main { min-width: 0; display: flex; align-items: baseline; gap: 4px 10px; }
@@ -96,13 +98,13 @@ h1 .logo { flex: none; width: 40px; height: 40px; }
 .permalink { justify-self: end; color: var(--muted); text-decoration: none; }
 .fname-cell { font-family: var(--mono); font-size: 13.5px; overflow-wrap: anywhere; }
 
-.badge { display: inline-block; font-size: 11.5px; font-weight: 650; text-transform: uppercase; letter-spacing: .03em; border: 1px solid currentColor; border-radius: 4px; padding: 0 5px; line-height: 1.55; white-space: nowrap; }
+.badge { display: inline-block; font-size: 12.5px; font-weight: 600; border: 1px solid currentColor; padding: 0 5px; line-height: 1.5; white-space: nowrap; }
 .badge.preserved { color: var(--bg); background: var(--t1); border-color: var(--t1); }
 .badge.partial { color: var(--bg); background: var(--t3); border-color: var(--t3); }
 .badge.lost { color: var(--muted); }
 
 /* The two buttons of a row: its files, then its release notes, each in a fixed slot */
-.pt { display: inline-flex; align-items: center; gap: 5px; width: 100%; padding: 0 8px 0 6px; font: inherit; font-size: 12.5px; line-height: 1.7; white-space: nowrap; color: var(--fg); background: transparent; border: 1px solid var(--control); border-radius: 5px; cursor: pointer; }
+.pt { display: inline-flex; align-items: center; gap: 5px; width: 100%; padding: 0 8px 0 6px; font: inherit; font-size: 12.5px; line-height: 1.7; white-space: nowrap; color: var(--fg); background: transparent; border: 1px solid var(--control); border-radius: 0; cursor: pointer; }
 .pt:hover { border-color: var(--fg); }
 .pt svg { transition: transform .15s; }
 .pt[aria-expanded="true"] { background: var(--panel); border-color: var(--muted); }
@@ -111,21 +113,21 @@ h1 .logo { flex: none; width: 40px; height: 40px; }
 .pn { grid-column: 2; }
 
 /* What a row opens */
-.panel { margin: 0 0 8px; padding: 0 14px; background: var(--panel); border-radius: 6px; font-size: 14px; }
+.panel { margin: 0 0 8px 6px; padding: 0 14px; border-left: 3px solid var(--line); font-size: 14px; }
 .panel.notes { padding: 10px 14px; font-size: 16px; overflow-wrap: anywhere; }
 /* A closed panel is hidden="until-found", so find-in-page can open it; that hides what is inside the panel
    but not the panel's own box, so the box gives up its padding and margin while closed. */
-.panel[hidden] { margin: 0; padding: 0; }
+.panel[hidden] { margin: 0; padding: 0; border: 0; }
 .note { margin: 0 0 10px; padding: 8px 12px; background: var(--bg); border-left: 3px solid var(--t3); }
 .text > :first-child { margin-top: 0; }
 .text > :last-child { margin-bottom: 0; }
 .origin { margin: 8px 0 0; color: var(--muted); font-size: .85rem; }
-.notes h3 { font-size: .95rem; margin: 16px 0 6px; color: var(--muted); text-transform: uppercase; letter-spacing: .04em; }
+.notes h3 { font-size: 1rem; margin: 16px 0 6px; font-weight: 600; }
 blockquote { margin: 8px 0; padding-left: 12px; border-left: 3px solid var(--line); }
 hr { border: 0; border-top: 1px dashed var(--line); margin: 16px 0; }
 ol.sources { padding-left: 1.4em; margin: 0; }
 ol.sources li { margin: 4px 0; }
-.tier { display: inline-block; font-size: .72rem; font-weight: 650; text-transform: uppercase; letter-spacing: .03em; border: 1px solid currentColor; border-radius: 4px; padding: 0 5px; margin-right: 4px; white-space: nowrap; }
+.tier { display: inline-block; font-size: .8rem; font-weight: 600; border: 1px solid currentColor; padding: 0 5px; margin-right: 4px; white-space: nowrap; }
 .t1 { color: var(--t1); } .t2 { color: var(--t2); } .t3 { color: var(--t3); } .t4 { color: var(--t4); } .t5 { color: var(--t5); }
 .meta { color: var(--muted); font-size: .85rem; }
 
@@ -145,7 +147,7 @@ ol.sources li { margin: 4px 0; }
 .src-label { color: var(--muted); }
 .src { min-width: 0; }
 .src-thumb { display: flex; gap: 10px; align-items: flex-start; min-width: 0; }
-.thumb { width: 64px; height: 64px; object-fit: contain; flex: none; border-radius: 4px; }
+.thumb { width: 64px; height: 64px; object-fit: contain; flex: none; }
 .src-note { margin: 2px 0 0; }
 .evidence { display: flex; gap: 8px; margin-top: 3px; font-size: 13px; }
 .evidence > span { color: var(--muted); flex: none; }
