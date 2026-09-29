@@ -118,6 +118,11 @@ h1 .logo { flex: none; width: 40px; height: 40px; }
 /* A closed panel is hidden="until-found", so find-in-page can open it; that hides what is inside the panel
    but not the panel's own box, so the box gives up its padding and margin while closed. */
 .panel[hidden] { margin: 0; padding: 0; border: 0; }
+/* Without scripts, and in an archived copy whose data did not load, every panel shows open and the controls that
+   need a script are left out; index.html marks a browser that runs scripts with the class js. */
+html:not(.js) .filters, html:not(.js) .toggles { display: none; }
+html:not(.js) .panel[hidden] { display: block; content-visibility: visible; margin: 0 0 8px 6px; padding: 0 14px; border-left: 3px solid var(--line); }
+html:not(.js) .panel.notes[hidden] { padding: 10px 14px; }
 .note { margin: 0 0 10px; padding: 8px 12px; background: var(--bg); border-left: 3px solid var(--t3); }
 .text > :first-child { margin-top: 0; }
 .text > :last-child { margin-bottom: 0; }
@@ -147,6 +152,7 @@ ol.sources li { margin: 4px 0; }
 .src-label { color: var(--muted); }
 .src { min-width: 0; }
 .src-thumb { display: flex; gap: 10px; align-items: flex-start; min-width: 0; }
+.src-thumb > a { flex: none; display: block; }
 .thumb { width: 64px; height: 64px; object-fit: contain; flex: none; }
 .src-note { margin: 2px 0 0; }
 .evidence { display: flex; gap: 8px; margin-top: 3px; font-size: 13px; }

@@ -2,6 +2,9 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
+<!-- A browser that runs scripts gets the filters and panels. Without scripts, or in a copy of the page that lacks
+     site.js, the list shows every panel open and leaves the filters out (site.css, html:not(.js)). -->
+<script>document.documentElement.classList.add("js");addEventListener("load",function(){if(!document.documentElement.dataset.script)document.documentElement.classList.remove("js")});</script>
 <title>Entropia Archive</title>
 <meta name="description" content="Every Project Entropia version update, and Entropia Universe's up to VU 10: the release notes, which clients survive, and where each client file was found.">
 <meta property="og:type" content="website">
@@ -9,9 +12,9 @@
 <meta property="og:title" content="Version Updates and Clients">
 <meta property="og:description" content="Every Project Entropia version update, and Entropia Universe's up to VU 10: the release notes, which clients survive, and where each client file was found.">
 <!-- Raise ?v= whenever site.css or site.js changes, so that browsers fetch the new copy instead of a cached one. -->
-<link rel="stylesheet" href="site.css?v=25">
-<script src="site.js?v=25" defer></script>
-<noscript><style>#app { display: none; }</style></noscript>
+<link rel="stylesheet" href="site.css?v=27">
+<script src="draw.js?v=27" defer></script>
+<script src="site.js?v=27" defer></script>
 </head>
 <body>
 <main>
@@ -32,9 +35,9 @@
 </ul>
 </section>
 <div id="app"><p class="empty">Loading the versions…</p></div>
-<noscript><p class="fatal">This page is drawn by JavaScript from <a href="versions.json">versions.json</a> and <a href="notes.md">notes.md</a>, which can also be read as they are.</p></noscript>
 <footer class="footer">
 <p>Project Entropia, Entropia Universe and their release notes are the work of MindArk&nbsp;PE&nbsp;AB. This is an independent preservation project, not affiliated with MindArk.</p>
+<p>The data behind this page: <a href="versions.json">versions.json</a> and <a href="notes.md">notes.md</a>.</p>
 <p>Est 2026-08-20.</p>
 </footer>
 </main>

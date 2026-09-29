@@ -7,6 +7,10 @@
 | `versions.json` | Every version and every client file. Edited by hand. |
 | `notes.md` | The release notes' text, one `## VU <version>` section per version. Edited by hand. |
 | `images/discs/` | Pictures of the discs that client files were found on. |
+| `draw.js` | Reads and checks the data and draws the page. `render.js` uses it when publishing, and a local preview uses it in the browser. |
+| `site.js` | The page at work: the filters, their place in the address, and the panels. The published page loads only this. |
+| `render.js` | Draws the version list into `index.html` when the site is published. GitHub runs it. |
+| `.github/workflows/pages.yml` | Tells GitHub to publish the site through `render.js` on every push. |
 
 ### A version
 
@@ -69,6 +73,17 @@ Each source of a file has these fields:
 
 The file is laid out with each source on a single line, so adding or removing a source changes one
 line. Any valid JSON works.
+
+## Publishing
+
+Pushing to `main` publishes the site. GitHub runs `render.js`, which draws the whole version list into
+`index.html` and puts `site.css` inside it, so the published page reads in full without JavaScript and web archives
+keep every version, file, picture and release note. Nothing needs running by hand.
+
+A mistake in `versions.json` or `notes.md`, or a picture that isn't in the folder, stops the publish, and the last
+good version stays up. The Publish run on the repository's Actions tab lists what is wrong. A local preview draws the
+page in the browser from the data and lists any mistakes at its top, as before. `node render.js <folder>` writes the
+published form into a folder of your choosing.
 
 ## `notes.md`
 
