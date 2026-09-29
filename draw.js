@@ -38,8 +38,6 @@
   const NUMBER = /^\d+(\.\d+)*$/;
   const SERIES = /^\d+(\.(\d+|[Xx]))*$/;
   const FILE_DATE_WHY = "The date of the client file; no release date is recorded";
-  const CHEVRON = '<svg width="10" height="10" viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.6" '
-    + 'stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3.5 1.5l3.5 3.5-3.5 3.5"></path></svg>';
 
   const isObject = (x) => x !== null && typeof x === "object" && !Array.isArray(x);
   const isText = (x) => typeof x === "string";
@@ -1100,7 +1098,7 @@
   }
 
   function button(kind, panelId, text) {
-    return `<button type="button" class="pt ${kind}" aria-expanded="false" aria-controls="${esc(panelId)}">${CHEVRON}${text}</button>`;
+    return `<button type="button" class="pt ${kind}" aria-expanded="false" aria-controls="${esc(panelId)}">${text}</button>`;
   }
 
   // What the filters test, on each row, so that site.js can filter the drawn list without reading the data.
@@ -1114,7 +1112,7 @@
     const filesId = `${e.anchor}-files`;
     const notesId = `${e.anchor}-notes`;
     const toggles = (n ? button("pf", filesId, count(n, "file")) : "") + (e.onSite ? button("pn", notesId, "Changes") : "");
-    return `<div class="entry" data-i="${e.index}"${rowData(e)}>
+    return `<div class="entry"${rowData(e)}>
 <div class="row${e.major ? " major" : ""}" id="${esc(e.anchor)}"><span class="ver">${esc(e.v)}</span>${dateHTML(e)}`
       + `<span class="client">${columnBadge(e.st)}</span>${engineHTML(e)}<div class="main"><span class="changes">`
       + `${e.changes.map(esc).join("<br>")}</span><div class="toggles">${toggles}</div></div>`
@@ -1143,7 +1141,7 @@ ${rows}
     const engine = o.family ? `<span class="engine" title="${esc(o.engineWhy)}">${esc(o.family)}</span>`
       : '<span class="engine"></span>';
     const panelId = `${o.anchor}-files`;
-    return `<div class="entry" data-file="${o.k}"${rowData(o)}>
+    return `<div class="entry"${rowData(o)}>
 <div class="row" id="${esc(o.anchor)}">${vu}${dateHTML(o)}<span class="client">${columnBadge(o.st)}</span>${engine}`
       + `<div class="main"><span class="changes">${name}</span><div class="toggles">${button("pf", panelId, "1 file")}</div></div>`
       + `<a class="permalink" href="#${esc(o.anchor)}" title="Link to this file">#</a></div>

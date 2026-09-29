@@ -79,7 +79,6 @@ h1 .logo { flex: none; width: 40px; height: 40px; }
 .section-head { display: flex; align-items: baseline; justify-content: space-between; gap: 4px 16px; flex-wrap: wrap; }
 .section-head h2 { font-size: 1.1rem; margin: 0; }
 .section-head h2 span { font-weight: 400; color: var(--muted); }
-.section-sub { margin: 2px 0 0; font-size: 14px; color: var(--muted); }
 .labels, .row { display: grid; grid-template-columns: 76px 92px 80px 84px minmax(0, 1fr) 14px; column-gap: 12px; align-items: baseline; }
 .labels { padding: 8px 6px 4px; font-size: 13px; font-weight: 600; color: var(--muted); }
 .list-end { border-top: 1px solid var(--line); }
@@ -106,9 +105,10 @@ h1 .logo { flex: none; width: 40px; height: 40px; }
 /* The two buttons of a row: its files, then its release notes, each in a fixed slot */
 .pt { display: inline-flex; align-items: center; gap: 5px; width: 100%; padding: 0 8px 0 6px; font: inherit; font-size: 12.5px; line-height: 1.7; white-space: nowrap; color: var(--fg); background: transparent; border: 1px solid var(--control); border-radius: 0; cursor: pointer; }
 .pt:hover { border-color: var(--fg); }
-.pt svg { transition: transform .15s; }
+/* the arrow before each button's text, turned down while its panel is open */
+.pt::before { content: ""; flex: none; width: 10px; height: 10px; background: currentColor; forced-color-adjust: none; -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 10 10' fill='none' stroke='%23000' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M3.5 1.5l3.5 3.5-3.5 3.5'/%3E%3C/svg%3E") center / 10px 10px no-repeat; mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 10 10' fill='none' stroke='%23000' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M3.5 1.5l3.5 3.5-3.5 3.5'/%3E%3C/svg%3E") center / 10px 10px no-repeat; }
 .pt[aria-expanded="true"] { background: var(--panel); border-color: var(--muted); }
-.pt[aria-expanded="true"] svg { transform: rotate(90deg); }
+.pt[aria-expanded="true"]::before { transform: rotate(90deg); }
 .pf { grid-column: 1; }
 .pn { grid-column: 2; }
 
