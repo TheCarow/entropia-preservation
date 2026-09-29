@@ -1117,7 +1117,7 @@
       + "\n</div>";
   }
 
-  const LABELS = '<div class="labels"><span>VU</span><span>Date</span><span>Engine</span><span>Client</span>'
+  const LABELS = '<div class="labels"><span>VU</span><span>Date</span><span>Engine</span><span>Status</span>'
     + "<span>Important changes</span><span></span></div>";
 
   function sectionHTML(section, k) {
