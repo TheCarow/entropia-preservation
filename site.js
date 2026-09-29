@@ -1109,7 +1109,7 @@
     const toggles = (n ? button("pf", filesId, count(n, "file")) : "") + (e.onSite ? button("pn", notesId, "Changes") : "");
     return `<div class="entry" data-i="${e.index}">
 <div class="row${e.major ? " major" : ""}" id="${esc(e.anchor)}"><span class="ver">${esc(e.v)}</span>${dateHTML(e)}`
-      + `${engineHTML(e)}<span class="client">${columnBadge(e.st)}</span><div class="main"><span class="changes">`
+      + `<span class="client">${columnBadge(e.st)}</span>${engineHTML(e)}<div class="main"><span class="changes">`
       + `${e.changes.map(esc).join("<br>")}</span><div class="toggles">${toggles}</div></div>`
       + `<a class="permalink" href="#${esc(e.anchor)}" title="Link to this version">#</a></div>`
       + (n ? `\n<div class="panel files" id="${esc(filesId)}" hidden="until-found">${e.files.map((f) => fileCard(f, true)).join("")}</div>` : "")
@@ -1117,7 +1117,7 @@
       + "\n</div>";
   }
 
-  const LABELS = '<div class="labels"><span>VU</span><span>Date</span><span>Engine</span><span>Status</span>'
+  const LABELS = '<div class="labels"><span>VU</span><span>Date</span><span>Status</span><span>Engine</span>'
     + "<span>Important changes</span><span></span></div>";
 
   function sectionHTML(section, k) {
@@ -1137,7 +1137,7 @@ ${rows}
       : '<span class="engine"></span>';
     const panelId = `${o.anchor}-files`;
     return `<div class="entry" data-file="${o.k}">
-<div class="row" id="${esc(o.anchor)}">${vu}${dateHTML(o)}${engine}<span class="client">${columnBadge(o.st)}</span>`
+<div class="row" id="${esc(o.anchor)}">${vu}${dateHTML(o)}<span class="client">${columnBadge(o.st)}</span>${engine}`
       + `<div class="main"><span class="changes">${name}</span><div class="toggles">${button("pf", panelId, "1 file")}</div></div>`
       + `<a class="permalink" href="#${esc(o.anchor)}" title="Link to this file">#</a></div>
 <div class="panel files" id="${esc(panelId)}" hidden="until-found">${fileCard(o.f, false)}</div>
