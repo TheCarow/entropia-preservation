@@ -59,7 +59,7 @@ Each source of a file has these fields:
 | Field | What it holds |
 |---|---|
 | `label` | What the source is: a disc, a site, or an FTP address. A copy on Google Drive is labelled `"Unknown Google Drive: <file name>"`. |
-| `physical` | `true` when the source is physical media: a cover disc, a promotional disc or a boxed copy. An online copy of a disc, such as an Archive.org item, is not. Shown as "Physical media", and the Source filter lists only the files that have such a source. |
+| `physical` | `true` when the source is physical media: a cover disc, a promotional disc or a boxed copy. An online copy of a disc, such as an Archive.org item, is not. The Source filter's "Physical media" option lists only the files that have such a source. |
 | `url` | The source's link. |
 | `available` | `true` if the file can still be had there, shown as "Found on". `false` if it once could, shown as "Once on". |
 | `image` | A picture of the disc, such as `"images/discs/czech-level-109-dvd.jpg"`. |

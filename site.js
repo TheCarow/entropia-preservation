@@ -1040,8 +1040,7 @@
     let body;
     if (s.label) {
       label = s.available ? "Found on" : "Once on";
-      const kind = s.physical ? ' <span class="kind">Physical media</span>' : "";
-      body = `<div>${sourceText(s)}${kind}</div>${note}` + (s.evidence.length ? evidenceHTML(s.evidence, true) : "");
+      body = `<div>${sourceText(s)}</div>${note}` + (s.evidence.length ? evidenceHTML(s.evidence, true) : "");
     } else {
       label = "Known from";
       body = evidenceHTML(s.evidence, false) + note;

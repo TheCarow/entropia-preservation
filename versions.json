@@ -2531,7 +2531,8 @@
       "status": "preserved",
       "note": "No data files.",
       "sources": [
-        {"label": "https://archive.org/download/cgwmar-06/CGWMAR06.ISO/PE_Installer.exe", "url": "https://archive.org/download/cgwmar-06/CGWMAR06.ISO/PE_Installer.exe", "available": true, "preservation_needed": "Archive.org + 1 Backup"},
+        {"label": "Computer Gaming World March 2006 Demo Disc", "physical": true, "available": true, "image": "images/discs/computer-gaming-world-march-2006-demo-disc.jpg"},
+        {"label": "Archive.org: Computer Gaming World March 2006 Demo Disc", "url": "https://archive.org/details/cgwmar-06", "available": true, "preservation_needed": "Archive.org + 1 Backup"},
         {
           "label": "ftp://anonymous@ftp.project-entropia.com/Updates/PE_Installer.exe",
           "available": false,
