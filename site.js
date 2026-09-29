@@ -16,7 +16,7 @@
     const years = [...root.querySelectorAll('select[data-filter="from"] option')].map((o) => Number(o.value));
     const first = years[0];
     const last = years[years.length - 1];
-    const state = {from: first, to: last, title: "", client: "", engine: "", source: ""};
+    const state = {from: first, to: last, title: "", status: "", engine: "", source: ""};
     // Each row carries what the filters test; draw.js writes it.
     const rows = [...root.querySelectorAll(".entry")].map((el) => ({
       el,
@@ -45,13 +45,13 @@
 
     const apply = () => {
       const full = state.from === first && state.to === last;
-      const filtered = !full || state.title !== "" || state.client !== "" || state.engine !== "" || state.source !== "";
+      const filtered = !full || state.title !== "" || state.status !== "" || state.engine !== "" || state.source !== "";
       let shown = 0;
       const sectionShown = new Set();
       for (const r of rows) {
         const on = (r.year ? r.year >= state.from && r.year <= state.to : full)
           && (state.title === "" || r.title === state.title)
-          && (state.client === "" || r.st === state.client)
+          && (state.status === "" || r.st === state.status)
           && (state.engine === "" || r.family === state.engine)
           && (state.source === "" || r.physical);
         r.el.hidden = !on;
@@ -83,14 +83,16 @@
       return [raw, lower, "vu-" + bare, "vu-" + bare + ".0"].map((id) => document.getElementById(id)).find(Boolean) || null;
     };
 
-    // The filters are in the address too, so that a filtered list can be shared: ?client=lost&source=physical. Only
+    // The filters are in the address too, so that a filtered list can be shared: ?status=lost&source=physical. Only
     // a filter that is set is written, in lower case, and the rest of the query is left as it was. A #... naming a row
-    // the filters now hide is dropped, since opening that address would clear them.
+    // the filters now hide is dropped, since opening that address would clear them. Links shared before 2026-09-29
+    // say client= for the status filter, and still work.
+    const LEGACY = {status: "client"};
     const readAddress = () => {
       const query = new URLSearchParams(location.search);
       for (const select of selects) {
         const key = select.dataset.filter;
-        const wanted = (query.get(key) || "").trim().toLowerCase();
+        const wanted = (query.get(key) || (LEGACY[key] && query.get(LEGACY[key])) || "").trim().toLowerCase();
         const option = wanted ? [...select.options].find((o) => o.value.toLowerCase() === wanted) : null;
         if (option) {
           select.value = option.value;
@@ -102,7 +104,12 @@
     const writeAddress = () => {
       const query = new URLSearchParams(location.search);
       const keys = selects.map((select) => select.dataset.filter);
-      keys.forEach((key) => query.delete(key));
+      keys.forEach((key) => {
+        query.delete(key);
+        if (LEGACY[key]) {
+          query.delete(LEGACY[key]);
+        }
+      });
       for (const key of keys) {
         const unset = state[key] === "" || (key === "from" && state.from === first) || (key === "to" && state.to === last);
         if (!unset) {
@@ -116,7 +123,7 @@
     };
 
     const clear = () => {
-      Object.assign(state, {from: first, to: last, title: "", client: "", engine: "", source: ""});
+      Object.assign(state, {from: first, to: last, title: "", status: "", engine: "", source: ""});
       for (const select of selects) {
         select.value = String(state[select.dataset.filter]);
       }

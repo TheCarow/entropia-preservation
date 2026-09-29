@@ -78,7 +78,9 @@ line. Any valid JSON works.
 
 Pushing to `main` publishes the site. GitHub runs `render.js`, which draws the whole version list into
 `index.html` and puts `site.css` inside it, so the published page reads in full without JavaScript and web archives
-keep every version, file, picture and release note. Nothing needs running by hand.
+keep every version, file, picture and release note. The published pictures leave out the hidden data Photoshop
+saves in them (edit history, print settings, a preview), which is nearly half their weight; the pictures in the
+folder keep it. Nothing needs running by hand.
 
 A mistake in `versions.json` or `notes.md`, or a picture that isn't in the folder, stops the publish, and the last
 good version stays up. The Publish run on the repository's Actions tab lists what is wrong. A local preview draws the
@@ -110,11 +112,12 @@ opens its files instead, and a link to a version the filters hide clears the fil
 `-files` or `-notes` opens that panel instead: `#vu-5.4-files`. The `#` at the end of each row is that
 row's link. Files on rows of their own have links too, such as `#file-entropia-universe-exe`.
 
-The filters are in the address as well, so a filtered list can be shared: `index.html?client=lost&source=physical`.
-The parameters are `from` and `to` (years), `title` (`pe` or `eu`), `client` (`preserved`, `partial` or `lost`),
+The filters are in the address as well, so a filtered list can be shared: `index.html?status=lost&source=physical`.
+The parameters are `from` and `to` (years), `title` (`pe` or `eu`), `status` (`preserved`, `partial` or `lost`),
 `engine` (`netimmerse`, `gamebryo` or `cryengine2`) and `source` (`physical`). Only the filters that are set appear,
-and the address changes as they are chosen. A link can carry both, as in `?client=lost#vu-6.1`; if the filters hide
-that version, they are cleared first, as above.
+and the address changes as they are chosen. A link can carry both, as in `?status=lost#vu-6.1`; if the filters hide
+that version, they are cleared first, as above. Links from before 2026-09-29 say `client=` for the status filter,
+and still work.
 
 ## Source ranking
 

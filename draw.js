@@ -1006,7 +1006,7 @@
 <div class="range" role="group" aria-label="Date"><span>Date</span>${select("from", "From year", years, years.length ? years[0][0] : "")}`
       + `<span>to</span>${select("to", "To year", years, last)}</div>
 <label><span>Title</span>${select("title", "Title", titles, "")}</label>
-<label><span>Client</span>${select("client", "Client", clients, "")}</label>
+<label><span>Status</span>${select("status", "Status", clients, "")}</label>
 <label><span>Engine</span>${select("engine", "Engine", engines, "")}</label>
 <label><span>Source</span>${select("source", "Source", sources, "")}</label>
 <span class="spacer"></span><button type="button" class="fclear" hidden>Clear filters</button>

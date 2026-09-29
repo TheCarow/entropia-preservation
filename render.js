@@ -78,7 +78,94 @@ for (const name of FILES) {
   fs.copyFileSync(path.join(ROOT, name), path.join(OUT, name));
 }
 fs.writeFileSync(path.join(OUT, "index.html"), drawn);
+let saved = 0;
 for (const folder of FOLDERS) {
-  fs.cpSync(path.join(ROOT, folder), path.join(OUT, folder), {recursive: true});
+  saved += copyPictures(path.join(ROOT, folder), path.join(OUT, folder));
 }
-console.log(`Drew ${m.rows.length} rows into index.html and wrote the site to ${OUT}`);
+console.log(`Drew ${m.rows.length} rows into index.html and wrote the site to ${OUT}; `
+  + `left ${Math.round(saved / 1024)} KB of hidden picture data out`);
+
+// Photoshop saves its edit history, print settings and a small preview inside every picture: in a JPEG, the APP1
+// (Exif, XMP) and APP13 segments, and in a PNG, text chunks. They show nowhere and were 44% of the thumbnails' weight
+// on 2026-09-29, so the published copies leave them out. The picture data itself is copied byte for byte, so not a
+// pixel changes, and the originals in the folder keep everything. An Exif segment that turns the picture is kept.
+function copyPictures(from, to) {
+  fs.mkdirSync(to, {recursive: true});
+  let saved = 0;
+  for (const entry of fs.readdirSync(from, {withFileTypes: true})) {
+    const source = path.join(from, entry.name);
+    const target = path.join(to, entry.name);
+    if (entry.isDirectory()) {
+      saved += copyPictures(source, target);
+      continue;
+    }
+    const bytes = fs.readFileSync(source);
+    const lean = /\.jpe?g$/i.test(entry.name) ? leanJpeg(bytes) : /\.png$/i.test(entry.name) ? leanPng(bytes) : bytes;
+    fs.writeFileSync(target, lean);
+    saved += bytes.length - lean.length;
+  }
+  return saved;
+}
+
+function leanJpeg(bytes) {
+  if (bytes[0] !== 0xff || bytes[1] !== 0xd8) {
+    return bytes;
+  }
+  const kept = [bytes.subarray(0, 2)];
+  let at = 2;
+  while (at + 4 <= bytes.length && bytes[at] === 0xff) {
+    const marker = bytes[at + 1];
+    if (marker === 0xda) {
+      break;
+    }
+    const end = at + 2 + bytes.readUInt16BE(at + 2);
+    const segment = bytes.subarray(at, end);
+    const exif = marker === 0xe1 && segment.subarray(4, 10).toString("latin1") === "Exif\0\0";
+    const metadata = marker === 0xe1 || marker === 0xec || marker === 0xed || marker === 0xfe;
+    if (!metadata || (exif && turns(segment.subarray(10)))) {
+      kept.push(segment);
+    }
+    at = end;
+  }
+  if (bytes[at] !== 0xff || bytes[at + 1] !== 0xda) {
+    return bytes;
+  }
+  kept.push(bytes.subarray(at));
+  return Buffer.concat(kept);
+}
+
+// Whether an Exif block sets an orientation other than upright, which a browser applies when it draws the picture.
+function turns(tiff) {
+  const little = tiff.subarray(0, 2).toString("latin1") === "II";
+  const u16 = (i) => (little ? tiff.readUInt16LE(i) : tiff.readUInt16BE(i));
+  const u32 = (i) => (little ? tiff.readUInt32LE(i) : tiff.readUInt32BE(i));
+  try {
+    const ifd = u32(4);
+    for (let k = 0; k < u16(ifd); k += 1) {
+      const entry = ifd + 2 + k * 12;
+      if (u16(entry) === 0x0112) {
+        return u16(entry + 8) !== 1;
+      }
+    }
+  } catch (error) {
+    return true;
+  }
+  return false;
+}
+
+function leanPng(bytes) {
+  if (bytes.subarray(1, 4).toString("latin1") !== "PNG") {
+    return bytes;
+  }
+  const kept = [bytes.subarray(0, 8)];
+  let at = 8;
+  while (at + 12 <= bytes.length) {
+    const end = at + 12 + bytes.readUInt32BE(at);
+    const type = bytes.subarray(at + 4, at + 8).toString("latin1");
+    if (!["tEXt", "zTXt", "iTXt"].includes(type)) {
+      kept.push(bytes.subarray(at, end));
+    }
+    at = end;
+  }
+  return at === bytes.length ? Buffer.concat(kept) : bytes;
+}
