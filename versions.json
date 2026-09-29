@@ -2428,9 +2428,18 @@
       "date": "2008-04",
       "data_ini": "9010301",
       "status": "preserved",
+      "note": "An installed client, not an installer. PC Gamer Lietuva installed GamersHell's December 2007 download and archived the folder, GamersHell's readme and link included. Its Entropia.exe reads 9.1.5.0.",
       "sources": [
-        {"label": "PC Gamer Lietuva DVD 2008 Nr. 4 (Lithuania)", "physical": true, "available": true, "image": "images/discs/pc-gamer-lietuva-dvd-2008-nr-4-lithuania.jpg", "note": "Installed files."},
-        {"label": "Archive.org: PC Gamer Lietuva DVD 2008 Nr. 4", "url": "https://archive.org/details/pcg-lt-04-2008-dvd_202403", "available": true, "note": "Installed files.", "preservation_needed": "1 Backup"}
+        {"label": "PC Gamer Lietuva DVD 2008 Nr. 4 (Lithuania)", "physical": true, "available": true, "image": "images/discs/pc-gamer-lietuva-dvd-2008-nr-4-lithuania.jpg"},
+        {"label": "Archive.org: PC Gamer Lietuva DVD 2008 Nr. 4", "url": "https://archive.org/details/pcg-lt-04-2008-dvd_202403", "available": true, "preservation_needed": "1 Backup"},
+        {
+          "label": "GamersHell: Entropia Universe Client",
+          "available": false,
+          "evidence": [
+            {"label": "Archive.org: gamershell.com, 2007-12-24", "url": "https://web.archive.org/web/20071224180252/http://www.gamershell.com:80/download_22559.shtml"}
+          ],
+          "note": "The magazine's copy came from here: 1.18 GB, hosted from 2007-12-23. GamersHell later put VU 9.3.2 in its place."
+        }
       ]
     },
     {
@@ -2464,6 +2473,14 @@
           "evidence": [
             {"label": "canoz92, 2008-09-01", "url": "https://forum.entropiauniverse.com/t/about-patch-9-3-4/108001/1"}
           ]
+        },
+        {
+          "label": "GamersHell: Entropia Universe v9.3.2 Client",
+          "available": false,
+          "evidence": [
+            {"label": "Archive.org: gamershell.com, 2008-12-14", "url": "https://web.archive.org/web/20081214200107/http://www.gamershell.com:80/download_22559.shtml"}
+          ],
+          "note": "1.35 GB, on the same GamersHell page that had carried 9.1.5."
         }
       ]
     },
