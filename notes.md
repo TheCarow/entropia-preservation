@@ -109,7 +109,125 @@ With over 50 skills now available, ranging from Combat Reflexes, Courage, Geolog
 **Other**
 - Weapon and the clothing system has been extended.
 ## VU 4.1
-The Project Entropia Development Team implemented its largest version update just before Christmas 2002. While its content included some major enhancements to Calypso, including a tripling of the geographical size of Calypso, many of our participants experienced problems logging onto our servers during the Christmas period.
+PROJECT ENTROPIA VERSION UPDATE 4.1
+2002-12-20
+
+*** PLEASE READ THIS DOCUMENT IF YOU FIND SOMETHING STRANGE IN PROJECT ENTROPIA! IT MIGHT PROVIDE THE INFO YOU NEED BEFORE APPROACHING PROJECT ENTROPIA SUPPORT! ***
+
+Welcome!
+The Version Update 4.1 (“VU 4.1”) for Project Entropia is a major step in the development of Project Entropia. Information about the content in the version update is located in this document.
+
+***READ***
+OLD CLAIM RODS EXPIRATION MISMATCH
+***READ***
+From the time the Project Entropia universe servers come back online, all old claim rods (ie. claim rods placed before the VU 4.1) will have an expiration time of 168 hours (one week), counting real time (not server uptime). The corresponding Claim Deeds show *NO* time limit, and stay in the inventory until 168 real hours has passed since the first avatar login since the VU 4.1 (ie. it is very possible to have claim deeds in the inventory after a week’s time pointing at Claim Rods that have expired)! The old deeds will also sometime show an expiration message twice, with some time between. We are sorry about this irritating bug. This is due to a bug in the synch between the rods and the deeds.
+All claims found *AFTER* the VU 4.1 have the correct time synch, and the time limit will vary depending on the size of the claim (from one hour and up). Your Claim Deed will hold the current information, including the time limit.
+
+***READ***
+CONSTRUCTION COMPONENT REDESIGN
+***READ***
+The VU 4.1 has a revised component handling system in place. Do not worry - no old knowledge or money is lost by this. All components are transformed into stackable heaps of items, to reduce strain and loading delays. We will also adjust the values of the components, but without any actual loss or gain for anybody. For example - before VU 4.1, a "Component A" was non-stackable and had a value of 20 PEC. When it later is made stackable, its value might be, say, 4 PEC a piece instead. If a crafter has a "Component A" in his/her inventory the component will, after the VU 4.1, be transformed into 5 stackable "Component A" instead (keeping the total value of 20 PEC). Some low-level components may stack as an amount of zero items. If that is the case, please stack more items together or sell the component. The value is the same as before - no money is lost!
+
+***READ***
+MELEE WEAPONS UPDATE
+***READ***
+To update the bugged swords and knives you have to place the item in the Repair Terminal. That will eliminate the bug with the melee weapons doing only one point of damage and not showing decay on the client properly.
+
+VERSION UPDATE FEATURES
+
+**Exchange**
+The Project Entropia Exchange is up! Here you can trade shares in various companies and organizations. The list of companies will increase as more and more are introduced. In the initial launch two entities exist - Sphere Ordnance (the Calypso ammunition manufacturer) and Friends of MindArk.
+
+**Society**
+The society terminals have been reopened, and have gone through a complete redesign. Now you can create your own society, or join others. Expect the functions to expand considerably in future VU:s.
+
+**City Protection**
+The outposts and cities of Calypso have received some automated defence systems helping colonists who find themselves chased by a predator. These defence systems will kill all hostile entities coming within range. Beware of hot shell casings!
+
+**Death**
+The death system is updated. Now a dead avatar is visible as an eerie ghost by live avatars.
+
+**Clothes**
+New clothes are present in Project Entropia, ranging from different underwear as well as more strict business suits.
+
+**New Blueprints Designs**
+There are several new designs available among the blueprints.
+
+**Music Galore!**
+The jukeboxes around Calypso now have a wide variety of music available. Also, the jukeboxes can be found in many more places than before, warranting a lot of cool music around.
+
+**Dance Extravaganza**
+Together with the new and expanded jukeboxes, there has also been a redesign in the Emote department - a new section has been created called “Dance”, which brings you several new dances to perform.
+
+**Special Christmas Surprise**
+**Ho ho ho.**
+
+**Tweaks in the Skill System**
+The skill system has been tweaked.
+
+**Project Entropia Time**
+There is a universal MindArk Time (or Calypso Time) present in the Project Entropia universe. Press the “C” button (as in “Clock”) to see the current Calypso Time. This is the time that is used in all systems in Project Entropia, including the Claim Rod Expiration Time limit.
+
+**World Size**
+The continent of Eudoria is completely opened up, allowing for a land mass approximately three times the size compared to the size before the VU 4.1. This also means that there is a new map present.
+
+**Claim Rod Expiration Time Limit**
+Claim Rods have had their old time limits shortened considerably, which now ranges from one hour and upwards, deepening on the size of the claim. Drill Towers are not affected by the Time Limit.
+NOTE: When the VU 4.1 comes live, all old claim rods will have a time limit of 168 hours (one week) until they are removed. Please also check the “Read Section” above and the “Known Issues Section” below for further info.
+
+**Alternative Methods of Transferring Money into PEDs**
+You can visit the Project Entropia web shop https://shop.project-entropia.com to generate a receipt to use for money transfers with your real-life bank. The functions are available under the “Alt. Payment” button, at the bottom.
+
+**General Stability Update**
+A variety of technical systems in Project Entropia have undergone a big workout and are leaner, meaner and cleaner.
+
+**Updated Mobile Service Centers present**
+New MSC:s are present - several of the MSC Deluxe version have enhanced entertainment facilities and an Exchange terminals present.
+
+**Construction Components Redesign**
+The VU 4.1 has a revised component handling system in place. All components have been transformed into stackable heaps of items, to reduce strain and loading delays. Please also see the “Read Section” above.
+
+**Melee Weapons Bug Fixed**
+The bug that made melee weapons deal minimal damage and not update the condition on the client correctly has been fixed. Please note that you need to repair your weapons in order to update their status.
+
+**Attributes and Blueprint Quality Rating Values Fixed**
+The avatar attributes (Strength, Agility, etc.) and the Blueprint Quality Ratings were shown wrongly on the client, indicating values up to the millions. The correct values are now shown.
+
+**Autostacking Feature**
+All stackable items will automatically stack in the inventory, if possible. Old items have to be merged manually the first time though.
+
+**Sphere Ordnance Corporate HQ**
+One of the corporations, namely Sphere Ordnance, that are on the Exchange has a HQ located in Hadesheim.
+
+**Disable Sound Enhancement**
+The option to Disable Sound the sound under the Setup menu in the Login screen has been tweaked. If you experience sound problems during Project Entropia participation, please try to disable the sound and see if the problem persists.
+
+**Updated Sounds**
+Many sounds have been updated.
+
+**Blueprint Books Looks Updated**
+The looks on the blueprint books have been optimized.
+
+**KNOWN ISSUES**
+
+**Radar is not updating all the time**
+Yes, we know. It has become better though. It will be completely fixed in the future.
+
+**Yes, you can run through trees**
+This is not a bug.
+
+**Crafting**
+Every time after you have pressed the “Take All” button in a crafting window and if there are two or more crafted items present, your have to restart the crafting process as the “Manufacture” button becomes stuck.
+
+**Missing icons on clothes and items**
+On certain PC configurations sometime the item icons in the inventory becomes invisible, or you receive a dummy icon called “Unable to show”. If this happens to you, please update to the latest video card drivers, check if Project Entropia officially supports your video card, and also change the video settings on the Setup button in the initial login screen. If this fails, please contact the Project Entropia Support.
+
+**Blueprint missing designs**
+If you check the “Stats” button on a blueprint, you do not see the designs (ie. which components that is required to make the blueprint component or item). To get the info about the different designs, you must load up the blueprint into a Construction machine. Sorry about the inconvenience.
+
+**Claim Rod Expiration Time Mismatch**
+From the time the Project Entropia universe servers come back online, all old claim rods (ie. claim rods placed before the VU 4.1) will have an expiration time of 168 hours (one week), counting real time (not server uptime). The corresponding Claim Deeds show *NO* time limit, and stay in the inventory until 168 real hours has passed since the first avatar login since the VU 4.1 (ie. it is very possible to have claim deeds in the inventory after a week’s time pointing at Claim Rods that have expired)! The old deeds will also sometime show an expiration message twice, with some time between. We are sorry about this irritating bug. This is due to a bug in the synch between the rods and the deeds.
+All claims found *AFTER* the VU 4.1 have the correct time synch, and the time limit will vary depending on the size of the claim (from one hour and up). Your Claim Deed will hold the current information, including the time limit.
 ## VU 4.2
 VU 4.2 PE Gone Gold!!!
 

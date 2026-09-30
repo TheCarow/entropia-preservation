@@ -74,6 +74,9 @@
       "title": "PE",
       "engine": "NetImmerse",
       "changes": ["Tripling of the geographical size of Calypso"],
+      "transcribed_from": [
+        {"label": "perc.info - VU 4.1 listing (fan site, 2004)", "url": "https://web.archive.org/web/20041026115122/http://www.perc.info:80/index.asp?page=63"}
+      ],
       "sources": [
         {"tier": 1, "label": "project-entropia.com - Project Entropia Version 4.1 Update Information - 2003-01-09", "url": "https://web.archive.org/web/20030214131729/http://www.project-entropia.com:80/news/main.asp?newsSubjectGo=update", "date": "2003-01-09"},
         {"tier": 4, "label": "perc.info - VU 4.1 listing (fan site, 2004)", "url": "https://web.archive.org/web/20041026115122/http://www.perc.info:80/index.asp?page=63"},
@@ -248,6 +251,7 @@
       "date": "2003-12-17",
       "title": "PE",
       "engine": "NetImmerse",
+      "changes": ["~100 new weapons", "Near a dozen new armor sets"],
       "note_until_transcribed": "MindArk's own 5.4 content list (17 Dec 2003) is the first source below.",
       "transcribed_from": [
         {"label": "project-entropia.com - VU 5.4 content", "url": "https://web.archive.org/web/20041224010507/http://www.project-entropia.com:80/StdContent.ajp?Id=1077"}
@@ -453,7 +457,7 @@
       "date": "2004-10-06",
       "title": "PE",
       "engine": "Gamebryo",
-      "changes": ["Amethera continent", "Dynamic indoor lights", "Movement speed changes"],
+      "changes": ["Amethera continent", "Dynamic indoor lights", "Movement speed changes", "Finite sweat per creature"],
       "sources": [
         {"tier": 1, "label": "project-entropia.com - VU 6.1 content list", "url": "https://web.archive.org/web/20041224011930/http://www.project-entropia.com:80/StdContent.ajp?Id=1416", "date": "2004-12-24"},
         {"tier": 1, "label": "project-entropia.com - VU 6.1 known issues", "url": "https://web.archive.org/web/20041224013056/http://www.project-entropia.com:80/StdContent.ajp?Id=1434", "date": "2004-12-24"},
@@ -2505,6 +2509,7 @@
       "date": "2008-12",
       "data_ini": "9030501",
       "status": "preserved",
+      "note": "Ships with no scripts: its Data folder has no Scripts.bnt, which the 9.1.5 and 9.2.2 clients carry.",
       "sources": [
         {"label": "PC Advisor magazine issue 161 December 2008 DVD (United Kingdom)", "physical": true, "available": true, "image": "images/discs/pc-advisor-magazine-issue-161-december-2008-dvd-united-kingdom.jpg", "preservation_needed": "Archive.org"},
         {"label": "Archive.org: PC Advisor December 2008 Issue 161 (Coverdisc DVD)", "url": "https://archive.org/details/PC_Advisor_December_2008_Issue_161_Coverdisc_DVD", "available": true}
