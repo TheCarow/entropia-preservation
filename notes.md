@@ -2256,7 +2256,7 @@ Project Entropia will evaluate the current graphic driver and audio codecs in us
 **Client stability**  
 Several potential crash issues are removed from the Project Entropia client software.
 ## VU 7.4
-**isual update**  
+**Visual update**  
 Project Entropia has received a general facelift in many areas. Journey around Calypso and experience the wonder for yourself.
 
 **Skill experience system update**  
@@ -2328,19 +2328,6 @@ All tailored clothes shown as “Uncolored” in the auction, even if they are c
 
 You can’t repair an item with attachments attached to it. You have to detach them prior to repairing.
 ## VU 7.4.X
-**25 May 2005**
-some mini update fixing video cards issues has come
-
-along with it came this:
-
-> **Information**: As a note about the skill experience system in VU 7.4; the choice of equipment will also influence the experience received.
-
-WTF is that supposed to mean?
-shootin at a uber mob with a adj canon or somethin will give u high skills?
-
-anyway mann mph on bigger creatures was no skills also
-
-**27 May 2005**
 Some areas have been updated in VU 7.4
 - Skill experience gains tweaked, for example within the mining field. This has been done after analyzing statistics and the highly valued feedback from our intrested community.
 - The graduation level for disciples has been altered for some skills, given that skill experience gain is changed.

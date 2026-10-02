@@ -538,6 +538,7 @@
       "date": "2005-02-15",
       "title": "PE",
       "engine": "Gamebryo",
+      "changes": ["Updated several animations"],
       "sources": [
         {"tier": 1, "label": "project-entropia.com - VU 7.1 content list", "url": "https://web.archive.org/web/20050404153849/http://www.project-entropia.com:80/StdContent.ajp?Id=1637", "date": "2005-04-04"},
         {"tier": 4, "label": "Entropia Universe forum - VU 7.1 Listing (Einstein)", "url": "https://forum.entropiauniverse.com/t/vu-7-1-listing/346", "date": "2005-02-15"}
@@ -557,7 +558,7 @@
       "date": "2005-03-21",
       "title": "PE",
       "engine": "Gamebryo",
-      "changes": ["2 new cities added", "Amethera apartments"],
+      "changes": ["2 new cities added", "Amethera apartments", "Armor and clothes visual fixes"],
       "sources": [
         {"tier": 1, "label": "project-entropia.com - PE Update applied 21 Mar 2005", "url": "https://web.archive.org/web/20050326070715/http://www.project-entropia.com:80/news/Index.ajp", "date": "2005-03-21"},
         {"tier": 1, "label": "project-entropia.com - VU 7.2 content list", "url": "https://web.archive.org/web/20050326152807/http://www.project-entropia.com:80/StdContent.ajp?Id=1735", "date": "2005-03-26"},
@@ -594,7 +595,7 @@
       "date": "2005-05-24",
       "title": "PE",
       "engine": "Gamebryo",
-      "changes": ["New sounds, including ambient, and music"],
+      "changes": ["Visual updates", "New sounds, including ambient, and music"],
       "sources": [
         {"tier": 1, "label": "project-entropia.com - Project Entropia Version Update 7.4 24 May 2005", "url": "https://web.archive.org/web/20050526023548/http://www.project-entropia.com:80/news/Index.ajp", "date": "2005-05-24"},
         {"tier": 1, "label": "project-entropia.com - VU 7.4 content list", "url": "https://web.archive.org/web/20060317185227/http://www.project-entropia.com/StdContent.ajp?Id=1874", "from_sheet": true},
@@ -700,7 +701,7 @@
       "date": "2005-11-01",
       "title": "PE",
       "engine": "Gamebryo",
-      "changes": ["Future advertising system trial"],
+      "changes": ["Updated water visuals", "Port Atlantis visual update", "Future advertising system trial", "New music"],
       "client_status": "partial",
       "sources": [
         {"tier": 1, "label": "project-entropia.com - PE Updated to VU 7.7 01 Nov 2005", "url": "https://web.archive.org/web/20051104095434/http://www.project-entropia.com:80/news/Index.ajp", "date": "2005-11-01"},
@@ -722,7 +723,6 @@
       "date": "2005-11-07",
       "title": "PE",
       "engine": "Gamebryo",
-      "changes": ["Updated water visuals", "Port Atlantis visual update", "New music"],
       "sources": [
         {"tier": 1, "label": "project-entropia.com - news page", "url": "https://web.archive.org/web/20051130022133/http://www.project-entropia.com/news/Index.ajp", "from_sheet": true}
       ]
