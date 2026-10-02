@@ -1169,6 +1169,20 @@ ixed an issue with "Corrupt Paladin arm-guards" in the loot. The correct armor w
 -   Fixed an icon issue with Attachment blueprints (they all showed being level I, regardless of actual level).
 -   Some minor stability fixes.
 ## VU 5.5
+**VU 5.5 Content List**  
+
+**PROJECT ENTROPIA VERSION UPDATE 5.5**  
+2004-02-17
+
+*** PLEASE READ THIS DOCUMENT IF YOU FIND SOMETHING OUT OF THE ORDINARY IN PROJECT ENTROPIA! IT MIGHT PROVIDE THE INFO YOU NEED BEFORE CONTACTING PROJECT ENTROPIA SUPPORT! ***
+
+**General Information**  
+The Version Update 5.5 (“VU 5.5”) for Project Entropia is a major step in the development of Project Entropia. Information about the content of the version update is located in this document.
+
+--
+
+**VERSION UPDATE FEATURES**
+
 **New Society system**  
 A completely new society system added. Societies are an integral part of PE structure and development in the virtual universe. Therefore a lot of energy has been put into the design and the functionality. Among the new society features included are:
 
