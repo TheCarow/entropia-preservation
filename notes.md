@@ -490,16 +490,108 @@ This is not a bug.
 On certain PC configurations sometime the item icons in the inventory become invisible, or you receive a dummy icon called “Unable to show”. If this happens to you, please update to the latest video card drivers, check if Project Entropia officially supports your video card, and also change the video settings on the Setup button in the initial login screen. If this fails, please contact the Project Entropia Support.
 ## VU 4.4
 **Auctions**  
-Auction houses and independent auctioneers have been added throughout the continent of Calypso. These points of trade will increase the commerce between participants and societies. Everything that normally can be traded between participants can be traded on the global auction market.  
+Project Entropia Version Update 4.4 - 2003-04-03
 
+_*** PLEASE READ THIS DOCUMENT IF YOU FIND SOMETHING STRANGE IN PROJECT ENTROPIA! IT MIGHT PROVIDE THE INFO YOU NEED BEFORE CONTACTING PROJECT ENTROPIA SUPPORT! ***_  
+  
+**Welcome!**  
+The Version Update 4.4 (“VU 4.4”) for Project Entropia is a major step in the development of Project Entropia. Information about the content of the version update is located in this document. The VU 4.4 will come within a few days.  
+  
+**VERSION UPDATE FEATURES**  
+  
+**Auctions**  
+Auction houses and independent auctioneers have been added throughout the continent of Calypso. These points of trade will increase the commerce between participants and societies. Everything that normally can be traded between participants can be traded on the global auction market.  
+  
+**Enhanced Communication between Participants**  
+Several enhancements have been made to ensure secure communication between participants. A new special Society tab has been added for intra-society communication. A “Friends” list has also been added, in which a participant can add friends to and chat with them directly if they are online, regardless of distance. All messages sent and received through the Friends-list are also saved in the client folder, in a file called “FriendChat.txt”.  
+  
+**Clothes Making**  
+The avatars now can make clothes using raw material from the fauna of Calypso. The system works a lot like the construction system with raw material, a blueprint of the design one wants to make, and a special machine for performing the action.  
+  
+**Colorize**  
+Participants can also colorize their newly created clothes to suit their own style and feeling.  
+  
+**Added Uniforms**  
+Official MindArk representatives present in Project Entropia will have distinct clothing showing they are officials. Also, several of the NPC traders have received special clothes.  
+  
+**Avatar Information Sheet Present**  
+A new section displaying the Avatar skill, skill levels, skill ranks, and skill XP has been designed. The section also has info about the avatar name, social status and professional standings. This information section has also been prepared for future implementation of avatar reputation, fame and credibility, as well as background, trivia and statistics.  
+  
 **Added Boxing Ring**  
 Boxing rings have been added. These work like limited PvP areas where combat can take place. The rules are set by the participants.  
-
+  
 **Added Production Platform**  
 An Omegaton Survey Probe Ship has dispatched an automated production platform. This platform has gone missing and Omegaton has even denied any knowledge about its whereabouts. Rumor has it that it indeed functions and is pumping crude oil out into the open, free for grabs!  
-
+  
 **Added Catwalk**  
-A catwalk stage has been built just outside the fashionable Nymphtown, to enhance fashion shows, dance competitions, and other kinds of entertainment.
+A catwalk stage has been built just outside the fashionable Nymphtown, to enhance fashion shows, dance competitions, and other kinds of entertainment.  
+  
+**Added Range Information to Items Info**  
+The items info view port now displays the range for all ranged weapons.  
+  
+**Changed Condition Function**  
+Items now stop working at a condition of 10%, instead of 0% as before.  
+  
+**Several Updates in the Skills Section**  
+Many new skills have been added. More details are also now available on the descriptions of several skills.  
+  
+**Fierce Monsters**  
+Several monsters have evolved on the Calypso surface.  
+  
+**More Items**  
+The stock of items present in Project Entropia has been expanded, with new weapons, armors, tools, and other items.  
+  
+**Added Support for Credit Cards**  
+The Project Entropia Bank now has support for Visa once again. In the future, Diners Club, and American Express cards will also be supported. NOTE! THE VISA FUNCTION WILL COME ONLINE A FEW DAYS AFTER THE ACTUAL VU IS RELEASED!!  
+  
+**Robots are Gaining Strength**  
+While attempting to strike at Calypso settlements several times already, the robots have something else up their collective sleeve. Some unconfirmed data reports at least one new type of robot never before seen.  
+  
+**Support for DirectX 9 Implemented**  
+Project Entropia now has DirectX 9 support. Please note that from this update forward, Project Entropia requires Microsoft(r) DirectX(r) version 9.0, which can be obtained from Microsoft's official site: http://www.microsoft.com/windows/directx/.  
+  
+**New Entry Points for Newcomers**  
+Newcomers to Calypso will find themselves closer to civilized areas.  
+  
+**New Sound Engine**  
+Project Entropia now has a completely new sound system in place, which will grant Project Entropia much better options using sound and music as mood enhancers and to create cool effects.  
+  
+**Ghost Jumping**  
+The restless soul of a dead Avatar can now jump.  
+  
+**General Updates to the Client Software**  
+Several fixes and updates have been performed on the Project Entropia Client Software to increase stability and performance.  
+  
+**Client Error Messages Updated**  
+The error messages given to participants when they fail to connect to Project Entropia have been updated and are streamlined.  
+  
+**Zombie Creatures Be Gone**  
+The problem with “undead” creatures striking back after they have been killed has been fixed.  
+  
+**Rebalancing**  
+Almost every system has been reviewed and rebalanced somewhat.  
+  
+**KNOWN ISSUES**  
+  
+**Yes, you can run through trees**  
+This is not a bug.  
+  
+**Missing icons on clothes and items**  
+On certain PC configurations sometimes the item icons in the inventory become invisible, or you receive a dummy icon called “Unable to show”. If this happens to you, please update to the latest video card drivers, check if Project Entropia officially supports your video card, and also change the video settings on the Setup button in the initial login screen. If this fails, please contact the Project Entropia Support Team.  
+  
+**Tab key does not work**  
+The function of the tab key has gone missing.  
+  
+**Society chat and Kicked Out Members**  
+When a society member is kicked out of his or her society, the former member is still allowed to use and listen to the Society Chat messages, until the former member logs off Project Entropia.  
+  
+**Reverb**  
+Project Entropia now supports environmental effects set in applications like Creative(r) Surround Mixer(r). If you experience exaggerated reverb effects in Project Entropia you should check your surround mixer settings, and disable “game effects” if necessary.  
+  
+**SPECIAL**  
+  
+**Scan**  
+The first time you scan an entity in Project Entropia after VU 4.4, your will transfer your level in “Enemy Scan” to the four skills “Scan Human”, “Scan Animal”, “Scan Robot”, and “Scan Mutant”. The skill Enemy Scan is removed. _For example: You have Enemy Scan level 50. The first time you scan an entity you will gain level 50 to “Scan Human”, “Scan Animal”, “Scan Robot”, and “Scan Mutant”._
 ## VU 4.5
 April 25, 2003 13:58:26 GMT
 
