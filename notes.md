@@ -651,8 +651,158 @@ MindArk PE AB
 Mini Patches
 =========================================================
 ## VU 5.1
- - Added Lost ruins location.
- - Added the city of Minopolis, located some distance north of Nymphtown.
+**PROJECT ENTROPIA VERSION UPDATE 5.1**  
+2003-06-13
+
+***** PLEASE READ THIS DOCUMENT IF YOU FIND SOMETHING STRANGE IN PROJECT ENTROPIA! IT MIGHT PROVIDE THE INFO YOU NEED BEFORE CONTACTING PROJECT ENTROPIA SUPPORT! *****
+
+Welcome!  
+The Version Update 5.1 (“VU 5.1”) for Project Entropia is a major step in the development of Project Entropia. Information about the content of the version update is located in this document.
+
+We are still heavy at work with the mission to reduce lag and increase performance. In the upcoming VU 5.2 the new Item Management System will be in place, and once it is, we envision that all problems correlating to items will be solved once and for all. This release will make way to this major upgrade. Please check the Known Issues section in the Support section on the Project Entropia web site for current issues. Also, the best place for up to date info about what is going on is the Project Entropia Developer’s Post forum on the Project Entropia web site.
+
+VU 5.1 is expected to arrive around the 20:th of June. The date may change though.  
+
+**VERSION UPDATE FEATURES**
+
+**Attachment crafting level 6-10**  
+Attachment crafting on level 6-10 is in, together with the associated components needed. At the moment none of these designs require Lysterium. ,-)
+
+**The Project Entropia Newcomer Shuttle Port**  
+Just south of Port Atlantis the Federal Empire has built a Shuttle Port, where all newcomers arrive when coming to Calypso. This area has information booths available, giving the basics of Project Entropia.
+
+**Project Entropia Transfer Center**  
+The old Project Entropia Bank is replaced by the new Project Entropia Transfer Center.
+
+**New deposit option**  
+For those who do not have a credit card a new pay-by-phone option is implemented in the new Project Entropia Transfer Center. Just pick up the phone, dial a number, and you get PED to your avatar, while your phone bill is charged.
+
+**Avatar Trivia and Avatar Background**  
+The avatar has the possibility to make a personal presentation of himself in the Avatar Interface that will be visible to other Avatars.
+
+**Rebalance success rates while crafting and mining**  
+Generally you will succeed with your action more often, but the output value is reduced.
+
+**Rebalanced skill advancement**  
+Several skills now have a higher increase rate, mostly those that have less skill checks per time frame. This mostly affects mining and crafting, and does not affect hunting much.
+
+**Rebalanced attribute advancement**  
+The attributes now increase in greater steps than before, especially at lower levels.
+
+**Possibility to learn from mistake**  
+When failing using a skill the avatar still has a small chance of raising the skill.
+
+**Dynamic XP message**  
+The XP gain messages have been updated somewhat.
+
+**Society in target square**  
+When targeting an avatar the society the avatar is a member of will show in the target square.
+
+**Feedback on 15% Condition**  
+When an item is deteriorated to 15% of its full Condition a message will tell the participant it’s a good time to consider repairing the item.
+
+**Recharge delay bar on melee weapons**  
+When using a melee weapon a delay bar will show when the weapon is ready for use again.
+
+**What killed the avatar?**  
+When being killed the avatar will get a message in the chat window that says what killed the avatar.
+
+**Trader NPC’s have “uniforms”**  
+All the trader NPC’s (Technician, Auctioneer, etc) have similar clothes as other NPC’s of the same kind, to distinguish them more easily.
+
+**Change of stock in the Trade Terminal**  
+The Trade Terminal will have new weapons available, the Omegaton M2200 and the Sollomate Busho.
+
+**New weapons**  
+New weapons are added.
+
+**New tools**  
+New tools are added.
+
+**New armors**  
+New armors are added. Shadow is no longer king of the hill. ,-)
+
+**Updated component names**  
+Several components have name updates, mostly the word “Parts” have been added.
+
+**NPC’s are talkative**  
+Several NPC’s have a lot more to say.
+
+**New NPC’s / Monsters**  
+New species will inhabit the continent.
+
+**Tougher NPC’s / Monsters**  
+Bigger, meaner and more dangerous forms of already existing npc’s will appear.
+
+**More NPC’s / Monsters**  
+Despite all hunting the numbers of existing monsters is steadily growing
+
+**The NPC’s / Monsters will make more sounds**  
+Several new sounds have been implemented on the NPC’s / Monsters.
+
+**NPC / Monster AI is optimized**  
+Several of the Monsters have new AI controlling them. Expect less passive monsters.
+
+**Lost ruins**  
+Somewhere on the continent a ruined city has been found. Unfortunately the coordinates to its location were lost in the transmission.
+
+**Minopolis**  
+The new city of Minopolis founded, located some distance north of Nymphtown. This is a city designed in a new way, with a more distinct look than the old outposts.
+
+**Added facilities to outposts**  
+Storage terminals and auctioneers will be present in more outposts than today.
+
+**New looks of the old outposts**  
+Several outposts have new looks.
+
+**Changing skies**  
+The first step in the future Weather system is in place – the sky will change depending on where you are on the Eudoria continent.
+
+**Items in auction**  
+The avatars will always see the items they select.
+
+**Healing is reduced when moving**  
+If you are trying to heal using a medkit when moving the result will be diminished to about a quarter of the normal heal rate.
+
+**Deterioration per use**  
+Weapon attachments now have the correct “deteriorate per use” set.
+
+**New animations and sounds when dying**  
+The avatar can now be killed in more varied ways than before.
+
+**New animations and sounds when using melee weapons**  
+New animations and sounds added to a variety of melee weapons, most notable on the powerfists.
+
+**Leader becomes founder**  
+Prior, the founder of a society was titled “Leader”. This is changed to “Founder”.
+
+**None becomes Freelancer**  
+Prior, an avatar not a member of a society had society rank “None”. This is changed to him or her being “Freelancer” instead.
+
+**New music**  
+A lot of new ambient music has been added.
+
+**Skill management system changed**  
+The skill management code has been optimized to increase performance. This will decrease the strain on the systems, and will reduce the login and logoff times.
+
+**Several performance / lag fixes**  
+Many steps have been taken to increase performance and to reduce lag. We are still in the process of making several heavy upgrades, which will come in VU 5.2.
+
+**Audio system**  
+The audio system is optimized.
+
+**Database**  
+The database is optimized. This will help performance, until the major re-write of the item management system is implemented in VU 5.2.
+
+**ADDED: Gamma selection**  
+You will be able to select your Gamma setting, making those with dark monitors see better.  
+
+**SPECIAL**
+
+The below is currently tentative, and might not make it to VU 5.1.
+
+**Teams**  
+You have the opportunity to form temporary groups with other avatars. You will see the other team member’s health status. A series of click-commands are also in place. Loot distribution is automatic within the group, and every member has full insight on what is going on. Items will be distributed randomly among the members, while stackable items are split as evenly as possible throughout the group.
 ## VU 5.2
 PROJECT ENTROPIA VERSION UPDATE 5.2
 2003-10-15

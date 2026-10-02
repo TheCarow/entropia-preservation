@@ -150,6 +150,7 @@
       "date": "2003-07-03",
       "title": "PE",
       "engine": "NetImmerse",
+      "changes": ["Location based sky", "Minopolis and Lost Ruins", "New items and creatures"],
       "client_status": "partial",
       "note": "Released 2003-07-03, when MindArk's client news posted the VU 5.1 update listing. The notes document is dated 2003-06-13 in draft and 2003-06-25 in its final form.",
       "sources": [
