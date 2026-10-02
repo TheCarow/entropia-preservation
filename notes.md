@@ -1417,6 +1417,7 @@ Currently, the virtual companies on the Exchange do not offer any shares.
 
 You can’t repair a weapon with attachments attached to it. You have to detach them prior to repairing.
 ## VU 5.6.X
+Several minor updates has been applied to PE VU 5.6 the last few days. Some of the issues corrected are:
 -   **New**  - General stability upgrades
 -   **New**  - Double the item limit allowed in estates.
 -   **New**  - Shopkeeper issues updated
