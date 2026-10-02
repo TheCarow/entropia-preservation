@@ -1165,7 +1165,103 @@ A clairifaction about the disciples - a disciple is deemed finished once at leas
 
 The  **Cache system**  (in the Options interface) handles how graphics, models and textures are cached (stored for easy and fast access to the client). This affects the speed while manipulating the inventory, as well as when meeting creatures and other avatars. Once the graphics has streamed from the hard drive it is kept in RAM, allowing for smoother operations. The slider is set dynamically by Project Entropia at start up, depending on your system memory. Up to 1 Gb RAM is used for cache. If you want to allocate more, please move the slider more to the right, in the red area. Beware, that setting the slider too high will result in less performance, as a lack of RAM means the computer slows down as the hard drive is used as virtual RAM.
 ## VU 5.7
-- Added Crystal Palace Space Station location.
+**PROJECT ENTROPIA VERSION UPDATE 5.7**
+2004-06-01  
+  
+*** PLEASE READ THIS DOCUMENT IF YOU FIND SOMETHING OUT OF THE ORDINARY IN PROJECT ENTROPIA! IT MIGHT PROVIDE THE INFO YOU NEED BEFORE CONTACTING PROJECT ENTROPIA SUPPORT! ***  
+  
+**General Information**
+The Version Update 5.7 (“VU 5.7”) for Project Entropia is a major step in the development of Project Entropia. Information about the content of the version update is located in this document.  
+  
+**VERSION UPDATE FEATURES**
+  
+**Crystal Palace Space Station available**
+The Crystal Palace Space Station is opened! Take the journey into space and experience a whole new area of exploration. See never-before-seen scenery and encounters and find new items not available elsewhere. Be the first one to set foot in a unique setting, untouched by human colonists.  
+  
+The venture into space and the Crystal Palace Space Station is the first step of Project Entropia’s upcoming exploration of space and beyond.  
+  
+**Project Entropia Hardware Infrastructure upgrade**
+The hardware platform and infrastructure handling Project Entropia is updated to new state-of-the-art equipment, capable of handling the ever-increasing number of new Project Entropia participants. Expect better performance, increased stability, and reduced latency.  
+  
+**New area of crafting; Armor attachments**
+The Project Entropia crafters has a new area to master; the creation of armor attachments. These attachments are added to existing armor pieces by dragging and dropping them onto the armor. To remove an attachment, just double-click on the armor icon while it is in your inventory.  
+  
+**Massive load of new clothes**
+A huge pile of clothes is added to Project Entropia. All these are tailorable. Some examples are:  
+  
+**Headwear**
+* Sombreros  
+* Fedora hats  
+* Bowler hats  
+* Top hats  
+* Berets  
+  
+**Underwear**
+* Bustiers  
+* Thongs  
+* Stockings  
+* New bra model  
+  
+**Footwear**
+* Stiletto boots  
+* Stiletto heels  
+* Cowboy boots  
+  
+**Other clothes**  
+* Tuxedos  
+* Evening dress  
+* Tanktops  
+* Mesh tanktops  
+* Cut-offs  
+* Bomber jackets  
+  
+**Added colors**  
+Several new colors have been added, including black and white paint.  
+  
+**New weapons**  
+A lot of completely new weapons added, including many melee weapons.  
+  
+**New armor sets**  
+Armor sets added, both craftable and lootable.  
+  
+**New creatures**  
+A lot of new creatures have been spotted by explorers. Someone described a horrendous sighting on the Crystal Palace station…  
+  
+**House decorations**  
+An unnamed source has stated seeing new paintings on Calypso from a renowned Earth artist.  
+  
+**Colorable storage boxes**  
+Storage boxes are now colorable. It makes it easier to distinguish between boxes.  
+  
+**Visual item update**  
+Several items, mainly weapons, in Project Entropia have received a visual overhaul, and are now displayed with a much higher detail. This is a part of a series of grand visual upgrades being done to Project Entropia over the coming months.  
+  
+**New death system**  
+When you die you will have the option to teleport to the nearest revival point. If you decline you will be a stationary ghost, unable to move. To get the option to be moved while dead, please press the ‘T’ key on your keyboard. That will move your ghost to the nearest revival terminal. Note that the old way, where you moved to your last revive position no longer applies.  
+One could ask oneself why anyone would like to be a stationary ghost – the answer is that you can be revived on the spot, given the right equipment or Mindforce.  
+  
+**’T’ key change**  
+If you press the ‘T’ key while alive, you will be asked to confirm your decision in a YES/NO dialogue box. If you select YES you will be automatically teleported after 60 seconds to the nearest revival terminal.  
+  
+**Mentor system tweak**  
+The first tweak to the mentor system makes it easier to become a disciple – you now can be Newcomer as well as Inept in your skills and still be a disciple. Expect more tweaks in future VU’s.  
+  
+**Teaming issue fixed**  
+An issue when disbanding a team and then having difficulties getting loot afterwards has been fixed.  
+  
+**Indoor movement**  
+The indoor movement speed is increased.  
+  
+**Independent Guide bundled with Project Entropia**  
+The very nice and vibrant Project Entropia society Entropia Pioneers has, together with famed Project Entropia participant NEVERDIE created a Guide to Project Entropia, an unofficial manual of sorts for Project Entropia. The guide is bundled with Project Entropia and will available from the Project Entropia web site.  
+  
+**Client upgrades**  
+New fixes have been applied to the client, to reduce disconnects and Crash-to-desktop (“CTD”) issues.  
+  
+**KNOWN ISSUES/MISSING FEATURES**  
+- All tailored clothes shown as “Uncolored” in the auction, even if they are colored.  
+- Currently, the virtual companies on the Exchange do not offer any shares.  
+- You can’t repair a weapon with attachments attached to it. You have to detach them prior to repairing.
 ## VU 5.7.1
 
 ## VU 5.7.X

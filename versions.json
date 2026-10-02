@@ -409,7 +409,7 @@
       "date": "2004-06-01",
       "title": "PE",
       "engine": "NetImmerse",
-      "changes": ["Crystal Palace Space Station"],
+      "changes": ["Crystal Palace Space Station", "Visual item update", "New clothes, armor, weapons"],
       "sources": [
         {"tier": 1, "label": "project-entropia.com - VU 5.7 miniupdates", "url": "https://web.archive.org/web/20041224012136/http://www.project-entropia.com:80/StdContent.ajp?Id=1214", "date": "2004-12-24"},
         {"tier": 2, "label": "Entropia Pioneers forum - PROJECT ENTROPIA VERSION UPDATE 5.7 2004-06-01", "url": "https://web.archive.org/web/20040629133920/http://entropia-pioneers.kicks-ass.org:80/phpBB2/viewtopic.php?t=9952%26amp", "date": "2004-06-01"},
