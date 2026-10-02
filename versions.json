@@ -117,7 +117,7 @@
       "date": "2003-04-04",
       "title": "PE",
       "engine": "NetImmerse",
-      "changes": ["Auction"],
+      "changes": ["Auction", "Clothes making and coloring", "DX9 support"],
       "sources": [
         {"tier": 1, "label": "project-entropia.com - Project Entropia Version Update 4.4 - 2003-04-03", "url": "https://web.archive.org/web/20030407071347/http://www.project-entropia.com:80/client/main.asp?lang=2", "date": "2003-04-03"},
         {"tier": 4, "label": "perc.info - VU 4.4 listing (fan site, 2004)", "url": "https://web.archive.org/web/20041026163508/http://www.perc.info:80/index.asp?page=66"},
