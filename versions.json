@@ -199,7 +199,7 @@
       "date": "2003-11-24",
       "title": "PE",
       "engine": "NetImmerse",
-      "changes": ["Housing", "Space travel", "Mindforce"],
+      "changes": ["Housing", "Space travel", "Mindforce", "Server load indicator"],
       "sources": [
         {"tier": 1, "label": "project-entropia.com - VU 5.3 listing", "url": "https://web.archive.org/web/20041224010125/http://www.project-entropia.com:80/StdContent.ajp?Id=1062", "date": "2004-12-24"},
         {"tier": 2, "label": "Entropia Pioneers forum - PROJECT ENTROPIA VERSION UPDATE 5.3 2003-11-24", "url": "https://web.archive.org/web/20040529214919/http://entropia-pioneers.kicks-ass.org:80/phpBB2/viewtopic.php?t=3382%26amp", "date": "2003-11-24"},

@@ -924,6 +924,19 @@ NOTE: I do NOT handle any kind of PE Support matters on the boards or in private
 ## VU 5.2.X
 Today an update to the Netcode of Project Entropia is performed. This will hopefully ease the problems some participants have experienced with disconnects.
 ## VU 5.3
+**VU 5.3 Listing**  
+
+**PROJECT ENTROPIA VERSION UPDATE 5.3**  
+2003-11-24
+
+*** PLEASE READ THIS DOCUMENT IF YOU FIND SOMETHING STRANGE IN PROJECT ENTROPIA! IT MIGHT PROVIDE THE INFO YOU NEED BEFORE CONTACTING PROJECT ENTROPIA SUPPORT! ***
+
+**General Information** The Version Update 5.3 (“VU 5.3”) for Project Entropia is a major step in the development of Project Entropia. Information about the content of the version update is located in this document.
+
+--
+
+**VERSION UPDATE FEATURES**
+
 **Housing system**  
 The first version of the PE housing system is in place! Several small communities have been set up for future buildings. You can acquire your own house by bidding on the corresponding lot deeds in the auction. The lot deed’s item info (right-clicking on the deed) shows the location of the lot and house. You may also store items safely in your house. In the next VU’s the system will be enhanced and will allow an almost complete customizability. The supply of houses on Calypso will be quite limited, and we will not litter the countryside with houses.
 
