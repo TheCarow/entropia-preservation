@@ -232,10 +232,13 @@ function imageHTML(m, position) {
   const vu = image.vu_text
     ? `<dt>Version</dt><dd>${image.vu_link ? `<a href="../../clients/#vu-${esc(image.vu_link)}">${esc(image.vu_text)}</a>` : esc(image.vu_text)}</dd>`
     : "";
+  const where = image.coordinates_text
+    ? `<dt>Coordinates</dt><dd>${esc(image.coordinates_text)}${image.coordinates_basis ? `<div class="meta">Coordinates basis: ${esc(image.coordinates_basis)}</div>` : ""}</dd>`
+    : "";
   return `<div class="crumbs"><a class="back" href="../#p-${esc(image.id)}">Back</a><nav class="pic-nav">${before ? `<a rel="prev" href="../${esc(before.image.id)}/">Previous</a>` : ""}${after ? `<a rel="next" href="../${esc(after.image.id)}/">Next</a>` : ""}</nav></div>
 <h2 class="pic-title">${esc(p.heading)}</h2>
 <figure class="viewer"><div class="frame"><img src="../${esc(p.master.file)}" width="${p.master.width}" height="${p.master.height}" alt="${esc(p.heading)}">${regionsHTML(m, p)}</div></figure>
-<dl class="facts">${date}${vu}${tagsHTML(m, p)}</dl>
+<dl class="facts">${date}${vu}${where}${tagsHTML(m, p)}</dl>
 <section class="copies"><h3>${copies.length > 1 ? `${copies.length} copies` : "The copy"} found</h3>
 ${copies.map((v) => copyHTML(m, p, v)).join("\n")}
 </section>`;
