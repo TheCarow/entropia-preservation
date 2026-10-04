@@ -4,3 +4,5 @@ preview.cmd
 transcribe.py
 _site/
 cut-after-10.3/
+media/_out/
+media/preview.py

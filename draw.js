@@ -18,6 +18,8 @@
     5: "Compiled later: wikis, archives, later reposts.",
   };
   const TITLE_NAME = {PE: "Project Entropia", EU: "Entropia Universe"};
+  // The site's root as seen from the page drawn, for the data files and the disc pictures: "../" from clients/.
+  let root = "";
   const FAMILIES = ["NetImmerse", "Gamebryo", "CryENGINE2"];
   const STATUSES = ["preserved", "partial", "lost"];
   const RANK = {lost: 1, partial: 2, preserved: 3};
@@ -1046,8 +1048,8 @@
     }
     body = `<div class="src">${body}</div>`;
     if (s.image) {
-      body = `<div class="src-thumb"><a href="${esc(s.image)}" target="_blank" rel="noopener"><img class="thumb" `
-        + `src="${esc(s.image)}" alt="${esc(s.label || "Disc")}" width="64" height="64" loading="lazy"></a>${body}</div>`;
+      body = `<div class="src-thumb"><a href="${esc(root + s.image)}" target="_blank" rel="noopener"><img class="thumb" `
+        + `src="${esc(root + s.image)}" alt="${esc(s.label || "Disc")}" width="64" height="64" loading="lazy"></a>${body}</div>`;
     }
     return [label, body];
   }
@@ -1186,8 +1188,10 @@ ${rows}
     if (app.dataset.rendered === "1") {
       return;
     }
+    root = app.dataset.root || "";
     if (location.protocol === "file:") {
-      const folder = decodeURIComponent(location.pathname.replace(/\/[^/]*$/, "")).replace(/^\/([A-Za-z]:)/, "$1");
+      const folder = decodeURIComponent(new URL(root || "./", location.href).pathname.replace(/\/$/, ""))
+        .replace(/^\/([A-Za-z]:)/, "$1");
       fatal(app, "This page reads versions.json and notes.md, which browsers will not load from a file on disk. "
         + "Serve its folder instead: run "
         + `<code>python -m http.server --bind 127.0.0.1 --directory "${esc(folder)}"</code> and open `
@@ -1197,7 +1201,7 @@ ${rows}
     let json;
     let notes;
     try {
-      [json, notes] = await Promise.all([get("versions.json"), get("notes.md")]);
+      [json, notes] = await Promise.all([get(root + "versions.json"), get(root + "notes.md")]);
     } catch (error) {
       fatal(app, `The page could not load its data: ${esc(error.message)}.`);
       return;
@@ -1219,7 +1223,7 @@ ${rows}
     // Only a preview on this computer checks that each picture is there; render.js checks them before publishing.
     if (/^(localhost|127\.0\.0\.1|\[::1\])$/.test(location.hostname)) {
       for (const image of m.images) {
-        fetch(image, {method: "HEAD", cache: "no-cache"}).then((response) => {
+        fetch(root + image, {method: "HEAD", cache: "no-cache"}).then((response) => {
           if (!response.ok) {
             m.problems.push({file: "versions.json", text: `image "${image}" answered ${response.status}; is it in the folder?`});
             showProblems(m.problems);
@@ -1231,7 +1235,7 @@ ${rows}
 
   if (typeof module === "object" && module.exports) {
     module.exports = {scan, build, markdown, inline, holdsNotes, notchTitle, yearLabels, fileCard, notesPanel,
-      noteSourceHTML, entryHTML, fileRowHTML, overviewHTML, filtersHTML, appHTML};
+      noteSourceHTML, entryHTML, fileRowHTML, overviewHTML, filtersHTML, appHTML, setRoot: (value) => { root = value; }};
   } else {
     start();
   }

@@ -4,12 +4,15 @@
 
 | File | What it is |
 |---|---|
+| `index.html` | Home: the introduction, and links to Clients and Media. |
+| `clients/index.html` | The Clients page, the version list, drawn from the data below. |
+| `media/` | The Media pages. `files/` holds the pictures and `media.json` their data, both written by the private editor (`media.json` on every save, one picture per line). `draw-media.js` draws the gallery and one page per picture, `render-media.js` writes them, `media.js` adds the gallery's filters and pages, `media.css` styles them and `thumbs.py` makes the thumbnails. |
 | `versions.json` | Every version and every client file. Edited by hand. |
 | `notes.md` | The release notes' text, one `## VU <version>` section per version. Edited by hand. |
 | `images/discs/` | Pictures of the discs that client files were found on. |
 | `draw.js` | Reads and checks the data and draws the page. `render.js` uses it when publishing, and a local preview uses it in the browser. |
 | `site.js` | The page at work: the filters, their place in the address, and the panels. The published page loads only this. |
-| `render.js` | Draws the version list into `index.html` when the site is published. GitHub runs it. |
+| `render.js` | Draws the version list into `clients/index.html` when the site is published. GitHub runs it. |
 | `.github/workflows/pages.yml` | Tells GitHub to publish the site through `render.js` on every push. |
 
 ### A version
@@ -76,8 +79,9 @@ line. Any valid JSON works.
 
 ## Publishing
 
-Pushing to `main` publishes the site. GitHub runs `render.js`, which draws the whole version list into
-`index.html` and puts `site.css` inside it, so the published page reads in full without JavaScript and web archives
+Pushing to `main` publishes the site. GitHub runs `render.js`, then makes the media thumbnails, runs
+`render-media.js` and copies the pictures across byte for byte. `render.js` draws the whole version list into
+`clients/index.html` and puts `site.css` inside it and Home, so the published pages read in full without JavaScript and web archives
 keep every version, file, picture and release note. The published pictures leave out the hidden data Photoshop
 saves in them (edit history, print settings, a preview), which is nearly half their weight; the pictures in the
 folder keep it. Nothing needs running by hand.
@@ -103,7 +107,7 @@ One section per version, headed `## VU <version>`, where `<version>` is the vers
 
 Every version has the id `vu-<version>`, so a link scrolls to that version and opens its release notes:
 
-- `index.html#vu-5.7` for VU 5.7
+- `clients/#vu-5.7` for VU 5.7
 - `#vu-7.4.x` for the unnumbered mini-updates after VU 7.4
 - `#vu-cot-patch-2` for the unnumbered 2002 patches
 
@@ -112,12 +116,13 @@ opens its files instead, and a link to a version the filters hide clears the fil
 `-files` or `-notes` opens that panel instead: `#vu-5.4-files`. The `#` at the end of each row is that
 row's link. Files on rows of their own have links too, such as `#file-entropia-universe-exe`.
 
-The filters are in the address as well, so a filtered list can be shared: `index.html?status=lost&source=physical`.
+The filters are in the address as well, so a filtered list can be shared: `clients/?status=lost&source=physical`.
 The parameters are `from` and `to` (years), `title` (`pe` or `eu`), `status` (`preserved`, `partial` or `lost`),
 `engine` (`netimmerse`, `gamebryo` or `cryengine2`) and `source` (`physical`). Only the filters that are set appear,
 and the address changes as they are chosen. A link can carry both, as in `?status=lost#vu-6.1`; if the filters hide
 that version, they are cleared first, as above. Links from before 2026-09-29 say `client=` for the status filter,
-and still work.
+and still work. Links from before Clients had a page of its own point to the site's root, and Home sends any that
+carries a version, a file or a filter on to `clients/`.
 
 ## Source ranking
 

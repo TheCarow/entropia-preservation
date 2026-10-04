@@ -1,4 +1,5 @@
-/* Entropia Archive: writes the published site into a folder, with the whole version list drawn into index.html.
+/* Entropia Archive: writes the published site into a folder: Home (index.html), and the Clients page
+   (clients/index.html) with the whole version list drawn into it.
 
    GitHub runs this on every push to main (.github/workflows/pages.yml), so nothing is run by hand. The list is drawn
    by draw.js, the same code that draws it in a local preview, so the two cannot disagree. The published page
@@ -16,11 +17,11 @@ const draw = require("./draw.js");
 
 const ROOT = __dirname;
 const OUT = path.resolve(process.argv[2] || path.join(ROOT, "_site"));
-const FILES = ["index.html", "site.js", "versions.json", "notes.md"];
+const FILES = ["site.js", "versions.json", "notes.md"];
 const FOLDERS = ["images"];
-const PLACEHOLDER = /<div id="app">[\s\S]*?<\/div>/g;
-const STYLESHEET = /<link rel="stylesheet" href="site\.css(\?v=\d+)?">/g;
-const DRAWER = /<script src="draw\.js(\?v=\d+)?" defer><\/script>\n?/g;
+const PLACEHOLDER = /<div id="app"[^>]*>[\s\S]*?<\/div>/g;
+const STYLESHEET = /<link rel="stylesheet" href="(\.\.\/)?site\.css(\?v=\d+)?">/g;
+const DRAWER = /<script src="(\.\.\/)?draw\.js(\?v=\d+)?" defer><\/script>\n?/g;
 
 function stop(message) {
   console.error(message);
@@ -50,14 +51,17 @@ if (m.problems.length) {
     + m.problems.map((p) => `  ${p.file}${p.line ? `, line ${p.line}` : ""}: ${p.text}`).join("\n"));
 }
 
-const page = read("index.html");
+const page = read("clients/index.html");
 const found = page.match(PLACEHOLDER) || [];
 if (found.length !== 1) {
-  stop(`index.html should hold one <div id="app">...</div> to draw the list into; it holds ${found.length}`);
+  stop(`clients/index.html should hold one <div id="app">...</div> to draw the list into; it holds ${found.length}`);
 }
-const links = page.match(STYLESHEET) || [];
-if (links.length !== 1) {
-  stop(`index.html should link site.css once, to put it inside the page; it links it ${links.length} times`);
+const home = read("index.html");
+for (const [name, html] of [["index.html", home], ["clients/index.html", page]]) {
+  const links = html.match(STYLESHEET) || [];
+  if (links.length !== 1) {
+    stop(`${name} should link site.css once, to put it inside the page; it links it ${links.length} times`);
+  }
 }
 const css = read("site.css").replace(/\r\n?/g, "\n").trimEnd();
 if (/<\/style/i.test(css)) {
@@ -65,11 +69,12 @@ if (/<\/style/i.test(css)) {
 }
 const drawers = page.match(DRAWER) || [];
 if (drawers.length !== 1) {
-  stop(`index.html should load draw.js once, to leave it out of the published page; it loads it ${drawers.length} times`);
+  stop(`clients/index.html should load draw.js once, to leave it out of the published page; it loads it ${drawers.length} times`);
 }
-const drawn = page
+const styled = (html) => html.replace(STYLESHEET, () => `<style>\n${css}\n</style>`);
+draw.setRoot("../");
+const drawn = styled(page)
   .replace(DRAWER, "")
-  .replace(STYLESHEET, () => `<style>\n${css}\n</style>`)
   .replace(PLACEHOLDER, () => `<div id="app" data-rendered="1">\n${draw.appHTML(m)}\n</div>`);
 
 fs.rmSync(OUT, {recursive: true, force: true});
@@ -77,12 +82,14 @@ fs.mkdirSync(OUT, {recursive: true});
 for (const name of FILES) {
   fs.copyFileSync(path.join(ROOT, name), path.join(OUT, name));
 }
-fs.writeFileSync(path.join(OUT, "index.html"), drawn);
+fs.writeFileSync(path.join(OUT, "index.html"), styled(home));
+fs.mkdirSync(path.join(OUT, "clients"));
+fs.writeFileSync(path.join(OUT, "clients", "index.html"), drawn);
 let saved = 0;
 for (const folder of FOLDERS) {
   saved += copyPictures(path.join(ROOT, folder), path.join(OUT, folder));
 }
-console.log(`Drew ${m.rows.length} rows into index.html and wrote the site to ${OUT}; `
+console.log(`Drew ${m.rows.length} rows into clients/index.html and wrote the site to ${OUT}; `
   + `left ${Math.round(saved / 1024)} KB of hidden picture data out`);
 
 // Photoshop saves its edit history, print settings and a small preview inside every picture: in a JPEG, the APP1

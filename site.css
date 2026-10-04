@@ -17,6 +17,8 @@
 }
 
 * { box-sizing: border-box; }
+/* Room for the scrollbar on every page, so a short page lines up with a long one */
+html { scrollbar-gutter: stable; }
 body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.55 system-ui, -apple-system, "Segoe UI", sans-serif; }
 main { max-width: 860px; margin: 0 auto; padding: 24px 16px 64px; }
 a { color: var(--link); }
@@ -27,6 +29,10 @@ code { font-family: var(--mono); font-size: .9em; }
 h1, .intro, .news, .section-head h2, .panel.notes, .footer { font-family: var(--serif); }
 h1 { display: flex; align-items: center; gap: 12px; margin: 0 0 8px; font-size: 1.6rem; line-height: 1.25; font-weight: 700; }
 h1 .logo { flex: none; width: 40px; height: 40px; }
+/* The site's pages, linked under the heading on each */
+.site-nav { display: flex; gap: 22px; margin: 0 0 22px; font-family: var(--serif); font-size: 1.05rem; }
+.site-nav a { text-decoration: none; }
+.site-nav a[aria-current="page"] { color: var(--fg); font-weight: 600; border-bottom: 2px solid var(--fg); }
 .intro { margin: 0 0 24px; }
 .intro p { margin: 0 0 12px; }
 .intro p:last-child { margin-bottom: 0; }

@@ -1,7 +1,8 @@
-# Publishes the site on every push to main. render.js draws the whole version list into index.html, and the folder it
-# writes is what GitHub Pages serves, so the published page reads in full without JavaScript and web archives keep all
-# of it. Nothing needs running by hand. A mistake in versions.json or notes.md stops the publish and the last good
-# version stays up; the Publish run on the Actions tab lists the mistake.
+# Publishes the site on every push to main. render.js writes Home and draws the whole version list into Clients, and
+# render-media.js draws the gallery and a page per picture, beside their thumbnails and the pictures themselves. The
+# folder they write is what GitHub Pages serves, so every page reads in full without JavaScript and web archives keep
+# all of it. Nothing needs running by hand. A mistake in versions.json, notes.md or media.json, or a missing picture,
+# stops the publish and the last good version stays up; the Publish run on the Actions tab lists the mistake.
 #
 # The repository's Settings > Pages > Build and deployment > Source must be set to "GitHub Actions".
 name: Publish
@@ -32,6 +33,12 @@ jobs:
         with:
           node-version: 24
       - run: node render.js _site
+      - run: |
+          python3 -m venv /tmp/venv
+          /tmp/venv/bin/pip install --quiet pillow
+          /tmp/venv/bin/python media/thumbs.py _site
+      - run: node media/render-media.js _site
+      - run: cp -r media/files _site/media/files
       - uses: actions/upload-pages-artifact@v5
         with:
           path: _site

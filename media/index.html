@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<!-- A browser that runs scripts gets the filters. Without scripts, or in a copy of the page that lacks media.js,
+     every picture shows and the filters are left out (site.css, html:not(.js)). -->
+<script>document.documentElement.classList.add("js");addEventListener("load",function(){if(!document.documentElement.dataset.script)document.documentElement.classList.remove("js")});</script>
+<title>{{title}}</title>
+<meta name="description" content="{{description}}">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Entropia Archive">
+<meta property="og:title" content="{{title}}">
+<meta property="og:description" content="{{description}}">
+<link rel="stylesheet" href="{{root}}site.css?v=33">
+<link rel="stylesheet" href="{{root}}media/media.css?v=2">
+<script src="{{root}}media/media.js?v=1" defer></script>
+</head>
+<body>
+<main>
+<h1><img class="logo" src="{{root}}images/plcd.png" alt="" width="40" height="40">Entropia Archive</h1>
+<nav class="site-nav"><a href="{{root}}">Home</a><a href="{{root}}clients/">Clients</a><a href="{{root}}media/" aria-current="page">Media</a></nav>
+<div id="app"></div>
+<footer class="footer">
+<p>Project Entropia and Entropia Universe are the work of MindArk&nbsp;PE&nbsp;AB. Each picture's page credits where it was found and who shared it. This is an independent preservation project, not affiliated with MindArk.</p>
+<p>The data behind these pages: <a href="{{root}}media/media.json">media.json</a>.</p>
+<p>Est 2026-08-20.</p>
+</footer>
+</main>
+</body>
+</html>
