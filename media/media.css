@@ -13,6 +13,8 @@
 .pager:empty, html:not(.js) .pager { display: none; }
 .pager [aria-current="page"] { font-weight: 650; color: var(--fg); border-bottom: 2px solid var(--fg); }
 .pager .off { color: var(--muted); }
+.shown { margin: 12px 0 0; font-size: 14px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.shown + .gallery { margin-top: 12px; }
 
 /* The tag search */
 .tag-search { flex: 1 1 100%; display: flex; flex-wrap: wrap; align-items: center; gap: 6px 8px; }

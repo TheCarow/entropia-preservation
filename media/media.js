@@ -26,6 +26,7 @@
   const pager = document.querySelector(".pager");
   const none = document.querySelector(".nomatch");
   const clear = bar.querySelector(".fclear");
+  const tally = document.querySelector(".shown");
   const kind = document.getElementById("range-kind");
   const ranges = Array.from(bar.querySelectorAll("[data-range]"));
   const selects = Array.from(bar.querySelectorAll("select[data-filter]"));
@@ -318,6 +319,7 @@
       item.li.hidden = !visible.has(item);
     }
     none.hidden = found.length > 0;
+    tally.textContent = `${visible.size.toLocaleString("en-US")} of ${found.length.toLocaleString("en-US")} ${found.length === 1 ? "picture" : "pictures"}`;
     clear.hidden = Object.keys(f).length === 0;
     drawPager(f, found.length ? count : 0);
     history.replaceState(null, "", address(f, page));

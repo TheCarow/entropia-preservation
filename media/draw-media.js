@@ -115,6 +115,12 @@ to <select class="fsel" data-filter="vuto" aria-label="To VU"><option value="">a
 </div>`;
 }
 
+// "72 of 412 pictures": how many this page shows, of those the filters let through. Without media.js every picture
+// shows; with it, media.js keeps the line current.
+function pictures(found, all) {
+  return `${found.toLocaleString("en-US")} of ${all.toLocaleString("en-US")} ${all === 1 ? "picture" : "pictures"}`;
+}
+
 function card(p) {
   const [w, h] = thumbSize(p.master, 360);
   const keys = p.image.date_keys;
@@ -134,6 +140,7 @@ function card(p) {
 
 function galleryHTML(m) {
   return `${filtersHTML(m)}
+<p class="shown" aria-live="polite">${pictures(m.pictures.length, m.pictures.length)}</p>
 <ul class="gallery">
 ${m.pictures.map(card).join("\n")}
 </ul>
