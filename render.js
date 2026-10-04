@@ -17,7 +17,7 @@ const draw = require("./draw.js");
 
 const ROOT = __dirname;
 const OUT = path.resolve(process.argv[2] || path.join(ROOT, "_site"));
-const FILES = ["site.js", "versions.json", "notes.md"];
+const FILES = ["site.css", "site.js", "versions.json", "notes.md"];
 const FOLDERS = ["images"];
 const PLACEHOLDER = /<div id="app"[^>]*>[\s\S]*?<\/div>/g;
 const STYLESHEET = /<link rel="stylesheet" href="(\.\.\/)?site\.css(\?v=\d+)?">/g;
