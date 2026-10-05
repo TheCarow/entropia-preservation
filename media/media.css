@@ -30,8 +30,7 @@
 .suggest { position: absolute; z-index: 5; top: 100%; left: 0; min-width: 380px; max-height: 340px; overflow-y: auto; margin: 2px 0 0; padding: 0; list-style: none; background: var(--bg); border: 1px solid var(--control); }
 .suggest li { display: flex; align-items: baseline; gap: 10px; padding: 4px 8px; cursor: pointer; }
 .suggest li.active { background: var(--panel); }
-.s-name { flex: none; }
-.s-path { flex: 1 1 auto; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 13px; color: var(--muted); }
+.s-name { flex: 1 1 auto; font-variant-numeric: tabular-nums; }
 .s-not { flex: none; padding: 0 6px; font: inherit; font-size: 13px; color: var(--fg); background: var(--bg); border: 1px solid var(--control); border-radius: 0; cursor: pointer; }
 .s-not:hover { border-color: var(--fg); }
 

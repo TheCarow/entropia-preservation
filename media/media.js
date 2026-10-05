@@ -42,6 +42,13 @@
     return {li, tags: words(d.tags), sources: words(d.source), dated: d.from !== undefined,
             from: bound(d.from, -Infinity), to: bound(d.to, Infinity), vu: d.vu ? d.vu.split(" ").map(Number) : null};
   });
+  // How many pictures carry each tag, broader tags included: the count a suggestion shows.
+  const counts = new Map();
+  for (const item of items) {
+    for (const s of item.tags) {
+      counts.set(s, (counts.get(s) || 0) + 1);
+    }
+  }
   const places = {};
   for (const name of ["vufrom", "vuto"]) {
     places[name] = new Map(Array.from(bar.querySelectorAll(`select[data-filter="${name}"] option[data-place]`),
@@ -178,10 +185,7 @@
       option.setAttribute("role", "option");
       const name = document.createElement("span");
       name.className = "s-name";
-      name.textContent = t.l;
-      const where = document.createElement("span");
-      where.className = "s-path";
-      where.textContent = t.p;
+      name.textContent = `${t.l} (${(counts.get(t.s) || 0).toLocaleString("en-US")})`;
       const without = document.createElement("button");
       without.type = "button";
       without.className = "s-not";
@@ -198,7 +202,7 @@
           highlight();
         }
       });
-      option.append(name, where, without);
+      option.append(name, without);
       suggest.append(option);
     });
     suggest.hidden = !found.length || document.activeElement !== input;
