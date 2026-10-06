@@ -1916,7 +1916,8 @@
       "status": "preserved",
       "sources": [
         {"label": "Świat Gier Komputerowych magazine 1/03 CD #2 (Poland)", "physical": true, "available": true, "image": "images/discs/swiat-gier-komputerowych-magazine-1-03-cd-2-poland.png", "preservation_needed": "Archive.org"},
-        {"label": "Archive.org: Świat Gier Komputerowych Wydanie Specjalne 1/2003 CD 2", "url": "https://archive.org/details/sgk-wydanie-specjalne-2003-01-cd", "available": true}
+        {"label": "Archive.org: Świat Gier Komputerowych Wydanie Specjalne 1/2003 CD 2", "url": "https://archive.org/details/sgk-wydanie-specjalne-2003-01-cd", "available": true},
+        {"label": "Redump: Świat Gier Komputerowych Wydanie Specjalne 1/03 (Disc 2)", "url": "https://redump.info/disc/61939", "available": true, "note": "A record of the disc image, with its hashes, not a download."}
       ]
     },
     {
