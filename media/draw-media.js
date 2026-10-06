@@ -64,24 +64,11 @@ function build(data) {
 
 /* ---------- the gallery ---------- */
 
-// Every tag in use, for the tag search: a tree from Calypso first, each with its broader tags.
+// Every tag in use, for the tag search: alphabetical, each with its broader tags.
 function tagList(m) {
-  const used = new Set(m.pictures.flatMap((p) => p.tags));
-  const byLabel = (a, b) => m.label(a).localeCompare(m.label(b));
-  const roots = [...used].filter((s) => !m.broader(s).some((b) => used.has(b)))
-    .sort((a, b) => (b === "calypso") - (a === "calypso") || byLabel(a, b));
-  const list = [];
-  const seen = new Set();
-  const walk = (s) => {
-    if (seen.has(s)) {
-      return;
-    }
-    seen.add(s);
-    list.push({s, l: m.label(s), p: m.above([s]).map(m.label).join(", ")});
-    [...used].filter((t) => m.broader(t).includes(s)).sort(byLabel).forEach(walk);
-  };
-  roots.forEach(walk);
-  return list;
+  return [...new Set(m.pictures.flatMap((p) => p.tags))]
+    .map((s) => ({s, l: m.label(s), p: m.above([s]).map(m.label).join(", ")}))
+    .sort((a, b) => a.l.localeCompare(b.l, "en", {sensitivity: "base"}));
 }
 
 function filtersHTML(m) {
