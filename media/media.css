@@ -13,6 +13,9 @@
 .pager:empty, html:not(.js) .pager { display: none; }
 .pager [aria-current="page"] { font-weight: 650; color: var(--fg); border-bottom: 2px solid var(--fg); }
 .pager .off { color: var(--muted); }
+.pager-go { display: flex; align-items: center; gap: 6px; color: var(--muted); }
+.pager-go input { width: 4.5em; min-height: 30px; padding: 0 6px; font: inherit; font-size: 14px; color: var(--fg); background: var(--bg); border: 1px solid var(--control); border-radius: 0; }
+.pager-go button { min-height: 30px; padding: 0 10px; font: inherit; font-size: 14px; color: var(--fg); background: var(--bg); border: 1px solid var(--control); border-radius: 0; cursor: pointer; }
 .shown { margin: 12px 0 0; font-size: 14px; color: var(--muted); font-variant-numeric: tabular-nums; }
 .shown + .gallery { margin-top: 12px; }
 

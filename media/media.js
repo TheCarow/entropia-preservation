@@ -303,6 +303,33 @@
       item(n, n === null ? "…" : String(n), n === page);
     }
     item(page < count ? page + 1 : null, "Next");
+    // A box for any page number, for the pages the list leaves out.
+    const go = document.createElement("form");
+    go.className = "pager-go";
+    // A number past either end goes to that end rather than stopping at the browser's range check.
+    go.noValidate = true;
+    const label = document.createElement("label");
+    const box = document.createElement("input");
+    box.type = "number";
+    box.min = "1";
+    box.max = String(count);
+    box.value = String(page);
+    box.setAttribute("aria-label", `Page number, 1 to ${count}`);
+    label.append("Page ", box, ` of ${count}`);
+    const button = document.createElement("button");
+    button.type = "submit";
+    button.textContent = "Go";
+    go.append(label, button);
+    go.addEventListener("submit", (event) => {
+      event.preventDefault();
+      const wanted = Number.parseInt(box.value, 10);
+      if (Number.isFinite(wanted)) {
+        page = Math.min(Math.max(wanted, 1), count);
+        show(false);
+        gallery.scrollIntoView({block: "start"});
+      }
+    });
+    pager.append(go);
   }
 
   // focus: the picture whose page to show, when coming Back from it.
