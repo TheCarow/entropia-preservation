@@ -40,6 +40,8 @@
   const NUMBER = /^\d+(\.\d+)*$/;
   const SERIES = /^\d+(\.(\d+|[Xx]))*$/;
   const FILE_DATE_WHY = "The date of the client file; no release date is recorded";
+  // The list and the timeline end with this update and its patches. The versions after it stay in the data, unshown.
+  const LAST_UPDATE = "10.0";
 
   const isObject = (x) => x !== null && typeof x === "object" && !Array.isArray(x);
   const isText = (x) => typeof x === "string";
@@ -588,6 +590,17 @@
       pending = pending.filter((p) => !ready.includes(p));
     }
     order.push(...unplaced);
+
+    // ---- the scope: everything up to the last version of LAST_UPDATE's series ("10.0.X" and the patches before it),
+    //      so a named version after a shown one stays with it
+    const [lastMajor, lastMinor] = LAST_UPDATE.split(".").map(Number);
+    const within = (v) => {
+      const [major, minor = "0"] = v.split(".");
+      const m = /^\d+$/.test(minor) ? Number(minor) : Infinity;
+      return Number(major) < lastMajor || (Number(major) === lastMajor && m <= lastMinor);
+    };
+    const lastShown = order.reduce((at, v, i) => (sortKey(v) && within(v) ? i : at), -1);
+    order.splice(lastShown + 1, order.length - unplaced.length - lastShown - 1);
 
     // ---- notes.md
     const notes = new Map();

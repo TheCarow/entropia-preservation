@@ -4,9 +4,10 @@
 
 | File | What it is |
 |---|---|
-| `index.html` | Home: the introduction, and links to Clients and Media. |
+| `index.html` | Home: the introduction, and links to Clients, Media and Articles. |
 | `clients/index.html` | The Clients page, the version list, drawn from the data below. |
 | `media/` | The Media pages. `files/` holds the pictures and `media.json` their data, both written by the private editor (`media.json` on every save, one picture per line). `draw-media.js` draws the gallery and one page per picture, `render-media.js` writes them, `media.js` adds the gallery's filters and pages, `media.css` styles them and `thumbs.py` makes the thumbnails. |
+| `articles/` | The Articles page. `articles.json` lists the press releases, articles and magazines, edited by hand; `render-articles.js` draws them into the page, `articles.js` adds its filters and `articles.css` styles it. |
 | `versions.json` | Every version and every client file. Edited by hand. |
 | `notes.md` | The release notes' text, one `## VU <version>` section per version. Edited by hand. |
 | `images/discs/` | Pictures of the discs that client files were found on. |
@@ -80,7 +81,7 @@ line. Any valid JSON works.
 ## Publishing
 
 Pushing to `main` publishes the site. GitHub runs `render.js`, then makes the media thumbnails, runs
-`render-media.js` and copies the pictures across byte for byte. `render.js` draws the whole version list into
+`render-media.js`, copies the pictures across byte for byte and runs `render-articles.js`. `render.js` draws the whole version list into
 `clients/index.html` and puts `site.css` inside it and Home, so the published pages read in full without JavaScript and web archives
 keep every version, file, picture and release note. The published pictures leave out the hidden data Photoshop
 saves in them (edit history, print settings, a preview), which is nearly half their weight; the pictures in the
