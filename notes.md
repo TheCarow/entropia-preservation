@@ -756,7 +756,7 @@ Storage terminals and auctioneers will be present in more outposts than today.
 Several outposts have new looks.
 
 **Changing skies**  
-The first step in the future Weather system is in place – the sky will change depending on where you are on the Eudoria continent.
+The first step in the future Weather system is in place - the sky will change depending on where you are on the Eudoria continent.
 
 **Items in auction**  
 The avatars will always see the items they select.
@@ -1508,13 +1508,13 @@ Several items, mainly weapons, in Project Entropia have received a visual overha
   
 **New death system**  
 When you die you will have the option to teleport to the nearest revival point. If you decline you will be a stationary ghost, unable to move. To get the option to be moved while dead, please press the ‘T’ key on your keyboard. That will move your ghost to the nearest revival terminal. Note that the old way, where you moved to your last revive position no longer applies.  
-One could ask oneself why anyone would like to be a stationary ghost – the answer is that you can be revived on the spot, given the right equipment or Mindforce.  
+One could ask oneself why anyone would like to be a stationary ghost - the answer is that you can be revived on the spot, given the right equipment or Mindforce.  
   
 **’T’ key change**  
 If you press the ‘T’ key while alive, you will be asked to confirm your decision in a YES/NO dialogue box. If you select YES you will be automatically teleported after 60 seconds to the nearest revival terminal.  
   
 **Mentor system tweak**  
-The first tweak to the mentor system makes it easier to become a disciple – you now can be Newcomer as well as Inept in your skills and still be a disciple. Expect more tweaks in future VU’s.  
+The first tweak to the mentor system makes it easier to become a disciple - you now can be Newcomer as well as Inept in your skills and still be a disciple. Expect more tweaks in future VU’s.  
   
 **Teaming issue fixed**  
 An issue when disbanding a team and then having difficulties getting loot afterwards has been fixed.  
@@ -2481,6 +2481,110 @@ Added the initial choice of choosing navigation when starting Project Entropia, 
 If you had personalized your control setting prior to the VU 7.6 release you can press "Cancel" to keep these settings.
 
 A method of movement is also suggested by pressing down both mouse buttons at once.
+
+**Tutorial system**  
+A Tutorial system is launched in order to help newcomers find their way around in Project Entropia. The messages will explain how to navigate, how certain items work, etc, and give general pointers on what to do in Project Entropia. The tutorial messages are stored in your Tutorial messages view, available from the Action book.
+
+The "See again" option when receiving a Tutorial message means that you will receive the same Tutorial message again in your next session in Project Entropia.
+
+**Message center**  
+The Message center is introduced. It contains all messages you receive during your Project Entropia session. A new action for accessing the Message center is available in your Action book. Note that the messages are cleared each time you log off Project Entropia.
+
+In later releases, the Friend messaging will be integrated into the Message center as well.
+
+**Messages notification**  
+In the HUD, there is a new section which shows when you have a message waiting.
+
+**Items with limited uses**  
+A number of new items are tagged with the (L) tag, which means they are "Limited". Limited items can only be used a certain number of times, after which the item is destroyed or removed. Limited items cannot be repaired. Limited items can be found as hunting loot and can be manufactured.
+
+A select number of blueprints have this tag as well, meaning you will have a limited number of attempts of making the output item.
+
+Limited items usually have better stats than normal, unlimited items.
+
+**Learning bonus**  
+All new items and all mining equipment have a learning bonus. This means that you need a certain minimum skill level in order to use the item to the full effect. When this minimum skill level is reached, you will receive an experience bonus that will be active until you are considered to master the item. After mastering the item your experience gain will return to normal.
+
+Old items, excluding mining equipment, are **not** changed.
+
+**Skill influence damage**  
+Weapons now shows the actual damage intervals the weapon has, based on avatar skills and mastery. Different weapons may show different intervals.
+
+**Unsafe zones changes**  
+The nature of the unsafe zones has changed on Amethera as colonists tame the wilds. The cities, Treasure Island, and the area around the Revival terminals and Teleporters are now safe zones, where PvP killing is disabled.
+
+When you are located in any unsafe zone, the small figure icon in the HUD will be glowing.
+
+**Loot windows**  
+The loot window functionality has changed. They are now merely a "receipt" of the items found or made. The items are instead automatically placed in your inventory when found or made. Stackable items are automatically stacked. The "Take all" button is therefore rephrased to "Close".
+
+**Statistics on items**  
+Various items now display detailed stats when examined in the Items Info.
+
+**New advanced items in manufacturing**  
+Three new kind of advanced item versions have been added to the manufacturing line; the _adapted_, the _customized_, and the _reworked_ versions.
+
+**New items to manufacturing**  
+Several new items have been added to the manufacturing system.
+
+**Display panels added**  
+Display panels can be used to hang items, for instance your favorite weapon, on walls.
+
+**DNA added**  
+A horde of new DNA samples has been added, and some special DNA fragments...
+
+**Wedding items**  
+Items designed for performing wedding added.
+
+**Time left**  
+In systems where a time limit is present, this limit is changed to show the time left until expiry. This time limit shows real time, meaning that it does **not** take real world incidents like Project Entropia being offline into consideration.
+
+**Condition limit change**  
+The minimum Condition level to be able to use an item is changed from 10% to 3%, meaning an item can be used more times between repairs now than before.
+
+**Drop rule changes**  
+Items with too low value cannot be dropped any more, in order to reduce littering.
+
+**Life state icon change**  
+The small figure icon next to the Health bar in the HUD no longer shows whether you are alive or dead. The figure now only shows if you are in a safe or unsafe zone.
+
+**Estates to Treasure Island**  
+Ten new estates added to Treasure Island.
+
+**Exploration**  
+Imperial scout teams have reported that they have discovered new sites of interest. Where these sites are located is still classified awaiting further investigation.
+
+**Creature sweat levels**  
+There are reports that the creatures of Calypso are getting sweatier...
+
+**Land Area info**  
+When you enter or leave a land area you will receive information about this, including current tax settings.
+
+**"Empty FAPping"**  
+The frequency of "Empty FAPping" when switching items is greatly reduced.
+
+**Fixed bugged items**  
+Fixed a bugged melee weapon - the _RepEdge Battle Axe 1x0_ no longer does the strange _electrical_ damage.
+The female _Supremacy_ armor now has the correct description (same as the male version). The old text will be saved for future use. ,-)
+
+**Bug fix to Beauty items**  
+Bugs fixed in regards to item descriptions and to the usage of the scissors.
+
+**Updated hair looks**  
+New and more detailed hair styles added. Also, old hair styles has been updated with more detail.
+
+**General items added**  
+A number of other items added to expand the range of items in Project Entropia.
+
+**Updates to Options**  
+Several new options added, including navigational shortcuts.
+
+**KNOWN ISSUES/MISSING FEATURES**  
+All tailored clothes shown as “Uncolored” in the auction, even if they are colored.
+
+You can’t repair an item with attachments attached to it. You have to detach them prior to repairing.
+
+You cannot trade mining Claim deeds at the moment. This will be fixed shortly.
 ## VU 7.6.2
 An update has been applied to Project Entropia.
 - Fixed an visual issue when combining a coat and a harness.
@@ -4200,14 +4304,46 @@ Lock up skills corrected.
 - Pet deed removed from inventory after taking pet from stable.
 - Multiple friend status bars can be drawn from friends list.
 ## VU 9.3.4
-- Existing items are now being converted and introduced into the new CryENGINE2 environment.
-- Xfire building added to Port Atlantis.
-- new clothing and fashion items.
-- Japanese inspired furniture, as well as domestic items and appliances.
-- Turret added to LA6.
-- Revival Terminals added to LA 5 and LA9.
+**CryENGINE®2 Update**  
+Adaptation of the CryENGINE®2 for the Entropia Universe platform is proceeding well. The process of making CryENGINE®2 suitable for independent Entropia planet development is in line with the planned time scale.
+
+Since the previous update on May 20th this year, all interaction panels have been successfully converted, employing improved design, effects and implementation techniques available through the CryENGINE®2. Following the textures and animations update in VU9.3, existing items are now being converted and introduced into the new Entropia environment.
+
+The next period will see further infrastructure development and the completion of the audio integration process.
+
+**Dr. Almon Duchevs Logs**  
+Leaked information suggests a new batch of logs from Dr. Almon Duchev will reveal how Duchev, while held prisoner in the strange realm beyond the orb, was forced to conduct scientific research for his captors, during which he discovered new materials which could be molded to amazing effect.
+
+Essential in his subsequent escape from the demented realm, it seems Duchev created a wide range of fantastic new items like a camouflage body suit, great wings, rams horns and other exotic ceremonial paraphernalia which he used to disguise himself and flee from his savage captors. How much of it that made it back through the orb, and who may be in deadly pursuit is up to Calypso’s colonists to find out.
+
+**Xfire Building & Hours d'Entropia Competitions**  
+In a strengthening of the partnership between Entropia and Xfire, an Xfire building has now been constructed in Port Atlantis. The official inauguration of the building will take place in September 17th, when official Xfire and Mindark avatars will preside over the prize ceremony for the new Play To Win and Video competitions beginning on September 2nd.
+
+Stay tuned to the official Entropia and Xfire websites for further details today on how to enter these competitions and win specially designed Xfire Survival equipment for your adventures on Calypso.
+
+**Rx Unit 472 Report Transmission Intercept**  
+Operation Relay…
+Primary Objective: Prevent new weapon technology from falling into colonist hands….
+Result: FAILURE
+Recommendation: DEPLOY EVISCERATOR
+
+**Items**  
+A range of new clothing and fashion items have been introduced, as well Japanese inspired furniture and useful domestic items and appliances which are waiting to be discovered.
+
+**Other Enhancements**  
 - Issues with avatar movement speed not being affected by inventory weight reduction operations e.g. ore refining, have been fixed.
 - Market stalls in Hadesheim working correctly.
+- Turret added to LA6.
+- Revival Terminals added to LA 5 and LA9.
+
+--
+
+**Additional Version Update Information**  
+_29 Aug 2008_
+
+It has come to our attention that the VU 9.3.4 Content List was not complete. Adjustments to the regeneration of the Caudatergus, Cornundos and Molisk creatures were missing.
+
+We apologize sincerely for this omission. As in previous adjustments, the loot received from these creatures has been increased in proportion to the regeneration adjustment.
 ## VU 9.3.5
 **Mini Update**
 _18 Sept 2008_

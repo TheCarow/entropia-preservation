@@ -137,13 +137,15 @@
       ]
     },
     "5.0": {
-      "note": "Only MindArk's pre-release announcement of 18 May 2003 survives for VU 5.0; no list of its changes has been found.",
+      "changes": ["Server architecture rewrite", "Circular PvP zones"],
+      "note": "Only MindArk's pre-release announcement of 18 May 2003 survives for VU 5.0; no list of its changes has been found. Entropia Insider, a player magazine, wrote in August 2003 that MindArk's internal name for it was \"The stability update\", that it changed little of the game's content, and that it made the PvP zones circular.",
       "transcribed_from": [
         {"label": "perc.info - VU 5.0 listing (fan site, 2004)", "url": "https://web.archive.org/web/20041026175920/http://www.perc.info:80/index.asp?page=68"}
       ],
       "sources": [
         {"tier": 4, "label": "perc.info - VU 5.0 listing (fan site, 2004)", "url": "https://web.archive.org/web/20041026175920/http://www.perc.info:80/index.asp?page=68"},
-        {"tier": 5, "label": "Entropia Universe forum - VU 5.0 Listing (GeeKman, 2005 repost)", "url": "https://forum.entropiauniverse.com/t/vu-5-0-listing/140", "date": "2005-01-29"}
+        {"tier": 5, "label": "Entropia Universe forum - VU 5.0 Listing (GeeKman, 2005 repost)", "url": "https://forum.entropiauniverse.com/t/vu-5-0-listing/140", "date": "2005-01-29"},
+        {"tier": 5, "label": "Entropia Museum - Entropia Insider issue 1, August 2003 (player magazine)", "url": "https://www.entropiamuseum.com/guides/2003/08/guide2003081.pdf", "date": "2003-08-08"}
       ]
     },
     "5.1": {
@@ -159,10 +161,18 @@
         {"tier": 4, "label": "computergames.ro - client v5.1 download page, notes in its description", "url": "https://web.archive.org/web/20040119064353/http://www.computergames.ro:80/download.php/optiune-show_download/did-1634/index.html", "date": "2003-06-25"},
         {"tier": 4, "label": "perc.info - VU 5.1 listing (fan site, 2004)", "url": "https://web.archive.org/web/20041026223130/http://www.perc.info:80/index.asp?page=75"},
         {"tier": 5, "label": "Entropia Universe forum - VU 5.1 Listing (GeeKman, 2005 repost)", "url": "https://forum.entropiauniverse.com/t/vu-5-1-listing/139", "date": "2005-01-29"},
-        {"tier": 5, "label": "Entropia Universe forum - A Brief History of Cities, TPs and Locations", "url": "https://forum.entropiauniverse.com/t/a-brief-history-of-cities-tps-and-locations/103895", "from_sheet": true}
+        {"tier": 5, "label": "Entropia Universe forum - A Brief History of Cities, TPs and Locations", "url": "https://forum.entropiauniverse.com/t/a-brief-history-of-cities-tps-and-locations/103895", "from_sheet": true},
+        {"tier": 5, "label": "Entropia Museum - Entropia Insider issue 1, August 2003 (player magazine)", "url": "https://www.entropiamuseum.com/guides/2003/08/guide2003081.pdf", "date": "2003-08-08"}
       ]
     },
-    "5.1.2": {},
+    "5.1.2": {
+      "date": "2003",
+      "changes": ["Friend list raised to 40", "Chat names in square brackets"],
+      "note": "No notes from MindArk have been found. Entropia Insider, a player magazine, describes this mini patch from 5.1 to \"5.12\" as released after its first issue (August 2003) and before its second (14 September 2003). By its account the patch fixed avatars given several sets of start clothing, stopped Ranger scopes adding to ammunition burn, saved skills more often, showed chat names in square brackets and barred the bracket characters from chat to stop impersonation, raised the friend list to 40 names, lengthened the name field, made creatures more reactive, and fixed small faults in the auction, repair, teaming, refining and claim rods.",
+      "sources": [
+        {"tier": 5, "label": "Entropia Museum - Entropia Insider issue 2, September 2003 (player magazine)", "url": "https://www.entropiamuseum.com/guides/2003/09/guide2003091.pdf", "date": "2003-09-14"}
+      ]
+    },
     "5.2": {
       "date": "2003-10-15",
       "transcribed_from": [
@@ -463,7 +473,8 @@
         {"tier": 1, "label": "project-entropia.com - VU 6.1 known issues", "url": "https://web.archive.org/web/20041224013056/http://www.project-entropia.com:80/StdContent.ajp?Id=1434", "date": "2004-12-24"},
         {"tier": 2, "label": "Entropia Pioneers forum - PROJECT ENTROPIA VERSION UPDATE 6.1 2004-10-06", "url": "https://web.archive.org/web/20050426090149/http://entropia-pioneers.kicks-ass.org:80/phpBB2/viewtopic.php?t=14993%26amp", "date": "2004-10-06"},
         {"tier": 4, "label": "perc.info - VU 6.1 listing (fan site, 2004)", "url": "https://web.archive.org/web/20041026025138/http://www.perc.info:80/index.asp?page=170"},
-        {"tier": 5, "label": "Entropia Universe forum - VU 6.1 Listing (MindBuster, 2005 repost)", "url": "https://forum.entropiauniverse.com/t/vu-6-1-listing/132", "date": "2005-01-29"}
+        {"tier": 5, "label": "Entropia Universe forum - VU 6.1 Listing (MindBuster, 2005 repost)", "url": "https://forum.entropiauniverse.com/t/vu-6-1-listing/132", "date": "2005-01-29"},
+        {"tier": 5, "label": "Entropia Universe forum - Undocumented VU changes list (Hansi)", "url": "https://forum.entropiauniverse.com/t/undocumented-vu-changes-list/4194"}
       ]
     },
     "6.1.X": {
@@ -541,7 +552,8 @@
       "changes": ["Updated several animations"],
       "sources": [
         {"tier": 1, "label": "project-entropia.com - VU 7.1 content list", "url": "https://web.archive.org/web/20050404153849/http://www.project-entropia.com:80/StdContent.ajp?Id=1637", "date": "2005-04-04"},
-        {"tier": 4, "label": "Entropia Universe forum - VU 7.1 Listing (Einstein)", "url": "https://forum.entropiauniverse.com/t/vu-7-1-listing/346", "date": "2005-02-15"}
+        {"tier": 4, "label": "Entropia Universe forum - VU 7.1 Listing (Einstein)", "url": "https://forum.entropiauniverse.com/t/vu-7-1-listing/346", "date": "2005-02-15"},
+        {"tier": 5, "label": "Entropia Universe forum - Undocumented VU changes list (Hansi)", "url": "https://forum.entropiauniverse.com/t/undocumented-vu-changes-list/4194"}
       ]
     },
     "7.1.X": {
@@ -563,7 +575,8 @@
         {"tier": 1, "label": "project-entropia.com - PE Update applied 21 Mar 2005", "url": "https://web.archive.org/web/20050326070715/http://www.project-entropia.com:80/news/Index.ajp", "date": "2005-03-21"},
         {"tier": 1, "label": "project-entropia.com - VU 7.2 content list", "url": "https://web.archive.org/web/20050326152807/http://www.project-entropia.com:80/StdContent.ajp?Id=1735", "date": "2005-03-26"},
         {"tier": 1, "label": "project-entropia.com - Apartments are soon here (preview)", "preview": true, "url": "https://web.archive.org/web/20050326152741/http://www.project-entropia.com:80/StdContent.ajp?Id=1675", "date": "2005-03-09"},
-        {"tier": 4, "label": "Entropia Universe forum - VU 7.2 Listing (MindBuster)", "url": "https://forum.entropiauniverse.com/t/vu-7-2-listing/920", "date": "2005-03-22"}
+        {"tier": 4, "label": "Entropia Universe forum - VU 7.2 Listing (MindBuster)", "url": "https://forum.entropiauniverse.com/t/vu-7-2-listing/920", "date": "2005-03-22"},
+        {"tier": 5, "label": "Entropia Universe forum - Undocumented VU changes list (Hansi)", "url": "https://forum.entropiauniverse.com/t/undocumented-vu-changes-list/4194"}
       ]
     },
     "7.2.X": {
@@ -588,7 +601,8 @@
         {"tier": 1, "label": "project-entropia.com - Project Entropia Version Updated to VU 7.3", "url": "https://web.archive.org/web/20050507102733/http://www.project-entropia.com:80/news/Index.ajp", "date": "2005-05-04"},
         {"tier": 4, "label": "Entropia Universe forum - VU 7.3 Listing (Abee)", "url": "https://forum.entropiauniverse.com/t/vu-7-3-listing/1783", "date": "2005-05-04"},
         {"tier": 5, "label": "Entropia Universe forum - A Brief History of Cities, TPs and Locations", "url": "https://forum.entropiauniverse.com/t/a-brief-history-of-cities-tps-and-locations/103895", "from_sheet": true},
-        {"tier": 5, "label": "MobyGames - patch history", "url": "https://www.mobygames.com/game/13447/entropia-universe/patches/", "from_sheet": true}
+        {"tier": 5, "label": "MobyGames - patch history", "url": "https://www.mobygames.com/game/13447/entropia-universe/patches/", "from_sheet": true},
+        {"tier": 5, "label": "Entropia Universe forum - Undocumented VU changes list (Hansi)", "url": "https://forum.entropiauniverse.com/t/undocumented-vu-changes-list/4194"}
       ]
     },
     "7.4": {
@@ -600,7 +614,8 @@
         {"tier": 1, "label": "project-entropia.com - Project Entropia Version Update 7.4 24 May 2005", "url": "https://web.archive.org/web/20050526023548/http://www.project-entropia.com:80/news/Index.ajp", "date": "2005-05-24"},
         {"tier": 1, "label": "project-entropia.com - VU 7.4 content list", "url": "https://web.archive.org/web/20060317185227/http://www.project-entropia.com/StdContent.ajp?Id=1874", "from_sheet": true},
         {"tier": 4, "label": "Entropia Universe forum - VU 7.4 Listing (MindBuster)", "url": "https://forum.entropiauniverse.com/t/vu-7-4-listing/2295", "date": "2005-05-24"},
-        {"tier": 4, "label": "RPGDot (RPGWatch mirror) - news page", "url": "https://rpgdot.rpgwatch.com/localhost/rpgdot.rpgwatch.com/httpdocs/index9363-2.html?hsaction=10077&newsid=38951", "from_sheet": true}
+        {"tier": 4, "label": "RPGDot (RPGWatch mirror) - news page", "url": "https://rpgdot.rpgwatch.com/localhost/rpgdot.rpgwatch.com/httpdocs/index9363-2.html?hsaction=10077&newsid=38951", "from_sheet": true},
+        {"tier": 5, "label": "Entropia Universe forum - Undocumented VU changes list (Hansi)", "url": "https://forum.entropiauniverse.com/t/undocumented-vu-changes-list/4194"}
       ]
     },
     "7.4.X": {
@@ -629,7 +644,8 @@
         {"tier": 1, "label": "project-entropia.com - VU 7.5 known issues", "url": "https://web.archive.org/web/20060317185215/http://www.project-entropia.com/StdContent.ajp?Id=1975", "date": "2006-03-17"},
         {"tier": 2, "label": "Entropia Pioneers forum - PROJECT ENTROPIA VERSION UPDATE 7.5 2005-07-01", "url": "https://web.archive.org/web/20060302003346/http://entropia-pioneers.kicks-ass.org:80/phpBB2/viewtopic.php?t=25226%26amp;sid=85d56a043074a3dc3beec2c30ba51ff0", "date": "2005-07-01"},
         {"tier": 2, "label": "Entropia Pioneers forum - Hello! Some tidbits as to PE's future development. (preview)", "preview": true, "url": "https://web.archive.org/web/20060302003340/http://entropia-pioneers.kicks-ass.org:80/phpBB2/viewtopic.php?t=24311%26amp;sid=85d56a043074a3dc3beec2c30ba51ff0", "date": "2005-05-31"},
-        {"tier": 4, "label": "Entropia Universe forum - VU 7.5 Content Listing [Updated w/ VU 7.5.1] (MindBuster)", "url": "https://forum.entropiauniverse.com/t/vu-7-5-content-listing-updated-w-vu-7-5-1/3325", "date": "2005-07-01"}
+        {"tier": 4, "label": "Entropia Universe forum - VU 7.5 Content Listing [Updated w/ VU 7.5.1] (MindBuster)", "url": "https://forum.entropiauniverse.com/t/vu-7-5-content-listing-updated-w-vu-7-5-1/3325", "date": "2005-07-01"},
+        {"tier": 5, "label": "Entropia Universe forum - Undocumented VU changes list (Hansi)", "url": "https://forum.entropiauniverse.com/t/undocumented-vu-changes-list/4194"}
       ]
     },
     "7.5.1": {
@@ -658,13 +674,18 @@
       "date": "2005-09-23",
       "title": "PE",
       "engine": "Gamebryo",
-      "changes": ["Mining"],
+      "changes": ["Mining", "Tutorial system", "Message center", "Limited (L) items"],
+      "transcribed_from": [
+        {"label": "project-entropia.com - VU 7.6 content list, part 1 (mining)", "url": "https://web.archive.org/web/20060111210708/http://www.project-entropia.com:80/StdContent.ajp?Id=2014"},
+        {"label": "project-entropia.com - VU 7.6 content list, part 2 (tutorial, message centre, limited items)", "url": "https://web.archive.org/web/20060111194224/http://www.project-entropia.com:80/StdContent.ajp?Id=2016"}
+      ],
       "sources": [
         {"tier": 1, "label": "project-entropia.com - VU 7.6 content list, part 1 (mining)", "url": "https://web.archive.org/web/20060111210708/http://www.project-entropia.com:80/StdContent.ajp?Id=2014", "date": "2005-09-22"},
         {"tier": 1, "label": "project-entropia.com - VU 7.6 content list, part 2 (tutorial, message centre, limited items)", "url": "https://web.archive.org/web/20060111194224/http://www.project-entropia.com:80/StdContent.ajp?Id=2016", "date": "2005-09-22"},
         {"tier": 2, "label": "Entropia Pioneers forum - VU 7.6 notes posted by Marco|MindArk", "url": "https://web.archive.org/web/20060302004456/http://entropia-pioneers.kicks-ass.org:80/phpBB2/viewtopic.php?t=26934%26amp;start=0%26amp;sid=85d56a043074a3dc3beec2c30ba51ff0", "date": "2005-09-22"},
         {"tier": 2, "label": "Entropia Universe forum - Project Entropia VU 7.6 (Marco_SDS (MindArk))", "url": "https://forum.entropiauniverse.com/t/project-entropia-vu-7-6/5561", "date": "2005-09-22"},
-        {"tier": 4, "label": "Entropia Universe forum - VU 7.6 Content Listing (MindBuster)", "url": "https://forum.entropiauniverse.com/t/vu-7-6-content-listing/5558", "date": "2005-09-22"}
+        {"tier": 4, "label": "Entropia Universe forum - VU 7.6 Content Listing (MindBuster)", "url": "https://forum.entropiauniverse.com/t/vu-7-6-content-listing/5558", "date": "2005-09-22"},
+        {"tier": 5, "label": "Entropia Universe forum - Undocumented VU changes list (Hansi)", "url": "https://forum.entropiauniverse.com/t/undocumented-vu-changes-list/4194"}
       ]
     },
     "7.6.2": {
@@ -708,7 +729,8 @@
         {"tier": 1, "label": "project-entropia.com - VU 7.7 content list", "url": "https://web.archive.org/web/20060103062024/http://www.project-entropia.com:80/StdContent.ajp?Id=2054", "date": "2006-01-03"},
         {"tier": 1, "label": "project-entropia.com - Upcoming changes to disciple graduation levels (preview)", "preview": true, "url": "https://web.archive.org/web/20051025021435/http://www.project-entropia.com:80/news/Index.ajp", "date": "2005-10-24"},
         {"tier": 4, "label": "Entropia Universe forum - VU 7.7 Content Listing (MindBuster)", "url": "https://forum.entropiauniverse.com/t/vu-7-7-content-listing/7365", "date": "2005-11-01"},
-        {"tier": 4, "label": "EntropiaPlanets - In the upcoming Version Update (VU 7.7) two graduation skill levels will be increased. (preview)", "preview": true, "url": "https://web.archive.org/web/20190723153532/http://www.entropiaplanets.com/threads/upcoming-changes-to-disciple-graduation-levels-24-oct-2005.12082/", "date": "2005-10-24"}
+        {"tier": 4, "label": "EntropiaPlanets - In the upcoming Version Update (VU 7.7) two graduation skill levels will be increased. (preview)", "preview": true, "url": "https://web.archive.org/web/20190723153532/http://www.entropiaplanets.com/threads/upcoming-changes-to-disciple-graduation-levels-24-oct-2005.12082/", "date": "2005-10-24"},
+        {"tier": 5, "label": "Entropia Universe forum - Undocumented VU changes list (Hansi)", "url": "https://forum.entropiauniverse.com/t/undocumented-vu-changes-list/4194"}
       ]
     },
     "7.7.1": {
@@ -735,7 +757,8 @@
       "sources": [
         {"tier": 1, "label": "project-entropia.com - VU 7.8 content list", "url": "https://web.archive.org/web/20060103112827/http://www.project-entropia.com:80/StdContent.ajp?Id=2074", "date": "2006-01-03"},
         {"tier": 2, "label": "Entropia Pioneers forum - VU 7.8 notes posted by Marco|MindArk", "url": "https://web.archive.org/web/20060302004502/http://entropia-pioneers.kicks-ass.org:80/phpBB2/viewtopic.php?t=28099%26amp;start=0%26amp;sid=85d56a043074a3dc3beec2c30ba51ff0", "date": "2005-11-23"},
-        {"tier": 2, "label": "Entropia Universe forum - Project Entropia VU 7.8 (Marco_SDS (MindArk))", "url": "https://forum.entropiauniverse.com/t/project-entropia-vu-7-8/8869", "date": "2005-11-23"}
+        {"tier": 2, "label": "Entropia Universe forum - Project Entropia VU 7.8 (Marco_SDS (MindArk))", "url": "https://forum.entropiauniverse.com/t/project-entropia-vu-7-8/8869", "date": "2005-11-23"},
+        {"tier": 5, "label": "Entropia Universe forum - Undocumented VU changes list (Hansi)", "url": "https://forum.entropiauniverse.com/t/undocumented-vu-changes-list/4194"}
       ]
     },
     "8.0": {
@@ -745,7 +768,8 @@
       "changes": ["Asteroid Space Resort"],
       "sources": [
         {"tier": 1, "label": "project-entropia.com - VU 8.0 content list", "url": "https://web.archive.org/web/20060103130202/http://www.project-entropia.com:80/StdContent.ajp?Id=2094", "date": "2006-01-03"},
-        {"tier": 4, "label": "Entropia Universe forum - VERSION UPDATE 8.0 Content Listing (kygon)", "url": "https://forum.entropiauniverse.com/t/version-update-8-0-content-listing/10888", "date": "2005-12-19"}
+        {"tier": 4, "label": "Entropia Universe forum - VERSION UPDATE 8.0 Content Listing (kygon)", "url": "https://forum.entropiauniverse.com/t/version-update-8-0-content-listing/10888", "date": "2005-12-19"},
+        {"tier": 5, "label": "Entropia Universe forum - Undocumented VU changes list (Hansi)", "url": "https://forum.entropiauniverse.com/t/undocumented-vu-changes-list/4194"}
       ]
     },
     "8.0.1": {
@@ -772,7 +796,8 @@
       "changes": ["Shop estates (Amethera cities and Club Neverdie)", "Visual upgrades of several locations"],
       "sources": [
         {"tier": 1, "label": "project-entropia.com - VU 8.1 content list", "url": "https://web.archive.org/web/20060214093656/http://www.project-entropia.com:80/StdContent.ajp?Id=2116", "date": "2006-02-14"},
-        {"tier": 4, "label": "Entropia Universe forum - VU 8.1 Content List (Teranoz)", "url": "https://forum.entropiauniverse.com/t/vu-8-1-content-list/14315", "date": "2006-02-01"}
+        {"tier": 4, "label": "Entropia Universe forum - VU 8.1 Content List (Teranoz)", "url": "https://forum.entropiauniverse.com/t/vu-8-1-content-list/14315", "date": "2006-02-01"},
+        {"tier": 5, "label": "Entropia Universe forum - Undocumented VU changes list (Hansi)", "url": "https://forum.entropiauniverse.com/t/undocumented-vu-changes-list/4194"}
       ]
     },
     "8.1.1": {
@@ -1443,6 +1468,11 @@
       "date": "2008-08-26",
       "title": "EU",
       "engine": "Gamebryo",
+      "changes": ["Xfire building in Port Atlantis", "New clothing and furniture"],
+      "transcribed_from": [
+        {"label": "entropiauniverse.com - VU 9.3.4 content list", "url": "https://web.archive.org/web/20080830023620/http://www.entropiauniverse.com:80/en/rich/107469.html"},
+        {"label": "entropiauniverse.com - Additional Version Update Information", "url": "https://web.archive.org/web/20080922223946/http://account.entropiauniverse.com:80/pe/en/rich/6717.html"}
+      ],
       "sources": [
         {"tier": 1, "label": "entropiauniverse.com - Additional Version Update Information", "url": "https://web.archive.org/web/20080922223946/http://account.entropiauniverse.com:80/pe/en/rich/6717.html", "date": "2008-08-29"},
         {"tier": 1, "label": "entropiauniverse.com - VU 9.3.4 content list", "url": "https://web.archive.org/web/20080830023620/http://www.entropiauniverse.com:80/en/rich/107469.html", "date": "2008-08-30"},
