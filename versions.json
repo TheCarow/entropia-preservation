@@ -2032,6 +2032,17 @@
     },
     {
       "version": "4.2",
+      "version_estimated": true,
+      "label": "Project Entropia, French client",
+      "date": "2003-01",
+      "status": "lost",
+      "note": "The complete client translated into French by Alchemic Dream; Gen4 wrote that the translation and support would be patched in on connecting. Its version is a guess: Świat Gier Komputerowych's issue of the same month carried the 4.2 client.",
+      "sources": [
+        {"label": "Gen4 PC CD-ROM n°162, January 2003, CD 2 (France)", "physical": true, "available": false, "evidence": [{"label": "Gen4 PC 162, p. 82 (scan on Archive.org)", "url": "https://archive.org/details/generation4-magazine-162"}, {"label": "The Gate 4, February 2003, p. 6", "url": "https://entropia-archive.com/media/yfzx37zb/"}]}
+      ]
+    },
+    {
+      "version": "4.2",
       "name": "ProjectEntropia_completo.exe",
       "bytes": 516066090,
       "date": "2003-03",
