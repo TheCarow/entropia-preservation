@@ -6,4 +6,5 @@ _site/
 cut-after-10.3/
 media/_out/
 articles/_out/
+sites/_out/
 media/preview.py

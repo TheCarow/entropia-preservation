@@ -17,9 +17,16 @@ function stop(message) {
 }
 
 const read = (name) => fs.readFileSync(path.join(ROOT, name), "utf8");
+// The Sites page's media names, which the Source filter groups posters under (draw-media.js build).
+let siteNames;
+try {
+  siteNames = JSON.parse(read(path.join("..", "sites", "sites.json"))).sites.flatMap((s) => s.media || []);
+} catch (error) {
+  stop(`sites/sites.json could not be read: ${error.message}. Nothing was written.`);
+}
 let m;
 try {
-  m = draw.build(JSON.parse(read("media.json")));
+  m = draw.build(JSON.parse(read("media.json")), siteNames);
 } catch (error) {
   stop(`media.json could not be read: ${error.message}. Nothing was written.`);
 }

@@ -8,6 +8,7 @@
 | `clients/index.html` | The Clients page, the version list, drawn from the data below. |
 | `media/` | The Media pages. `files/` holds the pictures and `media.json` their data, both written by the private editor (`media.json` on every save, one picture per line). `draw-media.js` draws the gallery and one page per picture, `render-media.js` writes them, `media.js` adds the gallery's filters and pages, `media.css` styles them and `thumbs.py` makes the thumbnails. |
 | `articles/` | The Articles page. `articles.json` lists the press releases, articles and magazines, edited by hand; `render-articles.js` draws them into the page, `articles.js` adds its filters and `articles.css` styles it. |
+| `sites/` | The Sites & Tools page. `sites.json` lists MindArk's sites, the players' and the tools players made (see [A site or tool](#a-site-or-tool)), edited by hand; `render-sites.js` draws them into the page, `sites.js` adds its filters and `sites.css` styles it. The media names it gives its sites also group the media page's Source filter. |
 | `versions.json` | Every version and every client file. Edited by hand. |
 | `notes.md` | The release notes' text, one `## VU <version>` section per version. Edited by hand. |
 | `images/discs/` | Pictures of the discs that client files were found on. |
@@ -78,16 +79,38 @@ Each source of a file has these fields:
 The file is laid out with each source on a single line, so adding or removing a source changes one
 line. Any valid JSON works.
 
+### A site or tool
+
+`sites/sites.json` holds one site or tool per line. The page puts MindArk's sites first, then the players' sites and
+tools grouped by the year they began, and a present-day tribute (no `from`) at the end.
+
+| Field | What it holds |
+|---|---|
+| `id` | The entry's link on the page, `sites/#pe-auction`: lowercase letters, digits and hyphens. |
+| `name` | The site's or tool's name. |
+| `maker` | Optional: who made it, shown as "by …". |
+| `by` | `"mindark"` or `"players"`, for the Made by filter. |
+| `kind` | One of Company, Official site, Forum, News, Wiki, Market, Web tool, Program, Spreadsheet, Guide, Society, Fan page, Blog, Tribute. Web tool, Program and Spreadsheet count as tools in the page's Show filter; the rest are sites. |
+| `from`, `to` | The years it ran, such as `"2001"`. `to` is `null` while it runs on or when its end is unknown; `from` is `null` only for a present-day tribute. |
+| `approx` | `true` when the years come from the Wayback Machine's first and last captures; the page then writes "c. 2001". A tool's years are usually its forum announcements, so `false`. |
+| `status` | `"archived"` (the Wayback Machine kept it; for a program or spreadsheet, its download), `"partial"` (it kept a page or a few; for a program, its site but not the download), `"lost"` (never captured) or `"live"`. |
+| `addresses` | Every address the site or tool used, without `http://`. |
+| `summary` | What it was, in a sentence or two. |
+| `note` | Optional, shown under the summary. |
+| `links` | `{"label": …, "url": …}` entries: the archived copy (or a tool's announcement) first, which the name links to. An address starting `../` links to another page of this site, such as `../clients/`. |
+| `media` | The site's source names as the media archive records them, such as `["Entropia Pioneers forum"]`. A picture counts for the site when one of its sources has that name, or that name with a poster in brackets after it; the page shows the count with a link to those pictures. |
+| `evidence` | For a lost or partial entry, the pages that show it existed, as `{"label": …, "url": …}`; shown as "Known from". A lost site needs at least one. |
+
 ## Publishing
 
 Pushing to `main` publishes the site. GitHub runs `render.js`, then makes the media thumbnails, runs
-`render-media.js`, copies the pictures across byte for byte and runs `render-articles.js`. `render.js` draws the whole version list into
+`render-media.js`, copies the pictures across byte for byte and runs `render-articles.js` and `render-sites.js`. `render.js` draws the whole version list into
 `clients/index.html` and puts `site.css` inside it and Home, so the published pages read in full without JavaScript and web archives
 keep every version, file, picture and release note. The published pictures leave out the hidden data Photoshop
 saves in them (edit history, print settings, a preview), which is nearly half their weight; the pictures in the
 folder keep it. Nothing needs running by hand.
 
-A mistake in `versions.json` or `notes.md`, or a picture that isn't in the folder, stops the publish, and the last
+A mistake in `versions.json`, `notes.md`, `articles.json` or `sites.json`, or a picture that isn't in the folder, stops the publish, and the last
 good version stays up. The Publish run on the repository's Actions tab lists what is wrong. A local preview draws the
 page in the browser from the data and lists any mistakes at its top, as before. `node render.js <folder>` writes the
 published form into a folder of your choosing.

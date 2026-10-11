@@ -28,7 +28,11 @@ function compare(a, b) {
   return order(x[0] ?? x[1], y[0] ?? y[1]) || order(x[1] ?? x[0], y[1] ?? y[0]) || a.index - b.index;
 }
 
-function build(data) {
+// sites: the media names the Sites page gives its sites (sites/sites.json). A site whose pictures are credited to each
+// poster, "Entropia Pioneers forum (nergal)", is one choice in the Source filter under that name, so a site's link from
+// the Sites page shows all its pictures. Each picture's own page still names the poster.
+function build(data, sites = []) {
+  const grouped = (name) => sites.find((site) => name === site || name.startsWith(`${site} (`)) || name;
   const tags = data.tags || {};
   const label = (s) => (tags[s] ? tags[s].label : s);
   const broader = (s) => (tags[s] && tags[s].broader) || [];
@@ -57,7 +61,7 @@ function build(data) {
     const where = direct.filter((s) => places.has(s)).map(label).join(", ");
     const sources = new Set(image.variants.flatMap((v) => v.originals.flatMap((o) => (o.sources || []).map((s) => s.name))));
     return {image, index, master: best, direct, where, heading: where || best.originals[0].name,
-            tags: [...direct, ...(image.implied || [])], sources: [...sources]};
+            tags: [...direct, ...(image.implied || [])], sources: [...new Set([...sources].map(grouped))]};
   }).sort(compare);
   return {data, tags, label, broader, above, problems, pictures, contributors: new Set(data.contributors || [])};
 }
