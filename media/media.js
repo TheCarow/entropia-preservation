@@ -1,10 +1,13 @@
 /* Entropia Archive media: the gallery's Show filter (pictures, videos or documents), tag search, Year or VU range,
    source filter and pages of 72 (6 x 12), all kept in the address; on a picture's page, Back to the gallery as it
-   was left. Without this file every picture shows and the filter bar and the pages are hidden. */
+   was left, and Previous and Next through the entries its filters showed. Without this file every picture shows,
+   the filter bar and the pages are hidden, and Previous and Next go through the whole archive. */
 (function () {
   "use strict";
   document.documentElement.dataset.script = "1";
   const KEPT = "entropia-media-filters";
+  // The ids of the entries the gallery's filters showed when one was opened, in their order.
+  const ORDER = "entropia-media-order";
   // A video's page: starting the poster swaps in YouTube's player (its privacy-enhanced address), playing at once.
   for (const start of document.querySelectorAll(".video-start")) {
     start.addEventListener("click", (event) => {
@@ -30,8 +33,23 @@
       if (filters) {
         back.href = `../${filters}${back.hash}`;
       }
+      // Previous and Next step through the filtered entries this page was opened from, while it is one of them.
+      const order = JSON.parse(sessionStorage.getItem(ORDER) || "null");
+      const at = Array.isArray(order) ? order.indexOf(back.hash.slice(3)) : -1;
+      const nav = document.querySelector(".pic-nav");
+      if (at >= 0 && nav) {
+        const step = (rel, text, id) => {
+          const link = document.createElement("a");
+          link.rel = rel;
+          link.href = `../${id}/`;
+          link.textContent = text;
+          return link;
+        };
+        nav.replaceChildren(...[at > 0 && step("prev", "Previous", order[at - 1]),
+          at < order.length - 1 && step("next", "Next", order[at + 1])].filter(Boolean));
+      }
     } catch {
-      // Without storage, Back opens the whole gallery at this picture.
+      // Without storage, Back opens the whole gallery at this picture, and Previous and Next go through it all.
     }
     return;
   }
@@ -394,9 +412,15 @@
   });
   gallery.addEventListener("click", (event) => {
     if (event.target.closest("a.shot")) {
-      const query = address(chosen(), 1);
+      const f = chosen();
+      const query = address(f, 1);
       try {
         sessionStorage.setItem(KEPT, query.startsWith("?") ? query : "");
+        if (Object.keys(f).length) {
+          sessionStorage.setItem(ORDER, JSON.stringify(items.filter(test(f)).map((item) => item.li.id.slice(2))));
+        } else {
+          sessionStorage.removeItem(ORDER);
+        }
       } catch {
         // Without storage, the picture's Back opens the whole gallery at that picture.
       }
