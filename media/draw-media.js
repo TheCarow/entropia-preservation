@@ -11,6 +11,8 @@ const size = (bytes) => (bytes >= 1048576 ? `${(bytes / 1048576).toFixed(1)} MB`
 const year = (day) => (day ? Number(day.slice(0, 4)) : null);
 const options = (values) => values.map(([value, text]) => `<option value="${esc(value)}">${esc(text)}</option>`).join("");
 const link = (url, text) => `<a href="${esc(url)}" target="_blank" rel="noopener">${esc(text)}</a>`;
+const watchURL = (video) => `https://www.youtube.com/watch?v=${encodeURIComponent(video.id)}`;
+const minutes = (seconds) => `${Math.floor(seconds / 60)}:${String(seconds % 60).padStart(2, "0")}`;
 
 function thumbSize(variant, box) {
   const scale = Math.min(1, box / Math.max(variant.width, variant.height));
@@ -60,7 +62,7 @@ function build(data, sites = []) {
     const direct = image.tags || [];
     const where = direct.filter((s) => places.has(s)).map(label).join(", ");
     const sources = new Set(image.variants.flatMap((v) => v.originals.flatMap((o) => (o.sources || []).map((s) => s.name))));
-    return {image, index, master: best, direct, where, heading: where || best.originals[0].name,
+    return {image, index, master: best, direct, where, heading: where || (image.video && image.video.title) || best.originals[0].name,
             tags: [...direct, ...(image.implied || [])], sources: [...new Set([...sources].map(grouped))]};
   }).sort(compare);
   return {data, tags, label, broader, above, problems, pictures, contributors: new Set(data.contributors || [])};
@@ -125,7 +127,9 @@ function card(p) {
   const alt = [p.where, p.image.date_text].filter(Boolean).join(", ") || p.heading;
   const date = p.image.date_short ? esc(p.image.date_short) : `<span class="undated">undated</span>`;
   const vuText = p.image.vu_text ? ` <span>${esc(p.image.vu_text)}</span>` : "";
-  return `<li class="pic" id="p-${esc(p.image.id)}" ${data}><a class="shot" href="${esc(p.image.id)}/"><img src="thumbs/${esc(p.master.id)}.jpg" width="${w}" height="${h}" loading="lazy" alt="${esc(alt)}"></a>
+  // A video's card is its poster frame with a play mark; the video itself is on its page.
+  const video = p.image.video ? `<span class="play" title="Video${p.image.video.duration ? `, ${minutes(p.image.video.duration)}` : ""}"></span>` : "";
+  return `<li class="pic" id="p-${esc(p.image.id)}" ${data}><a class="shot${p.image.video ? " is-video" : ""}" href="${esc(p.image.id)}/"><img src="thumbs/${esc(p.master.id)}.jpg" width="${w}" height="${h}" loading="lazy" alt="${esc(alt)}">${video}</a>
 <div class="pic-line">${date}${vuText}</div>${p.where ? `<div class="pic-place">${esc(p.where)}</div>` : ""}</li>`;
 }
 
@@ -230,13 +234,36 @@ function imageHTML(m, position) {
   const vu = image.vu_text
     ? `<dt>Version</dt><dd>${image.vu_link ? `<a href="../../clients/#vu-${esc(image.vu_link)}">${esc(image.vu_text)}</a>` : esc(image.vu_text)}</dd>`
     : "";
+  // The archive's own copy plays in the browser's player, fetched only once started (preload="none"). Without one,
+  // YouTube's player is swapped in when the poster is started (media.js). Either way nothing is fetched before then.
+  const video = image.video;
+  const copy = video && video.copy;
+  const onYouTube = video && video.site === "YouTube";
+  const poster = `<img src="../${esc(p.master.file)}" width="${p.master.width}" height="${p.master.height}" alt="${esc(p.heading)}">`;
+  let viewer;
+  if (copy) {
+    const [w, h] = copy.width && copy.height ? [copy.width, copy.height] : [p.master.width, p.master.height];
+    viewer = `<figure class="viewer"><video class="video-copy" controls preload="none" playsinline poster="../${esc(p.master.file)}" width="${w}" height="${h}"><source src="../${esc(copy.file)}" type="${esc(copy.type)}"><a href="../${esc(copy.file)}">Download the video</a></video>
+<figcaption class="video-note">The archive's own copy${onYouTube ? `; also ${link(watchURL(video), "on YouTube")}` : ""}.</figcaption></figure>`;
+  } else if (onYouTube) {
+    viewer = `<figure class="viewer"><div class="frame video-frame" data-youtube="${esc(video.id)}"><a class="video-start" href="${esc(watchURL(video))}" target="_blank" rel="noopener" aria-label="Play ${esc(video.title || "the video")}">${poster}<span class="play"></span></a></div>
+<figcaption class="video-note">Plays from YouTube when started; nothing is loaded from YouTube until then.</figcaption></figure>`;
+  } else {
+    viewer = `<figure class="viewer"><div class="frame">${poster}${regionsHTML(m, p)}</div></figure>`;
+  }
+  const copyFacts = copy
+    ? `<div class="meta">Archived copy: <a href="../${esc(copy.file)}" download>${esc(copy.name || copy.file.split("/").pop())}</a>, ${esc((copy.type || "").replace("video/", "").toUpperCase())}${copy.width ? `, ${copy.width} × ${copy.height}` : ""}, ${size(copy.bytes)}${copy.source ? `; ${esc(copy.source)}` : ""}</div>`
+    : "";
+  const videoFacts = video
+    ? `<dt>Video</dt><dd>${onYouTube ? link(watchURL(video), video.title || "On YouTube") : esc(video.title || "Video")}<div class="meta">${[video.channel && `by ${esc(video.channel)}${onYouTube ? " on YouTube" : ""}`, video.duration && minutes(video.duration), video.uploaded && `uploaded ${esc(video.uploaded)}`].filter(Boolean).join(", ")}</div>${copyFacts}</dd>`
+    : "";
   const where = image.coordinates_text
     ? `<dt>Coordinates</dt><dd>${esc(image.coordinates_text)}${image.coordinates_basis ? `<div class="meta">Coordinates basis: ${esc(image.coordinates_basis)}</div>` : ""}</dd>`
     : "";
   return `<div class="crumbs"><a class="back" href="../#p-${esc(image.id)}">Back</a><nav class="pic-nav">${before ? `<a rel="prev" href="../${esc(before.image.id)}/">Previous</a>` : ""}${after ? `<a rel="next" href="../${esc(after.image.id)}/">Next</a>` : ""}</nav></div>
 <h2 class="pic-title">${esc(p.heading)}</h2>
-<figure class="viewer"><div class="frame"><img src="../${esc(p.master.file)}" width="${p.master.width}" height="${p.master.height}" alt="${esc(p.heading)}">${regionsHTML(m, p)}</div></figure>
-<dl class="facts">${date}${vu}${where}${tagsHTML(m, p)}</dl>
+${viewer}
+<dl class="facts">${videoFacts}${date}${vu}${where}${tagsHTML(m, p)}</dl>
 <section class="copies"><h3>${copies.length > 1 ? `${copies.length} copies` : "The copy"} found</h3>
 ${copies.map((v) => copyHTML(m, p, v)).join("\n")}
 </section>`;

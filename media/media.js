@@ -5,6 +5,24 @@
   "use strict";
   document.documentElement.dataset.script = "1";
   const KEPT = "entropia-media-filters";
+  // A video's page: starting the poster swaps in YouTube's player (its privacy-enhanced address), playing at once.
+  for (const start of document.querySelectorAll(".video-start")) {
+    start.addEventListener("click", (event) => {
+      const frame = start.closest(".video-frame");
+      const id = frame && frame.dataset.youtube;
+      if (!id || !/^[A-Za-z0-9_-]{11}$/.test(id)) {
+        return;
+      }
+      event.preventDefault();
+      const player = document.createElement("iframe");
+      player.src = `https://www.youtube-nocookie.com/embed/${id}?autoplay=1&rel=0`;
+      player.title = start.getAttribute("aria-label") || "Video";
+      player.allow = "autoplay; encrypted-media; picture-in-picture; fullscreen";
+      player.allowFullscreen = true;
+      frame.classList.add("playing");
+      frame.replaceChildren(player);
+    });
+  }
   const back = document.querySelector("a.back");
   if (back) {
     try {

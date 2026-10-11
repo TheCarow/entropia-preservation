@@ -61,3 +61,17 @@
 .found li { margin: 3px 0; overflow-wrap: anywhere; }
 .found .fname { font-weight: 400; font-size: 13.5px; }
 .found .where { color: var(--muted); }
+
+/* Videos: a play mark on the poster frame, in the gallery and on the video's page, where starting it swaps in the
+   player at the poster's width and 16:9. */
+.shot.is-video { position: relative; }
+.play { position: absolute; left: 50%; top: 50%; width: 56px; height: 56px; margin: -28px 0 0 -28px; border-radius: 50%; background: rgba(0, 0, 0, .62); box-shadow: 0 0 0 2px rgba(255, 255, 255, .85); pointer-events: none; }
+.play::after { content: ""; position: absolute; left: 22px; top: 16px; border-style: solid; border-width: 12px 0 12px 19px; border-color: transparent transparent transparent #fff; }
+.pic .play { width: 40px; height: 40px; margin: -20px 0 0 -20px; }
+.pic .play::after { left: 16px; top: 11px; border-width: 9px 0 9px 14px; }
+.video-start { display: block; position: relative; }
+.video-start:hover .play { background: rgba(0, 0, 0, .8); }
+.video-frame.playing { display: block; width: 100%; max-width: 960px; aspect-ratio: 16 / 9; background: #000; }
+.video-frame iframe { display: block; width: 100%; height: 100%; border: 0; }
+.video-note { margin: 6px 0 0; font-size: 13px; color: var(--muted); }
+.video-copy { display: block; width: 100%; max-width: 960px; height: auto; background: #000; }

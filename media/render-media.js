@@ -31,6 +31,13 @@ try {
   stop(`media.json could not be read: ${error.message}. Nothing was written.`);
 }
 for (const p of m.pictures) {
+  const copy = p.image.video && p.image.video.copy;
+  if (copy) {
+    const file = path.join(ROOT, copy.file);
+    if (!fs.existsSync(file) || fs.statSync(file).size !== copy.bytes) {
+      m.problems.push(`image ${p.image.id}: its video copy ${copy.file} is missing or not ${copy.bytes} bytes`);
+    }
+  }
   for (const variant of p.image.variants) {
     const file = path.join(ROOT, variant.file);
     if (!fs.existsSync(file) || fs.statSync(file).size !== variant.bytes) {
