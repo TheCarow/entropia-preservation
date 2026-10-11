@@ -3394,6 +3394,16 @@ NPC's in the Ithaca Bar, Nate Valley and Twin Peaks are completely above ground 
 Several BLP weapons that spent laser cell ammunition have been corrected.  
 When you have been outbidden for an item on the auction, your bid amount is transferred back to your account immediately.  
 The sunken bridge north west of Atlas Haven has been repaired.
+
+--
+
+**Known Issue VU 8.7**  
+_01 Nov 2006_
+
+**Incorrect values displayed in Item Info**  
+When weapon and armor attachments have been attached to their respective items, incorrect values are currently being displayed in the blue values column. The orange column values are correct.
+
+This issue is being addressed and we will keep you updated.
 ## VU 8.7.1
 02 Nov 2006
 
@@ -3509,6 +3519,45 @@ All official MindArk avatars now have a star clearly displayed above their avata
 -   A new skill-gain effect has been included.
 -   New Icons for In-World messages.
 -   Numerous graphics fixes.
+
+--
+
+**Known Issues 8.8**  
+_22 Dec 2006_
+
+1. Difficulties attaching second laser sight to weapons combined with scope.
+2. Problems with attachments becoming detached after a relog.
+3. Delayed sound effects with certain weapons causing the sound to be clipped.
+4. Rubberbanding.
+
+**Other General Info**  
+
+**Changing Settings**  
+It may take up to 5 minutes for settings to be updated after a change e.g. Professional Standings, Keyboard Mapping etc.
+
+**Auction Bid List**  
+The Auction Bid list only displays 25 bids. This is a design change.
+
+**Mining**  
+Please note that all deposits are automatically claimed when discovered.
+
+--
+
+**Known Issues**  
+_5 Jan 2007_
+
+1. Difficulties attaching second laser sight to weapons combined with scope.
+2. Problems with attachments becoming detached after a relog.
+3. Delayed sound effects with certain weapons - causing sound to be clipped.
+4. Rubberbanding.
+5. Items becoming invisible in estates. (more info below)
+6. Shinook Forest irregularities (more info below)
+
+**Estate Issues**  
+Some participants have had problems with Items in their estates becoming invisible on one or more occasions. We understand that this can be quite frustrating and are working to fix this issue as soon as possible. In order to quickly get to the bottom of this problem we need your assistance. We ask any participants that experience problems with invisible Items to contact the Support Dept. immediately, providing us with the address of the estate (don't forget to set the access to public). We are also grateful for all relevant information, like detailed descriptions of the actual circumstances before the problem arose, such as which activities or actions that were being performed etc.
+
+**Supernatural Shinook Experiences**  
+Colonists visiting the Shinook Forest district have reported terrain difficulties and unusual supernatural experiences. Investigation teams have sent to look into the reports and we advise colonists to avoid this area until we have more information available.
 ## VU 8.8.1
 Version Update 8.8.1
 20 Dec 2006
@@ -3536,6 +3585,13 @@ The Entropia Universe has been updated with VU 8.8.2. Enhancements include:
 6. Continued optimization of the physics system.
 
 [More...](http://www.entropiauniverse.com/en/rich/5377.html)
+
+--
+
+**Known Issues 8.8.2**  
+_17 Jan 2007_
+
+Focus and healing MindForce chips are not working on their owner. We are working on this problem and will have it fixed as soon as possible.
 ## VU 8.9
 **Participant Content (PC)**  
 Images and video can now be uploaded and displayed on Signs, Screens and Displays with (PC) after their name e.g. Xlite-S Sign (PC).  
@@ -3565,7 +3621,7 @@ Just like the auction, the regressive tax on the markup makes sure that as the m
 Extra information (markup +TT, or % for stackables) added to auction messages when an auction has been won, when a bid has been surpassed and when an item has expired without being sold.  
   
 **Graphics**  
-Several new outposts have been created on Eudoria.
+Several new outposts have been created on Eudoria. Continued improvement to avatar body parts including fingernails for female avatars and better definition in the head, neck and shoulders area.
 
 **Lighting & Shading**  
 Improvements have continued with the introduction of light and shading effects indoors. Things are looking better than ever.  
@@ -3601,6 +3657,14 @@ Different sounds have been added for the different refiners.
 - Several furniture items that could not be interacted with correctly have been fixed.  
 - Coloring system problems fixed.  
 - Footstep sounds when moving forward have been fixed and their volume adjusted.
+
+--
+
+**Known Issues VU 8.9**  
+_6 Feb 2007_
+
+1. The implanting and extracting of skills is currently out of order.
+2. Scopes and laser sights are not being displayed properly. They are not lost.
 ## VU 8.9.1
 **Version Update 8.9.1**
 _8 Feb 2007_
@@ -3628,6 +3692,13 @@ while we implment VU 8.9.2, which includes:
 [More...](http://www.entropiauniverse.com/en/rich/5377.html)
 ## VU 8.9.X
 This mini update was aimed at fixing some minor issues affecting system stability.
+
+--
+
+**Entropia Universe Mini-Update**  
+_22 Feb 2007_
+
+Crash related problems when visiting shopping malls have been fixed.
 ## VU 8.11
 **Akmuul Island**  
 A whole new island has been opened up for PvP combat excitement in southern Amethera. Akmuul Island holds a few surprises for everybody, with new areas and settlements to explore, undiscovered native inhabitants, undiscovered raw materials and even two new land areas available for sale.  
@@ -3673,6 +3744,15 @@ New outposts and new equipment have new sounds.
 -   Manual rotation of Items is now available in the Item Info View Controls. Disable auto-rotation first and use the mouse wheel to zoom in/out and rotate in any direction.
 -   The PvP anomaly inside the Trade Center at Rei's Defense has been cleared up.
 -   The revival terminal has been moved closer to the Gun turret at Nea’s Place.
+
+--
+
+**Known Issues VU 8.11**  
+_20 Mar 2007_
+
+1. Certain Items are invisible in the Inventory: Lytarian Dust, Cadet jacket(F), Droplet Skirt (F,C).
+2. Stacks showing incorrect amounts in Inventory.
+3. PvP irregularities affecting participant experience on Akmuul Island.
 ## VU 8.11.1
 **Version Update 8.11.1**
 _22 Mar 2007_
@@ -3789,6 +3869,27 @@ When a claim expires, the type of resource is now also displayed in the message.
 -   Lila lamps intensity has been toned down a little. The Nallo ceiling lamp has had its light changed to a more pleasant glow.
 -   Numerous graphics bug fixes and several new textures for existing items.
 -   A bug causing avatars' waists to disappear with certain garment configurations has been fixed.
+
+--
+
+**Known Issues 8.12**  
+_5 June 2007_
+
+1. Repairing items sometimes causes the client to crash.
+2. Item info opens behind the trade window when in a Trade Terminal.
+3. Team members are not shown as yellow dots on the radar.
+
+These issues are now being addressed and we will keep you updated on the progress.
+
+--
+
+**Known Issues 8.12**  
+_7 June 2007_
+
+1. Team members are not shown as yellow dots on the radar.
+2. Armor platings become invisible in the inventory.
+
+These issues are now being addressed and we will keep you updated on the progress.
 ## VU 8.12.1
 **Version Update 8.12.1**
 _5 June 2007_
@@ -3916,6 +4017,29 @@ Avatars, armors and clothes have been remodeled. Improvements include:-   Increa
 -   The "Attitude" feature, which allows society members of Rank 1 to set a relationship attitude to other approved societies, has been fixed.  
       
     Also, the Umbranoid species have disappeared from Calypso for the time being.
+
+--
+
+**Known Issues 9.0**  
+_9 Oct 2007_
+
+A number of Issues are currently being worked and will be addressed in the coming mini-updates.
+
+- The 'Add' buttons in the Repair Terminal remove Desktop Icons and Keyboard Mappings for the items added.
+- When repairing garments, the icon of the repaired garment in the Inventory is not updated immediately.
+- Female avatars are sitting in the Body Sculpting unit.
+- The area around the Hjorten building in New Oxford and Omegaton City shopping area are still incorrect. Difficulties sitting in spaceship chairs.
+- Some components e.g. basic relay, reinforced hinge are missing textures.
+- A number of minor clothing and animation glitches are being worked on.
+
+--
+
+**Clothing Color Loss VU 9.0**  
+_9 Nov 2007_
+
+Based upon community feedback, we will correct the coloring of specific clothing items that, due to customizable color fields, lost their color in VU 9.0. This correction is only possible for clothing items that have not been bleached or colored following VU 9.0, and which have been reported: Havok Thong and Tiger Stockings. In order not to negatively affect people that have colored their garments after VU 9.0, the correction will be conducted in the following manner:
+
+Submit a Support Case explaining your situation. This Support Case must been submitted by November 23 at the latest. Cases submitted after Nov. 23 regarding this matter will not be processed. We will then inform participants through Support exactly when and how the correction will be performed. It is very important to follow the instructions you will receive.
 ## VU 9.0.1
 **Version Update 9.0.1**
 _11 Oct 2007_
@@ -3923,6 +4047,18 @@ _11 Oct 2007_
 The 'Add All' function in the Repair Terminal no longer destroys items Key Mappings and Desktop Icons.The Techtonic (F) jacket no longer causes torso?s to disappear.Grassy Slacks (F) are fully visible again.Dodge skills are now included in fighting creatures with long range attack abilities.Shop owners can again pick up items in display areas.Item Info is again visible in private trade.
 
 [Originally Posted Here](http://www.entropiauniverse.com/en/rich/5377.html)
+
+--
+
+**Known Issues 9.0.1**  
+_11 Oct 2007_
+
+- When repairing garments, the icon of the repaired garment in the Inventory is not updated immediately.
+- Female avatars are sitting in the Body Sculpting unit.
+- The area around the Hjorten building in New Oxford and Omegaton City shopping area are still incorrect.
+- Difficulties sitting in spaceship chairs.
+- Some components e.g. basic relay, reinforced hinge are missing textures.
+- A number of minor clothing and animation glitches are being worked on.
 ## VU 9.0.2
 16 Oct 2007
 
@@ -4098,6 +4234,42 @@ Gold Card users are now able to edit more account details at the 'My Section' ar
 -   Blueprint Books have been recolored to reflect the color of the blueprints they contain.
 -   Avatar feet are now better positioned when sitting in chairs.
 -   Flying rocks and dancing trees behave as they should again:)
+
+--
+
+**Known Issues 9.1**  
+_11 Dec 2007_
+
+**Space Travel**  
+The update of the space flight system has corrected a bug which allowed hangar owners to let other participants fly their ships. This is no longer possible. The correction was necessary in order to make future development of this system possible.
+
+**Make Up System**  
+In order to avoid problems when uploading your completed make up mask, it is very important that your security settings allow the procedure and that port 30583 (TCP Outbound) is opened in your firewall/router. If the upload fails, no upload costs will be charged, but the materials will be consumed i.e. the Materials Value will be transferred to your account and the materials cannot be retrieved.
+
+**Language Support During Christmas Season**  
+During Christmas Holidays (between December 21st and January 31st we will have limited language support. If your enquiry needs fast processing, we recommend you to write your support case in English.
+
+**EU Cash Card Update**  
+Unfortunately there have been further delays with the Entropia Universe Cash Card system. A release date is yet not set. If you wish to cancel your order until further information is available, you can contact the Entropia Universe Support Department at www.entropiauniverse.com .
+
+**Clothing Color Loss VU 9.0**  
+In the days following the VU 9.1 the color fields of the Havoc Thongs and Tiger Stockings will be reversed for those participants who contacted us regarding this matter BEFORE the 23rd of November. We will contact each of these participants via the open support case with detailed information how to proceed.
+
+**Clothing**  
+Leather garments may look slightly different now due to customization improvements to the Tailoring System. The same applies to colored leather garments.
+
+--
+
+**Known Issues 9.1**  
+_12 Dec 2007_
+
+**Hall Of Fame**  
+The All Time High lists are drawn from records that have been kept since 2003. As the lists have now expanded to include 100 entries, some of the recent high achievements have been replaced by older but greater achievements.
+
+**Condition Limit**  
+The condition limit indicator now only displays the usable condition range for items e.g. the top 10% condition for items with a 90% condition limit.
+
+Items have not lost any of their original condition during the VU 9.1 Update. As an example, an item with a condition limit of 90% means that the item cannot be used, and needs to be repaired once its condition falls below 90%. Following VU 9.1, the condition indicator now displays the 90% to 100% range (the usable range of the item) in order for participants to better judge how close an item is to needing repairs. In other words, the scale of the condition limit indicator has been resized to the usable condition range.
 ## VU 9.1.1
 **Version Update 9.1.1**
 _12 Dec 2007_
@@ -4231,6 +4403,17 @@ Storage performance has been improved to reduce storage 'freeze' when opening an
 -   When an item is traded, its desk top item is removed completely.
 -   Detach Attachments now possible for items in storage.
 -   Names restored to status bar and target box for fruit, dung and stones.
+
+--
+
+**Known Issues 9.2**  
+_29 Jan 2008_
+
+- Server status in Client Loader sometimes displaying incorrect status.
+- Incorrect textures in Crystal Palace biodome.
+- Items icons displayed in wrong storage category.
+- Avatars sinking under ground in PA.
+- Limited Anti-Materiel Rifles not displaying (L) in name.
 ## VU 9.2.0.1
 **Version Update 9.2.0.1**
 _29 Jan 2008_
@@ -4255,6 +4438,13 @@ The Entropia Universe is being updated with VU 9.2.3.Land area bug fixed.
 GBP available via PaySafeCard
 
 [Originally Posted Here](http://www.entropiauniverse.com/en/rich/5377.html)
+
+--
+
+**Known Issue - Make Up System**  
+_13 Feb 2008_
+
+There is currently a known issue in the Make Up system which affects the uploaded result. If the ESCAPE button is used while in make up mode, some of the paint may not be uploaded correctly. This issue will be fixed in the upcoming VU. Until the issue is fixed, we advise you not to use the ESCAPE button while using the make up system.
 ## VU 9.2.4
 **Version Update 9.2.4**
 _5 March 2008_
@@ -4347,6 +4537,19 @@ Network optimizations through reduced data transmission.
 -   Scopes are now visible on all weapons again.
 -   Additional space added to scroll end of Inventory and Storage for easy addition of items.
 -   Society skill leader board no longer includes suspended members' skills.
+
+--
+
+**Known Issues 9.3**  
+_21 May 2008_
+
+- Insert implants currently not working.
+- Items placed for sale at the auction are displayed at random positions.
+- Icon mapping lost when the item is moved in the inventory.
+- Items in Loot UI cannot be moved.
+- Construction will give you an incorrect "could not execute" message in the chat. This does not affect the action though.
+- Lockup Skills keep unlocking every time you relog.
+- Storage Boxes show incorrect weight BP books do not update immediately when filled with blueprints.
 ## VU 9.3.1
 **Version Update 9.3.1**
 _22 May 2008 _
@@ -4457,6 +4660,34 @@ Refiners can now be distinguished by different color trimming.
 **11 Jul 2008**
 - File transfer to Make Up Masks and Participant Content equipment fixed.
 - DIBS deposit disruptions resolved.
+
+--
+
+**Mini-Update Known Issue**  
+_1 July 2008_
+
+Unfortunately today's update only partly fixed the display error with received loot. On rare occasions the loot does not appear in the loot UI even if you receive it in your inventory. A relog fixes this.
+
+We can assure you that this is only a display error. All loot received will be placed in your inventory. We apologize for any inconvenience caused by this and will have this fixed as soon as possible.
+
+--
+
+**Known Issue Affecting Mining System**  
+_12 Aug 2008_
+
+We have located an issue in the mining system that sometimes prevents claimed resources from being completely excavated.
+
+The issue causes the miner to get an internal error when he/she is excavating a resource which prevents a complete excavation of the resource site. We can assure you that we are giving this issue top priority and hope to have it fixed soon. Please stay tuned to this section for any further information regarding this matter.
+
+For those who are affected by this issue, please proceed as follows:
+
+- Contact support by filing a support case.
+- Also, send a screenshot of the deposit site that verifies that the error occurred. Press default key "U" to get the time and position of the incident.
+- Send the screenshot to **entropia_support@mindark.com** and include the support case number.
+
+Those of you who have already contacted support regarding this matter do NOT need to send a new support case. All your reports have been registered and we will get back to you once we have more information.
+
+We sincerely apologize for any inconvenience caused.
 ## VU 9.4
 THIS VERSION UPDATE HAS PRIMARILY ADDRESSED MAJOR INFRASTRUCTURAL AND TECHNICAL TASKS INVOLVED IN ADAPTING ENTROPIA UNIVERSE AS A PLATFORM FOR THE 3D INTERNET.
 
@@ -4659,6 +4890,79 @@ Version Update 10.1 will see Land Area Management, MindForce Teleportation, Apar
 Version Update 10.2 will include Teaming, Third Person Avatar Navigation, and Audio Enhancements.
 
 Version Updates following 10.2 will include major new systems, along with enhancements to current systems.
+
+--
+
+**Known Issues Version Update 10.0 - Update 1**  
+_19 Aug 2009_
+
+UPDATE 1. We will continuously update the information below.
+
+There are a few issues in the new Version Update 10.0 that we are aware of and will fix as soon as possible:
+
+- Settings you have made in the inworld Options window are not saved when exiting Entropia Universe and you might automatically get graphics quality settings that are too high for the system you are using. (If you have chosen Low or Medium graphics quality settings, redo the change every time you log in and your performance will be better.)
+- Air bubbles from swimming in water follow your avatar onto land.
+- Armor Platings attached to armor pieces in Storage are not visible or stuck.
+- You sometimes receive search windows from mining although you do not mine yourself.
+- There is a problem that sometimes causes a fatal crash (otherwise known as “Blue Screen of Death” or “BSOD”) on nVidia-based systems. This mostly effects newer graphics card driver versions. With older drivers, the client might still crash but not always with Blue Screens. We are working together with nVidia and CryTek to resolve the problem. ATI-based systems are not affected.
+- "Window Mode" can now be chosen in the Options window inworld. However, if you log in with full screen, you will not be able to switch over to window mode directly. A relog will resolve this.
+
+If you get any problems or errors when downloading and installing the new version update, please have a look in the [FAQs](http://cl.entropiauniverse.com/support-faq/technical-issues-1/download-faq/) for quick help.
+
+Thank you for you patience until these issues have been resolved.
+
+--
+
+**Version Update 10.0 Announcement**  
+_10 Aug 2009_
+
+Dear Calypsians,
+
+After an extensive conversion process of the Planet Calypso Colonist MMO to the CryENGINE2 game engine, First Planet Company wish to inform that Version 9.4 will be officially closed down at 00:00 UTC on Monday, August 17th, in preparation for the launch of Version 10, expected to arrive during the following days. Progress updates and latest information will be available at the Planet Calypso website.
+
+**Version 10.0 Client Acquisition**
+The new Version 10.0 client will be approximately 4 GB in size and will be made available pre-launch via BitTorrent; the link to the torrent file will be available on Friday, Aug. 14th via the Planet Calypso website. The Client Loader will also automatically patch Version 9.4 to Version 10.0 as normal via HTTP on Monday Aug. 17th. Please note, as the BitTorrent option will require Third Party Software we will not be able to provide Support for this option.
+
+**Version 10.0 Login**
+It will not be possible to log into the Version 10 environment until a range of internal performance checks have been completed following the Version 9.4 close down. Updates will be posted on the Planet Calypso website informing on its progress.
+
+**Your Avatar**
+Each participant avatar has been converted as closely as possible to its Version 9.4 look. You will have the option to keep this converted look, or, take advantage of a one-time opportunity to recreate your avatar using the full modification range available through the system. This one-time opportunity will only be available following the Version 10 update. Once you have "Accepted" your avatar, the offer will no longer be available. Newly created avatars will use the regular 'avatar creation' system.
+
+**Release Schedule**
+In order to manage the quality, and listen to feedback during this comprehensive upgrade of Planet Calypso and the underlying Entropia Platform, systems will be reintroduced over a period of several Version Updates in quick succession.
+
+Version Update 10.0 will begin with the most widely used systems: Hunting, Mining, Crafting, PvP Trade, Auction, CND Asteroid, Banks, Estates, Shops, Land Areas, PvP Combat, Society, Friends List, Ad System, Participant Content, Terminals, Items, Garment Customization, Inventory, Storage, Hall of Fame, Teleport, Chat, Keyboard Mapping, Dashboard, Map, GUI and Gifts.
+
+A detailed Version Update 10 Content List will be available when the new environment is available for login.
+The following updates will quickly follow the Version 10 Release:
+
+Version Update 10.1 will see Land Area Management, MindForce Teleportation, Apartments, Televators and Fruit, Dung & Stones.
+
+Version Update 10.2 will include Teaming, Third Person Avatar Navigation, and Audio Enhancements.
+Version Updates following 10.2 will include major new systems, along with enhancements to current systems.
+
+**Feedback & Support**
+The Entropia Universe Support Dept. and Entropia Platform Developers will closely monitor the release of Version Update 10.0, and work diligently for all participants during the transition.
+
+Daily updates on mini-patches and performance tweaks will be available through the Planet Calypso website. To assist us in providing timely and efficient support, and software patches as required, we ask that your feedback be submitted via Support Cases through the Planet Calypso website.
+
+**“Second Golden Age of Calypso”**
+First Planet Company’s “Second Golden Age of Calypso” promotion period will unfold parallel to the Version Updates. A range of unique never-to-be-dropped-again items, combined with an updated Calypso story will ensure maximum entertainment and excitement available through the systems being introduced. The official begin-date will be announced on the Planet Calypso website.
+
+An enlarged group of Official Planet Calypso Guides will be available throughout the period to welcome and guide new colonists to our planet.
+
+**System Requirements**
+Minimum, Recommended and Optimal hardware requirements are now available at the Planet Calypso website. While the in-world Options Panel has been updated considerably; allowing a wide range of graphical settings to facilitate varying hardware configurations, this initial release focuses on optimal graphical performance. Minimum and Recommended requirements will be optimized next.
+
+**Finally**
+We thank you all for your patience and support during this exciting development. While Version Update 10 has focused on the conversion of the existing Planet Calypso, we hope that you will enjoy the new features that we have gained, like the day/night cycles, improved avatar movement, updated interfaces and much more. Planet Calypso is evolving again, in real time, and we will all once again enjoy the thrill of colonists setting foot on a new land.
+
+Finally, First Planet Company would also like to express our appreciation to the Entropia Platform Developers who have spent many challenging months developing the platform to such a high level. We look forward to a bright future for the Planet Calypso Colonist MMO.
+
+Best Regards
+First Planet Company
+MindArk PE
 ## VU 10.0.4
 **PLANET CALYPSO VERSION UPDATE 10.0.4
 2009-08-26
