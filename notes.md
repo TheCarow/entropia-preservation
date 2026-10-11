@@ -2334,6 +2334,8 @@ Some areas have been updated in VU 7.4
 - The amount of common dung and fruits is increased, especially on the Amethera continent.
 
 Also, we are investigating the creature density in some areas, mainly those that are mineral rich, to allow for dedicated mining operation without the need of being armed to the teeth.
+
+**Information**: As a note about the skill experience system in VU 7.4; the choice of equipment will also influence the experience received.
 ## VU 7.5
 **New avatar creation process**  
 A new avatar creation process is launched, allowing for a more streamlined experience. Everyone will have an opportunity to check it out, even old avatars.
@@ -2979,6 +2981,17 @@ Some of the areas addressed by the updates are:
 - Several minor fixes/clarifications to the Event System.
 - Fixed issue with avatar name display (could show "???")
 - The disciple window has been made clearer.
+
+--
+
+**Event System Rules Update**  
+_28 Mar 2006_
+
+First: An issue in the Event System has been corrected. The fallout from this correction is that all registrations for all events must be repeated. The Registration fees paid have been returned to the avatars affected. We apologize for the inconvenience.
+
+Second: If an event is created, and no activity has occurred during the Scheduled time frame specified, the Prize Item(s) will be moved to an Official MindArk Investigator for observation. The Event Promoter should then contact MindArk Support.
+
+Third: All Events created with faulty rules (hunting events in creature less areas or hunting events with no weapons allowed) have been cancelled. All funds/items have been returned (or will be within 24h).
 ## VU 8.2.2
 VU 8.2 has been updated twice and the current version is VU 8.2.2. An additional update is expected very soon.
 
@@ -2990,6 +3003,17 @@ Some of the areas addressed by the updates are:
 - Several minor fixes/clarifications to the Event System.
 - Fixed issue with avatar name display (could show "???")
 - The disciple window has been made clearer.
+
+--
+
+**Event System Rules Update**  
+_28 Mar 2006_
+
+First: An issue in the Event System has been corrected. The fallout from this correction is that all registrations for all events must be repeated. The Registration fees paid have been returned to the avatars affected. We apologize for the inconvenience.
+
+Second: If an event is created, and no activity has occurred during the Scheduled time frame specified, the Prize Item(s) will be moved to an Official MindArk Investigator for observation. The Event Promoter should then contact MindArk Support.
+
+Third: All Events created with faulty rules (hunting events in creature less areas or hunting events with no weapons allowed) have been cancelled. All funds/items have been returned (or will be within 24h).
 ## VU 8.3
 **New Oxford City of Culture**  
 The Entropia Universe has now been updated with a unique city dedicated to culture and the arts. Located on the Amethera continent, New Oxford (coord. 15600, 19300) has been designed in conjunction with renowned Swedish artist Ernst Billgren.  
@@ -3224,6 +3248,21 @@ Stables that were to close to Fort Argus and Fort Zeus have been moved to reduce
 -   An auctioneer has been placed in the Shinook Jungle outpost.
 -   The cannon towers have been upgraded with a new design.
 -   The jukebox in Fort Fury is working properly again.
+
+--
+
+**Known Issues VU 8.6**  
+_19 Sep 2006_
+
+Thank you all for the Support Cases that have been filed since the release of VU 8.6, as they have helped us greatly in localizing issues. The following tasks remain top priority and are currently being worked on:
+
+- System calibration has begun with VU 8.6.1, and will continue in the coming days to reduce the lag being experienced.
+- Teleporting on CND sometimes causes avatars to fall through the floor.
+- Some auctioneers are partly stuck in the ground.
+- The lazer sight is missing its red dot.
+- Changing tools while using MindForce teleportation causes an avatar to get stuck.
+
+We hope to have these issues resolved as soon as possible. Thanks again for the reports and your patience. Keep an eye on the VU News section for more updates.
 ## VU 8.6.1
 -   An auto-running problem when using private chat has been fixed.
 -   Creatures that sometimes shook violently have been cured.
@@ -3242,6 +3281,25 @@ The Entropia Universe has been updated with VU 8.6.3. Enhancements include:
 - Work has continued in 8.6.3 to reduce lag and rubber-banding issues.
 - The range of the gun turrets on the Asteroid, Crystal Palace and on Land Areas have been reduced to pre VU 8.6 ranges.
 - A problem in the event system has been resolved.
+
+--
+
+**Known Issues VU 8.6.3**  
+_26 Sep 2006_
+
+We are currently working with:
+
+- Continued system calibration to reduce lag and rubber-banding issues.
+- Teleporting on CND, which sometimes causes avatars to fall through the floor.
+- MindForce being 'interrupted by movement' even though avatar didn't move.
+
+Due to the priority of the above mentioned tasks, other less critical tasks have been moved to future updates. These include:
+
+- Some auctioneers are partly stuck in the ground.
+- The lazer sight is missing its red dot.
+- Changing tools while using MindForce teleportation causes an avatar to get stuck.
+
+We hope to have these issues resolved as soon as possible. Thanks for your feedback.
 ## VU 8.6.4
 05 Oct 2006
 
@@ -3881,6 +3939,19 @@ The 'Add All' function in the Repair Terminal no longer destroys items Key Mappi
 - Terrain fixes in New Oxford and Omegaton City.
 - The Spiral Street Night Shift Jacket (m) and (f) have the correct colors
 - The weight of paint cans has been adjusted.
+
+--
+
+**Armor Deterioration Changes**  
+_15 Oct 2007_
+
+Following an evaluation of the changes in VU 9.0, recent armor deteriorations have been revised for VU 9.0.2 due on October 16.
+
+The 2 PEC deterioration of 'Limited' armor parts when equipping them has been removed. This will encourage the use of this armor type even more.
+
+The deterioration of 'Unlimited' armor parts has been reduced to 1 PEC per equip. MindArk wish to differentiate between Limited and Unlimited armor series. Hunters now have the added dimension of weighting the advantages and disadvantages of using an all-round protective armor which doesn't need to be changed as often, or using special armors that protect against specific damage types. This compliments the economic balance MindArk strive to achieve in regards to armors.
+
+The new abilities to 'Hot Key' armor parts will result in extra lag if abused i.e. participants repeatedly changing armors in crowded areas. This potential exploit is to be curbed. As the fee has now been reduced, an increased delay of 0.5 seconds is included when equipping armors.
 ## VU 9.0.3
 23 Oct 2007
 

@@ -839,7 +839,8 @@
     "8.2.1": {
       "date": "2006-03-28",
       "transcribed_from": [
-        {"label": "project-entropia.com - Updates 28 Mar 2006", "url": "https://web.archive.org/web/20060406180824/http://www.project-entropia.com:80/news/Index.ajp"}
+        {"label": "project-entropia.com - Updates 28 Mar 2006", "url": "https://web.archive.org/web/20060406180824/http://www.project-entropia.com:80/news/Index.ajp"},
+        {"label": "Entropia Universe forum - (from main page) Updates 28 Mar 2006", "url": "https://forum.entropiauniverse.com/t/19502"}
       ],
       "sources": [
         {"tier": 1, "label": "project-entropia.com - Updates 28 Mar 2006", "url": "https://web.archive.org/web/20060406180824/http://www.project-entropia.com:80/news/Index.ajp", "date": "2006-03-28"},
@@ -849,7 +850,8 @@
     "8.2.2": {
       "date": "2006-03-28",
       "transcribed_from": [
-        {"label": "project-entropia.com - Updates 28 Mar 2006", "url": "https://web.archive.org/web/20060406180824/http://www.project-entropia.com:80/news/Index.ajp"}
+        {"label": "project-entropia.com - Updates 28 Mar 2006", "url": "https://web.archive.org/web/20060406180824/http://www.project-entropia.com:80/news/Index.ajp"},
+        {"label": "Entropia Universe forum - (from main page) Updates 28 Mar 2006", "url": "https://forum.entropiauniverse.com/t/19502"}
       ],
       "sources": [
         {"tier": 1, "label": "project-entropia.com - Updates 28 Mar 2006", "url": "https://web.archive.org/web/20060406180824/http://www.project-entropia.com:80/news/Index.ajp", "date": "2006-03-28"},
@@ -990,7 +992,8 @@
     "8.6.3": {
       "date": "2006-09-26",
       "transcribed_from": [
-        {"label": "entropiauniverse.com - Entropia Universe Version Update 8.6.3 Applied", "url": "https://web.archive.org/web/20061113005233/http://www.entropiauniverse.com/pe/en/rich/5078.html?newspage=7"}
+        {"label": "entropiauniverse.com - Entropia Universe Version Update 8.6.3 Applied", "url": "https://web.archive.org/web/20061113005233/http://www.entropiauniverse.com/pe/en/rich/5078.html?newspage=7"},
+        {"label": "Entropia Universe forum - 26 Sep 2006 Known Issues VU 8.6.3", "url": "https://forum.entropiauniverse.com/t/36897"}
       ],
       "sources": [
         {"tier": 1, "label": "entropiauniverse.com - Entropia Universe Version Update 8.6.3 Applied", "url": "https://web.archive.org/web/20061113005233/http://www.entropiauniverse.com/pe/en/rich/5078.html?newspage=7", "date": "2006-09-26"},
@@ -1259,6 +1262,10 @@
       "date": "2007-10-16",
       "title": "EU",
       "engine": "Gamebryo",
+      "transcribed_from": [
+        {"label": "Entropia Universe forum - Version Update 9.0.2 (news bot)", "url": "https://forum.entropiauniverse.com/t/version-update-9-0-2/78258"},
+        {"label": "Entropia Universe forum - Armor Deterioration Changes 15 Oct 2007", "url": "https://forum.entropiauniverse.com/t/78147"}
+      ],
       "sources": [
         {"tier": 3, "label": "Entropia Universe forum - Armor Deterioration Changes 15 Oct 2007", "url": "https://forum.entropiauniverse.com/t/78147", "date": "2007-10-15"},
         {"tier": 3, "label": "Entropia Universe forum - Version Update 9.0.2 (news bot)", "url": "https://forum.entropiauniverse.com/t/version-update-9-0-2/78258", "date": "2007-10-16"},
