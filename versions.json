@@ -129,23 +129,27 @@
       "date": "2003-05",
       "title": "PE",
       "engine": "NetImmerse",
+      "note": "The planned VU 4.5 was most likely never released under that name: Marco expected it in two parts, a week apart, in the first half of May, and his announcement of VU 5.0 then named the next update 5.0 and its content part 5.1, which brought the teams 4.5 was to have. The post of 9 April 2003 survives only in Unionova's 2008 compilation, which credits it to topic 251 of the Entropia Pioneers forum; the Wayback Machine kept neither that topic nor topic 358, which it gives for the post of 25 April.",
       "sources": [
         {"tier": 4, "label": "perc.info - VU 4.5 listing (fan site, 2004)", "url": "https://web.archive.org/web/20041026163540/http://www.perc.info:80/index.asp?page=67"},
         {"tier": 5, "label": "Entropia Universe forum - VU 4.5 Listing (GeeKman, 2005 repost)", "url": "https://forum.entropiauniverse.com/t/vu-4-5-listing/141", "date": "2005-01-29"},
         {"tier": 5, "label": "Entropia Museum - VU search results for \"4.5\"", "url": "https://www.entropiamuseum.com/vu/search/4.5", "from_sheet": true},
-        {"tier": 5, "label": "Entropia Museum - Version Updates archive", "url": "https://www.entropiamuseum.com/vu/"}
+        {"tier": 5, "label": "Entropia Museum - Version Updates archive", "url": "https://www.entropiamuseum.com/vu/"},
+        {"tier": 5, "label": "Unionova (unionova.eu) - History of Calypso, a 2008 compilation (the archive's copy)", "url": "https://entropia-archive.com/media/60ww6b6v/", "date": "2008-05-12"}
       ]
     },
     "5.0": {
+      "date": "2003-05",
       "changes": ["Server architecture rewrite", "Circular PvP zones"],
-      "note": "Only MindArk's pre-release announcement of 18 May 2003 survives for VU 5.0; no list of its changes has been found. Entropia Insider, a player magazine, wrote in August 2003 that MindArk's internal name for it was \"The stability update\", that it changed little of the game's content, and that it made the PvP zones circular.",
+      "note": "Only MindArk's pre-release announcement survives for VU 5.0, dated 5 May 2003 in Unionova's copy and 18 May in perc.info's and the 2005 forum repost; no list of its changes has been found. It was planned for the middle of May and came out before VU 5.1 on 3 July 2003; no source found gives the day. Entropia Insider, a player magazine, wrote in August 2003 that MindArk's internal name for it was \"The stability update\", that it changed little of the game's content, and that it made the PvP zones circular.",
       "transcribed_from": [
         {"label": "perc.info - VU 5.0 listing (fan site, 2004)", "url": "https://web.archive.org/web/20041026175920/http://www.perc.info:80/index.asp?page=68"}
       ],
       "sources": [
         {"tier": 4, "label": "perc.info - VU 5.0 listing (fan site, 2004)", "url": "https://web.archive.org/web/20041026175920/http://www.perc.info:80/index.asp?page=68"},
         {"tier": 5, "label": "Entropia Universe forum - VU 5.0 Listing (GeeKman, 2005 repost)", "url": "https://forum.entropiauniverse.com/t/vu-5-0-listing/140", "date": "2005-01-29"},
-        {"tier": 5, "label": "Entropia Museum - Entropia Insider issue 1, August 2003 (player magazine)", "url": "https://www.entropiamuseum.com/guides/2003/08/guide2003081.pdf", "date": "2003-08-08"}
+        {"tier": 5, "label": "Entropia Museum - Entropia Insider issue 1, August 2003 (player magazine)", "url": "https://www.entropiamuseum.com/guides/2003/08/guide2003081.pdf", "date": "2003-08-08"},
+        {"tier": 5, "label": "Unionova (unionova.eu) - History of Calypso, a 2008 compilation (the archive's copy)", "url": "https://entropia-archive.com/media/60ww6b6v/", "date": "2008-05-12"}
       ]
     },
     "5.1": {
@@ -400,6 +404,7 @@
         "Avatar animation upgrade",
         "Mentor & Disciple system"
       ],
+      "note": "The sentence on how the Mentor skill advances is from Marco's post of the notes on the Entropia Pioneers forum; MindArk's page leaves it out.",
       "sources": [
         {"tier": 1, "label": "project-entropia.com - VU 5.6 content list", "url": "https://web.archive.org/web/20041224012732/http://www.project-entropia.com:80/StdContent.ajp?Id=1168", "date": "2004-12-24"},
         {"tier": 1, "label": "project-entropia.com - VU 5.6 miniupdates", "url": "https://web.archive.org/web/20041224011431/http://www.project-entropia.com:80/StdContent.ajp?Id=1169", "date": "2004-12-24"},
@@ -639,6 +644,10 @@
       "title": "PE",
       "engine": "Gamebryo",
       "changes": ["New avatar creation", "New PE introduction experience"],
+      "transcribed_from": [
+        {"label": "project-entropia.com - VU 7.5 content list", "url": "https://web.archive.org/web/20060317185207/http://www.project-entropia.com/StdContent.ajp?Id=1974"},
+        {"label": "project-entropia.com - VU 7.5 known issues", "url": "https://web.archive.org/web/20060317185215/http://www.project-entropia.com/StdContent.ajp?Id=1975"}
+      ],
       "sources": [
         {"tier": 1, "label": "project-entropia.com - VU 7.5 content list", "url": "https://web.archive.org/web/20060317185207/http://www.project-entropia.com/StdContent.ajp?Id=1974", "date": "2006-03-17"},
         {"tier": 1, "label": "project-entropia.com - VU 7.5 known issues", "url": "https://web.archive.org/web/20060317185215/http://www.project-entropia.com/StdContent.ajp?Id=1975", "date": "2006-03-17"},
@@ -928,6 +937,7 @@
       "title": "EU",
       "engine": "Gamebryo",
       "changes": ["New Amethera locations", "Clothes and armor fit better on avatars", "Lighting improvements"],
+      "note": "The last enhancement, on the pets and the stable by Fort Argus, is in nutter's copy of the notes posted on release day and in Unionova's 2008 compilation, but on no capture of MindArk's page.",
       "sources": [
         {"tier": 1, "label": "entropiauniverse.com - VU 8.5 content list", "url": "https://web.archive.org/web/20060705205024/http://www.entropiauniverse.com:80/en/rich/5726.html", "date": "2006-07-05"},
         {"tier": 1, "label": "entropiauniverse.com - VU 8.5 Coming Features (preview)", "preview": true, "url": "https://web.archive.org/web/20060715044544/http://account.entropiauniverse.com:80/pe/en/rich/5078.html", "date": "2006-06-22"},

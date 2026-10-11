@@ -85,7 +85,7 @@ const articles = (data.articles || []).map((a, n) => {
   const date = parseDate(a.date === undefined ? null : a.date);
   if (!date) problems.push(`${at}: date ${JSON.stringify(a.date)} is not a date this page reads`);
   for (const link of a.links || []) {
-    if (!link.label || !/^https?:\/\//.test(link.url || "")) problems.push(`${at}: a link needs a label and an http address`);
+    if (!link.label || !/^(https?:\/\/|\.\.\/)/.test(link.url || "")) problems.push(`${at}: a link needs a label and an http or ../ address`);
   }
   if (a.media && !sources.has(a.media)) problems.push(`${at}: media source ${a.media} names no source in media.json`);
   if (a.clients && !versions.has(a.clients)) problems.push(`${at}: VU ${a.clients} is not in versions.json`);
@@ -105,9 +105,12 @@ const languages = count(articles, "language");
 const option = (value, text) => `<option value="${esc(value)}">${esc(text)}</option>`;
 
 function articleHTML(a) {
+  // A link out of the site opens in a new tab; one to another of its pages ("../media/<id>/") does not.
+  const link = (url, text) => (/^https?:\/\//.test(url)
+    ? `<a href="${esc(url)}" target="_blank" rel="noopener">${esc(text)}</a>` : `<a href="${esc(url)}">${esc(text)}</a>`);
   const main = a.links && a.links[0];
-  const title = main ? `<a href="${esc(main.url)}" target="_blank" rel="noopener">${esc(a.title)}</a>` : esc(a.title);
-  const links = (a.links || []).map((l) => `<a href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.label)}</a>`);
+  const title = main ? link(main.url, a.title) : esc(a.title);
+  const links = (a.links || []).map((l) => link(l.url, l.label));
   if (a.media) {
     links.push(`<a href="../media/?source=${esc(a.media)}">Pictures in the media archive</a>`);
   }

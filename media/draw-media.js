@@ -13,6 +13,9 @@ const options = (values) => values.map(([value, text]) => `<option value="${esc(
 const link = (url, text) => `<a href="${esc(url)}" target="_blank" rel="noopener">${esc(text)}</a>`;
 const watchURL = (video) => `https://www.youtube.com/watch?v=${encodeURIComponent(video.id)}`;
 const minutes = (seconds) => `${Math.floor(seconds / 60)}:${String(seconds % 60).padStart(2, "0")}`;
+// An entry's type comes from its fields, not from a tag: a document or a video, and a picture otherwise.
+const typeOf = (image) => (image.document ? "document" : image.video ? "video" : "picture");
+const pages = (doc) => (doc.pages ? `${doc.pages} ${doc.pages === 1 ? "page" : "pages"}` : "");
 
 function thumbSize(variant, box) {
   const scale = Math.min(1, box / Math.max(variant.width, variant.height));
@@ -62,7 +65,8 @@ function build(data, sites = []) {
     const direct = image.tags || [];
     const where = direct.filter((s) => places.has(s)).map(label).join(", ");
     const sources = new Set(image.variants.flatMap((v) => v.originals.flatMap((o) => (o.sources || []).map((s) => s.name))));
-    return {image, index, master: best, direct, where, heading: where || (image.video && image.video.title) || best.originals[0].name,
+    const heading = (image.document && image.document.title) || where || (image.video && image.video.title) || best.originals[0].name;
+    return {image, index, master: best, direct, where, heading,
             tags: [...direct, ...(image.implied || [])], sources: [...new Set([...sources].map(grouped))]};
   }).sort(compare);
   return {data, tags, label, broader, above, problems, pictures, contributors: new Set(data.contributors || [])};
@@ -97,6 +101,7 @@ function filtersHTML(m) {
 <span class="tag-box"><input id="tag-input" class="ftext" type="text" autocomplete="off" spellcheck="false" placeholder="Add a tag" title="Click a suggestion to require it, or press without to leave it out. Start with - to leave a tag out." role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="tag-suggest"><ul id="tag-suggest" class="suggest" role="listbox" hidden></ul></span>
 </div>
 <script type="application/json" id="tag-list">${tags}</script>
+<label>Show <select class="fsel" data-filter="type"><option value="">Everything</option><option value="picture">Pictures</option><option value="video">Videos</option><option value="document">Documents</option></select></label>
 <label>Filter by <select class="fsel" id="range-kind"><option value="year">Year</option><option value="vu">VU</option></select></label>
 <span class="range" data-range="year"><select class="fsel" data-filter="from" aria-label="From year"><option value="">any</option>${options(years)}</select>
 to <select class="fsel" data-filter="to" aria-label="To year"><option value="">any</option>${options(years)}</select></span>
@@ -108,10 +113,10 @@ to <select class="fsel" data-filter="vuto" aria-label="To VU"><option value="">a
 </div>`;
 }
 
-// "72 of 412 pictures": how many this page shows, of those the filters let through. Without media.js every picture
-// shows; with it, media.js keeps the line current.
-function pictures(found, all) {
-  return `${found.toLocaleString("en-US")} of ${all.toLocaleString("en-US")} ${all === 1 ? "picture" : "pictures"}`;
+// "72 of 412 entries": how many this page shows, of those the filters let through. Without media.js every entry
+// shows; with it, media.js keeps the line current and names the type the Show filter picks.
+function entries(found, all) {
+  return `${found.toLocaleString("en-US")} of ${all.toLocaleString("en-US")} ${all === 1 ? "entry" : "entries"}`;
 }
 
 function card(p) {
@@ -119,6 +124,7 @@ function card(p) {
   const keys = p.image.date_keys;
   const vu = p.image.vu_keys;
   const data = [
+    `data-type="${typeOf(p.image)}"`,
     `data-tags="${esc(p.tags.join(" "))}"`,
     `data-source="${esc(p.sources.map(slug).join(" "))}"`,
     keys ? `data-from="${year(keys[0]) ?? ""}" data-to="${year(keys[1]) ?? ""}"` : "",
@@ -127,19 +133,22 @@ function card(p) {
   const alt = [p.where, p.image.date_text].filter(Boolean).join(", ") || p.heading;
   const date = p.image.date_short ? esc(p.image.date_short) : `<span class="undated">undated</span>`;
   const vuText = p.image.vu_text ? ` <span>${esc(p.image.vu_text)}</span>` : "";
-  // A video's card is its poster frame with a play mark; the video itself is on its page.
+  // A video's card is its poster frame with a play mark, a document's its first page marked PDF; the video or the
+  // PDF itself is on its page.
   const video = p.image.video ? `<span class="play" title="Video${p.image.video.duration ? `, ${minutes(p.image.video.duration)}` : ""}"></span>` : "";
-  return `<li class="pic" id="p-${esc(p.image.id)}" ${data}><a class="shot${p.image.video ? " is-video" : ""}" href="${esc(p.image.id)}/"><img src="thumbs/${esc(p.master.id)}.jpg" width="${w}" height="${h}" loading="lazy" alt="${esc(alt)}">${video}</a>
+  const doc = p.image.document ? `<span class="doc" title="${esc(pages(p.image.document) || "Document")}">PDF</span>` : "";
+  const kind = p.image.video ? " is-video" : p.image.document ? " is-doc" : "";
+  return `<li class="pic" id="p-${esc(p.image.id)}" ${data}><a class="shot${kind}" href="${esc(p.image.id)}/"><img src="thumbs/${esc(p.master.id)}.jpg" width="${w}" height="${h}" loading="lazy" alt="${esc(p.image.document ? p.heading : alt)}">${video}${doc}</a>
 <div class="pic-line">${date}${vuText}</div>${p.where ? `<div class="pic-place">${esc(p.where)}</div>` : ""}</li>`;
 }
 
 function galleryHTML(m) {
   return `${filtersHTML(m)}
-<p class="shown" aria-live="polite">${pictures(m.pictures.length, m.pictures.length)}</p>
+<p class="shown" aria-live="polite">${entries(m.pictures.length, m.pictures.length)}</p>
 <ul class="gallery">
 ${m.pictures.map(card).join("\n")}
 </ul>
-<p class="nomatch" hidden>No pictures match these filters.</p>
+<p class="nomatch" hidden>Nothing matches these filters.</p>
 <nav class="pager" aria-label="Pages"></nav>`;
 }
 
@@ -162,7 +171,7 @@ function originalHTML(m, original) {
   }
   const kind = (url) => {
     const bare = url.split(/[?#]/)[0];
-    return /\.(jpe?g|png|gif|bmp|webp)$/i.test(bare) ? "file" : /\.zip$/i.test(bare) ? "zip" : "page";
+    return /\.(jpe?g|png|gif|bmp|webp)$/i.test(bare) ? "file" : /\.zip$/i.test(bare) ? "zip" : /\.pdf$/i.test(bare) ? "PDF" : "page";
   };
   const found = [...sites].map(([name, urls]) => {
     if (urls.length < 2) {
@@ -245,6 +254,11 @@ function imageHTML(m, position) {
     const [w, h] = copy.width && copy.height ? [copy.width, copy.height] : [p.master.width, p.master.height];
     viewer = `<figure class="viewer"><video class="video-copy" controls preload="none" playsinline poster="../${esc(p.master.file)}" width="${w}" height="${h}"><source src="../${esc(copy.file)}" type="${esc(copy.type)}"><a href="../${esc(copy.file)}">Download the video</a></video>
 <figcaption class="video-note">The archive's own copy${onYouTube ? `; also ${link(watchURL(video), "on YouTube")}` : ""}.</figcaption></figure>`;
+  } else if (image.document) {
+    // A document's picture is its first page, which opens the PDF in the browser's own viewer.
+    const pdf = `../${image.document.copy.file}`;
+    viewer = `<figure class="viewer"><a class="frame doc-open" href="${esc(pdf)}">${poster}</a>
+<figcaption class="video-note">The first page. ${link(pdf, "Read the PDF")}${pages(image.document) ? `, ${pages(image.document)}` : ""}, ${size(image.document.copy.bytes)}.</figcaption></figure>`;
   } else if (onYouTube) {
     viewer = `<figure class="viewer"><div class="frame video-frame" data-youtube="${esc(video.id)}"><a class="video-start" href="${esc(watchURL(video))}" target="_blank" rel="noopener" aria-label="Play ${esc(video.title || "the video")}">${poster}<span class="play"></span></a></div>
 <figcaption class="video-note">Plays from YouTube when started; nothing is loaded from YouTube until then.</figcaption></figure>`;
@@ -257,13 +271,22 @@ function imageHTML(m, position) {
   const videoFacts = video
     ? `<dt>Video</dt><dd>${onYouTube ? link(watchURL(video), video.title || "On YouTube") : esc(video.title || "Video")}<div class="meta">${[video.channel && `by ${esc(video.channel)}${onYouTube ? " on YouTube" : ""}`, video.duration && minutes(video.duration), video.uploaded && `uploaded ${esc(video.uploaded)}`].filter(Boolean).join(", ")}</div>${copyFacts}</dd>`
     : "";
+  const doc = image.document;
+  // Where the PDF was found, one name per site; a site's Wayback captures are told apart by their year.
+  const docFound = doc ? [...(doc.copy.sources || []).reduce((sites, s) => sites.set(s.name, [...(sites.get(s.name) || []), s.url].filter(Boolean)), new Map())]
+    .map(([name, urls]) => (urls.length < 2 ? (urls.length ? link(urls[0], name) : esc(name))
+      : `${esc(name)} (${urls.map((u, n) => link(u, (/web\.archive\.org\/web\/(\d{4})/.exec(u) || [])[1] || `copy ${n + 1}`)).join(", ")})`))
+    .join(", ") : "";
+  const docFacts = doc
+    ? `<dt>Document</dt><dd>${link(`../${doc.copy.file}`, doc.title)}<div class="meta">${[doc.publisher && `published by ${esc(doc.publisher)}`, doc.issued && esc(doc.issued), pages(doc)].filter(Boolean).join(", ")}</div><div class="meta">Archived copy: <a href="../${esc(doc.copy.file)}" download>${esc(doc.copy.name || doc.copy.file.split("/").pop())}</a>, PDF, ${size(doc.copy.bytes)}${doc.copy.made ? `, made ${esc(doc.copy.made)}` : ""}${docFound ? `; found at ${docFound}` : ""}</div></dd>`
+    : "";
   const where = image.coordinates_text
     ? `<dt>Coordinates</dt><dd>${esc(image.coordinates_text)}${image.coordinates_basis ? `<div class="meta">Coordinates basis: ${esc(image.coordinates_basis)}</div>` : ""}</dd>`
     : "";
   return `<div class="crumbs"><a class="back" href="../#p-${esc(image.id)}">Back</a><nav class="pic-nav">${before ? `<a rel="prev" href="../${esc(before.image.id)}/">Previous</a>` : ""}${after ? `<a rel="next" href="../${esc(after.image.id)}/">Next</a>` : ""}</nav></div>
 <h2 class="pic-title">${esc(p.heading)}</h2>
 ${viewer}
-<dl class="facts">${videoFacts}${date}${vu}${where}${tagsHTML(m, p)}</dl>
+<dl class="facts">${videoFacts}${docFacts}${date}${vu}${where}${tagsHTML(m, p)}</dl>
 <section class="copies"><h3>${copies.length > 1 ? `${copies.length} copies` : "The copy"} found</h3>
 ${copies.map((v) => copyHTML(m, p, v)).join("\n")}
 </section>`;

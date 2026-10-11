@@ -593,6 +593,18 @@ Project Entropia now supports environmental effects set in applications like Cre
 **Scan**  
 The first time you scan an entity in Project Entropia after VU 4.4, your will transfer your level in “Enemy Scan” to the four skills “Scan Human”, “Scan Animal”, “Scan Robot”, and “Scan Mutant”. The skill Enemy Scan is removed. _For example: You have Enemy Scan level 50. The first time you scan an entity you will gain level 50 to “Scan Human”, “Scan Animal”, “Scan Robot”, and “Scan Mutant”._
 ## VU 4.5
+April 9, 2003
+
+On our light-board here at the office, the motto for 4.5 is up. It reads:
+
+"Lag kills. Defeat lag."
+
+It will be a challenge. Really. But we have lag as the number one issue to solve, because it has ripple effects into every other system. Content will be next to nil in 4.5 - almost every resource we have is working on fixing the lag problems, may it be server lag, client lag, memory usage, memory leaks, whatever.
+
+For some other disappointing news, the technical manager has determined that there is not enough resources available to apply external testers to the inhouse servers in time for VU 4.5. I will try to continue persuading him, but I think it will be hard.
+
+--
+
 April 25, 2003 13:58:26 GMT
 
 A quick update - the lag reducing efforts are being tested inhouse, and moves along nicely. The main area that is addressed is rubberbanding, synching between client and server and primarily that kind of lag. We have also reduced load on the databases. Login and logoff is also sped up.
@@ -1327,7 +1339,7 @@ Some details about the Mentor system:
 -   A mentor can have a maximum of 100 disciples at once. The mentor can at any time contact a disciple.
 -   A disciple may only have one mentor. A disciple may be a mentor for others.
 -   Once a link is formed between a mentor and a disciple, the disciple cannot leave it (a short "grace period" is given). A mentor may kick a disciple at any time (but why would s/he? If the avatar has stopped participating is one reason).
--   When a disciple finishes his or her training the mentor gains skill in the new "Mentor" skill. The Mentor skill shows how many successful disciples s/he has guided.
+-   When a disciple finishes his or her training the mentor gains skill in the new "Mentor" skill (the advancement in the Mentor-skill is somewhat different from ordinary skill advancement - you will probably raise whole ranks each time you gain XP). The Mentor skill shows how many successful disciples s/he has guided.
 
 **First person view of items and actions**  
 You now see the items your avatar is carrying in first person view. Weapons and tools are shown, as well as mindforce powers. The “Z” key toggles between FPV w/ items - FPV w/o items - 3rd PV behind - 3rd PV free.
@@ -2428,6 +2440,13 @@ Several potential crash issues are removed from the Project Entropia client soft
 
 **Internal error fixed**  
 The source of the Internal error message fixed.
+
+**KNOWN ISSUES/MISSING FEATURES**  
+- All tailored clothes shown as “Uncolored” in the auction, even if they are colored.
+- You can’t repair an item with attachments attached to it. You have to detach them prior to repairing.
+- If an existing avatar had an item in equipped when entering the avatar creation process, the item can’t be used once on Calypso. You need to re-login in order to get it usable again.
+- If an existing avatar had newcomer clothes (including shoes) on, the newcomer clothes will be lost. In order to get the newcomer clothes back, you need to put all clothes in your storage facility and re-login.
+- Some of the beauty materials have faulty descriptions concerning what profession it belongs to.
 ## VU 7.5.1
 The following issues have been addressed in the VU 7.5.1 update.
 - Updated Hadesheim to eliminate a crash.
@@ -3169,7 +3188,7 @@ The Inventory can now be moved around the screen.
 There is no longer a skill cap for sweating.  
   
 **Enhancements**  
-The rank order in the Active Event window now works correctly throughout an Event. An issue where avatars became locked when lying down with an active teleporter chip has been resolved. It's no longer possible to get onto the roof of the Treasure Island Bronze and Platinum buildings.
+The rank order in the Active Event window now works correctly throughout an Event. An issue where avatars became locked when lying down with an active teleporter chip has been resolved. It's no longer possible to get onto the roof of the Treasure Island Bronze and Platinum buildings. Pets are no longer afraid to go into the stable by Fort Argus.
 ## VU 8.5.1
 -   Fixes to the Repair Terminal.
 -   New condition for trapped creatures.

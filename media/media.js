@@ -1,6 +1,6 @@
-/* Entropia Archive media: the gallery's tag search, Year or VU range, source filter and pages of 72 (6 x 12), all
-   kept in the address; on a picture's page, Back to the gallery as it was left. Without this file every picture
-   shows and the filter bar and the pages are hidden. */
+/* Entropia Archive media: the gallery's Show filter (pictures, videos or documents), tag search, Year or VU range,
+   source filter and pages of 72 (6 x 12), all kept in the address; on a picture's page, Back to the gallery as it
+   was left. Without this file every picture shows and the filter bar and the pages are hidden. */
 (function () {
   "use strict";
   document.documentElement.dataset.script = "1";
@@ -57,7 +57,7 @@
   const bound = (text, open) => (text ? Number(text) : open);
   const items = Array.from(gallery.querySelectorAll(".pic"), (li) => {
     const d = li.dataset;
-    return {li, tags: words(d.tags), sources: words(d.source), dated: d.from !== undefined,
+    return {li, type: d.type, tags: words(d.tags), sources: words(d.source), dated: d.from !== undefined,
             from: bound(d.from, -Infinity), to: bound(d.to, Infinity), vu: d.vu ? d.vu.split(" ").map(Number) : null};
   });
   // How many pictures carry each tag, broader tags included: the count a suggestion shows.
@@ -124,6 +124,7 @@
     const vus = f.vufrom || f.vuto
       ? [f.vufrom ? places.vufrom.get(f.vufrom) : -Infinity, f.vuto ? places.vuto.get(f.vuto) : Infinity] : null;
     return (item) => tags.every((t) => item.tags.has(t.s) !== t.not)
+      && (!f.type || item.type === f.type)
       && (!f.source || item.sources.has(f.source))
       && (!vus || (item.vu !== null && item.vu[0] <= vus[1] && item.vu[1] >= vus[0]))
       && (!years || (item.dated && item.from <= years[1] && item.to >= years[0]));
@@ -368,7 +369,9 @@
       item.li.hidden = !visible.has(item);
     }
     none.hidden = found.length > 0;
-    tally.textContent = `${visible.size.toLocaleString("en-US")} of ${found.length.toLocaleString("en-US")} ${found.length === 1 ? "picture" : "pictures"}`;
+    // Named by the type shown, or "entries" when pictures, videos and documents are shown together.
+    const [one, many] = {picture: ["picture", "pictures"], video: ["video", "videos"], document: ["document", "documents"]}[f.type] || ["entry", "entries"];
+    tally.textContent = `${visible.size.toLocaleString("en-US")} of ${found.length.toLocaleString("en-US")} ${found.length === 1 ? one : many}`;
     clear.hidden = Object.keys(f).length === 0;
     drawPager(f, found.length ? count : 0);
     history.replaceState(null, "", address(f, page));
