@@ -2043,6 +2043,17 @@
     },
     {
       "version": "4.2",
+      "version_estimated": true,
+      "label": "Project Entropia Installation CD",
+      "date": "2003-02",
+      "status": "lost",
+      "note": "Sold in MindArk's web shop for $11, shipping included, in a DVD box, for players on modems. The shop promised the latest version, so its version is that of the first listing; later copies would carry newer ones. Nothing was for sale in the captures of October and December 2002, and by 23 June 2003 the CD was no longer listed.",
+      "sources": [
+        {"label": "Project Entropia web shop, 2003", "physical": true, "available": false, "evidence": [{"label": "Archive.org: Project Entropia Web Shop, 2003-02-13", "url": "https://web.archive.org/web/20030213184828/http://www.project-entropia.com:80/shop/main.asp"}, {"label": "The Gate 4, February 2003, p. 20", "url": "https://entropia-archive.com/media/yfzx37zb/"}, {"label": "TommyDaGreat, 2007-05-06", "url": "https://forum.entropiauniverse.com/t/61866/105"}]}
+      ]
+    },
+    {
+      "version": "4.2",
       "name": "ProjectEntropia_completo.exe",
       "bytes": 516066090,
       "date": "2003-03",
@@ -2688,6 +2699,7 @@
     {
       "date": "2001",
       "status": "lost",
+      "note": "MindArk's generic 2001 label: tick circles for Media, Beta and Video, none of them marked, and an empty serial number box, in a DVD case. It may be the disc mailed to the closed beta's Phase II testers from September 2001, but the label would equally suit the web shop's Installation CD of 2003, which also came in a DVD box.",
       "sources": [
         {
           "label": "Project Entropia beta CD",
