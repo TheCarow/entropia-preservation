@@ -2038,7 +2038,7 @@
       "status": "lost",
       "note": "The complete client translated into French by Alchemic Dream; Gen4 wrote that the translation and support would be patched in on connecting. Its version is a guess: Świat Gier Komputerowych's issue of the same month carried the 4.2 client.",
       "sources": [
-        {"label": "Gen4 PC CD-ROM n°162, January 2003, CD 2 (France)", "physical": true, "available": false, "evidence": [{"label": "Gen4 PC 162, p. 82 (scan on Archive.org)", "url": "https://archive.org/details/generation4-magazine-162"}, {"label": "The Gate 4, February 2003, p. 6", "url": "https://entropia-archive.com/media/yfzx37zb/"}]}
+        {"label": "Gen4 PC CD-ROM n°162, January 2003, CD 2 (France)", "physical": true, "available": false, "image": "images/discs/gen4-pc-cd-rom-no-162-january-2003-cd-2-france.jpg", "evidence": [{"label": "Gen4 PC 162, p. 82 (scan on Archive.org)", "url": "https://archive.org/details/generation4-magazine-162"}, {"label": "The Gate 4, February 2003, p. 6", "url": "https://entropia-archive.com/media/yfzx37zb/"}]}
       ]
     },
     {

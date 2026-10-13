@@ -2,7 +2,7 @@
 .undated { font-style: italic; color: var(--muted); }
 
 /* The gallery */
-.gallery { list-style: none; margin: 24px 0 0; padding: 0; display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 22px 16px; }
+.gallery { list-style: none; margin: 24px 0 0; padding: 0; display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 19px 6px; }
 .pic[hidden], .filters .range[hidden] { display: none; }
 .pic .shot { display: flex; align-items: center; justify-content: center; aspect-ratio: 4 / 3; background: var(--panel); overflow: hidden; }
 .pic .shot:hover { outline: 1px solid var(--fg); outline-offset: 0; }
