@@ -16,27 +16,32 @@
     "client-5.4": {
       "name": "The VU 5.4 client",
       "link": "../clients/#vu-5.4-files",
-      "about": "The VU 5.4 client's own data (the Level 109 install; the E3 2004 disc holds the same files): every item its string tables name, with its key, class and index, its description, and the category the client files it under (read from its member table or inferred by a rule, category_basis), or for an item outside that taxonomy its inventory tab (petest's Tools/arkitems.py, arkstrings.py and arkinventory.py, DeepDive/5.4/Catalogue/); for armour also its set (arkwearables.py). An item the client names was in the game's data at VU 5.4, and the name is the one it carried then, misspellings included (Necromancer Armor helemet (female)). Left out: names that are not items, placeholders (RemoveMe), names the client marks retired with X_ prefixes (O_Basic Absorbers) eleven armour working titles, the items of the inventory's Food tab and the injections, as neither was ever used. An icon from this source (file <id>_client_5.4.png) is a picture the client stores, taken where its class keeps one texture for every item; where a class keeps a table of several, the server chose by the item's variant and none is taken."
+      "about": "The VU 5.4 client's own data (the Level 109 install; the E3 2004 disc holds the same files): every item its string tables name, with its key, class and index, its description, and the category the client files it under (read from its member table or inferred by a rule, category_basis), or for an item outside that taxonomy its inventory tab (petest's Tools/arkitems.py, arkstrings.py and arkinventory.py, DeepDive/5.4/Catalogue/); for armour also its set (arkwearables.py). An item the client names was in the game's data at VU 5.4, and the name is the one it carried then, misspellings included (Necromancer Armor helemet (female)). Left out: names that are not items, placeholders (RemoveMe), names the client marks retired with X_ prefixes (O_Basic Absorbers) eleven armour working titles, the items of the inventory's Food tab and the injections, as neither was ever used. An icon from this source (file <id>_client_5.4.png) is a picture the client stores, taken where its class keeps one texture for every item; where a class keeps a table of several, the server chose by the item's variant and none is taken.",
+      "vu": "5.4"
     },
     "client-5.1": {
       "name": "The VU 4.2 client's ARMOR BOOK",
       "link": "../clients/#vu-5.1-files",
-      "about": "The client of January 2003's VU 4.2 data under July 2003's VU 5.1 program (the reference client keyed 5.1). It ships no item names, but its script object 3416.obj, the in-game ARMOR BOOK, names 108 armour blueprints, 18 sets of six pieces, each set at a book level (petest's docs/avatar-model.md). A blueprint the book names was in the game's data at VU 4.2, under the name the book spells, slips included. These are blueprint names: the book does not show that the worn piece carried the same name."
+      "about": "The client of January 2003's VU 4.2 data under July 2003's VU 5.1 program (the reference client keyed 5.1). It ships no item names, but its script object 3416.obj, the in-game ARMOR BOOK, names 108 armour blueprints, 18 sets of six pieces, each set at a book level (petest's docs/avatar-model.md). A blueprint the book names was in the game's data at VU 4.2, under the name the book spells, slips included. These are blueprint names: the book does not show that the worn piece carried the same name.",
+      "vu": "4.2"
     },
     "client-9.1.5": {
       "name": "The VU 9.1.5 client",
       "link": "../clients/#vu-9.1.5-files",
-      "about": "The VU 9.1.5 client of December 2007: the item names and descriptions of its string tables (tables 1 and 2, language 1, English; petest's Tools/arkstrings.py). Only items the page already lists take facts from it, matched by name: it shows such an item still in the game's data at VU 9.1.5, under the name it carried then. Its other items are not added."
+      "about": "The VU 9.1.5 client of December 2007: the item names and descriptions of its string tables (tables 1 and 2, language 1, English; petest's Tools/arkstrings.py). Only items the page already lists take facts from it, matched by name: it shows such an item still in the game's data at VU 9.1.5, under the name it carried then. Its other items are not added.",
+      "vu": "9.1"
     },
     "client-9.2.2": {
       "name": "The VU 9.2.2 client",
       "link": "../clients/#vu-9.2.2-files",
-      "about": "The VU 9.2.2 client of February 2008: the item names and descriptions of its string tables (tables 1 and 2, language 1, English; petest's Tools/arkstrings.py). Only items the page already lists take facts from it, matched by name: it shows such an item still in the game's data at VU 9.2.2, under the name it carried then. Its other items are not added."
+      "about": "The VU 9.2.2 client of February 2008: the item names and descriptions of its string tables (tables 1 and 2, language 1, English; petest's Tools/arkstrings.py). Only items the page already lists take facts from it, matched by name: it shows such an item still in the game's data at VU 9.2.2, under the name it carried then. Its other items are not added.",
+      "vu": "9.2"
     },
     "client-9.3.5": {
       "name": "The VU 9.3.5 client",
       "link": "../clients/#vu-9.3.5-files",
-      "about": "The VU 9.3.5 client of September 2008: the item names and descriptions of its string tables (tables 1 and 2, language 1, English; petest's Tools/arkstrings.py). Only items the page already lists take facts from it, matched by name: it shows such an item still in the game's data at VU 9.3.5, under the name it carried then. Its other items are not added."
+      "about": "The VU 9.3.5 client of September 2008: the item names and descriptions of its string tables (tables 1 and 2, language 1, English; petest's Tools/arkstrings.py). Only items the page already lists take facts from it, matched by name: it shows such an item still in the game's data at VU 9.3.5, under the name it carried then. Its other items are not added.",
+      "vu": "9.3"
     },
     "owner": {
       "name": "The Archive's owner",

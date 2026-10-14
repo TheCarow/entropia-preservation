@@ -15,8 +15,6 @@ const FILES = /<!--files-->/;
 const CATEGORIES = ["weapons", "armor", "attachments", "tools", "clothing", "housing", "blueprints", "components",
   "materials", "resources", "misc"];
 const DAY = /^\d{4}-\d\d-\d\d$/;
-// A source that is a client's own data: what it names was in the game at its VU, with no day to give.
-const CLIENT = /^client-/;
 const ID = /^[a-z0-9-]+$/;
 
 const esc = (text) => String(text).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
@@ -61,8 +59,12 @@ const categories = CATEGORIES.map((key) => {
     if (item.also !== undefined && (!Array.isArray(item.also) || item.also.some((a) => typeof a !== "string"))) {
       problems.push(`${at}: also should be a list of names`);
     }
-    const facts = [...(item.names || []), ...(item.sources || []), ...(item.seen || []), ...(item.tt || []), ...(item.icon ? [item.icon] : []),
-      ...(item.unused ? [item.unused] : [])];
+    // A fact several sources give is stored once with its citations: a source's key, or an object carrying what that
+    // source dates for the one fact (the private editor's tools/itemdata.py describes the layout).
+    const shared = [...(item.names || []), ...(item.descriptions || []), ...(item.records || [])];
+    const citations = shared.flatMap((entry) => entry.sources || []);
+    const facts = [...citations.map((c) => (typeof c === "string" ? {source: c} : c)), ...(item.seen || []), ...(item.tt || []),
+      ...(item.icon ? [item.icon] : []), ...(item.unused ? [item.unused] : [])];
     if (item.unused && (!item.unused.reason || !DAY.test(item.unused.date || ""))) problems.push(`${at}: unused needs a reason and a day`);
     // An icon's file name says what it is: <id>_client_<key>.png, a picture a client stores, or
     // <id>_reconstructed_<year>.png, one drawn since, so a drawing is never taken for the game's own.
@@ -70,27 +72,38 @@ const categories = CATEGORIES.map((key) => {
       problems.push(`${at}: icon ${JSON.stringify(item.icon.file)} is not a PNG in icons/ named <id>_client_<key>.png or <id>_reconstructed_<year>.png`);
     }
     if (!facts.length) problems.push(`${at}: nothing about it has a source`);
+    for (const entry of shared) {
+      if (!Array.isArray(entry.sources) || !entry.sources.length) problems.push(`${at}: a name, description or record cites no source`);
+    }
+    for (const n of item.names || []) {
+      if (typeof n.name !== "string" || !n.name) problems.push(`${at}: a name entry has no name`);
+    }
+    for (const d of item.descriptions || []) {
+      if (typeof d.text !== "string" || !d.text) problems.push(`${at}: a description entry has no text`);
+    }
     for (const fact of facts) {
       if (!sources[fact.source]) problems.push(`${at}: source ${JSON.stringify(fact.source)} is not in sources.json`);
       for (const field of ["url", "first_url", "last_url"]) {
         if (fact[field] !== undefined && !/^https?:\/\//.test(fact[field])) problems.push(`${at}: ${field} should be an http address`);
       }
     }
-    for (const s of item.seen || []) {
-      // A sighting from a client's own data, or one inferred (source "set"), has VUs and no days; a dated one has both
-      // days, in order.
-      const dated = s.first !== undefined || s.last !== undefined;
-      if (dated && (!DAY.test(s.first || "") || !DAY.test(s.last || "") || s.last < s.first)) problems.push(`${at}: seen needs first and last days in order`);
-      if (!dated && !(s.basis || []).length && !CLIENT.test(s.source)) problems.push(`${at}: a sighting without days needs the items it rests on (basis) or a client source`);
-      for (const vu of [s.first_vu, s.last_vu, ...(s.vus || [])]) {
+    for (const c of citations) {
+      if (typeof c === "string") {
+        continue;
+      }
+      if (c.first !== undefined && (!DAY.test(c.first || "") || !DAY.test(c.last || "") || c.last < c.first)) problems.push(`${at}: a dated citation needs first and last days in order`);
+      for (const vu of [c.first_vu, c.last_vu].filter((v) => v !== undefined)) {
         if (!RANK.has(vu)) problems.push(`${at}: VU ${JSON.stringify(vu)} is not a version in versions.json`);
       }
     }
-    for (const n of item.names || []) {
-      const dated = n.first !== undefined || n.last !== undefined;
-      if (!n.name || !RANK.has(n.first_vu) || !RANK.has(n.last_vu) || RANK.get(n.last_vu) < RANK.get(n.first_vu)
-          || (dated && (!DAY.test(n.first || "") || !DAY.test(n.last || "") || n.last < n.first)) || (!dated && !CLIENT.test(n.source))) {
-        problems.push(`${at}: a name needs its VUs in order, and first and last days unless a client gives it`);
+    for (const s of item.seen || []) {
+      // A dated sighting (PE Auction) has both days in order; an inferred one (source "set") has VUs and the items it
+      // rests on. A client's sighting is not stored: the client naming the item is it.
+      const dated = s.first !== undefined || s.last !== undefined;
+      if (dated && (!DAY.test(s.first || "") || !DAY.test(s.last || "") || s.last < s.first)) problems.push(`${at}: seen needs first and last days in order`);
+      if (!dated && !(s.basis || []).length) problems.push(`${at}: a sighting without days needs the items it rests on (basis)`);
+      for (const vu of [s.first_vu, s.last_vu, ...(s.vus || [])]) {
+        if (!RANK.has(vu)) problems.push(`${at}: VU ${JSON.stringify(vu)} is not a version in versions.json`);
       }
     }
     for (const t of item.tt || []) {
@@ -107,15 +120,32 @@ if (problems.length) {
   stop(`${problems.length} problem(s) in the items data. Nothing was written.\n  ${problems.slice(0, 50).join("\n  ")}`);
 }
 
-// An item was seen from the earliest VU any source saw it in to the latest.
-function span(item) {
-  const seen = item.seen || [];
-  if (!seen.length) {
+// The VUs a citation covers: its source's own VU (a client), or the days it carries (PE Auction); none for a source
+// that gives no VU by itself.
+function citationVus(citation) {
+  if (typeof citation === "string") {
+    const vu = sources[citation].vu;
+    return vu ? [vu, vu] : null;
+  }
+  return citation.first_vu ? [citation.first_vu, citation.last_vu] : null;
+}
+
+function widest(pairs) {
+  const known = pairs.filter(Boolean);
+  if (!known.length) {
     return null;
   }
-  const first = seen.map((s) => s.first_vu).sort((a, b) => RANK.get(a) - RANK.get(b))[0];
-  const last = seen.map((s) => s.last_vu).sort((a, b) => RANK.get(b) - RANK.get(a))[0];
+  const first = known.map((p) => p[0]).sort((a, b) => RANK.get(a) - RANK.get(b))[0];
+  const last = known.map((p) => p[1]).sort((a, b) => RANK.get(b) - RANK.get(a))[0];
   return {first, last};
+}
+
+// An item was seen from the earliest VU any source shows it in to the latest: its dated and inferred sightings, and
+// every client that names it.
+function span(item) {
+  const cited = [...(item.names || []), ...(item.descriptions || []), ...(item.records || [])]
+    .flatMap((entry) => entry.sources).map(citationVus);
+  return widest([...(item.seen || []).map((x) => [x.first_vu, x.last_vu]), ...cited]);
 }
 
 // An icon drawn since, not stored by a client, says so when the pointer rests on it.
@@ -133,20 +163,15 @@ const iconHTML = (icon) => {
 const vus = (first, last) => (first === last ? `VU ${first}` : `VU ${first} to ${last}`);
 
 // The flavour text an item carried in VU 5.4, as the 5.4 client's description gives it.
-const flavour = (item) => (item.sources || []).find((x) => x.source === "client-5.4" && x.description);
+const flavour = (item) => (item.descriptions || []).find((d) => d.sources.includes("client-5.4"));
 
 function itemHTML(category, item) {
   const s = span(item);
   const tt = [...(item.tt || [])].sort((a, b) => a.date.localeCompare(b.date)).pop();
   const seen = s ? vus(s.first, s.last) : "";
-  // The names the page can show by VU, in the order they were first used. The item's own name counts too when no
-  // entry gives it, over the VUs a dated source saw the item in, so a client's older name does not stand for later.
-  const names = (item.names || []).map((n) => [n.name, RANK.get(n.first_vu), RANK.get(n.last_vu)]);
-  if (names.length && !names.some((n) => n[0] === item.name)) {
-    const dated = (item.seen || []).filter((x) => x.first);
-    const own = dated.length ? span({seen: dated}) : s;
-    names.push([item.name, RANK.get(own.first), RANK.get(own.last)]);
-  }
+  // The names the page can show by VU, each over the VUs its citations cover, in the order they were first used.
+  const names = (item.names || []).map((n) => [n.name, widest(n.sources.map(citationVus))])
+    .filter((n) => n[1]).map(([name, w]) => [name, RANK.get(w.first), RANK.get(w.last)]);
   names.sort((a, b) => a[1] - b[1] || a[2] - b[2]);
   // With no VU chosen an item shows the name it carried last.
   const shown = names.length ? [...names].sort((a, b) => a[2] - b[2] || a[1] - b[1]).pop()[0] : item.name;
@@ -159,7 +184,7 @@ function itemHTML(category, item) {
     + `<span class="i-name">${esc(shown)}</span><span class="i-type">${esc(item.type)}</span>`
     + `<span class="i-tt">${tt ? `${esc(tt.ped)} PED` : ""}</span><span class="i-seen">${esc(seen)}</span>`
     + `<a class="permalink" href="#${esc(item.id)}" title="Link to this item">#</a>`
-    + (text54 ? `<p class="i-desc"><span class="i-desc-vu">VU 5.4</span> ${esc(text54.description)}</p>` : "") + "</li>";
+    + (text54 ? `<p class="i-desc"><span class="i-desc-vu">VU 5.4</span> ${esc(text54.text)}</p>` : "") + "</li>";
 }
 
 // An item flagged unused (judged never in the game) is in the page but hidden, and counts only when shown.
