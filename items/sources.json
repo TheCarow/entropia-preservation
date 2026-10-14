@@ -1,0 +1,46 @@
+{
+  "sources": {
+    "pea": {
+      "name": "PE Auction",
+      "link": "../sites/#pe-auction",
+      "about": "The player-run price site that recorded the in-game auction from October 2005, read from the Wayback Machine's captures of peauction.com (harvested 2026-10-09 to 2026-10-11, nothing on or after 2009-10-06). An item seen on a day was on the auction or the site's lists that day, so it existed by then. The earliest auction it recorded ended on 17 October 2005, so a first sighting there is not when an item came into the game. Names, other spellings and categories are as the site printed them; TT values are those of its item pages."
+    },
+    "itemicon-5.4": {
+      "name": "Icons drawn from the VU 5.4 client",
+      "about": "Inventory icons drawn by PEViewer's itemicon.py from the VU 5.4 client's own data: the item's model, skin and pose, rendered the way the client's icon generator draws them, armour on the wearer's body. An icon names the item class it was drawn from (class), the item within it (item) and the body (sex). Armour is drawn without the parts of the body its colour mask leaves uncovered (itemicon.py armour-set --cut), which the client would fill with the wearer's skin. An armour icon's colours are not read from the client, which took them from the server: they are the three colours its red, green and blue masks were painted with (colours), and colours_basis says where they come from, a fit to a dated picture or a choice made for the Archive. Either way the icon is a reconstruction, not a picture the game showed."
+    },
+    "set": {
+      "name": "Inferred from the armour set",
+      "about": "An armour set came into the game as one release, so when one piece of a set is seen in a VU, the other pieces that set had then are taken to have been in the game too. The fact names the items it rests on (basis). Inferred for the Archive in 2026; no capture shows the piece itself in that VU."
+    },
+    "client-5.4": {
+      "name": "The VU 5.4 client",
+      "link": "../clients/#vu-5.4-files",
+      "about": "The VU 5.4 client's own data (the Level 109 install; the E3 2004 disc holds the same files): every item its string tables name, with its key, class and index, its description, and the category the client files it under (read from its member table or inferred by a rule, category_basis), or for an item outside that taxonomy its inventory tab (petest's Tools/arkitems.py, arkstrings.py and arkinventory.py, DeepDive/5.4/Catalogue/); for armour also its set (arkwearables.py). An item the client names was in the game's data at VU 5.4, and the name is the one it carried then, misspellings included (Necromancer Armor helemet (female)). Left out: names that are not items, placeholders (RemoveMe), names the client marks retired with X_ prefixes (O_Basic Absorbers) eleven armour working titles, the items of the inventory's Food tab and the injections, as neither was ever used. An icon from this source (file <id>_client_5.4.png) is a picture the client stores, taken where its class keeps one texture for every item; where a class keeps a table of several, the server chose by the item's variant and none is taken."
+    },
+    "client-5.1": {
+      "name": "The VU 4.2 client's ARMOR BOOK",
+      "link": "../clients/#vu-5.1-files",
+      "about": "The client of January 2003's VU 4.2 data under July 2003's VU 5.1 program (the reference client keyed 5.1). It ships no item names, but its script object 3416.obj, the in-game ARMOR BOOK, names 108 armour blueprints, 18 sets of six pieces, each set at a book level (petest's docs/avatar-model.md). A blueprint the book names was in the game's data at VU 4.2, under the name the book spells, slips included. These are blueprint names: the book does not show that the worn piece carried the same name."
+    },
+    "client-9.1.5": {
+      "name": "The VU 9.1.5 client",
+      "link": "../clients/#vu-9.1.5-files",
+      "about": "The VU 9.1.5 client of December 2007: the item names and descriptions of its string tables (tables 1 and 2, language 1, English; petest's Tools/arkstrings.py). Only items the page already lists take facts from it, matched by name: it shows such an item still in the game's data at VU 9.1.5, under the name it carried then. Its other items are not added."
+    },
+    "client-9.2.2": {
+      "name": "The VU 9.2.2 client",
+      "link": "../clients/#vu-9.2.2-files",
+      "about": "The VU 9.2.2 client of February 2008: the item names and descriptions of its string tables (tables 1 and 2, language 1, English; petest's Tools/arkstrings.py). Only items the page already lists take facts from it, matched by name: it shows such an item still in the game's data at VU 9.2.2, under the name it carried then. Its other items are not added."
+    },
+    "client-9.3.5": {
+      "name": "The VU 9.3.5 client",
+      "link": "../clients/#vu-9.3.5-files",
+      "about": "The VU 9.3.5 client of September 2008: the item names and descriptions of its string tables (tables 1 and 2, language 1, English; petest's Tools/arkstrings.py). Only items the page already lists take facts from it, matched by name: it shows such an item still in the game's data at VU 9.3.5, under the name it carried then. Its other items are not added."
+    },
+    "owner": {
+      "name": "The Archive's owner",
+      "about": "Judgements by the Entropia Archive's owner, who played the game: which items were never in use. Such an item carries unused, with the day and the reason, and the page hides it."
+    }
+  }
+}

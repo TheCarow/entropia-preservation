@@ -4,11 +4,12 @@
 
 | File | What it is |
 |---|---|
-| `index.html` | Home: the introduction, and links to Clients, Media and Articles. |
+| `index.html` | Home: the introduction, and links to the other pages. |
 | `clients/index.html` | The Clients page, the version list, drawn from the data below. |
 | `media/` | The Media pages. `files/` holds the pictures and `media.json` their data, both written by the private editor (`media.json` on every save, one picture per line). A video is a picture whose `video` field names it, on YouTube or as a file the archive keeps (`files/<id>.mp4` or `.webm`, beside the pictures): its card carries a play mark. Its page plays the archive's own copy with the browser's player, fetched only once started, or, without one, shows the poster frame and swaps in YouTube's player (youtube-nocookie.com) only when a visitor starts it, so the site asks nothing of YouTube until then. A document (a magazine issue or guide) is a picture of its first page whose `document` field holds the PDF the archive keeps (`files/<id>.pdf`): its card is marked PDF and its page opens the PDF in the browser's own viewer. An entry's type (picture, video or document) comes from those fields, not from a tag, and the gallery's Show filter selects by it (`?type=document`). `draw-media.js` draws the gallery and one page per picture, `render-media.js` writes them, `media.js` adds the gallery's filters and pages, `media.css` styles them and `thumbs.py` makes the thumbnails. |
 | `articles/` | The Articles page. `articles.json` lists the press releases, articles and magazines, edited by hand; `render-articles.js` draws them into the page, `articles.js` adds its filters and `articles.css` styles it. |
 | `sites/` | The Sites & Tools page. `sites.json` lists MindArk's sites, the players' and the tools players made (see [A site or tool](#a-site-or-tool)), edited by hand; `render-sites.js` draws them into the page, `sites.js` adds its filters and `sites.css` styles it. The media names it gives its sites also group the media page's Source filter. |
+| `items/` | The Items page. `data/<category>.json` holds one file per category (armor, weapons and so on), one item per line, `icons/` the items' icons, and `sources.json` the sources the items' facts cite (see [An item](#an-item)); `render-items.js` draws them into the page, `items.js` adds its filters and `items.css` styles it. |
 | `versions.json` | Every version and every client file. Edited by hand. |
 | `notes.md` | The release notes' text, one `## VU <version>` section per version. Edited by hand. |
 | `images/discs/` | Pictures of the discs that client files were found on. |
@@ -101,16 +102,41 @@ tools grouped by the year they began, and a present-day tribute (no `from`) at t
 | `media` | The site's source names as the media archive records them, such as `["Entropia Pioneers forum"]`. A picture counts for the site when one of its sources has that name, or that name with a poster in brackets after it; the page shows the count with a link to those pictures. |
 | `evidence` | For a lost or partial entry, the pages that show it existed, as `{"label": …, "url": …}`; shown as "Known from". A lost site needs at least one. |
 
+### An item
+
+`items/data/<category>.json` holds one category's items, one per line: `{"category": "Armor", "items": [...]}`. The
+categories are fixed in `render-items.js` (`CATEGORIES`), which also sets the order the page shows them in. Every fact
+about an item names its source, a key of `items/sources.json`, so an item can gather facts from several sources; the
+page does not show the sources yet. The facts come from PE Auction (`"pea"`), written by `items.py` in the private editor's
+`peauction/` folder, from the VU 5.4 client's items (`"client-5.4"`), written by the editor's
+`tools/client_items.py`, from the VU 4.2 client's ARMOR BOOK of armour blueprints (`"client-5.1"`), written by
+`tools/client_armour_book.py`, and from the VU 9.1.5, 9.2.2 and 9.3.5 clients' item names (`"client-9.1.5"` and so on), written
+by `tools/client9_items.py` for items the page already lists, never adding one. Each tool replaces only its own source's facts when rerun, so neither undoes the other,
+and an item keeps its name and type once written.
+
+| Field | What it holds |
+|---|---|
+| `id` | The item's link on the page, `items/#opal`: lowercase letters, digits and hyphens, unique across every category. |
+| `name` | The item's name. |
+| `type` | Its kind within the category, such as `Carbines`; the page's Type filter. |
+| `names` | Optional, for an item that was renamed: every name it went by, `{"name", "first", "first_vu", "last", "last_vu", "source", "url"}`, the first and last days a source printed it and the VUs current then, in the order they were used. A name a client gives has its VU and no days. The page shows one name: the one it carried last, or with a VU chosen in the Seen in filter the name the item had then. Spellings differing only in case are one name. |
+| `also` | Optional: other names or spellings it went by that no source dates; kept for search, not shown. |
+| `sources` | Where the item's name, spellings and type come from: `{"source": …, "url": …}` and whatever else that source gives, for PE Auction its item `ids` and the `categories` it printed, for a client the item's `class`, its `index` in it, the `name` it gives and the armour `set`. |
+| `seen` | When each source saw the item: `{"source", "first", "first_vu", "first_url", "last", "last_vu", "last_url", "vus"}`, the first and last days with the VU current on each and the page that shows it, and `vus` every VU it was seen in. A sighting from a client's own data (source `"client-5.4"`: the item was in that VU's data) has VUs and no days. A sighting inferred rather than captured (source `"set"`: one piece of an armour set seen in a VU puts the set's other pieces there too) has `first_vu`, `last_vu` and `vus` but no days, and names the items it rests on in `basis`. The page shows the span from the earliest VU any source gives to the latest, and the Seen in filter counts every VU between. |
+| `tt` | Its TT value as it changed: `{"ped": "23.00", "date", "vu", "source", "url"}`, one entry per change. The page shows the latest. |
+| `unused` | Optional: the item was never in use in the game, `{"source": "owner", "date", "reason"}`, from the owner's judgement. The page keeps it but hides it, and leaves it out of every count; `items/?unused=1` shows such items too, and nothing on the page links there. The private editor's `tools/client_items.py` sets it for the 5.4 client's food, injections and their ingredients and Paint Bottle Orange, unless another source saw the item in the game. |
+| `icon` | Optional: its inventory icon, `{"file": "icons/<id>_client_5.4.png"` or `"icons/<id>_reconstructed_2026.png", "source", ...}` and what the source gives, for an icon drawn from a client the item `class`, the `item` within it, the `sex` of the body it was drawn on and, for armour, the `colours` its red, green and blue masks were painted with and `colours_basis`, where those colours come from. The private editor's `tools/itemicons.py` writes them. A picture a client stores is named `_client_<key>` (with the `texture` it is), and an icon made now `_reconstructed_<year>`, so a drawing is never taken for a historical picture; `render-items.js` refuses an icon named neither way. An Adjusted, Improved, Modified or Unique armour piece wore its regular piece's icon in the game, so it shares that icon: the same file, and `shared_from` naming the regular item. The page fits it into a square box beside the name, which every row keeps, icon or not. |
+
 ## Publishing
 
 Pushing to `main` publishes the site. GitHub runs `render.js`, then makes the media thumbnails, runs
-`render-media.js`, copies the pictures across byte for byte and runs `render-articles.js` and `render-sites.js`. `render.js` draws the whole version list into
+`render-media.js`, copies the pictures across byte for byte and runs `render-articles.js`, `render-sites.js` and `render-items.js`. `render.js` draws the whole version list into
 `clients/index.html` and puts `site.css` inside it and Home, so the published pages read in full without JavaScript and web archives
 keep every version, file, picture and release note. The published pictures leave out the hidden data Photoshop
 saves in them (edit history, print settings, a preview), which is nearly half their weight; the pictures in the
 folder keep it. Nothing needs running by hand.
 
-A mistake in `versions.json`, `notes.md`, `articles.json` or `sites.json`, or a picture that isn't in the folder, stops the publish, and the last
+A mistake in `versions.json`, `notes.md`, `articles.json`, `sites.json` or the items data, or a picture that isn't in the folder, stops the publish, and the last
 good version stays up. The Publish run on the repository's Actions tab lists what is wrong. A local preview draws the
 page in the browser from the data and lists any mistakes at its top, as before. `node render.js <folder>` writes the
 published form into a folder of your choosing.

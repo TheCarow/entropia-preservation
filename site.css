@@ -9,7 +9,7 @@
 }
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg: #161615; --fg: #ecece7; --muted: #b3b3ab; --line: #33332f; --panel: #1f1f1d; --link: #78aeff;
+    --bg: #1d1d1b; --fg: #ecece7; --muted: #b3b3ab; --line: #3a3a36; --panel: #262624; --link: #78aeff;
     --control: #6b6b64;
     --t1: #6fcf8a; --t2: #86b0ea; --t3: #d9b25a; --t4: #a8a8a1; --t5: #86867f;
     --lostfill: #363632; --heldfill: #7ccd8e; --partialfill: #d7b355;
