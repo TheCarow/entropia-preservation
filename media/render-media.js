@@ -38,6 +38,10 @@ for (const p of m.pictures) {
       m.problems.push(`image ${p.image.id}: its ${p.image.document ? "document" : "video"} copy ${copy.file} is missing or not ${copy.bytes} bytes`);
     }
   }
+  const online = p.image.document && p.image.document.online;
+  if (online !== undefined && !/^https:\/\/\S+$/.test(online)) {
+    m.problems.push(`image ${p.image.id}: its document's online address ${JSON.stringify(online)} is not an https address`);
+  }
   for (const variant of p.image.variants) {
     const file = path.join(ROOT, variant.file);
     if (!fs.existsSync(file) || fs.statSync(file).size !== variant.bytes) {

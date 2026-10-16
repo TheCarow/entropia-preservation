@@ -11,11 +11,28 @@ const size = (bytes) => (bytes >= 1048576 ? `${(bytes / 1048576).toFixed(1)} MB`
 const year = (day) => (day ? Number(day.slice(0, 4)) : null);
 const options = (values) => values.map(([value, text]) => `<option value="${esc(value)}">${esc(text)}</option>`).join("");
 const link = (url, text) => `<a href="${esc(url)}" target="_blank" rel="noopener">${esc(text)}</a>`;
-const watchURL = (video) => `https://www.youtube.com/watch?v=${encodeURIComponent(video.id)}`;
+// The sites a video plays from, each with its key for media.js, which swaps in the site's player, and its page.
+const VIDEO_SITES = {
+  "YouTube": {key: "youtube", name: "YouTube", page: (id) => `https://www.youtube.com/watch?v=${encodeURIComponent(id)}`},
+  "Internet Archive": {key: "archive", name: "the Internet Archive", page: (id) => `https://archive.org/details/${encodeURIComponent(id)}`},
+};
+const watchURL = (video) => VIDEO_SITES[video.site].page(video.id);
 const minutes = (seconds) => `${Math.floor(seconds / 60)}:${String(seconds % 60).padStart(2, "0")}`;
 // An entry's type comes from its fields, not from a tag: a document or a video, and a picture otherwise.
 const typeOf = (image) => (image.document ? "document" : image.video ? "video" : "picture");
 const pages = (doc) => (doc.pages ? `${doc.pages} ${doc.pages === 1 ? "page" : "pages"}` : "");
+const SITES = {"archive.org": "the Internet Archive", "web.archive.org": "the Wayback Machine"};
+
+// Where a document is read: its online address, or else the first place its PDF was found that has one. The archive
+// keeps its own copy of the PDF but does not link it, so that readers do not draw on the site's bandwidth.
+function readAt(doc) {
+  const url = doc.online || ((doc.copy.sources || []).find((s) => s.url) || {}).url;
+  if (!url) {
+    return null;
+  }
+  const host = new URL(url).hostname.replace(/^www\./, "");
+  return {url, site: SITES[host] || host};
+}
 
 function thumbSize(variant, box) {
   const scale = Math.min(1, box / Math.max(variant.width, variant.height));
@@ -244,24 +261,27 @@ function imageHTML(m, position) {
     ? `<dt>Version</dt><dd>${image.vu_link ? `<a href="../../clients/#vu-${esc(image.vu_link)}">${esc(image.vu_text)}</a>` : esc(image.vu_text)}</dd>`
     : "";
   // The archive's own copy plays in the browser's player, fetched only once started (preload="none"). Without one,
-  // YouTube's player is swapped in when the poster is started (media.js). Either way nothing is fetched before then.
+  // the player of the site the video is on is swapped in when the poster is started (media.js). Either way nothing is
+  // fetched before then.
   const video = image.video;
   const copy = video && video.copy;
-  const onYouTube = video && video.site === "YouTube";
+  const site = video && VIDEO_SITES[video.site];
   const poster = `<img src="../${esc(p.master.file)}" width="${p.master.width}" height="${p.master.height}" alt="${esc(p.heading)}">`;
   let viewer;
   if (copy) {
     const [w, h] = copy.width && copy.height ? [copy.width, copy.height] : [p.master.width, p.master.height];
     viewer = `<figure class="viewer"><video class="video-copy" controls preload="none" playsinline poster="../${esc(p.master.file)}" width="${w}" height="${h}"><source src="../${esc(copy.file)}" type="${esc(copy.type)}"><a href="../${esc(copy.file)}">Download the video</a></video>
-<figcaption class="video-note">The archive's own copy${onYouTube ? `; also ${link(watchURL(video), "on YouTube")}` : ""}.</figcaption></figure>`;
+<figcaption class="video-note">The archive's own copy${site ? `; also ${link(watchURL(video), `on ${site.name}`)}` : ""}.</figcaption></figure>`;
   } else if (image.document) {
-    // A document's picture is its first page, which opens the PDF in the browser's own viewer.
-    const pdf = `../${image.document.copy.file}`;
-    viewer = `<figure class="viewer"><a class="frame doc-open" href="${esc(pdf)}">${poster}</a>
-<figcaption class="video-note">The first page. ${link(pdf, "Read the PDF")}${pages(image.document) ? `, ${pages(image.document)}` : ""}, ${size(image.document.copy.bytes)}.</figcaption></figure>`;
-  } else if (onYouTube) {
-    viewer = `<figure class="viewer"><div class="frame video-frame" data-youtube="${esc(video.id)}"><a class="video-start" href="${esc(watchURL(video))}" target="_blank" rel="noopener" aria-label="Play ${esc(video.title || "the video")}">${poster}<span class="play"></span></a></div>
-<figcaption class="video-note">Plays from YouTube when started; nothing is loaded from YouTube until then.</figcaption></figure>`;
+    // A document's picture is its first page, which opens the document where it is read.
+    const read = readAt(image.document);
+    const page = read ? `<a class="frame doc-open" href="${esc(read.url)}" target="_blank" rel="noopener">${poster}</a>` : `<div class="frame">${poster}</div>`;
+    const note = [read && link(read.url, `Read it on ${read.site}`), pages(image.document)].filter(Boolean).join(", ");
+    viewer = `<figure class="viewer">${page}
+<figcaption class="video-note">The first page.${note ? ` ${note}.` : ""}</figcaption></figure>`;
+  } else if (site) {
+    viewer = `<figure class="viewer"><div class="frame video-frame" data-${site.key}="${esc(video.id)}"><a class="video-start" href="${esc(watchURL(video))}" target="_blank" rel="noopener" aria-label="Play ${esc(video.title || "the video")}">${poster}<span class="play"></span></a></div>
+<figcaption class="video-note">Plays from ${site.name} when started; nothing is loaded from ${site.name} until then.</figcaption></figure>`;
   } else {
     viewer = `<figure class="viewer"><div class="frame">${poster}${regionsHTML(m, p)}</div></figure>`;
   }
@@ -269,7 +289,7 @@ function imageHTML(m, position) {
     ? `<div class="meta">Archived copy: <a href="../${esc(copy.file)}" download>${esc(copy.name || copy.file.split("/").pop())}</a>, ${esc((copy.type || "").replace("video/", "").toUpperCase())}${copy.width ? `, ${copy.width} × ${copy.height}` : ""}, ${size(copy.bytes)}${copy.source ? `; ${esc(copy.source)}` : ""}</div>`
     : "";
   const videoFacts = video
-    ? `<dt>Video</dt><dd>${onYouTube ? link(watchURL(video), video.title || "On YouTube") : esc(video.title || "Video")}<div class="meta">${[video.channel && `by ${esc(video.channel)}${onYouTube ? " on YouTube" : ""}`, video.duration && minutes(video.duration), video.uploaded && `uploaded ${esc(video.uploaded)}`].filter(Boolean).join(", ")}</div>${copyFacts}</dd>`
+    ? `<dt>Video</dt><dd>${site ? link(watchURL(video), video.title || `On ${site.name}`) : esc(video.title || "Video")}<div class="meta">${[video.channel && `by ${esc(video.channel)}${site ? ` on ${site.name}` : ""}`, video.duration && minutes(video.duration), video.uploaded && `uploaded ${esc(video.uploaded)}`].filter(Boolean).join(", ")}</div>${copyFacts}</dd>`
     : "";
   const doc = image.document;
   // Where the PDF was found, one name per site; a site's Wayback captures are told apart by their year.
@@ -277,8 +297,9 @@ function imageHTML(m, position) {
     .map(([name, urls]) => (urls.length < 2 ? (urls.length ? link(urls[0], name) : esc(name))
       : `${esc(name)} (${urls.map((u, n) => link(u, (/web\.archive\.org\/web\/(\d{4})/.exec(u) || [])[1] || `copy ${n + 1}`)).join(", ")})`))
     .join(", ") : "";
+  const docRead = doc && readAt(doc);
   const docFacts = doc
-    ? `<dt>Document</dt><dd>${link(`../${doc.copy.file}`, doc.title)}<div class="meta">${[doc.publisher && `published by ${esc(doc.publisher)}`, doc.issued && esc(doc.issued), pages(doc)].filter(Boolean).join(", ")}</div><div class="meta">Archived copy: <a href="../${esc(doc.copy.file)}" download>${esc(doc.copy.name || doc.copy.file.split("/").pop())}</a>, PDF, ${size(doc.copy.bytes)}${doc.copy.made ? `, made ${esc(doc.copy.made)}` : ""}${docFound ? `; found at ${docFound}` : ""}</div></dd>`
+    ? `<dt>Document</dt><dd>${docRead ? link(docRead.url, doc.title) : esc(doc.title)}<div class="meta">${[doc.publisher && `published by ${esc(doc.publisher)}`, doc.issued && esc(doc.issued), pages(doc)].filter(Boolean).join(", ")}</div><div class="meta">Archived copy: ${esc(doc.copy.name || doc.copy.file.split("/").pop())}, PDF, ${size(doc.copy.bytes)}${doc.copy.made ? `, made ${esc(doc.copy.made)}` : ""}${docFound ? `; found at ${docFound}` : ""}</div></dd>`
     : "";
   const where = image.coordinates_text
     ? `<dt>Coordinates</dt><dd>${esc(image.coordinates_text)}${image.coordinates_basis ? `<div class="meta">Coordinates basis: ${esc(image.coordinates_basis)}</div>` : ""}</dd>`

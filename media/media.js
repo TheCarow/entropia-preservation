@@ -8,17 +8,23 @@
   const KEPT = "entropia-media-filters";
   // The ids of the entries the gallery's filters showed when one was opened, in their order.
   const ORDER = "entropia-media-order";
-  // A video's page: starting the poster swaps in YouTube's player (its privacy-enhanced address), playing at once.
+  // A video's page: starting the poster swaps in the player of the site the video is on, playing at once: YouTube's
+  // (its privacy-enhanced address) or the Internet Archive's.
+  const PLAYERS = {
+    youtube: (id) => /^[A-Za-z0-9_-]{11}$/.test(id) && `https://www.youtube-nocookie.com/embed/${id}?autoplay=1&rel=0`,
+    archive: (id) => /^[A-Za-z0-9][A-Za-z0-9._-]*$/.test(id) && `https://archive.org/embed/${id}?autoplay=1`,
+  };
   for (const start of document.querySelectorAll(".video-start")) {
     start.addEventListener("click", (event) => {
       const frame = start.closest(".video-frame");
-      const id = frame && frame.dataset.youtube;
-      if (!id || !/^[A-Za-z0-9_-]{11}$/.test(id)) {
+      const key = frame && Object.keys(PLAYERS).find((name) => frame.dataset[name]);
+      const src = key && PLAYERS[key](frame.dataset[key]);
+      if (!src) {
         return;
       }
       event.preventDefault();
       const player = document.createElement("iframe");
-      player.src = `https://www.youtube-nocookie.com/embed/${id}?autoplay=1&rel=0`;
+      player.src = src;
       player.title = start.getAttribute("aria-label") || "Video";
       player.allow = "autoplay; encrypted-media; picture-in-picture; fullscreen";
       player.allowFullscreen = true;
