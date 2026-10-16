@@ -7,7 +7,7 @@
     },
     "itemicon-5.4": {
       "name": "Icons drawn from the VU 5.4 client",
-      "about": "Inventory icons drawn by PEViewer's itemicon.py from the VU 5.4 client's own data: the item's model, skin and pose, rendered the way the client's icon generator draws them, armour on the wearer's body. An icon names the item class it was drawn from (class), the item within it (item) and the body (sex). Armour is drawn without the parts of the body its colour mask leaves uncovered (itemicon.py armour-set --cut), which the client would fill with the wearer's skin. An armour icon's colours are not read from the client, which took them from the server: they are the three colours its red, green and blue masks were painted with (colours), and colours_basis says where they come from, a fit to a dated picture or a choice made for the Archive. Either way the icon is a reconstruction, not a picture the game showed."
+      "about": "Inventory icons drawn by PEViewer's itemicon.py from the VU 5.4 client's own data: the item's model, skin and pose, rendered the way the client's icon generator draws them, armour on the wearer's body. An icon names the item class it was drawn from (class), the item within it (item) and the body (sex). Armour is drawn without the parts of the body its colour mask leaves uncovered (itemicon.py armour-set --cut), which the client would fill with the wearer's skin. An armour icon's colours are not read from the client, which took them from the server: they are the three colours its red, green and blue masks were painted with, kept once per set under looks in icons.json with where they come from, a fit to a dated picture or a choice made for the Archive. Either way the icon is a reconstruction, not a picture the game showed."
     },
     "itemicon-9.1.5": {
       "name": "Icons drawn from the VU 9.1.5 client",
@@ -24,7 +24,7 @@
     "client-5.4": {
       "name": "The VU 5.4 client",
       "link": "../clients/#vu-5.4-files",
-      "about": "The VU 5.4 client's own data (the Level 109 install; the E3 2004 disc holds the same files): every item its string tables name, with its key, class and index, its description, and the category the client files it under (read from its member table or inferred by a rule, category_basis), or for an item outside that taxonomy its inventory tab (petest's Tools/arkitems.py, arkstrings.py and arkinventory.py, DeepDive/5.4/Catalogue/); for armour also its set (arkwearables.py). An item the client names was in the game's data at VU 5.4, and the name is the one it carried then, misspellings included (Necromancer Armor helemet (female)). Left out: names that are not items, placeholders (RemoveMe), names the client marks retired with X_ prefixes (O_Basic Absorbers) eleven armour working titles, the items of the inventory's Food tab and the injections, as neither was ever used. An icon from this source (file <id>_client_5.4.png) is a picture the client stores, taken where its class keeps one texture for every item; where a class keeps a table of several, the server chose by the item's variant and none is taken.",
+      "about": "The VU 5.4 client's own data (the Level 109 install; the E3 2004 disc holds the same files): every item its string tables name, with its key (its class and index are the key's two halves), its description, and the category the client files it under (read from its member table or inferred by a rule, category_basis), or for an item outside that taxonomy its inventory tab (petest's Tools/arkitems.py, arkstrings.py and arkinventory.py, DeepDive/5.4/Catalogue/); for armour also its set (arkwearables.py). An item the client names was in the game's data at VU 5.4, and the name is the one it carried then, misspellings included (Necromancer Armor helemet (female)). Left out: names that are not items, placeholders (RemoveMe), names the client marks retired with X_ prefixes (O_Basic Absorbers) eleven armour working titles, the items of the inventory's Food tab and the injections, as neither was ever used. An icon from this source (file texture-<texture>_client_5.4.png, one per texture) is a picture the client stores, taken where its class keeps one texture for every item; where a class keeps a table of several, the server chose by the item's variant and none is taken.",
       "vu": "5.4"
     },
     "client-5.1": {
@@ -53,7 +53,25 @@
     },
     "owner": {
       "name": "The Archive's owner",
-      "about": "Judgements by the Entropia Archive's owner, who played the game: which items were never in use. Such an item carries unused, with the day and the reason, and the page hides it."
+      "about": "Judgements by the Entropia Archive's owner, who played the game. Which items were never in use: such an item names one of the reasons below in unused, and the page hides it. Which stored picture an item wore where the client cannot say: the item's icon carries assigned, with the day and the basis.",
+      "reasons": {
+        "food": {
+          "text": "Food was never used in the game.",
+          "date": "2026-10-14"
+        },
+        "injection": {
+          "text": "Injections were never used in the game.",
+          "date": "2026-10-14"
+        },
+        "injection-ingredient": {
+          "text": "An ingredient for injections, which were never used in the game.",
+          "date": "2026-10-14"
+        },
+        "not-in-use": {
+          "text": "Not in use in the game.",
+          "date": "2026-10-14"
+        }
+      }
     }
   }
 }
