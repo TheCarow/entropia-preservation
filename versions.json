@@ -66,7 +66,8 @@
         {"tier": 1, "label": "project-entropia.com - Teaser from the new patch!", "url": "https://web.archive.org/web/20021206160732/http://www.project-entropia.com:80/news/main.asp?newsSubjectGo=update", "date": "2002-11-25"},
         {"tier": 4, "label": "GamersHell - PROJECT ENTROPIA ENHANCED WITH V4.0 PATCH", "url": "https://web.archive.org/web/20040809220835/http://www.gamershell.com:80/news/4946.html", "date": "2002-12-09"},
         {"tier": 4, "label": "perc.info - VU 4.0 listing (fan site, 2004)", "url": "https://web.archive.org/web/20041027000524/http://www.perc.info:80/index.asp?page=77"},
-        {"tier": 5, "label": "Entropia Universe forum - VU 4.0 Listing (GeeKman, 2005 repost)", "url": "https://forum.entropiauniverse.com/t/vu-4-0-listing/146", "date": "2005-01-29"}
+        {"tier": 5, "label": "Entropia Universe forum - VU 4.0 Listing (GeeKman, 2005 repost)", "url": "https://forum.entropiauniverse.com/t/vu-4-0-listing/146", "date": "2005-01-29"},
+        {"tier": 5, "label": "pecharts.info - VU 4.0 notes (fan site, 2005 repost)", "url": "https://web.archive.org/web/20050313072857/http://vus.pecharts.info:80/40.htm"}
       ]
     },
     "4.1": {
@@ -80,7 +81,8 @@
       "sources": [
         {"tier": 1, "label": "project-entropia.com - Project Entropia Version 4.1 Update Information - 2003-01-09", "url": "https://web.archive.org/web/20030214131729/http://www.project-entropia.com:80/news/main.asp?newsSubjectGo=update", "date": "2003-01-09"},
         {"tier": 4, "label": "perc.info - VU 4.1 listing (fan site, 2004)", "url": "https://web.archive.org/web/20041026115122/http://www.perc.info:80/index.asp?page=63"},
-        {"tier": 5, "label": "Entropia Universe forum - VU 4.1 Listing (GeeKman, 2005 repost)", "url": "https://forum.entropiauniverse.com/t/vu-4-1-listing/145", "date": "2005-01-29"}
+        {"tier": 5, "label": "Entropia Universe forum - VU 4.1 Listing (GeeKman, 2005 repost)", "url": "https://forum.entropiauniverse.com/t/vu-4-1-listing/145", "date": "2005-01-29"},
+        {"tier": 5, "label": "pecharts.info - VU 4.1 notes (fan site, 2005 repost)", "url": "https://web.archive.org/web/20050313073247/http://vus.pecharts.info:80/41.html"}
       ]
     },
     "4.2": {
@@ -96,7 +98,8 @@
         {"tier": 5, "label": "Entropia Universe forum - The Golden VU 4.2 Listing (GeeKman, 2005 repost)", "url": "https://forum.entropiauniverse.com/t/the-golden-vu-4-2-listing/144", "date": "2005-01-29"},
         {"tier": 5, "label": "Entropia Museum - VU search results for \"4.2\"", "url": "https://www.entropiamuseum.com/vu/search/4.2/page/2", "from_sheet": true},
         {"tier": 5, "label": "Entropia Museum - Version Updates archive", "url": "https://www.entropiamuseum.com/vu/"},
-        {"tier": 5, "label": "Entropia Universe forum - A Brief History of Cities, TPs and Locations", "url": "https://forum.entropiauniverse.com/t/a-brief-history-of-cities-tps-and-locations/103895", "from_sheet": true}
+        {"tier": 5, "label": "Entropia Universe forum - A Brief History of Cities, TPs and Locations", "url": "https://forum.entropiauniverse.com/t/a-brief-history-of-cities-tps-and-locations/103895", "from_sheet": true},
+        {"tier": 5, "label": "pecharts.info - VU 4.2 notes (fan site, 2005 repost)", "url": "https://web.archive.org/web/20050313073409/http://vus.pecharts.info:80/42.htm"}
       ]
     },
     "4.3": {
@@ -110,7 +113,8 @@
         {"tier": 4, "label": "Stratics - It's coming!! The Project Entropia VU (preview)", "preview": true, "url": "https://web.archive.org/web/20030314052219/http://www.stratics.com:80/content/portals/entropia/", "date": "2003-03-05"},
         {"tier": 5, "label": "Entropia Universe forum - VU 4.3 Listing (GeeKman, 2005 repost)", "url": "https://forum.entropiauniverse.com/t/vu-4-3-listing/143", "date": "2005-01-29"},
         {"tier": 5, "label": "Entropia Museum - VU search results for \"4.3\"", "url": "https://www.entropiamuseum.com/vu/search/4.3/page/2", "from_sheet": true},
-        {"tier": 5, "label": "Entropia Museum - Version Updates archive", "url": "https://www.entropiamuseum.com/vu/"}
+        {"tier": 5, "label": "Entropia Museum - Version Updates archive", "url": "https://www.entropiamuseum.com/vu/"},
+        {"tier": 5, "label": "pecharts.info - VU 4.3 notes (fan site, 2005 repost)", "url": "https://web.archive.org/web/20050313073614/http://vus.pecharts.info:80/43.htm"}
       ]
     },
     "4.4": {
@@ -122,7 +126,8 @@
         {"tier": 1, "label": "project-entropia.com - Project Entropia Version Update 4.4 - 2003-04-03", "url": "https://web.archive.org/web/20030407071347/http://www.project-entropia.com:80/client/main.asp?lang=2", "date": "2003-04-03"},
         {"tier": 4, "label": "perc.info - VU 4.4 listing (fan site, 2004)", "url": "https://web.archive.org/web/20041026163508/http://www.perc.info:80/index.asp?page=66"},
         {"tier": 5, "label": "Entropia Universe forum - VU 4.4 Listing (GeeKman, 2005 repost)", "url": "https://forum.entropiauniverse.com/t/vu-4-4-listing/142", "date": "2005-01-29"},
-        {"tier": 5, "label": "Entropia Universe forum - A Brief History of Cities, TPs and Locations", "url": "https://forum.entropiauniverse.com/t/a-brief-history-of-cities-tps-and-locations/103895", "from_sheet": true}
+        {"tier": 5, "label": "Entropia Universe forum - A Brief History of Cities, TPs and Locations", "url": "https://forum.entropiauniverse.com/t/a-brief-history-of-cities-tps-and-locations/103895", "from_sheet": true},
+        {"tier": 5, "label": "pecharts.info - VU 4.4 notes (fan site, 2005 repost)", "url": "https://web.archive.org/web/20050313074012/http://vus.pecharts.info:80/44.htm"}
       ]
     },
     "4.5": {
@@ -135,7 +140,8 @@
         {"tier": 5, "label": "Entropia Universe forum - VU 4.5 Listing (GeeKman, 2005 repost)", "url": "https://forum.entropiauniverse.com/t/vu-4-5-listing/141", "date": "2005-01-29"},
         {"tier": 5, "label": "Entropia Museum - VU search results for \"4.5\"", "url": "https://www.entropiamuseum.com/vu/search/4.5", "from_sheet": true},
         {"tier": 5, "label": "Entropia Museum - Version Updates archive", "url": "https://www.entropiamuseum.com/vu/"},
-        {"tier": 5, "label": "Unionova (unionova.eu) - History of Calypso, a 2008 compilation (the archive's copy)", "url": "https://entropia-archive.com/media/60ww6b6v/", "date": "2008-05-12"}
+        {"tier": 5, "label": "Unionova (unionova.eu) - History of Calypso, a 2008 compilation (the archive's copy)", "url": "https://entropia-archive.com/media/60ww6b6v/", "date": "2008-05-12"},
+        {"tier": 5, "label": "pecharts.info - VU 4.5 progress note of 25 April 2003 (fan site, 2005 repost)", "preview": true, "url": "https://web.archive.org/web/20050313092459/http://vus.pecharts.info:80/45.htm"}
       ]
     },
     "5.0": {
@@ -149,7 +155,8 @@
         {"tier": 4, "label": "perc.info - VU 5.0 listing (fan site, 2004)", "url": "https://web.archive.org/web/20041026175920/http://www.perc.info:80/index.asp?page=68"},
         {"tier": 5, "label": "Entropia Universe forum - VU 5.0 Listing (GeeKman, 2005 repost)", "url": "https://forum.entropiauniverse.com/t/vu-5-0-listing/140", "date": "2005-01-29"},
         {"tier": 5, "label": "Entropia Museum - Entropia Insider issue 1, August 2003 (player magazine)", "url": "https://www.entropiamuseum.com/guides/2003/08/guide2003081.pdf", "date": "2003-08-08"},
-        {"tier": 5, "label": "Unionova (unionova.eu) - History of Calypso, a 2008 compilation (the archive's copy)", "url": "https://entropia-archive.com/media/60ww6b6v/", "date": "2008-05-12"}
+        {"tier": 5, "label": "Unionova (unionova.eu) - History of Calypso, a 2008 compilation (the archive's copy)", "url": "https://entropia-archive.com/media/60ww6b6v/", "date": "2008-05-12"},
+        {"tier": 5, "label": "pecharts.info - VU 5.0 preview of 18 May 2003 (fan site, 2005 repost)", "preview": true, "url": "https://web.archive.org/web/20050313092553/http://vus.pecharts.info:80/50.htm"}
       ]
     },
     "5.1": {
@@ -166,7 +173,8 @@
         {"tier": 4, "label": "perc.info - VU 5.1 listing (fan site, 2004)", "url": "https://web.archive.org/web/20041026223130/http://www.perc.info:80/index.asp?page=75"},
         {"tier": 5, "label": "Entropia Universe forum - VU 5.1 Listing (GeeKman, 2005 repost)", "url": "https://forum.entropiauniverse.com/t/vu-5-1-listing/139", "date": "2005-01-29"},
         {"tier": 5, "label": "Entropia Universe forum - A Brief History of Cities, TPs and Locations", "url": "https://forum.entropiauniverse.com/t/a-brief-history-of-cities-tps-and-locations/103895", "from_sheet": true},
-        {"tier": 5, "label": "Entropia Museum - Entropia Insider issue 1, August 2003 (player magazine)", "url": "https://www.entropiamuseum.com/guides/2003/08/guide2003081.pdf", "date": "2003-08-08"}
+        {"tier": 5, "label": "Entropia Museum - Entropia Insider issue 1, August 2003 (player magazine)", "url": "https://www.entropiamuseum.com/guides/2003/08/guide2003081.pdf", "date": "2003-08-08"},
+        {"tier": 5, "label": "pecharts.info - VU 5.1 notes (fan site, 2005 repost)", "url": "https://web.archive.org/web/20050313093016/http://vus.pecharts.info:80/51.htm"}
       ]
     },
     "5.1.2": {
@@ -186,7 +194,8 @@
         {"tier": 2, "label": "Entropia Pioneers forum - VU 5.2 notes posted by Marco|MindArk", "url": "https://web.archive.org/web/20040529214357/http://entropia-pioneers.kicks-ass.org:80/phpBB2/viewtopic.php?t=2600%26amp", "date": "2003-10-15"},
         {"tier": 4, "label": "computergames.ro - client v5.2.0 download page, notes in its description", "url": "https://web.archive.org/web/20040306142823/http://www.computergames.ro:80/download.php/optiune-show_download/did-2228/index.html", "date": "2003-10-17"},
         {"tier": 4, "label": "perc.info - VU 5.2 listing (fan site, 2004)", "url": "https://web.archive.org/web/20041027000427/http://www.perc.info:80/index.asp?page=76"},
-        {"tier": 5, "label": "Entropia Universe forum - VU 5.2 Listing (GeeKman, 2005 repost)", "url": "https://forum.entropiauniverse.com/t/vu-5-2-listing/138", "date": "2005-01-29"}
+        {"tier": 5, "label": "Entropia Universe forum - VU 5.2 Listing (GeeKman, 2005 repost)", "url": "https://forum.entropiauniverse.com/t/vu-5-2-listing/138", "date": "2005-01-29"},
+        {"tier": 5, "label": "pecharts.info - VU 5.2 notes (fan site, 2005 repost)", "url": "https://web.archive.org/web/20050313093219/http://vus.pecharts.info:80/52.htm"}
       ]
     },
     "5.2.1": {
@@ -196,7 +205,8 @@
       ],
       "sources": [
         {"tier": 2, "label": "Entropia Pioneers forum - VU 5.2.1 notes posted by Marco|MindArk", "url": "https://web.archive.org/web/20040529214503/http://entropia-pioneers.kicks-ass.org:80/phpBB2/viewtopic.php?t=2914%26amp", "date": "2003-10-29"},
-        {"tier": 5, "label": "Entropia Universe forum - Vu 5.2.1 Listing (GeeKman, 2005 repost)", "url": "https://forum.entropiauniverse.com/t/vu-5-2-1-listing/137", "date": "2005-01-29"}
+        {"tier": 5, "label": "Entropia Universe forum - Vu 5.2.1 Listing (GeeKman, 2005 repost)", "url": "https://forum.entropiauniverse.com/t/vu-5-2-1-listing/137", "date": "2005-01-29"},
+        {"tier": 5, "label": "pecharts.info - VU 5.2.1 notes (fan site, 2005 repost)", "url": "https://web.archive.org/web/20050313093522/http://vus.pecharts.info:80/521.htm"}
       ]
     },
     "5.2.X": {
@@ -218,7 +228,8 @@
         {"tier": 1, "label": "project-entropia.com - VU 5.3 listing", "url": "https://web.archive.org/web/20041224010125/http://www.project-entropia.com:80/StdContent.ajp?Id=1062", "date": "2004-12-24"},
         {"tier": 2, "label": "Entropia Pioneers forum - PROJECT ENTROPIA VERSION UPDATE 5.3 2003-11-24", "url": "https://web.archive.org/web/20040529214919/http://entropia-pioneers.kicks-ass.org:80/phpBB2/viewtopic.php?t=3382%26amp", "date": "2003-11-24"},
         {"tier": 4, "label": "perc.info - VU 5.3 listing (fan site, 2004)", "url": "https://web.archive.org/web/20041026175904/http://www.perc.info:80/index.asp?page=69"},
-        {"tier": 5, "label": "Entropia Universe forum - VU 5.3 Listing (MindBuster, 2005 repost)", "url": "https://forum.entropiauniverse.com/t/vu-5-3-listing/126", "date": "2005-01-29"}
+        {"tier": 5, "label": "Entropia Universe forum - VU 5.3 Listing (MindBuster, 2005 repost)", "url": "https://forum.entropiauniverse.com/t/vu-5-3-listing/126", "date": "2005-01-29"},
+        {"tier": 5, "label": "pecharts.info - VU 5.3 notes (fan site, 2005 repost)", "url": "https://web.archive.org/web/20050313093857/http://vus.pecharts.info:80/53.htm"}
       ]
     },
     "5.3.0.1": {
@@ -274,7 +285,8 @@
       "sources": [
         {"tier": 1, "label": "project-entropia.com - VU 5.4 content", "url": "https://web.archive.org/web/20041224010507/http://www.project-entropia.com:80/StdContent.ajp?Id=1077", "date": "2004-12-24"},
         {"tier": 4, "label": "perc.info - VU 5.4 listing (fan site, 2004)", "url": "https://web.archive.org/web/20041026191800/http://www.perc.info:80/index.asp?page=70"},
-        {"tier": 5, "label": "Entropia Universe forum - VU 5.4 Listing + mini updates (MindBuster, 2005 repost)", "url": "https://forum.entropiauniverse.com/t/vu-5-4-listing-mini-updates/127", "date": "2005-01-29"}
+        {"tier": 5, "label": "Entropia Universe forum - VU 5.4 Listing + mini updates (MindBuster, 2005 repost)", "url": "https://forum.entropiauniverse.com/t/vu-5-4-listing-mini-updates/127", "date": "2005-01-29"},
+        {"tier": 5, "label": "pecharts.info - VU 5.4 notes (fan site, 2005 repost)", "url": "https://web.archive.org/web/20050313094026/http://vus.pecharts.info:80/54.htm"}
       ]
     },
     "5.4.0.1": {
@@ -319,7 +331,8 @@
         {"tier": 2, "label": "Entropia Pioneers forum - PROJECT ENTROPIA VERSION UPDATE 5.5 2004-02-17", "url": "https://web.archive.org/web/20040602052548/http://entropia-pioneers.kicks-ass.org:80/phpBB2/viewtopic.php?t=5640%26amp", "date": "2004-02-17"},
         {"tier": 4, "label": "perc.info - VU 5.5 listing (fan site, 2004)", "url": "https://web.archive.org/web/20041026191819/http://www.perc.info:80/index.asp?page=71"},
         {"tier": 4, "label": "Stratics - New society functionalities (preview)", "preview": true, "url": "https://web.archive.org/web/20040214005257/http://www.stratics.com/content/portals/entropia", "date": "2004-01-15"},
-        {"tier": 5, "label": "Entropia Universe forum - VU 5.5 Listing + mini updates (MindBuster, 2005 repost)", "url": "https://forum.entropiauniverse.com/t/vu-5-5-listing-mini-updates/128", "date": "2005-01-29"}
+        {"tier": 5, "label": "Entropia Universe forum - VU 5.5 Listing + mini updates (MindBuster, 2005 repost)", "url": "https://forum.entropiauniverse.com/t/vu-5-5-listing-mini-updates/128", "date": "2005-01-29"},
+        {"tier": 5, "label": "pecharts.info - VU 5.5 notes (fan site, 2005 repost)", "url": "https://web.archive.org/web/20050313103130/http://vus.pecharts.info:80/55.htm"}
       ]
     },
     "5.5.0.2": {
@@ -410,7 +423,8 @@
         {"tier": 1, "label": "project-entropia.com - VU 5.6 miniupdates", "url": "https://web.archive.org/web/20041224011431/http://www.project-entropia.com:80/StdContent.ajp?Id=1169", "date": "2004-12-24"},
         {"tier": 2, "label": "Entropia Pioneers forum - PROJECT ENTROPIA VERSION UPDATE 5.6 2004-03-05", "url": "https://web.archive.org/web/20040602053155/http://entropia-pioneers.kicks-ass.org:80/phpBB2/viewtopic.php?t=7794%26amp", "date": "2004-03-05"},
         {"tier": 4, "label": "perc.info - VU 5.6 listing (fan site, 2004)", "url": "https://web.archive.org/web/20041026204611/http://www.perc.info:80/index.asp?page=72"},
-        {"tier": 5, "label": "Entropia Universe forum - VU 5.6 Listing + mini updates (MindBuster, 2005 repost)", "url": "https://forum.entropiauniverse.com/t/vu-5-6-listing-mini-updates/129", "date": "2005-01-29"}
+        {"tier": 5, "label": "Entropia Universe forum - VU 5.6 Listing + mini updates (MindBuster, 2005 repost)", "url": "https://forum.entropiauniverse.com/t/vu-5-6-listing-mini-updates/129", "date": "2005-01-29"},
+        {"tier": 5, "label": "pecharts.info - VU 5.6 notes (fan site, 2005 repost)", "url": "https://web.archive.org/web/20050313103235/http://vus.pecharts.info:80/56.htm"}
       ]
     },
     "5.6.X": {
@@ -433,7 +447,8 @@
         {"tier": 4, "label": "perc.info - VU 5.7 listing (fan site, 2004)", "url": "https://web.archive.org/web/20041026204625/http://www.perc.info:80/index.asp?page=73"},
         {"tier": 5, "label": "Entropia Universe forum - VU 5.7 Listing + mini updates (MindBuster, 2005 repost)", "url": "https://forum.entropiauniverse.com/t/vu-5-7-listing-mini-updates/130", "date": "2005-01-29"},
         {"tier": 5, "label": "Entropia Universe forum - A Brief History of Cities, TPs and Locations", "url": "https://forum.entropiauniverse.com/t/a-brief-history-of-cities-tps-and-locations/103895", "from_sheet": true},
-        {"tier": 5, "label": "MobyGames - patch history", "url": "https://www.mobygames.com/game/13447/entropia-universe/patches/", "from_sheet": true}
+        {"tier": 5, "label": "MobyGames - patch history", "url": "https://www.mobygames.com/game/13447/entropia-universe/patches/", "from_sheet": true},
+        {"tier": 5, "label": "pecharts.info - VU 5.7 notes (fan site, 2005 repost)", "url": "https://web.archive.org/web/20050313103603/http://vus.pecharts.info:80/57.htm"}
       ]
     },
     "5.7.1": {
@@ -457,7 +472,8 @@
         {"tier": 1, "label": "project-entropia.com - VU 6.0 miniupdates", "url": "https://web.archive.org/web/20041224012141/http://www.project-entropia.com:80/StdContent.ajp?Id=1342", "date": "2004-12-24"},
         {"tier": 2, "label": "Entropia Pioneers forum - VU 6.0 notes posted by Marco|MindArk", "url": "https://web.archive.org/web/20040918183918/http://entropia-pioneers.kicks-ass.org:80/phpBB2/viewtopic.php?t=12760%26amp", "date": "2004-08-10"},
         {"tier": 4, "label": "perc.info - VU 6.0 listing (fan site, 2004)", "url": "https://web.archive.org/web/20041026223018/http://www.perc.info:80/index.asp?page=74"},
-        {"tier": 5, "label": "Entropia Universe forum - VU 6.0 Listing + mini updates (MindBuster, 2005 repost)", "url": "https://forum.entropiauniverse.com/t/vu-6-0-listing-mini-updates/131", "date": "2005-01-29"}
+        {"tier": 5, "label": "Entropia Universe forum - VU 6.0 Listing + mini updates (MindBuster, 2005 repost)", "url": "https://forum.entropiauniverse.com/t/vu-6-0-listing-mini-updates/131", "date": "2005-01-29"},
+        {"tier": 5, "label": "pecharts.info - VU 6.0 notes (fan site, 2005 repost)", "url": "https://web.archive.org/web/20050313103844/http://vus.pecharts.info:80/60.htm"}
       ]
     },
     "6.0.X": {
@@ -479,7 +495,8 @@
         {"tier": 2, "label": "Entropia Pioneers forum - PROJECT ENTROPIA VERSION UPDATE 6.1 2004-10-06", "url": "https://web.archive.org/web/20050426090149/http://entropia-pioneers.kicks-ass.org:80/phpBB2/viewtopic.php?t=14993%26amp", "date": "2004-10-06"},
         {"tier": 4, "label": "perc.info - VU 6.1 listing (fan site, 2004)", "url": "https://web.archive.org/web/20041026025138/http://www.perc.info:80/index.asp?page=170"},
         {"tier": 5, "label": "Entropia Universe forum - VU 6.1 Listing (MindBuster, 2005 repost)", "url": "https://forum.entropiauniverse.com/t/vu-6-1-listing/132", "date": "2005-01-29"},
-        {"tier": 5, "label": "Entropia Universe forum - Undocumented VU changes list (Hansi)", "url": "https://forum.entropiauniverse.com/t/undocumented-vu-changes-list/4194"}
+        {"tier": 5, "label": "Entropia Universe forum - Undocumented VU changes list (Hansi)", "url": "https://forum.entropiauniverse.com/t/undocumented-vu-changes-list/4194"},
+        {"tier": 5, "label": "pecharts.info - VU 6.1 notes (fan site, 2005 repost)", "url": "https://web.archive.org/web/20050313104116/http://vus.pecharts.info:80/61.htm"}
       ]
     },
     "6.1.X": {
@@ -500,7 +517,8 @@
         {"tier": 1, "label": "project-entropia.com - VU 6.2 content list", "url": "https://web.archive.org/web/20041224010926/http://www.project-entropia.com:80/StdContent.ajp?Id=1495", "date": "2004-12-24"},
         {"tier": 2, "label": "Entropia Pioneers forum - PROJECT ENTROPIA VERSION UPDATE 6.2 2004-11-02", "url": "https://web.archive.org/web/20050426090225/http://entropia-pioneers.kicks-ass.org:80/phpBB2/viewtopic.php?t=16507%26amp", "date": "2004-11-02"},
         {"tier": 4, "label": "perc.info - VU 6.2 listing (fan site, 2004)", "url": "https://web.archive.org/web/20041204150607/http://www.perc.info:80/index.asp?page=180"},
-        {"tier": 5, "label": "Entropia Universe forum - VU 6.2 Listing (MindBuster, 2005 repost)", "url": "https://forum.entropiauniverse.com/t/vu-6-2-listing/133", "date": "2005-01-29"}
+        {"tier": 5, "label": "Entropia Universe forum - VU 6.2 Listing (MindBuster, 2005 repost)", "url": "https://forum.entropiauniverse.com/t/vu-6-2-listing/133", "date": "2005-01-29"},
+        {"tier": 5, "label": "pecharts.info - VU 6.2 notes (fan site, 2005 repost)", "url": "https://web.archive.org/web/20050313104321/http://vus.pecharts.info:80/62.htm"}
       ]
     },
     "6.3": {
@@ -512,7 +530,8 @@
         {"tier": 1, "label": "project-entropia.com - VU 6.3 content list", "url": "https://web.archive.org/web/20041224012253/http://www.project-entropia.com:80/StdContent.ajp?Id=1514", "date": "2004-12-24"},
         {"tier": 2, "label": "Entropia Pioneers forum - PROJECT ENTROPIA VERSION UPDATE 6.3 2004-11-23", "url": "https://web.archive.org/web/20050426090255/http://entropia-pioneers.kicks-ass.org:80/phpBB2/viewtopic.php?t=17225%26amp", "date": "2004-11-23"},
         {"tier": 4, "label": "perc.info - VU 6.3 listing (fan site, 2004)", "url": "https://web.archive.org/web/20041204154049/http://www.perc.info:80/index.asp?page=184"},
-        {"tier": 5, "label": "Entropia Universe forum - VU 6.3 Listing (MindBuster, 2005 repost)", "url": "https://forum.entropiauniverse.com/t/vu-6-3-listing/134", "date": "2005-01-29"}
+        {"tier": 5, "label": "Entropia Universe forum - VU 6.3 Listing (MindBuster, 2005 repost)", "url": "https://forum.entropiauniverse.com/t/vu-6-3-listing/134", "date": "2005-01-29"},
+        {"tier": 5, "label": "pecharts.info - VU 6.3 notes (fan site, 2005 repost)", "url": "https://web.archive.org/web/20050313112442/http://vus.pecharts.info:80/63.htm"}
       ]
     },
     "6.4": {
@@ -521,7 +540,8 @@
       "engine": "Gamebryo",
       "sources": [
         {"tier": 1, "label": "project-entropia.com - VU 6.4 content list", "url": "https://web.archive.org/web/20041224011014/http://www.project-entropia.com:80/StdContent.ajp?Id=1558", "date": "2004-12-24"},
-        {"tier": 1, "label": "project-entropia.com - Project Entropia update expected before Christmas (preview)", "preview": true, "url": "https://web.archive.org/web/20041223173010/http://www.project-entropia.com:80/news/Index.ajp", "date": "2004-12-09"}
+        {"tier": 1, "label": "project-entropia.com - Project Entropia update expected before Christmas (preview)", "preview": true, "url": "https://web.archive.org/web/20041223173010/http://www.project-entropia.com:80/news/Index.ajp", "date": "2004-12-09"},
+        {"tier": 5, "label": "pecharts.info - VU 6.4 notes (fan site, 2005 repost)", "url": "https://web.archive.org/web/20050503063827/http://vus.pecharts.info:80/64.htm"}
       ]
     },
     "6.4.5": {},
@@ -538,7 +558,8 @@
         {"tier": 1, "label": "project-entropia.com - Pre-VU 7.0 configuration 25 Jan 2005", "url": "https://web.archive.org/web/20060317184743/http://www.project-entropia.com/StdContent.ajp?Id=1618", "date": "2005-01-25"},
         {"tier": 1, "label": "project-entropia.com - VU 7.0 content list", "url": "https://web.archive.org/web/20050406074754/http://www.project-entropia.com:80/StdContent.ajp?Id=1615", "date": "2005-04-06"},
         {"tier": 1, "label": "project-entropia.com - VU 7.0 sneak peek (preview)", "preview": true, "url": "https://web.archive.org/web/20050112195749/http://www.project-entropia.com:80/StdContent.ajp?Id=1597", "date": "2005-01-12"},
-        {"tier": 5, "label": "Entropia Universe forum - VU 7.0 listing (MindBuster, 2005 repost)", "url": "https://forum.entropiauniverse.com/t/vu-7-0-listing/135", "date": "2005-01-29"}
+        {"tier": 5, "label": "Entropia Universe forum - VU 7.0 listing (MindBuster, 2005 repost)", "url": "https://forum.entropiauniverse.com/t/vu-7-0-listing/135", "date": "2005-01-29"},
+        {"tier": 5, "label": "pecharts.info - VU 7.0 notes (fan site, 2005 repost)", "url": "https://web.archive.org/web/20050503163904/http://vus.pecharts.info:80/70.htm"}
       ]
     },
     "7.0.X": {
