@@ -1,0 +1,56 @@
+{
+  "item": "ziplex-ju40-matterseeker-l-blueprint-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20070805183422/http://peauction.com:80/catlisting.php?id=24",
+    "https://web.archive.org/web/20070807232151/http://peauction.com:80/catlisting.php?id=24",
+    "https://web.archive.org/web/20071007160727/http://www.peauction.com/catlisting.php?id=24",
+    "https://web.archive.org/web/20071012151757/http://peauction.com:80/catlisting.php?id=24",
+    "https://web.archive.org/web/20071108180530/http://www.peauction.com/itemlisting.php?id=3953",
+    "https://web.archive.org/web/20071108180553/http://www.peauction.com/chart2.php?id=3953&dtype=1",
+    "https://web.archive.org/web/20071212065932/http://peauction.com:80/catlisting.php?id=24",
+    "https://web.archive.org/web/20080210212017/http://www.peauction.com:80/catlisting.php?id=24",
+    "https://web.archive.org/web/20080411150945/http://www.peauction.com:80/catlisting.php?id=24",
+    "https://web.archive.org/web/20081022150107/http://www.peauction.com:80/catlisting.php?id=24",
+    "https://web.archive.org/web/20090223042052/http://peauction.com:80/catlisting.php?id=24",
+    "https://web.archive.org/web/20090802101823/http://www.peauction.com:80/catlisting.php?id=24",
+    "https://web.archive.org/web/20091002013114/http://www.peauction.com:80/catlisting.php?id=24",
+    "https://web.archive.org/web/20160801200812/http://peauction.com/itemlisting.php?id=3953"
+  ],
+  "sold": [
+    [1, 0.01, 16.0, 7, [[0, "2007-04-26 18:56", 4]]],
+    [1, 0.01, 18.0, 9, [[0, "2007-04-30 21:39", 4]]],
+    [1, 0.01, 15.0, 5, [[0, "2007-05-04 18:56", 4]]],
+    [1, 0.01, 20.0, 15, [[0, "2007-05-17 20:24", 4]]],
+    [1, 0.01, 20.0, 12, [[0, "2007-05-18 23:10", 4]]],
+    [1, 0.02, 7.0, 7, [[0, "2007-05-19 21:57", 4]]],
+    [1, 0.06, 61.0, 19, [[0, "2007-05-21 20:54", 4]]],
+    [1, 0.13, 125.0, 18, [[0, "2007-06-04 23:58", 4]]],
+    [1, 0.01, 5.0, 5, [[0, "2007-06-16 22:16", 4]]],
+    [1, 0.03, 40.0, 26, [[0, "2007-08-13 04:02", 4]]],
+    [1, 0.01, 10.0, 9, [[0, "2007-09-03 17:54", 4]]],
+    [1, 0.01, 16.0, 12, [[0, "2007-09-12 06:44", 4]]],
+    [1, 0.07, 36.0, 16, [[0, "2007-11-10 13:58", 13]]],
+    [1, 0.18, 95.0, 1, [[0, "2007-11-24 23:01", 13]]],
+    [1, 0.19, 100.0, 12, [[0, "2008-04-03 23:38", 13]]],
+    [1, 0.08, 70.0, 10, [[0, "2008-11-30 00:21", 13]]],
+    [1, 0.14, 29.0, 9, [[0, "2009-03-19 22:29", 13]]]
+  ],
+  "unsold": [
+    [1, 0.13, 250.0, [[0, "2007-05-30 19:44", 4]]],
+    [1, 0.03, 101.0, [[0, "2007-10-22 00:48", 4]]],
+    [1, 0.06, 85.0, [[0, "2008-04-01 21:03", 13]]]
+  ],
+  "readings": [
+    [0, "%", 130313.0, 0, 1],
+    [0, "%", 122615.0, 2, 3],
+    [0, "%", 98036.0, 6, 7],
+    [0, "%", 83299.2, 8, 9],
+    [0, "%", 88549.2, 10, 10],
+    [0, "%", 80453.9, 11, 12]
+  ],
+  "charts": [
+    [1, 5, "3953-1-20071108180553.png"]
+  ]
+}

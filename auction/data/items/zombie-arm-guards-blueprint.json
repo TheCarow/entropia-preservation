@@ -1,0 +1,59 @@
+{
+  "item": "zombie-arm-guards-blueprint",
+  "markup": "TT+",
+  "sources": ["pea", "pe-player"],
+  "captures": [
+    "https://web.archive.org/web/20040807114142/http://www.pe-player.com:80/auction/list.php?sort=bytype",
+    "https://web.archive.org/web/20050130134118/http://www.pe-player.com:80/auction/list.php?sort=bytype",
+    "https://web.archive.org/web/20060216220804/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20060805173432/http://peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20061107141622/http://peauction.com/catlisting.php?id=18",
+    "https://web.archive.org/web/20070612102257/http://peauction.com:80/itemlisting.php?id=1703",
+    "https://web.archive.org/web/20070803140920/http://peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20071007162213/http://www.peauction.com/catlisting.php?id=18",
+    "https://web.archive.org/web/20080210210002/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20080411150913/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20080610174500/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20080801024921/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20091002013041/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20160801082142/http://peauction.com/itemlisting.php?id=1703"
+  ],
+  "sold": [
+    [1, 0.01, 37.0, 7, [[1, "2004-07-15 05:40", 0]]],
+    [1, 0.01, 37.0, 7, [[1, "2004-10-23 00:56", 1]]],
+    [1, 0.01, 40.0, 12, [[0, "2005-11-03 20:16", 5]]],
+    [1, 0.08, 64.0, 13, [[0, "2006-08-19 20:40", 5]]],
+    [1, 0.01, 51.0, 2, [[0, "2006-09-13 10:21", 5]]],
+    [1, 0.01, 200.0, 1, [[0, "2007-08-26 18:37", 13]]],
+    [1, 0.01, 46.0, 7, [[0, "2008-04-03 05:18", 13]]],
+    [1, 0.01, 75.0, 9, [[0, "2008-05-21 23:34", 13]]],
+    [1, 0.02, 131.0, 1, [[0, "2008-06-24 19:25", 13]]]
+  ],
+  "unsold": [
+    [1, 0.01, 401.0, [[0, "2006-03-21 13:08", 5]]],
+    [1, 0.01, 251.0, [[0, "2006-04-11 15:59", 5]]],
+    [1, 0.01, 201.0, [[0, "2006-04-20 17:34", 5]]],
+    [1, 0.01, 111.0, [[0, "2006-04-22 17:18", 5]]],
+    [1, 0.01, 151.0, [[0, "2006-04-23 21:18", 5]]],
+    [1, 0.01, 201.0, [[0, "2006-05-11 14:29", 5]]],
+    [1, 0.01, 395.0, [[0, "2006-07-03 11:46", 5]]],
+    [1, 0.01, 475.0, [[0, "2006-07-13 23:28", 5]]],
+    [1, 0.01, 474.0, [[0, "2006-07-21 07:26", 5]]],
+    [1, 0.01, 425.0, [[0, "2006-07-28 08:32", 5]]],
+    [1, 0.01, 425.0, [[0, "2006-08-04 08:34", 5]]],
+    [1, 0.01, 394.0, [[0, "2006-08-11 09:41", 5]]],
+    [1, 0.01, 275.0, [[0, "2006-08-27 21:09", 5]]],
+    [1, 0.01, 201.0, [[0, "2006-09-03 23:36", 5]]],
+    [1, 0.01, 595.0, [[0, "2006-09-16 17:54", 5]]],
+    [1, 0.02, 131.0, [[0, "2008-06-24 19:20", 13]]]
+  ],
+  "readings": [
+    [0, "TT+", 39.99, 2, 3],
+    [0, "TT+", 51.63, 4, 6],
+    [0, "TT+", 88.72, 7, 8],
+    [0, "TT+", 80.18, 9, 9],
+    [0, "TT+", 79.31, 10, 10],
+    [0, "TT+", 86.69, 11, 12]
+  ],
+  "charts": []
+}

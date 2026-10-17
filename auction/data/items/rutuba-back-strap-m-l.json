@@ -1,0 +1,29 @@
+{
+  "item": "rutuba-back-strap-m-l",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071007083430/http://www.peauction.com/catlisting.php?id=6",
+    "https://web.archive.org/web/20071107032607/http://www.peauction.com/itemlisting.php?id=4692",
+    "https://web.archive.org/web/20080210223457/http://www.peauction.com:80/catlisting.php?id=6",
+    "https://web.archive.org/web/20080411151244/http://www.peauction.com:80/catlisting.php?id=6",
+    "https://web.archive.org/web/20080817052248/http://www.peauction.com:80/catlisting.php?id=6",
+    "https://web.archive.org/web/20081022150359/http://www.peauction.com:80/catlisting.php?id=6",
+    "https://web.archive.org/web/20090223042341/http://peauction.com:80/catlisting.php?id=6",
+    "https://web.archive.org/web/20090802102119/http://www.peauction.com:80/catlisting.php?id=6",
+    "https://web.archive.org/web/20091002013404/http://www.peauction.com:80/catlisting.php?id=6"
+  ],
+  "sold": [
+    [1, 125.35, 661.0, 4, [[0, "2007-08-29 15:54", 1]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 535.65, 0, 2],
+    [0, "TT+", 554.91, 3, 4],
+    [0, "TT+", 622.3, 5, 5],
+    [0, "TT+", 558.25, 6, 6],
+    [0, "%", 350.61, 7, 7],
+    [0, "%", 331.05, 8, 8]
+  ],
+  "charts": []
+}

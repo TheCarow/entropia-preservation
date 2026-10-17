@@ -1,0 +1,33 @@
+{
+  "item": "prosecutor-m35-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071007161922/http://www.peauction.com/catlisting.php?id=76",
+    "https://web.archive.org/web/20071212071254/http://peauction.com:80/catlisting.php?id=76",
+    "https://web.archive.org/web/20080210230128/http://www.peauction.com:80/catlisting.php?id=76",
+    "https://web.archive.org/web/20080411151407/http://www.peauction.com:80/catlisting.php?id=76",
+    "https://web.archive.org/web/20080610230759/http://www.peauction.com:80/catlisting.php?id=76",
+    "https://web.archive.org/web/20080801024547/http://www.peauction.com:80/catlisting.php?id=76",
+    "https://web.archive.org/web/20080817053552/http://www.peauction.com:80/catlisting.php?id=76",
+    "https://web.archive.org/web/20081022150519/http://www.peauction.com:80/catlisting.php?id=76",
+    "https://web.archive.org/web/20090223042456/http://peauction.com:80/catlisting.php?id=76",
+    "https://web.archive.org/web/20090802102243/http://www.peauction.com:80/catlisting.php?id=76",
+    "https://web.archive.org/web/20091002013530/http://www.peauction.com:80/catlisting.php?id=76"
+  ],
+  "sold": [],
+  "unsold": [],
+  "readings": [
+    [0, "%", 245.88, 0, 1],
+    [0, "%", 234.27, 2, 2],
+    [0, "%", 231.21, 3, 3],
+    [0, "%", 237.58, 4, 4],
+    [0, "%", 215.43, 5, 5],
+    [0, "%", 210.6, 6, 6],
+    [0, "%", 167.53, 7, 7],
+    [0, "%", 137.99, 8, 8],
+    [0, "%", 126.57, 9, 9],
+    [0, "%", 131.63, 10, 10]
+  ],
+  "charts": []
+}

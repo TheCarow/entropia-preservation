@@ -1,0 +1,30 @@
+{
+  "item": "eraktor-ekk-200-l-blueprint-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071008002917/http://www.peauction.com/catlisting.php?id=25",
+    "https://web.archive.org/web/20071212065937/http://peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20080210212022/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20080411150950/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20081022150112/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20090223042058/http://peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20090802101829/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20091002013119/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20160801100609/http://peauction.com/itemlisting.php?id=4439"
+  ],
+  "sold": [
+    [1, 0.16, 642.0, 60, [[0, "2008-03-28 18:48", 8]]],
+    [1, 0.18, 306.0, 16, [[0, "2008-12-11 12:16", 8]]],
+    [1, 0.17, 150.0, 11, [[0, "2009-05-24 04:33", 8]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "%", 3100830.0, 0, 1],
+    [0, "%", 1095830.0, 2, 2],
+    [0, "%", 1005910.0, 3, 4],
+    [0, "%", 814370.0, 5, 5],
+    [0, "%", 231526.0, 6, 7]
+  ],
+  "charts": []
+}

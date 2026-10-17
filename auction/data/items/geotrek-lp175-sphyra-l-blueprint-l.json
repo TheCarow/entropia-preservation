@@ -1,0 +1,37 @@
+{
+  "item": "geotrek-lp175-sphyra-l-blueprint-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071008002917/http://www.peauction.com/catlisting.php?id=25",
+    "https://web.archive.org/web/20071012151801/http://peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20071212065937/http://peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20080210212022/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20080411150950/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20080610213818/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20080801024356/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20080817052615/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20080818212812/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20081022150112/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20090223042058/http://peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20090802101829/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20091002013119/http://www.peauction.com:80/catlisting.php?id=25"
+  ],
+  "sold": [],
+  "unsold": [],
+  "readings": [
+    [0, "%", 37428.8, 0, 1],
+    [0, "%", 24572.1, 2, 2],
+    [0, "%", 6382.32, 3, 3],
+    [0, "%", 4853.02, 4, 4],
+    [0, "%", 4072.63, 5, 5],
+    [0, "%", 2562.25, 6, 6],
+    [0, "%", 2131.83, 7, 7],
+    [0, "%", 1911.05, 8, 8],
+    [0, "%", 2429.34, 9, 9],
+    [0, "%", 1892.67, 10, 10],
+    [0, "%", 900.7, 11, 11],
+    [0, "%", 776.03, 12, 12]
+  ],
+  "charts": []
+}

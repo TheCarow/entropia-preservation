@@ -1,0 +1,32 @@
+{
+  "item": "large-plug-blueprint",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20061107140950/http://peauction.com/catlisting.php?id=21",
+    "https://web.archive.org/web/20071008003836/http://www.peauction.com/catlisting.php?id=21",
+    "https://web.archive.org/web/20071212065917/http://peauction.com:80/catlisting.php?id=21",
+    "https://web.archive.org/web/20080210210017/http://www.peauction.com:80/catlisting.php?id=21",
+    "https://web.archive.org/web/20080411150929/http://www.peauction.com:80/catlisting.php?id=21",
+    "https://web.archive.org/web/20080610213749/http://www.peauction.com:80/catlisting.php?id=21",
+    "https://web.archive.org/web/20080801024926/http://www.peauction.com:80/catlisting.php?id=21",
+    "https://web.archive.org/web/20080817052559/http://www.peauction.com:80/catlisting.php?id=21",
+    "https://web.archive.org/web/20081022150052/http://www.peauction.com:80/catlisting.php?id=21",
+    "https://web.archive.org/web/20090223042037/http://peauction.com:80/catlisting.php?id=21",
+    "https://web.archive.org/web/20090802101809/http://www.peauction.com:80/catlisting.php?id=21",
+    "https://web.archive.org/web/20091002013059/http://www.peauction.com:80/catlisting.php?id=21"
+  ],
+  "sold": [],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 4.99, 0, 0],
+    [0, "TT+", 1.29, 1, 2],
+    [0, "TT+", 1.39, 3, 3],
+    [0, "TT+", 1.29, 4, 5],
+    [0, "TT+", 0.99, 6, 7],
+    [0, "TT+", 1.16, 8, 8],
+    [0, "TT+", 0.97, 9, 9],
+    [0, "TT+", 1.19, 10, 11]
+  ],
+  "charts": []
+}

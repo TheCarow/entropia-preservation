@@ -1,0 +1,16 @@
+{
+  "item": "nifty-pattern-shirt-m-c-2",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20160801124508/http://peauction.com/itemlisting.php?id=5812"
+  ],
+  "sold": [
+    [1, 87.98, 95.0, 1, [[0, "2008-03-18 21:22", 0]]]
+  ],
+  "unsold": [
+    [1, 22.54, 222.0, [[0, "2006-06-13 18:47", 0]]]
+  ],
+  "readings": [],
+  "charts": []
+}

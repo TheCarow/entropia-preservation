@@ -1,0 +1,40 @@
+{
+  "item": "vivo-oxy1500-l-blueprint",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071007160727/http://www.peauction.com/catlisting.php?id=24",
+    "https://web.archive.org/web/20071108030448/http://www.peauction.com/itemlisting.php?id=4702",
+    "https://web.archive.org/web/20080210212017/http://www.peauction.com:80/catlisting.php?id=24",
+    "https://web.archive.org/web/20080411150945/http://www.peauction.com:80/catlisting.php?id=24",
+    "https://web.archive.org/web/20080610213812/http://www.peauction.com:80/catlisting.php?id=24",
+    "https://web.archive.org/web/20080801024932/http://www.peauction.com:80/catlisting.php?id=24",
+    "https://web.archive.org/web/20080817051739/http://www.peauction.com:80/catlisting.php?id=24",
+    "https://web.archive.org/web/20081022150107/http://www.peauction.com:80/catlisting.php?id=24",
+    "https://web.archive.org/web/20090223042052/http://peauction.com:80/catlisting.php?id=24",
+    "https://web.archive.org/web/20090802101823/http://www.peauction.com:80/catlisting.php?id=24",
+    "https://web.archive.org/web/20091002013114/http://www.peauction.com:80/catlisting.php?id=24"
+  ],
+  "sold": [
+    [1, 0.01, 851.0, 26, [[0, "2007-09-17 14:09", 1]]],
+    [1, 0.01, 938.0, 26, [[0, "2007-09-17 14:14", 1]]],
+    [1, 0.01, 1201.0, 26, [[0, "2007-09-17 14:24", 1]]],
+    [1, 0.01, 504.0, 5, [[0, "2007-09-20 19:24", 1]]]
+  ],
+  "unsold": [
+    [1, 0.01, 11000.0, [[0, "2007-09-02 00:49", 1]]],
+    [1, 0.01, 3001.0, [[0, "2007-09-09 14:34", 1]]],
+    [1, 0.01, 1000.0, [[0, "2007-09-18 18:19", 1]]]
+  ],
+  "readings": [
+    [0, "%", 8735000.0, 0, 2],
+    [0, "%", 7150000.0, 3, 3],
+    [0, "%", 4277000.0, 4, 4],
+    [0, "%", 1027000.0, 5, 6],
+    [0, "%", 617000.0, 7, 7],
+    [0, "%", 564000.0, 8, 8],
+    [0, "%", 426000.0, 9, 9],
+    [0, "%", 362000.0, 10, 10]
+  ],
+  "charts": []
+}

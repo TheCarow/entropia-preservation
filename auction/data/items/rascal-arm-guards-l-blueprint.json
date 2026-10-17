@@ -1,0 +1,38 @@
+{
+  "item": "rascal-arm-guards-l-blueprint",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20070412213046/http://peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20070803140920/http://peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20071007162213/http://www.peauction.com/catlisting.php?id=18",
+    "https://web.archive.org/web/20071012151726/http://peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20071212065901/http://peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20080210210002/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20080411150913/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20080610174500/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20080801024921/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20080817052548/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20081022150037/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20090223042022/http://peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20090802101753/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20091002013041/http://www.peauction.com:80/catlisting.php?id=18"
+  ],
+  "sold": [],
+  "unsold": [],
+  "readings": [
+    [0, "%", 562857.0, 0, 0],
+    [0, "%", 214000.0, 1, 1],
+    [0, "%", 100000.0, 2, 2],
+    [0, "%", 97000.0, 3, 3],
+    [0, "%", 66096.8, 4, 4],
+    [0, "%", 45096.8, 5, 5],
+    [0, "%", 77000.0, 6, 6],
+    [0, "%", 90000.0, 7, 7],
+    [0, "%", 64000.0, 8, 9],
+    [0, "%", 40000.0, 10, 10],
+    [0, "%", 28000.0, 11, 11],
+    [0, "%", 16000.0, 12, 13]
+  ],
+  "charts": []
+}

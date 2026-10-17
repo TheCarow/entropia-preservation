@@ -1,0 +1,43 @@
+{
+  "item": "super-alloy-ruds",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071008002943/http://www.peauction.com/catlisting.php?id=38",
+    "https://web.archive.org/web/20071212070045/http://peauction.com:80/catlisting.php?id=38",
+    "https://web.archive.org/web/20080210220508/http://www.peauction.com:80/catlisting.php?id=38",
+    "https://web.archive.org/web/20080411151059/http://www.peauction.com:80/catlisting.php?id=38",
+    "https://web.archive.org/web/20080610220510/http://www.peauction.com:80/catlisting.php?id=38",
+    "https://web.archive.org/web/20080817052223/http://www.peauction.com:80/catlisting.php?id=38",
+    "https://web.archive.org/web/20081022150218/http://www.peauction.com:80/catlisting.php?id=38",
+    "https://web.archive.org/web/20090223042203/http://peauction.com:80/catlisting.php?id=38",
+    "https://web.archive.org/web/20091002013226/http://www.peauction.com:80/catlisting.php?id=38",
+    "https://web.archive.org/web/20160801210457/http://peauction.com/itemlisting.php?id=3792"
+  ],
+  "sold": [
+    [63, 31.5, 32.0, 1, [[0, "2007-06-12 19:21", 9]]],
+    [52, 26.0, 27.0, 1, [[0, "2007-06-28 14:56", 9]]],
+    [20, 10.0, 10.0, 1, [[0, "2007-07-13 21:51", 9]]],
+    [92, 46.0, 47.0, 2, [[0, "2007-09-03 09:44", 9]]],
+    [16, 8.0, 9.0, 1, [[0, "2008-01-22 11:24", 9]]],
+    [143, 71.5, 73.0, 1, [[0, "2008-01-27 15:39", 9]]],
+    [30, 15.0, 15.0, 1, [[0, "2008-04-02 23:38", 9]]],
+    [137, 68.5, 70.0, 1, [[0, "2008-06-09 17:22", 9]]],
+    [104, 52.0, 52.0, 1, [[0, "2008-09-30 02:33", 9]]],
+    [50, 25.0, 25.0, 1, [[0, "2009-01-04 04:42", 9]]]
+  ],
+  "unsold": [
+    [33, 16.5, 18.0, [[0, "2009-02-27 19:36", 9]]],
+    [83, 41.5, 45.0, [[0, "2009-04-19 23:47", 9]]],
+    [155, 77.5, 78.0, [[0, "2009-06-14 20:54", 9]]]
+  ],
+  "readings": [
+    [0, "%", 102.2, 0, 1],
+    [0, "%", 102.59, 2, 2],
+    [0, "%", 102.4, 3, 3],
+    [0, "%", 102.35, 4, 5],
+    [0, "%", 101.98, 6, 6],
+    [0, "%", 101.84, 7, 8]
+  ],
+  "charts": []
+}

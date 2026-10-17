@@ -1,0 +1,14 @@
+{
+  "item": "oreamp-oa-102",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20160801185816/http://peauction.com/itemlisting.php?id=4743"
+  ],
+  "sold": [],
+  "unsold": [
+    [1, 100.0, 70500.0, [[0, "2007-10-05 00:07", 0]]]
+  ],
+  "readings": [],
+  "charts": []
+}

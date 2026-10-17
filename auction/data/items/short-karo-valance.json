@@ -1,0 +1,17 @@
+{
+  "item": "short-karo-valance",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20160802005740/http://peauction.com/itemlisting.php?id=3502"
+  ],
+  "sold": [
+    [1, 5.84, 6.0, 1, [[0, "2006-12-11 09:53", 0]]],
+    [1, 5.63, 6.0, 2, [[0, "2006-12-11 09:53", 0]]],
+    [1, 5.63, 6.0, 4, [[0, "2007-01-02 18:44", 0]]],
+    [1, 7.06, 8.0, 2, [[0, "2007-01-04 11:14", 0]]]
+  ],
+  "unsold": [],
+  "readings": [],
+  "charts": []
+}

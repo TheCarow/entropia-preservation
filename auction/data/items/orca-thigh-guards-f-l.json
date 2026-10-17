@@ -1,0 +1,36 @@
+{
+  "item": "orca-thigh-guards-f-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20070107053949/http://peauction.com:80/catlisting.php?id=9",
+    "https://web.archive.org/web/20081022150550/http://www.peauction.com:80/catlisting.php?id=9",
+    "https://web.archive.org/web/20090223042526/http://peauction.com:80/catlisting.php?id=9",
+    "https://web.archive.org/web/20090802102528/http://www.peauction.com:80/catlisting.php?id=9",
+    "https://web.archive.org/web/20091002013610/http://www.peauction.com:80/catlisting.php?id=9",
+    "https://web.archive.org/web/20160801101542/http://peauction.com/itemlisting.php?id=3610"
+  ],
+  "sold": [
+    [1, 46.0, 48.0, 3, [[0, "2007-01-03 14:54", 5]]],
+    [1, 46.0, 56.0, 1, [[0, "2009-02-15 14:59", 5]]],
+    [1, 45.96, 47.0, 2, [[0, "2009-05-26 19:37", 5]]],
+    [1, 46.0, 46.0, 1, [[0, "2009-07-05 10:01", 5]]]
+  ],
+  "unsold": [
+    [1, 46.0, 46.0, [[0, "2007-01-03 14:41", 5]]],
+    [1, 46.0, 92.0, [[0, "2007-03-13 20:15", 5]]],
+    [1, 46.0, 55.0, [[0, "2007-12-01 19:01", 5]]],
+    [1, 46.0, 74.0, [[0, "2008-05-30 23:54", 5]]],
+    [1, 46.0, 70.0, [[0, "2008-06-07 05:37", 5]]],
+    [1, 46.0, 59.0, [[0, "2009-02-10 20:03", 5]]],
+    [1, 46.0, 60.0, [[0, "2009-04-30 01:28", 5]]],
+    [1, 46.0, 55.0, [[0, "2009-05-07 11:08", 5]]],
+    [1, 46.0, 50.0, [[0, "2009-06-23 20:15", 5]]]
+  ],
+  "readings": [
+    [0, "TT+", 2.0, 0, 1],
+    [0, "TT+", 6.0, 2, 2],
+    [0, "%", 107.09, 3, 4]
+  ],
+  "charts": []
+}

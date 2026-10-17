@@ -1,0 +1,17 @@
+{
+  "item": "omegaton-arctic-walkers-m",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20160801213455/http://peauction.com/itemlisting.php?id=3640"
+  ],
+  "sold": [
+    [1, 71.0, 80.0, 10, [[0, "2009-07-20 11:26", 0]]],
+    [1, 71.0, 80.0, 10, [[0, "2009-07-20 11:28", 0]]],
+    [1, 71.0, 84.0, 14, [[0, "2009-07-20 11:28", 0]]],
+    [1, 71.0, 84.0, 14, [[0, "2009-07-20 11:34", 0]]]
+  ],
+  "unsold": [],
+  "readings": [],
+  "charts": []
+}

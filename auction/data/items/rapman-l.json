@@ -1,0 +1,22 @@
+{
+  "item": "rapman-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20070805002742/http://peauction.com:80/catlisting.php?id=12",
+    "https://web.archive.org/web/20070806045543/http://peauction.com:80/catlisting.php?id=12",
+    "https://web.archive.org/web/20071007162144/http://www.peauction.com/catlisting.php?id=12",
+    "https://web.archive.org/web/20091002013031/http://www.peauction.com:80/catlisting.php?id=12",
+    "https://web.archive.org/web/20160801204623/http://peauction.com/itemlisting.php?id=3913"
+  ],
+  "sold": [
+    [1, 81.0, 91.0, 11, [[0, "2007-05-25 23:56", 4]]],
+    [1, 29.43, 36.0, 6, [[0, "2007-09-04 19:14", 4]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "%", 110.03, 0, 1],
+    [0, "%", 112.08, 2, 3]
+  ],
+  "charts": []
+}

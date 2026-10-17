@@ -1,0 +1,41 @@
+{
+  "item": "vivo-survivor-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071110144430/http://www.peauction.com/itemlisting.php?id=4722",
+    "https://web.archive.org/web/20080610174515/http://www.peauction.com:80/catlisting.php?id=66",
+    "https://web.archive.org/web/20080801025435/http://www.peauction.com:80/catlisting.php?id=66",
+    "https://web.archive.org/web/20080818212929/http://www.peauction.com:80/catlisting.php?id=66",
+    "https://web.archive.org/web/20081022150429/http://www.peauction.com:80/catlisting.php?id=66",
+    "https://web.archive.org/web/20090223042411/http://peauction.com:80/catlisting.php?id=66",
+    "https://web.archive.org/web/20090802102152/http://www.peauction.com:80/catlisting.php?id=66",
+    "https://web.archive.org/web/20091002013436/http://www.peauction.com:80/catlisting.php?id=66",
+    "https://web.archive.org/web/20160801123659/http://peauction.com/itemlisting.php?id=4722"
+  ],
+  "sold": [
+    [1, 85.71, 86.0, 1, [[0, "2008-05-14 00:23", 8]]],
+    [1, 80.99, 82.0, 2, [[0, "2008-07-04 00:05", 8]]],
+    [1, 46.28, 47.0, 1, [[0, "2008-07-23 12:42", 8]]],
+    [1, 48.67, 49.0, 1, [[0, "2008-09-29 14:48", 8]]]
+  ],
+  "unsold": [
+    [1, 254.5, 19999.0, [[0, "2007-09-14 19:09", 0]]],
+    [1, 254.5, 355.0, [[0, "2007-10-23 23:58", 0]]],
+    [1, 88.55, 119.0, [[0, "2008-05-18 21:53", 8]]],
+    [1, 142.39, 143.0, [[0, "2008-05-29 03:23", 8]]],
+    [1, 248.68, 269.0, [[0, "2008-07-06 09:56", 8]]],
+    [1, 80.99, 97.0, [[0, "2008-07-11 00:12", 8]]],
+    [1, 45.32, 52.0, [[0, "2008-08-10 21:43", 8]]],
+    [1, 85.17, 86.0, [[0, "2008-11-02 00:30", 8]]],
+    [1, 85.17, 86.0, [[0, "2008-11-17 16:05", 8]]],
+    [1, 54.88, 101.0, [[0, "2008-12-12 03:21", 8]]]
+  ],
+  "readings": [
+    [0, "TT+", 0.29, 1, 1],
+    [0, "TT+", 0.67, 2, 3],
+    [0, "TT+", 0.59, 4, 5],
+    [0, "%", 100.95, 6, 7]
+  ],
+  "charts": []
+}

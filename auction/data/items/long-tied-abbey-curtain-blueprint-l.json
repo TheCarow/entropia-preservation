@@ -1,0 +1,23 @@
+{
+  "item": "long-tied-abbey-curtain-blueprint-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071007160850/http://www.peauction.com/catlisting.php?id=77",
+    "https://web.archive.org/web/20071110002204/http://www.peauction.com/itemlisting.php?id=4551",
+    "https://web.archive.org/web/20080210230133/http://www.peauction.com:80/catlisting.php?id=77",
+    "https://web.archive.org/web/20080411151414/http://www.peauction.com:80/catlisting.php?id=77",
+    "https://web.archive.org/web/20091002013535/http://www.peauction.com:80/catlisting.php?id=77",
+    "https://web.archive.org/web/20160801122922/http://peauction.com/itemlisting.php?id=4551"
+  ],
+  "sold": [
+    [1, 0.09, 14.0, 5, [[0, "2007-07-10 21:50", 1]]],
+    [1, 0.34, 24.0, 24, [[0, "2008-02-16 14:56", 5]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "%", 15555.6, 0, 2],
+    [0, "%", 11307.2, 3, 4]
+  ],
+  "charts": []
+}

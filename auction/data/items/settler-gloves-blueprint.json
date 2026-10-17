@@ -1,0 +1,41 @@
+{
+  "item": "settler-gloves-blueprint",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20061107141622/http://peauction.com/catlisting.php?id=18",
+    "https://web.archive.org/web/20070412213046/http://peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20071012151726/http://peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20071212065901/http://peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20080210210002/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20080411150913/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20090223042022/http://peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20090802101753/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20091002013041/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20160801065544/http://peauction.com/itemlisting.php?id=3017"
+  ],
+  "sold": [
+    [1, 0.01, 100.0, 1, [[0, "2006-07-19 21:00", 9]]],
+    [1, 0.01, 52.0, 2, [[0, "2006-11-18 05:17", 9]]],
+    [1, 0.45, 350.0, 40, [[0, "2007-01-07 22:44", 9]]],
+    [1, 0.01, 40.0, 1, [[0, "2007-10-17 17:51", 9]]],
+    [1, 0.01, 100.0, 1, [[0, "2007-12-31 13:59", 9]]],
+    [1, 0.01, 75.0, 3, [[0, "2008-03-24 02:13", 9]]],
+    [1, 0.03, 5.0, 4, [[0, "2009-03-30 03:42", 9]]],
+    [1, 0.03, 200.0, 11, [[0, "2009-05-31 21:53", 9]]]
+  ],
+  "unsold": [
+    [1, 0.01, 99.0, [[0, "2007-09-19 02:59", 9]]],
+    [1, 0.01, 61.0, [[0, "2007-11-12 13:43", 9]]],
+    [1, 0.01, 101.0, [[0, "2007-11-24 17:36", 9]]]
+  ],
+  "readings": [
+    [0, "TT+", 99.99, 0, 0],
+    [0, "TT+", 167.18, 1, 2],
+    [0, "TT+", 135.38, 3, 3],
+    [0, "TT+", 128.3, 4, 4],
+    [0, "TT+", 119.42, 5, 6],
+    [0, "TT+", 115.18, 7, 8]
+  ],
+  "charts": []
+}

@@ -1,0 +1,19 @@
+{
+  "item": "long-harlequin-curtain-blueprint-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20090802102248/http://www.peauction.com:80/catlisting.php?id=77",
+    "https://web.archive.org/web/20091002013535/http://www.peauction.com:80/catlisting.php?id=77",
+    "https://web.archive.org/web/20160801075003/http://peauction.com/itemlisting.php?id=5579"
+  ],
+  "sold": [
+    [1, 0.27, 14.0, 13, [[0, "2008-01-25 19:49", 2]]],
+    [1, 0.36, 11.0, 7, [[0, "2008-04-07 20:18", 2]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "%", 4120.37, 0, 1]
+  ],
+  "charts": []
+}

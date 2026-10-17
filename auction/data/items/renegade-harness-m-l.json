@@ -1,0 +1,30 @@
+{
+  "item": "renegade-harness-m-l",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20070805184204/http://peauction.com:80/catlisting.php?id=6",
+    "https://web.archive.org/web/20071107114650/http://www.peauction.com/itemlisting.php?id=3498",
+    "https://web.archive.org/web/20090223042341/http://peauction.com:80/catlisting.php?id=6",
+    "https://web.archive.org/web/20090802102119/http://www.peauction.com:80/catlisting.php?id=6",
+    "https://web.archive.org/web/20091002013404/http://www.peauction.com:80/catlisting.php?id=6",
+    "https://web.archive.org/web/20160801203731/http://peauction.com/itemlisting.php?id=3498"
+  ],
+  "sold": [
+    [1, 16.0, 18.0, 1, [[0, "2007-06-17 09:16", 1]]]
+  ],
+  "unsold": [
+    [1, 16.0, 18.0, [[0, "2006-12-10 23:01", 1]]],
+    [1, 16.0, 17.0, [[0, "2008-08-19 06:34", 5]]],
+    [1, 16.0, 20.0, [[0, "2008-10-04 12:23", 5]]],
+    [1, 16.0, 18.0, [[0, "2008-11-10 08:05", 5]]],
+    [1, 16.0, 19.0, [[0, "2008-11-10 08:05", 5]]],
+    [1, 16.0, 20.0, [[0, "2008-11-10 08:05", 5]]],
+    [1, 14.11, 15.0, [[0, "2008-12-25 00:57", 5]]]
+  ],
+  "readings": [
+    [0, "TT+", 2.0, 0, 2],
+    [0, "%", 112.5, 3, 4]
+  ],
+  "charts": []
+}

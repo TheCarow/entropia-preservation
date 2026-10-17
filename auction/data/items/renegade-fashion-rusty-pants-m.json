@@ -1,0 +1,17 @@
+{
+  "item": "renegade-fashion-rusty-pants-m",
+  "markup": "TT+",
+  "sources": ["pea", "pe-player"],
+  "captures": [
+    "https://web.archive.org/web/20040807114142/http://www.pe-player.com:80/auction/list.php?sort=bytype",
+    "https://web.archive.org/web/20070809050352/http://peauction.com:80/itemlisting.php?id=2329"
+  ],
+  "sold": [
+    [1, 0.42, 249.0, 0, [[1, "2004-07-15 06:25", 0]]]
+  ],
+  "unsold": [
+    [1, 2.46, 999.0, [[0, "2005-12-29 11:21", 1]]]
+  ],
+  "readings": [],
+  "charts": []
+}

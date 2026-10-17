@@ -1,0 +1,18 @@
+{
+  "item": "vindicator-thigh-guards-f",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20070107053949/http://peauction.com:80/catlisting.php?id=9",
+    "https://web.archive.org/web/20091002013610/http://www.peauction.com:80/catlisting.php?id=9",
+    "https://web.archive.org/web/20160801124644/http://peauction.com/itemlisting.php?id=3490"
+  ],
+  "sold": [
+    [1, 5.05, 21.0, 6, [[0, "2006-12-05 23:24", 2]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 15.95, 0, 1]
+  ],
+  "charts": []
+}

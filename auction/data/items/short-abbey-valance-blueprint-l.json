@@ -1,0 +1,18 @@
+{
+  "item": "short-abbey-valance-blueprint-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20090802102248/http://www.peauction.com:80/catlisting.php?id=77",
+    "https://web.archive.org/web/20091002013535/http://www.peauction.com:80/catlisting.php?id=77",
+    "https://web.archive.org/web/20160801123922/http://peauction.com/itemlisting.php?id=5868"
+  ],
+  "sold": [
+    [1, 0.2, 6.0, 4, [[0, "2008-06-07 20:22", 2]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "%", 3000.0, 0, 1]
+  ],
+  "charts": []
+}

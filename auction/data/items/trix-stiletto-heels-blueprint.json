@@ -1,0 +1,22 @@
+{
+  "item": "trix-stiletto-heels-blueprint",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20060216220842/http://www.peauction.com:80/catlisting.php?id=23",
+    "https://web.archive.org/web/20070806043138/http://peauction.com:80/itemlisting.php?id=1474",
+    "https://web.archive.org/web/20090802101821/http://www.peauction.com:80/catlisting.php?id=23",
+    "https://web.archive.org/web/20091002013109/http://www.peauction.com:80/catlisting.php?id=23",
+    "https://web.archive.org/web/20160801171608/http://peauction.com/itemlisting.php?id=1474"
+  ],
+  "sold": [
+    [1, 0.01, 91.0, 4, [[0, "2005-10-31 12:36", 1]]],
+    [1, 0.11, 2701.0, 14, [[0, "2009-09-16 20:31", 4]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 90.99, 0, 2],
+    [0, "TT+", 1395.94, 3, 3]
+  ],
+  "charts": []
+}

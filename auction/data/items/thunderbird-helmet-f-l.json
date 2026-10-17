@@ -1,0 +1,21 @@
+{
+  "item": "thunderbird-helmet-f-l",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20080817053533/http://www.peauction.com:80/catlisting.php?id=7",
+    "https://web.archive.org/web/20081022150444/http://www.peauction.com:80/catlisting.php?id=7",
+    "https://web.archive.org/web/20090223042421/http://peauction.com:80/catlisting.php?id=7",
+    "https://web.archive.org/web/20090802102208/http://www.peauction.com:80/catlisting.php?id=7",
+    "https://web.archive.org/web/20091002013452/http://www.peauction.com:80/catlisting.php?id=7"
+  ],
+  "sold": [],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 20.82, 0, 1],
+    [0, "TT+", 0.77, 2, 2],
+    [0, "%", 100.72, 3, 3],
+    [0, "%", 100.99, 4, 4]
+  ],
+  "charts": []
+}

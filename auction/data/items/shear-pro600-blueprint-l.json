@@ -1,0 +1,23 @@
+{
+  "item": "shear-pro600-blueprint-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071008002827/http://www.peauction.com/catlisting.php?id=19",
+    "https://web.archive.org/web/20091002013048/http://www.peauction.com:80/catlisting.php?id=19",
+    "https://web.archive.org/web/20160801125142/http://peauction.com/itemlisting.php?id=3653"
+  ],
+  "sold": [
+    [1, 0.19, 434.0, 7, [[0, "2007-02-10 06:04", 2]]],
+    [1, 0.34, 2403.0, 126, [[0, "2007-05-11 17:30", 2]]]
+  ],
+  "unsold": [
+    [1, 0.18, 2600.0, [[0, "2007-01-18 12:21", 2]]],
+    [1, 0.11, 1484.0, [[0, "2007-01-18 13:42", 2]]],
+    [1, 0.18, 501.0, [[0, "2007-03-02 17:32", 2]]]
+  ],
+  "readings": [
+    [0, "%", 467593.0, 0, 1]
+  ],
+  "charts": []
+}

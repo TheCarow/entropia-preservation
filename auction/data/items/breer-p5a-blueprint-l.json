@@ -1,0 +1,23 @@
+{
+  "item": "breer-p5a-blueprint-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20061107140839/http://peauction.com/catlisting.php?id=25",
+    "https://web.archive.org/web/20061107143515/http://peauction.com/itemlisting.php?id=3104",
+    "https://web.archive.org/web/20070502133511/http://peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20091002013119/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20160801124656/http://peauction.com/itemlisting.php?id=3104"
+  ],
+  "sold": [
+    [1, 0.01, 101.0, 13, [[0, "2006-09-15 17:14", 1]]],
+    [1, 0.08, 1510.0, 38, [[0, "2006-09-19 13:41", 1]]],
+    [1, 0.01, 73.0, 5, [[0, "2007-02-03 02:39", 4]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "%", 1448750.0, 0, 0],
+    [0, "%", 1209170.0, 2, 3]
+  ],
+  "charts": []
+}

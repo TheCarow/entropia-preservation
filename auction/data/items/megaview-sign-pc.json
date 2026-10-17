@@ -1,0 +1,14 @@
+{
+  "item": "megaview-sign-pc",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20160801211048/http://peauction.com/itemlisting.php?id=4440"
+  ],
+  "sold": [
+    [1, 5.92, 18.0, 11, [[0, "2009-09-07 22:43", 0]]]
+  ],
+  "unsold": [],
+  "readings": [],
+  "charts": []
+}

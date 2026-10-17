@@ -1,0 +1,14 @@
+{
+  "item": "zombie-armor-face-guard-f",
+  "markup": "TT+",
+  "sources": ["pe-player"],
+  "captures": [
+    "https://web.archive.org/web/20040807114142/http://www.pe-player.com:80/auction/list.php?sort=bytype"
+  ],
+  "sold": [
+    [1, 19.07, 200.0, 0, [[0, "2004-08-02 09:30", 0]]]
+  ],
+  "unsold": [],
+  "readings": [],
+  "charts": []
+}

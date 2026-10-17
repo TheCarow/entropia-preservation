@@ -1,0 +1,25 @@
+{
+  "item": "xlite-w-sign-blueprint-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071007160850/http://www.peauction.com/catlisting.php?id=77",
+    "https://web.archive.org/web/20071110000618/http://www.peauction.com/itemlisting.php?id=4567",
+    "https://web.archive.org/web/20080610230804/http://www.peauction.com:80/catlisting.php?id=77",
+    "https://web.archive.org/web/20080801025505/http://www.peauction.com:80/catlisting.php?id=77",
+    "https://web.archive.org/web/20091002013535/http://www.peauction.com:80/catlisting.php?id=77",
+    "https://web.archive.org/web/20160801082711/http://peauction.com/itemlisting.php?id=4567"
+  ],
+  "sold": [
+    [1, 0.27, 540.0, 26, [[0, "2007-07-14 21:16", 1]]],
+    [1, 0.3, 35.0, 13, [[0, "2008-07-31 18:57", 5]]]
+  ],
+  "unsold": [
+    [1, 0.29, 90.0, [[0, "2008-11-17 16:00", 5]]]
+  ],
+  "readings": [
+    [0, "%", 200000.0, 0, 2],
+    [0, "%", 105833.0, 3, 4]
+  ],
+  "charts": []
+}

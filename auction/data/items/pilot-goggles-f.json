@@ -1,0 +1,14 @@
+{
+  "item": "pilot-goggles-f",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20160802010830/http://peauction.com/itemlisting.php?id=6194"
+  ],
+  "sold": [
+    [1, 51.0, 81.0, 1, [[0, "2009-06-02 16:58", 0]]]
+  ],
+  "unsold": [],
+  "readings": [],
+  "charts": []
+}

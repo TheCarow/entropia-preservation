@@ -1,0 +1,39 @@
+{
+  "item": "oreamp-oa-101-l-blueprint-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071008002827/http://www.peauction.com/catlisting.php?id=19",
+    "https://web.archive.org/web/20071212065906/http://peauction.com:80/catlisting.php?id=19",
+    "https://web.archive.org/web/20080210210008/http://www.peauction.com:80/catlisting.php?id=19",
+    "https://web.archive.org/web/20080411150919/http://www.peauction.com:80/catlisting.php?id=19",
+    "https://web.archive.org/web/20080817052553/http://www.peauction.com:80/catlisting.php?id=19",
+    "https://web.archive.org/web/20081022150042/http://www.peauction.com:80/catlisting.php?id=19",
+    "https://web.archive.org/web/20090223042027/http://peauction.com:80/catlisting.php?id=19",
+    "https://web.archive.org/web/20090802101758/http://www.peauction.com:80/catlisting.php?id=19",
+    "https://web.archive.org/web/20091002013048/http://www.peauction.com:80/catlisting.php?id=19",
+    "https://web.archive.org/web/20160801123945/http://peauction.com/itemlisting.php?id=4529"
+  ],
+  "sold": [
+    [1, 0.43, 550.0, 13, [[0, "2009-01-26 23:18", 9]]],
+    [1, 0.24, 255.0, 31, [[0, "2009-02-28 00:26", 9]]],
+    [1, 0.17, 270.0, 40, [[0, "2009-04-01 16:23", 9]]]
+  ],
+  "unsold": [
+    [1, 0.22, 484.0, [[0, "2008-06-22 08:00", 9]]],
+    [1, 0.31, 700.0, [[0, "2008-06-22 19:35", 9]]],
+    [1, 0.17, 369.0, [[0, "2008-06-25 01:15", 9]]],
+    [1, 0.29, 696.0, [[0, "2008-06-29 08:45", 9]]],
+    [1, 0.41, 800.0, [[0, "2008-08-01 05:57", 9]]],
+    [1, 0.23, 400.0, [[0, "2008-08-16 13:29", 9]]]
+  ],
+  "readings": [
+    [0, "%", 114892.0, 0, 1],
+    [0, "%", 131169.0, 2, 2],
+    [0, "%", 138935.0, 3, 4],
+    [0, "%", 127654.0, 5, 5],
+    [0, "%", 121233.0, 6, 6],
+    [0, "%", 127559.0, 7, 8]
+  ],
+  "charts": []
+}

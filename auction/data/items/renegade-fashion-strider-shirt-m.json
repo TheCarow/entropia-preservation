@@ -1,0 +1,22 @@
+{
+  "item": "renegade-fashion-strider-shirt-m",
+  "markup": "TT+",
+  "sources": ["pea", "pe-player"],
+  "captures": [
+    "https://web.archive.org/web/20040807114142/http://www.pe-player.com:80/auction/list.php?sort=bytype",
+    "https://web.archive.org/web/20070810163058/http://peauction.com:80/itemlisting.php?id=2585",
+    "https://web.archive.org/web/20160801124230/http://peauction.com/itemlisting.php?id=2585"
+  ],
+  "sold": [
+    [1, 1.84, 500.0, 0, [[1, "2004-07-11 03:14", 0]]],
+    [1, 8.34, 445.0, 17, [[0, "2008-05-13 16:58", 2]]]
+  ],
+  "unsold": [
+    [1, 1.67, 600.0, [[0, "2006-03-16 18:30", 1]]],
+    [1, 8.5, 10009.0, [[0, "2006-04-01 18:31", 1]]],
+    [1, 1.67, 500.0, [[0, "2006-04-21 15:38", 1]]],
+    [1, 8.5, 10000.0, [[0, "2007-01-10 19:03", 1]]]
+  ],
+  "readings": [],
+  "charts": []
+}

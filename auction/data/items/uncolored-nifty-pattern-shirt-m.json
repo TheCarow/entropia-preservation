@@ -1,0 +1,17 @@
+{
+  "item": "uncolored-nifty-pattern-shirt-m",
+  "markup": "TT+",
+  "sources": ["pea", "pe-player"],
+  "captures": [
+    "https://web.archive.org/web/20040807114142/http://www.pe-player.com:80/auction/list.php?sort=bytype",
+    "https://web.archive.org/web/20070612025909/http://peauction.com:80/itemlisting.php?id=2967"
+  ],
+  "sold": [
+    [1, 23.54, 34.0, 0, [[1, "2004-07-16 00:25", 0]]]
+  ],
+  "unsold": [
+    [1, 22.54, 222.0, [[0, "2006-06-13 18:47", 1]]]
+  ],
+  "readings": [],
+  "charts": []
+}

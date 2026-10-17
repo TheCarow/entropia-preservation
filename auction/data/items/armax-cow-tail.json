@@ -1,0 +1,18 @@
+{
+  "item": "armax-cow-tail",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20090802102041/http://www.peauction.com:80/catlisting.php?id=51",
+    "https://web.archive.org/web/20091002013327/http://www.peauction.com:80/catlisting.php?id=51",
+    "https://web.archive.org/web/20160801201927/http://peauction.com/itemlisting.php?id=6027"
+  ],
+  "sold": [
+    [1, 2.7, 60000.0, 1, [[0, "2008-06-07 22:12", 2]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "%", 2222220.0, 0, 1]
+  ],
+  "charts": []
+}

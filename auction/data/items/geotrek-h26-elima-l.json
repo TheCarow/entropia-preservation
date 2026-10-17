@@ -1,0 +1,38 @@
+{
+  "item": "geotrek-h26-elima-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071007161850/http://www.peauction.com/catlisting.php?id=75",
+    "https://web.archive.org/web/20080610230754/http://www.peauction.com:80/catlisting.php?id=75",
+    "https://web.archive.org/web/20080801025500/http://www.peauction.com:80/catlisting.php?id=75",
+    "https://web.archive.org/web/20090223042451/http://peauction.com:80/catlisting.php?id=75",
+    "https://web.archive.org/web/20090802102238/http://www.peauction.com:80/catlisting.php?id=75",
+    "https://web.archive.org/web/20091002013525/http://www.peauction.com:80/catlisting.php?id=75",
+    "https://web.archive.org/web/20160801194503/http://peauction.com/itemlisting.php?id=4624"
+  ],
+  "sold": [
+    [1, 320.0, 685.0, 7, [[0, "2007-09-27 13:40", 6]]],
+    [1, 320.0, 920.0, 1, [[0, "2008-07-20 11:02", 6]]],
+    [1, 320.0, 500.0, 1, [[0, "2009-06-28 17:16", 6]]],
+    [1, 254.33, 283.0, 9, [[0, "2009-07-18 00:11", 6]]]
+  ],
+  "unsold": [
+    [1, 230.21, 520.0, [[0, "2007-11-07 06:48", 6]]],
+    [1, 255.21, 486.0, [[0, "2007-11-08 21:23", 6]]],
+    [1, 320.0, 739.0, [[0, "2007-11-18 19:31", 6]]],
+    [1, 9.75, 22.0, [[0, "2007-12-02 19:51", 6]]],
+    [1, 266.91, 666.0, [[0, "2007-12-03 20:31", 6]]],
+    [1, 36.9, 79.0, [[0, "2008-01-10 10:48", 6]]],
+    [1, 320.0, 920.0, [[0, "2008-10-10 20:04", 6]]],
+    [1, 320.0, 820.0, [[0, "2008-12-08 20:51", 6]]],
+    [1, 254.33, 640.0, [[0, "2009-06-18 16:27", 6]]],
+    [1, 320.0, 704.0, [[0, "2009-06-20 21:42", 6]]]
+  ],
+  "readings": [
+    [0, "%", 214.06, 0, 1],
+    [0, "%", 250.78, 2, 3],
+    [0, "%", 192.27, 4, 5]
+  ],
+  "charts": []
+}

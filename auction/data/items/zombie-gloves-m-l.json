@@ -1,0 +1,44 @@
+{
+  "item": "zombie-gloves-m-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071007161354/http://www.peauction.com/catlisting.php?id=5",
+    "https://web.archive.org/web/20071111041829/http://www.peauction.com/itemlisting.php?id=3648",
+    "https://web.archive.org/web/20080411151156/http://www.peauction.com:80/catlisting.php?id=5",
+    "https://web.archive.org/web/20080610220605/http://www.peauction.com:80/catlisting.php?id=5",
+    "https://web.archive.org/web/20080818212902/http://www.peauction.com:80/catlisting.php?id=5",
+    "https://web.archive.org/web/20081022150313/http://www.peauction.com:80/catlisting.php?id=5",
+    "https://web.archive.org/web/20090223042253/http://peauction.com:80/catlisting.php?id=5",
+    "https://web.archive.org/web/20090802102036/http://www.peauction.com:80/catlisting.php?id=5",
+    "https://web.archive.org/web/20091002013322/http://www.peauction.com:80/catlisting.php?id=5",
+    "https://web.archive.org/web/20160801213743/http://peauction.com/itemlisting.php?id=3648"
+  ],
+  "sold": [
+    [1, 37.22, 38.0, 1, [[0, "2007-08-14 19:52", 1]]],
+    [1, 39.0, 40.0, 2, [[0, "2008-05-14 17:33", 9]]],
+    [1, 39.0, 41.0, 3, [[0, "2008-05-22 01:59", 9]]],
+    [1, 39.0, 42.0, 1, [[0, "2008-05-24 16:54", 9]]],
+    [1, 39.0, 42.0, 1, [[0, "2008-06-02 18:38", 9]]],
+    [1, 38.39, 39.0, 1, [[0, "2008-10-11 00:04", 9]]],
+    [1, 30.57, 31.0, 1, [[0, "2008-10-25 18:05", 9]]]
+  ],
+  "unsold": [
+    [1, 39.0, 51.0, [[0, "2007-01-16 02:37", 1]]],
+    [1, 39.0, 51.0, [[0, "2007-01-17 03:51", 1]]],
+    [1, 39.0, 64.0, [[0, "2007-01-17 18:26", 1]]],
+    [1, 39.0, 44.0, [[0, "2007-02-01 07:00", 1]]],
+    [1, 39.0, 44.0, [[0, "2007-02-05 07:01", 1]]],
+    [1, 39.0, 47.0, [[0, "2007-05-13 06:53", 1]]],
+    [1, 39.0, 44.0, [[0, "2007-10-30 15:14", 1]]],
+    [1, 39.0, 44.0, [[0, "2007-10-30 15:18", 1]]]
+  ],
+  "readings": [
+    [0, "TT+", 0.78, 0, 2],
+    [0, "TT+", 1.96, 3, 4],
+    [0, "TT+", 1.73, 5, 5],
+    [0, "TT+", 1.55, 6, 6],
+    [0, "%", 104.02, 7, 8]
+  ],
+  "charts": []
+}

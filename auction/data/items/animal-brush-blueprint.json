@@ -1,0 +1,18 @@
+{
+  "item": "animal-brush-blueprint",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20060216220858/http://www.peauction.com:80/catlisting.php?id=24",
+    "https://web.archive.org/web/20070805000823/http://peauction.com:80/itemlisting.php?id=2149",
+    "https://web.archive.org/web/20091002013114/http://www.peauction.com:80/catlisting.php?id=24"
+  ],
+  "sold": [
+    [1, 0.01, 375.0, 18, [[0, "2005-12-01 03:46", 1]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 374.99, 0, 2]
+  ],
+  "charts": []
+}

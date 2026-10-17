@@ -1,0 +1,19 @@
+{
+  "item": "svempa-t5-blueprint-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20070502133511/http://peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20091002013119/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20160801124526/http://peauction.com/itemlisting.php?id=3485"
+  ],
+  "sold": [
+    [1, 0.28, 1700.0, 1, [[0, "2006-12-03 14:04", 2]]],
+    [1, 0.01, 15.0, 7, [[0, "2006-12-18 02:15", 2]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "%", 378571.0, 0, 1]
+  ],
+  "charts": []
+}

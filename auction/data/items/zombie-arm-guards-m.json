@@ -1,0 +1,33 @@
+{
+  "item": "zombie-arm-guards-m",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20061107141532/http://peauction.com/catlisting.php?id=3",
+    "https://web.archive.org/web/20070107092420/http://peauction.com:80/catlisting.php?id=3",
+    "https://web.archive.org/web/20071006171149/http://www.peauction.com/catlisting.php?id=3",
+    "https://web.archive.org/web/20071009222925/http://www.peauction.com/itemlisting.php?id=3029",
+    "https://web.archive.org/web/20071009222944/http://www.peauction.com/chart2.php?id=3029&dtype=0",
+    "https://web.archive.org/web/20091002013141/http://www.peauction.com:80/catlisting.php?id=3",
+    "https://web.archive.org/web/20160802004853/http://peauction.com/itemlisting.php?id=3029"
+  ],
+  "sold": [
+    [1, 33.17, 86.0, 31, [[0, "2006-09-28 18:45", 3]]],
+    [1, 40.0, 60.0, 17, [[0, "2006-10-11 18:07", 3]]],
+    [1, 39.12, 70.0, 1, [[0, "2006-10-14 15:45", 3]]],
+    [1, 38.04, 42.0, 4, [[0, "2007-03-03 18:52", 3]]],
+    [1, 39.54, 52.0, 3, [[0, "2007-03-29 23:13", 3]]],
+    [1, 39.54, 52.0, 3, [[0, "2007-03-30 00:13", 6]]]
+  ],
+  "unsold": [
+    [1, 16.98, 79.0, [[0, "2006-07-26 16:31", 3]]],
+    [1, 38.04, 74.0, [[0, "2007-03-02 15:17", 3]]]
+  ],
+  "readings": [
+    [0, "TT+", 34.57, 0, 1],
+    [0, "TT+", 24.03, 2, 5]
+  ],
+  "charts": [
+    [0, 4, "3029-0-20071009222944.png"]
+  ]
+}

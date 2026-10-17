@@ -1,0 +1,62 @@
+{
+  "item": "force-mace-basher-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20060614131730/http://peauction.com:80/catlisting.php?id=73",
+    "https://web.archive.org/web/20060721095002/http://www.peauction.com:80/catlisting.php?id=73",
+    "https://web.archive.org/web/20060805172856/http://peauction.com:80/catlisting.php?id=73",
+    "https://web.archive.org/web/20061107141325/http://peauction.com/catlisting.php?id=73",
+    "https://web.archive.org/web/20070610031911/http://peauction.com:80/itemlisting.php?id=2445",
+    "https://web.archive.org/web/20070804063501/http://peauction.com:80/catlisting.php?id=73",
+    "https://web.archive.org/web/20071008002929/http://www.peauction.com/catlisting.php?id=73",
+    "https://web.archive.org/web/20071012152154/http://peauction.com:80/catlisting.php?id=73",
+    "https://web.archive.org/web/20071212071239/http://peauction.com:80/catlisting.php?id=73",
+    "https://web.archive.org/web/20080411151349/http://www.peauction.com:80/catlisting.php?id=73",
+    "https://web.archive.org/web/20080610230545/http://www.peauction.com:80/catlisting.php?id=73",
+    "https://web.archive.org/web/20080818212954/http://www.peauction.com:80/catlisting.php?id=73",
+    "https://web.archive.org/web/20081022150504/http://www.peauction.com:80/catlisting.php?id=73",
+    "https://web.archive.org/web/20090223042441/http://peauction.com:80/catlisting.php?id=73",
+    "https://web.archive.org/web/20091002013458/http://www.peauction.com:80/catlisting.php?id=70",
+    "https://web.archive.org/web/20160801191004/http://peauction.com/itemlisting.php?id=2445"
+  ],
+  "sold": [
+    [1, 185.95, 212.0, 7, [[0, "2006-01-30 14:16", 4]]],
+    [1, 204.0, 245.0, 1, [[0, "2006-07-28 02:31", 4]]],
+    [1, 122.49, 143.0, 1, [[0, "2006-10-12 21:33", 4]]],
+    [1, 204.0, 205.0, 2, [[0, "2006-10-17 08:48", 4]]],
+    [1, 185.95, 201.0, 3, [[0, "2007-08-11 12:12", 15]]],
+    [1, 204.0, 229.0, 12, [[0, "2007-12-10 14:56", 15]]],
+    [1, 204.0, 226.0, 20, [[0, "2008-05-08 11:10", 15]]],
+    [1, 204.0, 215.0, 2, [[0, "2008-05-11 12:34", 15]]],
+    [1, 204.0, 226.0, 16, [[0, "2008-05-11 12:44", 15]]],
+    [1, 204.0, 246.0, 12, [[0, "2008-08-20 21:45", 15]]],
+    [1, 134.72, 145.0, 1, [[0, "2008-09-19 04:23", 15]]],
+    [1, 204.0, 254.0, 1, [[0, "2008-11-07 22:05", 15]]],
+    [1, 6.06, 7.0, 2, [[0, "2008-11-10 11:45", 15]]]
+  ],
+  "unsold": [
+    [1, 204.0, 344.0, [[0, "2006-03-20 20:53", 4]]],
+    [1, 204.0, 327.0, [[0, "2006-03-23 19:18", 4]]],
+    [1, 204.0, 304.0, [[0, "2007-04-12 09:04", 4]]],
+    [1, 204.0, 304.0, [[0, "2007-04-28 06:42", 4]]],
+    [1, 204.0, 286.0, [[0, "2007-04-30 03:58", 4]]],
+    [1, 204.0, 282.0, [[0, "2007-05-01 05:15", 4]]],
+    [1, 204.0, 285.0, [[0, "2007-05-02 11:13", 4]]],
+    [1, 204.0, 284.0, [[0, "2007-05-03 12:12", 4]]],
+    [1, 204.0, 285.0, [[0, "2007-05-04 07:19", 4]]],
+    [1, 204.0, 274.0, [[0, "2007-05-17 12:42", 4]]],
+    [1, 204.0, 270.0, [[0, "2007-05-24 15:22", 4]]]
+  ],
+  "readings": [
+    [0, "%", 114.01, 0, 1],
+    [0, "%", 117.05, 2, 2],
+    [0, "%", 112.84, 3, 5],
+    [0, "%", 111.89, 6, 7],
+    [0, "%", 111.95, 8, 9],
+    [0, "%", 110.96, 10, 11],
+    [0, "%", 111.29, 12, 12],
+    [0, "%", 111.6, 13, 14]
+  ],
+  "charts": []
+}

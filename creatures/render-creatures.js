@@ -132,12 +132,28 @@ function locationsHTML(c) {
   return rows.length ? `<table class="i-stats"><tbody class="fixed">${rows.join("")}</tbody></table>` : "";
 }
 
+// The Hall of Fame loots players recorded from the creature, oldest first, each with the maturity it names.
+const hallOf = new Map();
+for (const r of P.hall.records) {
+  if (r.creature) hallOf.set(r.creature, [...(hallOf.get(r.creature) || []), r]);
+}
+const creatureIds = new Set(creatures.map((c) => c.id));
+for (const r of P.hall.records) {
+  if (r.creature && !creatureIds.has(r.creature)) stop(`halloffame/data/records.json: a record names creature ${JSON.stringify(r.creature)}, which creatures.json does not hold`);
+}
+function hallHTML(c) {
+  const records = hallOf.get(c.id) || [];
+  if (!records.length) return "";
+  const link = `<tr><th scope="row">Globals</th><td class="q"></td><td class="v"><a href="../halloffame/?c=${esc(c.id)}">${records.length.toLocaleString("en")} ${records.length === 1 ? "record" : "records"} on the Hall of Fame page</a></td></tr>`;
+  return `<table class="i-stats"><tbody class="fixed">${link}${P.hallRows(records.filter((r) => r.kind === "hof"), (r) => (r.maturity ? esc(r.maturity) : ""))}</tbody></table>`;
+}
+
 function creatureHTML(c) {
   const s = span(c);
   const klass = latest(c, "class");
   const lootCount = (c.loot || []).length;
   const more = P.mediaLink([c.name, ...(c.names || []).map((n) => n.name)]) + P.statsHTML(c.stats, "creatures") + maturitiesHTML(c)
-    + locationsHTML(c) + lootHTML(c);
+    + locationsHTML(c) + hallHTML(c) + lootHTML(c);
   const text = [c.name, ...(c.names || []).map((n) => n.name), ...(c.also || [])].join(" ").toLowerCase();
   return `<li class="item${more ? " has-more" : ""}" id="${esc(c.id)}" data-class="${esc(klass ? klass[0].value : "")}"${s ? ` data-a="${RANK.get(s.first)}" data-b="${RANK.get(s.last)}"` : ""} data-text="${esc(text)}">`
     + `<span class="i-icon"></span><span class="i-name-cell"><span class="i-name">${esc(c.name)}</span></span>`
@@ -172,7 +188,7 @@ const template = fs.readFileSync(path.join(ROOT, "index.html"), "utf8");
 if (!APP.test(template) || !FILES.test(template)) {
   stop("index.html should hold one <div id=\"app\"></div> to draw into and one <!--files--> for the data links");
 }
-const files = [`<a href="data/creatures.json">creatures.json</a>`, `<a href="../items/fields.json">fields.json</a>`,
+const files = [`<a href="data/creatures.json">creatures.json</a>`, `<a href="../halloffame/data/records.json">records.json</a> (Hall of Fame)`, `<a href="../items/fields.json">fields.json</a>`,
   `<a href="../items/captures.json">captures.json</a>`, `<a href="../items/sources.json">sources.json</a>`].join(", ");
 fs.rmSync(OUT, {recursive: true, force: true});
 fs.mkdirSync(path.join(OUT, "data"), {recursive: true});

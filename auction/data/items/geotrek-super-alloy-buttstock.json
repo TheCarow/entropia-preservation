@@ -1,0 +1,42 @@
+{
+  "item": "geotrek-super-alloy-buttstock",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071008002943/http://www.peauction.com/catlisting.php?id=38",
+    "https://web.archive.org/web/20071212070045/http://peauction.com:80/catlisting.php?id=38",
+    "https://web.archive.org/web/20080210220508/http://www.peauction.com:80/catlisting.php?id=38",
+    "https://web.archive.org/web/20080411151059/http://www.peauction.com:80/catlisting.php?id=38",
+    "https://web.archive.org/web/20080610220510/http://www.peauction.com:80/catlisting.php?id=38",
+    "https://web.archive.org/web/20080817052223/http://www.peauction.com:80/catlisting.php?id=38",
+    "https://web.archive.org/web/20081022150218/http://www.peauction.com:80/catlisting.php?id=38",
+    "https://web.archive.org/web/20090223042203/http://peauction.com:80/catlisting.php?id=38",
+    "https://web.archive.org/web/20090802101937/http://www.peauction.com:80/catlisting.php?id=38",
+    "https://web.archive.org/web/20091002013226/http://www.peauction.com:80/catlisting.php?id=38",
+    "https://web.archive.org/web/20160801195845/http://peauction.com/itemlisting.php?id=3827"
+  ],
+  "sold": [
+    [4, 3.8, 4.0, 1, [[0, "2007-03-09 20:29", 10]]],
+    [6, 5.7, 27.0, 18, [[0, "2007-07-29 22:12", 10]]],
+    [45, 42.75, 445.0, 3, [[0, "2008-01-30 13:46", 10]]],
+    [14, 13.3, 174.0, 1, [[0, "2008-04-02 03:58", 10]]],
+    [11, 10.45, 17.0, 7, [[0, "2008-04-12 01:03", 10]]],
+    [3, 2.85, 35.0, 1, [[0, "2008-09-09 22:22", 10]]],
+    [9, 8.55, 81.0, 13, [[0, "2008-10-15 15:09", 10]]],
+    [7, 6.65, 67.0, 1, [[0, "2008-10-20 06:49", 10]]],
+    [3, 2.85, 23.0, 1, [[0, "2008-10-22 06:14", 10]]],
+    [11, 10.45, 106.0, 12, [[0, "2008-11-30 08:31", 10]]],
+    [1, 0.95, 6.0, 2, [[0, "2009-04-17 09:54", 10]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "%", 326.32, 0, 1],
+    [0, "%", 911.0, 2, 2],
+    [0, "%", 991.61, 3, 3],
+    [0, "%", 877.63, 4, 5],
+    [0, "%", 900.93, 6, 6],
+    [0, "%", 911.97, 7, 7],
+    [0, "%", 938.76, 8, 9]
+  ],
+  "charts": []
+}

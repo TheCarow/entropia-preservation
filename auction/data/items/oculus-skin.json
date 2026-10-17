@@ -1,0 +1,42 @@
+{
+  "item": "oculus-skin",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20080210221242/http://www.peauction.com:80/catlisting.php?id=47",
+    "https://web.archive.org/web/20080411151139/http://www.peauction.com:80/catlisting.php?id=47",
+    "https://web.archive.org/web/20080610220550/http://www.peauction.com:80/catlisting.php?id=47",
+    "https://web.archive.org/web/20080801024440/http://www.peauction.com:80/catlisting.php?id=47",
+    "https://web.archive.org/web/20080817053423/http://www.peauction.com:80/catlisting.php?id=47",
+    "https://web.archive.org/web/20081022150258/http://www.peauction.com:80/catlisting.php?id=47",
+    "https://web.archive.org/web/20090123071800/http://peauction.com:80/catlisting.php?id=47",
+    "https://web.archive.org/web/20090304032513/http://peauction.com:80/catlisting.php?id=47",
+    "https://web.archive.org/web/20090802102019/http://www.peauction.com:80/catlisting.php?id=47",
+    "https://web.archive.org/web/20091002013310/http://www.peauction.com:80/catlisting.php?id=47",
+    "https://web.archive.org/web/20160801162926/http://peauction.com/itemlisting.php?id=5617"
+  ],
+  "sold": [
+    [1099, 340.69, 341.0, 1, [[0, "2008-10-30 21:15", 10]]],
+    [354, 109.74, 110.0, 1, [[0, "2008-11-28 23:26", 10]]],
+    [19, 5.89, 6.0, 1, [[0, "2009-05-02 07:58", 10]]],
+    [57, 17.67, 19.0, 1, [[0, "2009-06-18 00:38", 10]]],
+    [152, 47.12, 55.0, 1, [[0, "2009-08-01 00:39", 10]]],
+    [207, 64.17, 68.0, 1, [[0, "2009-08-10 09:03", 10]]],
+    [140, 43.4, 45.0, 2, [[0, "2009-08-12 18:56", 10]]],
+    [100, 31.0, 34.0, 4, [[0, "2009-10-01 16:27", 10]]],
+    [100, 31.0, 33.0, 3, [[0, "2009-10-02 18:24", 10]]],
+    [100, 31.0, 32.0, 2, [[0, "2009-10-04 18:26", 10]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "%", 249.54, 0, 0],
+    [0, "%", 179.45, 1, 1],
+    [0, "%", 128.1, 2, 2],
+    [0, "%", 117.69, 3, 4],
+    [0, "%", 115.79, 5, 5],
+    [0, "%", 104.0, 6, 7],
+    [0, "%", 103.06, 8, 8],
+    [0, "%", 103.51, 9, 9]
+  ],
+  "charts": []
+}

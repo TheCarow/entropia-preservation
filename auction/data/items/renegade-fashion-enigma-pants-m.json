@@ -1,0 +1,24 @@
+{
+  "item": "renegade-fashion-enigma-pants-m",
+  "markup": "TT+",
+  "sources": ["pea", "pe-player"],
+  "captures": [
+    "https://web.archive.org/web/20041010022429/http://www.pe-player.com:80/auction/list.php?sort=bytype",
+    "https://web.archive.org/web/20060216220631/http://www.peauction.com:80/catlisting.php?id=33",
+    "https://web.archive.org/web/20060908232257/http://peauction.com:80/catlisting.php?id=33",
+    "https://web.archive.org/web/20070811004106/http://peauction.com:80/itemlisting.php?id=1009"
+  ],
+  "sold": [
+    [1, 4.11, 300.0, 0, [[1, "2004-08-27 12:30", 0]]],
+    [1, 8.0, 88.0, 9, [[0, "2005-10-22 03:11", 3]]],
+    [1, 3.34, 79.0, 6, [[0, "2005-11-25 00:40", 3]]],
+    [1, 8.0, 221.0, 5, [[0, "2007-07-26 01:58", 3]]]
+  ],
+  "unsold": [
+    [1, 3.34, 144.0, [[0, "2005-11-26 03:22", 3]]]
+  ],
+  "readings": [
+    [0, "TT+", 77.83, 1, 2]
+  ],
+  "charts": []
+}

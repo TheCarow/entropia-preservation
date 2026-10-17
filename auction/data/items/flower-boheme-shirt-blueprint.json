@@ -1,0 +1,20 @@
+{
+  "item": "flower-boheme-shirt-blueprint",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20061107141443/http://peauction.com/catlisting.php?id=23",
+    "https://web.archive.org/web/20091002013109/http://www.peauction.com:80/catlisting.php?id=23",
+    "https://web.archive.org/web/20160801183500/http://peauction.com/itemlisting.php?id=3153"
+  ],
+  "sold": [
+    [1, 0.01, 1000.0, 1, [[0, "2006-10-13 14:18", 2]]]
+  ],
+  "unsold": [
+    [1, 0.01, 1200.0, [[0, "2006-10-11 17:07", 2]]]
+  ],
+  "readings": [
+    [0, "TT+", 999.99, 0, 1]
+  ],
+  "charts": []
+}

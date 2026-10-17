@@ -1,0 +1,21 @@
+{
+  "item": "mccormick-safe-blueprint-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20061107141026/http://peauction.com/catlisting.php?id=77",
+    "https://web.archive.org/web/20071110073733/http://www.peauction.com/itemlisting.php?id=3049",
+    "https://web.archive.org/web/20091002013535/http://www.peauction.com:80/catlisting.php?id=77"
+  ],
+  "sold": [
+    [1, 0.43, 5222.0, 32, [[0, "2006-08-12 21:09", 1]]]
+  ],
+  "unsold": [
+    [1, 0.43, 9000.0, [[0, "2006-08-10 20:08", 1]]],
+    [1, 0.13, 3001.0, [[0, "2006-08-30 09:29", 1]]]
+  ],
+  "readings": [
+    [0, "%", 1214420.0, 0, 2]
+  ],
+  "charts": []
+}

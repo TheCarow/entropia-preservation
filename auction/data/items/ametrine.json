@@ -1,0 +1,44 @@
+{
+  "item": "ametrine",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071007162331/http://www.peauction.com/catlisting.php?id=53",
+    "https://web.archive.org/web/20071012152019/http://peauction.com:80/catlisting.php?id=53",
+    "https://web.archive.org/web/20071212071101/http://peauction.com:80/catlisting.php?id=53",
+    "https://web.archive.org/web/20080411151211/http://www.peauction.com:80/catlisting.php?id=53",
+    "https://web.archive.org/web/20080610220620/http://www.peauction.com:80/catlisting.php?id=53",
+    "https://web.archive.org/web/20080801024455/http://www.peauction.com:80/catlisting.php?id=53",
+    "https://web.archive.org/web/20080818212907/http://www.peauction.com:80/catlisting.php?id=53",
+    "https://web.archive.org/web/20081022150329/http://www.peauction.com:80/catlisting.php?id=53",
+    "https://web.archive.org/web/20090122032414/http://www.peauction.com:80/itemlisting.php?item=Ametrine",
+    "https://web.archive.org/web/20090223042311/http://peauction.com:80/catlisting.php?id=53",
+    "https://web.archive.org/web/20091002013337/http://www.peauction.com:80/catlisting.php?id=53"
+  ],
+  "sold": [
+    [1, 130.0, 144.0, 2, [[0, "2007-07-21 03:07", 8]]],
+    [1, 130.0, 132.0, 3, [[0, "2007-08-17 19:12", 8]]],
+    [1, 130.0, 136.0, 3, [[0, "2007-10-23 01:48", 8]]],
+    [1, 130.0, 138.0, 1, [[0, "2007-10-27 19:13", 8]]],
+    [1, 130.0, 132.0, 3, [[0, "2007-11-09 11:38", 8]]],
+    [1, 130.0, 134.0, 1, [[0, "2008-05-09 08:43", 8]]],
+    [1, 130.0, 130.0, 1, [[0, "2008-07-16 14:42", 8]]],
+    [1, 130.0, 140.0, 1, [[0, "2008-10-19 21:54", 8]]],
+    [1, 130.0, 131.0, 1, [[0, "2008-10-25 03:30", 8]]],
+    [1, 130.0, 131.0, 2, [[0, "2008-12-04 22:56", 8]]],
+    [1, 130.0, 131.0, 1, [[0, "2009-01-09 20:07", 8]]]
+  ],
+  "unsold": [
+    [1, 130.0, 139.0, [[0, "2008-06-29 17:25", 8]]],
+    [1, 130.0, 138.0, [[0, "2008-08-04 03:18", 8]]]
+  ],
+  "readings": [
+    [0, "%", 106.15, 0, 1],
+    [0, "%", 104.92, 2, 3],
+    [0, "%", 104.62, 4, 4],
+    [0, "%", 103.96, 5, 6],
+    [0, "%", 104.42, 7, 7],
+    [0, "%", 102.69, 9, 10]
+  ],
+  "charts": []
+}

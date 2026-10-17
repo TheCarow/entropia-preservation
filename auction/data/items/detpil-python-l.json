@@ -1,0 +1,26 @@
+{
+  "item": "detpil-python-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20080411151434/http://www.peauction.com:80/catlisting.php?id=80",
+    "https://web.archive.org/web/20080610230824/http://www.peauction.com:80/catlisting.php?id=80",
+    "https://web.archive.org/web/20080801024704/http://www.peauction.com:80/catlisting.php?id=80",
+    "https://web.archive.org/web/20080817052349/http://www.peauction.com:80/catlisting.php?id=80",
+    "https://web.archive.org/web/20081022150544/http://www.peauction.com:80/catlisting.php?id=80",
+    "https://web.archive.org/web/20090223042521/http://peauction.com:80/catlisting.php?id=80",
+    "https://web.archive.org/web/20090802102513/http://www.peauction.com:80/catlisting.php?id=80",
+    "https://web.archive.org/web/20091002013555/http://www.peauction.com:80/catlisting.php?id=80"
+  ],
+  "sold": [],
+  "unsold": [],
+  "readings": [
+    [0, "%", 524.62, 0, 1],
+    [0, "%", 362.25, 2, 3],
+    [0, "%", 301.88, 4, 4],
+    [0, "%", 239.57, 5, 5],
+    [0, "%", 138.38, 6, 6],
+    [0, "%", 132.11, 7, 7]
+  ],
+  "charts": []
+}

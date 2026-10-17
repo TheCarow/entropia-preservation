@@ -1,0 +1,32 @@
+{
+  "item": "strengthened-metal-plating",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20080210205825/http://www.peauction.com:80/catlisting.php?id=11",
+    "https://web.archive.org/web/20080411150857/http://www.peauction.com:80/catlisting.php?id=11",
+    "https://web.archive.org/web/20080610174444/http://www.peauction.com:80/catlisting.php?id=11",
+    "https://web.archive.org/web/20080801024906/http://www.peauction.com:80/catlisting.php?id=11",
+    "https://web.archive.org/web/20080817052538/http://www.peauction.com:80/catlisting.php?id=11",
+    "https://web.archive.org/web/20080818212747/http://www.peauction.com:80/catlisting.php?id=11",
+    "https://web.archive.org/web/20081022150021/http://www.peauction.com:80/catlisting.php?id=11",
+    "https://web.archive.org/web/20090205055202/http://www.peauction.com:80/catlisting.php?id=11",
+    "https://web.archive.org/web/20090304065533/http://peauction.com:80/catlisting.php?id=11",
+    "https://web.archive.org/web/20090802101937/http://www.peauction.com:80/catlisting.php?id=38",
+    "https://web.archive.org/web/20091002013226/http://www.peauction.com:80/catlisting.php?id=38"
+  ],
+  "sold": [],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 19.74, 0, 0],
+    [0, "TT+", 10.77, 1, 2],
+    [0, "TT+", 7.67, 3, 3],
+    [0, "TT+", 7.77, 4, 5],
+    [0, "TT+", 6.67, 6, 6],
+    [0, "TT+", 4.67, 7, 7],
+    [0, "TT+", 5.17, 8, 8],
+    [0, "%", 331.33, 9, 9],
+    [0, "%", 249.57, 10, 10]
+  ],
+  "charts": []
+}

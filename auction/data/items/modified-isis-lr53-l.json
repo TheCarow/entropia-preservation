@@ -1,0 +1,20 @@
+{
+  "item": "modified-isis-lr53-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20090802102235/http://www.peauction.com:80/catlisting.php?id=74",
+    "https://web.archive.org/web/20091002013520/http://www.peauction.com:80/catlisting.php?id=74",
+    "https://web.archive.org/web/20160801124641/http://peauction.com/itemlisting.php?id=5761"
+  ],
+  "sold": [
+    [1, 4104.2, 9030.0, 1, [[0, "2008-03-01 04:05", 2]]]
+  ],
+  "unsold": [
+    [1, 2620.86, 3300.0, [[0, "2009-05-05 02:26", 2]]]
+  ],
+  "readings": [
+    [0, "%", 220.02, 0, 1]
+  ],
+  "charts": []
+}

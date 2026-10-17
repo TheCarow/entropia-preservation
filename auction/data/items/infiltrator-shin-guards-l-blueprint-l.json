@@ -1,0 +1,26 @@
+{
+  "item": "infiltrator-shin-guards-l-blueprint-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20090802101753/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20091002013041/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20160801072800/http://peauction.com/itemlisting.php?id=5044"
+  ],
+  "sold": [
+    [1, 0.03, 333.0, 1, [[0, "2007-11-11 04:33", 2]]],
+    [1, 0.2, 1304.0, 27, [[0, "2008-11-08 13:15", 2]]],
+    [1, 0.2, 1000.0, 1, [[0, "2009-04-26 22:32", 2]]]
+  ],
+  "unsold": [
+    [1, 0.03, 999.0, [[0, "2007-11-02 02:13", 2]]],
+    [1, 0.17, 1101.0, [[0, "2009-04-03 21:51", 2]]],
+    [1, 0.2, 1000.0, [[0, "2009-04-07 22:05", 2]]],
+    [1, 0.17, 1101.0, [[0, "2009-04-10 23:02", 2]]],
+    [1, 0.17, 1101.0, [[0, "2009-05-02 07:32", 2]]]
+  ],
+  "readings": [
+    [0, "%", 754000.0, 0, 1]
+  ],
+  "charts": []
+}

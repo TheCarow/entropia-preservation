@@ -1,0 +1,30 @@
+{
+  "item": "sopur-stone-texture",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20080210223506/http://www.peauction.com:80/catlisting.php?id=60",
+    "https://web.archive.org/web/20080411151249/http://www.peauction.com:80/catlisting.php?id=60",
+    "https://web.archive.org/web/20080610222834/http://www.peauction.com:80/catlisting.php?id=60",
+    "https://web.archive.org/web/20080801024510/http://www.peauction.com:80/catlisting.php?id=60",
+    "https://web.archive.org/web/20080817053516/http://www.peauction.com:80/catlisting.php?id=60",
+    "https://web.archive.org/web/20081022150404/http://www.peauction.com:80/catlisting.php?id=60",
+    "https://web.archive.org/web/20090223042346/http://peauction.com:80/catlisting.php?id=60",
+    "https://web.archive.org/web/20090802102025/http://www.peauction.com:80/catlisting.php?id=48",
+    "https://web.archive.org/web/20091002013312/http://www.peauction.com:80/catlisting.php?id=48"
+  ],
+  "sold": [],
+  "unsold": [],
+  "readings": [
+    [0, "%", 136.67, 0, 0],
+    [0, "%", 157.64, 1, 1],
+    [0, "%", 146.2, 2, 2],
+    [0, "%", 210.72, 3, 3],
+    [0, "%", 212.48, 4, 4],
+    [0, "%", 200.42, 5, 5],
+    [0, "%", 114.77, 6, 6],
+    [0, "%", 135.75, 7, 7],
+    [0, "%", 145.51, 8, 8]
+  ],
+  "charts": []
+}

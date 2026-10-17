@@ -1,0 +1,30 @@
+{
+  "item": "matterfinder-mf-211-l-blueprint-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071007160727/http://www.peauction.com/catlisting.php?id=24",
+    "https://web.archive.org/web/20071012151757/http://peauction.com:80/catlisting.php?id=24",
+    "https://web.archive.org/web/20071108180720/http://www.peauction.com/itemlisting.php?id=4668",
+    "https://web.archive.org/web/20071212065932/http://peauction.com:80/catlisting.php?id=24",
+    "https://web.archive.org/web/20080210212017/http://www.peauction.com:80/catlisting.php?id=24",
+    "https://web.archive.org/web/20090223042052/http://peauction.com:80/catlisting.php?id=24",
+    "https://web.archive.org/web/20090802101823/http://www.peauction.com:80/catlisting.php?id=24",
+    "https://web.archive.org/web/20091002013114/http://www.peauction.com:80/catlisting.php?id=24",
+    "https://web.archive.org/web/20160801203336/http://peauction.com/itemlisting.php?id=4668"
+  ],
+  "sold": [
+    [1, 0.01, 28.0, 1, [[0, "2007-08-12 23:02", 2]]],
+    [1, 0.03, 100.0, 12, [[0, "2007-11-06 08:52", 2]]],
+    [1, 0.01, 33.0, 1, [[0, "2007-12-18 13:14", 8]]],
+    [1, 0.01, 44.0, 15, [[0, "2009-04-13 02:54", 8]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "%", 280000.0, 0, 1],
+    [0, "%", 306667.0, 3, 3],
+    [0, "%", 314444.0, 4, 5],
+    [0, "%", 345833.0, 6, 7]
+  ],
+  "charts": []
+}

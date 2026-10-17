@@ -1,0 +1,17 @@
+{
+  "item": "cosmetic-pen-black",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20090802102135/http://www.peauction.com:80/catlisting.php?id=63",
+    "https://web.archive.org/web/20091002013420/http://www.peauction.com:80/catlisting.php?id=63",
+    "https://web.archive.org/web/20091003150251/http://www.peauction.com:80/catlisting.php?id=63"
+  ],
+  "sold": [],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 6.3, 0, 0],
+    [0, "TT+", 3.85, 1, 2]
+  ],
+  "charts": []
+}

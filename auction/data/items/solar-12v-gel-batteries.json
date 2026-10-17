@@ -1,0 +1,25 @@
+{
+  "item": "solar-12v-gel-batteries",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071008002943/http://www.peauction.com/catlisting.php?id=38",
+    "https://web.archive.org/web/20080610220510/http://www.peauction.com:80/catlisting.php?id=38",
+    "https://web.archive.org/web/20080801024434/http://www.peauction.com:80/catlisting.php?id=38",
+    "https://web.archive.org/web/20080817052223/http://www.peauction.com:80/catlisting.php?id=38",
+    "https://web.archive.org/web/20081022150218/http://www.peauction.com:80/catlisting.php?id=38",
+    "https://web.archive.org/web/20090223042203/http://peauction.com:80/catlisting.php?id=38",
+    "https://web.archive.org/web/20090802101937/http://www.peauction.com:80/catlisting.php?id=38",
+    "https://web.archive.org/web/20091002013226/http://www.peauction.com:80/catlisting.php?id=38"
+  ],
+  "sold": [],
+  "unsold": [],
+  "readings": [
+    [0, "%", 353.63, 0, 1],
+    [0, "%", 407.66, 2, 3],
+    [0, "%", 351.47, 4, 4],
+    [0, "%", 365.15, 5, 5],
+    [0, "%", 278.82, 6, 7]
+  ],
+  "charts": []
+}

@@ -1,0 +1,16 @@
+{
+  "item": "turp-leather-texture",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20160801174818/http://peauction.com/itemlisting.php?id=5690"
+  ],
+  "sold": [],
+  "unsold": [
+    [4, 0.28, 100.0, [[0, "2008-02-12 17:57", 0]]],
+    [3, 0.21, 36.0, [[0, "2008-02-29 14:05", 0]]],
+    [1, 0.07, 12.0, [[0, "2008-06-01 18:29", 0]]]
+  ],
+  "readings": [],
+  "charts": []
+}

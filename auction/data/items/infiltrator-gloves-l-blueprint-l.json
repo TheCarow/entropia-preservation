@@ -1,0 +1,16 @@
+{
+  "item": "infiltrator-gloves-l-blueprint-l",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20160801072544/http://peauction.com/itemlisting.php?id=4675"
+  ],
+  "sold": [],
+  "unsold": [
+    [1, 0.16, 6500.0, [[0, "2007-08-18 20:37", 0]]],
+    [1, 0.16, 4501.0, [[0, "2007-08-26 01:07", 0]]],
+    [1, 0.12, 3000.0, [[0, "2009-06-20 10:21", 0]]]
+  ],
+  "readings": [],
+  "charts": []
+}

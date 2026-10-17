@@ -1,0 +1,19 @@
+{
+  "item": "desert-trenchers-blueprint-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20090802101821/http://www.peauction.com:80/catlisting.php?id=23",
+    "https://web.archive.org/web/20091002013109/http://www.peauction.com:80/catlisting.php?id=23",
+    "https://web.archive.org/web/20160801183915/http://peauction.com/itemlisting.php?id=5810"
+  ],
+  "sold": [
+    [1, 0.31, 312.0, 30, [[0, "2008-03-17 19:41", 2]]],
+    [1, 0.31, 122.0, 2, [[0, "2009-03-13 00:05", 2]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "%", 70000.0, 0, 1]
+  ],
+  "charts": []
+}

@@ -1,0 +1,30 @@
+{
+  "item": "high-performance-pump-2",
+  "markup": "%",
+  "sources": ["pea", "pe-player"],
+  "captures": [
+    "https://web.archive.org/web/20050307020126/http://www.pe-player.com:80/auction/list.php?sort=bytype",
+    "https://web.archive.org/web/20070423020218/http://peauction.com:80/itemlisting.php?id=2369",
+    "https://web.archive.org/web/20071008002943/http://www.peauction.com/catlisting.php?id=38",
+    "https://web.archive.org/web/20091002013226/http://www.peauction.com:80/catlisting.php?id=38",
+    "https://web.archive.org/web/20160801195604/http://peauction.com/itemlisting.php?id=2369",
+    "https://web.archive.org/web/20160801221651/http://peauction.com/itemlisting.php?id=6072"
+  ],
+  "sold": [
+    [13, 0.83, 2.0, 0, [[1, "2005-02-13 12:10", 0]]],
+    [77, 4.62, 4.0, 1, [[0, "2007-06-12 20:56", 4]]]
+  ],
+  "unsold": [
+    [150, 9.0, 2001.0, [[0, "2006-01-07 08:10", 1]]],
+    [54, 3.24, 4.0, [[0, "2007-02-18 01:09", 1]]],
+    [615, 36.9, 37.0, [[0, "2007-04-03 22:58", 1]]],
+    [72, 4.32, 5.0, [[0, "2008-03-10 22:51", 4]]],
+    [152, 9.12, 10.0, [[0, "2008-06-23 15:25", 5]]],
+    [39, 2.34, 3.0, [[0, "2008-09-16 03:03", 5]]],
+    [1000, 60.0, 70.0, [[0, "2009-04-17 10:51", 5]]]
+  ],
+  "readings": [
+    [0, "%", 86.58, 2, 3]
+  ],
+  "charts": []
+}

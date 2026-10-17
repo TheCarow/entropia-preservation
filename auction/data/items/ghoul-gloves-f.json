@@ -1,0 +1,23 @@
+{
+  "item": "ghoul-gloves-f",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20060216220725/http://www.peauction.com:80/catlisting.php?id=5",
+    "https://web.archive.org/web/20070418020740/http://peauction.com:80/itemlisting.php?id=2157",
+    "https://web.archive.org/web/20091002013322/http://www.peauction.com:80/catlisting.php?id=5"
+  ],
+  "sold": [
+    [1, 57.0, 257.0, 1, [[0, "2005-12-01 19:56", 1]]]
+  ],
+  "unsold": [
+    [1, 58.38, 289.0, [[0, "2005-12-08 00:32", 1]]],
+    [1, 58.12, 289.0, [[0, "2005-12-09 18:27", 1]]],
+    [1, 58.12, 286.0, [[0, "2005-12-11 05:22", 1]]],
+    [1, 59.13, 560.0, [[0, "2006-01-05 21:30", 1]]]
+  ],
+  "readings": [
+    [0, "TT+", 200.0, 0, 2]
+  ],
+  "charts": []
+}

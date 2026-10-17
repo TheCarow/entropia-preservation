@@ -1,0 +1,37 @@
+{
+  "item": "aurora-helmet-m-l",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20070106032152/http://peauction.com:80/catlisting.php?id=7",
+    "https://web.archive.org/web/20071007161934/http://www.peauction.com/catlisting.php?id=7",
+    "https://web.archive.org/web/20071012152134/http://peauction.com:80/catlisting.php?id=7",
+    "https://web.archive.org/web/20071212071218/http://peauction.com:80/catlisting.php?id=7",
+    "https://web.archive.org/web/20080210224919/http://www.peauction.com:80/catlisting.php?id=7",
+    "https://web.archive.org/web/20080411151328/http://www.peauction.com:80/catlisting.php?id=7",
+    "https://web.archive.org/web/20080610222937/http://www.peauction.com:80/catlisting.php?id=7",
+    "https://web.archive.org/web/20080801024532/http://www.peauction.com:80/catlisting.php?id=7",
+    "https://web.archive.org/web/20080817053533/http://www.peauction.com:80/catlisting.php?id=7",
+    "https://web.archive.org/web/20081022150444/http://www.peauction.com:80/catlisting.php?id=7",
+    "https://web.archive.org/web/20090223042421/http://peauction.com:80/catlisting.php?id=7",
+    "https://web.archive.org/web/20090802102208/http://www.peauction.com:80/catlisting.php?id=7",
+    "https://web.archive.org/web/20091002013452/http://www.peauction.com:80/catlisting.php?id=7"
+  ],
+  "sold": [],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 2.24, 0, 0],
+    [0, "TT+", 3.21, 1, 2],
+    [0, "TT+", 1.55, 3, 3],
+    [0, "TT+", 2.27, 4, 4],
+    [0, "TT+", 3.82, 5, 5],
+    [0, "TT+", 5.69, 6, 6],
+    [0, "TT+", 5.61, 7, 7],
+    [0, "TT+", 5.32, 8, 8],
+    [0, "TT+", 6.5, 9, 9],
+    [0, "TT+", 2.17, 10, 10],
+    [0, "%", 101.64, 11, 11],
+    [0, "%", 102.87, 12, 12]
+  ],
+  "charts": []
+}

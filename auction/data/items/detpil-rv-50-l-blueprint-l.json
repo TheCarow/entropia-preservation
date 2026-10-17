@@ -1,0 +1,26 @@
+{
+  "item": "detpil-rv-50-l-blueprint-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071008002917/http://www.peauction.com/catlisting.php?id=25",
+    "https://web.archive.org/web/20071012151801/http://peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20071212065937/http://peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20080818212812/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20081022150112/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20090223042058/http://peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20090802101829/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20091002013119/http://www.peauction.com:80/catlisting.php?id=25"
+  ],
+  "sold": [],
+  "unsold": [],
+  "readings": [
+    [0, "%", 172414.0, 0, 1],
+    [0, "%", 94321.4, 2, 3],
+    [0, "%", 83822.0, 4, 4],
+    [0, "%", 62201.4, 5, 5],
+    [0, "%", 40041.4, 6, 6],
+    [0, "%", 38569.1, 7, 7]
+  ],
+  "charts": []
+}

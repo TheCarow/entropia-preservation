@@ -1,0 +1,51 @@
+{
+  "item": "dragon-shin-guards-f",
+  "markup": "TT+",
+  "sources": ["pea", "pe-player"],
+  "captures": [
+    "https://web.archive.org/web/20040807114142/http://www.pe-player.com:80/auction/list.php?sort=bytype",
+    "https://web.archive.org/web/20050130134118/http://www.pe-player.com:80/auction/list.php?sort=bytype",
+    "https://web.archive.org/web/20060216220612/http://www.peauction.com:80/catlisting.php?id=8",
+    "https://web.archive.org/web/20060614130615/http://peauction.com:80/catlisting.php?id=8",
+    "https://web.archive.org/web/20061107141359/http://peauction.com/catlisting.php?id=8",
+    "https://web.archive.org/web/20070805003718/http://peauction.com:80/catlisting.php?id=8",
+    "https://web.archive.org/web/20070806051030/http://peauction.com:80/itemlisting.php?id=1244",
+    "https://web.archive.org/web/20071008004017/http://www.peauction.com/catlisting.php?id=8",
+    "https://web.archive.org/web/20071012152229/http://peauction.com:80/catlisting.php?id=8",
+    "https://web.archive.org/web/20071212071315/http://peauction.com:80/catlisting.php?id=8",
+    "https://web.archive.org/web/20080818213009/http://www.peauction.com:80/catlisting.php?id=8",
+    "https://web.archive.org/web/20081022150540/http://www.peauction.com:80/catlisting.php?id=8",
+    "https://web.archive.org/web/20090223042516/http://peauction.com:80/catlisting.php?id=8",
+    "https://web.archive.org/web/20090802102303/http://www.peauction.com:80/catlisting.php?id=8",
+    "https://web.archive.org/web/20091002013550/http://www.peauction.com:80/catlisting.php?id=8",
+    "https://web.archive.org/web/20160801122413/http://peauction.com/itemlisting.php?id=1244"
+  ],
+  "sold": [
+    [1, 5.9, 9.0, 3, [[1, "2004-07-19 08:50", 0]]],
+    [1, 5.9, 9.0, 3, [[1, "2004-10-23 00:57", 1]]],
+    [1, 1.59, 20.0, 11, [[0, "2005-10-25 02:45", 6]]],
+    [1, 7.0, 22.0, 8, [[0, "2006-06-07 19:40", 6]]],
+    [1, 3.09, 4.0, 1, [[0, "2006-11-29 14:01", 6]]],
+    [1, 4.33, 18.0, 1, [[0, "2007-01-29 22:27", 6]]],
+    [1, 1.68, 2.0, 1, [[0, "2007-08-07 21:07", 15]]],
+    [1, 2.85, 19.0, 7, [[0, "2007-08-11 21:22", 15]]],
+    [1, 7.0, 52.0, 15, [[0, "2007-11-08 20:43", 15]]],
+    [1, 7.0, 37.0, 14, [[0, "2007-11-10 23:03", 15]]],
+    [1, 6.87, 31.0, 5, [[0, "2008-10-02 22:28", 15]]],
+    [1, 6.99, 17.0, 1, [[0, "2009-06-17 15:47", 15]]]
+  ],
+  "unsold": [
+    [1, 4.29, 15.0, [[0, "2006-07-05 16:41", 6]]],
+    [1, 1.84, 40.0, [[0, "2006-11-04 17:40", 6]]]
+  ],
+  "readings": [
+    [0, "TT+", 18.41, 2, 2],
+    [0, "TT+", 16.71, 3, 4],
+    [0, "TT+", 12.0, 5, 5],
+    [0, "TT+", 10.74, 7, 8],
+    [0, "TT+", 17.43, 9, 10],
+    [0, "TT+", 18.18, 11, 12],
+    [0, "TT+", 17.36, 13, 14]
+  ],
+  "charts": []
+}

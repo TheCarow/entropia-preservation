@@ -1,0 +1,26 @@
+{
+  "item": "omegaton-arctic-walkers-blueprint-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20070803233147/http://peauction.com:80/catlisting.php?id=23",
+    "https://web.archive.org/web/20081022150102/http://www.peauction.com:80/catlisting.php?id=23",
+    "https://web.archive.org/web/20090223042047/http://peauction.com:80/catlisting.php?id=23",
+    "https://web.archive.org/web/20091002013109/http://www.peauction.com:80/catlisting.php?id=23",
+    "https://web.archive.org/web/20160801185057/http://peauction.com/itemlisting.php?id=3836"
+  ],
+  "sold": [
+    [1, 0.37, 468.0, 59, [[0, "2007-03-17 17:28", 4]]],
+    [1, 0.15, 32.0, 25, [[0, "2008-11-22 00:36", 4]]]
+  ],
+  "unsold": [
+    [1, 0.06, 110.0, [[0, "2007-11-15 02:05", 4]]],
+    [1, 0.29, 151.0, [[0, "2008-02-10 23:47", 4]]],
+    [1, 0.31, 143.0, [[0, "2009-02-09 14:44", 4]]]
+  ],
+  "readings": [
+    [0, "%", 126486.0, 0, 1],
+    [0, "%", 73909.9, 2, 3]
+  ],
+  "charts": []
+}

@@ -1,0 +1,17 @@
+{
+  "item": "medium-bristol-curtain",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20160802011340/http://peauction.com/itemlisting.php?id=5091"
+  ],
+  "sold": [],
+  "unsold": [
+    [1, 6.68, 50.0, [[0, "2007-11-21 04:26", 0]]],
+    [1, 5.89, 16.0, [[0, "2009-03-24 20:56", 0]]],
+    [1, 6.84, 17.0, [[0, "2009-03-24 20:56", 0]]],
+    [1, 6.34, 17.0, [[0, "2009-03-24 20:56", 0]]]
+  ],
+  "readings": [],
+  "charts": []
+}

@@ -1,0 +1,28 @@
+{
+  "item": "vampire-shin-guards-blueprint",
+  "markup": "TT+",
+  "sources": ["pea", "pe-player"],
+  "captures": [
+    "https://web.archive.org/web/20041010022429/http://www.pe-player.com:80/auction/list.php?sort=bytype",
+    "https://web.archive.org/web/20050130134118/http://www.pe-player.com:80/auction/list.php?sort=bytype",
+    "https://web.archive.org/web/20061107141622/http://peauction.com/catlisting.php?id=18",
+    "https://web.archive.org/web/20071012151726/http://peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20071212065901/http://peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20091002013041/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20160801072123/http://peauction.com/itemlisting.php?id=3109"
+  ],
+  "sold": [
+    [1, 0.01, 58.0, 4, [[1, "2004-09-26 23:50", 0]]],
+    [1, 0.01, 58.0, 4, [[1, "2004-10-23 01:37", 1]]],
+    [1, 0.01, 153.0, 13, [[0, "2006-09-16 19:45", 6]]],
+    [1, 0.04, 1501.0, 26, [[0, "2007-10-31 12:38", 6]]]
+  ],
+  "unsold": [
+    [1, 0.2, 7670.0, [[0, "2009-06-29 15:00", 6]]]
+  ],
+  "readings": [
+    [0, "TT+", 152.99, 2, 3],
+    [0, "TT+", 826.98, 4, 5]
+  ],
+  "charts": []
+}

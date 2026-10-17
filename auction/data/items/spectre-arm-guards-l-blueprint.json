@@ -1,0 +1,20 @@
+{
+  "item": "spectre-arm-guards-l-blueprint",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20090802101753/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20091002013041/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20160801075238/http://peauction.com/itemlisting.php?id=5547"
+  ],
+  "sold": [
+    [1, 0.01, 101.0, 2, [[0, "2009-03-20 03:30", 2]]],
+    [1, 0.01, 200.0, 1, [[0, "2009-09-29 07:04", 2]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "%", 1010000.0, 0, 0],
+    [0, "%", 1505000.0, 1, 1]
+  ],
+  "charts": []
+}

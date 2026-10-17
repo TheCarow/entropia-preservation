@@ -1,0 +1,42 @@
+{
+  "item": "simple-iii-conductors",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071012151907/http://peauction.com:80/catlisting.php?id=38",
+    "https://web.archive.org/web/20071212070045/http://peauction.com:80/catlisting.php?id=38",
+    "https://web.archive.org/web/20080210220508/http://www.peauction.com:80/catlisting.php?id=38",
+    "https://web.archive.org/web/20080411151059/http://www.peauction.com:80/catlisting.php?id=38",
+    "https://web.archive.org/web/20080610220510/http://www.peauction.com:80/catlisting.php?id=38",
+    "https://web.archive.org/web/20080801024434/http://www.peauction.com:80/catlisting.php?id=38",
+    "https://web.archive.org/web/20080817052223/http://www.peauction.com:80/catlisting.php?id=38",
+    "https://web.archive.org/web/20081022150218/http://www.peauction.com:80/catlisting.php?id=38",
+    "https://web.archive.org/web/20090223042203/http://peauction.com:80/catlisting.php?id=38",
+    "https://web.archive.org/web/20090802101937/http://www.peauction.com:80/catlisting.php?id=38",
+    "https://web.archive.org/web/20091002013226/http://www.peauction.com:80/catlisting.php?id=38",
+    "https://web.archive.org/web/20160801222157/http://peauction.com/itemlisting.php?id=3994"
+  ],
+  "sold": [
+    [50, 55.0, 55.0, 1, [[0, "2007-10-12 14:28", 11]]],
+    [70, 77.0, 79.0, 3, [[0, "2007-10-24 16:28", 11]]],
+    [100, 110.0, 110.0, 1, [[0, "2008-03-17 08:07", 11]]],
+    [100, 110.0, 110.0, 1, [[0, "2008-03-17 08:11", 11]]],
+    [200, 220.0, 222.0, 1, [[0, "2008-03-17 18:16", 11]]],
+    [344, 378.4, 380.0, 2, [[0, "2008-05-08 12:10", 11]]],
+    [200, 220.0, 220.0, 1, [[0, "2008-07-03 00:05", 11]]],
+    [273, 300.3, 301.0, 1, [[0, "2008-09-14 20:53", 11]]],
+    [118, 129.8, 130.0, 1, [[0, "2009-07-18 01:15", 11]]],
+    [67, 73.7, 74.0, 1, [[0, "2009-09-19 02:47", 11]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "%", 100.0, 0, 0],
+    [0, "%", 101.52, 1, 2],
+    [0, "%", 100.7, 3, 3],
+    [0, "%", 100.59, 4, 4],
+    [0, "%", 100.48, 5, 6],
+    [0, "%", 100.43, 7, 8],
+    [0, "%", 100.41, 9, 10]
+  ],
+  "charts": []
+}

@@ -1,0 +1,57 @@
+{
+  "item": "omegaton-m2200",
+  "markup": "TT+",
+  "sources": ["pea", "pe-player"],
+  "captures": [
+    "https://web.archive.org/web/20040807114142/http://www.pe-player.com:80/auction/list.php?sort=bytype",
+    "https://web.archive.org/web/20050130134118/http://www.pe-player.com:80/auction/list.php?sort=bytype",
+    "https://web.archive.org/web/20060411214237/http://peauction.com:80/catlisting.php?id=75",
+    "https://web.archive.org/web/20060614131754/http://peauction.com:80/catlisting.php?id=75",
+    "https://web.archive.org/web/20061107140851/http://peauction.com/catlisting.php?id=75",
+    "https://web.archive.org/web/20061225025824/http://peauction.com:80/catlisting.php?id=75",
+    "https://web.archive.org/web/20070807232416/http://peauction.com:80/itemlisting.php?id=1315",
+    "https://web.archive.org/web/20071012152204/http://peauction.com:80/catlisting.php?id=75",
+    "https://web.archive.org/web/20071212071249/http://peauction.com:80/catlisting.php?id=75",
+    "https://web.archive.org/web/20080610230754/http://www.peauction.com:80/catlisting.php?id=75",
+    "https://web.archive.org/web/20080801025500/http://www.peauction.com:80/catlisting.php?id=75",
+    "https://web.archive.org/web/20080817052333/http://www.peauction.com:80/catlisting.php?id=75",
+    "https://web.archive.org/web/20081022150514/http://www.peauction.com:80/catlisting.php?id=75",
+    "https://web.archive.org/web/20091002013525/http://www.peauction.com:80/catlisting.php?id=75",
+    "https://web.archive.org/web/20160801192325/http://peauction.com/itemlisting.php?id=1315"
+  ],
+  "sold": [
+    [1, 1.99, 10.0, 1, [[1, "2004-07-05 19:50", 0]]],
+    [1, 1.99, 10.0, 1, [[1, "2004-10-23 02:32", 1]]],
+    [1, 2.0, 3.0, 1, [[0, "2005-10-29 08:32", 6]]],
+    [1, 1.99, 2.0, 1, [[0, "2005-11-08 22:47", 6]]],
+    [1, 2.0, 2.0, 1, [[0, "2006-03-05 18:54", 6]]],
+    [1, 1.94, 3.0, 2, [[0, "2006-05-08 17:03", 6]]],
+    [1, 2.0, 2.0, 1, [[0, "2006-11-09 08:27", 6]]],
+    [1, 1.99, 82.0, 1, [[0, "2007-11-14 14:43", 14]]],
+    [1, 1.99, 9.0, 7, [[0, "2008-06-19 16:15", 14]]],
+    [1, 1.99, 4.0, 2, [[0, "2008-06-29 00:30", 14]]],
+    [1, 2.0, 2.0, 1, [[0, "2008-09-26 14:13", 14]]]
+  ],
+  "unsold": [
+    [1, 1.99, 2.0, [[0, "2005-10-26 20:06", 6]]],
+    [1, 2.0, 199.0, [[0, "2005-10-29 19:13", 6]]],
+    [1, 2.0, 3.0, [[0, "2005-10-30 21:56", 6]]],
+    [1, 1.99, 9.0, [[0, "2005-10-31 14:26", 6]]],
+    [1, 1.85, 4.0, [[0, "2005-11-11 03:22", 6]]],
+    [1, 1.85, 4.0, [[0, "2005-11-19 23:12", 6]]],
+    [1, 2.0, 3.0, [[0, "2005-11-20 03:20", 6]]],
+    [1, 1.96, 3.0, [[0, "2005-12-07 21:12", 6]]],
+    [1, 1.69, 3.0, [[0, "2005-12-17 06:16", 6]]],
+    [1, 1.93, 3.0, [[0, "2005-12-20 11:25", 6]]],
+    [1, 1.99, 7.0, [[0, "2008-06-28 20:25", 14]]]
+  ],
+  "readings": [
+    [0, "TT+", 0.34, 2, 2],
+    [0, "TT+", 0.52, 3, 4],
+    [0, "TT+", 0.41, 5, 7],
+    [0, "TT+", 13.68, 8, 9],
+    [0, "TT+", 11.39, 10, 11],
+    [0, "TT+", 10.12, 12, 13]
+  ],
+  "charts": []
+}

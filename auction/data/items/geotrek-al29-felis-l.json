@@ -1,0 +1,18 @@
+{
+  "item": "geotrek-al29-felis-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20090802102235/http://www.peauction.com:80/catlisting.php?id=74",
+    "https://web.archive.org/web/20091002013520/http://www.peauction.com:80/catlisting.php?id=74",
+    "https://web.archive.org/web/20160801111945/http://peauction.com/itemlisting.php?id=6135"
+  ],
+  "sold": [
+    [1, 569.0, 2501.0, 11, [[0, "2008-08-03 20:07", 2]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "%", 439.54, 0, 1]
+  ],
+  "charts": []
+}

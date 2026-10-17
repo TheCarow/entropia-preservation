@@ -1,0 +1,22 @@
+{
+  "item": "high-grade-bearings-2",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20070806013557/http://peauction.com:80/itemlisting.php?id=2374",
+    "https://web.archive.org/web/20080411151059/http://www.peauction.com:80/catlisting.php?id=38",
+    "https://web.archive.org/web/20091002013226/http://www.peauction.com:80/catlisting.php?id=38",
+    "https://web.archive.org/web/20160801201432/http://peauction.com/itemlisting.php?id=2374"
+  ],
+  "sold": [
+    [18, 5.76, 6.0, 1, [[0, "2008-03-10 04:46", 3]]]
+  ],
+  "unsold": [
+    [100, 32.25, 3225.0, [[0, "2006-01-07 20:41", 0]]],
+    [18, 5.76, 6.0, [[0, "2008-02-04 15:47", 3]]]
+  ],
+  "readings": [
+    [0, "%", 104.17, 1, 2]
+  ],
+  "charts": []
+}

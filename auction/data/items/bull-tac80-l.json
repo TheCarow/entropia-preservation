@@ -1,0 +1,28 @@
+{
+  "item": "bull-tac80-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20070805002742/http://peauction.com:80/catlisting.php?id=12",
+    "https://web.archive.org/web/20080411150902/http://www.peauction.com:80/catlisting.php?id=12",
+    "https://web.archive.org/web/20080610174449/http://www.peauction.com:80/catlisting.php?id=12",
+    "https://web.archive.org/web/20080801024912/http://www.peauction.com:80/catlisting.php?id=12",
+    "https://web.archive.org/web/20080817052543/http://www.peauction.com:80/catlisting.php?id=12",
+    "https://web.archive.org/web/20081022150027/http://www.peauction.com:80/catlisting.php?id=12",
+    "https://web.archive.org/web/20090223042015/http://peauction.com:80/catlisting.php?id=12",
+    "https://web.archive.org/web/20090802101742/http://www.peauction.com:80/catlisting.php?id=12",
+    "https://web.archive.org/web/20091002013031/http://www.peauction.com:80/catlisting.php?id=12"
+  ],
+  "sold": [],
+  "unsold": [],
+  "readings": [
+    [0, "%", 502.68, 0, 1],
+    [0, "%", 339.14, 2, 2],
+    [0, "%", 319.79, 3, 4],
+    [0, "%", 278.25, 5, 5],
+    [0, "%", 291.55, 6, 6],
+    [0, "%", 293.99, 7, 7],
+    [0, "%", 295.97, 8, 8]
+  ],
+  "charts": []
+}

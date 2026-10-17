@@ -1,0 +1,38 @@
+{
+  "item": "paint-can-dark-crimson",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20080610222909/http://www.peauction.com:80/catlisting.php?id=64",
+    "https://web.archive.org/web/20080801025429/http://www.peauction.com:80/catlisting.php?id=64",
+    "https://web.archive.org/web/20080817053527/http://www.peauction.com:80/catlisting.php?id=64",
+    "https://web.archive.org/web/20081022150419/http://www.peauction.com:80/catlisting.php?id=64",
+    "https://web.archive.org/web/20090223042401/http://peauction.com:80/catlisting.php?id=64",
+    "https://web.archive.org/web/20090802102140/http://www.peauction.com:80/catlisting.php?id=64",
+    "https://web.archive.org/web/20091003145650/http://www.peauction.com:80/catlisting.php?id=64",
+    "https://web.archive.org/web/20160801183038/http://peauction.com/itemlisting.php?id=5953"
+  ],
+  "sold": [
+    [7, 7.7, 63.0, 26, [[0, "2008-05-26 17:08", 7]]],
+    [1, 1.1, 9.0, 1, [[0, "2008-05-27 17:58", 7]]],
+    [2, 2.2, 21.0, 2, [[0, "2008-05-31 06:34", 7]]],
+    [2, 2.2, 22.0, 1, [[0, "2008-06-22 16:05", 7]]],
+    [9, 9.9, 22.0, 3, [[0, "2008-06-28 16:00", 7]]],
+    [11, 12.1, 16.0, 2, [[0, "2008-07-29 14:42", 7]]],
+    [15, 16.5, 18.0, 2, [[0, "2008-10-09 22:43", 7]]],
+    [2, 2.2, 6.0, 3, [[0, "2009-01-25 19:03", 7]]],
+    [1, 1.1, 2.0, 1, [[0, "2009-02-28 18:19", 7]]],
+    [260, 286.0, 291.0, 6, [[0, "2009-05-14 08:31", 7]]],
+    [260, 286.0, 352.0, 12, [[0, "2009-05-14 08:46", 7]]],
+    [22, 24.2, 25.0, 1, [[0, "2009-06-21 20:26", 7]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 8.4, 0, 0],
+    [0, "TT+", 6.13, 1, 2],
+    [0, "TT+", 5.27, 3, 3],
+    [0, "TT+", 4.85, 4, 4],
+    [0, "TT+", 2.42, 5, 6]
+  ],
+  "charts": []
+}

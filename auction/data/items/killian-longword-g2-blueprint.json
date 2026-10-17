@@ -1,0 +1,14 @@
+{
+  "item": "killian-longword-g2-blueprint",
+  "markup": "TT+",
+  "sources": ["pe-player"],
+  "captures": [
+    "https://web.archive.org/web/20040807114142/http://www.pe-player.com:80/auction/list.php?sort=bytype"
+  ],
+  "sold": [
+    [1, 0.01, 51.0, 0, [[0, "2004-08-01 01:10", 0]]]
+  ],
+  "unsold": [],
+  "readings": [],
+  "charts": []
+}

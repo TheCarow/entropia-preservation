@@ -1,0 +1,44 @@
+{
+  "item": "hermes-gloves-f-l",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071007161354/http://www.peauction.com/catlisting.php?id=5",
+    "https://web.archive.org/web/20071012152004/http://peauction.com:80/catlisting.php?id=5",
+    "https://web.archive.org/web/20071111041212/http://www.peauction.com/itemlisting.php?id=4502",
+    "https://web.archive.org/web/20071212071045/http://peauction.com:80/catlisting.php?id=5",
+    "https://web.archive.org/web/20080210221258/http://www.peauction.com:80/catlisting.php?id=5",
+    "https://web.archive.org/web/20080411151156/http://www.peauction.com:80/catlisting.php?id=5",
+    "https://web.archive.org/web/20080610220605/http://www.peauction.com:80/catlisting.php?id=5",
+    "https://web.archive.org/web/20080801025358/http://www.peauction.com:80/catlisting.php?id=5",
+    "https://web.archive.org/web/20080817053439/http://www.peauction.com:80/catlisting.php?id=5",
+    "https://web.archive.org/web/20080818212902/http://www.peauction.com:80/catlisting.php?id=5",
+    "https://web.archive.org/web/20081022150313/http://www.peauction.com:80/catlisting.php?id=5",
+    "https://web.archive.org/web/20090223042253/http://peauction.com:80/catlisting.php?id=5",
+    "https://web.archive.org/web/20090802102036/http://www.peauction.com:80/catlisting.php?id=5",
+    "https://web.archive.org/web/20091002013322/http://www.peauction.com:80/catlisting.php?id=5"
+  ],
+  "sold": [
+    [1, 60.82, 162.0, 2, [[0, "2007-07-04 17:22", 2]]]
+  ],
+  "unsold": [
+    [1, 60.82, 1500.0, [[0, "2007-06-30 00:11", 2]]],
+    [1, 101.0, 701.0, [[0, "2007-09-23 02:05", 2]]],
+    [1, 101.0, 949.0, [[0, "2007-10-26 05:33", 2]]]
+  ],
+  "readings": [
+    [0, "TT+", 101.18, 0, 1],
+    [0, "TT+", 1157.92, 3, 3],
+    [0, "TT+", 961.18, 4, 4],
+    [0, "TT+", 807.37, 5, 5],
+    [0, "TT+", 762.19, 6, 6],
+    [0, "TT+", 790.1, 7, 7],
+    [0, "TT+", 785.68, 8, 8],
+    [0, "TT+", 568.35, 9, 9],
+    [0, "TT+", 515.98, 10, 10],
+    [0, "TT+", 284.27, 11, 11],
+    [0, "%", 415.26, 12, 12],
+    [0, "%", 397.23, 13, 13]
+  ],
+  "charts": []
+}

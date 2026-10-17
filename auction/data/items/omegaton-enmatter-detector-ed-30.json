@@ -1,0 +1,36 @@
+{
+  "item": "omegaton-enmatter-detector-ed-30",
+  "markup": "TT+",
+  "sources": ["pea", "pe-player"],
+  "captures": [
+    "https://web.archive.org/web/20050130134118/http://www.pe-player.com:80/auction/list.php?sort=bytype",
+    "https://web.archive.org/web/20070502022402/http://peauction.com:80/catlisting.php?id=67",
+    "https://web.archive.org/web/20070804000630/http://peauction.com:80/catlisting.php?id=67",
+    "https://web.archive.org/web/20071007160835/http://www.peauction.com/catlisting.php?id=67",
+    "https://web.archive.org/web/20071012152124/http://peauction.com:80/catlisting.php?id=67",
+    "https://web.archive.org/web/20071109171857/http://www.peauction.com/itemlisting.php?id=2262",
+    "https://web.archive.org/web/20071212071208/http://peauction.com:80/catlisting.php?id=67",
+    "https://web.archive.org/web/20091002013441/http://www.peauction.com:80/catlisting.php?id=67",
+    "https://web.archive.org/web/20160801184917/http://peauction.com/itemlisting.php?id=2262"
+  ],
+  "sold": [
+    [1, 39.79, 1040.0, 0, [[1, "2004-11-22 21:10", 0]]],
+    [1, 15.44, 17.0, 2, [[0, "2007-02-10 16:29", 5]]],
+    [1, 3.18, 8.0, 5, [[0, "2007-03-14 03:50", 5]]],
+    [1, 3.18, 8.0, 5, [[0, "2007-03-14 04:50", 8]]],
+    [1, 40.0, 111.0, 2, [[0, "2007-08-17 13:57", 5]]],
+    [1, 38.69, 86.0, 26, [[0, "2007-09-08 12:04", 5]]],
+    [1, 38.69, 87.0, 26, [[0, "2007-09-08 12:14", 5]]],
+    [1, 39.18, 90.0, 21, [[0, "2007-11-04 08:03", 5]]]
+  ],
+  "unsold": [
+    [1, 39.14, 250.0, [[0, "2005-12-18 22:55", 5]]],
+    [1, 39.18, 100.0, [[0, "2007-09-01 22:19", 5]]]
+  ],
+  "readings": [
+    [0, "TT+", 3.19, 1, 2],
+    [0, "TT+", 34.6, 3, 4],
+    [0, "TT+", 37.3, 6, 7]
+  ],
+  "charts": []
+}

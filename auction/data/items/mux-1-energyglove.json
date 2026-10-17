@@ -1,0 +1,61 @@
+{
+  "item": "mux-1-energyglove",
+  "markup": "TT+",
+  "sources": ["pea", "pe-player"],
+  "captures": [
+    "https://web.archive.org/web/20040807114142/http://www.pe-player.com:80/auction/list.php?sort=bytype",
+    "https://web.archive.org/web/20060614131730/http://peauction.com:80/catlisting.php?id=73",
+    "https://web.archive.org/web/20061107141325/http://peauction.com/catlisting.php?id=73",
+    "https://web.archive.org/web/20070803103357/http://peauction.com:80/catlisting.php?id=73",
+    "https://web.archive.org/web/20070807233747/http://peauction.com:80/itemlisting.php?id=1222",
+    "https://web.archive.org/web/20071012152154/http://peauction.com:80/catlisting.php?id=73",
+    "https://web.archive.org/web/20071212071239/http://peauction.com:80/catlisting.php?id=73",
+    "https://web.archive.org/web/20080210230058/http://www.peauction.com:80/catlisting.php?id=73",
+    "https://web.archive.org/web/20080411151349/http://www.peauction.com:80/catlisting.php?id=73",
+    "https://web.archive.org/web/20080610230545/http://www.peauction.com:80/catlisting.php?id=73",
+    "https://web.archive.org/web/20080801025455/http://www.peauction.com:80/catlisting.php?id=73",
+    "https://web.archive.org/web/20080818212954/http://www.peauction.com:80/catlisting.php?id=73",
+    "https://web.archive.org/web/20081022150504/http://www.peauction.com:80/catlisting.php?id=73",
+    "https://web.archive.org/web/20090223042441/http://peauction.com:80/catlisting.php?id=73",
+    "https://web.archive.org/web/20090802102213/http://www.peauction.com:80/catlisting.php?id=70",
+    "https://web.archive.org/web/20091002013458/http://www.peauction.com:80/catlisting.php?id=70",
+    "https://web.archive.org/web/20160801183225/http://peauction.com/itemlisting.php?id=1222"
+  ],
+  "sold": [
+    [1, 2.0, 20.0, 0, [[1, "2004-07-05 15:15", 0]]],
+    [1, 5.57, 9.0, 1, [[0, "2005-10-24 18:05", 4]]],
+    [1, 4.41, 12.0, 3, [[0, "2005-11-26 21:31", 4]]],
+    [1, 1.55, 14.0, 7, [[0, "2006-01-11 19:20", 4]]],
+    [1, 0.59, 25.0, 3, [[0, "2006-02-10 04:17", 4]]],
+    [1, 9.93, 11.0, 1, [[0, "2006-12-16 22:09", 4]]],
+    [1, 5.56, 26.0, 17, [[0, "2007-03-16 19:46", 4]]],
+    [1, 2.73, 3.0, 1, [[0, "2009-02-21 19:37", 16]]],
+    [1, 1.7, 2.0, 1, [[0, "2009-03-26 10:41", 16]]],
+    [1, 0.59, 2.0, 2, [[0, "2009-03-29 06:52", 16]]],
+    [1, 19.95, 20.0, 1, [[0, "2009-05-25 01:03", 16]]],
+    [1, 4.22, 5.0, 1, [[0, "2009-06-18 17:54", 16]]],
+    [1, 0.59, 3.0, 3, [[0, "2009-07-11 13:31", 16]]],
+    [1, 4.28, 6.0, 1, [[0, "2009-07-24 09:19", 16]]],
+    [1, 19.95, 22.0, 1, [[0, "2009-08-08 14:35", 16]]]
+  ],
+  "unsold": [
+    [1, 2.01, 19.0, [[0, "2005-11-17 00:24", 4]]],
+    [1, 1.55, 19.0, [[0, "2005-11-26 06:42", 4]]],
+    [1, 19.95, 50.0, [[0, "2006-03-10 18:28", 4]]],
+    [1, 4.78, 15.0, [[0, "2006-10-21 19:56", 4]]]
+  ],
+  "readings": [
+    [0, "TT+", 11.97, 1, 2],
+    [0, "TT+", 11.57, 3, 5],
+    [0, "TT+", 10.72, 6, 6],
+    [0, "TT+", 11.65, 7, 7],
+    [0, "TT+", 11.74, 8, 8],
+    [0, "TT+", 10.08, 9, 9],
+    [0, "TT+", 7.05, 10, 11],
+    [0, "TT+", 2.82, 12, 12],
+    [0, "TT+", 2.14, 13, 13],
+    [0, "TT+", 1.35, 14, 14],
+    [0, "TT+", 1.38, 15, 15]
+  ],
+  "charts": []
+}

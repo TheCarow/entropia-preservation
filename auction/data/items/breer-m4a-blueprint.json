@@ -1,0 +1,18 @@
+{
+  "item": "breer-m4a-blueprint",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20070502133511/http://peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20091002013119/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20160801123654/http://peauction.com/itemlisting.php?id=3719"
+  ],
+  "sold": [
+    [1, 0.01, 2555.0, 38, [[0, "2007-02-10 16:29", 2]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 2554.99, 0, 1]
+  ],
+  "charts": []
+}

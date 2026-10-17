@@ -1,0 +1,53 @@
+{
+  "item": "adapted-vivo-t15-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20070803104832/http://peauction.com:80/catlisting.php?id=66",
+    "https://web.archive.org/web/20071007161000/http://www.peauction.com/catlisting.php?id=66",
+    "https://web.archive.org/web/20071012152119/http://peauction.com:80/catlisting.php?id=66",
+    "https://web.archive.org/web/20071110144228/http://www.peauction.com/itemlisting.php?id=4357",
+    "https://web.archive.org/web/20071110144247/http://www.peauction.com/chart2.php?id=4357&dtype=1",
+    "https://web.archive.org/web/20071212071204/http://peauction.com:80/catlisting.php?id=66",
+    "https://web.archive.org/web/20080409174816/http://www.peauction.com:80/itemlisting.php?item=Adapted+Vivo+T15+(L)",
+    "https://web.archive.org/web/20080610174515/http://www.peauction.com:80/catlisting.php?id=66",
+    "https://web.archive.org/web/20080801025435/http://www.peauction.com:80/catlisting.php?id=66",
+    "https://web.archive.org/web/20081022150429/http://www.peauction.com:80/catlisting.php?id=66",
+    "https://web.archive.org/web/20090223042411/http://peauction.com:80/catlisting.php?id=66",
+    "https://web.archive.org/web/20090802102152/http://www.peauction.com:80/catlisting.php?id=66",
+    "https://web.archive.org/web/20091002013436/http://www.peauction.com:80/catlisting.php?id=66",
+    "https://web.archive.org/web/20160801124732/http://peauction.com/itemlisting.php?id=4357"
+  ],
+  "sold": [
+    [1, 72.67, 105.0, 9, [[0, "2007-06-14 19:31", 3]]],
+    [1, 60.64, 94.0, 1, [[0, "2007-06-28 18:51", 3]]],
+    [1, 72.67, 80.0, 5, [[0, "2007-08-15 00:42", 3]]],
+    [1, 72.67, 111.0, 3, [[0, "2007-09-26 12:40", 3]]],
+    [1, 16.03, 18.0, 2, [[0, "2007-10-12 11:03", 3]]],
+    [1, 54.33, 66.0, 12, [[0, "2007-12-11 19:13", 6]]],
+    [1, 72.67, 110.0, 8, [[0, "2008-07-04 19:20", 13]]],
+    [1, 72.67, 111.0, 10, [[0, "2008-07-04 19:20", 13]]],
+    [1, 72.67, 107.0, 21, [[0, "2008-07-16 20:57", 13]]],
+    [1, 72.67, 108.0, 9, [[0, "2009-01-22 20:53", 13]]],
+    [1, 72.68, 98.0, 4, [[0, "2009-02-26 23:04", 13]]],
+    [1, 36.22, 41.0, 5, [[0, "2009-06-21 13:31", 13]]]
+  ],
+  "unsold": [
+    [1, 72.67, 110.0, [[0, "2007-07-28 21:01", 3]]],
+    [1, 72.67, 134.0, [[0, "2007-11-03 23:33", 3]]],
+    [1, 72.67, 132.0, [[0, "2007-11-17 07:26", 6]]],
+    [1, 42.62, 60.0, [[0, "2007-12-11 21:08", 6]]]
+  ],
+  "readings": [
+    [0, "%", 149.75, 0, 0],
+    [0, "%", 140.58, 1, 1],
+    [0, "%", 134.92, 2, 2],
+    [0, "%", 132.68, 5, 7],
+    [0, "%", 138.61, 8, 9],
+    [0, "%", 139.61, 10, 10],
+    [0, "%", 134.46, 11, 12]
+  ],
+  "charts": [
+    [1, 4, "4357-1-20071110144247.png"]
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "item": "samurai-thigh-guards-m",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20060721093932/http://www.peauction.com:80/catlisting.php?id=9",
+    "https://web.archive.org/web/20070107053949/http://peauction.com:80/catlisting.php?id=9",
+    "https://web.archive.org/web/20070805054701/http://peauction.com:80/catlisting.php?id=9",
+    "https://web.archive.org/web/20071008003640/http://www.peauction.com/catlisting.php?id=9",
+    "https://web.archive.org/web/20081022150550/http://www.peauction.com:80/catlisting.php?id=9",
+    "https://web.archive.org/web/20090223042526/http://peauction.com:80/catlisting.php?id=9",
+    "https://web.archive.org/web/20090802102528/http://www.peauction.com:80/catlisting.php?id=9",
+    "https://web.archive.org/web/20091002013610/http://www.peauction.com:80/catlisting.php?id=9",
+    "https://web.archive.org/web/20160801124131/http://peauction.com/itemlisting.php?id=2971"
+  ],
+  "sold": [
+    [1, 7.8, 58.0, 1, [[0, "2006-06-15 07:28", 8]]],
+    [1, 7.27, 19.0, 11, [[0, "2007-07-29 11:11", 8]]],
+    [1, 16.92, 19.0, 3, [[0, "2007-09-11 10:44", 8]]],
+    [1, 4.2, 8.0, 4, [[0, "2008-12-05 15:01", 8]]],
+    [1, 17.0, 38.0, 2, [[0, "2009-07-09 10:12", 8]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 50.2, 0, 1],
+    [0, "TT+", 30.97, 2, 2],
+    [0, "TT+", 21.34, 3, 4],
+    [0, "TT+", 16.95, 5, 5],
+    [0, "TT+", 17.76, 6, 7]
+  ],
+  "charts": []
+}

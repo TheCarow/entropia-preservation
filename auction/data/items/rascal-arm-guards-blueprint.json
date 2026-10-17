@@ -1,0 +1,20 @@
+{
+  "item": "rascal-arm-guards-blueprint",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20080801024921/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20091002013041/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20160801084529/http://peauction.com/itemlisting.php?id=3160"
+  ],
+  "sold": [
+    [1, 0.01, 501.0, 17, [[0, "2008-06-11 06:57", 2]]]
+  ],
+  "unsold": [
+    [1, 0.34, 5000.0, [[0, "2006-10-14 00:22", 2]]]
+  ],
+  "readings": [
+    [0, "TT+", 500.99, 0, 1]
+  ],
+  "charts": []
+}

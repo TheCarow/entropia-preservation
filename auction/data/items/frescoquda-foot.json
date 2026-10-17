@@ -1,0 +1,20 @@
+{
+  "item": "frescoquda-foot",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20090802102041/http://www.peauction.com:80/catlisting.php?id=51",
+    "https://web.archive.org/web/20091002013327/http://www.peauction.com:80/catlisting.php?id=51",
+    "https://web.archive.org/web/20160801205350/http://peauction.com/itemlisting.php?id=6101"
+  ],
+  "sold": [
+    [1, 17.6, 63107.0, 61, [[0, "2008-07-08 23:01", 2]]]
+  ],
+  "unsold": [
+    [1, 17.6, 15000.0, [[0, "2009-02-22 16:09", 2]]]
+  ],
+  "readings": [
+    [0, "%", 358562.0, 0, 1]
+  ],
+  "charts": []
+}

@@ -1,0 +1,14 @@
+{
+  "item": "beginner-blueprints-armor",
+  "markup": "TT+",
+  "sources": ["pe-player"],
+  "captures": [
+    "https://web.archive.org/web/20040807114142/http://www.pe-player.com:80/auction/list.php?sort=bytype"
+  ],
+  "sold": [
+    [1, 0.1, 160.0, 0, [[0, "2004-07-31 17:00", 0]]]
+  ],
+  "unsold": [],
+  "readings": [],
+  "charts": []
+}

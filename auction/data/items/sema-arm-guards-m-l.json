@@ -1,0 +1,36 @@
+{
+  "item": "sema-arm-guards-m-l",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071006171149/http://www.peauction.com/catlisting.php?id=3",
+    "https://web.archive.org/web/20071009222530/http://www.peauction.com/itemlisting.php?id=3550",
+    "https://web.archive.org/web/20080210212348/http://www.peauction.com:80/catlisting.php?id=3",
+    "https://web.archive.org/web/20080411151012/http://www.peauction.com:80/catlisting.php?id=3",
+    "https://web.archive.org/web/20090223042118/http://peauction.com:80/catlisting.php?id=3",
+    "https://web.archive.org/web/20090802101850/http://www.peauction.com:80/catlisting.php?id=3",
+    "https://web.archive.org/web/20091002013141/http://www.peauction.com:80/catlisting.php?id=3",
+    "https://web.archive.org/web/20160801191400/http://peauction.com/itemlisting.php?id=3550"
+  ],
+  "sold": [
+    [1, 72.5, 102.0, 1, [[0, "2007-07-25 22:33", 1]]],
+    [1, 59.76, 62.0, 3, [[0, "2008-03-30 02:13", 7]]]
+  ],
+  "unsold": [
+    [1, 72.5, 217.0, [[0, "2006-12-22 12:02", 1]]],
+    [1, 72.5, 123.0, [[0, "2007-12-02 17:01", 7]]],
+    [1, 47.65, 73.0, [[0, "2008-01-07 05:24", 7]]],
+    [1, 72.5, 100.0, [[0, "2008-05-31 19:01", 7]]],
+    [1, 72.5, 100.0, [[0, "2008-05-31 19:04", 7]]],
+    [1, 27.89, 38.0, [[0, "2008-12-02 02:31", 7]]],
+    [1, 72.24, 95.0, [[0, "2008-12-17 16:42", 7]]],
+    [1, 63.62, 69.0, [[0, "2009-03-29 17:07", 7]]],
+    [1, 63.62, 67.0, [[0, "2009-04-05 18:13", 7]]]
+  ],
+  "readings": [
+    [0, "TT+", 29.5, 0, 2],
+    [0, "TT+", 15.87, 3, 4],
+    [0, "%", 122.22, 5, 6]
+  ],
+  "charts": []
+}

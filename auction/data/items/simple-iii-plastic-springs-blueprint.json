@@ -1,0 +1,28 @@
+{
+  "item": "simple-iii-plastic-springs-blueprint",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071008003836/http://www.peauction.com/catlisting.php?id=21",
+    "https://web.archive.org/web/20071012151744/http://peauction.com:80/catlisting.php?id=21",
+    "https://web.archive.org/web/20071212065917/http://peauction.com:80/catlisting.php?id=21",
+    "https://web.archive.org/web/20080210210017/http://www.peauction.com:80/catlisting.php?id=21",
+    "https://web.archive.org/web/20080817052559/http://www.peauction.com:80/catlisting.php?id=21",
+    "https://web.archive.org/web/20081022150052/http://www.peauction.com:80/catlisting.php?id=21",
+    "https://web.archive.org/web/20090223042037/http://peauction.com:80/catlisting.php?id=21",
+    "https://web.archive.org/web/20090802101809/http://www.peauction.com:80/catlisting.php?id=21",
+    "https://web.archive.org/web/20091002013059/http://www.peauction.com:80/catlisting.php?id=21"
+  ],
+  "sold": [],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 83.32, 0, 1],
+    [0, "TT+", 187.49, 2, 2],
+    [0, "TT+", 193.99, 3, 4],
+    [0, "TT+", 418.19, 5, 5],
+    [0, "TT+", 581.42, 6, 6],
+    [0, "TT+", 623.57, 7, 7],
+    [0, "TT+", 633.42, 8, 8]
+  ],
+  "charts": []
+}

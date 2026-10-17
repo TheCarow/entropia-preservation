@@ -237,6 +237,36 @@ function madeWithHTML(item) {
     + `<td class="v"><a href="#${esc(blueprint.id)}">${esc(name)}</a></td></tr>`).join("");
 }
 
+// The auctions players recorded of an item, counted from its file on the Auction page (../auction/data/items/), with a
+// link to them there.
+const AUCTIONS = path.join(SITE, "auction", "data", "items");
+const auctions = new Map(fs.existsSync(AUCTIONS) ? fs.readdirSync(AUCTIONS).filter((f) => f.endsWith(".json")).map((f) => {
+  const data = JSON.parse(fs.readFileSync(path.join(AUCTIONS, f), "utf8"));
+  return [data.item, [data.sold.length, data.unsold.length]];
+}) : []);
+function auctionHTML(item) {
+  const counts = auctions.get(item.id);
+  if (!counts) return "";
+  const [sold, unsold] = counts;
+  const text = [`${sold.toLocaleString("en")} ${sold === 1 ? "sale" : "sales"}`, unsold ? `${unsold.toLocaleString("en")} unsold` : ""].filter(Boolean).join(", ");
+  return `<tr><th scope="row">Auction</th><td class="q"></td><td class="v"><a href="../auction/#${esc(item.id)}">${esc(text)}</a></td></tr>`;
+}
+
+// The Hall of Fame loots players recorded of the item, a mined ore or enmatter, oldest first.
+const hallOf = new Map();
+for (const r of P.hall.records) {
+  if (r.item) hallOf.set(r.item, [...(hallOf.get(r.item) || []), r]);
+}
+for (const r of P.hall.records) {
+  if (r.item && !byId.has(r.item)) problems.push(`halloffame/data/records.json: a record names item ${JSON.stringify(r.item)}, which no category holds`);
+}
+function hallHTML(item) {
+  const records = hallOf.get(item.id) || [];
+  if (!records.length) return "";
+  return `<tr><th scope="row">Globals</th><td class="q"></td><td class="v"><a href="../halloffame/?i=${esc(item.id)}">${records.length.toLocaleString("en")} ${records.length === 1 ? "record" : "records"} on the Hall of Fame page</a></td></tr>`
+    + P.hallRows(records.filter((r) => r.kind === "hof"), () => "");
+}
+
 // The creatures an item was looted from, one row each in the stats table's columns: the creature, with the sources of
 // every loot entry of the creature that names the item, and the VUs they recorded it in, behind its question mark.
 function dropsHTML(item) {
@@ -267,7 +297,7 @@ function itemHTML(category, item) {
   const set = pieceSet.get(item.id);
   const description = texts.length ? [{label: "Description", entries: texts.map((d) => ({html: esc(d.text), sources: d.sources}))}] : [];
   const pictured = P.mediaLink([item.name, ...(item.names || []).map((n) => n.name), ...(item.also || [])], set ? [`${set.name} Armor`] : []);
-  const more = pictured + P.statsHTML(mergeStats(set && set.stats, item.stats), category.key, {first: description, last: madeWithHTML(item) + dropsHTML(item)});
+  const more = pictured + P.statsHTML(mergeStats(set && set.stats, item.stats), category.key, {first: description, last: madeWithHTML(item) + auctionHTML(item) + hallHTML(item) + dropsHTML(item)});
   return `<li class="item${more ? " has-more" : ""}" id="${esc(item.id)}" data-cat="${category.key}" data-type="${esc(item.type)}"${range}${dated} data-text="${esc(text)}"${item.unused ? " data-unused" : ""}>`
     + iconHTML(item.icon)
     + `<span class="i-name-cell"><span class="i-name">${esc(shown)}</span></span><span class="i-type">${esc(item.type)}</span>`

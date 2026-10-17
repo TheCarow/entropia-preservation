@@ -1,0 +1,23 @@
+{
+  "item": "solir-thigh-guards-l-blueprint-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20090802101753/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20091002013041/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20160801085137/http://peauction.com/itemlisting.php?id=5058"
+  ],
+  "sold": [
+    [1, 0.22, 46.0, 21, [[0, "2007-11-06 15:13", 2]]],
+    [1, 0.01, 6.0, 6, [[0, "2008-11-02 01:35", 2]]]
+  ],
+  "unsold": [
+    [1, 0.02, 95.0, [[0, "2008-05-15 09:23", 2]]],
+    [1, 0.01, 50.0, [[0, "2008-11-17 14:00", 2]]],
+    [1, 0.2, 301.0, [[0, "2009-05-20 18:22", 2]]]
+  ],
+  "readings": [
+    [0, "%", 40454.6, 0, 1]
+  ],
+  "charts": []
+}

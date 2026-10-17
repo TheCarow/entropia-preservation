@@ -1,0 +1,60 @@
+{
+  "item": "argonaut-fang",
+  "markup": "%",
+  "sources": ["pea", "pe-player"],
+  "captures": [
+    "https://web.archive.org/web/20041010022429/http://www.pe-player.com:80/auction/list.php?sort=bytype",
+    "https://web.archive.org/web/20070419230732/http://peauction.com:80/itemlisting.php?id=2259",
+    "https://web.archive.org/web/20070807161242/http://peauction.com:80/catlisting.php?id=51",
+    "https://web.archive.org/web/20071012152008/http://peauction.com:80/catlisting.php?id=51",
+    "https://web.archive.org/web/20071212071050/http://peauction.com:80/catlisting.php?id=51",
+    "https://web.archive.org/web/20080210221303/http://www.peauction.com:80/catlisting.php?id=51",
+    "https://web.archive.org/web/20080411151201/http://www.peauction.com:80/catlisting.php?id=51",
+    "https://web.archive.org/web/20080610220610/http://www.peauction.com:80/catlisting.php?id=51",
+    "https://web.archive.org/web/20080801024445/http://www.peauction.com:80/catlisting.php?id=51",
+    "https://web.archive.org/web/20080817052238/http://www.peauction.com:80/catlisting.php?id=51",
+    "https://web.archive.org/web/20081022150318/http://www.peauction.com:80/catlisting.php?id=51",
+    "https://web.archive.org/web/20090223042258/http://peauction.com:80/catlisting.php?id=51",
+    "https://web.archive.org/web/20091002013327/http://www.peauction.com:80/catlisting.php?id=51",
+    "https://web.archive.org/web/20160802005639/http://peauction.com/itemlisting.php?id=2259"
+  ],
+  "sold": [
+    [1, 0.02, 100.0, 0, [[1, "2004-09-13 04:00", 0]]],
+    [1, 0.02, 500.0, 1, [[0, "2008-04-10 18:43", 13]]],
+    [1, 0.02, 200.0, 1, [[0, "2008-05-26 19:28", 13]]],
+    [1, 0.02, 380.0, 5, [[0, "2008-06-03 03:43", 13]]],
+    [1, 0.02, 355.0, 2, [[0, "2008-06-10 12:52", 13]]],
+    [1, 0.02, 328.0, 4, [[0, "2008-06-11 13:00", 13]]],
+    [1, 0.02, 321.0, 2, [[0, "2008-06-16 14:34", 13]]],
+    [1, 0.02, 322.0, 3, [[0, "2008-06-22 15:15", 13]]],
+    [1, 0.02, 300.0, 15, [[0, "2008-06-29 15:50", 13]]],
+    [1, 0.02, 321.0, 9, [[0, "2008-07-06 17:31", 13]]],
+    [1, 0.02, 450.0, 2, [[0, "2008-08-07 12:48", 13]]],
+    [1, 0.02, 401.0, 2, [[0, "2008-09-04 09:45", 13]]],
+    [1, 0.02, 400.0, 1, [[0, "2008-09-11 15:32", 13]]],
+    [1, 0.02, 114.0, 5, [[0, "2008-10-12 18:33", 13]]],
+    [1, 0.02, 1000.0, 1, [[0, "2009-01-06 11:22", 13]]]
+  ],
+  "unsold": [
+    [1, 0.02, 99.0, [[0, "2005-12-18 16:28", 1]]],
+    [1, 0.02, 401.0, [[0, "2006-03-16 13:49", 1]]],
+    [1, 0.02, 501.0, [[0, "2006-03-27 20:28", 1]]],
+    [2, 0.04, 301.0, [[0, "2006-04-28 22:57", 1]]],
+    [1, 0.02, 501.0, [[0, "2006-05-19 09:44", 1]]],
+    [1, 0.02, 501.0, [[0, "2006-06-18 13:13", 1]]],
+    [1, 0.02, 40.0, [[0, "2007-03-22 12:39", 1]]]
+  ],
+  "readings": [
+    [0, "%", 1076670.0, 2, 2],
+    [0, "%", 2444500.0, 3, 3],
+    [0, "%", 2484500.0, 4, 4],
+    [0, "%", 2678500.0, 5, 5],
+    [0, "%", 2644000.0, 6, 6],
+    [0, "%", 2563500.0, 7, 7],
+    [0, "%", 1763500.0, 8, 8],
+    [0, "%", 1738500.0, 9, 9],
+    [0, "%", 1656000.0, 10, 10],
+    [0, "%", 1978500.0, 11, 12]
+  ],
+  "charts": []
+}

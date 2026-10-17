@@ -1,0 +1,28 @@
+{
+  "item": "ziplex-z15-oreseeker-blueprint-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20070805183422/http://peauction.com:80/catlisting.php?id=24",
+    "https://web.archive.org/web/20071108030624/http://www.peauction.com/itemlisting.php?id=3878",
+    "https://web.archive.org/web/20071108030646/http://www.peauction.com/chart2.php?id=3878&dtype=1",
+    "https://web.archive.org/web/20091002013114/http://www.peauction.com:80/catlisting.php?id=24",
+    "https://web.archive.org/web/20160801213612/http://peauction.com/itemlisting.php?id=3878"
+  ],
+  "sold": [
+    [1, 0.02, 18.0, 8, [[0, "2007-03-24 12:45", 1]]],
+    [1, 0.02, 18.0, 8, [[0, "2007-03-24 13:45", 4]]],
+    [1, 0.01, 12.0, 10, [[0, "2007-03-25 14:51", 1]]],
+    [1, 0.01, 12.0, 10, [[0, "2007-03-25 15:51", 4]]],
+    [1, 0.03, 46.0, 24, [[0, "2007-04-10 00:35", 1]]],
+    [1, 0.01, 16.0, 8, [[0, "2007-05-03 22:54", 1]]],
+    [1, 0.01, 20.0, 6, [[0, "2007-05-12 00:40", 1]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "%", 144667.0, 0, 3]
+  ],
+  "charts": [
+    [1, 2, "3878-1-20071108030646.png"]
+  ]
+}

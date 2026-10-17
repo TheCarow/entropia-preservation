@@ -1,0 +1,21 @@
+{
+  "item": "armor-plating-mark-5c-blueprint",
+  "markup": "TT+",
+  "sources": ["pea", "pe-player"],
+  "captures": [
+    "https://web.archive.org/web/20050130134118/http://www.pe-player.com:80/auction/list.php?sort=bytype",
+    "https://web.archive.org/web/20160801124608/http://peauction.com/itemlisting.php?id=3062"
+  ],
+  "sold": [
+    [1, 0.01, 599.0, 0, [[1, "2004-11-11 15:45", 0]]]
+  ],
+  "unsold": [
+    [1, 0.07, 5000.0, [[0, "2006-08-16 18:55", 1]]],
+    [1, 0.07, 5995.0, [[0, "2006-08-24 10:12", 1]]],
+    [1, 0.07, 4001.0, [[0, "2006-08-25 18:33", 1]]],
+    [1, 0.07, 3990.0, [[0, "2006-08-26 19:23", 1]]],
+    [1, 0.07, 3995.0, [[0, "2006-09-05 20:16", 1]]]
+  ],
+  "readings": [],
+  "charts": []
+}

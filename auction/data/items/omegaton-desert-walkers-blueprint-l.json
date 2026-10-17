@@ -1,0 +1,36 @@
+{
+  "item": "omegaton-desert-walkers-blueprint-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20061225024135/http://peauction.com:80/catlisting.php?id=23",
+    "https://web.archive.org/web/20071212065927/http://peauction.com:80/catlisting.php?id=23",
+    "https://web.archive.org/web/20080210212015/http://www.peauction.com:80/catlisting.php?id=23",
+    "https://web.archive.org/web/20080411150940/http://www.peauction.com:80/catlisting.php?id=23",
+    "https://web.archive.org/web/20091002013109/http://www.peauction.com:80/catlisting.php?id=23",
+    "https://web.archive.org/web/20160801184703/http://peauction.com/itemlisting.php?id=3316"
+  ],
+  "sold": [
+    [1, 0.73, 150.0, 8, [[0, "2006-11-09 05:31", 5]]],
+    [1, 0.14, 160.0, 19, [[0, "2006-11-29 06:39", 5]]],
+    [1, 0.42, 128.0, 8, [[0, "2008-01-09 01:48", 5]]],
+    [1, 0.4, 100.0, 44, [[0, "2008-01-31 21:33", 5]]],
+    [1, 0.4, 72.0, 3, [[0, "2008-02-04 20:02", 5]]],
+    [1, 0.07, 14.0, 10, [[0, "2008-03-05 10:45", 5]]]
+  ],
+  "unsold": [
+    [1, 0.43, 429.0, [[0, "2007-12-18 01:21", 5]]],
+    [1, 0.6, 231.0, [[0, "2008-01-19 08:29", 5]]],
+    [1, 0.54, 311.0, [[0, "2008-01-28 20:28", 5]]],
+    [1, 0.54, 245.0, [[0, "2008-02-02 09:51", 5]]],
+    [1, 0.35, 205.0, [[0, "2008-05-27 18:13", 5]]],
+    [1, 0.35, 199.0, [[0, "2008-05-29 02:53", 5]]],
+    [1, 0.35, 130.0, [[0, "2008-06-04 02:53", 5]]]
+  ],
+  "readings": [
+    [0, "%", 67416.8, 0, 1],
+    [0, "%", 41662.0, 2, 2],
+    [0, "%", 38051.6, 3, 4]
+  ],
+  "charts": []
+}

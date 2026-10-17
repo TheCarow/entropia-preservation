@@ -1,0 +1,38 @@
+{
+  "item": "kesmek-slo-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20070807162913/http://peauction.com:80/catlisting.php?id=72",
+    "https://web.archive.org/web/20071008003930/http://www.peauction.com/catlisting.php?id=72",
+    "https://web.archive.org/web/20071012152149/http://peauction.com:80/catlisting.php?id=72",
+    "https://web.archive.org/web/20071212071233/http://peauction.com:80/catlisting.php?id=72",
+    "https://web.archive.org/web/20080210224939/http://www.peauction.com:80/catlisting.php?id=72",
+    "https://web.archive.org/web/20080411151344/http://www.peauction.com:80/catlisting.php?id=72",
+    "https://web.archive.org/web/20080610222954/http://www.peauction.com:80/catlisting.php?id=72",
+    "https://web.archive.org/web/20080801025450/http://www.peauction.com:80/catlisting.php?id=72",
+    "https://web.archive.org/web/20080817052323/http://www.peauction.com:80/catlisting.php?id=72",
+    "https://web.archive.org/web/20080818212949/http://www.peauction.com:80/catlisting.php?id=72",
+    "https://web.archive.org/web/20081022150459/http://www.peauction.com:80/catlisting.php?id=72",
+    "https://web.archive.org/web/20090223042436/http://peauction.com:80/catlisting.php?id=72",
+    "https://web.archive.org/web/20090802102223/http://www.peauction.com:80/catlisting.php?id=72",
+    "https://web.archive.org/web/20091002013510/http://www.peauction.com:80/catlisting.php?id=72"
+  ],
+  "sold": [],
+  "unsold": [],
+  "readings": [
+    [0, "%", 107.13, 0, 0],
+    [0, "%", 106.84, 1, 2],
+    [0, "%", 104.13, 3, 3],
+    [0, "%", 111.17, 4, 4],
+    [0, "%", 102.4, 5, 5],
+    [0, "%", 102.37, 6, 6],
+    [0, "%", 103.23, 7, 8],
+    [0, "%", 103.45, 9, 9],
+    [0, "%", 103.37, 10, 10],
+    [0, "%", 102.55, 11, 11],
+    [0, "%", 102.14, 12, 12],
+    [0, "%", 101.35, 13, 13]
+  ],
+  "charts": []
+}

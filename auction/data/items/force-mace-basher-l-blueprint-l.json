@@ -1,0 +1,20 @@
+{
+  "item": "force-mace-basher-l-blueprint-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20090802101829/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20091002013119/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20160801124155/http://peauction.com/itemlisting.php?id=5553"
+  ],
+  "sold": [
+    [1, 0.03, 304.0, 10, [[0, "2008-01-13 04:19", 2]]],
+    [1, 0.03, 301.0, 27, [[0, "2008-02-06 00:37", 2]]],
+    [1, 0.01, 150.0, 30, [[0, "2008-09-09 01:02", 2]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "%", 1172220.0, 0, 1]
+  ],
+  "charts": []
+}

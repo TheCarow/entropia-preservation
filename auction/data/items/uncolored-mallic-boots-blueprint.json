@@ -1,0 +1,20 @@
+{
+  "item": "uncolored-mallic-boots-blueprint",
+  "markup": "TT+",
+  "sources": ["pea", "pe-player"],
+  "captures": [
+    "https://web.archive.org/web/20050130134118/http://www.pe-player.com:80/auction/list.php?sort=bytype",
+    "https://web.archive.org/web/20070803233147/http://peauction.com:80/catlisting.php?id=23",
+    "https://web.archive.org/web/20091002013109/http://www.peauction.com:80/catlisting.php?id=23",
+    "https://web.archive.org/web/20160801184445/http://peauction.com/itemlisting.php?id=4000"
+  ],
+  "sold": [
+    [1, 0.01, 201.0, 1, [[1, "2005-01-02 12:00", 0]]],
+    [1, 0.01, 2652.0, 32, [[0, "2007-05-27 19:01", 3]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 2651.99, 1, 2]
+  ],
+  "charts": []
+}

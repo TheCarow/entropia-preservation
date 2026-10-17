@@ -1,0 +1,21 @@
+{
+  "item": "cumbriz-texture",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20090802102025/http://www.peauction.com:80/catlisting.php?id=48",
+    "https://web.archive.org/web/20091002013312/http://www.peauction.com:80/catlisting.php?id=48",
+    "https://web.archive.org/web/20160801183357/http://peauction.com/itemlisting.php?id=5520"
+  ],
+  "sold": [
+    [471, 164.85, 171.0, 7, [[0, "2008-03-30 17:38", 2]]],
+    [75, 26.25, 27.0, 1, [[0, "2008-06-21 19:20", 2]]],
+    [200, 70.0, 74.0, 1, [[0, "2008-12-03 18:06", 2]]],
+    [141, 49.35, 51.0, 2, [[0, "2009-04-16 17:54", 2]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "%", 104.04, 0, 1]
+  ],
+  "charts": []
+}

@@ -1,0 +1,26 @@
+{
+  "item": "glitter-spray-white",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20090802102135/http://www.peauction.com:80/catlisting.php?id=63",
+    "https://web.archive.org/web/20091002013420/http://www.peauction.com:80/catlisting.php?id=63",
+    "https://web.archive.org/web/20091003150251/http://www.peauction.com:80/catlisting.php?id=63",
+    "https://web.archive.org/web/20160801174342/http://peauction.com/itemlisting.php?id=5811"
+  ],
+  "sold": [
+    [1, 17.0, 25.0, 9, [[0, "2008-03-31 13:28", 3]]],
+    [1, 17.0, 31.0, 4, [[0, "2008-08-02 02:27", 3]]],
+    [1, 17.0, 18.0, 1, [[0, "2008-12-08 13:36", 3]]],
+    [1, 17.0, 17.0, 1, [[0, "2009-07-05 16:50", 3]]],
+    [1, 17.0, 18.0, 1, [[0, "2009-09-04 19:56", 3]]]
+  ],
+  "unsold": [
+    [1, 17.0, 160.0, [[0, "2008-03-18 16:27", 3]]]
+  ],
+  "readings": [
+    [0, "TT+", 5.75, 0, 0],
+    [0, "TT+", 4.8, 1, 2]
+  ],
+  "charts": []
+}

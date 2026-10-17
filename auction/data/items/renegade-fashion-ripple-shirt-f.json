@@ -1,0 +1,26 @@
+{
+  "item": "renegade-fashion-ripple-shirt-f",
+  "markup": "TT+",
+  "sources": ["pea", "pe-player"],
+  "captures": [
+    "https://web.archive.org/web/20041010022429/http://www.pe-player.com:80/auction/list.php?sort=bytype",
+    "https://web.archive.org/web/20050914183945/http://www.pe-player.com:80/auction/history_info.php?item=Renegade+Fashion+Ripple+shirt+(F)",
+    "https://web.archive.org/web/20060216220948/http://www.peauction.com:80/catlisting.php?id=34",
+    "https://web.archive.org/web/20060614131030/http://peauction.com:80/catlisting.php?id=34",
+    "https://web.archive.org/web/20060805180055/http://peauction.com:80/catlisting.php?id=34",
+    "https://web.archive.org/web/20070810161800/http://peauction.com:80/itemlisting.php?id=551"
+  ],
+  "sold": [
+    [1, 4.13, 100.0, 0, [[1, "2004-08-10 18:20", 0]]],
+    [1, 8.0, 248.0, 0, [[1, "2005-07-28 21:35", 1]]],
+    [1, 8.0, 121.0, 1, [[0, "2005-10-18 11:57", 5]]],
+    [1, 1.78, 102.0, 3, [[0, "2006-02-16 23:26", 5]]],
+    [1, 2.61, 158.0, 26, [[0, "2007-08-08 10:37", 5]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 113.0, 2, 2],
+    [0, "TT+", 106.61, 3, 4]
+  ],
+  "charts": []
+}

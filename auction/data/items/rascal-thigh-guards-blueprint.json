@@ -1,0 +1,20 @@
+{
+  "item": "rascal-thigh-guards-blueprint",
+  "markup": "TT+",
+  "sources": ["pea", "pe-player"],
+  "captures": [
+    "https://web.archive.org/web/20050130134118/http://www.pe-player.com:80/auction/list.php?sort=bytype",
+    "https://web.archive.org/web/20061107141622/http://peauction.com/catlisting.php?id=18",
+    "https://web.archive.org/web/20091002013041/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20160801123524/http://peauction.com/itemlisting.php?id=3106"
+  ],
+  "sold": [
+    [1, 0.07, 101.0, 0, [[1, "2004-11-22 11:00", 0]]],
+    [1, 0.13, 3000.0, 1, [[0, "2006-09-15 18:14", 3]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 2999.87, 1, 2]
+  ],
+  "charts": []
+}

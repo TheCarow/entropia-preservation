@@ -1,0 +1,23 @@
+{
+  "item": "serum-thigh-guards-l-blueprint-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20090802101753/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20091002013041/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20160801075358/http://peauction.com/itemlisting.php?id=6071"
+  ],
+  "sold": [
+    [1, 0.06, 20.0, 1, [[0, "2008-06-21 19:05", 2]]],
+    [1, 0.01, 1.0, 1, [[0, "2008-07-08 17:56", 2]]],
+    [1, 0.06, 19.0, 9, [[0, "2008-08-12 18:34", 2]]],
+    [1, 0.03, 15.0, 3, [[0, "2008-10-01 20:33", 2]]],
+    [1, 0.02, 16.0, 4, [[0, "2008-12-21 16:37", 2]]],
+    [1, 0.1, 50.0, 2, [[0, "2008-12-22 16:32", 2]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "%", 42500.0, 0, 1]
+  ],
+  "charts": []
+}

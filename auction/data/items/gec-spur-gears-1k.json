@@ -1,0 +1,19 @@
+{
+  "item": "gec-spur-gears-1k",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071008003836/http://www.peauction.com/catlisting.php?id=21",
+    "https://web.archive.org/web/20080817052559/http://www.peauction.com:80/catlisting.php?id=21",
+    "https://web.archive.org/web/20090802101937/http://www.peauction.com:80/catlisting.php?id=38",
+    "https://web.archive.org/web/20091002013226/http://www.peauction.com:80/catlisting.php?id=38"
+  ],
+  "sold": [],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 0.01, 0, 1],
+    [0, "%", 101.3, 2, 2],
+    [0, "%", 102.25, 3, 3]
+  ],
+  "charts": []
+}

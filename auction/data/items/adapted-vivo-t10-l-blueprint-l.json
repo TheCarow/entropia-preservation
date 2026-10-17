@@ -1,0 +1,44 @@
+{
+  "item": "adapted-vivo-t10-l-blueprint-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071007160727/http://www.peauction.com/catlisting.php?id=24",
+    "https://web.archive.org/web/20071012151757/http://peauction.com:80/catlisting.php?id=24",
+    "https://web.archive.org/web/20071108180946/http://www.peauction.com/itemlisting.php?id=4578",
+    "https://web.archive.org/web/20071212065932/http://peauction.com:80/catlisting.php?id=24",
+    "https://web.archive.org/web/20080210212017/http://www.peauction.com:80/catlisting.php?id=24",
+    "https://web.archive.org/web/20080411150945/http://www.peauction.com:80/catlisting.php?id=24",
+    "https://web.archive.org/web/20080610213812/http://www.peauction.com:80/catlisting.php?id=24",
+    "https://web.archive.org/web/20080801024932/http://www.peauction.com:80/catlisting.php?id=24",
+    "https://web.archive.org/web/20081022150107/http://www.peauction.com:80/catlisting.php?id=24",
+    "https://web.archive.org/web/20090201053145/http://www.peauction.com:80/itemlisting.php?item=Adapted+Vivo+T10+(L)+blueprint+(L)",
+    "https://web.archive.org/web/20090223042052/http://peauction.com:80/catlisting.php?id=24",
+    "https://web.archive.org/web/20090802101823/http://www.peauction.com:80/catlisting.php?id=24",
+    "https://web.archive.org/web/20091002013114/http://www.peauction.com:80/catlisting.php?id=24"
+  ],
+  "sold": [
+    [1, 0.4, 203.0, 21, [[0, "2007-07-17 21:52", 2]]],
+    [1, 0.07, 105.0, 26, [[0, "2007-08-16 00:32", 2]]],
+    [1, 0.01, 21.0, 6, [[0, "2007-12-07 19:06", 9]]],
+    [1, 0.01, 7.0, 7, [[0, "2007-12-13 16:31", 9]]],
+    [1, 0.02, 24.0, 8, [[0, "2008-06-06 16:32", 9]]],
+    [1, 0.04, 47.0, 24, [[0, "2008-07-21 16:27", 9]]],
+    [1, 0.01, 12.0, 12, [[0, "2008-12-20 15:22", 9]]],
+    [1, 0.01, 12.0, 11, [[0, "2008-12-21 14:52", 9]]]
+  ],
+  "unsold": [
+    [1, 0.17, 400.0, [[0, "2009-01-26 13:03", 9]]],
+    [1, 0.01, 27.0, [[0, "2009-01-27 00:03", 9]]]
+  ],
+  "readings": [
+    [0, "%", 100375.0, 0, 1],
+    [0, "%", 136917.0, 3, 3],
+    [0, "%", 120188.0, 4, 5],
+    [0, "%", 120150.0, 6, 6],
+    [0, "%", 119708.0, 7, 8],
+    [0, "%", 119781.0, 10, 10],
+    [0, "%", 121825.0, 11, 12]
+  ],
+  "charts": []
+}

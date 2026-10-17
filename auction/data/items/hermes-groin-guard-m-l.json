@@ -1,0 +1,29 @@
+{
+  "item": "hermes-groin-guard-m-l",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071008003640/http://www.peauction.com/catlisting.php?id=9",
+    "https://web.archive.org/web/20071012152239/http://peauction.com:80/catlisting.php?id=9",
+    "https://web.archive.org/web/20071212071325/http://peauction.com:80/catlisting.php?id=9",
+    "https://web.archive.org/web/20080210230159/http://www.peauction.com:80/catlisting.php?id=9",
+    "https://web.archive.org/web/20080411151439/http://www.peauction.com:80/catlisting.php?id=9",
+    "https://web.archive.org/web/20080818213014/http://www.peauction.com:80/catlisting.php?id=9",
+    "https://web.archive.org/web/20081022150550/http://www.peauction.com:80/catlisting.php?id=9",
+    "https://web.archive.org/web/20090223042526/http://peauction.com:80/catlisting.php?id=9",
+    "https://web.archive.org/web/20090802102528/http://www.peauction.com:80/catlisting.php?id=9",
+    "https://web.archive.org/web/20091002013610/http://www.peauction.com:80/catlisting.php?id=9"
+  ],
+  "sold": [],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 630.2, 0, 1],
+    [0, "TT+", 726.4, 2, 2],
+    [0, "TT+", 689.4, 3, 3],
+    [0, "TT+", 639.08, 4, 5],
+    [0, "TT+", 600.93, 6, 6],
+    [0, "TT+", 413.68, 7, 7],
+    [0, "%", 799.78, 8, 9]
+  ],
+  "charts": []
+}

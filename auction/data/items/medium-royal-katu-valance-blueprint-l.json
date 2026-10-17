@@ -1,0 +1,47 @@
+{
+  "item": "medium-royal-katu-valance-blueprint-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20061220004122/http://peauction.com:80/catlisting.php?id=77",
+    "https://web.archive.org/web/20070610030855/http://peauction.com:80/catlisting.php?id=77",
+    "https://web.archive.org/web/20071012152214/http://peauction.com:80/catlisting.php?id=77",
+    "https://web.archive.org/web/20071110001829/http://www.peauction.com/itemlisting.php?id=3398",
+    "https://web.archive.org/web/20071212071259/http://peauction.com:80/catlisting.php?id=77",
+    "https://web.archive.org/web/20080610230804/http://www.peauction.com:80/catlisting.php?id=77",
+    "https://web.archive.org/web/20080801025505/http://www.peauction.com:80/catlisting.php?id=77",
+    "https://web.archive.org/web/20081022150525/http://www.peauction.com:80/catlisting.php?id=77",
+    "https://web.archive.org/web/20090223042501/http://peauction.com:80/catlisting.php?id=77",
+    "https://web.archive.org/web/20090802102248/http://www.peauction.com:80/catlisting.php?id=77",
+    "https://web.archive.org/web/20091002013535/http://www.peauction.com:80/catlisting.php?id=77",
+    "https://web.archive.org/web/20160801124338/http://peauction.com/itemlisting.php?id=3398"
+  ],
+  "sold": [
+    [1, 0.23, 53.0, 37, [[0, "2006-11-17 23:21", 3]]],
+    [1, 0.48, 8.0, 4, [[0, "2007-04-08 05:14", 3]]],
+    [1, 0.48, 15.0, 15, [[0, "2007-12-11 15:42", 11]]],
+    [1, 0.27, 34.0, 12, [[0, "2008-06-12 01:40", 11]]],
+    [1, 0.2, 5.0, 5, [[0, "2008-06-24 17:25", 11]]],
+    [1, 0.46, 13.0, 3, [[0, "2009-01-25 15:13", 11]]],
+    [1, 0.46, 10.0, 1, [[0, "2009-02-01 16:03", 11]]],
+    [1, 0.24, 3.0, 3, [[0, "2009-03-09 00:08", 11]]],
+    [1, 0.36, 5.0, 4, [[0, "2009-05-13 18:34", 11]]],
+    [1, 0.12, 1.0, 1, [[0, "2009-07-31 00:18", 11]]]
+  ],
+  "unsold": [
+    [1, 0.6, 60.0, [[0, "2007-06-08 00:08", 3]]],
+    [1, 0.05, 2.0, [[0, "2008-08-19 23:49", 11]]],
+    [1, 0.4, 12.0, [[0, "2008-11-04 21:00", 11]]],
+    [1, 0.27, 11.0, [[0, "2009-05-04 03:01", 11]]],
+    [1, 0.27, 6.0, [[0, "2009-07-12 10:14", 11]]]
+  ],
+  "readings": [
+    [0, "%", 23043.5, 0, 0],
+    [0, "%", 12355.1, 1, 2],
+    [0, "%", 9278.38, 4, 5],
+    [0, "%", 8585.55, 6, 7],
+    [0, "%", 6846.82, 8, 8],
+    [0, "%", 5140.0, 9, 10]
+  ],
+  "charts": []
+}

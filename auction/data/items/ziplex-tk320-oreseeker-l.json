@@ -1,0 +1,62 @@
+{
+  "item": "ziplex-tk320-oreseeker-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20070502022402/http://peauction.com:80/catlisting.php?id=67",
+    "https://web.archive.org/web/20070804000630/http://peauction.com:80/catlisting.php?id=67",
+    "https://web.archive.org/web/20071007160835/http://www.peauction.com/catlisting.php?id=67",
+    "https://web.archive.org/web/20071012152124/http://peauction.com:80/catlisting.php?id=67",
+    "https://web.archive.org/web/20071109091601/http://www.peauction.com/itemlisting.php?id=3946",
+    "https://web.archive.org/web/20071109091613/http://www.peauction.com/chart2.php?id=3946&dtype=1",
+    "https://web.archive.org/web/20071212071208/http://peauction.com:80/catlisting.php?id=67",
+    "https://web.archive.org/web/20080210224906/http://www.peauction.com:80/catlisting.php?id=67",
+    "https://web.archive.org/web/20080411151317/http://www.peauction.com:80/catlisting.php?id=67",
+    "https://web.archive.org/web/20080610222927/http://www.peauction.com:80/catlisting.php?id=67",
+    "https://web.archive.org/web/20080801025440/http://www.peauction.com:80/catlisting.php?id=67",
+    "https://web.archive.org/web/20080817052308/http://www.peauction.com:80/catlisting.php?id=67",
+    "https://web.archive.org/web/20080818212934/http://www.peauction.com:80/catlisting.php?id=67",
+    "https://web.archive.org/web/20081022150434/http://www.peauction.com:80/catlisting.php?id=67",
+    "https://web.archive.org/web/20090802102158/http://www.peauction.com:80/catlisting.php?id=67",
+    "https://web.archive.org/web/20091002013441/http://www.peauction.com:80/catlisting.php?id=67"
+  ],
+  "sold": [
+    [1, 311.0, 9311.0, 1, [[0, "2007-04-20 23:27", 4]]],
+    [1, 202.47, 4105.0, 44, [[0, "2007-04-28 20:35", 4]]],
+    [1, 202.47, 5458.0, 98, [[0, "2007-04-28 21:36", 4]]],
+    [1, 311.0, 6882.0, 1, [[0, "2007-05-23 09:37", 4]]],
+    [1, 311.0, 6250.0, 2, [[0, "2007-06-27 21:11", 4]]],
+    [1, 9.31, 11.0, 2, [[0, "2007-10-06 00:17", 4]]],
+    [1, 311.0, 6400.0, 13, [[0, "2007-11-06 03:57", 4]]]
+  ],
+  "unsold": [
+    [1, 311.0, 13000.0, [[0, "2007-04-28 02:39", 4]]],
+    [1, 311.0, 13000.0, [[0, "2007-04-28 03:29", 4]]],
+    [1, 311.0, 13000.0, [[0, "2007-05-06 02:25", 4]]],
+    [1, 311.0, 9579.0, [[0, "2007-05-16 05:14", 4]]],
+    [1, 311.0, 11482.0, [[0, "2007-05-28 09:55", 4]]],
+    [1, 311.0, 7911.0, [[0, "2007-06-07 12:48", 4]]],
+    [1, 311.0, 7770.0, [[0, "2007-06-23 11:46", 4]]],
+    [1, 311.0, 7770.0, [[0, "2007-06-24 08:36", 4]]],
+    [1, 9.31, 100.0, [[0, "2007-08-13 20:52", 4]]],
+    [1, 311.0, 6000.0, [[0, "2007-09-16 18:24", 4]]],
+    [1, 122.52, 2449.0, [[0, "2007-09-22 13:55", 4]]],
+    [1, 311.0, 6711.0, [[0, "2007-11-05 20:27", 4]]]
+  ],
+  "readings": [
+    [0, "%", 2572.35, 0, 0],
+    [0, "%", 2387.91, 1, 1],
+    [0, "%", 2009.62, 2, 3],
+    [0, "%", 2016.51, 6, 7],
+    [0, "%", 544.12, 8, 8],
+    [0, "%", 524.66, 9, 9],
+    [0, "%", 320.28, 10, 11],
+    [0, "%", 265.01, 12, 12],
+    [0, "%", 258.02, 13, 13],
+    [0, "%", 201.7, 14, 14],
+    [0, "%", 189.79, 15, 15]
+  ],
+  "charts": [
+    [1, 5, "3946-1-20071109091613.png"]
+  ]
+}

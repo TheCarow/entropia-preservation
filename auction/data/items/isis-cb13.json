@@ -1,0 +1,23 @@
+{
+  "item": "isis-cb13",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071007161922/http://www.peauction.com/catlisting.php?id=76",
+    "https://web.archive.org/web/20091002013530/http://www.peauction.com:80/catlisting.php?id=76",
+    "https://web.archive.org/web/20160801211029/http://peauction.com/itemlisting.php?id=4663"
+  ],
+  "sold": [
+    [1, 2534.66, 5069.0, 1, [[0, "2007-08-11 20:17", 2]]],
+    [1, 3894.88, 8937.0, 26, [[0, "2007-09-29 21:55", 2]]]
+  ],
+  "unsold": [
+    [1, 4190.06, 10001.0, [[0, "2008-04-01 16:33", 2]]],
+    [1, 4525.36, 7526.0, [[0, "2008-07-24 16:17", 2]]],
+    [1, 4432.08, 4933.0, [[0, "2009-03-07 07:31", 2]]]
+  ],
+  "readings": [
+    [0, "TT+", 3788.23, 0, 1]
+  ],
+  "charts": []
+}

@@ -1,0 +1,31 @@
+{
+  "item": "reinforced-sheet-metal",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20070615232602/http://peauction.com:80/itemlisting.php?id=2413",
+    "https://web.archive.org/web/20080210220508/http://www.peauction.com:80/catlisting.php?id=38",
+    "https://web.archive.org/web/20080411151059/http://www.peauction.com:80/catlisting.php?id=38",
+    "https://web.archive.org/web/20080610220510/http://www.peauction.com:80/catlisting.php?id=38",
+    "https://web.archive.org/web/20080817052223/http://www.peauction.com:80/catlisting.php?id=38",
+    "https://web.archive.org/web/20081022150218/http://www.peauction.com:80/catlisting.php?id=38",
+    "https://web.archive.org/web/20091002013226/http://www.peauction.com:80/catlisting.php?id=38",
+    "https://web.archive.org/web/20160801215819/http://peauction.com/itemlisting.php?id=2413"
+  ],
+  "sold": [
+    [121, 18.99, 26.0, 2, [[0, "2007-12-28 21:54", 7]]],
+    [76, 11.93, 14.0, 3, [[0, "2008-06-08 13:13", 7]]],
+    [61, 9.57, 10.0, 1, [[0, "2008-09-03 02:55", 7]]]
+  ],
+  "unsold": [
+    [24, 3.76, 44.0, [[0, "2006-01-20 18:45", 0]]],
+    [19, 2.98, 4.0, [[0, "2006-03-21 16:23", 0]]],
+    [9, 1.41, 2.0, [[0, "2007-06-10 17:26", 0]]]
+  ],
+  "readings": [
+    [0, "%", 136.91, 1, 2],
+    [0, "%", 129.37, 3, 4],
+    [0, "%", 123.49, 5, 6]
+  ],
+  "charts": []
+}

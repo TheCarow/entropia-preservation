@@ -1,0 +1,39 @@
+{
+  "item": "predator-thigh-guards-l-blueprint-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20070412213046/http://peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20070803140920/http://peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20071007162213/http://www.peauction.com/catlisting.php?id=18",
+    "https://web.archive.org/web/20071012151726/http://peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20071212065901/http://peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20080210210002/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20080411150913/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20080610174500/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20080801024921/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20080817052548/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20081022150037/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20090223042022/http://peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20090802101753/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20091002013041/http://www.peauction.com:80/catlisting.php?id=18"
+  ],
+  "sold": [],
+  "unsold": [],
+  "readings": [
+    [0, "%", 4069.68, 0, 0],
+    [0, "%", 2715.93, 1, 1],
+    [0, "%", 7188.89, 2, 3],
+    [0, "%", 6568.45, 4, 4],
+    [0, "%", 5071.48, 5, 5],
+    [0, "%", 5376.92, 6, 6],
+    [0, "%", 5543.59, 7, 7],
+    [0, "%", 7463.59, 8, 8],
+    [0, "%", 6275.62, 9, 9],
+    [0, "%", 4079.84, 10, 10],
+    [0, "%", 4208.13, 11, 11],
+    [0, "%", 3842.1, 12, 12],
+    [0, "%", 4099.24, 13, 13]
+  ],
+  "charts": []
+}

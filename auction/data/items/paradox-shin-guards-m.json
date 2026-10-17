@@ -1,0 +1,32 @@
+{
+  "item": "paradox-shin-guards-m",
+  "markup": "TT+",
+  "sources": ["pea", "pe-player"],
+  "captures": [
+    "https://web.archive.org/web/20040807114142/http://www.pe-player.com:80/auction/list.php?sort=bytype",
+    "https://web.archive.org/web/20070608192832/http://peauction.com:80/itemlisting.php?id=1060",
+    "https://web.archive.org/web/20070805003718/http://peauction.com:80/catlisting.php?id=8",
+    "https://web.archive.org/web/20090223042516/http://peauction.com:80/catlisting.php?id=8",
+    "https://web.archive.org/web/20090802102303/http://www.peauction.com:80/catlisting.php?id=8",
+    "https://web.archive.org/web/20091002013550/http://www.peauction.com:80/catlisting.php?id=8",
+    "https://web.archive.org/web/20160801091036/http://peauction.com/itemlisting.php?id=1060"
+  ],
+  "sold": [
+    [1, 130.0, 430.0, 0, [[1, "2004-07-09 23:21", 0]]],
+    [1, 120.88, 530.0, 24, [[0, "2007-01-21 10:44", 1]]],
+    [1, 126.51, 413.0, 18, [[0, "2009-04-26 19:19", 6]]]
+  ],
+  "unsold": [
+    [1, 129.96, 330.0, [[0, "2005-10-22 20:17", 1]]],
+    [1, 129.96, 430.0, [[0, "2005-10-30 03:50", 1]]],
+    [1, 61.23, 9062.0, [[0, "2006-04-30 02:40", 1]]],
+    [1, 127.18, 3128.0, [[0, "2006-07-14 09:09", 1]]],
+    [1, 124.78, 2925.0, [[0, "2006-07-31 00:36", 1]]],
+    [1, 129.92, 1221.0, [[0, "2006-11-08 05:32", 1]]]
+  ],
+  "readings": [
+    [0, "TT+", 409.12, 2, 3],
+    [0, "TT+", 347.81, 4, 5]
+  ],
+  "charts": []
+}

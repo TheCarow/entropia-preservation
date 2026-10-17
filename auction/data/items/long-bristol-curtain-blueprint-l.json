@@ -1,0 +1,18 @@
+{
+  "item": "long-bristol-curtain-blueprint-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20090802102248/http://www.peauction.com:80/catlisting.php?id=77",
+    "https://web.archive.org/web/20091002013535/http://www.peauction.com:80/catlisting.php?id=77",
+    "https://web.archive.org/web/20160801082657/http://peauction.com/itemlisting.php?id=6158"
+  ],
+  "sold": [
+    [1, 0.17, 8.0, 8, [[0, "2008-08-24 15:35", 2]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "%", 4705.88, 0, 1]
+  ],
+  "charts": []
+}

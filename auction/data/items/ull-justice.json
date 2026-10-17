@@ -1,0 +1,15 @@
+{
+  "item": "ull-justice",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20090802102235/http://www.peauction.com:80/catlisting.php?id=74",
+    "https://web.archive.org/web/20091002013520/http://www.peauction.com:80/catlisting.php?id=74"
+  ],
+  "sold": [],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 264.31, 0, 1]
+  ],
+  "charts": []
+}

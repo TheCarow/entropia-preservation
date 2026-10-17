@@ -1,0 +1,23 @@
+{
+  "item": "medium-abbey-curtain-blueprint-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20070807234215/http://peauction.com:80/catlisting.php?id=77",
+    "https://web.archive.org/web/20071110072920/http://www.peauction.com/itemlisting.php?id=4431",
+    "https://web.archive.org/web/20080817053558/http://www.peauction.com:80/catlisting.php?id=77",
+    "https://web.archive.org/web/20081022150525/http://www.peauction.com:80/catlisting.php?id=77",
+    "https://web.archive.org/web/20091002013535/http://www.peauction.com:80/catlisting.php?id=77",
+    "https://web.archive.org/web/20160801123314/http://peauction.com/itemlisting.php?id=4431"
+  ],
+  "sold": [
+    [1, 0.48, 7.0, 7, [[0, "2007-06-21 09:11", 1]]],
+    [1, 0.07, 3.0, 1, [[0, "2008-09-24 21:48", 5]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "%", 1458.33, 0, 2],
+    [0, "%", 2872.02, 3, 4]
+  ],
+  "charts": []
+}

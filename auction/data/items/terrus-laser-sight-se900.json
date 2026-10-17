@@ -1,0 +1,43 @@
+{
+  "item": "terrus-laser-sight-se900",
+  "markup": "TT+",
+  "sources": ["pea", "pe-player"],
+  "captures": [
+    "https://web.archive.org/web/20040807113837/http://www.pe-player.com:80/auction/list.php?sort=bidded&numrows=100",
+    "https://web.archive.org/web/20040807114142/http://www.pe-player.com:80/auction/list.php?sort=bytype",
+    "https://web.archive.org/web/20050130134118/http://www.pe-player.com:80/auction/list.php?sort=bytype",
+    "https://web.archive.org/web/20060216220757/http://www.peauction.com:80/catlisting.php?id=12",
+    "https://web.archive.org/web/20061107141633/http://peauction.com/catlisting.php?id=12",
+    "https://web.archive.org/web/20070105192126/http://peauction.com:80/catlisting.php?id=12",
+    "https://web.archive.org/web/20070808102542/http://peauction.com:80/itemlisting.php?id=1191",
+    "https://web.archive.org/web/20080817052543/http://www.peauction.com:80/catlisting.php?id=12",
+    "https://web.archive.org/web/20081022150027/http://www.peauction.com:80/catlisting.php?id=12",
+    "https://web.archive.org/web/20090223042015/http://peauction.com:80/catlisting.php?id=12",
+    "https://web.archive.org/web/20091002013031/http://www.peauction.com:80/catlisting.php?id=12",
+    "https://web.archive.org/web/20160802010855/http://peauction.com/itemlisting.php?id=1191"
+  ],
+  "sold": [
+    [1, 161.49, 362.0, 1, [[1, "2004-08-02 01:50", 1]]],
+    [1, 169.99, 320.0, 5, [[1, "2004-08-07 11:05", 0]]],
+    [1, 161.49, 362.0, 1, [[1, "2004-10-23 01:00", 2]]],
+    [1, 162.91, 411.0, 55, [[0, "2006-02-03 22:17", 6]]],
+    [1, 170.0, 550.0, 32, [[0, "2006-12-19 20:28", 6]]],
+    [1, 170.0, 1200.0, 47, [[0, "2008-09-28 21:28", 11]]],
+    [1, 170.0, 1170.0, 1, [[0, "2008-10-13 18:58", 11]]],
+    [1, 109.1, 1110.0, 1, [[0, "2008-11-19 17:51", 11]]],
+    [1, 110.67, 1111.0, 1, [[0, "2008-11-19 17:51", 11]]]
+  ],
+  "unsold": [
+    [1, 169.63, 390.0, [[0, "2005-10-24 02:44", 6]]],
+    [1, 90.44, 291.0, [[0, "2006-02-14 15:36", 6]]],
+    [1, 90.41, 300.0, [[0, "2006-02-16 16:27", 6]]],
+    [1, 90.41, 275.0, [[0, "2006-02-17 16:46", 6]]]
+  ],
+  "readings": [
+    [0, "TT+", 248.09, 3, 4],
+    [0, "TT+", 314.05, 5, 7],
+    [0, "TT+", 737.62, 8, 8],
+    [0, "TT+", 812.76, 9, 10]
+  ],
+  "charts": []
+}

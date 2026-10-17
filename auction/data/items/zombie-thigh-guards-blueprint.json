@@ -1,0 +1,46 @@
+{
+  "item": "zombie-thigh-guards-blueprint",
+  "markup": "TT+",
+  "sources": ["pea", "pe-player"],
+  "captures": [
+    "https://web.archive.org/web/20040807114142/http://www.pe-player.com:80/auction/list.php?sort=bytype",
+    "https://web.archive.org/web/20060216220804/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20060805173432/http://peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20061107141622/http://peauction.com/catlisting.php?id=18",
+    "https://web.archive.org/web/20070805000757/http://peauction.com:80/itemlisting.php?id=1702",
+    "https://web.archive.org/web/20080610174500/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20080801024921/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20091002013041/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20160801075130/http://peauction.com/itemlisting.php?id=1702"
+  ],
+  "sold": [
+    [1, 0.01, 79.0, 0, [[1, "2004-07-20 15:30", 0]]],
+    [1, 0.01, 35.0, 14, [[0, "2005-11-03 20:16", 4]]],
+    [1, 0.01, 64.0, 12, [[0, "2006-08-19 20:40", 4]]],
+    [1, 0.01, 176.0, 17, [[0, "2008-06-24 19:50", 8]]],
+    [1, 0.01, 165.0, 15, [[0, "2008-07-16 23:32", 8]]]
+  ],
+  "unsold": [
+    [1, 0.01, 201.0, [[0, "2005-11-03 21:58", 4]]],
+    [1, 0.01, 351.0, [[0, "2005-11-13 07:53", 4]]],
+    [1, 0.01, 201.0, [[0, "2005-12-05 05:23", 4]]],
+    [1, 0.01, 601.0, [[0, "2006-01-22 16:25", 4]]],
+    [1, 0.01, 501.0, [[0, "2006-03-05 23:03", 4]]],
+    [1, 0.01, 451.0, [[0, "2006-03-21 00:02", 4]]],
+    [1, 0.01, 401.0, [[0, "2006-03-21 13:07", 4]]],
+    [1, 0.01, 495.0, [[0, "2006-04-03 10:52", 4]]],
+    [1, 0.01, 521.0, [[0, "2006-04-26 00:36", 4]]],
+    [1, 0.01, 651.0, [[0, "2006-05-06 21:34", 4]]],
+    [1, 0.01, 301.0, [[0, "2006-06-10 14:01", 4]]],
+    [1, 0.01, 251.0, [[0, "2006-06-17 22:14", 4]]],
+    [1, 0.01, 405.0, [[0, "2006-07-13 23:28", 4]]],
+    [1, 0.01, 391.0, [[0, "2006-08-11 09:43", 4]]],
+    [1, 0.01, 275.0, [[0, "2006-08-27 21:09", 4]]]
+  ],
+  "readings": [
+    [0, "TT+", 34.99, 1, 2],
+    [0, "TT+", 49.49, 3, 5],
+    [0, "TT+", 109.99, 6, 7]
+  ],
+  "charts": []
+}

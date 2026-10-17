@@ -1,0 +1,24 @@
+{
+  "item": "bodyguard-shin-guards-m-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20081022150540/http://www.peauction.com:80/catlisting.php?id=8",
+    "https://web.archive.org/web/20090223042516/http://peauction.com:80/catlisting.php?id=8",
+    "https://web.archive.org/web/20090802102303/http://www.peauction.com:80/catlisting.php?id=8",
+    "https://web.archive.org/web/20091002013550/http://www.peauction.com:80/catlisting.php?id=8",
+    "https://web.archive.org/web/20160801124333/http://peauction.com/itemlisting.php?id=4708"
+  ],
+  "sold": [
+    [1, 4.5, 5.0, 1, [[0, "2008-08-30 16:00", 4]]],
+    [1, 4.5, 5.0, 1, [[0, "2008-10-21 14:19", 4]]],
+    [1, 1.17, 1.0, 1, [[0, "2008-11-04 09:05", 4]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 0.5, 0, 0],
+    [0, "TT+", 0.28, 1, 1],
+    [0, "%", 102.56, 2, 3]
+  ],
+  "charts": []
+}

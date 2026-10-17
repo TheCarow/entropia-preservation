@@ -1,0 +1,19 @@
+{
+  "item": "urban-nomad-desert-trousers-m",
+  "markup": "TT+",
+  "sources": ["pea", "pe-player"],
+  "captures": [
+    "https://web.archive.org/web/20041010022429/http://www.pe-player.com:80/auction/list.php?sort=bytype",
+    "https://web.archive.org/web/20070810163220/http://peauction.com:80/itemlisting.php?id=1464",
+    "https://web.archive.org/web/20160801073249/http://peauction.com/itemlisting.php?id=1464"
+  ],
+  "sold": [
+    [1, 6.5, 2000.0, 0, [[1, "2004-09-28 06:10", 0]]]
+  ],
+  "unsold": [
+    [1, 6.5, 999.0, [[0, "2005-10-31 02:53", 1]]],
+    [1, 6.5, 4007.0, [[0, "2008-06-08 18:37", 2]]]
+  ],
+  "readings": [],
+  "charts": []
+}

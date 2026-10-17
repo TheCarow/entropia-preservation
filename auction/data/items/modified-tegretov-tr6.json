@@ -1,0 +1,17 @@
+{
+  "item": "modified-tegretov-tr6",
+  "markup": "TT+",
+  "sources": ["pea", "pe-player"],
+  "captures": [
+    "https://web.archive.org/web/20050130134118/http://www.pe-player.com:80/auction/list.php?sort=bytype",
+    "https://web.archive.org/web/20070804063035/http://peauction.com:80/itemlisting.php?id=1172"
+  ],
+  "sold": [
+    [1, 5010.6, 45011.0, 0, [[1, "2004-11-15 00:45", 0]]]
+  ],
+  "unsold": [
+    [1, 2004.05, 30000.0, [[0, "2005-10-24 00:53", 1]]]
+  ],
+  "readings": [],
+  "charts": []
+}

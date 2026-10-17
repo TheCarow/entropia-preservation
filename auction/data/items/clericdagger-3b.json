@@ -1,0 +1,18 @@
+{
+  "item": "clericdagger-3b",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20080210224939/http://www.peauction.com:80/catlisting.php?id=72",
+    "https://web.archive.org/web/20091002013510/http://www.peauction.com:80/catlisting.php?id=72",
+    "https://web.archive.org/web/20160801073245/http://peauction.com/itemlisting.php?id=3088"
+  ],
+  "sold": [
+    [1, 27.55, 31.0, 4, [[0, "2008-02-09 23:27", 2]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 3.45, 0, 1]
+  ],
+  "charts": []
+}

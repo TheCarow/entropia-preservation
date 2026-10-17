@@ -1,0 +1,21 @@
+{
+  "item": "sema-harness-m",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20070105004542/http://peauction.com:80/catlisting.php?id=6",
+    "https://web.archive.org/web/20071107115800/http://www.peauction.com/itemlisting.php?id=3424",
+    "https://web.archive.org/web/20091002013404/http://www.peauction.com:80/catlisting.php?id=6"
+  ],
+  "sold": [
+    [1, 95.5, 126.0, 7, [[0, "2006-11-20 14:41", 1]]],
+    [1, 95.5, 225.0, 1, [[0, "2006-12-09 16:06", 1]]]
+  ],
+  "unsold": [
+    [1, 95.5, 381.0, [[0, "2006-12-16 15:58", 1]]]
+  ],
+  "readings": [
+    [0, "TT+", 80.0, 0, 2]
+  ],
+  "charts": []
+}

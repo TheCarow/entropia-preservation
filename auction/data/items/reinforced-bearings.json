@@ -1,0 +1,18 @@
+{
+  "item": "reinforced-bearings",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20090802101937/http://www.peauction.com:80/catlisting.php?id=38",
+    "https://web.archive.org/web/20091002013226/http://www.peauction.com:80/catlisting.php?id=38",
+    "https://web.archive.org/web/20160801213711/http://peauction.com/itemlisting.php?id=5562"
+  ],
+  "sold": [
+    [168, 33.6, 37.0, 4, [[0, "2008-01-19 09:04", 2]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "%", 110.12, 0, 1]
+  ],
+  "charts": []
+}

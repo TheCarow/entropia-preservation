@@ -1,0 +1,24 @@
+{
+  "item": "martial-shin-guards-f-l",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071008004017/http://www.peauction.com/catlisting.php?id=8",
+    "https://web.archive.org/web/20071212071315/http://peauction.com:80/catlisting.php?id=8",
+    "https://web.archive.org/web/20080210230149/http://www.peauction.com:80/catlisting.php?id=8",
+    "https://web.archive.org/web/20081022150540/http://www.peauction.com:80/catlisting.php?id=8",
+    "https://web.archive.org/web/20090223042516/http://peauction.com:80/catlisting.php?id=8",
+    "https://web.archive.org/web/20090802102303/http://www.peauction.com:80/catlisting.php?id=8",
+    "https://web.archive.org/web/20091002013550/http://www.peauction.com:80/catlisting.php?id=8"
+  ],
+  "sold": [],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 35.0, 0, 1],
+    [0, "TT+", 29.3, 2, 3],
+    [0, "TT+", 20.85, 4, 4],
+    [0, "%", 147.08, 5, 5],
+    [0, "%", 129.33, 6, 6]
+  ],
+  "charts": []
+}

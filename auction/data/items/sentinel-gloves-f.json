@@ -1,0 +1,20 @@
+{
+  "item": "sentinel-gloves-f",
+  "markup": "TT+",
+  "sources": ["pea", "pe-player"],
+  "captures": [
+    "https://web.archive.org/web/20050130134118/http://www.pe-player.com:80/auction/list.php?sort=bytype",
+    "https://web.archive.org/web/20071111105113/http://www.peauction.com/itemlisting.php?id=3071"
+  ],
+  "sold": [
+    [1, 64.0, 2564.0, 0, [[1, "2004-10-23 06:55", 0]]]
+  ],
+  "unsold": [
+    [1, 155.93, 9000.0, [[0, "2006-08-25 12:58", 1]]],
+    [1, 155.93, 9156.0, [[0, "2006-09-08 07:43", 1]]],
+    [1, 155.93, 9156.0, [[0, "2006-09-22 17:33", 1]]],
+    [1, 155.51, 7855.0, [[0, "2006-10-06 23:10", 1]]]
+  ],
+  "readings": [],
+  "charts": []
+}

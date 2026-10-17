@@ -1,0 +1,30 @@
+{
+  "item": "zombie-thigh-guards-m",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20060614130628/http://peauction.com:80/catlisting.php?id=9",
+    "https://web.archive.org/web/20060805173446/http://peauction.com:80/catlisting.php?id=9",
+    "https://web.archive.org/web/20061107141111/http://peauction.com/catlisting.php?id=9",
+    "https://web.archive.org/web/20070107053949/http://peauction.com:80/catlisting.php?id=9",
+    "https://web.archive.org/web/20070419210001/http://peauction.com:80/itemlisting.php?id=2862",
+    "https://web.archive.org/web/20070805054701/http://peauction.com:80/catlisting.php?id=9",
+    "https://web.archive.org/web/20091002013610/http://www.peauction.com:80/catlisting.php?id=9",
+    "https://web.archive.org/web/20160801124923/http://peauction.com/itemlisting.php?id=2862"
+  ],
+  "sold": [
+    [1, 9.23, 80.0, 1, [[0, "2006-04-05 04:57", 4]]],
+    [1, 31.69, 101.0, 32, [[0, "2006-09-28 18:50", 4]]],
+    [1, 38.56, 51.0, 3, [[0, "2007-03-29 23:13", 4]]],
+    [1, 38.56, 51.0, 3, [[0, "2007-03-30 00:13", 7]]]
+  ],
+  "unsold": [
+    [1, 37.06, 108.0, [[0, "2007-03-02 15:17", 4]]]
+  ],
+  "readings": [
+    [0, "TT+", 70.77, 0, 1],
+    [0, "TT+", 70.04, 2, 3],
+    [0, "TT+", 50.84, 5, 6]
+  ],
+  "charts": []
+}

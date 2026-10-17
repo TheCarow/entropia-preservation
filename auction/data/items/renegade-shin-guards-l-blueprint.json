@@ -1,0 +1,43 @@
+{
+  "item": "renegade-shin-guards-l-blueprint",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20070412213046/http://peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20070803140920/http://peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20071007162213/http://www.peauction.com/catlisting.php?id=18",
+    "https://web.archive.org/web/20071012151726/http://peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20071212065901/http://peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20080210210002/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20080411150913/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20080610174500/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20080801024921/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20090223042022/http://peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20090802101753/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20091002013041/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20160801092456/http://peauction.com/itemlisting.php?id=3447"
+  ],
+  "sold": [
+    [1, 0.01, 1.0, 1, [[0, "2008-07-01 23:50", 12]]],
+    [1, 0.01, 1.0, 1, [[0, "2008-12-13 07:16", 12]]],
+    [1, 0.01, 1.0, 1, [[0, "2009-03-22 00:34", 12]]],
+    [1, 0.01, 1.0, 1, [[0, "2009-04-04 21:56", 12]]],
+    [1, 0.01, 1.0, 1, [[0, "2009-04-05 13:17", 12]]],
+    [1, 0.01, 4.0, 4, [[0, "2009-04-23 13:11", 12]]],
+    [1, 0.01, 3.0, 1, [[0, "2009-06-25 23:12", 12]]],
+    [1, 0.01, 2.0, 2, [[0, "2009-07-04 14:45", 12]]],
+    [1, 0.01, 1.0, 1, [[0, "2009-09-09 14:42", 12]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "%", 14000.0, 0, 1],
+    [0, "%", 16000.0, 2, 3],
+    [0, "%", 15500.0, 4, 4],
+    [0, "%", 13500.0, 5, 6],
+    [0, "%", 12500.0, 7, 7],
+    [0, "%", 11500.0, 8, 9],
+    [0, "%", 18000.0, 10, 10],
+    [0, "%", 16000.0, 11, 11]
+  ],
+  "charts": []
+}

@@ -1,0 +1,24 @@
+{
+  "item": "predator-harness-f",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20070105004542/http://peauction.com:80/catlisting.php?id=6",
+    "https://web.archive.org/web/20071107190103/http://www.peauction.com/itemlisting.php?id=3386",
+    "https://web.archive.org/web/20091002013404/http://www.peauction.com:80/catlisting.php?id=6"
+  ],
+  "sold": [
+    [1, 40.0, 47.0, 3, [[0, "2006-11-17 20:51", 1]]],
+    [1, 40.0, 45.0, 6, [[0, "2006-12-09 21:06", 1]]]
+  ],
+  "unsold": [
+    [1, 40.0, 146.0, [[0, "2006-11-16 02:15", 1]]],
+    [1, 40.0, 190.0, [[0, "2006-12-07 19:08", 1]]],
+    [1, 40.0, 100.0, [[0, "2006-12-08 17:47", 1]]],
+    [1, 40.0, 100.0, [[0, "2006-12-15 16:30", 1]]]
+  ],
+  "readings": [
+    [0, "TT+", 6.0, 0, 2]
+  ],
+  "charts": []
+}

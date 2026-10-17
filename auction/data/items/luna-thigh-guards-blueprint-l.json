@@ -1,0 +1,18 @@
+{
+  "item": "luna-thigh-guards-blueprint-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20070412213046/http://peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20091002013041/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20160801085802/http://peauction.com/itemlisting.php?id=3452"
+  ],
+  "sold": [
+    [1, 0.09, 150.0, 24, [[0, "2006-11-25 21:53", 2]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "%", 166667.0, 0, 1]
+  ],
+  "charts": []
+}

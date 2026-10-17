@@ -1,0 +1,27 @@
+{
+  "item": "mourner-leather-texture",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20081022150303/http://www.peauction.com:80/catlisting.php?id=48",
+    "https://web.archive.org/web/20090223042243/http://peauction.com:80/catlisting.php?id=48",
+    "https://web.archive.org/web/20090802102025/http://www.peauction.com:80/catlisting.php?id=48",
+    "https://web.archive.org/web/20091002013312/http://www.peauction.com:80/catlisting.php?id=48",
+    "https://web.archive.org/web/20160801163816/http://peauction.com/itemlisting.php?id=5881"
+  ],
+  "sold": [
+    [2, 0.9, 7.0, 1, [[0, "2008-10-11 03:44", 4]]],
+    [11, 4.95, 6.0, 1, [[0, "2009-03-13 19:08", 4]]],
+    [119, 53.55, 108.0, 1, [[0, "2009-06-14 17:31", 4]]]
+  ],
+  "unsold": [
+    [27, 12.15, 100.0, [[0, "2008-11-30 06:36", 4]]],
+    [7, 3.15, 24.0, [[0, "2009-03-04 22:00", 4]]],
+    [11, 4.95, 40.0, [[0, "2009-03-06 17:44", 4]]]
+  ],
+  "readings": [
+    [0, "%", 777.78, 0, 1],
+    [0, "%", 203.7, 2, 3]
+  ],
+  "charts": []
+}

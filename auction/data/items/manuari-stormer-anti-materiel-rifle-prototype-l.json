@@ -1,0 +1,26 @@
+{
+  "item": "manuari-stormer-anti-materiel-rifle-prototype-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20090802102243/http://www.peauction.com:80/catlisting.php?id=76",
+    "https://web.archive.org/web/20091002013530/http://www.peauction.com:80/catlisting.php?id=76",
+    "https://web.archive.org/web/20160801195913/http://peauction.com/itemlisting.php?id=5725"
+  ],
+  "sold": [
+    [1, 14.0, 1333.0, 61, [[0, "2008-02-20 17:05", 2]]],
+    [1, 0.39, 220.0, 1, [[0, "2008-03-03 15:55", 2]]],
+    [1, 14.0, 1400.0, 1, [[0, "2008-03-21 18:43", 2]]],
+    [1, 0.42, 121.0, 2, [[0, "2008-06-28 08:25", 2]]],
+    [1, 0.42, 121.0, 7, [[0, "2008-08-07 07:43", 2]]],
+    [1, 0.42, 202.0, 2, [[0, "2009-06-09 15:47", 2]]]
+  ],
+  "unsold": [
+    [1, 0.39, 200.0, [[0, "2008-03-19 20:48", 2]]],
+    [1, 0.42, 501.0, [[0, "2008-05-29 20:53", 2]]]
+  ],
+  "readings": [
+    [0, "%", 30274.3, 0, 1]
+  ],
+  "charts": []
+}

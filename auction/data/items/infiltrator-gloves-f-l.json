@@ -1,0 +1,38 @@
+{
+  "item": "infiltrator-gloves-f-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071111041536/http://www.peauction.com/itemlisting.php?id=4739",
+    "https://web.archive.org/web/20080411151156/http://www.peauction.com:80/catlisting.php?id=5",
+    "https://web.archive.org/web/20080610220605/http://www.peauction.com:80/catlisting.php?id=5",
+    "https://web.archive.org/web/20090223042253/http://peauction.com:80/catlisting.php?id=5",
+    "https://web.archive.org/web/20090802102036/http://www.peauction.com:80/catlisting.php?id=5",
+    "https://web.archive.org/web/20091002013322/http://www.peauction.com:80/catlisting.php?id=5",
+    "https://web.archive.org/web/20160801215710/http://peauction.com/itemlisting.php?id=4739"
+  ],
+  "sold": [
+    [1, 164.53, 423.0, 68, [[0, "2008-03-31 18:48", 6]]],
+    [1, 151.49, 758.0, 1, [[0, "2008-04-12 23:19", 6]]],
+    [1, 149.06, 782.0, 34, [[0, "2008-05-10 06:58", 6]]],
+    [1, 150.02, 610.0, 10, [[0, "2008-05-24 11:04", 6]]],
+    [1, 163.0, 699.0, 1, [[0, "2009-04-18 10:46", 6]]],
+    [1, 152.03, 655.0, 1, [[0, "2009-05-06 05:14", 6]]],
+    [1, 117.49, 350.0, 16, [[0, "2009-06-07 07:54", 6]]],
+    [1, 117.49, 427.0, 23, [[0, "2009-06-07 08:12", 6]]],
+    [1, 163.98, 560.0, 49, [[0, "2009-06-09 12:40", 6]]],
+    [1, 117.49, 440.0, 1, [[0, "2009-06-22 19:30", 6]]],
+    [1, 157.25, 338.0, 41, [[0, "2009-08-04 21:50", 6]]],
+    [1, 91.24, 162.0, 25, [[0, "2009-09-19 20:28", 6]]]
+  ],
+  "unsold": [
+    [1, 165.0, 1649.0, [[0, "2007-10-03 06:55", 0]]]
+  ],
+  "readings": [
+    [0, "TT+", 258.47, 1, 1],
+    [0, "TT+", 489.48, 2, 3],
+    [0, "%", 392.57, 4, 4],
+    [0, "%", 356.07, 5, 5]
+  ],
+  "charts": []
+}

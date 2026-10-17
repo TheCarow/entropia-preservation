@@ -1,0 +1,31 @@
+{
+  "item": "svempa-s60-l-blueprint",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20070502133511/http://peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20070624165352/http://peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20071008002917/http://www.peauction.com/catlisting.php?id=25",
+    "https://web.archive.org/web/20071012151801/http://peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20071212065937/http://peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20080210212022/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20080411150950/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20080818212812/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20081022150112/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20090223042058/http://peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20090802101829/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20091002013119/http://www.peauction.com:80/catlisting.php?id=25"
+  ],
+  "sold": [],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 3878.99, 0, 1],
+    [0, "TT+", 3399.16, 2, 3],
+    [0, "TT+", 730.67, 4, 5],
+    [0, "TT+", 770.47, 6, 7],
+    [0, "TT+", 679.32, 8, 8],
+    [0, "TT+", 226.03, 9, 9],
+    [0, "TT+", 199.72, 10, 11]
+  ],
+  "charts": []
+}

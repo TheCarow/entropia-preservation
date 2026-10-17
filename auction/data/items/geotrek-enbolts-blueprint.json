@@ -1,0 +1,33 @@
+{
+  "item": "geotrek-enbolts-blueprint",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071008003836/http://www.peauction.com/catlisting.php?id=21",
+    "https://web.archive.org/web/20071012151744/http://peauction.com:80/catlisting.php?id=21",
+    "https://web.archive.org/web/20071212065917/http://peauction.com:80/catlisting.php?id=21",
+    "https://web.archive.org/web/20080210210017/http://www.peauction.com:80/catlisting.php?id=21",
+    "https://web.archive.org/web/20080411150929/http://www.peauction.com:80/catlisting.php?id=21",
+    "https://web.archive.org/web/20080610213749/http://www.peauction.com:80/catlisting.php?id=21",
+    "https://web.archive.org/web/20080801024926/http://www.peauction.com:80/catlisting.php?id=21",
+    "https://web.archive.org/web/20080817052559/http://www.peauction.com:80/catlisting.php?id=21",
+    "https://web.archive.org/web/20081022150052/http://www.peauction.com:80/catlisting.php?id=21",
+    "https://web.archive.org/web/20090223042037/http://peauction.com:80/catlisting.php?id=21",
+    "https://web.archive.org/web/20090802101809/http://www.peauction.com:80/catlisting.php?id=21",
+    "https://web.archive.org/web/20091002013059/http://www.peauction.com:80/catlisting.php?id=21"
+  ],
+  "sold": [],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 298.28, 0, 0],
+    [0, "TT+", 278.37, 1, 1],
+    [0, "TT+", 256.66, 2, 3],
+    [0, "TT+", 158.59, 4, 5],
+    [0, "TT+", 96.69, 6, 6],
+    [0, "TT+", 90.29, 7, 7],
+    [0, "TT+", 81.39, 8, 8],
+    [0, "TT+", 70.49, 9, 9],
+    [0, "TT+", 46.09, 10, 11]
+  ],
+  "charts": []
+}

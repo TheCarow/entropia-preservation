@@ -1,0 +1,16 @@
+{
+  "item": "bull-tac60-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20090802101742/http://www.peauction.com:80/catlisting.php?id=12",
+    "https://web.archive.org/web/20091002013031/http://www.peauction.com:80/catlisting.php?id=12"
+  ],
+  "sold": [],
+  "unsold": [],
+  "readings": [
+    [0, "%", 152.91, 0, 0],
+    [0, "%", 143.5, 1, 1]
+  ],
+  "charts": []
+}

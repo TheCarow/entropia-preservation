@@ -1,0 +1,37 @@
+{
+  "item": "armor-plating-mark-5b-mentor-edition",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20080801024906/http://www.peauction.com:80/catlisting.php?id=11",
+    "https://web.archive.org/web/20080817052538/http://www.peauction.com:80/catlisting.php?id=11",
+    "https://web.archive.org/web/20080818212747/http://www.peauction.com:80/catlisting.php?id=11",
+    "https://web.archive.org/web/20081022150021/http://www.peauction.com:80/catlisting.php?id=11",
+    "https://web.archive.org/web/20090205055202/http://www.peauction.com:80/catlisting.php?id=11",
+    "https://web.archive.org/web/20090802101737/http://www.peauction.com:80/catlisting.php?id=11",
+    "https://web.archive.org/web/20091002013026/http://www.peauction.com:80/catlisting.php?id=11",
+    "https://web.archive.org/web/20160801123036/http://peauction.com/itemlisting.php?id=6046"
+  ],
+  "sold": [
+    [1, 0.0, 1103.0, 49, [[0, "2008-06-14 18:44", 7]]],
+    [1, 0.0, 1601.0, 2, [[0, "2008-08-09 13:23", 7]]],
+    [1, 0.0, 1991.0, 2, [[0, "2008-08-30 15:25", 7]]],
+    [1, 0.0, 847.0, 22, [[0, "2009-01-09 09:47", 7]]],
+    [1, 0.0, 1001.0, 1, [[0, "2009-08-03 17:53", 7]]]
+  ],
+  "unsold": [
+    [1, 0.0, 1001.0, [[0, "2009-08-03 17:47", 7]]],
+    [1, 34.91, 1300.0, [[0, "2009-08-03 18:38", 7]]],
+    [1, 35.1, 1300.0, [[0, "2009-08-03 18:38", 7]]],
+    [1, 35.09, 1300.0, [[0, "2009-08-03 18:38", 7]]],
+    [1, 34.77, 1300.0, [[0, "2009-08-03 18:38", 7]]]
+  ],
+  "readings": [
+    [0, "TT+", 1103.0, 0, 0],
+    [0, "TT+", 1352.0, 1, 2],
+    [0, "TT+", 1565.0, 3, 3],
+    [0, "TT+", 1385.5, 4, 5],
+    [0, "TT+", 1308.6, 6, 6]
+  ],
+  "charts": []
+}

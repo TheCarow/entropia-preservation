@@ -1,0 +1,18 @@
+{
+  "item": "metallic-bone-replacement-blueprint",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20090802101813/http://www.peauction.com:80/catlisting.php?id=22",
+    "https://web.archive.org/web/20091002013104/http://www.peauction.com:80/catlisting.php?id=22",
+    "https://web.archive.org/web/20160802004629/http://peauction.com/itemlisting.php?id=5072"
+  ],
+  "sold": [
+    [1, 0.04, 911.0, 26, [[0, "2007-11-10 12:28", 2]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 910.96, 0, 1]
+  ],
+  "charts": []
+}

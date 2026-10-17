@@ -1,0 +1,32 @@
+{
+  "item": "polaris-helmet-m-l",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071007161934/http://www.peauction.com/catlisting.php?id=7",
+    "https://web.archive.org/web/20071012152134/http://peauction.com:80/catlisting.php?id=7",
+    "https://web.archive.org/web/20071212071218/http://peauction.com:80/catlisting.php?id=7",
+    "https://web.archive.org/web/20080210224919/http://www.peauction.com:80/catlisting.php?id=7",
+    "https://web.archive.org/web/20080411151328/http://www.peauction.com:80/catlisting.php?id=7",
+    "https://web.archive.org/web/20080610222937/http://www.peauction.com:80/catlisting.php?id=7",
+    "https://web.archive.org/web/20080801024532/http://www.peauction.com:80/catlisting.php?id=7",
+    "https://web.archive.org/web/20081022150444/http://www.peauction.com:80/catlisting.php?id=7",
+    "https://web.archive.org/web/20090223042421/http://peauction.com:80/catlisting.php?id=7",
+    "https://web.archive.org/web/20090802102208/http://www.peauction.com:80/catlisting.php?id=7",
+    "https://web.archive.org/web/20091002013452/http://www.peauction.com:80/catlisting.php?id=7"
+  ],
+  "sold": [],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 31.69, 0, 1],
+    [0, "TT+", 20.49, 2, 2],
+    [0, "TT+", 20.63, 3, 3],
+    [0, "TT+", 39.74, 4, 4],
+    [0, "TT+", 51.27, 5, 5],
+    [0, "TT+", 61.98, 6, 7],
+    [0, "TT+", 4.34, 8, 8],
+    [0, "%", 106.59, 9, 9],
+    [0, "%", 104.42, 10, 10]
+  ],
+  "charts": []
+}

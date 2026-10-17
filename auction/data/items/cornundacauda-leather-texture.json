@@ -1,0 +1,36 @@
+{
+  "item": "cornundacauda-leather-texture",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20080210221246/http://www.peauction.com:80/catlisting.php?id=48",
+    "https://web.archive.org/web/20080411151145/http://www.peauction.com:80/catlisting.php?id=48",
+    "https://web.archive.org/web/20080610220555/http://www.peauction.com:80/catlisting.php?id=48",
+    "https://web.archive.org/web/20080801025348/http://www.peauction.com:80/catlisting.php?id=48",
+    "https://web.archive.org/web/20080817053429/http://www.peauction.com:80/catlisting.php?id=48",
+    "https://web.archive.org/web/20080818212857/http://www.peauction.com:80/catlisting.php?id=48",
+    "https://web.archive.org/web/20081022150303/http://www.peauction.com:80/catlisting.php?id=48",
+    "https://web.archive.org/web/20090223042243/http://peauction.com:80/catlisting.php?id=48",
+    "https://web.archive.org/web/20090802102025/http://www.peauction.com:80/catlisting.php?id=48",
+    "https://web.archive.org/web/20091002013312/http://www.peauction.com:80/catlisting.php?id=48",
+    "https://web.archive.org/web/20160801183920/http://peauction.com/itemlisting.php?id=5515"
+  ],
+  "sold": [
+    [94, 22.56, 25.0, 3, [[0, "2009-04-09 14:29", 10]]],
+    [83, 19.92, 23.0, 1, [[0, "2009-04-17 19:06", 10]]],
+    [87, 20.88, 27.0, 1, [[0, "2009-06-12 17:41", 10]]],
+    [229, 54.96, 60.0, 4, [[0, "2009-07-26 12:22", 10]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "%", 107.76, 0, 0],
+    [0, "%", 107.64, 1, 1],
+    [0, "%", 112.48, 2, 2],
+    [0, "%", 128.58, 3, 3],
+    [0, "%", 126.24, 4, 5],
+    [0, "%", 123.55, 6, 6],
+    [0, "%", 122.06, 7, 7],
+    [0, "%", 112.04, 8, 9]
+  ],
+  "charts": []
+}

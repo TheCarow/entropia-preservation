@@ -1,0 +1,21 @@
+{
+  "item": "dragon-foot-guards-blueprint-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20090802101753/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20091002013041/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20160801072326/http://peauction.com/itemlisting.php?id=4980"
+  ],
+  "sold": [
+    [1, 0.3, 22.0, 22, [[0, "2007-10-23 20:18", 2]]],
+    [1, 0.46, 110.0, 2, [[0, "2007-10-27 12:23", 2]]]
+  ],
+  "unsold": [
+    [1, 0.43, 150.0, [[0, "2007-10-26 14:48", 2]]]
+  ],
+  "readings": [
+    [0, "%", 15623.2, 0, 1]
+  ],
+  "charts": []
+}

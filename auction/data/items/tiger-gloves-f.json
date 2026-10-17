@@ -1,0 +1,46 @@
+{
+  "item": "tiger-gloves-f",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20060614130532/http://peauction.com:80/catlisting.php?id=5",
+    "https://web.archive.org/web/20060721094041/http://www.peauction.com:80/catlisting.php?id=5",
+    "https://web.archive.org/web/20061107141447/http://peauction.com/catlisting.php?id=5",
+    "https://web.archive.org/web/20071111102802/http://www.peauction.com/itemlisting.php?id=2480",
+    "https://web.archive.org/web/20080210221258/http://www.peauction.com:80/catlisting.php?id=5",
+    "https://web.archive.org/web/20080411151156/http://www.peauction.com:80/catlisting.php?id=5",
+    "https://web.archive.org/web/20080610220605/http://www.peauction.com:80/catlisting.php?id=5",
+    "https://web.archive.org/web/20080801025358/http://www.peauction.com:80/catlisting.php?id=5",
+    "https://web.archive.org/web/20091002013322/http://www.peauction.com:80/catlisting.php?id=5",
+    "https://web.archive.org/web/20160802004448/http://peauction.com/itemlisting.php?id=2480"
+  ],
+  "sold": [
+    [1, 75.94, 1002.0, 4, [[0, "2006-02-17 23:21", 3]]],
+    [1, 83.0, 1983.0, 1, [[0, "2006-06-15 21:35", 3]]],
+    [1, 83.0, 1450.0, 41, [[0, "2006-08-27 15:13", 3]]],
+    [1, 83.0, 1587.0, 59, [[0, "2006-08-27 15:46", 3]]],
+    [1, 32.89, 4400.0, 24, [[0, "2008-02-23 18:25", 9]]],
+    [1, 41.94, 6103.0, 58, [[0, "2008-07-19 00:47", 9]]]
+  ],
+  "unsold": [
+    [1, 30.5, 1931.0, [[0, "2006-02-06 02:38", 3]]],
+    [1, 41.51, 2500.0, [[0, "2006-02-24 21:10", 3]]],
+    [1, 75.94, 1899.0, [[0, "2006-02-26 19:43", 3]]],
+    [1, 41.51, 2200.0, [[0, "2006-02-27 00:14", 3]]],
+    [1, 75.94, 1675.0, [[0, "2006-03-01 20:31", 3]]],
+    [1, 41.51, 2400.0, [[0, "2006-03-06 07:26", 3]]],
+    [1, 83.0, 2283.0, [[0, "2006-06-17 21:38", 3]]],
+    [1, 83.0, 1983.0, [[0, "2006-11-17 17:45", 3]]],
+    [1, 82.32, 7000.0, [[0, "2008-12-17 00:12", 9]]],
+    [1, 82.47, 5383.0, [[0, "2008-12-18 03:27", 9]]],
+    [1, 82.47, 5183.0, [[0, "2008-12-19 15:22", 9]]]
+  ],
+  "readings": [
+    [0, "TT+", 926.06, 0, 0],
+    [0, "TT+", 1413.03, 1, 1],
+    [0, "TT+", 1424.26, 2, 4],
+    [0, "TT+", 2012.83, 5, 6],
+    [0, "TT+", 2687.54, 7, 8]
+  ],
+  "charts": []
+}

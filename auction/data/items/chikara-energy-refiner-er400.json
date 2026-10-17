@@ -1,0 +1,15 @@
+{
+  "item": "chikara-energy-refiner-er400",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20090802102158/http://www.peauction.com:80/catlisting.php?id=67",
+    "https://web.archive.org/web/20091002013441/http://www.peauction.com:80/catlisting.php?id=67"
+  ],
+  "sold": [],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 652.77, 0, 1]
+  ],
+  "charts": []
+}

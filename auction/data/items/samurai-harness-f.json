@@ -1,0 +1,46 @@
+{
+  "item": "samurai-harness-f",
+  "markup": "TT+",
+  "sources": ["pea", "pe-player"],
+  "captures": [
+    "https://web.archive.org/web/20041010022429/http://www.pe-player.com:80/auction/list.php?sort=bytype",
+    "https://web.archive.org/web/20050130134118/http://www.pe-player.com:80/auction/list.php?sort=bytype",
+    "https://web.archive.org/web/20060216220732/http://www.peauction.com:80/catlisting.php?id=6",
+    "https://web.archive.org/web/20061107141611/http://peauction.com/catlisting.php?id=6",
+    "https://web.archive.org/web/20070105004542/http://peauction.com:80/catlisting.php?id=6",
+    "https://web.archive.org/web/20070502022303/http://peauction.com:80/catlisting.php?id=6",
+    "https://web.archive.org/web/20071107190252/http://www.peauction.com/itemlisting.php?id=1979",
+    "https://web.archive.org/web/20071107190309/http://www.peauction.com/chart2.php?id=1979&dtype=0",
+    "https://web.archive.org/web/20090802102119/http://www.peauction.com:80/catlisting.php?id=6",
+    "https://web.archive.org/web/20091002013404/http://www.peauction.com:80/catlisting.php?id=6",
+    "https://web.archive.org/web/20160801195402/http://peauction.com/itemlisting.php?id=1979"
+  ],
+  "sold": [
+    [1, 25.5, 27.0, 1, [[1, "2004-08-29 09:35", 0]]],
+    [1, 25.5, 27.0, 1, [[1, "2004-10-23 01:09", 1]]],
+    [1, 0.91, 10.0, 3, [[0, "2005-11-16 04:22", 6]]],
+    [1, 10.39, 11.0, 1, [[0, "2005-11-23 01:14", 6]]],
+    [1, 11.11, 20.0, 1, [[0, "2005-12-21 07:48", 6]]],
+    [1, 9.92, 10.0, 1, [[0, "2006-12-12 20:26", 6]]],
+    [1, 6.06, 7.0, 1, [[0, "2007-01-06 01:52", 6]]],
+    [1, 11.71, 14.0, 3, [[0, "2007-03-24 12:00", 6]]],
+    [1, 11.71, 14.0, 3, [[0, "2007-03-24 13:00", 10]]],
+    [1, 6.32, 20.0, 8, [[0, "2009-08-02 20:12", 10]]],
+    [1, 6.32, 20.0, 8, [[0, "2009-08-02 20:18", 10]]]
+  ],
+  "unsold": [
+    [1, 0.91, 11.0, [[0, "2005-11-14 20:52", 6]]],
+    [1, 25.35, 27.0, [[0, "2006-01-19 14:10", 6]]],
+    [1, 6.06, 67.0, [[0, "2006-12-10 07:18", 6]]],
+    [1, 16.71, 66.0, [[0, "2008-06-29 11:40", 10]]]
+  ],
+  "readings": [
+    [0, "TT+", 6.2, 2, 3],
+    [0, "TT+", 4.67, 4, 4],
+    [0, "TT+", 3.65, 5, 8],
+    [0, "TT+", 6.16, 9, 9]
+  ],
+  "charts": [
+    [0, 7, "1979-0-20071107190309.png"]
+  ]
+}

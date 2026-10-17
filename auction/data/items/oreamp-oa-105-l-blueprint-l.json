@@ -1,0 +1,42 @@
+{
+  "item": "oreamp-oa-105-l-blueprint-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071212065906/http://peauction.com:80/catlisting.php?id=19",
+    "https://web.archive.org/web/20080210210008/http://www.peauction.com:80/catlisting.php?id=19",
+    "https://web.archive.org/web/20080411150919/http://www.peauction.com:80/catlisting.php?id=19",
+    "https://web.archive.org/web/20080610174505/http://www.peauction.com:80/catlisting.php?id=19",
+    "https://web.archive.org/web/20080801024335/http://www.peauction.com:80/catlisting.php?id=19",
+    "https://web.archive.org/web/20081022150042/http://www.peauction.com:80/catlisting.php?id=19",
+    "https://web.archive.org/web/20090223042027/http://peauction.com:80/catlisting.php?id=19",
+    "https://web.archive.org/web/20090802101758/http://www.peauction.com:80/catlisting.php?id=19",
+    "https://web.archive.org/web/20091002013048/http://www.peauction.com:80/catlisting.php?id=19",
+    "https://web.archive.org/web/20160801125213/http://peauction.com/itemlisting.php?id=4566"
+  ],
+  "sold": [
+    [1, 0.07, 301.0, 20, [[0, "2007-12-29 21:44", 9]]],
+    [1, 0.07, 301.0, 2, [[0, "2008-02-22 18:30", 9]]],
+    [1, 0.04, 157.0, 22, [[0, "2008-03-09 13:51", 9]]],
+    [1, 0.41, 1826.0, 27, [[0, "2008-03-11 22:16", 9]]],
+    [1, 0.21, 121.0, 11, [[0, "2008-06-29 10:52", 9]]],
+    [1, 0.21, 873.0, 37, [[0, "2008-06-29 11:10", 9]]],
+    [1, 0.29, 602.0, 2, [[0, "2008-10-28 00:00", 9]]],
+    [1, 0.29, 402.0, 5, [[0, "2009-01-11 18:12", 9]]],
+    [1, 0.6, 1550.0, 72, [[0, "2009-02-24 18:25", 9]]],
+    [1, 0.33, 602.0, 2, [[0, "2009-04-06 16:46", 9]]],
+    [1, 0.18, 361.0, 30, [[0, "2009-09-22 10:27", 9]]],
+    [1, 0.18, 361.0, 30, [[0, "2009-09-22 10:29", 9]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "%", 240000.0, 0, 0],
+    [0, "%", 310833.0, 1, 1],
+    [0, "%", 366728.0, 2, 3],
+    [0, "%", 334212.0, 4, 5],
+    [0, "%", 301991.0, 6, 6],
+    [0, "%", 295816.0, 7, 7],
+    [0, "%", 198327.0, 8, 8]
+  ],
+  "charts": []
+}

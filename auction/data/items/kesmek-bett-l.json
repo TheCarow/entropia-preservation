@@ -1,0 +1,45 @@
+{
+  "item": "kesmek-bett-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071008003930/http://www.peauction.com/catlisting.php?id=72",
+    "https://web.archive.org/web/20071012152149/http://peauction.com:80/catlisting.php?id=72",
+    "https://web.archive.org/web/20071212071233/http://peauction.com:80/catlisting.php?id=72",
+    "https://web.archive.org/web/20080411151344/http://www.peauction.com:80/catlisting.php?id=72",
+    "https://web.archive.org/web/20080610222954/http://www.peauction.com:80/catlisting.php?id=72",
+    "https://web.archive.org/web/20080818212949/http://www.peauction.com:80/catlisting.php?id=72",
+    "https://web.archive.org/web/20081022150459/http://www.peauction.com:80/catlisting.php?id=72",
+    "https://web.archive.org/web/20090223042436/http://peauction.com:80/catlisting.php?id=72",
+    "https://web.archive.org/web/20090802102223/http://www.peauction.com:80/catlisting.php?id=72",
+    "https://web.archive.org/web/20091002013510/http://www.peauction.com:80/catlisting.php?id=72",
+    "https://web.archive.org/web/20160801065738/http://peauction.com/itemlisting.php?id=3982"
+  ],
+  "sold": [
+    [1, 1010.0, 1010.0, 1, [[0, "2007-08-18 20:27", 10]]],
+    [1, 1010.0, 1011.0, 2, [[0, "2007-08-18 20:27", 10]]],
+    [1, 1010.0, 1024.0, 5, [[0, "2007-10-22 21:08", 10]]],
+    [1, 1010.0, 1099.0, 1, [[0, "2008-05-12 02:39", 10]]],
+    [1, 544.1, 560.0, 6, [[0, "2008-09-06 23:57", 10]]],
+    [1, 120.88, 132.0, 1, [[0, "2008-11-28 01:16", 10]]],
+    [1, 138.23, 141.0, 3, [[0, "2008-12-20 01:12", 10]]],
+    [1, 120.01, 122.0, 2, [[0, "2009-02-26 18:49", 10]]],
+    [1, 346.31, 354.0, 8, [[0, "2009-03-01 06:22", 10]]],
+    [1, 107.79, 108.0, 1, [[0, "2009-03-17 23:11", 10]]],
+    [1, 1010.0, 1110.0, 1, [[0, "2009-04-11 00:29", 10]]],
+    [1, 1010.0, 1090.0, 1, [[0, "2009-05-07 03:42", 10]]],
+    [1, 1010.0, 1090.0, 1, [[0, "2009-05-23 01:24", 10]]],
+    [1, 216.3, 226.0, 3, [[0, "2009-08-16 16:16", 10]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "%", 100.05, 0, 1],
+    [0, "%", 100.5, 2, 3],
+    [0, "%", 102.57, 4, 5],
+    [0, "%", 102.64, 6, 6],
+    [0, "%", 103.49, 7, 7],
+    [0, "%", 105.28, 8, 8],
+    [0, "%", 104.84, 9, 9]
+  ],
+  "charts": []
+}

@@ -1,0 +1,40 @@
+{
+  "item": "geotrek-h21-scrof-l-blueprint-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20070502133511/http://peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20070624165352/http://peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20071008002917/http://www.peauction.com/catlisting.php?id=25",
+    "https://web.archive.org/web/20071012151801/http://peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20071212065937/http://peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20080210212022/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20080411150950/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20080610213818/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20080801024356/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20080817052615/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20080818212812/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20081022150112/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20090223042058/http://peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20090802101829/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20091002013119/http://www.peauction.com:80/catlisting.php?id=25"
+  ],
+  "sold": [],
+  "unsold": [],
+  "readings": [
+    [0, "%", 37255.9, 0, 0],
+    [0, "%", 29584.5, 1, 1],
+    [0, "%", 14592.4, 2, 3],
+    [0, "%", 13076.7, 4, 4],
+    [0, "%", 5563.02, 5, 5],
+    [0, "%", 3513.95, 6, 6],
+    [0, "%", 4832.17, 7, 7],
+    [0, "%", 2389.4, 8, 8],
+    [0, "%", 1896.75, 9, 10],
+    [0, "%", 755.85, 11, 11],
+    [0, "%", 1402.24, 12, 12],
+    [0, "%", 1139.7, 13, 13],
+    [0, "%", 666.67, 14, 14]
+  ],
+  "charts": []
+}

@@ -1,0 +1,21 @@
+{
+  "item": "ghoul-harness-f",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20060216220732/http://www.peauction.com:80/catlisting.php?id=6",
+    "https://web.archive.org/web/20071107115426/http://www.peauction.com/itemlisting.php?id=2153",
+    "https://web.archive.org/web/20091002013404/http://www.peauction.com:80/catlisting.php?id=6"
+  ],
+  "sold": [
+    [1, 63.92, 363.0, 1, [[0, "2005-12-01 19:51", 1]]]
+  ],
+  "unsold": [
+    [1, 65.61, 386.0, [[0, "2005-12-08 00:34", 1]]],
+    [1, 95.85, 596.0, [[0, "2006-01-05 21:31", 1]]]
+  ],
+  "readings": [
+    [0, "TT+", 299.08, 0, 2]
+  ],
+  "charts": []
+}

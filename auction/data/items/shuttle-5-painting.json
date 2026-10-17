@@ -1,0 +1,18 @@
+{
+  "item": "shuttle-5-painting",
+  "markup": "TT+",
+  "sources": ["pea", "pe-player"],
+  "captures": [
+    "https://web.archive.org/web/20041010022429/http://www.pe-player.com:80/auction/list.php?sort=bytype",
+    "https://web.archive.org/web/20160801202558/http://peauction.com/itemlisting.php?id=2988"
+  ],
+  "sold": [
+    [1, 42.0, 999.0, 0, [[1, "2004-09-29 16:00", 0]]],
+    [1, 42.0, 1600.0, 25, [[0, "2006-08-10 22:28", 1]]]
+  ],
+  "unsold": [
+    [1, 105.0, 3105.0, [[0, "2006-06-29 11:54", 1]]]
+  ],
+  "readings": [],
+  "charts": []
+}

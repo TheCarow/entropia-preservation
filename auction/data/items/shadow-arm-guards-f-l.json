@@ -1,0 +1,16 @@
+{
+  "item": "shadow-arm-guards-f-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20090802101850/http://www.peauction.com:80/catlisting.php?id=3",
+    "https://web.archive.org/web/20091002013141/http://www.peauction.com:80/catlisting.php?id=3"
+  ],
+  "sold": [],
+  "unsold": [],
+  "readings": [
+    [0, "%", 395.0, 0, 0],
+    [0, "%", 404.93, 1, 1]
+  ],
+  "charts": []
+}

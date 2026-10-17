@@ -1,0 +1,48 @@
+{
+  "item": "robot-beacon-111111001101101110001111",
+  "markup": "TT+",
+  "sources": ["pea", "mytwopecs"],
+  "captures": [
+    "https://web.archive.org/web/20060216221157/http://www.peauction.com:80/catlisting.php?id=54",
+    "https://web.archive.org/web/20060614131405/http://peauction.com:80/catlisting.php?id=54",
+    "https://web.archive.org/web/20060805170933/http://peauction.com:80/catlisting.php?id=54",
+    "https://web.archive.org/web/20060830080546/http://www.mytwopecs.com:80/feed-beta/robotics.xml",
+    "https://web.archive.org/web/20060920123333/http://www.mytwopecs.com:80/feed-beta/robotics.xml",
+    "https://web.archive.org/web/20061110023244/http://www.mytwopecs.com:80/feed-beta/robotics.xml",
+    "https://web.archive.org/web/20061117083943/http://www.mytwopecs.com:80/feed-beta/robotics.xml",
+    "https://web.archive.org/web/20070120060510/http://www.mytwopecs.com:80/feed-beta/robotics.xml",
+    "https://web.archive.org/web/20070302125015/http://mytwopecs.com:80/feed-beta/robotics.xml",
+    "https://web.archive.org/web/20070607002205/http://www.mytwopecs.com/feed-beta/robotics.xml",
+    "https://web.archive.org/web/20070807232403/http://peauction.com:80/itemlisting.php?id=760",
+    "https://web.archive.org/web/20071007040239/http://www.mytwopecs.com/feed-beta/robotics.xml",
+    "https://web.archive.org/web/20090327053724/http://www.mytwopecs.com:80/feed-beta/robotics.xml"
+  ],
+  "sold": [
+    [1, 42.0, 264.0, 15, [[0, "2005-10-27 02:38", 10]]],
+    [1, 42.0, 591.0, 29, [[0, "2005-11-29 08:00", 10]]],
+    [1, 42.0, 699.0, 1, [[0, "2006-05-21 18:42", 10]]],
+    [1, 42.0, 501.0, 63, [[0, "2006-09-02 21:48", 10]]],
+    [1, 42.0, 750.0, 1, [[0, "2006-11-12 16:05", 10]]],
+    [1, 42.0, 542.0, 1, [[0, "2007-02-17 11:21", 10]]]
+  ],
+  "unsold": [
+    [1, 42.0, 300.0, [[0, "2005-10-19 23:23", 10]]],
+    [1, 42.0, 303.0, [[0, "2005-10-21 03:55", 10]]],
+    [1, 42.0, 742.0, [[0, "2006-06-05 23:41", 10]]],
+    [1, 42.0, 642.0, [[0, "2006-06-13 00:47", 10]]],
+    [1, 42.0, 992.0, [[0, "2006-06-19 20:12", 10]]],
+    [1, 42.0, 888.0, [[0, "2006-08-19 04:35", 10]]],
+    [1, 42.0, 575.0, [[0, "2006-08-19 15:26", 10]]],
+    [1, 42.0, 1042.0, [[0, "2007-05-25 18:11", 10]]]
+  ],
+  "readings": [
+    [0, "TT+", 385.5, 0, 0],
+    [0, "TT+", 476.0, 1, 2],
+    [1, "%", 408.5, 3, 3],
+    [1, "%", 415.71, 4, 5],
+    [1, "%", 452.25, 6, 7],
+    [1, "%", 457.56, 8, 9],
+    [1, "%", 0.0, 11, 12]
+  ],
+  "charts": []
+}

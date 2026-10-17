@@ -1,0 +1,14 @@
+{
+  "item": "metalmorph-painting",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20160801203351/http://peauction.com/itemlisting.php?id=4793"
+  ],
+  "sold": [
+    [1, 7.59, 5008.0, 1, [[0, "2007-10-10 19:18", 0]]]
+  ],
+  "unsold": [],
+  "readings": [],
+  "charts": []
+}

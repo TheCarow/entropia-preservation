@@ -1,0 +1,41 @@
+{
+  "item": "faucervix-skull",
+  "markup": "TT+",
+  "sources": ["pea", "pe-player"],
+  "captures": [
+    "https://web.archive.org/web/20050130134118/http://www.pe-player.com:80/auction/list.php?sort=bytype",
+    "https://web.archive.org/web/20060216221201/http://www.peauction.com:80/catlisting.php?id=55",
+    "https://web.archive.org/web/20060614131416/http://peauction.com:80/catlisting.php?id=55",
+    "https://web.archive.org/web/20060805170909/http://peauction.com:80/catlisting.php?id=55",
+    "https://web.archive.org/web/20060907124440/http://peauction.com:80/catlisting.php?id=55",
+    "https://web.archive.org/web/20070807162443/http://peauction.com:80/itemlisting.php?id=1073",
+    "https://web.archive.org/web/20080217234612/http://www.peauction.com:80/itemlisting.php?item=Faucervix+Skull",
+    "https://web.archive.org/web/20160801124232/http://peauction.com/itemlisting.php?id=1073"
+  ],
+  "sold": [
+    [1, 8.94, 9.0, 1, [[1, "2004-12-12 17:20", 0]]],
+    [1, 6.29, 12.0, 6, [[0, "2005-10-28 20:40", 5]]],
+    [1, 4.83, 6.0, 1, [[0, "2005-12-06 20:37", 5]]],
+    [1, 6.44, 9.0, 1, [[0, "2006-02-17 21:49", 5]]],
+    [1, 0.1, 11.0, 1, [[0, "2006-05-26 23:00", 5]]],
+    [1, 1.67, 56.0, 16, [[0, "2006-08-12 07:48", 5]]],
+    [1, 1.95, 31.0, 19, [[0, "2007-03-12 09:16", 5]]],
+    [1, 1.95, 31.0, 19, [[0, "2007-03-12 10:16", 7]]],
+    [1, 0.05, 51.0, 4, [[0, "2007-05-03 06:19", 5]]],
+    [1, 11.3, 67.0, 10, [[0, "2007-07-21 21:02", 5]]],
+    [1, 0.04, 252.0, 12, [[0, "2008-01-08 18:28", 6]]],
+    [1, 1.13, 13.0, 12, [[0, "2009-09-16 16:16", 7]]]
+  ],
+  "unsold": [
+    [1, 7.73, 9.0, [[0, "2005-10-22 23:22", 5]]],
+    [1, 3.6, 11.0, [[0, "2005-11-29 03:04", 5]]],
+    [1, 11.3, 500.0, [[0, "2006-09-12 18:26", 5]]],
+    [1, 8.6, 209.0, [[0, "2008-11-29 20:36", 7]]]
+  ],
+  "readings": [
+    [0, "TT+", 3.44, 1, 1],
+    [0, "TT+", 5.09, 2, 3],
+    [0, "TT+", 14.93, 4, 4]
+  ],
+  "charts": []
+}

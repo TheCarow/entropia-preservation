@@ -1,0 +1,22 @@
+{
+  "item": "geotrek-h49-poros-l-blueprint-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20090802101829/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20091002013119/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20160801124601/http://peauction.com/itemlisting.php?id=4728"
+  ],
+  "sold": [
+    [1, 0.01, 9.0, 9, [[0, "2007-09-18 20:49", 2]]],
+    [1, 0.01, 67.0, 4, [[0, "2008-04-06 03:18", 2]]],
+    [1, 0.17, 408.0, 8, [[0, "2008-06-09 10:07", 2]]],
+    [1, 0.17, 104.0, 5, [[0, "2008-08-16 13:44", 2]]],
+    [1, 0.32, 402.0, 2, [[0, "2008-12-19 18:47", 2]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "%", 237360.0, 0, 1]
+  ],
+  "charts": []
+}

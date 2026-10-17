@@ -1,0 +1,17 @@
+{
+  "item": "medium-abbey-curtain",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20160801212756/http://peauction.com/itemlisting.php?id=5030"
+  ],
+  "sold": [
+    [1, 23.0, 23.0, 1, [[0, "2008-08-14 09:04", 0]]],
+    [1, 4.78, 6.0, 1, [[0, "2008-08-18 11:59", 0]]]
+  ],
+  "unsold": [
+    [1, 5.39, 190.0, [[0, "2007-10-30 00:03", 0]]]
+  ],
+  "readings": [],
+  "charts": []
+}

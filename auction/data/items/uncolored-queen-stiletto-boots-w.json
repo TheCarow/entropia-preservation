@@ -1,0 +1,20 @@
+{
+  "item": "uncolored-queen-stiletto-boots-w",
+  "markup": "TT+",
+  "sources": ["pe-player"],
+  "captures": [
+    "https://web.archive.org/web/20040807113837/http://www.pe-player.com:80/auction/list.php?sort=bidded&numrows=100",
+    "https://web.archive.org/web/20040807114142/http://www.pe-player.com:80/auction/list.php?sort=bytype",
+    "https://web.archive.org/web/20041009202539/http://www.pe-player.com:80/auction/list.php?sort=latest&numrows=100",
+    "https://web.archive.org/web/20050130134118/http://www.pe-player.com:80/auction/list.php?sort=bytype"
+  ],
+  "sold": [
+    [1, 18.7, 52.0, 12, [[0, "2004-07-08 14:18", 1]]],
+    [1, 18.01, 52.0, 3, [[0, "2004-08-07 05:10", 0]]],
+    [1, 10.96, 90.0, 0, [[0, "2004-10-09 21:55", 2]]],
+    [1, 18.7, 52.0, 12, [[0, "2004-10-23 00:53", 3]]]
+  ],
+  "unsold": [],
+  "readings": [],
+  "charts": []
+}

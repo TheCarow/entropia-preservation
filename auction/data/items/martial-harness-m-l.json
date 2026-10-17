@@ -1,0 +1,36 @@
+{
+  "item": "martial-harness-m-l",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20070805184204/http://peauction.com:80/catlisting.php?id=6",
+    "https://web.archive.org/web/20070807233715/http://peauction.com:80/catlisting.php?id=6",
+    "https://web.archive.org/web/20071007083430/http://www.peauction.com/catlisting.php?id=6",
+    "https://web.archive.org/web/20071107115952/http://www.peauction.com/itemlisting.php?id=3991",
+    "https://web.archive.org/web/20071107120012/http://www.peauction.com/chart2.php?id=3991&dtype=0",
+    "https://web.archive.org/web/20081022150359/http://www.peauction.com:80/catlisting.php?id=6",
+    "https://web.archive.org/web/20090223042341/http://peauction.com:80/catlisting.php?id=6",
+    "https://web.archive.org/web/20090802102119/http://www.peauction.com:80/catlisting.php?id=6",
+    "https://web.archive.org/web/20091002013404/http://www.peauction.com:80/catlisting.php?id=6"
+  ],
+  "sold": [
+    [1, 103.93, 150.0, 9, [[0, "2007-05-18 15:18", 3]]],
+    [1, 110.0, 230.0, 20, [[0, "2007-05-20 22:15", 3]]],
+    [1, 110.0, 240.0, 14, [[0, "2007-05-25 14:58", 3]]],
+    [1, 110.0, 232.0, 3, [[0, "2007-05-31 19:11", 3]]],
+    [1, 27.24, 42.0, 9, [[0, "2007-08-30 15:24", 3]]]
+  ],
+  "unsold": [
+    [1, 68.85, 137.0, [[0, "2007-05-17 23:53", 3]]]
+  ],
+  "readings": [
+    [0, "TT+", 104.52, 0, 1],
+    [0, "TT+", 86.57, 2, 5],
+    [0, "TT+", 54.49, 6, 6],
+    [0, "%", 234.71, 7, 7],
+    [0, "%", 102.24, 8, 8]
+  ],
+  "charts": [
+    [0, 4, "3991-0-20071107120012.png"]
+  ]
+}

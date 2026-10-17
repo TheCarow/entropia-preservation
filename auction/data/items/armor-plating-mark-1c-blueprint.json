@@ -1,0 +1,42 @@
+{
+  "item": "armor-plating-mark-1c-blueprint",
+  "markup": "TT+",
+  "sources": ["pea", "pe-player"],
+  "captures": [
+    "https://web.archive.org/web/20040807114142/http://www.pe-player.com:80/auction/list.php?sort=bytype",
+    "https://web.archive.org/web/20050130134118/http://www.pe-player.com:80/auction/list.php?sort=bytype",
+    "https://web.archive.org/web/20060216220804/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20070803140920/http://peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20070806013634/http://peauction.com:80/itemlisting.php?id=1982",
+    "https://web.archive.org/web/20071007162213/http://www.peauction.com/catlisting.php?id=18",
+    "https://web.archive.org/web/20071212065901/http://peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20080210210002/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20091002013048/http://www.peauction.com:80/catlisting.php?id=19",
+    "https://web.archive.org/web/20160801124741/http://peauction.com/itemlisting.php?id=1982"
+  ],
+  "sold": [
+    [1, 0.01, 37.0, 3, [[1, "2004-07-07 01:54", 0]]],
+    [1, 0.01, 37.0, 3, [[1, "2004-10-23 00:50", 1]]],
+    [1, 0.01, 13.0, 9, [[0, "2005-11-18 22:38", 4]]],
+    [1, 0.01, 52.0, 2, [[0, "2006-01-22 18:47", 4]]],
+    [1, 0.01, 301.0, 2, [[0, "2007-08-15 04:22", 9]]],
+    [1, 0.02, 204.0, 26, [[0, "2007-12-30 08:14", 9]]]
+  ],
+  "unsold": [
+    [1, 0.01, 15.0, [[0, "2005-11-14 21:34", 4]]],
+    [1, 0.1, 600.0, [[0, "2006-03-29 05:23", 4]]],
+    [1, 0.01, 1500.0, [[0, "2006-07-18 18:36", 4]]],
+    [1, 0.01, 750.0, [[0, "2006-07-26 06:14", 4]]],
+    [1, 0.01, 700.0, [[0, "2006-08-25 21:28", 4]]],
+    [1, 0.01, 600.0, [[0, "2007-08-09 04:17", 9]]],
+    [1, 0.01, 400.0, [[0, "2007-08-11 07:32", 9]]],
+    [1, 0.01, 350.0, [[0, "2007-09-02 02:14", 9]]],
+    [1, 0.03, 750.0, [[0, "2007-10-26 04:23", 9]]]
+  ],
+  "readings": [
+    [0, "TT+", 32.49, 2, 3],
+    [0, "TT+", 121.99, 5, 6],
+    [0, "TT+", 142.49, 7, 8]
+  ],
+  "charts": []
+}

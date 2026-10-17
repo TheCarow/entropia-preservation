@@ -1,0 +1,50 @@
+{
+  "item": "long-lina-curtain-blueprint-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20070610030855/http://peauction.com:80/catlisting.php?id=77",
+    "https://web.archive.org/web/20070807234215/http://peauction.com:80/catlisting.php?id=77",
+    "https://web.archive.org/web/20071007160850/http://www.peauction.com/catlisting.php?id=77",
+    "https://web.archive.org/web/20071110074107/http://www.peauction.com/itemlisting.php?id=3923",
+    "https://web.archive.org/web/20080411151414/http://www.peauction.com:80/catlisting.php?id=77",
+    "https://web.archive.org/web/20080610230804/http://www.peauction.com:80/catlisting.php?id=77",
+    "https://web.archive.org/web/20080801025505/http://www.peauction.com:80/catlisting.php?id=77",
+    "https://web.archive.org/web/20080817053558/http://www.peauction.com:80/catlisting.php?id=77",
+    "https://web.archive.org/web/20081022150525/http://www.peauction.com:80/catlisting.php?id=77",
+    "https://web.archive.org/web/20090223042501/http://peauction.com:80/catlisting.php?id=77",
+    "https://web.archive.org/web/20090802102248/http://www.peauction.com:80/catlisting.php?id=77",
+    "https://web.archive.org/web/20091002013535/http://www.peauction.com:80/catlisting.php?id=77",
+    "https://web.archive.org/web/20160801073410/http://peauction.com/itemlisting.php?id=3923"
+  ],
+  "sold": [
+    [1, 0.32, 21.0, 1, [[0, "2007-05-08 23:11", 3]]],
+    [1, 0.36, 6.0, 6, [[0, "2007-05-25 13:27", 3]]],
+    [1, 0.41, 15.0, 1, [[0, "2007-09-01 13:09", 3]]],
+    [1, 0.29, 4.0, 4, [[0, "2008-06-07 22:17", 12]]],
+    [1, 0.19, 22.0, 4, [[0, "2008-06-12 01:40", 12]]],
+    [1, 0.23, 3.0, 3, [[0, "2008-07-06 00:31", 12]]],
+    [1, 0.22, 4.0, 1, [[0, "2008-07-15 22:57", 12]]],
+    [1, 0.09, 4.0, 2, [[0, "2008-08-04 04:02", 12]]],
+    [1, 0.34, 5.0, 5, [[0, "2008-11-11 20:05", 12]]],
+    [1, 0.22, 2.0, 2, [[0, "2008-12-01 01:06", 12]]],
+    [1, 0.14, 2.0, 2, [[0, "2009-05-21 23:14", 12]]]
+  ],
+  "unsold": [
+    [1, 0.32, 101.0, [[0, "2007-04-07 03:59", 3]]],
+    [1, 0.65, 25.0, [[0, "2007-08-31 13:09", 3]]],
+    [1, 0.41, 17.0, [[0, "2007-09-08 14:19", 3]]],
+    [1, 0.13, 6.0, [[0, "2008-11-11 12:20", 12]]],
+    [1, 0.33, 13.0, [[0, "2009-05-17 00:35", 12]]]
+  ],
+  "readings": [
+    [0, "%", 4114.58, 0, 1],
+    [0, "%", 3962.57, 2, 4],
+    [0, "%", 3316.75, 5, 5],
+    [0, "%", 3995.5, 6, 6],
+    [0, "%", 4051.62, 7, 8],
+    [0, "%", 3479.26, 9, 9],
+    [0, "%", 2965.87, 10, 11]
+  ],
+  "charts": []
+}

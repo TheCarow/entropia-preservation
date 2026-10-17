@@ -1,0 +1,49 @@
+{
+  "item": "solir-gloves-m-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071007161354/http://www.peauction.com/catlisting.php?id=5",
+    "https://web.archive.org/web/20071012152004/http://peauction.com:80/catlisting.php?id=5",
+    "https://web.archive.org/web/20071212071045/http://peauction.com:80/catlisting.php?id=5",
+    "https://web.archive.org/web/20080210221258/http://www.peauction.com:80/catlisting.php?id=5",
+    "https://web.archive.org/web/20080411151156/http://www.peauction.com:80/catlisting.php?id=5",
+    "https://web.archive.org/web/20080610220605/http://www.peauction.com:80/catlisting.php?id=5",
+    "https://web.archive.org/web/20080801025358/http://www.peauction.com:80/catlisting.php?id=5",
+    "https://web.archive.org/web/20080818212902/http://www.peauction.com:80/catlisting.php?id=5",
+    "https://web.archive.org/web/20081022150313/http://www.peauction.com:80/catlisting.php?id=5",
+    "https://web.archive.org/web/20090223042253/http://peauction.com:80/catlisting.php?id=5",
+    "https://web.archive.org/web/20090802102036/http://www.peauction.com:80/catlisting.php?id=5",
+    "https://web.archive.org/web/20091002013322/http://www.peauction.com:80/catlisting.php?id=5",
+    "https://web.archive.org/web/20160801195803/http://peauction.com/itemlisting.php?id=4704"
+  ],
+  "sold": [
+    [1, 112.35, 170.0, 1, [[0, "2008-12-13 08:56", 12]]],
+    [1, 91.79, 96.0, 3, [[0, "2009-01-08 21:12", 12]]],
+    [1, 114.2, 136.0, 18, [[0, "2009-01-18 11:13", 12]]],
+    [1, 89.64, 97.0, 2, [[0, "2009-01-29 02:38", 12]]],
+    [1, 112.58, 123.0, 10, [[0, "2009-02-02 07:38", 12]]],
+    [1, 104.17, 105.0, 1, [[0, "2009-03-17 16:00", 12]]],
+    [1, 91.79, 101.0, 2, [[0, "2009-05-05 05:25", 12]]],
+    [1, 95.65, 103.0, 4, [[0, "2009-05-06 16:18", 12]]],
+    [1, 69.43, 70.0, 1, [[0, "2009-05-11 03:55", 12]]],
+    [1, 117.5, 125.0, 2, [[0, "2009-05-16 12:52", 12]]],
+    [1, 117.5, 120.0, 1, [[0, "2009-07-16 02:36", 12]]],
+    [1, 53.88, 69.0, 15, [[0, "2009-09-15 19:48", 12]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 37.5, 0, 0],
+    [0, "TT+", 41.82, 1, 1],
+    [0, "TT+", 27.14, 2, 2],
+    [0, "TT+", 23.05, 3, 3],
+    [0, "TT+", 22.22, 4, 4],
+    [0, "TT+", 28.24, 5, 5],
+    [0, "TT+", 27.55, 6, 7],
+    [0, "TT+", 48.35, 8, 8],
+    [0, "TT+", 38.26, 9, 9],
+    [0, "%", 106.9, 10, 10],
+    [0, "%", 109.25, 11, 11]
+  ],
+  "charts": []
+}

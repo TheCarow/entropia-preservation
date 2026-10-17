@@ -1,0 +1,38 @@
+{
+  "item": "adapted-vivo-ur125-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20070803104832/http://peauction.com:80/catlisting.php?id=66",
+    "https://web.archive.org/web/20071110144441/http://www.peauction.com/itemlisting.php?id=4505",
+    "https://web.archive.org/web/20071212071204/http://peauction.com:80/catlisting.php?id=66",
+    "https://web.archive.org/web/20080210224858/http://www.peauction.com:80/catlisting.php?id=66",
+    "https://web.archive.org/web/20080610174515/http://www.peauction.com:80/catlisting.php?id=66",
+    "https://web.archive.org/web/20080801025435/http://www.peauction.com:80/catlisting.php?id=66",
+    "https://web.archive.org/web/20080818212929/http://www.peauction.com:80/catlisting.php?id=66",
+    "https://web.archive.org/web/20081022150429/http://www.peauction.com:80/catlisting.php?id=66",
+    "https://web.archive.org/web/20090223042411/http://peauction.com:80/catlisting.php?id=66",
+    "https://web.archive.org/web/20090802102152/http://www.peauction.com:80/catlisting.php?id=66",
+    "https://web.archive.org/web/20091002013436/http://www.peauction.com:80/catlisting.php?id=66",
+    "https://web.archive.org/web/20160801125236/http://peauction.com/itemlisting.php?id=4505"
+  ],
+  "sold": [
+    [1, 127.65, 206.0, 3, [[0, "2007-06-30 03:01", 1]]],
+    [1, 12.56, 14.0, 2, [[0, "2008-06-11 19:30", 11]]],
+    [1, 127.65, 230.0, 18, [[0, "2008-08-20 19:20", 11]]]
+  ],
+  "unsold": [
+    [1, 127.65, 180.0, [[0, "2007-08-16 02:03", 1]]],
+    [1, 127.65, 180.0, [[0, "2007-08-16 02:07", 1]]],
+    [1, 127.65, 180.0, [[0, "2007-08-20 13:47", 1]]],
+    [1, 127.65, 211.0, [[0, "2007-09-02 13:54", 1]]]
+  ],
+  "readings": [
+    [0, "TT+", 78.35, 0, 2],
+    [0, "TT+", 77.35, 3, 4],
+    [0, "TT+", 52.05, 5, 6],
+    [0, "TT+", 64.62, 7, 8],
+    [0, "%", 153.21, 9, 10]
+  ],
+  "charts": []
+}

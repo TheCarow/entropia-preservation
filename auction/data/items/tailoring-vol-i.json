@@ -1,0 +1,17 @@
+{
+  "item": "tailoring-vol-i",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20080416231030/http://www.peauction.com:80/itemlisting.php?id=576"
+  ],
+  "sold": [
+    [1, 1.0, 1.0, 1, [[0, "2005-10-18 16:37", 0]]],
+    [1, 1.0, 1.0, 1, [[0, "2005-10-28 02:43", 0]]]
+  ],
+  "unsold": [
+    [1, 1.0, 1.0, [[0, "2005-10-31 03:17", 0]]]
+  ],
+  "readings": [],
+  "charts": []
+}

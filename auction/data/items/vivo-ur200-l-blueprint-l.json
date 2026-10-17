@@ -1,0 +1,45 @@
+{
+  "item": "vivo-ur200-l-blueprint-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071007160727/http://www.peauction.com/catlisting.php?id=24",
+    "https://web.archive.org/web/20071212065932/http://peauction.com:80/catlisting.php?id=24",
+    "https://web.archive.org/web/20080210212017/http://www.peauction.com:80/catlisting.php?id=24",
+    "https://web.archive.org/web/20080610213812/http://www.peauction.com:80/catlisting.php?id=24",
+    "https://web.archive.org/web/20080801024932/http://www.peauction.com:80/catlisting.php?id=24",
+    "https://web.archive.org/web/20080817051739/http://www.peauction.com:80/catlisting.php?id=24",
+    "https://web.archive.org/web/20081022150107/http://www.peauction.com:80/catlisting.php?id=24",
+    "https://web.archive.org/web/20090223042052/http://peauction.com:80/catlisting.php?id=24",
+    "https://web.archive.org/web/20091002013114/http://www.peauction.com:80/catlisting.php?id=24",
+    "https://web.archive.org/web/20160802010630/http://peauction.com/itemlisting.php?id=4592"
+  ],
+  "sold": [
+    [1, 0.04, 120.0, 1, [[0, "2007-07-22 15:38", 9]]],
+    [1, 0.02, 37.0, 11, [[0, "2007-09-09 02:14", 9]]],
+    [1, 0.03, 91.0, 5, [[0, "2007-09-19 22:09", 9]]],
+    [1, 0.01, 34.0, 1, [[0, "2007-12-29 06:14", 9]]],
+    [1, 0.19, 476.0, 3, [[0, "2008-01-13 04:09", 9]]],
+    [1, 0.03, 83.0, 11, [[0, "2008-06-18 21:29", 9]]],
+    [1, 0.01, 61.0, 26, [[0, "2008-09-15 20:38", 9]]],
+    [1, 0.01, 45.0, 12, [[0, "2008-12-14 17:57", 9]]],
+    [1, 0.18, 721.0, 19, [[0, "2008-12-19 10:31", 9]]]
+  ],
+  "unsold": [
+    [1, 0.01, 40.0, [[0, "2007-12-23 15:19", 9]]],
+    [1, 0.08, 350.0, [[0, "2007-12-24 05:04", 9]]],
+    [1, 0.02, 80.0, [[0, "2009-07-14 00:00", 9]]],
+    [1, 0.06, 401.0, [[0, "2009-08-24 17:25", 9]]],
+    [1, 0.02, 100.0, [[0, "2009-09-22 17:55", 9]]],
+    [1, 0.06, 269.0, [[0, "2009-09-28 08:01", 9]]],
+    [1, 0.02, 101.0, [[0, "2009-10-02 21:34", 9]]]
+  ],
+  "readings": [
+    [0, "%", 262778.0, 0, 1],
+    [0, "%", 275772.0, 2, 3],
+    [0, "%", 275921.0, 4, 5],
+    [0, "%", 323647.0, 6, 6],
+    [0, "%", 346231.0, 7, 8]
+  ],
+  "charts": []
+}

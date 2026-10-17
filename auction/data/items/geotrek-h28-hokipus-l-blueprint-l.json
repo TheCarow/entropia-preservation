@@ -1,0 +1,15 @@
+{
+  "item": "geotrek-h28-hokipus-l-blueprint-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20090802101829/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20091002013119/http://www.peauction.com:80/catlisting.php?id=25"
+  ],
+  "sold": [],
+  "unsold": [],
+  "readings": [
+    [0, "%", 7127.81, 0, 1]
+  ],
+  "charts": []
+}

@@ -1,0 +1,26 @@
+{
+  "item": "bull-tac70-l-blueprint-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071008002827/http://www.peauction.com/catlisting.php?id=19",
+    "https://web.archive.org/web/20080210210008/http://www.peauction.com:80/catlisting.php?id=19",
+    "https://web.archive.org/web/20080411150919/http://www.peauction.com:80/catlisting.php?id=19",
+    "https://web.archive.org/web/20080610174505/http://www.peauction.com:80/catlisting.php?id=19",
+    "https://web.archive.org/web/20080801024335/http://www.peauction.com:80/catlisting.php?id=19",
+    "https://web.archive.org/web/20080817052553/http://www.peauction.com:80/catlisting.php?id=19",
+    "https://web.archive.org/web/20090223042027/http://peauction.com:80/catlisting.php?id=19",
+    "https://web.archive.org/web/20090802101758/http://www.peauction.com:80/catlisting.php?id=19",
+    "https://web.archive.org/web/20091002013048/http://www.peauction.com:80/catlisting.php?id=19"
+  ],
+  "sold": [],
+  "unsold": [],
+  "readings": [
+    [0, "%", 50934.2, 0, 1],
+    [0, "%", 84631.5, 2, 2],
+    [0, "%", 96894.7, 3, 4],
+    [0, "%", 103983.0, 5, 6],
+    [0, "%", 132117.0, 7, 8]
+  ],
+  "charts": []
+}

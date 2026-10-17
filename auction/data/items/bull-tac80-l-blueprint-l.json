@@ -1,0 +1,23 @@
+{
+  "item": "bull-tac80-l-blueprint-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071008002827/http://www.peauction.com/catlisting.php?id=19",
+    "https://web.archive.org/web/20080610174505/http://www.peauction.com:80/catlisting.php?id=19",
+    "https://web.archive.org/web/20080801024335/http://www.peauction.com:80/catlisting.php?id=19",
+    "https://web.archive.org/web/20091002013048/http://www.peauction.com:80/catlisting.php?id=19",
+    "https://web.archive.org/web/20160801124607/http://peauction.com/itemlisting.php?id=4603"
+  ],
+  "sold": [
+    [1, 0.15, 1006.0, 7, [[0, "2007-08-10 10:17", 4]]],
+    [1, 0.02, 201.0, 22, [[0, "2008-06-21 14:00", 4]]],
+    [1, 0.08, 801.0, 26, [[0, "2008-06-21 14:00", 4]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "%", 670667.0, 0, 1],
+    [0, "%", 892306.0, 2, 3]
+  ],
+  "charts": []
+}

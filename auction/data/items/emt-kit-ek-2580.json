@@ -1,0 +1,61 @@
+{
+  "item": "emt-kit-ek-2580",
+  "markup": "TT+",
+  "sources": ["pea", "pe-player"],
+  "captures": [
+    "https://web.archive.org/web/20050130134118/http://www.pe-player.com:80/auction/list.php?sort=bytype",
+    "https://web.archive.org/web/20061220004801/http://peauction.com:80/catlisting.php?id=66",
+    "https://web.archive.org/web/20070803104832/http://peauction.com:80/catlisting.php?id=66",
+    "https://web.archive.org/web/20071007161000/http://www.peauction.com/catlisting.php?id=66",
+    "https://web.archive.org/web/20071012152119/http://peauction.com:80/catlisting.php?id=66",
+    "https://web.archive.org/web/20071110144123/http://www.peauction.com/itemlisting.php?id=3328",
+    "https://web.archive.org/web/20071110144141/http://www.peauction.com/chart2.php?id=3328&dtype=0",
+    "https://web.archive.org/web/20071212071204/http://peauction.com:80/catlisting.php?id=66",
+    "https://web.archive.org/web/20080210224858/http://www.peauction.com:80/catlisting.php?id=66",
+    "https://web.archive.org/web/20080411134617/http://www.peauction.com:80/catlisting.php?id=66",
+    "https://web.archive.org/web/20090223042411/http://peauction.com:80/catlisting.php?id=66",
+    "https://web.archive.org/web/20090802102152/http://www.peauction.com:80/catlisting.php?id=66",
+    "https://web.archive.org/web/20091002013436/http://www.peauction.com:80/catlisting.php?id=66",
+    "https://web.archive.org/web/20160801124815/http://peauction.com/itemlisting.php?id=3328"
+  ],
+  "sold": [
+    [1, 72.0, 172.0, 0, [[1, "2004-11-14 21:50", 0]]],
+    [1, 21.23, 362.0, 1, [[0, "2006-12-10 14:25", 5]]],
+    [1, 5.89, 349.0, 4, [[0, "2007-01-24 05:00", 5]]],
+    [1, 72.0, 506.0, 14, [[0, "2007-03-03 09:52", 5]]],
+    [1, 45.16, 597.0, 26, [[0, "2007-09-12 20:44", 5]]],
+    [1, 45.16, 599.0, 26, [[0, "2007-09-12 20:54", 5]]],
+    [1, 45.16, 601.0, 26, [[0, "2007-09-12 20:59", 5]]],
+    [1, 45.16, 602.0, 26, [[0, "2007-09-12 21:04", 5]]],
+    [1, 45.16, 605.0, 26, [[0, "2007-09-12 21:09", 5]]],
+    [1, 45.16, 609.0, 26, [[0, "2007-09-12 21:19", 5]]],
+    [1, 45.16, 612.0, 26, [[0, "2007-09-12 21:29", 5]]],
+    [1, 45.16, 613.0, 26, [[0, "2007-09-12 21:34", 5]]],
+    [1, 45.16, 615.0, 26, [[0, "2007-09-12 21:39", 5]]],
+    [1, 45.16, 616.0, 26, [[0, "2007-09-12 21:49", 5]]],
+    [1, 45.16, 617.0, 26, [[0, "2007-09-12 21:54", 5]]],
+    [1, 45.16, 624.0, 26, [[0, "2007-09-12 22:04", 5]]],
+    [1, 48.84, 452.0, 4, [[0, "2007-10-13 01:38", 5]]],
+    [1, 72.0, 725.0, 3, [[0, "2008-03-21 10:03", 13]]],
+    [1, 10.84, 350.0, 1, [[0, "2009-06-08 17:16", 13]]]
+  ],
+  "unsold": [
+    [1, 19.05, 540.0, [[0, "2006-11-10 22:46", 5]]],
+    [1, 27.34, 548.0, [[0, "2006-11-10 22:46", 5]]],
+    [1, 19.05, 420.0, [[0, "2006-11-17 23:46", 5]]],
+    [1, 21.29, 422.0, [[0, "2006-11-29 07:29", 5]]],
+    [1, 60.5, 661.0, [[0, "2007-05-07 12:15", 5]]],
+    [1, 71.83, 699.0, [[0, "2007-08-23 22:07", 5]]]
+  ],
+  "readings": [
+    [0, "TT+", 340.77, 1, 1],
+    [0, "TT+", 372.63, 2, 2],
+    [0, "TT+", 566.24, 3, 4],
+    [0, "TT+", 550.97, 7, 8],
+    [0, "TT+", 560.59, 9, 10],
+    [0, "TT+", 538.52, 11, 12]
+  ],
+  "charts": [
+    [0, 6, "3328-0-20071110144141.png"]
+  ]
+}

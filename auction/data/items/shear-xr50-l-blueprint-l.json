@@ -1,0 +1,37 @@
+{
+  "item": "shear-xr50-l-blueprint-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20061220005015/http://peauction.com:80/catlisting.php?id=19",
+    "https://web.archive.org/web/20071008002827/http://www.peauction.com/catlisting.php?id=19",
+    "https://web.archive.org/web/20071012151731/http://peauction.com:80/catlisting.php?id=19",
+    "https://web.archive.org/web/20071212065906/http://peauction.com:80/catlisting.php?id=19",
+    "https://web.archive.org/web/20080210210008/http://www.peauction.com:80/catlisting.php?id=19",
+    "https://web.archive.org/web/20080411150919/http://www.peauction.com:80/catlisting.php?id=19",
+    "https://web.archive.org/web/20080610174505/http://www.peauction.com:80/catlisting.php?id=19",
+    "https://web.archive.org/web/20080801024335/http://www.peauction.com:80/catlisting.php?id=19",
+    "https://web.archive.org/web/20080817052553/http://www.peauction.com:80/catlisting.php?id=19",
+    "https://web.archive.org/web/20081022150042/http://www.peauction.com:80/catlisting.php?id=19",
+    "https://web.archive.org/web/20090223042027/http://peauction.com:80/catlisting.php?id=19",
+    "https://web.archive.org/web/20090802101758/http://www.peauction.com:80/catlisting.php?id=19",
+    "https://web.archive.org/web/20091002013048/http://www.peauction.com:80/catlisting.php?id=19"
+  ],
+  "sold": [],
+  "unsold": [],
+  "readings": [
+    [0, "%", 3312.49, 0, 0],
+    [0, "%", 12188.1, 1, 1],
+    [0, "%", 12813.9, 2, 2],
+    [0, "%", 14996.4, 3, 3],
+    [0, "%", 16218.8, 4, 4],
+    [0, "%", 19310.3, 5, 6],
+    [0, "%", 22276.2, 7, 7],
+    [0, "%", 20276.2, 8, 8],
+    [0, "%", 14741.9, 9, 9],
+    [0, "%", 12063.6, 10, 10],
+    [0, "%", 11108.7, 11, 11],
+    [0, "%", 11203.5, 12, 12]
+  ],
+  "charts": []
+}

@@ -1,0 +1,28 @@
+{
+  "item": "pioneer-shin-guards-l-blueprint",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20070412213046/http://peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20070803140920/http://peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20080610174500/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20080801024921/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20080817052548/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20081022150037/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20090223042022/http://peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20090802101753/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20091002013041/http://www.peauction.com:80/catlisting.php?id=18"
+  ],
+  "sold": [],
+  "unsold": [],
+  "readings": [
+    [0, "%", 12000.0, 0, 0],
+    [0, "%", 11000.0, 1, 2],
+    [0, "%", 12000.0, 3, 3],
+    [0, "%", 11181.8, 4, 4],
+    [0, "%", 12181.8, 5, 6],
+    [0, "%", 12102.0, 7, 7],
+    [0, "%", 9379.82, 8, 8]
+  ],
+  "charts": []
+}

@@ -1,0 +1,37 @@
+{
+  "item": "simple-i-conductors-blueprint",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071007162201/http://www.peauction.com/catlisting.php?id=20",
+    "https://web.archive.org/web/20071012151736/http://peauction.com:80/catlisting.php?id=20",
+    "https://web.archive.org/web/20071212065912/http://peauction.com:80/catlisting.php?id=20",
+    "https://web.archive.org/web/20080210210012/http://www.peauction.com:80/catlisting.php?id=20",
+    "https://web.archive.org/web/20080411150924/http://www.peauction.com:80/catlisting.php?id=20",
+    "https://web.archive.org/web/20080610213744/http://www.peauction.com:80/catlisting.php?id=20",
+    "https://web.archive.org/web/20080801024341/http://www.peauction.com:80/catlisting.php?id=20",
+    "https://web.archive.org/web/20080817051734/http://www.peauction.com:80/catlisting.php?id=20",
+    "https://web.archive.org/web/20080818212757/http://www.peauction.com:80/catlisting.php?id=20",
+    "https://web.archive.org/web/20081022150047/http://www.peauction.com:80/catlisting.php?id=20",
+    "https://web.archive.org/web/20090223042032/http://peauction.com:80/catlisting.php?id=20",
+    "https://web.archive.org/web/20090802101803/http://www.peauction.com:80/catlisting.php?id=20",
+    "https://web.archive.org/web/20091002013054/http://www.peauction.com:80/catlisting.php?id=20"
+  ],
+  "sold": [],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 0.99, 0, 1],
+    [0, "TT+", 0.98, 2, 2],
+    [0, "TT+", 1.36, 3, 3],
+    [0, "TT+", 3.07, 4, 4],
+    [0, "TT+", 4.22, 5, 5],
+    [0, "TT+", 8.55, 6, 6],
+    [0, "TT+", 1.37, 7, 7],
+    [0, "TT+", 1.66, 8, 8],
+    [0, "TT+", 3.43, 9, 9],
+    [0, "TT+", 3.42, 10, 10],
+    [0, "TT+", 7.9, 11, 11],
+    [0, "TT+", 7.62, 12, 12]
+  ],
+  "charts": []
+}

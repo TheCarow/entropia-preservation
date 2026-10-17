@@ -1,0 +1,28 @@
+{
+  "item": "dragon-thigh-guards-f",
+  "markup": "TT+",
+  "sources": ["pea", "pe-player"],
+  "captures": [
+    "https://web.archive.org/web/20040807114142/http://www.pe-player.com:80/auction/list.php?sort=bytype",
+    "https://web.archive.org/web/20060216220744/http://www.peauction.com:80/catlisting.php?id=9",
+    "https://web.archive.org/web/20070107053949/http://peauction.com:80/catlisting.php?id=9",
+    "https://web.archive.org/web/20070613142321/http://peauction.com:80/itemlisting.php?id=1241",
+    "https://web.archive.org/web/20070805054701/http://peauction.com:80/catlisting.php?id=9",
+    "https://web.archive.org/web/20091002013610/http://www.peauction.com:80/catlisting.php?id=9",
+    "https://web.archive.org/web/20160801114737/http://peauction.com/itemlisting.php?id=1241"
+  ],
+  "sold": [
+    [1, 4.63, 20.0, 0, [[1, "2004-07-09 11:05", 0]]],
+    [1, 3.04, 7.0, 1, [[0, "2005-10-25 02:30", 3]]],
+    [1, 6.3, 17.0, 1, [[0, "2007-01-22 17:43", 3]]],
+    [1, 4.36, 56.0, 34, [[0, "2007-05-20 23:31", 3]]]
+  ],
+  "unsold": [
+    [1, 10.35, 59.0, [[0, "2007-09-03 21:04", 6]]]
+  ],
+  "readings": [
+    [0, "TT+", 3.96, 1, 2],
+    [0, "TT+", 22.1, 4, 5]
+  ],
+  "charts": []
+}

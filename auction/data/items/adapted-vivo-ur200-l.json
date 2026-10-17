@@ -1,0 +1,38 @@
+{
+  "item": "adapted-vivo-ur200-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071007161000/http://www.peauction.com/catlisting.php?id=66",
+    "https://web.archive.org/web/20071110143331/http://www.peauction.com/itemlisting.php?id=4560",
+    "https://web.archive.org/web/20080210224858/http://www.peauction.com:80/catlisting.php?id=66",
+    "https://web.archive.org/web/20080411134617/http://www.peauction.com:80/catlisting.php?id=66",
+    "https://web.archive.org/web/20081022150429/http://www.peauction.com:80/catlisting.php?id=66",
+    "https://web.archive.org/web/20090223042411/http://peauction.com:80/catlisting.php?id=66",
+    "https://web.archive.org/web/20090802102152/http://www.peauction.com:80/catlisting.php?id=66",
+    "https://web.archive.org/web/20091002013436/http://www.peauction.com:80/catlisting.php?id=66",
+    "https://web.archive.org/web/20160801125618/http://peauction.com/itemlisting.php?id=4560"
+  ],
+  "sold": [
+    [1, 193.12, 222.0, 16, [[0, "2007-08-14 22:12", 1]]],
+    [1, 193.12, 194.0, 1, [[0, "2007-08-15 17:57", 1]]],
+    [1, 191.7, 193.0, 2, [[0, "2008-03-14 00:26", 8]]],
+    [1, 193.12, 275.0, 1, [[0, "2008-12-02 17:11", 8]]],
+    [1, 193.12, 212.0, 13, [[0, "2008-12-17 09:42", 8]]]
+  ],
+  "unsold": [
+    [1, 193.12, 394.0, [[0, "2007-07-13 13:21", 1]]],
+    [1, 193.12, 330.0, [[0, "2007-07-24 01:03", 1]]],
+    [1, 193.12, 310.0, [[0, "2007-07-31 02:32", 1]]],
+    [1, 193.12, 262.0, [[0, "2007-08-04 07:07", 1]]],
+    [1, 193.12, 255.0, [[0, "2007-08-08 23:57", 1]]],
+    [1, 193.12, 284.0, [[0, "2007-08-13 20:27", 1]]]
+  ],
+  "readings": [
+    [0, "TT+", 14.88, 0, 2],
+    [0, "TT+", 10.35, 3, 4],
+    [0, "TT+", 26.36, 5, 5],
+    [0, "%", 113.65, 6, 7]
+  ],
+  "charts": []
+}

@@ -1,0 +1,28 @@
+{
+  "item": "short-tied-harlequin-curtain-blueprint-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20070807234215/http://peauction.com:80/catlisting.php?id=77",
+    "https://web.archive.org/web/20071110001908/http://www.peauction.com/itemlisting.php?id=3907",
+    "https://web.archive.org/web/20080210230133/http://www.peauction.com:80/catlisting.php?id=77",
+    "https://web.archive.org/web/20080411151414/http://www.peauction.com:80/catlisting.php?id=77",
+    "https://web.archive.org/web/20091002013535/http://www.peauction.com:80/catlisting.php?id=77",
+    "https://web.archive.org/web/20160801070518/http://peauction.com/itemlisting.php?id=3907"
+  ],
+  "sold": [
+    [1, 0.09, 1.0, 1, [[0, "2007-06-10 06:51", 1]]],
+    [1, 0.23, 4.0, 4, [[0, "2008-03-23 15:33", 5]]]
+  ],
+  "unsold": [
+    [1, 0.6, 60.0, [[0, "2007-03-31 22:46", 1]]],
+    [1, 0.6, 60.0, [[0, "2007-03-31 23:46", 5]]],
+    [1, 0.13, 1200.0, [[0, "2007-05-02 07:14", 1]]],
+    [1, 0.2, 90.0, [[0, "2007-08-31 13:09", 1]]]
+  ],
+  "readings": [
+    [0, "%", 1111.11, 0, 2],
+    [0, "%", 1425.12, 3, 4]
+  ],
+  "charts": []
+}

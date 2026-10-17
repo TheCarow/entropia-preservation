@@ -1,0 +1,24 @@
+{
+  "item": "ziplex-tk120-oreseeker-l-blueprint-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20090802101823/http://www.peauction.com:80/catlisting.php?id=24",
+    "https://web.archive.org/web/20091002013114/http://www.peauction.com:80/catlisting.php?id=24",
+    "https://web.archive.org/web/20160801191026/http://peauction.com/itemlisting.php?id=5574"
+  ],
+  "sold": [
+    [1, 0.06, 3737.0, 26, [[0, "2008-01-21 17:44", 2]]],
+    [1, 0.06, 3901.0, 26, [[0, "2008-01-21 17:59", 2]]],
+    [1, 0.06, 3905.0, 26, [[0, "2008-01-21 18:09", 2]]],
+    [1, 0.06, 3957.0, 26, [[0, "2008-01-21 18:14", 2]]],
+    [1, 0.06, 3958.0, 26, [[0, "2008-01-21 18:19", 2]]],
+    [1, 0.06, 3959.0, 26, [[0, "2008-01-21 18:24", 2]]],
+    [1, 0.02, 100.0, 7, [[0, "2009-01-27 12:43", 2]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "%", 5646900.0, 0, 1]
+  ],
+  "charts": []
+}

@@ -1,0 +1,26 @@
+{
+  "item": "modified-fire-forge-bgh-4400m",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20060614131807/http://peauction.com:80/catlisting.php?id=76",
+    "https://web.archive.org/web/20070811004144/http://peauction.com:80/itemlisting.php?id=2078",
+    "https://web.archive.org/web/20091002013530/http://www.peauction.com:80/catlisting.php?id=76",
+    "https://web.archive.org/web/20160802004515/http://peauction.com/itemlisting.php?id=2078"
+  ],
+  "sold": [
+    [1, 3495.53, 22500.0, 4, [[0, "2005-11-24 03:46", 1]]]
+  ],
+  "unsold": [
+    [1, 3318.37, 125000.0, [[0, "2008-02-13 02:17", 3]]],
+    [1, 3282.8, 120000.0, [[0, "2008-06-04 19:49", 3]]],
+    [1, 3282.8, 100000.0, [[0, "2009-01-29 12:38", 3]]],
+    [1, 3282.8, 73283.0, [[0, "2009-03-30 16:26", 3]]],
+    [1, 3282.8, 63283.0, [[0, "2009-04-08 15:20", 3]]],
+    [1, 3282.8, 83283.0, [[0, "2009-07-06 09:37", 3]]]
+  ],
+  "readings": [
+    [0, "TT+", 19004.5, 0, 2]
+  ],
+  "charts": []
+}

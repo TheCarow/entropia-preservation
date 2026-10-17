@@ -1,0 +1,16 @@
+{
+  "item": "letomie-leather",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20090802102025/http://www.peauction.com:80/catlisting.php?id=48",
+    "https://web.archive.org/web/20091002013312/http://www.peauction.com:80/catlisting.php?id=48"
+  ],
+  "sold": [],
+  "unsold": [],
+  "readings": [
+    [0, "%", 104.91, 0, 0],
+    [0, "%", 107.75, 1, 1]
+  ],
+  "charts": []
+}

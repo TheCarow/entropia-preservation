@@ -1,0 +1,28 @@
+{
+  "item": "rutuba-helmet-m-l",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071007161934/http://www.peauction.com/catlisting.php?id=7",
+    "https://web.archive.org/web/20080411151328/http://www.peauction.com:80/catlisting.php?id=7",
+    "https://web.archive.org/web/20080610222937/http://www.peauction.com:80/catlisting.php?id=7",
+    "https://web.archive.org/web/20080801024532/http://www.peauction.com:80/catlisting.php?id=7",
+    "https://web.archive.org/web/20080817053533/http://www.peauction.com:80/catlisting.php?id=7",
+    "https://web.archive.org/web/20081022150444/http://www.peauction.com:80/catlisting.php?id=7",
+    "https://web.archive.org/web/20090223042421/http://peauction.com:80/catlisting.php?id=7",
+    "https://web.archive.org/web/20090802102208/http://www.peauction.com:80/catlisting.php?id=7",
+    "https://web.archive.org/web/20091002013452/http://www.peauction.com:80/catlisting.php?id=7"
+  ],
+  "sold": [],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 531.52, 0, 1],
+    [0, "TT+", 493.2, 2, 2],
+    [0, "TT+", 477.04, 3, 4],
+    [0, "TT+", 443.25, 5, 5],
+    [0, "TT+", 406.06, 6, 6],
+    [0, "%", 234.28, 7, 7],
+    [0, "%", 234.99, 8, 8]
+  ],
+  "charts": []
+}

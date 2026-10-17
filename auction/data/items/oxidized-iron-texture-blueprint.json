@@ -1,0 +1,19 @@
+{
+  "item": "oxidized-iron-texture-blueprint",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20090802101821/http://www.peauction.com:80/catlisting.php?id=23",
+    "https://web.archive.org/web/20091002013109/http://www.peauction.com:80/catlisting.php?id=23",
+    "https://web.archive.org/web/20160801191219/http://peauction.com/itemlisting.php?id=5484"
+  ],
+  "sold": [
+    [1, 0.01, 1.0, 1, [[0, "2009-08-08 18:06", 2]]],
+    [1, 0.01, 2.0, 2, [[0, "2009-08-11 22:18", 2, 1]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 0.99, 0, 1]
+  ],
+  "charts": []
+}

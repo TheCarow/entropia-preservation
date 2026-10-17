@@ -1,0 +1,31 @@
+{
+  "item": "vampire-thigh-guards-blueprint",
+  "markup": "TT+",
+  "sources": ["pea", "pe-player"],
+  "captures": [
+    "https://web.archive.org/web/20040807114142/http://www.pe-player.com:80/auction/list.php?sort=bytype",
+    "https://web.archive.org/web/20050130134118/http://www.pe-player.com:80/auction/list.php?sort=bytype",
+    "https://web.archive.org/web/20061107141622/http://peauction.com/catlisting.php?id=18",
+    "https://web.archive.org/web/20070412213046/http://peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20070803140920/http://peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20080210210002/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20080411150913/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20091002013041/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20160801072420/http://peauction.com/itemlisting.php?id=3103"
+  ],
+  "sold": [
+    [1, 0.01, 34.0, 4, [[1, "2004-07-10 00:36", 0]]],
+    [1, 0.01, 34.0, 4, [[1, "2004-10-23 00:55", 1]]],
+    [1, 0.03, 50.0, 18, [[0, "2006-09-15 15:54", 8]]],
+    [1, 0.01, 503.0, 26, [[0, "2007-06-29 22:51", 8]]],
+    [1, 0.01, 601.0, 26, [[0, "2007-06-29 23:06", 8]]],
+    [1, 0.01, 750.0, 8, [[0, "2008-03-22 14:48", 8]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 49.97, 2, 3],
+    [0, "TT+", 384.65, 4, 5],
+    [0, "TT+", 475.99, 6, 7]
+  ],
+  "charts": []
+}

@@ -1,0 +1,33 @@
+{
+  "item": "short-harlequin-valance-blueprint-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20070610030855/http://peauction.com:80/catlisting.php?id=77",
+    "https://web.archive.org/web/20071110001729/http://www.peauction.com/itemlisting.php?id=3607",
+    "https://web.archive.org/web/20080210230133/http://www.peauction.com:80/catlisting.php?id=77",
+    "https://web.archive.org/web/20080411151414/http://www.peauction.com:80/catlisting.php?id=77",
+    "https://web.archive.org/web/20091002013535/http://www.peauction.com:80/catlisting.php?id=77",
+    "https://web.archive.org/web/20160801064227/http://peauction.com/itemlisting.php?id=3607"
+  ],
+  "sold": [
+    [1, 0.17, 24.0, 24, [[0, "2007-01-20 19:55", 1]]],
+    [1, 0.75, 14.0, 4, [[0, "2007-02-28 12:34", 1]]],
+    [1, 0.22, 8.0, 8, [[0, "2008-03-04 16:45", 5]]]
+  ],
+  "unsold": [
+    [1, 0.75, 300.0, [[0, "2007-01-02 11:02", 1]]],
+    [1, 0.75, 101.0, [[0, "2007-02-27 12:18", 1]]],
+    [1, 0.75, 75.0, [[0, "2007-03-12 01:55", 1]]],
+    [1, 0.75, 75.0, [[0, "2007-03-12 02:55", 5]]],
+    [1, 0.75, 70.0, [[0, "2007-03-29 23:23", 1]]],
+    [1, 0.75, 70.0, [[0, "2007-03-30 00:23", 5]]],
+    [1, 0.75, 20.0, [[0, "2007-03-31 00:08", 1]]],
+    [1, 0.75, 20.0, [[0, "2007-03-31 01:08", 5]]]
+  ],
+  "readings": [
+    [0, "%", 7992.16, 0, 2],
+    [0, "%", 6540.23, 3, 4]
+  ],
+  "charts": []
+}

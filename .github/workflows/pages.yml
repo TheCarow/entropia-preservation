@@ -1,8 +1,8 @@
 # Publishes the site on every push to main. render.js writes Home and draws the whole version list into Clients,
 # render-media.js draws the gallery and a page per picture, beside their thumbnails and the pictures themselves, and
-# render-articles.js, render-sites.js, render-items.js, render-creatures.js and render-skills.js draw the Articles, Sites, Items, Creatures and Skills pages. The folder they write is what GitHub Pages serves, so every page reads in
+# render-articles.js, render-sites.js, render-items.js, render-creatures.js, render-skills.js, render-auction.js and render-halloffame.js draw the Articles, Sites, Items, Creatures, Skills, Auction and Hall of Fame pages. The folder they write is what GitHub Pages serves, so every page reads in
 # full without JavaScript and web archives keep all of it. Nothing needs running by hand. A mistake in versions.json,
-# notes.md, media.json, articles.json, sites.json or the items data, or a missing picture, stops the publish and the last good version stays up;
+# notes.md, media.json, articles.json, sites.json, the items, creatures or auction data, or a missing picture, stops the publish and the last good version stays up;
 # the Publish run on the Actions tab lists the mistake.
 #
 # The repository's Settings > Pages > Build and deployment > Source must be set to "GitHub Actions".
@@ -45,6 +45,8 @@ jobs:
       - run: node items/render-items.js _site
       - run: node creatures/render-creatures.js _site
       - run: node skills/render-skills.js _site
+      - run: node auction/render-auction.js _site
+      - run: node halloffame/render-halloffame.js _site
       - uses: actions/upload-pages-artifact@v5
         with:
           path: _site

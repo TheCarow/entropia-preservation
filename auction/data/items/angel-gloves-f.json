@@ -1,0 +1,46 @@
+{
+  "item": "angel-gloves-f",
+  "markup": "TT+",
+  "sources": ["pea", "pe-player"],
+  "captures": [
+    "https://web.archive.org/web/20040807114142/http://www.pe-player.com:80/auction/list.php?sort=bytype",
+    "https://web.archive.org/web/20060614130532/http://peauction.com:80/catlisting.php?id=5",
+    "https://web.archive.org/web/20060721094041/http://www.peauction.com:80/catlisting.php?id=5",
+    "https://web.archive.org/web/20061107141447/http://peauction.com/catlisting.php?id=5",
+    "https://web.archive.org/web/20071007161354/http://www.peauction.com/catlisting.php?id=5",
+    "https://web.archive.org/web/20071012152004/http://peauction.com:80/catlisting.php?id=5",
+    "https://web.archive.org/web/20071111041843/http://www.peauction.com/itemlisting.php?id=2316",
+    "https://web.archive.org/web/20071111041909/http://www.peauction.com/chart2.php?id=2316&dtype=0",
+    "https://web.archive.org/web/20071212071045/http://peauction.com:80/catlisting.php?id=5",
+    "https://web.archive.org/web/20091002013322/http://www.peauction.com:80/catlisting.php?id=5"
+  ],
+  "sold": [
+    [1, 33.0, 1000.0, 0, [[1, "2004-07-09 04:20", 0]]],
+    [1, 28.78, 2601.0, 26, [[0, "2006-04-10 13:42", 6]]],
+    [1, 32.19, 2433.0, 1, [[0, "2006-05-12 15:46", 6]]],
+    [1, 33.0, 2600.0, 11, [[0, "2006-08-14 01:17", 6]]],
+    [1, 33.0, 2536.0, 4, [[0, "2006-11-17 20:06", 6]]],
+    [1, 14.5, 5015.0, 1, [[0, "2007-11-09 06:18", 6]]]
+  ],
+  "unsold": [
+    [1, 33.0, 2333.0, [[0, "2005-12-26 14:14", 6]]],
+    [1, 33.0, 2632.0, [[0, "2006-03-16 18:15", 6]]],
+    [1, 14.5, 3015.0, [[0, "2006-03-18 10:19", 6]]],
+    [1, 32.19, 2433.0, [[0, "2006-05-12 15:34", 6]]],
+    [1, 33.0, 3233.0, [[0, "2006-07-10 11:48", 6]]],
+    [1, 23.71, 3001.0, [[0, "2006-10-25 19:24", 6]]],
+    [1, 27.43, 3028.0, [[0, "2006-10-26 21:41", 6]]],
+    [1, 33.0, 3533.0, [[0, "2006-11-14 18:16", 6]]],
+    [1, 33.0, 4833.0, [[0, "2007-05-08 15:06", 6]]],
+    [1, 14.5, 5015.0, [[0, "2007-11-09 06:13", 6]]]
+  ],
+  "readings": [
+    [0, "TT+", 2486.51, 1, 2],
+    [0, "TT+", 2513.34, 3, 3],
+    [0, "TT+", 2510.76, 4, 5],
+    [0, "TT+", 3008.71, 8, 9]
+  ],
+  "charts": [
+    [0, 7, "2316-0-20071111041909.png"]
+  ]
+}

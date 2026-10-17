@@ -1,0 +1,21 @@
+{
+  "item": "isis-cb19",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20090802102243/http://www.peauction.com:80/catlisting.php?id=76",
+    "https://web.archive.org/web/20091002013530/http://www.peauction.com:80/catlisting.php?id=76",
+    "https://web.archive.org/web/20160802004353/http://peauction.com/itemlisting.php?id=4747"
+  ],
+  "sold": [
+    [1, 4269.66, 20270.0, 26, [[0, "2007-10-06 20:12", 2]]],
+    [1, 5276.95, 13777.0, 1, [[0, "2009-05-15 22:30", 2]]]
+  ],
+  "unsold": [
+    [1, 2990.21, 12991.0, [[0, "2009-03-22 17:41", 2]]]
+  ],
+  "readings": [
+    [0, "TT+", 12250.2, 0, 1]
+  ],
+  "charts": []
+}

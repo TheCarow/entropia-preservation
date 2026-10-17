@@ -1,0 +1,60 @@
+{
+  "item": "orefinder-of-105-blueprint",
+  "markup": "TT+",
+  "sources": ["pea", "pe-player"],
+  "captures": [
+    "https://web.archive.org/web/20041010022429/http://www.pe-player.com:80/auction/list.php?sort=bytype",
+    "https://web.archive.org/web/20050130134118/http://www.pe-player.com:80/auction/list.php?sort=bytype",
+    "https://web.archive.org/web/20060216220858/http://www.peauction.com:80/catlisting.php?id=24",
+    "https://web.archive.org/web/20060614130835/http://peauction.com:80/catlisting.php?id=24",
+    "https://web.archive.org/web/20070807232151/http://peauction.com:80/catlisting.php?id=24",
+    "https://web.archive.org/web/20071007160727/http://www.peauction.com/catlisting.php?id=24",
+    "https://web.archive.org/web/20071108102955/http://www.peauction.com/itemlisting.php?id=1827",
+    "https://web.archive.org/web/20080210212017/http://www.peauction.com:80/catlisting.php?id=24",
+    "https://web.archive.org/web/20080411150945/http://www.peauction.com:80/catlisting.php?id=24",
+    "https://web.archive.org/web/20080610213812/http://www.peauction.com:80/catlisting.php?id=24",
+    "https://web.archive.org/web/20090223042052/http://peauction.com:80/catlisting.php?id=24",
+    "https://web.archive.org/web/20090802101823/http://www.peauction.com:80/catlisting.php?id=24",
+    "https://web.archive.org/web/20091002013114/http://www.peauction.com:80/catlisting.php?id=24",
+    "https://web.archive.org/web/20160802011156/http://peauction.com/itemlisting.php?id=1827"
+  ],
+  "sold": [
+    [1, 0.01, 500.0, 1, [[1, "2004-08-25 23:55", 0]]],
+    [1, 0.01, 500.0, 1, [[1, "2004-10-23 01:08", 1]]],
+    [1, 0.04, 103.0, 3, [[0, "2005-11-07 04:48", 6]]],
+    [1, 0.01, 46.0, 17, [[0, "2006-04-28 22:36", 6]]],
+    [1, 0.06, 4000.0, 1, [[0, "2007-10-04 19:17", 6]]],
+    [1, 0.01, 1117.0, 86, [[0, "2008-03-24 11:43", 13]]],
+    [1, 0.1, 2001.0, 45, [[0, "2008-06-06 23:32", 13]]],
+    [1, 0.01, 702.0, 37, [[0, "2009-03-22 15:43", 13]]],
+    [1, 0.07, 890.0, 37, [[0, "2009-05-08 17:51", 13]]]
+  ],
+  "unsold": [
+    [1, 0.01, 750.0, [[0, "2006-03-21 23:54", 6]]],
+    [1, 0.01, 500.0, [[0, "2006-03-29 01:30", 6]]],
+    [1, 0.01, 500.0, [[0, "2006-04-25 15:36", 6]]],
+    [1, 0.01, 500.0, [[0, "2006-05-02 22:14", 6]]],
+    [1, 0.03, 2495.0, [[0, "2006-10-06 00:06", 6]]],
+    [1, 0.03, 1495.0, [[0, "2006-10-11 18:12", 6]]],
+    [1, 0.14, 12900.0, [[0, "2007-04-16 11:54", 6]]],
+    [1, 0.14, 12900.0, [[0, "2007-04-23 14:18", 6]]],
+    [1, 0.14, 11901.0, [[0, "2007-04-30 14:22", 6]]],
+    [1, 0.06, 4500.0, [[0, "2007-10-19 09:53", 6]]],
+    [1, 0.15, 10001.0, [[0, "2007-10-20 17:08", 6]]],
+    [1, 0.02, 4001.0, [[0, "2007-10-23 17:13", 6]]],
+    [1, 0.06, 4100.0, [[0, "2008-03-15 14:11", 13]]],
+    [1, 0.03, 2001.0, [[0, "2008-07-02 20:05", 13]]],
+    [1, 0.16, 7500.0, [[0, "2008-10-09 18:48", 13]]],
+    [1, 0.01, 701.0, [[0, "2009-04-10 08:12", 13]]],
+    [1, 0.08, 950.0, [[0, "2009-07-20 20:43", 13]]]
+  ],
+  "readings": [
+    [0, "TT+", 102.96, 2, 2],
+    [0, "TT+", 74.48, 3, 4],
+    [0, "TT+", 1382.96, 5, 7],
+    [0, "TT+", 1316.47, 8, 8],
+    [0, "TT+", 1453.36, 9, 10],
+    [0, "TT+", 1265.53, 11, 12]
+  ],
+  "charts": []
+}

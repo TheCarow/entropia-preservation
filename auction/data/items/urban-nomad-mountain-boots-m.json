@@ -1,0 +1,14 @@
+{
+  "item": "urban-nomad-mountain-boots-m",
+  "markup": "TT+",
+  "sources": ["pe-player"],
+  "captures": [
+    "https://web.archive.org/web/20050307020126/http://www.pe-player.com:80/auction/list.php?sort=bytype"
+  ],
+  "sold": [
+    [1, 5.5, 11.0, 6, [[0, "2005-02-18 01:40", 0]]]
+  ],
+  "unsold": [],
+  "readings": [],
+  "charts": []
+}

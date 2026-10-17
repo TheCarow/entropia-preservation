@@ -1,0 +1,23 @@
+{
+  "item": "jaguar-helmet-m-l",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20080411151328/http://www.peauction.com:80/catlisting.php?id=7",
+    "https://web.archive.org/web/20080817053533/http://www.peauction.com:80/catlisting.php?id=7",
+    "https://web.archive.org/web/20081022150444/http://www.peauction.com:80/catlisting.php?id=7",
+    "https://web.archive.org/web/20090223042421/http://peauction.com:80/catlisting.php?id=7",
+    "https://web.archive.org/web/20090802102208/http://www.peauction.com:80/catlisting.php?id=7",
+    "https://web.archive.org/web/20091002013452/http://www.peauction.com:80/catlisting.php?id=7"
+  ],
+  "sold": [],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 200.5, 0, 1],
+    [0, "TT+", 141.69, 2, 2],
+    [0, "TT+", 40.06, 3, 3],
+    [0, "%", 125.37, 4, 4],
+    [0, "%", 123.56, 5, 5]
+  ],
+  "charts": []
+}

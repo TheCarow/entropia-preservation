@@ -1,0 +1,29 @@
+{
+  "item": "star-satin-lime-shoes-f",
+  "markup": "TT+",
+  "sources": ["pea", "pe-player"],
+  "captures": [
+    "https://web.archive.org/web/20041010022429/http://www.pe-player.com:80/auction/list.php?sort=bytype",
+    "https://web.archive.org/web/20060614131047/http://peauction.com:80/catlisting.php?id=35",
+    "https://web.archive.org/web/20060805175936/http://peauction.com:80/catlisting.php?id=35",
+    "https://web.archive.org/web/20070804235838/http://peauction.com:80/itemlisting.php?id=2511",
+    "https://web.archive.org/web/20160801201828/http://peauction.com/itemlisting.php?id=2511"
+  ],
+  "sold": [
+    [1, 1.05, 500.0, 0, [[1, "2004-09-15 03:40", 0]]],
+    [1, 1.05, 54.0, 3, [[0, "2006-03-05 07:26", 3]]],
+    [1, 1.58, 175.0, 22, [[0, "2006-11-02 01:57", 3]]],
+    [1, 4.48, 165.0, 34, [[0, "2008-05-15 14:43", 4]]]
+  ],
+  "unsold": [
+    [1, 1.05, 3002.0, [[0, "2006-02-12 07:05", 3]]],
+    [1, 0.94, 200.0, [[0, "2007-07-31 15:42", 3]]],
+    [1, 4.48, 490.0, [[0, "2008-01-28 23:39", 4]]],
+    [1, 4.48, 255.0, [[0, "2008-02-05 17:12", 4]]],
+    [1, 4.5, 500.0, [[0, "2008-10-13 01:24", 4]]]
+  ],
+  "readings": [
+    [0, "TT+", 52.95, 1, 2]
+  ],
+  "charts": []
+}

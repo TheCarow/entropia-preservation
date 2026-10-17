@@ -1,0 +1,20 @@
+{
+  "item": "flash-pants-f",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20060721094540/http://www.peauction.com:80/catlisting.php?id=33",
+    "https://web.archive.org/web/20060908232257/http://peauction.com:80/catlisting.php?id=33",
+    "https://web.archive.org/web/20070810161145/http://peauction.com:80/itemlisting.php?id=2879"
+  ],
+  "sold": [
+    [1, 22.61, 26.0, 2, [[0, "2006-06-20 09:03", 2]]]
+  ],
+  "unsold": [
+    [1, 22.61, 30.0, [[0, "2006-04-21 20:24", 2]]]
+  ],
+  "readings": [
+    [0, "TT+", 3.39, 0, 1]
+  ],
+  "charts": []
+}

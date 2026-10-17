@@ -1,0 +1,32 @@
+{
+  "item": "phantom-gloves-blueprint",
+  "markup": "TT+",
+  "sources": ["pea", "pe-player"],
+  "captures": [
+    "https://web.archive.org/web/20050130134118/http://www.pe-player.com:80/auction/list.php?sort=bytype",
+    "https://web.archive.org/web/20061107141622/http://peauction.com/catlisting.php?id=18",
+    "https://web.archive.org/web/20070412213046/http://peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20070803140920/http://peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20091002013041/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20160801123813/http://peauction.com/itemlisting.php?id=3014"
+  ],
+  "sold": [
+    [1, 0.01, 150.03, 25, [[1, "2004-11-13 03:55", 0]]],
+    [1, 0.01, 1201.0, 36, [[0, "2006-07-18 22:47", 5]]],
+    [1, 0.02, 4041.0, 28, [[0, "2007-05-11 23:14", 5]]],
+    [1, 0.02, 4200.0, 1, [[0, "2007-05-19 01:22", 5]]]
+  ],
+  "unsold": [
+    [1, 0.01, 2000.0, [[0, "2006-07-26 12:08", 5]]],
+    [1, 0.01, 2000.0, [[0, "2006-08-13 17:46", 5]]],
+    [1, 0.01, 2000.0, [[0, "2006-08-20 21:25", 5]]],
+    [1, 0.01, 2000.0, [[0, "2006-09-01 17:19", 5]]],
+    [1, 0.01, 2000.0, [[0, "2006-10-01 20:38", 5]]],
+    [1, 0.01, 1200.0, [[0, "2006-10-29 11:27", 5]]]
+  ],
+  "readings": [
+    [0, "TT+", 1200.99, 1, 2],
+    [0, "TT+", 3147.32, 3, 4]
+  ],
+  "charts": []
+}

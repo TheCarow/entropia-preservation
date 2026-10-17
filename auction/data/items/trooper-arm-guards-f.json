@@ -1,0 +1,20 @@
+{
+  "item": "trooper-arm-guards-f",
+  "markup": "TT+",
+  "sources": ["pea", "pe-player"],
+  "captures": [
+    "https://web.archive.org/web/20050130134118/http://www.pe-player.com:80/auction/list.php?sort=bytype",
+    "https://web.archive.org/web/20071009222641/http://www.peauction.com/itemlisting.php?id=2438"
+  ],
+  "sold": [
+    [1, 4.59, 80.0, 0, [[1, "2004-10-17 20:55", 0]]]
+  ],
+  "unsold": [
+    [1, 5.92, 166.0, [[0, "2006-01-29 05:37", 1]]],
+    [1, 23.89, 1024.0, [[0, "2006-02-03 18:00", 1]]],
+    [1, 5.92, 96.0, [[0, "2006-02-05 16:35", 1]]],
+    [1, 5.92, 39.0, [[0, "2006-04-08 21:15", 1]]]
+  ],
+  "readings": [],
+  "charts": []
+}

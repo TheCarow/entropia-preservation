@@ -1,0 +1,37 @@
+{
+  "item": "vampire-face-guard-blueprint",
+  "markup": "TT+",
+  "sources": ["pea", "pe-player"],
+  "captures": [
+    "https://web.archive.org/web/20040807114142/http://www.pe-player.com:80/auction/list.php?sort=bytype",
+    "https://web.archive.org/web/20050130134118/http://www.pe-player.com:80/auction/list.php?sort=bytype",
+    "https://web.archive.org/web/20061107141622/http://peauction.com/catlisting.php?id=18",
+    "https://web.archive.org/web/20071012151726/http://peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20071212065901/http://peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20080210210002/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20081022150037/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20090223042022/http://peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20091002013041/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20160801123849/http://peauction.com/itemlisting.php?id=3108"
+  ],
+  "sold": [
+    [1, 0.01, 45.0, 1, [[1, "2004-07-09 17:32", 0]]],
+    [1, 0.01, 45.0, 1, [[1, "2004-10-23 00:55", 1]]],
+    [1, 0.01, 153.0, 13, [[0, "2006-09-16 19:45", 9]]],
+    [1, 0.04, 107.0, 7, [[0, "2007-10-26 07:38", 9]]],
+    [1, 0.01, 230.0, 17, [[0, "2008-02-07 18:07", 9]]],
+    [1, 0.01, 402.0, 3, [[0, "2008-11-05 00:35", 9]]]
+  ],
+  "unsold": [
+    [1, 0.01, 500.0, [[0, "2008-03-09 16:41", 9]]],
+    [1, 0.01, 1000.0, [[0, "2008-03-19 16:48", 9]]],
+    [1, 0.01, 600.0, [[0, "2008-10-25 13:25", 9]]]
+  ],
+  "readings": [
+    [0, "TT+", 152.99, 2, 3],
+    [0, "TT+", 129.98, 4, 4],
+    [0, "TT+", 163.31, 5, 6],
+    [0, "TT+", 222.98, 7, 8]
+  ],
+  "charts": []
+}

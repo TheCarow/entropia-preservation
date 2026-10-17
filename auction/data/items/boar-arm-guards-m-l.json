@@ -1,0 +1,16 @@
+{
+  "item": "boar-arm-guards-m-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20090802101850/http://www.peauction.com:80/catlisting.php?id=3",
+    "https://web.archive.org/web/20091002013141/http://www.peauction.com:80/catlisting.php?id=3"
+  ],
+  "sold": [],
+  "unsold": [],
+  "readings": [
+    [0, "%", 120.59, 0, 0],
+    [0, "%", 119.19, 1, 1]
+  ],
+  "charts": []
+}

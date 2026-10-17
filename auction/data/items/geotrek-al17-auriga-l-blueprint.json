@@ -1,0 +1,43 @@
+{
+  "item": "geotrek-al17-auriga-l-blueprint",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071008002917/http://www.peauction.com/catlisting.php?id=25",
+    "https://web.archive.org/web/20071012151801/http://peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20071212065937/http://peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20080210212022/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20080411150950/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20080610213818/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20080801024356/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20080817052615/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20080818212812/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20081022150112/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20090223042058/http://peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20090802101829/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20091002013119/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20160801124232/http://peauction.com/itemlisting.php?id=4317"
+  ],
+  "sold": [],
+  "unsold": [
+    [1, 0.01, 4.0, [[0, "2009-02-14 23:59", 13]]],
+    [1, 0.01, 30.0, [[0, "2009-04-20 15:46", 13]]],
+    [1, 0.01, 11.0, [[0, "2009-05-08 08:31", 13]]],
+    [1, 0.01, 20.0, [[0, "2009-05-12 18:31", 13]]],
+    [1, 0.01, 5.0, [[0, "2009-08-09 23:48", 13]]]
+  ],
+  "readings": [
+    [0, "%", 7993000.0, 0, 1],
+    [0, "%", 1279000.0, 2, 2],
+    [0, "%", 474000.0, 3, 3],
+    [0, "%", 203000.0, 4, 4],
+    [0, "%", 280000.0, 5, 5],
+    [0, "%", 198000.0, 6, 6],
+    [0, "%", 181000.0, 7, 8],
+    [0, "%", 68000.0, 9, 9],
+    [0, "%", 47000.0, 10, 10],
+    [0, "%", 44000.0, 11, 11],
+    [0, "%", 39000.0, 12, 12]
+  ],
+  "charts": []
+}

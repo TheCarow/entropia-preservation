@@ -1,0 +1,30 @@
+{
+  "item": "gec-spur-gears-2k-blueprint",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071008003836/http://www.peauction.com/catlisting.php?id=21",
+    "https://web.archive.org/web/20071012151744/http://peauction.com:80/catlisting.php?id=21",
+    "https://web.archive.org/web/20071212065917/http://peauction.com:80/catlisting.php?id=21",
+    "https://web.archive.org/web/20080210210017/http://www.peauction.com:80/catlisting.php?id=21",
+    "https://web.archive.org/web/20080411150929/http://www.peauction.com:80/catlisting.php?id=21",
+    "https://web.archive.org/web/20080610213749/http://www.peauction.com:80/catlisting.php?id=21",
+    "https://web.archive.org/web/20081022150052/http://www.peauction.com:80/catlisting.php?id=21",
+    "https://web.archive.org/web/20090223042037/http://peauction.com:80/catlisting.php?id=21",
+    "https://web.archive.org/web/20090802101809/http://www.peauction.com:80/catlisting.php?id=21",
+    "https://web.archive.org/web/20091002013059/http://www.peauction.com:80/catlisting.php?id=21"
+  ],
+  "sold": [],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 0.99, 0, 1],
+    [0, "TT+", 1.19, 2, 2],
+    [0, "TT+", 0.97, 3, 3],
+    [0, "TT+", 1.09, 4, 4],
+    [0, "TT+", 0.99, 5, 6],
+    [0, "TT+", 1.07, 7, 7],
+    [0, "TT+", 1.08, 8, 8],
+    [0, "TT+", 1.07, 9, 9]
+  ],
+  "charts": []
+}

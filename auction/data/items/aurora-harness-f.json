@@ -1,0 +1,18 @@
+{
+  "item": "aurora-harness-f",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20070105004542/http://peauction.com:80/catlisting.php?id=6",
+    "https://web.archive.org/web/20071107031828/http://www.peauction.com/itemlisting.php?id=3512",
+    "https://web.archive.org/web/20090223042341/http://peauction.com:80/catlisting.php?id=6"
+  ],
+  "sold": [
+    [1, 90.0, 100.0, 1, [[0, "2006-12-15 22:50", 1]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 10.0, 0, 2]
+  ],
+  "charts": []
+}

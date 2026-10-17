@@ -1,0 +1,36 @@
+{
+  "item": "hardened-metal-ruds",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071008002943/http://www.peauction.com/catlisting.php?id=38",
+    "https://web.archive.org/web/20071212070045/http://peauction.com:80/catlisting.php?id=38",
+    "https://web.archive.org/web/20080210220508/http://www.peauction.com:80/catlisting.php?id=38",
+    "https://web.archive.org/web/20080411151059/http://www.peauction.com:80/catlisting.php?id=38",
+    "https://web.archive.org/web/20080610220510/http://www.peauction.com:80/catlisting.php?id=38",
+    "https://web.archive.org/web/20080801024434/http://www.peauction.com:80/catlisting.php?id=38",
+    "https://web.archive.org/web/20091002013226/http://www.peauction.com:80/catlisting.php?id=38",
+    "https://web.archive.org/web/20160801212128/http://peauction.com/itemlisting.php?id=3731"
+  ],
+  "sold": [
+    [45, 18.0, 18.0, 1, [[0, "2007-02-11 18:13", 7]]],
+    [297, 118.8, 119.0, 1, [[0, "2007-06-17 18:51", 7]]],
+    [129, 51.6, 52.0, 1, [[0, "2007-06-27 16:41", 7]]],
+    [235, 94.0, 95.0, 2, [[0, "2007-09-03 21:19", 7]]],
+    [97, 38.8, 39.0, 1, [[0, "2008-01-03 01:44", 7]]],
+    [66, 26.4, 27.0, 1, [[0, "2008-01-03 09:34", 7]]],
+    [114, 45.6, 46.0, 1, [[0, "2008-01-03 09:59", 7]]],
+    [217, 86.8, 88.0, 1, [[0, "2008-02-25 17:52", 7]]],
+    [391, 156.4, 157.0, 1, [[0, "2008-06-06 16:27", 7]]],
+    [167, 66.8, 67.0, 1, [[0, "2008-07-30 23:27", 7]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "%", 100.57, 0, 1],
+    [0, "%", 100.71, 2, 2],
+    [0, "%", 101.34, 3, 3],
+    [0, "%", 101.2, 4, 4],
+    [0, "%", 101.1, 5, 6]
+  ],
+  "charts": []
+}

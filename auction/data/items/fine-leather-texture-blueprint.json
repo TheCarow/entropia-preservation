@@ -1,0 +1,16 @@
+{
+  "item": "fine-leather-texture-blueprint",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20090802101821/http://www.peauction.com:80/catlisting.php?id=23",
+    "https://web.archive.org/web/20091002013109/http://www.peauction.com:80/catlisting.php?id=23"
+  ],
+  "sold": [],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 1.56, 0, 0],
+    [0, "TT+", 1.09, 1, 1]
+  ],
+  "charts": []
+}

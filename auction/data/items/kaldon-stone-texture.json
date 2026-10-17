@@ -1,0 +1,30 @@
+{
+  "item": "kaldon-stone-texture",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20080210223506/http://www.peauction.com:80/catlisting.php?id=60",
+    "https://web.archive.org/web/20080411151249/http://www.peauction.com:80/catlisting.php?id=60",
+    "https://web.archive.org/web/20080610222834/http://www.peauction.com:80/catlisting.php?id=60",
+    "https://web.archive.org/web/20080801024510/http://www.peauction.com:80/catlisting.php?id=60",
+    "https://web.archive.org/web/20080817053516/http://www.peauction.com:80/catlisting.php?id=60",
+    "https://web.archive.org/web/20081022150404/http://www.peauction.com:80/catlisting.php?id=60",
+    "https://web.archive.org/web/20090223042346/http://peauction.com:80/catlisting.php?id=60",
+    "https://web.archive.org/web/20090802102025/http://www.peauction.com:80/catlisting.php?id=48",
+    "https://web.archive.org/web/20091002013312/http://www.peauction.com:80/catlisting.php?id=48"
+  ],
+  "sold": [],
+  "unsold": [],
+  "readings": [
+    [0, "%", 167.69, 0, 0],
+    [0, "%", 161.05, 1, 1],
+    [0, "%", 136.89, 2, 2],
+    [0, "%", 168.54, 3, 3],
+    [0, "%", 177.04, 4, 4],
+    [0, "%", 163.19, 5, 5],
+    [0, "%", 119.56, 6, 6],
+    [0, "%", 127.21, 7, 7],
+    [0, "%", 139.59, 8, 8]
+  ],
+  "charts": []
+}

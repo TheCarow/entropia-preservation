@@ -1,0 +1,17 @@
+{
+  "item": "basic-pigment-enhancer",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20090802102140/http://www.peauction.com:80/catlisting.php?id=64",
+    "https://web.archive.org/web/20091002013426/http://www.peauction.com:80/catlisting.php?id=64",
+    "https://web.archive.org/web/20091003145650/http://www.peauction.com:80/catlisting.php?id=64"
+  ],
+  "sold": [],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 1.51, 0, 0],
+    [0, "TT+", 1.63, 1, 2]
+  ],
+  "charts": []
+}

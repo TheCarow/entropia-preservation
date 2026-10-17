@@ -1,0 +1,36 @@
+{
+  "item": "viking-arm-guards-f",
+  "markup": "TT+",
+  "sources": ["pea", "pe-player"],
+  "captures": [
+    "https://web.archive.org/web/20040807114142/http://www.pe-player.com:80/auction/list.php?sort=bytype",
+    "https://web.archive.org/web/20060216220622/http://www.peauction.com:80/catlisting.php?id=3",
+    "https://web.archive.org/web/20060721094249/http://www.peauction.com:80/catlisting.php?id=3",
+    "https://web.archive.org/web/20071009124028/http://www.peauction.com/itemlisting.php?id=1214",
+    "https://web.archive.org/web/20080210212348/http://www.peauction.com:80/catlisting.php?id=3",
+    "https://web.archive.org/web/20080411151012/http://www.peauction.com:80/catlisting.php?id=3",
+    "https://web.archive.org/web/20081022150132/http://www.peauction.com:80/catlisting.php?id=3",
+    "https://web.archive.org/web/20090223042118/http://peauction.com:80/catlisting.php?id=3",
+    "https://web.archive.org/web/20091002013141/http://www.peauction.com:80/catlisting.php?id=3",
+    "https://web.archive.org/web/20160801194742/http://peauction.com/itemlisting.php?id=1214"
+  ],
+  "sold": [
+    [1, 40.0, 150.0, 0, [[1, "2004-07-08 23:44", 0]]],
+    [1, 83.98, 284.0, 16, [[0, "2005-10-24 10:07", 3]]],
+    [1, 100.0, 450.0, 28, [[0, "2006-03-17 21:47", 3]]],
+    [1, 27.75, 206.0, 6, [[0, "2006-05-08 14:29", 3]]],
+    [1, 12.73, 400.0, 9, [[0, "2006-06-13 03:01", 3]]],
+    [1, 100.0, 1151.0, 40, [[0, "2008-03-23 18:53", 9]]],
+    [1, 19.73, 1070.0, 1, [[0, "2008-11-05 19:10", 9]]]
+  ],
+  "unsold": [
+    [1, 12.73, 213.0, [[0, "2006-05-09 20:08", 3]]]
+  ],
+  "readings": [
+    [0, "TT+", 200.02, 1, 1],
+    [0, "TT+", 278.89, 2, 4],
+    [0, "TT+", 433.31, 5, 6],
+    [0, "TT+", 536.14, 7, 8]
+  ],
+  "charts": []
+}

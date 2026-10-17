@@ -1,0 +1,57 @@
+{
+  "item": "svempa-s40-l-blueprint-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20061107140839/http://peauction.com/catlisting.php?id=25",
+    "https://web.archive.org/web/20061107143013/http://peauction.com/itemlisting.php?id=3241",
+    "https://web.archive.org/web/20070502133511/http://peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20070624165352/http://peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20071008002917/http://www.peauction.com/catlisting.php?id=25",
+    "https://web.archive.org/web/20071012151801/http://peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20071212065937/http://peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20080210212022/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20080411150950/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20080610213818/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20080801024356/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20080817052615/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20080818212812/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20081022150112/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20090223042058/http://peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20090802101829/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20091002013119/http://www.peauction.com:80/catlisting.php?id=25"
+  ],
+  "sold": [
+    [1, 0.69, 395.0, 1, [[0, "2006-11-02 21:21", 1]]],
+    [1, 0.75, 151.0, 1, [[0, "2006-11-04 05:32", 1]]],
+    [1, 0.62, 124.0, 31, [[0, "2006-11-04 12:34", 1]]],
+    [1, 0.88, 142.0, 6, [[0, "2006-11-06 18:05", 1]]],
+    [1, 0.77, 99.0, 10, [[0, "2006-11-06 21:05", 1]]],
+    [1, 0.61, 100.0, 21, [[0, "2006-11-06 21:30", 1]]]
+  ],
+  "unsold": [
+    [1, 0.73, 380.0, [[0, "2006-11-03 11:51", 1]]],
+    [1, 0.39, 270.0, [[0, "2006-11-03 17:36", 1]]],
+    [1, 0.77, 90.0, [[0, "2006-11-06 20:30", 1]]]
+  ],
+  "readings": [
+    [0, "%", 23794.4, 0, 0],
+    [0, "%", 3261.25, 2, 2],
+    [0, "%", 2421.27, 3, 3],
+    [0, "%", 5447.84, 4, 4],
+    [0, "%", 5990.28, 5, 5],
+    [0, "%", 13564.1, 6, 6],
+    [0, "%", 12541.3, 7, 7],
+    [0, "%", 11036.8, 8, 8],
+    [0, "%", 9735.3, 9, 9],
+    [0, "%", 11770.6, 10, 10],
+    [0, "%", 11270.6, 11, 12],
+    [0, "%", 8980.16, 13, 13],
+    [0, "%", 9698.71, 14, 14],
+    [0, "%", 9736.64, 15, 15],
+    [0, "%", 4500000.0, 15, 15],
+    [0, "%", 10091.3, 16, 16],
+    [0, "%", 4500000.0, 16, 16]
+  ],
+  "charts": []
+}

@@ -1,0 +1,52 @@
+{
+  "item": "aurora-shin-guards-m-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071008004017/http://www.peauction.com/catlisting.php?id=8",
+    "https://web.archive.org/web/20071012152229/http://peauction.com:80/catlisting.php?id=8",
+    "https://web.archive.org/web/20071212071315/http://peauction.com:80/catlisting.php?id=8",
+    "https://web.archive.org/web/20080210230149/http://www.peauction.com:80/catlisting.php?id=8",
+    "https://web.archive.org/web/20080411151429/http://www.peauction.com:80/catlisting.php?id=8",
+    "https://web.archive.org/web/20080610230819/http://www.peauction.com:80/catlisting.php?id=8",
+    "https://web.archive.org/web/20080801024557/http://www.peauction.com:80/catlisting.php?id=8",
+    "https://web.archive.org/web/20080817053603/http://www.peauction.com:80/catlisting.php?id=8",
+    "https://web.archive.org/web/20080818213009/http://www.peauction.com:80/catlisting.php?id=8",
+    "https://web.archive.org/web/20081022150540/http://www.peauction.com:80/catlisting.php?id=8",
+    "https://web.archive.org/web/20090223042516/http://peauction.com:80/catlisting.php?id=8",
+    "https://web.archive.org/web/20090802102303/http://www.peauction.com:80/catlisting.php?id=8",
+    "https://web.archive.org/web/20091002013550/http://www.peauction.com:80/catlisting.php?id=8",
+    "https://web.archive.org/web/20160801063918/http://peauction.com/itemlisting.php?id=4602"
+  ],
+  "sold": [
+    [1, 18.65, 20.0, 2, [[0, "2009-02-07 08:58", 13]]],
+    [1, 17.68, 18.0, 1, [[0, "2009-03-02 17:15", 13]]],
+    [1, 44.9, 45.0, 1, [[0, "2009-03-07 17:39", 13]]],
+    [1, 45.0, 45.0, 1, [[0, "2009-03-21 15:41", 13]]],
+    [1, 45.0, 45.0, 1, [[0, "2009-04-03 12:47", 13]]],
+    [1, 45.0, 47.0, 2, [[0, "2009-04-08 03:54", 13]]],
+    [1, 40.66, 41.0, 1, [[0, "2009-04-19 08:39", 13]]],
+    [1, 45.0, 46.0, 2, [[0, "2009-07-20 09:25", 13]]],
+    [1, 45.0, 46.0, 1, [[0, "2009-07-27 04:20", 13]]],
+    [1, 24.63, 25.0, 1, [[0, "2009-09-14 17:42", 13]]],
+    [1, 26.51, 28.0, 2, [[0, "2009-09-22 16:24", 13]]],
+    [1, 45.0, 46.0, 1, [[0, "2009-10-05 07:23", 13]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 0.94, 0, 0],
+    [0, "TT+", 0.77, 1, 1],
+    [0, "TT+", 0.66, 2, 2],
+    [0, "TT+", 1.19, 3, 3],
+    [0, "TT+", 1.93, 4, 4],
+    [0, "TT+", 2.1, 5, 5],
+    [0, "TT+", 1.7, 6, 6],
+    [0, "TT+", 1.8, 7, 7],
+    [0, "TT+", 1.88, 8, 8],
+    [0, "TT+", 1.53, 9, 9],
+    [0, "TT+", 1.29, 10, 10],
+    [0, "%", 102.04, 11, 11],
+    [0, "%", 101.89, 12, 12]
+  ],
+  "charts": []
+}

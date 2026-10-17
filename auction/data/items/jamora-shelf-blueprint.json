@@ -1,0 +1,25 @@
+{
+  "item": "jamora-shelf-blueprint",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20060614131823/http://peauction.com:80/catlisting.php?id=77",
+    "https://web.archive.org/web/20071110002302/http://www.peauction.com/itemlisting.php?id=1864",
+    "https://web.archive.org/web/20090802102248/http://www.peauction.com:80/catlisting.php?id=77",
+    "https://web.archive.org/web/20091002013535/http://www.peauction.com:80/catlisting.php?id=77",
+    "https://web.archive.org/web/20160801123642/http://peauction.com/itemlisting.php?id=1864"
+  ],
+  "sold": [
+    [1, 0.01, 24.0, 4, [[0, "2005-11-27 00:33", 1]]],
+    [1, 1.0, 4017.0, 18, [[0, "2009-09-27 22:34", 4]]]
+  ],
+  "unsold": [
+    [1, 0.01, 225.0, [[0, "2005-11-08 21:23", 1]]],
+    [1, 0.01, 250.0, [[0, "2005-11-10 04:28", 1]]]
+  ],
+  "readings": [
+    [0, "TT+", 23.99, 0, 2],
+    [0, "TT+", 2019.99, 3, 3]
+  ],
+  "charts": []
+}

@@ -1,0 +1,22 @@
+{
+  "item": "luna-arm-guards-m-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20090802101850/http://www.peauction.com:80/catlisting.php?id=3",
+    "https://web.archive.org/web/20091002013141/http://www.peauction.com:80/catlisting.php?id=3",
+    "https://web.archive.org/web/20160801205243/http://peauction.com/itemlisting.php?id=5524"
+  ],
+  "sold": [
+    [1, 85.0, 87.0, 2, [[0, "2008-09-05 00:45", 2]]]
+  ],
+  "unsold": [
+    [1, 85.0, 170.0, [[0, "2008-01-05 03:44", 2]]],
+    [1, 72.69, 91.0, [[0, "2009-01-28 14:13", 2]]],
+    [1, 68.05, 81.0, [[0, "2009-06-07 00:24", 2]]]
+  ],
+  "readings": [
+    [0, "%", 102.35, 0, 1]
+  ],
+  "charts": []
+}

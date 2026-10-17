@@ -1,0 +1,18 @@
+{
+  "item": "ziplex-vrx3000-oreseeker-l-blueprint",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20090802101823/http://www.peauction.com:80/catlisting.php?id=24",
+    "https://web.archive.org/web/20091002013114/http://www.peauction.com:80/catlisting.php?id=24",
+    "https://web.archive.org/web/20160801212855/http://peauction.com/itemlisting.php?id=5994"
+  ],
+  "sold": [
+    [1, 0.01, 2503.0, 122, [[0, "2008-05-30 23:09", 2]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "%", 25030000.0, 0, 1]
+  ],
+  "charts": []
+}

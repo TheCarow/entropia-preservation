@@ -1,0 +1,19 @@
+{
+  "item": "vain-arm-guards-f",
+  "markup": "TT+",
+  "sources": ["pea", "pe-player"],
+  "captures": [
+    "https://web.archive.org/web/20050130134118/http://www.pe-player.com:80/auction/list.php?sort=bytype",
+    "https://web.archive.org/web/20071009221839/http://www.peauction.com/itemlisting.php?id=2351"
+  ],
+  "sold": [
+    [1, 225.0, 2225.0, 0, [[1, "2004-10-10 17:20", 0]]]
+  ],
+  "unsold": [
+    [1, 13.67, 5014.0, [[0, "2006-01-04 04:12", 1]]],
+    [1, 42.86, 3800.0, [[0, "2006-01-23 03:36", 1]]],
+    [1, 42.86, 3600.0, [[0, "2006-01-24 01:38", 1]]]
+  ],
+  "readings": [],
+  "charts": []
+}

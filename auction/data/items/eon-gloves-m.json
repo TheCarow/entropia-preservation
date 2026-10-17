@@ -1,0 +1,18 @@
+{
+  "item": "eon-gloves-m",
+  "markup": "TT+",
+  "sources": ["pea", "pe-player"],
+  "captures": [
+    "https://web.archive.org/web/20041010022429/http://www.pe-player.com:80/auction/list.php?sort=bytype",
+    "https://web.archive.org/web/20080311050243/http://peauction.com:80/itemlisting.php?id=2891"
+  ],
+  "sold": [
+    [1, 145.0, 4495.0, 0, [[1, "2004-08-08 05:30", 0]]]
+  ],
+  "unsold": [
+    [1, 145.0, 11999.0, [[0, "2006-04-27 20:14", 1]]],
+    [1, 144.8, 7790.0, [[0, "2006-06-07 21:51", 1]]]
+  ],
+  "readings": [],
+  "charts": []
+}

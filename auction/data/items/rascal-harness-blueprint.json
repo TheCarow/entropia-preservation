@@ -1,0 +1,29 @@
+{
+  "item": "rascal-harness-blueprint",
+  "markup": "TT+",
+  "sources": ["pea", "pe-player"],
+  "captures": [
+    "https://web.archive.org/web/20040807114142/http://www.pe-player.com:80/auction/list.php?sort=bytype",
+    "https://web.archive.org/web/20050130134118/http://www.pe-player.com:80/auction/list.php?sort=bytype",
+    "https://web.archive.org/web/20061107141622/http://peauction.com/catlisting.php?id=18",
+    "https://web.archive.org/web/20080411150913/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20080610174500/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20091002013041/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20160801123102/http://peauction.com/itemlisting.php?id=3041"
+  ],
+  "sold": [
+    [1, 0.01, 21.0, 2, [[1, "2004-07-18 14:20", 0]]],
+    [1, 0.01, 21.0, 2, [[1, "2004-10-23 00:57", 1]]],
+    [1, 0.15, 3000.0, 1, [[0, "2006-09-15 18:09", 6]]],
+    [1, 0.13, 859.0, 69, [[0, "2008-05-28 02:08", 6]]]
+  ],
+  "unsold": [
+    [1, 0.3, 9000.0, [[0, "2006-08-06 05:23", 6]]],
+    [1, 0.31, 10000.0, [[0, "2006-08-22 19:27", 6]]]
+  ],
+  "readings": [
+    [0, "TT+", 2999.85, 2, 3],
+    [0, "TT+", 1929.36, 4, 5]
+  ],
+  "charts": []
+}

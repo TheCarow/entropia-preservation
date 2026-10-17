@@ -1,0 +1,36 @@
+{
+  "item": "svempa-t15-l-blueprint-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071008002917/http://www.peauction.com/catlisting.php?id=25",
+    "https://web.archive.org/web/20071212065937/http://peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20080210212022/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20080411150950/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20080610213818/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20080801024356/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20090223042058/http://peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20090802101829/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20091002013119/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20160801125650/http://peauction.com/itemlisting.php?id=4620"
+  ],
+  "sold": [
+    [1, 0.03, 102.0, 12, [[0, "2007-08-06 17:32", 9]]],
+    [1, 0.04, 301.0, 8, [[0, "2007-12-16 19:41", 9]]],
+    [1, 0.07, 285.0, 32, [[0, "2008-03-08 23:46", 9]]],
+    [1, 0.01, 50.0, 9, [[0, "2008-06-13 21:14", 9]]],
+    [1, 0.02, 100.0, 47, [[0, "2009-05-23 11:20", 9]]]
+  ],
+  "unsold": [
+    [1, 0.04, 500.0, [[0, "2007-07-28 02:51", 9]]],
+    [1, 0.07, 489.0, [[0, "2008-03-16 01:01", 9]]]
+  ],
+  "readings": [
+    [0, "%", 340000.0, 0, 1],
+    [0, "%", 546250.0, 2, 2],
+    [0, "%", 499881.0, 3, 4],
+    [0, "%", 499911.0, 5, 6],
+    [0, "%", 499929.0, 7, 8]
+  ],
+  "charts": []
+}

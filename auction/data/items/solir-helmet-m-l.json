@@ -1,0 +1,49 @@
+{
+  "item": "solir-helmet-m-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071007161934/http://www.peauction.com/catlisting.php?id=7",
+    "https://web.archive.org/web/20080210224919/http://www.peauction.com:80/catlisting.php?id=7",
+    "https://web.archive.org/web/20080411151328/http://www.peauction.com:80/catlisting.php?id=7",
+    "https://web.archive.org/web/20080610222937/http://www.peauction.com:80/catlisting.php?id=7",
+    "https://web.archive.org/web/20080801024532/http://www.peauction.com:80/catlisting.php?id=7",
+    "https://web.archive.org/web/20080817053533/http://www.peauction.com:80/catlisting.php?id=7",
+    "https://web.archive.org/web/20081022150444/http://www.peauction.com:80/catlisting.php?id=7",
+    "https://web.archive.org/web/20090223042421/http://peauction.com:80/catlisting.php?id=7",
+    "https://web.archive.org/web/20090802102208/http://www.peauction.com:80/catlisting.php?id=7",
+    "https://web.archive.org/web/20091002013452/http://www.peauction.com:80/catlisting.php?id=7",
+    "https://web.archive.org/web/20160801193503/http://peauction.com/itemlisting.php?id=4750"
+  ],
+  "sold": [
+    [1, 18.76, 31.0, 8, [[0, "2007-10-07 01:32", 10]]],
+    [1, 57.61, 163.0, 36, [[0, "2008-03-13 17:51", 10]]],
+    [1, 43.54, 91.0, 22, [[0, "2008-03-26 23:33", 10]]],
+    [1, 11.97, 22.0, 11, [[0, "2008-03-28 19:33", 10]]],
+    [1, 65.32, 136.0, 3, [[0, "2008-05-24 03:59", 10]]],
+    [1, 50.55, 153.0, 3, [[0, "2008-08-09 17:58", 10]]],
+    [1, 22.42, 32.0, 10, [[0, "2008-08-25 13:00", 10]]],
+    [1, 13.73, 15.0, 2, [[0, "2008-09-15 18:38", 10]]],
+    [1, 59.51, 150.0, 29, [[0, "2009-01-12 00:22", 10]]],
+    [1, 59.51, 178.0, 1, [[0, "2009-01-19 05:08", 10]]],
+    [1, 76.62, 86.0, 5, [[0, "2009-02-02 07:23", 10]]],
+    [1, 55.83, 86.0, 13, [[0, "2009-02-07 03:28", 10]]],
+    [1, 30.26, 41.0, 1, [[0, "2009-02-07 16:29", 10]]],
+    [1, 15.89, 20.0, 5, [[0, "2009-02-23 10:22", 10]]],
+    [1, 68.47, 94.0, 9, [[0, "2009-03-07 21:17", 10]]],
+    [1, 79.5, 120.0, 1, [[0, "2009-04-12 16:38", 10]]],
+    [1, 69.08, 93.0, 4, [[0, "2009-04-19 09:51", 10]]],
+    [1, 54.77, 75.0, 1, [[0, "2009-05-02 18:13", 10]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 12.24, 0, 1],
+    [0, "TT+", 43.78, 2, 2],
+    [0, "TT+", 49.16, 3, 4],
+    [0, "TT+", 58.04, 5, 5],
+    [0, "TT+", 44.89, 6, 6],
+    [0, "TT+", 45.33, 7, 7],
+    [0, "%", 163.86, 8, 9]
+  ],
+  "charts": []
+}

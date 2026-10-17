@@ -1,0 +1,15 @@
+{
+  "item": "navy-officer-pants-f-c",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20160801080506/http://peauction.com/itemlisting.php?id=5093"
+  ],
+  "sold": [
+    [1, 38.16, 89.0, 1, [[0, "2008-10-31 17:40", 0]]],
+    [1, 102.9, 163.0, 1, [[0, "2009-08-12 18:05", 0]]]
+  ],
+  "unsold": [],
+  "readings": [],
+  "charts": []
+}

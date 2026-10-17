@@ -1,0 +1,29 @@
+{
+  "item": "armax-trophy-board-l",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20060614131158/http://peauction.com:80/catlisting.php?id=42",
+    "https://web.archive.org/web/20060721094635/http://www.peauction.com:80/catlisting.php?id=42",
+    "https://web.archive.org/web/20060805181541/http://peauction.com:80/catlisting.php?id=42",
+    "https://web.archive.org/web/20070804001027/http://peauction.com:80/itemlisting.php?id=2412",
+    "https://web.archive.org/web/20090802101959/http://www.peauction.com:80/catlisting.php?id=42",
+    "https://web.archive.org/web/20091002013247/http://www.peauction.com:80/catlisting.php?id=42"
+  ],
+  "sold": [
+    [1, 0.2, 100.0, 12, [[0, "2006-06-01 02:24", 3]]],
+    [1, 0.14, 51.0, 1, [[0, "2006-07-28 09:42", 3]]]
+  ],
+  "unsold": [
+    [1, 0.53, 450.0, [[0, "2006-01-20 14:27", 3]]],
+    [1, 0.6, 500.0, [[0, "2006-01-21 05:02", 3]]],
+    [1, 0.6, 400.0, [[0, "2006-01-27 23:28", 3]]],
+    [1, 0.6, 400.0, [[0, "2006-02-03 23:47", 3]]]
+  ],
+  "readings": [
+    [0, "TT+", 99.8, 0, 1],
+    [0, "TT+", 75.33, 2, 2],
+    [0, "%", 43214.3, 4, 5]
+  ],
+  "charts": []
+}

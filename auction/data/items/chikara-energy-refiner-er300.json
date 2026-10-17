@@ -1,0 +1,14 @@
+{
+  "item": "chikara-energy-refiner-er300",
+  "markup": "TT+",
+  "sources": ["pe-player"],
+  "captures": [
+    "https://web.archive.org/web/20050130134118/http://www.pe-player.com:80/auction/list.php?sort=bytype"
+  ],
+  "sold": [
+    [1, 20.98, 221.0, 1, [[0, "2004-12-22 07:50", 0]]]
+  ],
+  "unsold": [],
+  "readings": [],
+  "charts": []
+}

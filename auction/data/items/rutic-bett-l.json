@@ -1,0 +1,52 @@
+{
+  "item": "rutic-bett-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071008003400/http://www.peauction.com/catlisting.php?id=71",
+    "https://web.archive.org/web/20080210224930/http://www.peauction.com:80/catlisting.php?id=71",
+    "https://web.archive.org/web/20080411151339/http://www.peauction.com:80/catlisting.php?id=71",
+    "https://web.archive.org/web/20080610222950/http://www.peauction.com:80/catlisting.php?id=71",
+    "https://web.archive.org/web/20080801024537/http://www.peauction.com:80/catlisting.php?id=71",
+    "https://web.archive.org/web/20080817052318/http://www.peauction.com:80/catlisting.php?id=71",
+    "https://web.archive.org/web/20080818212944/http://www.peauction.com:80/catlisting.php?id=71",
+    "https://web.archive.org/web/20081022150454/http://www.peauction.com:80/catlisting.php?id=71",
+    "https://web.archive.org/web/20090223042431/http://peauction.com:80/catlisting.php?id=71",
+    "https://web.archive.org/web/20090802102218/http://www.peauction.com:80/catlisting.php?id=71",
+    "https://web.archive.org/web/20091002013506/http://www.peauction.com:80/catlisting.php?id=71",
+    "https://web.archive.org/web/20160801200655/http://peauction.com/itemlisting.php?id=4644"
+  ],
+  "sold": [
+    [1, 1590.0, 1712.0, 26, [[0, "2007-08-04 16:52", 11]]],
+    [1, 1590.0, 1724.0, 26, [[0, "2007-08-04 16:57", 11]]],
+    [1, 1590.0, 1725.0, 26, [[0, "2007-08-04 17:02", 11]]],
+    [1, 407.84, 424.0, 1, [[0, "2007-08-09 18:37", 11]]],
+    [1, 1590.0, 1722.0, 9, [[0, "2007-09-28 00:15", 11]]],
+    [1, 135.62, 138.0, 3, [[0, "2008-03-07 04:36", 11]]],
+    [1, 32.08, 35.0, 1, [[0, "2008-03-08 18:06", 11]]],
+    [1, 1590.0, 1750.0, 1, [[0, "2008-05-09 05:23", 11]]],
+    [1, 500.2, 521.0, 8, [[0, "2008-06-25 12:20", 11]]],
+    [1, 1590.0, 1717.0, 1, [[0, "2008-06-27 03:45", 11]]],
+    [1, 665.02, 677.0, 2, [[0, "2008-08-01 15:17", 11]]],
+    [1, 1590.0, 1733.0, 1, [[0, "2008-08-09 07:33", 11]]],
+    [1, 1444.65, 1586.0, 3, [[0, "2008-09-13 22:12", 11]]],
+    [1, 1072.49, 1080.0, 1, [[0, "2008-11-23 04:56", 11]]],
+    [1, 1590.0, 1770.0, 1, [[0, "2009-02-14 02:14", 11]]],
+    [1, 1128.42, 1133.0, 5, [[0, "2009-04-22 22:43", 11]]],
+    [1, 1590.0, 1733.0, 1, [[0, "2009-05-19 01:41", 11]]],
+    [1, 1590.0, 1790.0, 1, [[0, "2009-08-05 21:34", 11]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "%", 107.37, 0, 1],
+    [0, "%", 106.82, 2, 2],
+    [0, "%", 107.22, 3, 3],
+    [0, "%", 106.99, 4, 4],
+    [0, "%", 106.46, 5, 6],
+    [0, "%", 106.59, 7, 7],
+    [0, "%", 106.57, 8, 8],
+    [0, "%", 106.42, 9, 9],
+    [0, "%", 106.67, 10, 10]
+  ],
+  "charts": []
+}

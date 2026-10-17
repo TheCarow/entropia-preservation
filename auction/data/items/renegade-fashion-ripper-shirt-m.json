@@ -1,0 +1,20 @@
+{
+  "item": "renegade-fashion-ripper-shirt-m",
+  "markup": "TT+",
+  "sources": ["pea", "pe-player"],
+  "captures": [
+    "https://web.archive.org/web/20050130134118/http://www.pe-player.com:80/auction/list.php?sort=bytype",
+    "https://web.archive.org/web/20160801085212/http://peauction.com/itemlisting.php?id=3079"
+  ],
+  "sold": [
+    [1, 3.03, 2004.0, 0, [[1, "2004-10-22 19:45", 0]]],
+    [1, 8.5, 2999.0, 1, [[0, "2007-01-07 15:07", 1]]]
+  ],
+  "unsold": [
+    [1, 8.5, 4000.0, [[0, "2006-08-31 05:34", 1]]],
+    [1, 3.03, 5004.0, [[0, "2006-09-12 22:56", 1]]],
+    [1, 3.03, 5004.0, [[0, "2006-09-20 22:12", 1]]]
+  ],
+  "readings": [],
+  "charts": []
+}

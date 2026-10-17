@@ -1,0 +1,51 @@
+{
+  "item": "zombie-gloves-blueprint",
+  "markup": "TT+",
+  "sources": ["pea", "pe-player"],
+  "captures": [
+    "https://web.archive.org/web/20040807114142/http://www.pe-player.com:80/auction/list.php?sort=bytype",
+    "https://web.archive.org/web/20060216220804/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20060805173432/http://peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20061107141622/http://peauction.com/catlisting.php?id=18",
+    "https://web.archive.org/web/20070803140920/http://peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20070806042720/http://peauction.com:80/itemlisting.php?id=1707",
+    "https://web.archive.org/web/20071007162213/http://www.peauction.com/catlisting.php?id=18",
+    "https://web.archive.org/web/20080411150913/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20080610174500/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20080801024921/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20091002013041/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20160801123640/http://peauction.com/itemlisting.php?id=1707"
+  ],
+  "sold": [
+    [1, 0.01, 101.0, 0, [[1, "2004-07-25 10:20", 0]]],
+    [1, 0.01, 45.0, 11, [[0, "2005-11-03 20:16", 5]]],
+    [1, 0.05, 61.0, 13, [[0, "2006-08-19 20:40", 5]]],
+    [1, 0.01, 300.0, 1, [[0, "2007-08-26 18:37", 11]]],
+    [1, 0.01, 112.0, 23, [[0, "2008-06-07 15:47", 11]]],
+    [1, 0.01, 176.0, 16, [[0, "2008-06-24 19:50", 11]]],
+    [1, 0.01, 160.0, 18, [[0, "2008-07-16 23:32", 11]]]
+  ],
+  "unsold": [
+    [1, 0.01, 401.0, [[0, "2006-03-21 13:08", 5]]],
+    [1, 0.01, 251.0, [[0, "2006-04-11 15:59", 5]]],
+    [1, 0.01, 201.0, [[0, "2006-04-20 17:34", 5]]],
+    [1, 0.01, 111.0, [[0, "2006-04-22 17:18", 5]]],
+    [1, 0.01, 151.0, [[0, "2006-04-23 21:18", 5]]],
+    [1, 0.01, 201.0, [[0, "2006-05-11 14:29", 5]]],
+    [1, 0.02, 416.0, [[0, "2006-06-23 01:12", 5]]],
+    [1, 0.02, 395.0, [[0, "2006-07-03 11:46", 5]]],
+    [1, 0.02, 455.0, [[0, "2006-07-13 23:28", 5]]],
+    [1, 0.02, 392.0, [[0, "2006-08-11 09:43", 5]]],
+    [1, 0.02, 272.0, [[0, "2006-08-27 21:09", 5]]],
+    [1, 0.02, 201.0, [[0, "2006-09-03 23:34", 5]]],
+    [1, 0.02, 595.0, [[0, "2006-09-16 17:54", 5]]]
+  ],
+  "readings": [
+    [0, "TT+", 44.99, 1, 2],
+    [0, "TT+", 52.97, 3, 4],
+    [0, "TT+", 135.31, 6, 7],
+    [0, "TT+", 129.48, 8, 8],
+    [0, "TT+", 142.32, 9, 10]
+  ],
+  "charts": []
+}

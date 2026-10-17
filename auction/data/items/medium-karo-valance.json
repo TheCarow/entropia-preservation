@@ -1,0 +1,16 @@
+{
+  "item": "medium-karo-valance",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20160801222810/http://peauction.com/itemlisting.php?id=3414"
+  ],
+  "sold": [
+    [1, 5.24, 20.0, 10, [[0, "2006-11-19 11:00", 0]]],
+    [1, 4.55, 20.0, 11, [[0, "2006-11-19 11:00", 0]]],
+    [1, 4.57, 21.0, 11, [[0, "2006-11-19 11:00", 0]]]
+  ],
+  "unsold": [],
+  "readings": [],
+  "charts": []
+}

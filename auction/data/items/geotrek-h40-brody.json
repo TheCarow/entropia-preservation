@@ -1,0 +1,21 @@
+{
+  "item": "geotrek-h40-brody",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20090802102238/http://www.peauction.com:80/catlisting.php?id=75",
+    "https://web.archive.org/web/20091002013525/http://www.peauction.com:80/catlisting.php?id=75",
+    "https://web.archive.org/web/20160802010914/http://peauction.com/itemlisting.php?id=6142"
+  ],
+  "sold": [
+    [1, 2079.99, 4500.0, 27, [[0, "2009-05-31 15:03", 2]]]
+  ],
+  "unsold": [
+    [1, 4050.49, 12051.0, [[0, "2008-08-08 21:53", 2]]],
+    [1, 2138.44, 10139.0, [[0, "2009-05-27 00:27", 2]]]
+  ],
+  "readings": [
+    [0, "TT+", 2420.01, 0, 1]
+  ],
+  "charts": []
+}

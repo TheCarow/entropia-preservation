@@ -1,0 +1,40 @@
+{
+  "item": "hermes-shoulder-guard-f-l",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071006171149/http://www.peauction.com/catlisting.php?id=3",
+    "https://web.archive.org/web/20071009125119/http://www.peauction.com/itemlisting.php?id=4596",
+    "https://web.archive.org/web/20071012151822/http://peauction.com:80/catlisting.php?id=3",
+    "https://web.archive.org/web/20071212065958/http://peauction.com:80/catlisting.php?id=3",
+    "https://web.archive.org/web/20080210212348/http://www.peauction.com:80/catlisting.php?id=3",
+    "https://web.archive.org/web/20080610220423/http://www.peauction.com:80/catlisting.php?id=3",
+    "https://web.archive.org/web/20080801024947/http://www.peauction.com:80/catlisting.php?id=3",
+    "https://web.archive.org/web/20080818212822/http://www.peauction.com:80/catlisting.php?id=3",
+    "https://web.archive.org/web/20081022150132/http://www.peauction.com:80/catlisting.php?id=3",
+    "https://web.archive.org/web/20090223042118/http://peauction.com:80/catlisting.php?id=3",
+    "https://web.archive.org/web/20090802102119/http://www.peauction.com:80/catlisting.php?id=6",
+    "https://web.archive.org/web/20091002013404/http://www.peauction.com:80/catlisting.php?id=6"
+  ],
+  "sold": [
+    [1, 103.27, 950.0, 1, [[0, "2007-07-23 19:23", 1]]],
+    [1, 149.62, 610.0, 26, [[0, "2007-09-01 16:44", 1]]],
+    [1, 149.62, 650.0, 26, [[0, "2007-09-01 16:49", 1]]]
+  ],
+  "unsold": [
+    [1, 151.0, 1251.0, [[0, "2007-07-24 22:38", 1]]],
+    [1, 149.78, 1550.0, [[0, "2007-08-05 17:17", 1]]],
+    [1, 150.98, 1100.0, [[0, "2007-08-25 04:42", 1]]],
+    [1, 150.98, 793.0, [[0, "2007-09-13 16:19", 1]]]
+  ],
+  "readings": [
+    [0, "TT+", 602.5, 0, 2],
+    [0, "TT+", 499.03, 3, 3],
+    [0, "TT+", 528.35, 4, 5],
+    [0, "TT+", 625.7, 6, 7],
+    [0, "TT+", 897.93, 8, 8],
+    [0, "TT+", 863.47, 9, 9],
+    [0, "%", 490.04, 10, 11]
+  ],
+  "charts": []
+}

@@ -1,0 +1,18 @@
+{
+  "item": "caudatergus-mandible",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20060614131324/http://peauction.com:80/catlisting.php?id=51",
+    "https://web.archive.org/web/20070807232946/http://peauction.com:80/itemlisting.php?id=2522",
+    "https://web.archive.org/web/20091002013327/http://www.peauction.com:80/catlisting.php?id=51"
+  ],
+  "sold": [
+    [1, 5.89, 29.0, 10, [[0, "2006-02-17 04:17", 1]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "%", 492.36, 0, 2]
+  ],
+  "charts": []
+}

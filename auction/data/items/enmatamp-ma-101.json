@@ -1,0 +1,28 @@
+{
+  "item": "enmatamp-ma-101",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20070804000630/http://peauction.com:80/catlisting.php?id=67",
+    "https://web.archive.org/web/20071109015203/http://www.peauction.com/itemlisting.php?id=3948",
+    "https://web.archive.org/web/20081022150434/http://www.peauction.com:80/catlisting.php?id=67",
+    "https://web.archive.org/web/20090802102158/http://www.peauction.com:80/catlisting.php?id=67",
+    "https://web.archive.org/web/20091002013441/http://www.peauction.com:80/catlisting.php?id=67",
+    "https://web.archive.org/web/20160801184136/http://peauction.com/itemlisting.php?id=3948"
+  ],
+  "sold": [
+    [1, 78.0, 5078.0, 1, [[0, "2007-06-09 17:11", 1]]],
+    [1, 78.0, 2078.0, 1, [[0, "2007-06-25 08:31", 1]]],
+    [1, 23.25, 3801.0, 48, [[0, "2009-03-26 10:32", 5]]]
+  ],
+  "unsold": [
+    [1, 8.25, 7009.0, [[0, "2007-04-21 21:16", 1]]],
+    [1, 78.0, 11078.0, [[0, "2007-06-02 09:19", 1]]],
+    [1, 12.18, 3013.0, [[0, "2009-04-23 03:07", 5]]]
+  ],
+  "readings": [
+    [0, "TT+", 3500.0, 0, 2],
+    [0, "TT+", 3592.58, 3, 4]
+  ],
+  "charts": []
+}

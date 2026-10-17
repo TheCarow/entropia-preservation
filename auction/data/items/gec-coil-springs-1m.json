@@ -1,0 +1,32 @@
+{
+  "item": "gec-coil-springs-1m",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071008002943/http://www.peauction.com/catlisting.php?id=38",
+    "https://web.archive.org/web/20071012151907/http://peauction.com:80/catlisting.php?id=38",
+    "https://web.archive.org/web/20071212070045/http://peauction.com:80/catlisting.php?id=38",
+    "https://web.archive.org/web/20080210220508/http://www.peauction.com:80/catlisting.php?id=38",
+    "https://web.archive.org/web/20080411151059/http://www.peauction.com:80/catlisting.php?id=38",
+    "https://web.archive.org/web/20080610220510/http://www.peauction.com:80/catlisting.php?id=38",
+    "https://web.archive.org/web/20080801024434/http://www.peauction.com:80/catlisting.php?id=38",
+    "https://web.archive.org/web/20080817052223/http://www.peauction.com:80/catlisting.php?id=38",
+    "https://web.archive.org/web/20081022150218/http://www.peauction.com:80/catlisting.php?id=38",
+    "https://web.archive.org/web/20090223042203/http://peauction.com:80/catlisting.php?id=38",
+    "https://web.archive.org/web/20090802101937/http://www.peauction.com:80/catlisting.php?id=38",
+    "https://web.archive.org/web/20091002013226/http://www.peauction.com:80/catlisting.php?id=38"
+  ],
+  "sold": [],
+  "unsold": [],
+  "readings": [
+    [0, "%", 798.61, 0, 1],
+    [0, "%", 558.92, 2, 3],
+    [0, "%", 532.76, 4, 4],
+    [0, "%", 576.92, 5, 5],
+    [0, "%", 555.56, 6, 7],
+    [0, "%", 541.91, 8, 8],
+    [0, "%", 483.83, 9, 9],
+    [0, "%", 486.27, 10, 11]
+  ],
+  "charts": []
+}

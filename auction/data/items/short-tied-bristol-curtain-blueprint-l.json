@@ -1,0 +1,15 @@
+{
+  "item": "short-tied-bristol-curtain-blueprint-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20090802102248/http://www.peauction.com:80/catlisting.php?id=77",
+    "https://web.archive.org/web/20091002013535/http://www.peauction.com:80/catlisting.php?id=77"
+  ],
+  "sold": [],
+  "unsold": [],
+  "readings": [
+    [0, "%", 1176.47, 0, 1]
+  ],
+  "charts": []
+}

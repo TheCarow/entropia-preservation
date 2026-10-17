@@ -1,0 +1,28 @@
+{
+  "item": "phantom-harness-f",
+  "markup": "TT+",
+  "sources": ["pea", "pe-player"],
+  "captures": [
+    "https://web.archive.org/web/20050130134118/http://www.pe-player.com:80/auction/list.php?sort=bytype",
+    "https://web.archive.org/web/20071107114321/http://www.peauction.com/itemlisting.php?id=4005",
+    "https://web.archive.org/web/20080411151244/http://www.peauction.com:80/catlisting.php?id=6",
+    "https://web.archive.org/web/20081022150359/http://www.peauction.com:80/catlisting.php?id=6",
+    "https://web.archive.org/web/20090223042341/http://peauction.com:80/catlisting.php?id=6",
+    "https://web.archive.org/web/20091002013404/http://www.peauction.com:80/catlisting.php?id=6",
+    "https://web.archive.org/web/20160801190557/http://peauction.com/itemlisting.php?id=4005"
+  ],
+  "sold": [
+    [1, 21.32, 502.0, 0, [[1, "2005-01-04 21:40", 0]]],
+    [1, 71.18, 1238.0, 29, [[0, "2008-11-26 09:56", 6]]]
+  ],
+  "unsold": [
+    [1, 46.24, 1227.0, [[0, "2007-06-02 21:16", 1]]],
+    [1, 79.46, 1080.0, [[0, "2007-07-25 20:43", 1]]],
+    [1, 85.93, 1285.0, [[0, "2008-03-31 03:23", 6]]]
+  ],
+  "readings": [
+    [0, "TT+", 926.7, 2, 3],
+    [0, "TT+", 1046.76, 4, 5]
+  ],
+  "charts": []
+}

@@ -1,0 +1,36 @@
+{
+  "item": "hardened-metal-mountings",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071008002943/http://www.peauction.com/catlisting.php?id=38",
+    "https://web.archive.org/web/20071012151907/http://peauction.com:80/catlisting.php?id=38",
+    "https://web.archive.org/web/20071212070045/http://peauction.com:80/catlisting.php?id=38",
+    "https://web.archive.org/web/20080210220508/http://www.peauction.com:80/catlisting.php?id=38",
+    "https://web.archive.org/web/20080801024434/http://www.peauction.com:80/catlisting.php?id=38",
+    "https://web.archive.org/web/20080817052223/http://www.peauction.com:80/catlisting.php?id=38",
+    "https://web.archive.org/web/20090223042203/http://peauction.com:80/catlisting.php?id=38",
+    "https://web.archive.org/web/20090802101937/http://www.peauction.com:80/catlisting.php?id=38",
+    "https://web.archive.org/web/20091002013226/http://www.peauction.com:80/catlisting.php?id=38",
+    "https://web.archive.org/web/20160801205400/http://peauction.com/itemlisting.php?id=3712"
+  ],
+  "sold": [
+    [54, 35.1, 36.0, 1, [[0, "2007-08-27 14:27", 9]]],
+    [22, 14.3, 15.0, 1, [[0, "2007-09-03 21:14", 9]]],
+    [26, 16.9, 17.0, 1, [[0, "2007-10-22 02:08", 9]]],
+    [31, 20.15, 22.0, 1, [[0, "2007-12-04 13:26", 9]]],
+    [200, 130.0, 130.0, 1, [[0, "2007-12-28 19:39", 9]]],
+    [100, 65.0, 65.0, 1, [[0, "2008-01-02 21:44", 9]]],
+    [500, 325.0, 325.0, 1, [[0, "2008-08-12 13:19", 9]]],
+    [54, 35.1, 36.0, 1, [[0, "2009-03-15 05:10", 9]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "%", 103.24, 0, 1],
+    [0, "%", 104.11, 2, 2],
+    [0, "%", 101.26, 3, 4],
+    [0, "%", 100.59, 5, 6],
+    [0, "%", 100.69, 7, 8]
+  ],
+  "charts": []
+}

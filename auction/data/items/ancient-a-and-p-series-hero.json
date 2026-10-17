@@ -1,0 +1,19 @@
+{
+  "item": "ancient-a-and-p-series-hero",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20070107092520/http://peauction.com:80/itemlisting.php?id=3018&old=1",
+    "https://web.archive.org/web/20071212071243/http://peauction.com:80/catlisting.php?id=74",
+    "https://web.archive.org/web/20091002013520/http://www.peauction.com:80/catlisting.php?id=74"
+  ],
+  "sold": [],
+  "unsold": [
+    [1, 45.0, 1045.0, [[0, "2006-07-19 22:00", 0]]],
+    [1, 45.0, 345.0, [[0, "2006-07-28 20:04", 0]]]
+  ],
+  "readings": [
+    [0, "TT+", 1700.48, 1, 2]
+  ],
+  "charts": []
+}

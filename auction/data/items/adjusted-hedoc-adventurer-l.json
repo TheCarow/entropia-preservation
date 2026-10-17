@@ -1,0 +1,17 @@
+{
+  "item": "adjusted-hedoc-adventurer-l",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071110145815/http://www.peauction.com/itemlisting.php?id=4652",
+    "https://web.archive.org/web/20160801125213/http://peauction.com/itemlisting.php?id=4652"
+  ],
+  "sold": [],
+  "unsold": [
+    [1, 86.94, 88.0, [[0, "2007-08-07 11:47", 0]]],
+    [1, 280.94, 290.0, [[0, "2007-12-24 16:04", 1]]],
+    [1, 139.72, 140.0, [[0, "2009-03-25 19:21", 1]]]
+  ],
+  "readings": [],
+  "charts": []
+}

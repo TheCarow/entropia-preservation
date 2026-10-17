@@ -1,0 +1,33 @@
+{
+  "item": "paint-can-steel-blue",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071212071153/http://peauction.com:80/catlisting.php?id=64",
+    "https://web.archive.org/web/20080210224844/http://www.peauction.com:80/catlisting.php?id=64",
+    "https://web.archive.org/web/20080411151307/http://www.peauction.com:80/catlisting.php?id=64",
+    "https://web.archive.org/web/20080610222909/http://www.peauction.com:80/catlisting.php?id=64",
+    "https://web.archive.org/web/20080801025429/http://www.peauction.com:80/catlisting.php?id=64",
+    "https://web.archive.org/web/20080817053527/http://www.peauction.com:80/catlisting.php?id=64",
+    "https://web.archive.org/web/20081022150419/http://www.peauction.com:80/catlisting.php?id=64",
+    "https://web.archive.org/web/20090223042401/http://peauction.com:80/catlisting.php?id=64",
+    "https://web.archive.org/web/20090802102140/http://www.peauction.com:80/catlisting.php?id=64",
+    "https://web.archive.org/web/20091002013426/http://www.peauction.com:80/catlisting.php?id=64",
+    "https://web.archive.org/web/20091003145650/http://www.peauction.com:80/catlisting.php?id=64"
+  ],
+  "sold": [],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 0.13, 0, 0],
+    [0, "TT+", 0.14, 1, 1],
+    [0, "TT+", 0.19, 2, 2],
+    [0, "TT+", 0.29, 3, 3],
+    [0, "TT+", 0.08, 4, 4],
+    [0, "TT+", 0.15, 5, 5],
+    [0, "TT+", 0.1, 6, 6],
+    [0, "TT+", 0.07, 7, 7],
+    [0, "TT+", 0.03, 8, 8],
+    [0, "TT+", 0.02, 9, 10]
+  ],
+  "charts": []
+}

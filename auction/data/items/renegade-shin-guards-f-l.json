@@ -1,0 +1,24 @@
+{
+  "item": "renegade-shin-guards-f-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20090802102303/http://www.peauction.com:80/catlisting.php?id=8",
+    "https://web.archive.org/web/20091002013550/http://www.peauction.com:80/catlisting.php?id=8",
+    "https://web.archive.org/web/20160801091019/http://peauction.com/itemlisting.php?id=5885"
+  ],
+  "sold": [
+    [1, 7.1, 7.0, 1, [[0, "2008-06-14 23:34", 2]]]
+  ],
+  "unsold": [
+    [1, 7.1, 14.0, [[0, "2008-06-03 16:13", 2]]],
+    [1, 7.1, 14.0, [[0, "2008-06-05 16:12", 2]]],
+    [1, 7.1, 8.0, [[0, "2008-07-09 03:51", 2]]],
+    [1, 7.1, 8.0, [[0, "2008-07-16 05:22", 2]]],
+    [1, 7.1, 10.0, [[0, "2008-10-03 12:28", 2]]]
+  ],
+  "readings": [
+    [0, "%", 98.59, 0, 1]
+  ],
+  "charts": []
+}

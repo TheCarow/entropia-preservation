@@ -1,0 +1,21 @@
+{
+  "item": "force-mace-assail-blueprint-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20061107140839/http://peauction.com/catlisting.php?id=25",
+    "https://web.archive.org/web/20061107143901/http://peauction.com/itemlisting.php?id=3084",
+    "https://web.archive.org/web/20091002013119/http://www.peauction.com:80/catlisting.php?id=25"
+  ],
+  "sold": [
+    [1, 0.02, 130.0, 1, [[0, "2006-10-08 11:26", 1]]]
+  ],
+  "unsold": [
+    [1, 0.02, 301.0, [[0, "2006-09-05 20:00", 1]]],
+    [1, 0.02, 130.0, [[0, "2006-10-08 11:21", 1]]]
+  ],
+  "readings": [
+    [0, "%", 650000.0, 0, 2]
+  ],
+  "charts": []
+}

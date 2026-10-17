@@ -1,0 +1,48 @@
+{
+  "item": "ziplex-ju55-matterseeker-l-blueprint-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20070805183422/http://peauction.com:80/catlisting.php?id=24",
+    "https://web.archive.org/web/20071012151757/http://peauction.com:80/catlisting.php?id=24",
+    "https://web.archive.org/web/20071212065932/http://peauction.com:80/catlisting.php?id=24",
+    "https://web.archive.org/web/20080411150945/http://www.peauction.com:80/catlisting.php?id=24",
+    "https://web.archive.org/web/20080610213812/http://www.peauction.com:80/catlisting.php?id=24",
+    "https://web.archive.org/web/20080801024932/http://www.peauction.com:80/catlisting.php?id=24",
+    "https://web.archive.org/web/20080817051739/http://www.peauction.com:80/catlisting.php?id=24",
+    "https://web.archive.org/web/20081022150107/http://www.peauction.com:80/catlisting.php?id=24",
+    "https://web.archive.org/web/20091002013114/http://www.peauction.com:80/catlisting.php?id=24",
+    "https://web.archive.org/web/20160801202102/http://peauction.com/itemlisting.php?id=3917"
+  ],
+  "sold": [
+    [1, 0.01, 18.0, 15, [[0, "2007-04-03 06:39", 9]]],
+    [1, 0.02, 63.0, 16, [[0, "2007-05-06 17:04", 9]]],
+    [1, 0.01, 10.0, 8, [[0, "2007-05-21 22:30", 9]]],
+    [1, 0.06, 120.0, 1, [[0, "2007-05-29 12:20", 9]]],
+    [1, 0.08, 126.0, 3, [[0, "2007-05-29 21:28", 9]]],
+    [1, 0.13, 201.0, 1, [[0, "2007-06-06 18:13", 9]]],
+    [1, 0.01, 8.0, 5, [[0, "2007-06-09 00:21", 9]]],
+    [1, 0.01, 13.0, 13, [[0, "2007-06-16 21:20", 9]]],
+    [1, 0.05, 61.0, 9, [[0, "2007-12-08 20:51", 9]]],
+    [1, 0.09, 101.0, 2, [[0, "2008-05-14 07:58", 9]]],
+    [1, 0.12, 140.0, 27, [[0, "2008-06-06 23:17", 9]]],
+    [1, 0.02, 42.0, 20, [[0, "2008-07-06 15:31", 9]]],
+    [1, 0.02, 10.0, 6, [[0, "2008-10-18 01:04", 9]]]
+  ],
+  "unsold": [
+    [1, 0.1, 300.0, [[0, "2007-05-03 02:57", 9]]],
+    [1, 0.01, 71.0, [[0, "2007-05-25 18:16", 9]]],
+    [1, 0.01, 31.0, [[0, "2007-05-28 18:18", 9]]],
+    [1, 0.13, 201.0, [[0, "2007-06-06 18:08", 9]]],
+    [1, 0.01, 50.0, [[0, "2007-08-03 21:21", 9]]],
+    [1, 0.07, 140.0, [[0, "2008-04-06 13:53", 9]]]
+  ],
+  "readings": [
+    [0, "%", 164639.0, 0, 1],
+    [0, "%", 159902.0, 2, 3],
+    [0, "%", 148800.0, 4, 4],
+    [0, "%", 138300.0, 5, 6],
+    [0, "%", 133300.0, 7, 8]
+  ],
+  "charts": []
+}

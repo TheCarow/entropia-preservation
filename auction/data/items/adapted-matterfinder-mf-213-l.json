@@ -1,0 +1,47 @@
+{
+  "item": "adapted-matterfinder-mf-213-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20070502022402/http://peauction.com:80/catlisting.php?id=67",
+    "https://web.archive.org/web/20070804000630/http://peauction.com:80/catlisting.php?id=67",
+    "https://web.archive.org/web/20071007160835/http://www.peauction.com/catlisting.php?id=67",
+    "https://web.archive.org/web/20071012152124/http://peauction.com:80/catlisting.php?id=67",
+    "https://web.archive.org/web/20071109170144/http://www.peauction.com/itemlisting.php?id=2928",
+    "https://web.archive.org/web/20071212071208/http://peauction.com:80/catlisting.php?id=67",
+    "https://web.archive.org/web/20081022150434/http://www.peauction.com:80/catlisting.php?id=67",
+    "https://web.archive.org/web/20090802102158/http://www.peauction.com:80/catlisting.php?id=67",
+    "https://web.archive.org/web/20091002013441/http://www.peauction.com:80/catlisting.php?id=67",
+    "https://web.archive.org/web/20160801191105/http://peauction.com/itemlisting.php?id=2928"
+  ],
+  "sold": [
+    [1, 262.67, 6000.0, 36, [[0, "2007-04-01 20:38", 4]]],
+    [1, 471.95, 5473.0, 2, [[0, "2007-09-22 22:25", 4]]],
+    [1, 466.23, 2356.0, 26, [[0, "2007-12-02 23:46", 9]]],
+    [1, 466.23, 2358.0, 26, [[0, "2007-12-02 23:51", 9]]],
+    [1, 466.23, 2360.0, 26, [[0, "2007-12-02 23:56", 9]]]
+  ],
+  "unsold": [
+    [1, 670.0, 4970.0, [[0, "2006-05-10 10:33", 4]]],
+    [1, 670.0, 4970.0, [[0, "2006-05-17 23:28", 4]]],
+    [1, 670.0, 4690.0, [[0, "2006-05-25 14:03", 4]]],
+    [1, 654.94, 4655.0, [[0, "2006-05-25 21:04", 4]]],
+    [1, 670.0, 4690.0, [[0, "2006-06-02 13:48", 4]]],
+    [1, 654.94, 4600.0, [[0, "2006-06-03 17:15", 4]]],
+    [1, 663.89, 4600.0, [[0, "2006-06-17 23:42", 4]]],
+    [1, 448.96, 13470.0, [[0, "2006-09-23 14:43", 4]]],
+    [1, 448.96, 11225.0, [[0, "2006-10-08 22:46", 4]]],
+    [1, 448.96, 8449.0, [[0, "2006-10-16 13:08", 4]]],
+    [1, 299.53, 9900.0, [[0, "2007-01-26 10:52", 4]]],
+    [1, 223.5, 2999.0, [[0, "2007-09-30 10:40", 4]]],
+    [1, 471.95, 5899.0, [[0, "2007-10-16 15:23", 4]]],
+    [1, 20.09, 49.0, [[0, "2008-02-10 17:48", 9]]]
+  ],
+  "readings": [
+    [0, "TT+", 5737.33, 0, 1],
+    [0, "TT+", 5369.19, 2, 3],
+    [0, "TT+", 3282.74, 5, 6],
+    [0, "%", 992.23, 7, 8]
+  ],
+  "charts": []
+}

@@ -1,0 +1,22 @@
+{
+  "item": "lykke-chest-c",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20090802101942/http://www.peauction.com:80/catlisting.php?id=39",
+    "https://web.archive.org/web/20091002013231/http://www.peauction.com:80/catlisting.php?id=39",
+    "https://web.archive.org/web/20160801171827/http://peauction.com/itemlisting.php?id=5722"
+  ],
+  "sold": [
+    [1, 16.44, 718.0, 2, [[0, "2009-02-07 13:59", 2]]],
+    [1, 20.67, 650.0, 44, [[0, "2009-04-19 16:55", 2]]],
+    [1, 62.0, 762.0, 1, [[0, "2009-06-20 19:12", 2]]],
+    [1, 16.59, 422.0, 6, [[0, "2009-09-09 22:06", 2]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 571.34, 0, 0],
+    [0, "TT+", 543.69, 1, 1]
+  ],
+  "charts": []
+}

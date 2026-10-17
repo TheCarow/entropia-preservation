@@ -1,0 +1,28 @@
+{
+  "item": "phantom-thigh-guards-blueprint",
+  "markup": "TT+",
+  "sources": ["pea", "pe-player"],
+  "captures": [
+    "https://web.archive.org/web/20040807114142/http://www.pe-player.com:80/auction/list.php?sort=bytype",
+    "https://web.archive.org/web/20040807114428/http://www.pe-player.com:80/auction/list.php?sort=notbidded&numrows=100",
+    "https://web.archive.org/web/20061107141622/http://peauction.com/catlisting.php?id=18",
+    "https://web.archive.org/web/20091002013041/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20160801124134/http://peauction.com/itemlisting.php?id=3013"
+  ],
+  "sold": [
+    [1, 0.01, 250.0, 0, [[1, "2004-08-04 06:50", 0]]],
+    [1, 0.01, 199.0, 0, [[1, "2004-08-07 07:10", 1]]],
+    [1, 0.01, 1466.0, 40, [[0, "2006-07-18 22:39", 4]]]
+  ],
+  "unsold": [
+    [1, 0.01, 1501.0, [[0, "2006-09-25 23:43", 4]]],
+    [1, 0.01, 1901.0, [[0, "2007-03-31 05:50", 4]]],
+    [1, 0.01, 6001.0, [[0, "2007-07-04 22:42", 4]]],
+    [1, 0.01, 6500.0, [[0, "2007-07-18 14:17", 4]]],
+    [1, 0.01, 5999.0, [[0, "2007-08-05 13:42", 4]]]
+  ],
+  "readings": [
+    [0, "TT+", 1465.99, 2, 3]
+  ],
+  "charts": []
+}

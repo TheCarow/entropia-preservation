@@ -1,0 +1,14 @@
+{
+  "item": "robot-target-processor",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20090921135426/http://www.peauction.com:80/catlisting.php?id=54"
+  ],
+  "sold": [],
+  "unsold": [],
+  "readings": [
+    [0, "%", 157.84, 0, 0]
+  ],
+  "charts": []
+}

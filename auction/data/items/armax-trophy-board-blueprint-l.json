@@ -1,0 +1,18 @@
+{
+  "item": "armax-trophy-board-blueprint-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20090802101959/http://www.peauction.com:80/catlisting.php?id=42",
+    "https://web.archive.org/web/20091002013247/http://www.peauction.com:80/catlisting.php?id=42",
+    "https://web.archive.org/web/20160801205607/http://peauction.com/itemlisting.php?id=3601"
+  ],
+  "sold": [
+    [1, 0.6, 450.0, 54, [[0, "2006-12-31 06:04", 2]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "%", 75000.0, 0, 1]
+  ],
+  "charts": []
+}

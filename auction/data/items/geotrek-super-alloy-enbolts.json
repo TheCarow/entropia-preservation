@@ -1,0 +1,24 @@
+{
+  "item": "geotrek-super-alloy-enbolts",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20090802101937/http://www.peauction.com:80/catlisting.php?id=38",
+    "https://web.archive.org/web/20091002013226/http://www.peauction.com:80/catlisting.php?id=38",
+    "https://web.archive.org/web/20160801222038/http://peauction.com/itemlisting.php?id=6155"
+  ],
+  "sold": [
+    [16, 24.0, 100.0, 1, [[0, "2009-03-04 13:20", 2]]],
+    [19, 28.5, 34.0, 6, [[0, "2009-09-09 22:02", 2]]]
+  ],
+  "unsold": [
+    [6, 9.0, 17.0, [[0, "2008-08-21 00:40", 2]]],
+    [21, 31.5, 95.0, [[0, "2008-12-16 05:27", 2]]],
+    [24, 36.0, 138.0, [[0, "2009-01-22 10:48", 2]]]
+  ],
+  "readings": [
+    [0, "%", 416.67, 0, 0],
+    [0, "%", 255.24, 1, 1]
+  ],
+  "charts": []
+}

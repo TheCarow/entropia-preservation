@@ -1,0 +1,33 @@
+{
+  "item": "rutuba-shoulder-guard-f-l",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071006171149/http://www.peauction.com/catlisting.php?id=3",
+    "https://web.archive.org/web/20071009123203/http://www.peauction.com/itemlisting.php?id=4685",
+    "https://web.archive.org/web/20071012151822/http://peauction.com:80/catlisting.php?id=3",
+    "https://web.archive.org/web/20071212065958/http://peauction.com:80/catlisting.php?id=3",
+    "https://web.archive.org/web/20080210212348/http://www.peauction.com:80/catlisting.php?id=3",
+    "https://web.archive.org/web/20080818212822/http://www.peauction.com:80/catlisting.php?id=3",
+    "https://web.archive.org/web/20081022150132/http://www.peauction.com:80/catlisting.php?id=3",
+    "https://web.archive.org/web/20090223042118/http://peauction.com:80/catlisting.php?id=3",
+    "https://web.archive.org/web/20090802101850/http://www.peauction.com:80/catlisting.php?id=3",
+    "https://web.archive.org/web/20091002013141/http://www.peauction.com:80/catlisting.php?id=3"
+  ],
+  "sold": [
+    [1, 217.5, 521.0, 26, [[0, "2007-08-23 22:12", 1]]],
+    [1, 217.5, 553.0, 26, [[0, "2007-08-23 22:17", 1]]],
+    [1, 217.5, 724.0, 26, [[0, "2007-08-23 22:32", 1]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 381.83, 0, 2],
+    [0, "TT+", 416.34, 3, 3],
+    [0, "TT+", 567.75, 4, 5],
+    [0, "TT+", 625.65, 6, 6],
+    [0, "TT+", 432.21, 7, 7],
+    [0, "%", 345.44, 8, 8],
+    [0, "%", 415.08, 9, 9]
+  ],
+  "charts": []
+}

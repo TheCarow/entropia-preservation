@@ -1,0 +1,19 @@
+{
+  "item": "eden-micro-skirt-blueprint-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20090802101821/http://www.peauction.com:80/catlisting.php?id=23",
+    "https://web.archive.org/web/20091002013109/http://www.peauction.com:80/catlisting.php?id=23",
+    "https://web.archive.org/web/20160801190721/http://peauction.com/itemlisting.php?id=5743"
+  ],
+  "sold": [
+    [1, 0.44, 189.0, 33, [[0, "2008-02-25 13:25", 2]]],
+    [1, 0.27, 281.0, 15, [[0, "2008-10-07 21:28", 2]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "%", 73514.3, 0, 1]
+  ],
+  "charts": []
+}

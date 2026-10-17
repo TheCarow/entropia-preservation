@@ -1,0 +1,28 @@
+{
+  "item": "armor-plating-mark-2d-blueprint",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20060216220812/http://www.peauction.com:80/catlisting.php?id=19",
+    "https://web.archive.org/web/20060805173534/http://peauction.com:80/catlisting.php?id=19",
+    "https://web.archive.org/web/20061107141622/http://peauction.com/catlisting.php?id=18",
+    "https://web.archive.org/web/20070805003224/http://peauction.com:80/itemlisting.php?id=1746",
+    "https://web.archive.org/web/20091002013048/http://www.peauction.com:80/catlisting.php?id=19"
+  ],
+  "sold": [
+    [1, 0.02, 250.0, 1, [[0, "2005-11-22 17:25", 3]]],
+    [1, 0.01, 155.0, 20, [[0, "2005-12-27 05:34", 3]]],
+    [1, 0.01, 201.0, 2, [[0, "2006-01-18 23:54", 3]]],
+    [1, 0.01, 896.0, 18, [[0, "2006-10-30 11:13", 3]]]
+  ],
+  "unsold": [
+    [1, 0.02, 500.0, [[0, "2005-11-04 18:05", 3]]],
+    [1, 0.02, 500.0, [[0, "2005-11-12 17:26", 3]]],
+    [1, 0.01, 1999.0, [[0, "2007-01-31 13:46", 3]]]
+  ],
+  "readings": [
+    [0, "TT+", 201.99, 0, 1],
+    [0, "TT+", 375.49, 2, 4]
+  ],
+  "charts": []
+}

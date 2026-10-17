@@ -1,0 +1,21 @@
+{
+  "item": "vampire-arm-guards-blueprint",
+  "markup": "TT+",
+  "sources": ["pea", "pe-player"],
+  "captures": [
+    "https://web.archive.org/web/20050130134118/http://www.pe-player.com:80/auction/list.php?sort=bytype",
+    "https://web.archive.org/web/20090802101753/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20091002013041/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20160801065839/http://peauction.com/itemlisting.php?id=6055"
+  ],
+  "sold": [
+    [1, 0.01, 69.0, 0, [[1, "2004-10-31 13:25", 0]]],
+    [1, 0.01, 400.0, 6, [[0, "2008-06-15 19:19", 3]]],
+    [1, 0.27, 1408.0, 37, [[0, "2008-10-13 18:28", 3]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 903.86, 1, 2]
+  ],
+  "charts": []
+}

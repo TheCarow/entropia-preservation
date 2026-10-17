@@ -1,0 +1,18 @@
+{
+  "item": "xfire-survival-thigh-guards-f-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20081022150459/http://www.peauction.com:80/catlisting.php?id=72",
+    "https://web.archive.org/web/20090223042436/http://peauction.com:80/catlisting.php?id=72",
+    "https://web.archive.org/web/20090802102528/http://www.peauction.com:80/catlisting.php?id=9",
+    "https://web.archive.org/web/20091002013610/http://www.peauction.com:80/catlisting.php?id=9"
+  ],
+  "sold": [],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 80.44, 0, 1],
+    [0, "%", 272.77, 2, 3]
+  ],
+  "charts": []
+}

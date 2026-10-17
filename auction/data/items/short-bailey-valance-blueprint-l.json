@@ -1,0 +1,18 @@
+{
+  "item": "short-bailey-valance-blueprint-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20070610030855/http://peauction.com:80/catlisting.php?id=77",
+    "https://web.archive.org/web/20071110001551/http://www.peauction.com/itemlisting.php?id=3577",
+    "https://web.archive.org/web/20091002013535/http://www.peauction.com:80/catlisting.php?id=77"
+  ],
+  "sold": [
+    [1, 0.44, 15.0, 6, [[0, "2006-12-25 21:21", 1]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "%", 3409.09, 0, 2]
+  ],
+  "charts": []
+}

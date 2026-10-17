@@ -1,0 +1,36 @@
+{
+  "item": "shear-pro600-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20070805002742/http://peauction.com:80/catlisting.php?id=12",
+    "https://web.archive.org/web/20070806045543/http://peauction.com:80/catlisting.php?id=12",
+    "https://web.archive.org/web/20071007162144/http://www.peauction.com/catlisting.php?id=12",
+    "https://web.archive.org/web/20071012151719/http://peauction.com:80/catlisting.php?id=12",
+    "https://web.archive.org/web/20071212065851/http://peauction.com:80/catlisting.php?id=12",
+    "https://web.archive.org/web/20080210205836/http://www.peauction.com:80/catlisting.php?id=12",
+    "https://web.archive.org/web/20080411150902/http://www.peauction.com:80/catlisting.php?id=12",
+    "https://web.archive.org/web/20080610174449/http://www.peauction.com:80/catlisting.php?id=12",
+    "https://web.archive.org/web/20080801024912/http://www.peauction.com:80/catlisting.php?id=12",
+    "https://web.archive.org/web/20080817052543/http://www.peauction.com:80/catlisting.php?id=12",
+    "https://web.archive.org/web/20081022150027/http://www.peauction.com:80/catlisting.php?id=12",
+    "https://web.archive.org/web/20090223042015/http://peauction.com:80/catlisting.php?id=12",
+    "https://web.archive.org/web/20090802101742/http://www.peauction.com:80/catlisting.php?id=12",
+    "https://web.archive.org/web/20091002013031/http://www.peauction.com:80/catlisting.php?id=12"
+  ],
+  "sold": [],
+  "unsold": [],
+  "readings": [
+    [0, "%", 208.1, 0, 1],
+    [0, "%", 254.77, 2, 3],
+    [0, "%", 251.4, 4, 4],
+    [0, "%", 264.36, 5, 5],
+    [0, "%", 295.63, 6, 6],
+    [0, "%", 309.59, 7, 7],
+    [0, "%", 323.26, 8, 9],
+    [0, "%", 346.29, 10, 11],
+    [0, "%", 462.55, 12, 12],
+    [0, "%", 398.24, 13, 13]
+  ],
+  "charts": []
+}

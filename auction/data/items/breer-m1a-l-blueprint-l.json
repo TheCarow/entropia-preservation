@@ -1,0 +1,31 @@
+{
+  "item": "breer-m1a-l-blueprint-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071008002917/http://www.peauction.com/catlisting.php?id=25",
+    "https://web.archive.org/web/20071012151801/http://peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20071212065937/http://peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20080610213818/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20080801024356/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20080818212812/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20081022150112/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20090223042058/http://peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20090802101829/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20091002013119/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20160801125031/http://peauction.com/itemlisting.php?id=4008"
+  ],
+  "sold": [],
+  "unsold": [
+    [1, 0.24, 140.0, [[0, "2008-10-08 16:38", 10]]]
+  ],
+  "readings": [
+    [0, "%", 135750.0, 0, 1],
+    [0, "%", 89478.9, 2, 3],
+    [0, "%", 93978.9, 4, 5],
+    [0, "%", 46059.3, 6, 6],
+    [0, "%", 44233.4, 7, 7],
+    [0, "%", 40839.4, 8, 9]
+  ],
+  "charts": []
+}

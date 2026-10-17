@@ -1,0 +1,28 @@
+{
+  "item": "renegade-harness-l-blueprint",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20070412213046/http://peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20070803140920/http://peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20071212065901/http://peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20080210210002/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20080817052548/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20081022150037/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20090802101753/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20091002013041/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20160801071545/http://peauction.com/itemlisting.php?id=3348"
+  ],
+  "sold": [
+    [1, 0.01, 1.0, 1, [[0, "2009-08-11 17:51", 8]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "%", 36000.0, 0, 0],
+    [0, "%", 14000.0, 1, 2],
+    [0, "%", 11000.0, 3, 4],
+    [0, "%", 12000.0, 5, 6],
+    [0, "%", 11000.0, 7, 7]
+  ],
+  "charts": []
+}

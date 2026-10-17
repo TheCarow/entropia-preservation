@@ -1,0 +1,33 @@
+{
+  "item": "detpil-v-rex-1000-l-blueprint-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071008002917/http://www.peauction.com/catlisting.php?id=25",
+    "https://web.archive.org/web/20071212065937/http://peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20080210212022/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20080801024356/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20080817052615/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20080818212812/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20081022150112/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20090223042058/http://peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20090802101829/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20091002013119/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20160801125125/http://peauction.com/itemlisting.php?id=4721"
+  ],
+  "sold": [
+    [1, 0.22, 320.0, 21, [[0, "2009-09-20 19:40", 10]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "%", 444630.0, 0, 1],
+    [0, "%", 378804.0, 2, 3],
+    [0, "%", 363469.0, 4, 4],
+    [0, "%", 354170.0, 5, 5],
+    [0, "%", 330115.0, 6, 6],
+    [0, "%", 285219.0, 7, 7],
+    [0, "%", 262748.0, 8, 8],
+    [0, "%", 240293.0, 9, 9]
+  ],
+  "charts": []
+}

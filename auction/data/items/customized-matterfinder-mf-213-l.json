@@ -1,0 +1,38 @@
+{
+  "item": "customized-matterfinder-mf-213-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071212071208/http://peauction.com:80/catlisting.php?id=67",
+    "https://web.archive.org/web/20080210224906/http://www.peauction.com:80/catlisting.php?id=67",
+    "https://web.archive.org/web/20080411151317/http://www.peauction.com:80/catlisting.php?id=67",
+    "https://web.archive.org/web/20081022150434/http://www.peauction.com:80/catlisting.php?id=67",
+    "https://web.archive.org/web/20090802102158/http://www.peauction.com:80/catlisting.php?id=67",
+    "https://web.archive.org/web/20091002013441/http://www.peauction.com:80/catlisting.php?id=67",
+    "https://web.archive.org/web/20160801175840/http://peauction.com/itemlisting.php?id=4834"
+  ],
+  "sold": [
+    [1, 2670.0, 17270.0, 1, [[0, "2007-10-17 09:43", 6]]],
+    [1, 2670.0, 18000.0, 1, [[0, "2008-02-17 08:46", 6]]],
+    [1, 2597.53, 3139.0, 2, [[0, "2009-03-28 00:22", 6]]],
+    [1, 613.61, 879.0, 26, [[0, "2009-05-22 15:07", 6]]],
+    [1, 613.61, 901.0, 28, [[0, "2009-05-22 15:14", 6]]]
+  ],
+  "unsold": [
+    [1, 2597.53, 13398.0, [[0, "2008-06-24 06:50", 6]]],
+    [1, 2597.53, 9098.0, [[0, "2008-09-05 22:42", 6]]],
+    [1, 1288.43, 5250.0, [[0, "2009-01-17 17:48", 6]]],
+    [1, 2597.53, 7298.0, [[0, "2009-03-10 06:07", 6]]],
+    [1, 2597.53, 3898.0, [[0, "2009-03-20 19:58", 6]]],
+    [1, 613.61, 1043.0, [[0, "2009-05-29 15:32", 6]]],
+    [1, 613.61, 951.0, [[0, "2009-06-05 15:39", 6]]],
+    [1, 2639.31, 4250.0, [[0, "2009-06-20 20:21", 6]]],
+    [1, 2638.3, 5199.0, [[0, "2009-09-08 09:38", 6]]]
+  ],
+  "readings": [
+    [0, "TT+", 14600.0, 0, 1],
+    [0, "TT+", 14965.0, 2, 3],
+    [0, "%", 346.38, 4, 5]
+  ],
+  "charts": []
+}

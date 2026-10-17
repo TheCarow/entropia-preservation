@@ -1,0 +1,22 @@
+{
+  "item": "cornundacauda-leather-texture-blueprint",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20090802101821/http://www.peauction.com:80/catlisting.php?id=23",
+    "https://web.archive.org/web/20091002013109/http://www.peauction.com:80/catlisting.php?id=23",
+    "https://web.archive.org/web/20160801184334/http://peauction.com/itemlisting.php?id=5255"
+  ],
+  "sold": [
+    [1, 0.01, 1.0, 1, [[0, "2009-04-21 17:46", 2]]],
+    [1, 0.01, 1.0, 1, [[0, "2009-05-23 12:18", 2]]],
+    [1, 0.01, 1.0, 1, [[0, "2009-09-09 13:45", 2]]],
+    [1, 0.01, 1.0, 1, [[0, "2009-09-24 20:32", 2]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 1.28, 0, 0],
+    [0, "TT+", 1.18, 1, 1]
+  ],
+  "charts": []
+}

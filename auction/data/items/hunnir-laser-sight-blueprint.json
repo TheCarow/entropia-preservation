@@ -1,0 +1,34 @@
+{
+  "item": "hunnir-laser-sight-blueprint",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20061220005015/http://peauction.com:80/catlisting.php?id=19",
+    "https://web.archive.org/web/20071008002827/http://www.peauction.com/catlisting.php?id=19",
+    "https://web.archive.org/web/20071212065906/http://peauction.com:80/catlisting.php?id=19",
+    "https://web.archive.org/web/20080210210008/http://www.peauction.com:80/catlisting.php?id=19",
+    "https://web.archive.org/web/20080411150919/http://www.peauction.com:80/catlisting.php?id=19",
+    "https://web.archive.org/web/20080610174505/http://www.peauction.com:80/catlisting.php?id=19",
+    "https://web.archive.org/web/20080801024335/http://www.peauction.com:80/catlisting.php?id=19",
+    "https://web.archive.org/web/20080817052553/http://www.peauction.com:80/catlisting.php?id=19",
+    "https://web.archive.org/web/20081022150042/http://www.peauction.com:80/catlisting.php?id=19",
+    "https://web.archive.org/web/20090223042027/http://peauction.com:80/catlisting.php?id=19",
+    "https://web.archive.org/web/20090802101758/http://www.peauction.com:80/catlisting.php?id=19",
+    "https://web.archive.org/web/20091002013048/http://www.peauction.com:80/catlisting.php?id=19"
+  ],
+  "sold": [],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 111.99, 0, 0],
+    [0, "TT+", 24.99, 1, 2],
+    [0, "TT+", 19.79, 3, 3],
+    [0, "TT+", 13.09, 4, 4],
+    [0, "TT+", 11.69, 5, 5],
+    [0, "TT+", 19.69, 6, 7],
+    [0, "TT+", 9.89, 8, 8],
+    [0, "TT+", 7.39, 9, 9],
+    [0, "TT+", 4.79, 10, 10],
+    [0, "TT+", 5.29, 11, 11]
+  ],
+  "charts": []
+}

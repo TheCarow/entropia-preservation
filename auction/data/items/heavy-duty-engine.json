@@ -1,0 +1,17 @@
+{
+  "item": "heavy-duty-engine",
+  "markup": "TT+",
+  "sources": ["pea", "pe-player"],
+  "captures": [
+    "https://web.archive.org/web/20050130134118/http://www.pe-player.com:80/auction/list.php?sort=bytype",
+    "https://web.archive.org/web/20160801220922/http://peauction.com/itemlisting.php?id=6114"
+  ],
+  "sold": [
+    [4, 0.8, 61.0, 0, [[1, "2004-10-10 19:40", 0]]]
+  ],
+  "unsold": [
+    [2, 0.4, 24.0, [[0, "2008-07-16 20:02", 1]]]
+  ],
+  "readings": [],
+  "charts": []
+}

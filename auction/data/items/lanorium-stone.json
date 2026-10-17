@@ -1,0 +1,39 @@
+{
+  "item": "lanorium-stone",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20060721094803/http://www.peauction.com:80/catlisting.php?id=60",
+    "https://web.archive.org/web/20060805171703/http://peauction.com:80/catlisting.php?id=60",
+    "https://web.archive.org/web/20061107141544/http://peauction.com/catlisting.php?id=60",
+    "https://web.archive.org/web/20071008003448/http://www.peauction.com/catlisting.php?id=60",
+    "https://web.archive.org/web/20071012152054/http://peauction.com:80/catlisting.php?id=60",
+    "https://web.archive.org/web/20071212071137/http://peauction.com:80/catlisting.php?id=60",
+    "https://web.archive.org/web/20080210223506/http://www.peauction.com:80/catlisting.php?id=60",
+    "https://web.archive.org/web/20080411151249/http://www.peauction.com:80/catlisting.php?id=60",
+    "https://web.archive.org/web/20080610222834/http://www.peauction.com:80/catlisting.php?id=60",
+    "https://web.archive.org/web/20080801024510/http://www.peauction.com:80/catlisting.php?id=60",
+    "https://web.archive.org/web/20080817053516/http://www.peauction.com:80/catlisting.php?id=60",
+    "https://web.archive.org/web/20081022150404/http://www.peauction.com:80/catlisting.php?id=60",
+    "https://web.archive.org/web/20090223042346/http://peauction.com:80/catlisting.php?id=60",
+    "https://web.archive.org/web/20090802102124/http://www.peauction.com:80/catlisting.php?id=60",
+    "https://web.archive.org/web/20091002013409/http://www.peauction.com:80/catlisting.php?id=60"
+  ],
+  "sold": [],
+  "unsold": [],
+  "readings": [
+    [0, "%", 152.93, 0, 1],
+    [0, "%", 110.29, 2, 2],
+    [0, "%", 106.27, 3, 3],
+    [0, "%", 104.82, 4, 4],
+    [0, "%", 104.17, 5, 6],
+    [0, "%", 104.3, 7, 7],
+    [0, "%", 103.39, 8, 8],
+    [0, "%", 102.6, 9, 10],
+    [0, "%", 102.31, 11, 11],
+    [0, "%", 102.25, 12, 12],
+    [0, "%", 101.6, 13, 13],
+    [0, "%", 101.74, 14, 14]
+  ],
+  "charts": []
+}

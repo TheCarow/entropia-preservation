@@ -1,0 +1,28 @@
+{
+  "item": "geotrek-hardened-enbolts-blueprint",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071008003836/http://www.peauction.com/catlisting.php?id=21",
+    "https://web.archive.org/web/20080817052559/http://www.peauction.com:80/catlisting.php?id=21",
+    "https://web.archive.org/web/20081022150052/http://www.peauction.com:80/catlisting.php?id=21",
+    "https://web.archive.org/web/20090223042037/http://peauction.com:80/catlisting.php?id=21",
+    "https://web.archive.org/web/20090802101809/http://www.peauction.com:80/catlisting.php?id=21",
+    "https://web.archive.org/web/20091002013059/http://www.peauction.com:80/catlisting.php?id=21",
+    "https://web.archive.org/web/20160801074356/http://peauction.com/itemlisting.php?id=4441"
+  ],
+  "sold": [
+    [1, 0.01, 201.0, 1, [[0, "2007-06-22 04:41", 6]]],
+    [1, 0.01, 101.0, 1, [[0, "2008-08-18 17:34", 6]]],
+    [1, 0.01, 150.0, 24, [[0, "2008-09-09 17:52", 6]]],
+    [1, 0.01, 151.0, 1, [[0, "2008-09-29 20:48", 6]]],
+    [1, 0.01, 182.0, 2, [[0, "2009-03-02 00:10", 6]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 200.99, 0, 1],
+    [0, "TT+", 150.74, 2, 3],
+    [0, "TT+", 156.99, 4, 5]
+  ],
+  "charts": []
+}

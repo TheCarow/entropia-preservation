@@ -1,0 +1,16 @@
+{
+  "item": "valurite-texture-blueprint",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20160801185055/http://peauction.com/itemlisting.php?id=5903"
+  ],
+  "sold": [],
+  "unsold": [
+    [1, 0.01, 450.0, [[0, "2008-05-22 08:19", 0]]],
+    [1, 0.01, 350.0, [[0, "2008-06-16 07:54", 0]]],
+    [1, 0.01, 500.0, [[0, "2008-06-29 21:35", 0]]]
+  ],
+  "readings": [],
+  "charts": []
+}

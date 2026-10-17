@@ -1,0 +1,24 @@
+{
+  "item": "solir-harness-l-blueprint-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20081022150037/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20090223042022/http://peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20091002013041/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20160801070827/http://peauction.com/itemlisting.php?id=4393"
+  ],
+  "sold": [
+    [1, 0.2, 491.0, 44, [[0, "2008-09-28 17:58", 3]]],
+    [1, 0.01, 36.0, 4, [[0, "2009-01-27 08:48", 3]]]
+  ],
+  "unsold": [
+    [1, 0.08, 2000.0, [[0, "2007-06-17 16:46", 3]]],
+    [1, 0.01, 30.0, [[0, "2008-05-19 19:13", 3]]]
+  ],
+  "readings": [
+    [0, "%", 245500.0, 0, 0],
+    [0, "%", 302750.0, 1, 2]
+  ],
+  "charts": []
+}

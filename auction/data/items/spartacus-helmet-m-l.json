@@ -1,0 +1,26 @@
+{
+  "item": "spartacus-helmet-m-l",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071007161934/http://www.peauction.com/catlisting.php?id=7",
+    "https://web.archive.org/web/20071012152134/http://peauction.com:80/catlisting.php?id=7",
+    "https://web.archive.org/web/20071212071218/http://peauction.com:80/catlisting.php?id=7",
+    "https://web.archive.org/web/20080210224919/http://www.peauction.com:80/catlisting.php?id=7",
+    "https://web.archive.org/web/20080411151328/http://www.peauction.com:80/catlisting.php?id=7",
+    "https://web.archive.org/web/20080610222937/http://www.peauction.com:80/catlisting.php?id=7",
+    "https://web.archive.org/web/20090223042421/http://peauction.com:80/catlisting.php?id=7",
+    "https://web.archive.org/web/20090802102208/http://www.peauction.com:80/catlisting.php?id=7",
+    "https://web.archive.org/web/20091002013452/http://www.peauction.com:80/catlisting.php?id=7"
+  ],
+  "sold": [],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 433.71, 0, 1],
+    [0, "TT+", 346.01, 2, 2],
+    [0, "TT+", 364.94, 3, 4],
+    [0, "TT+", 356.74, 5, 6],
+    [0, "%", 176.06, 7, 8]
+  ],
+  "charts": []
+}

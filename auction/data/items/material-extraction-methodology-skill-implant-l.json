@@ -1,0 +1,39 @@
+{
+  "item": "material-extraction-methodology-skill-implant-l",
+  "markup": "%",
+  "sources": ["pea", "chipping-optimizer"],
+  "captures": [
+    "https://web.archive.org/web/20080801024515/http://www.peauction.com:80/catlisting.php?id=61",
+    "https://web.archive.org/web/20080817052253/http://www.peauction.com:80/catlisting.php?id=61",
+    "https://web.archive.org/web/20081005040854/http://jdegre.net:80/pe/unlocker.php",
+    "https://web.archive.org/web/20081022134054/http://jdegre.net:80/pe/unlocker.php",
+    "https://web.archive.org/web/20081022150409/http://www.peauction.com:80/catlisting.php?id=61",
+    "https://web.archive.org/web/20081107015805/http://jdegre.net:80/pe/unlocker.php",
+    "https://web.archive.org/web/20081216025043/http://jdegre.net:80/pe/unlocker.php",
+    "https://web.archive.org/web/20081219185228/http://jdegre.net:80/pe/unlocker.php",
+    "https://web.archive.org/web/20090127052831/http://jdegre.net:80/pe/unlocker.php",
+    "https://web.archive.org/web/20090208084904/http://jdegre.net:80/pe/unlocker.php",
+    "https://web.archive.org/web/20090223042351/http://peauction.com:80/catlisting.php?id=61",
+    "https://web.archive.org/web/20090225225919/http://jdegre.net:80/pe/unlocker.php",
+    "https://web.archive.org/web/20090227043757/http://jdegre.net:80/pe/unlocker.php",
+    "https://web.archive.org/web/20090802102129/http://www.peauction.com:80/catlisting.php?id=61",
+    "https://web.archive.org/web/20091002013414/http://www.peauction.com:80/catlisting.php?id=61"
+  ],
+  "sold": [],
+  "unsold": [],
+  "readings": [
+    [0, "%", 12092.3, 0, 1],
+    [0, "%", 9971.22, 4, 4],
+    [0, "%", 5740.72, 10, 10],
+    [0, "%", 7970.96, 13, 13],
+    [0, "%", 10325.5, 14, 14],
+    [1, "%", 9958.0, 2, 2],
+    [1, "%", 9971.0, 3, 3],
+    [1, "%", 11085.0, 5, 5],
+    [1, "%", 8591.0, 6, 7],
+    [1, "%", 8653.0, 8, 8],
+    [1, "%", 7447.0, 9, 9],
+    [1, "%", 5741.0, 11, 12]
+  ],
+  "charts": []
+}

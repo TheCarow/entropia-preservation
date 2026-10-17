@@ -1,0 +1,27 @@
+{
+  "item": "loughlin-smacker-one",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071007162724/http://www.peauction.com/catlisting.php?id=70",
+    "https://web.archive.org/web/20071204091632/http://peauction.com:80/itemlisting.php?id=4716",
+    "https://web.archive.org/web/20080801025445/http://www.peauction.com:80/catlisting.php?id=70",
+    "https://web.archive.org/web/20081022150449/http://www.peauction.com:80/catlisting.php?id=70",
+    "https://web.archive.org/web/20090223042426/http://peauction.com:80/catlisting.php?id=70",
+    "https://web.archive.org/web/20091002013458/http://www.peauction.com:80/catlisting.php?id=70",
+    "https://web.archive.org/web/20160801174130/http://peauction.com/itemlisting.php?id=4716"
+  ],
+  "sold": [
+    [1, 556.0, 910.0, 9, [[0, "2007-09-09 12:44", 1]]],
+    [1, 556.0, 1202.0, 13, [[0, "2008-10-05 03:38", 6]]],
+    [1, 556.0, 1106.0, 1, [[0, "2008-12-26 00:42", 6]]],
+    [1, 556.0, 1056.0, 1, [[0, "2009-01-15 11:28", 6]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 354.0, 0, 2],
+    [0, "TT+", 500.0, 3, 3],
+    [0, "TT+", 512.5, 4, 5]
+  ],
+  "charts": []
+}

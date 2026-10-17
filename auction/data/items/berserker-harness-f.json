@@ -1,0 +1,47 @@
+{
+  "item": "berserker-harness-f",
+  "markup": "TT+",
+  "sources": ["pea", "pe-player"],
+  "captures": [
+    "https://web.archive.org/web/20041010022429/http://www.pe-player.com:80/auction/list.php?sort=bytype",
+    "https://web.archive.org/web/20050130134118/http://www.pe-player.com:80/auction/list.php?sort=bytype",
+    "https://web.archive.org/web/20070105004542/http://peauction.com:80/catlisting.php?id=6",
+    "https://web.archive.org/web/20070502022303/http://peauction.com:80/catlisting.php?id=6",
+    "https://web.archive.org/web/20070805184204/http://peauction.com:80/catlisting.php?id=6",
+    "https://web.archive.org/web/20071107113904/http://www.peauction.com/itemlisting.php?id=2991",
+    "https://web.archive.org/web/20080817052248/http://www.peauction.com:80/catlisting.php?id=6",
+    "https://web.archive.org/web/20081022150359/http://www.peauction.com:80/catlisting.php?id=6",
+    "https://web.archive.org/web/20090223042341/http://peauction.com:80/catlisting.php?id=6",
+    "https://web.archive.org/web/20090802102119/http://www.peauction.com:80/catlisting.php?id=6",
+    "https://web.archive.org/web/20091002013404/http://www.peauction.com:80/catlisting.php?id=6",
+    "https://web.archive.org/web/20160801213315/http://peauction.com/itemlisting.php?id=2991"
+  ],
+  "sold": [
+    [1, 29.31, 45.0, 1, [[1, "2004-08-21 00:15", 0]]],
+    [1, 29.31, 45.0, 1, [[1, "2004-10-23 01:07", 1]]],
+    [1, 6.78, 10.0, 1, [[0, "2006-12-22 04:17", 5]]],
+    [1, 12.11, 13.0, 1, [[0, "2007-07-28 23:26", 5]]],
+    [1, 7.7, 12.0, 1, [[0, "2008-09-04 01:30", 11]]],
+    [1, 6.4, 7.0, 1, [[0, "2009-05-18 09:00", 11]]]
+  ],
+  "unsold": [
+    [1, 9.82, 10.0, [[0, "2006-07-01 02:06", 5]]],
+    [1, 29.97, 32.0, [[0, "2007-01-16 02:02", 5]]],
+    [1, 7.44, 8.0, [[0, "2007-12-30 10:41", 11]]],
+    [1, 7.44, 8.0, [[0, "2007-12-30 10:44", 11]]],
+    [1, 6.39, 11.0, [[0, "2008-08-19 18:19", 11]]],
+    [1, 6.42, 20.0, [[0, "2008-09-12 09:17", 11]]],
+    [1, 11.72, 15.0, [[0, "2008-09-13 23:12", 11]]],
+    [1, 6.42, 15.0, [[0, "2008-09-19 10:54", 11]]],
+    [1, 7.8, 11.0, [[0, "2009-03-18 21:17", 11]]],
+    [1, 7.61, 11.0, [[0, "2009-03-18 21:18", 11]]],
+    [1, 6.43, 7.0, [[0, "2009-03-21 22:08", 11]]]
+  ],
+  "readings": [
+    [0, "TT+", 3.22, 2, 3],
+    [0, "TT+", 2.06, 4, 6],
+    [0, "TT+", 2.8, 7, 8],
+    [0, "TT+", 2.25, 9, 10]
+  ],
+  "charts": []
+}

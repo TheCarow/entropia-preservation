@@ -1,0 +1,32 @@
+{
+  "item": "pioneer-gloves-l-blueprint",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20070412213046/http://peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20070803140920/http://peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20071007162213/http://www.peauction.com/catlisting.php?id=18",
+    "https://web.archive.org/web/20071212065901/http://peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20080210210002/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20080411150913/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20080817052548/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20081022150037/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20090223042022/http://peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20090802101753/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20091002013041/http://www.peauction.com:80/catlisting.php?id=18"
+  ],
+  "sold": [],
+  "unsold": [],
+  "readings": [
+    [0, "%", 14000.0, 0, 0],
+    [0, "%", 16000.0, 1, 1],
+    [0, "%", 14000.0, 2, 3],
+    [0, "%", 12000.0, 4, 4],
+    [0, "%", 12166.7, 5, 6],
+    [0, "%", 10166.7, 7, 7],
+    [0, "%", 10000.0, 8, 8],
+    [0, "%", 13166.7, 9, 9],
+    [0, "%", 11166.7, 10, 10]
+  ],
+  "charts": []
+}

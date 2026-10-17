@@ -1,0 +1,56 @@
+{
+  "item": "medium-royal-katu-curtain-blueprint-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20070610030855/http://peauction.com:80/catlisting.php?id=77",
+    "https://web.archive.org/web/20070807234215/http://peauction.com:80/catlisting.php?id=77",
+    "https://web.archive.org/web/20071007160850/http://www.peauction.com/catlisting.php?id=77",
+    "https://web.archive.org/web/20071110001151/http://www.peauction.com/itemlisting.php?id=3671",
+    "https://web.archive.org/web/20071110001211/http://www.peauction.com/chart2.php?id=3671&dtype=1",
+    "https://web.archive.org/web/20080411151414/http://www.peauction.com:80/catlisting.php?id=77",
+    "https://web.archive.org/web/20080610230804/http://www.peauction.com:80/catlisting.php?id=77",
+    "https://web.archive.org/web/20080801025505/http://www.peauction.com:80/catlisting.php?id=77",
+    "https://web.archive.org/web/20080817053558/http://www.peauction.com:80/catlisting.php?id=77",
+    "https://web.archive.org/web/20081022150525/http://www.peauction.com:80/catlisting.php?id=77",
+    "https://web.archive.org/web/20090223042501/http://peauction.com:80/catlisting.php?id=77",
+    "https://web.archive.org/web/20090802102248/http://www.peauction.com:80/catlisting.php?id=77",
+    "https://web.archive.org/web/20091002013535/http://www.peauction.com:80/catlisting.php?id=77",
+    "https://web.archive.org/web/20160801085636/http://peauction.com/itemlisting.php?id=3671"
+  ],
+  "sold": [
+    [1, 0.33, 13.0, 13, [[0, "2007-01-26 21:02", 3]]],
+    [1, 0.56, 31.0, 2, [[0, "2007-03-21 20:51", 3]]],
+    [1, 0.56, 31.0, 2, [[0, "2007-03-21 21:51", 13]]],
+    [1, 0.62, 40.0, 1, [[0, "2007-07-22 20:18", 3]]],
+    [1, 0.11, 4.0, 3, [[0, "2007-09-08 03:09", 3]]],
+    [1, 0.65, 33.0, 2, [[0, "2007-09-23 20:15", 3]]],
+    [1, 0.1, 2.0, 2, [[0, "2008-06-07 22:22", 13]]],
+    [1, 0.03, 2.0, 2, [[0, "2008-06-28 23:50", 13]]],
+    [1, 0.17, 4.0, 4, [[0, "2008-07-17 19:07", 13]]],
+    [1, 0.08, 6.0, 6, [[0, "2008-10-07 20:13", 13]]],
+    [1, 0.25, 4.0, 2, [[0, "2008-11-09 09:00", 13]]],
+    [1, 0.11, 3.0, 3, [[0, "2008-12-03 22:26", 13]]],
+    [1, 0.18, 2.0, 1, [[0, "2009-06-06 09:25", 13]]],
+    [1, 0.4, 2.0, 2, [[0, "2009-06-14 11:25", 13]]]
+  ],
+  "unsold": [
+    [1, 0.17, 4.0, [[0, "2008-07-18 19:07", 13]]],
+    [1, 0.14, 5.0, [[0, "2008-08-11 20:48", 13]]],
+    [1, 0.14, 6.0, [[0, "2008-08-13 01:29", 13]]],
+    [1, 0.14, 4.0, [[0, "2009-07-26 12:35", 13]]]
+  ],
+  "readings": [
+    [0, "%", 4737.55, 0, 0],
+    [0, "%", 5308.91, 1, 1],
+    [0, "%", 4928.0, 2, 5],
+    [0, "%", 4440.0, 6, 6],
+    [0, "%", 4457.45, 7, 8],
+    [0, "%", 4795.51, 9, 9],
+    [0, "%", 4354.75, 10, 10],
+    [0, "%", 3317.13, 11, 12]
+  ],
+  "charts": [
+    [1, 4, "3671-1-20071110001211.png"]
+  ]
+}

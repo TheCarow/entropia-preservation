@@ -1,0 +1,37 @@
+{
+  "item": "oreminer-om-201-l-blueprint-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071007160727/http://www.peauction.com/catlisting.php?id=24",
+    "https://web.archive.org/web/20071108181609/http://www.peauction.com/itemlisting.php?id=4533",
+    "https://web.archive.org/web/20071212065932/http://peauction.com:80/catlisting.php?id=24",
+    "https://web.archive.org/web/20080210212017/http://www.peauction.com:80/catlisting.php?id=24",
+    "https://web.archive.org/web/20080817051739/http://www.peauction.com:80/catlisting.php?id=24",
+    "https://web.archive.org/web/20081022150107/http://www.peauction.com:80/catlisting.php?id=24",
+    "https://web.archive.org/web/20090223042052/http://peauction.com:80/catlisting.php?id=24",
+    "https://web.archive.org/web/20090802101823/http://www.peauction.com:80/catlisting.php?id=24",
+    "https://web.archive.org/web/20091002013114/http://www.peauction.com:80/catlisting.php?id=24",
+    "https://web.archive.org/web/20160801223729/http://peauction.com/itemlisting.php?id=4533"
+  ],
+  "sold": [
+    [1, 0.12, 362.0, 14, [[0, "2007-07-07 17:25", 1]]],
+    [1, 0.01, 20.0, 10, [[0, "2007-09-19 23:44", 1]]],
+    [1, 0.03, 76.0, 17, [[0, "2008-01-07 20:49", 9]]],
+    [1, 0.02, 72.0, 3, [[0, "2008-10-18 18:54", 9]]],
+    [1, 0.01, 50.0, 15, [[0, "2008-11-30 00:16", 9]]],
+    [1, 0.01, 30.0, 1, [[0, "2009-01-20 11:38", 9]]],
+    [1, 0.01, 31.0, 4, [[0, "2009-04-06 21:58", 9]]]
+  ],
+  "unsold": [
+    [1, 0.07, 300.0, [[0, "2008-03-26 20:28", 9]]]
+  ],
+  "readings": [
+    [0, "%", 250833.0, 0, 2],
+    [0, "%", 251667.0, 3, 4],
+    [0, "%", 278750.0, 5, 5],
+    [0, "%", 319167.0, 6, 6],
+    [0, "%", 317857.0, 7, 8]
+  ],
+  "charts": []
+}

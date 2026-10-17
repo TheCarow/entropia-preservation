@@ -1,0 +1,23 @@
+{
+  "item": "samurai-arm-guards-f",
+  "markup": "TT+",
+  "sources": ["pea", "pe-player"],
+  "captures": [
+    "https://web.archive.org/web/20050130134118/http://www.pe-player.com:80/auction/list.php?sort=bytype",
+    "https://web.archive.org/web/20060216220622/http://www.peauction.com:80/catlisting.php?id=3",
+    "https://web.archive.org/web/20060721094249/http://www.peauction.com:80/catlisting.php?id=3",
+    "https://web.archive.org/web/20071009125356/http://www.peauction.com/itemlisting.php?id=2415",
+    "https://web.archive.org/web/20091002013141/http://www.peauction.com:80/catlisting.php?id=3"
+  ],
+  "sold": [
+    [1, 7.37, 10.0, 3, [[1, "2004-12-09 02:50", 0]]],
+    [1, 7.71, 20.0, 2, [[0, "2006-01-20 21:26", 3]]],
+    [1, 5.79, 51.0, 2, [[0, "2006-06-04 04:30", 3]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 12.29, 1, 1],
+    [0, "TT+", 28.75, 2, 4]
+  ],
+  "charts": []
+}

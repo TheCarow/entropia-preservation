@@ -1,0 +1,32 @@
+{
+  "item": "orca-arm-guards-f-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071009223205/http://www.peauction.com/itemlisting.php?id=4610",
+    "https://web.archive.org/web/20090223042118/http://peauction.com:80/catlisting.php?id=3",
+    "https://web.archive.org/web/20090802101850/http://www.peauction.com:80/catlisting.php?id=3",
+    "https://web.archive.org/web/20091002013141/http://www.peauction.com:80/catlisting.php?id=3",
+    "https://web.archive.org/web/20160802005113/http://peauction.com/itemlisting.php?id=4610"
+  ],
+  "sold": [
+    [1, 47.5, 50.0, 1, [[0, "2008-12-26 22:27", 4]]]
+  ],
+  "unsold": [
+    [1, 47.5, 176.0, [[0, "2007-07-26 04:58", 0]]],
+    [1, 47.5, 58.0, [[0, "2008-11-09 15:35", 4]]],
+    [1, 47.5, 58.0, [[0, "2008-12-18 16:27", 4]]],
+    [1, 47.5, 72.0, [[0, "2008-12-20 17:57", 4]]],
+    [1, 47.4, 59.0, [[0, "2009-03-21 12:47", 4]]],
+    [1, 44.16, 56.0, [[0, "2009-04-17 21:32", 4]]],
+    [1, 44.16, 58.0, [[0, "2009-04-27 19:58", 4]]],
+    [1, 47.5, 50.0, [[0, "2009-05-16 20:49", 4]]],
+    [1, 44.16, 56.0, [[0, "2009-06-20 01:17", 4]]],
+    [1, 47.21, 49.0, [[0, "2009-07-05 19:37", 4]]]
+  ],
+  "readings": [
+    [0, "TT+", 2.5, 1, 1],
+    [0, "%", 105.26, 2, 3]
+  ],
+  "charts": []
+}

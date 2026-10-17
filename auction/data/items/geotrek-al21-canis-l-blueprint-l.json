@@ -1,0 +1,37 @@
+{
+  "item": "geotrek-al21-canis-l-blueprint-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071008002917/http://www.peauction.com/catlisting.php?id=25",
+    "https://web.archive.org/web/20071012151801/http://peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20071212065937/http://peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20080210212022/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20080411150950/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20080610213818/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20080801024356/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20080817052615/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20080818212812/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20081022150112/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20090223042058/http://peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20090802101829/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20091002013119/http://www.peauction.com:80/catlisting.php?id=25"
+  ],
+  "sold": [],
+  "unsold": [],
+  "readings": [
+    [0, "%", 56767.3, 0, 1],
+    [0, "%", 44622.2, 2, 2],
+    [0, "%", 29427.0, 3, 3],
+    [0, "%", 9309.21, 4, 4],
+    [0, "%", 9767.18, 5, 5],
+    [0, "%", 5788.12, 6, 6],
+    [0, "%", 3298.69, 7, 7],
+    [0, "%", 2923.69, 8, 8],
+    [0, "%", 1792.74, 9, 9],
+    [0, "%", 2670.14, 10, 10],
+    [0, "%", 1473.7, 11, 11],
+    [0, "%", 1229.26, 12, 12]
+  ],
+  "charts": []
+}

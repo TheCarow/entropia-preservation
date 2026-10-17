@@ -1,0 +1,39 @@
+{
+  "item": "polaris-arm-guards-m-l",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071006171149/http://www.peauction.com/catlisting.php?id=3",
+    "https://web.archive.org/web/20071009124458/http://www.peauction.com/itemlisting.php?id=4481",
+    "https://web.archive.org/web/20071012151822/http://peauction.com:80/catlisting.php?id=3",
+    "https://web.archive.org/web/20071212065958/http://peauction.com:80/catlisting.php?id=3",
+    "https://web.archive.org/web/20080210212348/http://www.peauction.com:80/catlisting.php?id=3",
+    "https://web.archive.org/web/20080411151012/http://www.peauction.com:80/catlisting.php?id=3",
+    "https://web.archive.org/web/20080610220423/http://www.peauction.com:80/catlisting.php?id=3",
+    "https://web.archive.org/web/20080801024947/http://www.peauction.com:80/catlisting.php?id=3",
+    "https://web.archive.org/web/20080818212822/http://www.peauction.com:80/catlisting.php?id=3",
+    "https://web.archive.org/web/20081022150132/http://www.peauction.com:80/catlisting.php?id=3",
+    "https://web.archive.org/web/20090223042118/http://peauction.com:80/catlisting.php?id=3",
+    "https://web.archive.org/web/20090802101850/http://www.peauction.com:80/catlisting.php?id=3",
+    "https://web.archive.org/web/20091002013141/http://www.peauction.com:80/catlisting.php?id=3"
+  ],
+  "sold": [
+    [1, 139.0, 270.0, 2, [[0, "2007-06-26 02:01", 1]]]
+  ],
+  "unsold": [
+    [1, 102.65, 360.0, [[0, "2007-07-31 21:57", 1]]]
+  ],
+  "readings": [
+    [0, "TT+", 131.0, 0, 2],
+    [0, "TT+", 106.24, 3, 3],
+    [0, "TT+", 73.61, 4, 4],
+    [0, "TT+", 98.23, 5, 5],
+    [0, "TT+", 94.61, 6, 6],
+    [0, "TT+", 47.18, 7, 8],
+    [0, "TT+", 31.24, 9, 9],
+    [0, "TT+", 12.66, 10, 10],
+    [0, "%", 102.56, 11, 11],
+    [0, "%", 101.97, 12, 12]
+  ],
+  "charts": []
+}

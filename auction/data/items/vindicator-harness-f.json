@@ -1,0 +1,22 @@
+{
+  "item": "vindicator-harness-f",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071007083430/http://www.peauction.com/catlisting.php?id=6",
+    "https://web.archive.org/web/20081022150359/http://www.peauction.com:80/catlisting.php?id=6",
+    "https://web.archive.org/web/20090223042341/http://peauction.com:80/catlisting.php?id=6",
+    "https://web.archive.org/web/20091002013404/http://www.peauction.com:80/catlisting.php?id=6",
+    "https://web.archive.org/web/20160802005726/http://peauction.com/itemlisting.php?id=4724"
+  ],
+  "sold": [
+    [1, 7.91, 26.0, 9, [[0, "2007-09-16 11:34", 4]]],
+    [1, 12.93, 71.0, 19, [[0, "2008-11-17 18:45", 4]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 18.09, 0, 1],
+    [0, "TT+", 38.08, 2, 3]
+  ],
+  "charts": []
+}

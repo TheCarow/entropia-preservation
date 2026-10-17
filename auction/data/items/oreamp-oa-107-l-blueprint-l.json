@@ -1,0 +1,42 @@
+{
+  "item": "oreamp-oa-107-l-blueprint-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071008002827/http://www.peauction.com/catlisting.php?id=19",
+    "https://web.archive.org/web/20071012151731/http://peauction.com:80/catlisting.php?id=19",
+    "https://web.archive.org/web/20071212065906/http://peauction.com:80/catlisting.php?id=19",
+    "https://web.archive.org/web/20080210210008/http://www.peauction.com:80/catlisting.php?id=19",
+    "https://web.archive.org/web/20080411150919/http://www.peauction.com:80/catlisting.php?id=19",
+    "https://web.archive.org/web/20080610174505/http://www.peauction.com:80/catlisting.php?id=19",
+    "https://web.archive.org/web/20080817052553/http://www.peauction.com:80/catlisting.php?id=19",
+    "https://web.archive.org/web/20081022150042/http://www.peauction.com:80/catlisting.php?id=19",
+    "https://web.archive.org/web/20090223042027/http://peauction.com:80/catlisting.php?id=19",
+    "https://web.archive.org/web/20090802101758/http://www.peauction.com:80/catlisting.php?id=19",
+    "https://web.archive.org/web/20091002013048/http://www.peauction.com:80/catlisting.php?id=19",
+    "https://web.archive.org/web/20160801125025/http://peauction.com/itemlisting.php?id=4611"
+  ],
+  "sold": [
+    [1, 0.31, 5500.0, 26, [[0, "2007-07-26 11:01", 11]]],
+    [1, 0.31, 6001.0, 26, [[0, "2007-07-26 11:06", 11]]],
+    [1, 0.19, 3510.0, 10, [[0, "2007-10-25 15:23", 11]]],
+    [1, 0.01, 101.0, 10, [[0, "2008-04-02 02:43", 11]]],
+    [1, 0.22, 2860.0, 10, [[0, "2008-05-29 06:53", 11]]],
+    [1, 0.35, 1056.0, 13, [[0, "2008-09-06 13:27", 11]]],
+    [1, 0.05, 201.0, 5, [[0, "2008-12-15 05:17", 11]]],
+    [1, 0.29, 1149.0, 49, [[0, "2008-12-16 22:37", 11]]],
+    [1, 0.15, 713.0, 54, [[0, "2009-05-02 15:44", 11]]],
+    [1, 0.15, 824.0, 63, [[0, "2009-05-02 15:51", 11]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "%", 1855000.0, 0, 1],
+    [0, "%", 1852460.0, 2, 3],
+    [0, "%", 1641840.0, 4, 4],
+    [0, "%", 1573470.0, 5, 6],
+    [0, "%", 1361510.0, 7, 7],
+    [0, "%", 1120910.0, 8, 8],
+    [0, "%", 999196.0, 9, 10]
+  ],
+  "charts": []
+}

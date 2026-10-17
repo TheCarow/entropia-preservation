@@ -1,0 +1,22 @@
+{
+  "item": "vivo-ur125-blueprint",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20070805183422/http://peauction.com:80/catlisting.php?id=24",
+    "https://web.archive.org/web/20071108180052/http://www.peauction.com/itemlisting.php?id=3989",
+    "https://web.archive.org/web/20091002013114/http://www.peauction.com:80/catlisting.php?id=24"
+  ],
+  "sold": [
+    [1, 0.01, 15051.0, 126, [[0, "2007-05-15 18:13", 1]]],
+    [1, 0.01, 6533.0, 31, [[0, "2007-05-21 20:14", 1]]],
+    [1, 0.01, 4002.0, 2, [[0, "2007-05-25 19:37", 1]]]
+  ],
+  "unsold": [
+    [1, 0.04, 15000.0, [[0, "2007-05-17 13:03", 1]]]
+  ],
+  "readings": [
+    [0, "TT+", 8528.66, 0, 2]
+  ],
+  "charts": []
+}

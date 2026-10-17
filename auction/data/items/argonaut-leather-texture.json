@@ -1,0 +1,22 @@
+{
+  "item": "argonaut-leather-texture",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20080411151145/http://www.peauction.com:80/catlisting.php?id=48",
+    "https://web.archive.org/web/20080610220555/http://www.peauction.com:80/catlisting.php?id=48",
+    "https://web.archive.org/web/20080801025348/http://www.peauction.com:80/catlisting.php?id=48",
+    "https://web.archive.org/web/20091002013312/http://www.peauction.com:80/catlisting.php?id=48",
+    "https://web.archive.org/web/20160801183656/http://peauction.com/itemlisting.php?id=5672"
+  ],
+  "sold": [
+    [6, 2.76, 3.0, 1, [[0, "2008-02-14 17:58", 4]]],
+    [200, 92.0, 138.0, 1, [[0, "2008-06-30 03:50", 4]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "%", 108.7, 0, 1],
+    [0, "%", 148.8, 2, 3]
+  ],
+  "charts": []
+}

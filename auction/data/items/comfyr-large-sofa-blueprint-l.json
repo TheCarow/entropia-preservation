@@ -1,0 +1,17 @@
+{
+  "item": "comfyr-large-sofa-blueprint-l",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071110074121/http://www.peauction.com/itemlisting.php?id=2978"
+  ],
+  "sold": [],
+  "unsold": [
+    [1, 0.56, 750.0, [[0, "2006-06-24 10:36", 0]]],
+    [1, 0.56, 500.0, [[0, "2006-07-10 21:18", 0]]],
+    [1, 0.56, 2000.0, [[0, "2006-08-04 17:33", 0]]],
+    [1, 0.56, 1000.0, [[0, "2006-08-16 22:04", 0]]]
+  ],
+  "readings": [],
+  "charts": []
+}

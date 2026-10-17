@@ -1,0 +1,18 @@
+{
+  "item": "uncolored-rancher-hat-blueprint",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20090802101821/http://www.peauction.com:80/catlisting.php?id=23",
+    "https://web.archive.org/web/20091002013109/http://www.peauction.com:80/catlisting.php?id=23",
+    "https://web.archive.org/web/20160801171045/http://peauction.com/itemlisting.php?id=5835"
+  ],
+  "sold": [
+    [1, 0.01, 5001.0, 1, [[0, "2008-03-29 23:03", 2]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 5000.99, 0, 1]
+  ],
+  "charts": []
+}

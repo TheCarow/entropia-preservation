@@ -1,0 +1,39 @@
+{
+  "item": "bodyguard-gloves-l-blueprint",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20070412213046/http://peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20070803140920/http://peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20071007162213/http://www.peauction.com/catlisting.php?id=18",
+    "https://web.archive.org/web/20071012151726/http://peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20071212065901/http://peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20080210210002/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20080411150913/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20080610174500/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20080801024921/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20080817052548/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20081022150037/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20090223042022/http://peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20090802101753/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20091002013041/http://www.peauction.com:80/catlisting.php?id=18"
+  ],
+  "sold": [],
+  "unsold": [],
+  "readings": [
+    [0, "%", 12000.0, 0, 0],
+    [0, "%", 11000.0, 1, 2],
+    [0, "%", 12000.0, 3, 3],
+    [0, "%", 10122.2, 4, 4],
+    [0, "%", 12066.7, 5, 5],
+    [0, "%", 13000.0, 6, 6],
+    [0, "%", 9272.5, 7, 7],
+    [0, "%", 8310.96, 8, 8],
+    [0, "%", 9248.46, 9, 9],
+    [0, "%", 7527.08, 10, 10],
+    [0, "%", 10169.9, 11, 11],
+    [0, "%", 8559.52, 12, 12],
+    [0, "%", 9559.52, 13, 13]
+  ],
+  "charts": []
+}

@@ -1,0 +1,23 @@
+{
+  "item": "redulite-ore",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20080801024510/http://www.peauction.com:80/catlisting.php?id=60",
+    "https://web.archive.org/web/20080817053516/http://www.peauction.com:80/catlisting.php?id=60",
+    "https://web.archive.org/web/20081022150404/http://www.peauction.com:80/catlisting.php?id=60",
+    "https://web.archive.org/web/20090223042346/http://peauction.com:80/catlisting.php?id=60",
+    "https://web.archive.org/web/20090802102124/http://www.peauction.com:80/catlisting.php?id=60",
+    "https://web.archive.org/web/20091002013409/http://www.peauction.com:80/catlisting.php?id=60"
+  ],
+  "sold": [],
+  "unsold": [],
+  "readings": [
+    [0, "%", 2090.91, 0, 1],
+    [0, "%", 1164.34, 2, 2],
+    [0, "%", 910.66, 3, 3],
+    [0, "%", 190.48, 4, 4],
+    [0, "%", 194.01, 5, 5]
+  ],
+  "charts": []
+}

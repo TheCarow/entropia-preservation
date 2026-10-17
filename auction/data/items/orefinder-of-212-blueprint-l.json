@@ -1,0 +1,20 @@
+{
+  "item": "orefinder-of-212-blueprint-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20061107141037/http://peauction.com/catlisting.php?id=24",
+    "https://web.archive.org/web/20071108180824/http://www.peauction.com/itemlisting.php?id=3161",
+    "https://web.archive.org/web/20091002013114/http://www.peauction.com:80/catlisting.php?id=24"
+  ],
+  "sold": [
+    [1, 0.01, 100.0, 5, [[0, "2006-11-06 12:54", 1]]]
+  ],
+  "unsold": [
+    [1, 0.03, 1000.0, [[0, "2006-10-14 02:23", 1]]]
+  ],
+  "readings": [
+    [0, "%", 1000000.0, 0, 2]
+  ],
+  "charts": []
+}

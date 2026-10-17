@@ -1,0 +1,37 @@
+{
+  "item": "uncolored-direct-miniskirt-blueprint",
+  "markup": "TT+",
+  "sources": ["pea", "pe-player"],
+  "captures": [
+    "https://web.archive.org/web/20041010022429/http://www.pe-player.com:80/auction/list.php?sort=bytype",
+    "https://web.archive.org/web/20050130134118/http://www.pe-player.com:80/auction/list.php?sort=bytype",
+    "https://web.archive.org/web/20060614130822/http://peauction.com:80/catlisting.php?id=23",
+    "https://web.archive.org/web/20060721093819/http://www.peauction.com:80/catlisting.php?id=23",
+    "https://web.archive.org/web/20060908173625/http://peauction.com:80/catlisting.php?id=23",
+    "https://web.archive.org/web/20070806010410/http://peauction.com:80/itemlisting.php?id=2568",
+    "https://web.archive.org/web/20080210212015/http://www.peauction.com:80/catlisting.php?id=23",
+    "https://web.archive.org/web/20080411150940/http://www.peauction.com:80/catlisting.php?id=23",
+    "https://web.archive.org/web/20091002013109/http://www.peauction.com:80/catlisting.php?id=23",
+    "https://web.archive.org/web/20160801183933/http://peauction.com/itemlisting.php?id=2568"
+  ],
+  "sold": [
+    [1, 0.01, 400.0, 1, [[1, "2004-09-19 09:55", 0]]],
+    [1, 0.01, 400.0, 1, [[1, "2004-10-23 01:36", 1]]],
+    [1, 0.01, 307.0, 59, [[0, "2006-03-08 22:32", 5]]],
+    [1, 0.01, 439.0, 31, [[0, "2006-04-18 04:14", 5]]],
+    [1, 0.09, 637.0, 29, [[0, "2006-07-25 02:34", 5]]],
+    [1, 0.01, 1506.0, 27, [[0, "2008-03-16 13:11", 9]]]
+  ],
+  "unsold": [
+    [1, 0.23, 6001.0, [[0, "2009-05-16 11:09", 9]]],
+    [1, 0.23, 6001.0, [[0, "2009-05-16 11:11", 9]]],
+    [1, 0.23, 6001.0, [[0, "2009-05-27 12:32", 9]]],
+    [1, 0.23, 6001.0, [[0, "2009-06-12 12:16", 9]]]
+  ],
+  "readings": [
+    [0, "TT+", 372.99, 2, 3],
+    [0, "TT+", 460.96, 4, 6],
+    [0, "TT+", 722.22, 7, 8]
+  ],
+  "charts": []
+}

@@ -1,0 +1,37 @@
+{
+  "item": "pioneer-face-guard-l-blueprint",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20070412213046/http://peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20070803140920/http://peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20071007162213/http://www.peauction.com/catlisting.php?id=18",
+    "https://web.archive.org/web/20071212065901/http://peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20080210210002/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20080411150913/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20080610174500/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20080801024921/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20080817052548/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20081022150037/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20090223042022/http://peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20090802101753/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20091002013041/http://www.peauction.com:80/catlisting.php?id=18"
+  ],
+  "sold": [],
+  "unsold": [],
+  "readings": [
+    [0, "%", 10400.0, 0, 0],
+    [0, "%", 11190.5, 1, 1],
+    [0, "%", 11095.2, 2, 3],
+    [0, "%", 14000.0, 4, 4],
+    [0, "%", 11609.3, 5, 5],
+    [0, "%", 10415.8, 6, 6],
+    [0, "%", 8540.77, 7, 7],
+    [0, "%", 7540.77, 8, 8],
+    [0, "%", 11125.0, 9, 9],
+    [0, "%", 8182.54, 10, 10],
+    [0, "%", 10152.8, 11, 11],
+    [0, "%", 11041.7, 12, 12]
+  ],
+  "charts": []
+}

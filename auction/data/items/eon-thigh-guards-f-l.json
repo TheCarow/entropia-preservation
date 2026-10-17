@@ -1,0 +1,24 @@
+{
+  "item": "eon-thigh-guards-f-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20090802102528/http://www.peauction.com:80/catlisting.php?id=9",
+    "https://web.archive.org/web/20091002013610/http://www.peauction.com:80/catlisting.php?id=9",
+    "https://web.archive.org/web/20160801100848/http://peauction.com/itemlisting.php?id=6115"
+  ],
+  "sold": [
+    [1, 68.78, 181.0, 15, [[0, "2008-07-17 23:12", 2]]],
+    [1, 68.45, 207.0, 7, [[0, "2008-09-18 19:33", 2]]],
+    [1, 78.07, 313.0, 9, [[0, "2009-05-26 22:16", 2]]]
+  ],
+  "unsold": [
+    [1, 68.45, 500.0, [[0, "2008-09-09 00:02", 2]]],
+    [1, 56.31, 220.0, [[0, "2009-07-17 08:08", 2]]],
+    [1, 56.31, 200.0, [[0, "2009-07-20 09:36", 2]]]
+  ],
+  "readings": [
+    [0, "%", 322.16, 0, 1]
+  ],
+  "charts": []
+}

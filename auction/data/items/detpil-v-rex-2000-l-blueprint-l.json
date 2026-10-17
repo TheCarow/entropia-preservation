@@ -1,0 +1,16 @@
+{
+  "item": "detpil-v-rex-2000-l-blueprint-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20090802101829/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20091002013119/http://www.peauction.com:80/catlisting.php?id=25"
+  ],
+  "sold": [],
+  "unsold": [],
+  "readings": [
+    [0, "%", 83302.5, 0, 0],
+    [0, "%", 65673.1, 1, 1]
+  ],
+  "charts": []
+}

@@ -1,0 +1,22 @@
+{
+  "item": "modified-ewe-ep-40-mercenary",
+  "markup": "TT+",
+  "sources": ["pea", "pe-player"],
+  "captures": [
+    "https://web.archive.org/web/20050130134118/http://www.pe-player.com:80/auction/list.php?sort=bytype",
+    "https://web.archive.org/web/20070611204111/http://peauction.com:80/itemlisting.php?id=2897",
+    "https://web.archive.org/web/20160802005536/http://peauction.com/itemlisting.php?id=2897"
+  ],
+  "sold": [
+    [1, 1500.0, 38000.0, 0, [[1, "2004-12-08 02:45", 0]]]
+  ],
+  "unsold": [
+    [1, 1483.79, 75000.0, [[0, "2006-04-29 10:44", 1]]],
+    [1, 1499.98, 99500.0, [[0, "2006-06-01 18:59", 1]]],
+    [1, 1449.27, 146950.0, [[0, "2007-07-17 18:22", 2]]],
+    [1, 1500.0, 150000.0, [[0, "2007-09-01 19:59", 2]]],
+    [1, 1500.0, 301500.0, [[0, "2008-11-16 11:31", 2]]]
+  ],
+  "readings": [],
+  "charts": []
+}

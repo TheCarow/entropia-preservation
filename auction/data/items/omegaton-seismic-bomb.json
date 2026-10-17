@@ -1,0 +1,17 @@
+{
+  "item": "omegaton-seismic-bomb",
+  "markup": "TT+",
+  "sources": ["pea", "pe-player"],
+  "captures": [
+    "https://web.archive.org/web/20041010022429/http://www.pe-player.com:80/auction/list.php?sort=bytype",
+    "https://web.archive.org/web/20071109093326/http://www.peauction.com/itemlisting.php?id=1781"
+  ],
+  "sold": [
+    [1, 1.0, 200000.0, 0, [[1, "2004-09-06 04:25", 0]]]
+  ],
+  "unsold": [
+    [1, 1.0, 6.0, [[0, "2005-11-05 20:30", 1]]]
+  ],
+  "readings": [],
+  "charts": []
+}

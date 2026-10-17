@@ -1,0 +1,38 @@
+{
+  "item": "bull-tac10-l-blueprint-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20061220005015/http://peauction.com:80/catlisting.php?id=19",
+    "https://web.archive.org/web/20071008002827/http://www.peauction.com/catlisting.php?id=19",
+    "https://web.archive.org/web/20071012151731/http://peauction.com:80/catlisting.php?id=19",
+    "https://web.archive.org/web/20071212065906/http://peauction.com:80/catlisting.php?id=19",
+    "https://web.archive.org/web/20080210210008/http://www.peauction.com:80/catlisting.php?id=19",
+    "https://web.archive.org/web/20080411150919/http://www.peauction.com:80/catlisting.php?id=19",
+    "https://web.archive.org/web/20080610174505/http://www.peauction.com:80/catlisting.php?id=19",
+    "https://web.archive.org/web/20080801024335/http://www.peauction.com:80/catlisting.php?id=19",
+    "https://web.archive.org/web/20080817052553/http://www.peauction.com:80/catlisting.php?id=19",
+    "https://web.archive.org/web/20081022150042/http://www.peauction.com:80/catlisting.php?id=19",
+    "https://web.archive.org/web/20090223042027/http://peauction.com:80/catlisting.php?id=19",
+    "https://web.archive.org/web/20090802101758/http://www.peauction.com:80/catlisting.php?id=19",
+    "https://web.archive.org/web/20091002013048/http://www.peauction.com:80/catlisting.php?id=19"
+  ],
+  "sold": [],
+  "unsold": [],
+  "readings": [
+    [0, "%", 1703.07, 0, 0],
+    [0, "%", 7869.1, 1, 1],
+    [0, "%", 8881.73, 2, 2],
+    [0, "%", 10007.9, 3, 3],
+    [0, "%", 11919.5, 4, 4],
+    [0, "%", 13270.8, 5, 5],
+    [0, "%", 15321.1, 6, 6],
+    [0, "%", 19111.3, 7, 7],
+    [0, "%", 20129.5, 8, 8],
+    [0, "%", 12291.5, 9, 9],
+    [0, "%", 11520.8, 10, 10],
+    [0, "%", 8335.53, 11, 11],
+    [0, "%", 8048.86, 12, 12]
+  ],
+  "charts": []
+}

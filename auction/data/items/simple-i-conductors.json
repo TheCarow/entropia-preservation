@@ -1,0 +1,36 @@
+{
+  "item": "simple-i-conductors",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071008002943/http://www.peauction.com/catlisting.php?id=38",
+    "https://web.archive.org/web/20071012151907/http://peauction.com:80/catlisting.php?id=38",
+    "https://web.archive.org/web/20071212070045/http://peauction.com:80/catlisting.php?id=38",
+    "https://web.archive.org/web/20080210220508/http://www.peauction.com:80/catlisting.php?id=38",
+    "https://web.archive.org/web/20080411151059/http://www.peauction.com:80/catlisting.php?id=38",
+    "https://web.archive.org/web/20080610220510/http://www.peauction.com:80/catlisting.php?id=38",
+    "https://web.archive.org/web/20080801024434/http://www.peauction.com:80/catlisting.php?id=38",
+    "https://web.archive.org/web/20080817052223/http://www.peauction.com:80/catlisting.php?id=38",
+    "https://web.archive.org/web/20081022150218/http://www.peauction.com:80/catlisting.php?id=38",
+    "https://web.archive.org/web/20090223042203/http://peauction.com:80/catlisting.php?id=38",
+    "https://web.archive.org/web/20090802101937/http://www.peauction.com:80/catlisting.php?id=38",
+    "https://web.archive.org/web/20091002013226/http://www.peauction.com:80/catlisting.php?id=38"
+  ],
+  "sold": [],
+  "unsold": [],
+  "readings": [
+    [0, "%", 103.09, 0, 0],
+    [0, "%", 102.74, 1, 1],
+    [0, "%", 101.81, 2, 2],
+    [0, "%", 100.89, 3, 3],
+    [0, "%", 101.28, 4, 4],
+    [0, "%", 101.0, 5, 5],
+    [0, "%", 101.1, 6, 6],
+    [0, "%", 100.47, 7, 7],
+    [0, "%", 101.3, 8, 8],
+    [0, "%", 101.93, 9, 9],
+    [0, "%", 101.65, 10, 10],
+    [0, "%", 100.71, 11, 11]
+  ],
+  "charts": []
+}

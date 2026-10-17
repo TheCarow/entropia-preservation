@@ -1,0 +1,21 @@
+{
+  "item": "ziplex-z5-oreseeker-l-blueprint-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20090802101823/http://www.peauction.com:80/catlisting.php?id=24",
+    "https://web.archive.org/web/20091002013114/http://www.peauction.com:80/catlisting.php?id=24",
+    "https://web.archive.org/web/20160802004929/http://peauction.com/itemlisting.php?id=5060"
+  ],
+  "sold": [
+    [1, 0.08, 40.0, 1, [[0, "2007-11-07 07:43", 2]]],
+    [1, 0.04, 14.0, 10, [[0, "2007-12-23 12:09", 2]]],
+    [1, 0.01, 1.0, 1, [[0, "2008-02-07 17:37", 2]]],
+    [1, 0.02, 8.0, 5, [[0, "2008-03-30 21:28", 2]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "%", 33750.0, 0, 1]
+  ],
+  "charts": []
+}

@@ -1,0 +1,33 @@
+{
+  "item": "vivo-neo-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071110144758/http://www.peauction.com/itemlisting.php?id=4751",
+    "https://web.archive.org/web/20080210224858/http://www.peauction.com:80/catlisting.php?id=66",
+    "https://web.archive.org/web/20080411134617/http://www.peauction.com:80/catlisting.php?id=66",
+    "https://web.archive.org/web/20080610174515/http://www.peauction.com:80/catlisting.php?id=66",
+    "https://web.archive.org/web/20090223042411/http://peauction.com:80/catlisting.php?id=66",
+    "https://web.archive.org/web/20090802102152/http://www.peauction.com:80/catlisting.php?id=66",
+    "https://web.archive.org/web/20091002013436/http://www.peauction.com:80/catlisting.php?id=66",
+    "https://web.archive.org/web/20160801124952/http://peauction.com/itemlisting.php?id=4751"
+  ],
+  "sold": [
+    [1, 224.0, 224.0, 1, [[0, "2008-05-24 02:04", 7]]]
+  ],
+  "unsold": [
+    [1, 224.0, 300.0, [[0, "2007-10-07 08:47", 0]]],
+    [1, 224.0, 334.0, [[0, "2007-10-10 16:23", 0]]],
+    [1, 224.0, 334.0, [[0, "2007-10-19 13:38", 0]]],
+    [1, 224.0, 254.0, [[0, "2007-10-22 03:43", 0]]],
+    [1, 224.0, 334.0, [[0, "2007-11-01 10:03", 0]]],
+    [1, 224.0, 334.0, [[0, "2007-11-01 11:03", 7]]],
+    [1, 64.51, 93.0, [[0, "2009-06-17 19:39", 7]]]
+  ],
+  "readings": [
+    [0, "TT+", 4.0, 1, 2],
+    [0, "TT+", 2.0, 3, 4],
+    [0, "%", 100.89, 5, 6]
+  ],
+  "charts": []
+}

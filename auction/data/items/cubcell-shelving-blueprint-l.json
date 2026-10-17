@@ -1,0 +1,26 @@
+{
+  "item": "cubcell-shelving-blueprint-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071109235543/http://www.peauction.com/itemlisting.php?id=3844",
+    "https://web.archive.org/web/20081022150525/http://www.peauction.com:80/catlisting.php?id=77",
+    "https://web.archive.org/web/20091002013535/http://www.peauction.com:80/catlisting.php?id=77",
+    "https://web.archive.org/web/20160801122327/http://peauction.com/itemlisting.php?id=3844"
+  ],
+  "sold": [
+    [1, 0.62, 400.0, 1, [[0, "2008-08-27 22:20", 3]]]
+  ],
+  "unsold": [
+    [1, 0.41, 1500.0, [[0, "2007-03-21 06:20", 0]]],
+    [1, 0.41, 1500.0, [[0, "2007-03-21 07:20", 3]]],
+    [1, 0.57, 570.0, [[0, "2007-06-21 23:21", 0]]],
+    [1, 0.47, 575.0, [[0, "2007-09-16 23:54", 0]]],
+    [1, 0.24, 250.0, [[0, "2009-01-24 14:33", 3]]],
+    [1, 0.24, 250.0, [[0, "2009-01-31 15:58", 3]]]
+  ],
+  "readings": [
+    [0, "%", 64516.1, 1, 2]
+  ],
+  "charts": []
+}

@@ -1,0 +1,15 @@
+{
+  "item": "foxy-high-stiletto-boots-blueprint",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20160801184514/http://peauction.com/itemlisting.php?id=5845"
+  ],
+  "sold": [],
+  "unsold": [
+    [1, 0.01, 10001.0, [[0, "2008-04-05 20:43", 0]]],
+    [1, 0.01, 10001.0, [[0, "2008-04-12 21:59", 0]]]
+  ],
+  "readings": [],
+  "charts": []
+}

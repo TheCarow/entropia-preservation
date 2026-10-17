@@ -1,0 +1,24 @@
+{
+  "item": "brushed-aluminium-texture",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20090802102025/http://www.peauction.com:80/catlisting.php?id=48",
+    "https://web.archive.org/web/20091002013312/http://www.peauction.com:80/catlisting.php?id=48",
+    "https://web.archive.org/web/20160801182933/http://peauction.com/itemlisting.php?id=5757"
+  ],
+  "sold": [
+    [3, 1.98, 3.0, 1, [[0, "2008-02-29 01:55", 2]]],
+    [693, 457.38, 458.0, 1, [[0, "2009-09-26 22:21", 2]]]
+  ],
+  "unsold": [
+    [200, 132.0, 231.0, [[0, "2009-03-31 14:09", 2]]],
+    [3, 1.98, 4.0, [[0, "2009-05-15 11:49", 2]]],
+    [4, 2.64, 3.0, [[0, "2009-09-14 21:35", 2]]]
+  ],
+  "readings": [
+    [0, "%", 151.52, 0, 0],
+    [0, "%", 100.36, 1, 1]
+  ],
+  "charts": []
+}

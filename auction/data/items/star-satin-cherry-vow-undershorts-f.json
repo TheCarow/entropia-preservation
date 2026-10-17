@@ -1,0 +1,22 @@
+{
+  "item": "star-satin-cherry-vow-undershorts-f",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20060721094606/http://www.peauction.com:80/catlisting.php?id=37",
+    "https://web.archive.org/web/20060805180107/http://peauction.com:80/catlisting.php?id=37",
+    "https://web.archive.org/web/20070612191354/http://peauction.com:80/itemlisting.php?id=1773"
+  ],
+  "sold": [
+    [1, 1.83, 402.0, 1, [[0, "2006-07-09 12:25", 2]]],
+    [1, 1.94, 400.0, 1, [[0, "2006-08-21 03:52", 2]]]
+  ],
+  "unsold": [
+    [1, 0.83, 301.0, [[0, "2005-11-05 14:53", 2]]],
+    [1, 1.94, 400.0, [[0, "2006-08-21 03:44", 2]]]
+  ],
+  "readings": [
+    [0, "TT+", 400.17, 0, 1]
+  ],
+  "charts": []
+}

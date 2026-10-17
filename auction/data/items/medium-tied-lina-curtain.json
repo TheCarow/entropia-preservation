@@ -1,0 +1,18 @@
+{
+  "item": "medium-tied-lina-curtain",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20160801214342/http://peauction.com/itemlisting.php?id=4754"
+  ],
+  "sold": [
+    [1, 4.97, 8.0, 1, [[0, "2007-10-08 06:47", 0]]],
+    [1, 5.32, 11.0, 1, [[0, "2007-10-24 12:43", 0]]],
+    [1, 5.32, 6.0, 4, [[0, "2007-11-17 00:16", 0]]]
+  ],
+  "unsold": [
+    [1, 5.7, 9.0, [[0, "2007-10-08 06:47", 0]]]
+  ],
+  "readings": [],
+  "charts": []
+}

@@ -1,0 +1,21 @@
+{
+  "item": "matterdriller-md-203-l-blueprint-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20090802101823/http://www.peauction.com:80/catlisting.php?id=24",
+    "https://web.archive.org/web/20091002013114/http://www.peauction.com:80/catlisting.php?id=24",
+    "https://web.archive.org/web/20160801191313/http://peauction.com/itemlisting.php?id=6094"
+  ],
+  "sold": [
+    [1, 0.03, 45.0, 11, [[0, "2008-07-03 21:00", 2]]],
+    [1, 0.04, 121.0, 7, [[0, "2009-01-25 15:43", 2]]],
+    [1, 0.01, 31.0, 12, [[0, "2009-03-30 03:04", 2]]],
+    [1, 0.03, 113.0, 4, [[0, "2009-06-19 13:04", 2]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "%", 284792.0, 0, 1]
+  ],
+  "charts": []
+}

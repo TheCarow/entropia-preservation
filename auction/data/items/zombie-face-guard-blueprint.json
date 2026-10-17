@@ -1,0 +1,40 @@
+{
+  "item": "zombie-face-guard-blueprint",
+  "markup": "TT+",
+  "sources": ["pea", "pe-player"],
+  "captures": [
+    "https://web.archive.org/web/20040807114142/http://www.pe-player.com:80/auction/list.php?sort=bytype",
+    "https://web.archive.org/web/20060216220804/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20060805173432/http://peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20061107141622/http://peauction.com/catlisting.php?id=18",
+    "https://web.archive.org/web/20070805003140/http://peauction.com:80/itemlisting.php?id=1706",
+    "https://web.archive.org/web/20080411150913/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20080610174500/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20080801024921/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20091002013041/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20160801083423/http://peauction.com/itemlisting.php?id=1706"
+  ],
+  "sold": [
+    [1, 0.01, 81.0, 0, [[1, "2004-08-02 09:25", 0]]],
+    [1, 0.01, 55.0, 14, [[0, "2005-11-03 20:16", 4]]],
+    [1, 0.01, 34.0, 15, [[0, "2006-08-19 20:40", 4]]],
+    [1, 0.01, 76.0, 11, [[0, "2008-05-21 23:34", 9]]],
+    [1, 0.01, 91.0, 32, [[0, "2008-06-07 16:02", 9]]],
+    [1, 0.01, 176.0, 18, [[0, "2008-06-24 19:50", 9]]],
+    [1, 0.01, 50.0, 9, [[0, "2008-07-16 23:12", 9]]]
+  ],
+  "unsold": [
+    [1, 0.01, 401.0, [[0, "2006-03-21 13:08", 4]]],
+    [1, 0.01, 251.0, [[0, "2006-04-11 15:59", 4]]],
+    [1, 0.01, 201.0, [[0, "2006-04-20 17:33", 4]]],
+    [1, 0.01, 111.0, [[0, "2006-04-22 17:18", 4]]],
+    [1, 0.01, 151.0, [[0, "2006-04-23 21:18", 4]]]
+  ],
+  "readings": [
+    [0, "TT+", 54.99, 1, 2],
+    [0, "TT+", 44.49, 3, 5],
+    [0, "TT+", 63.99, 6, 6],
+    [0, "TT+", 80.32, 7, 8]
+  ],
+  "charts": []
+}

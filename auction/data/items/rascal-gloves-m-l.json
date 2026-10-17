@@ -1,0 +1,32 @@
+{
+  "item": "rascal-gloves-m-l",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071007161354/http://www.peauction.com/catlisting.php?id=5",
+    "https://web.archive.org/web/20071212071045/http://peauction.com:80/catlisting.php?id=5",
+    "https://web.archive.org/web/20080210221258/http://www.peauction.com:80/catlisting.php?id=5",
+    "https://web.archive.org/web/20080411151156/http://www.peauction.com:80/catlisting.php?id=5",
+    "https://web.archive.org/web/20080610220605/http://www.peauction.com:80/catlisting.php?id=5",
+    "https://web.archive.org/web/20080801025358/http://www.peauction.com:80/catlisting.php?id=5",
+    "https://web.archive.org/web/20080817053439/http://www.peauction.com:80/catlisting.php?id=5",
+    "https://web.archive.org/web/20081022150313/http://www.peauction.com:80/catlisting.php?id=5",
+    "https://web.archive.org/web/20090223042253/http://peauction.com:80/catlisting.php?id=5",
+    "https://web.archive.org/web/20090802102036/http://www.peauction.com:80/catlisting.php?id=5",
+    "https://web.archive.org/web/20091002013322/http://www.peauction.com:80/catlisting.php?id=5"
+  ],
+  "sold": [],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 1.05, 0, 1],
+    [0, "TT+", 0.76, 2, 2],
+    [0, "TT+", 0.94, 3, 3],
+    [0, "TT+", 0.92, 4, 4],
+    [0, "TT+", 0.67, 5, 5],
+    [0, "TT+", 0.7, 6, 7],
+    [0, "TT+", 0.88, 8, 8],
+    [0, "%", 113.39, 9, 9],
+    [0, "%", 115.15, 10, 10]
+  ],
+  "charts": []
+}

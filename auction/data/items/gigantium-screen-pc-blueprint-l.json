@@ -1,0 +1,18 @@
+{
+  "item": "gigantium-screen-pc-blueprint-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071007160850/http://www.peauction.com/catlisting.php?id=77",
+    "https://web.archive.org/web/20071110075013/http://www.peauction.com/itemlisting.php?id=4691",
+    "https://web.archive.org/web/20091002013535/http://www.peauction.com:80/catlisting.php?id=77"
+  ],
+  "sold": [
+    [1, 0.47, 1014.0, 15, [[0, "2007-08-26 20:37", 1]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "%", 215745.0, 0, 2]
+  ],
+  "charts": []
+}

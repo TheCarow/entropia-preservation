@@ -1,0 +1,37 @@
+{
+  "item": "serum-helmet-m-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071007161934/http://www.peauction.com/catlisting.php?id=7",
+    "https://web.archive.org/web/20080210224919/http://www.peauction.com:80/catlisting.php?id=7",
+    "https://web.archive.org/web/20080411151328/http://www.peauction.com:80/catlisting.php?id=7",
+    "https://web.archive.org/web/20090223042421/http://peauction.com:80/catlisting.php?id=7",
+    "https://web.archive.org/web/20090802102208/http://www.peauction.com:80/catlisting.php?id=7",
+    "https://web.archive.org/web/20091002013452/http://www.peauction.com:80/catlisting.php?id=7",
+    "https://web.archive.org/web/20160802010811/http://peauction.com/itemlisting.php?id=4546"
+  ],
+  "sold": [
+    [1, 30.66, 32.0, 2, [[0, "2007-07-18 23:52", 6]]],
+    [1, 47.79, 59.0, 9, [[0, "2007-07-22 18:48", 6]]],
+    [1, 65.2, 66.0, 1, [[0, "2007-07-27 02:16", 6]]],
+    [1, 30.37, 44.0, 3, [[0, "2007-08-01 21:41", 6]]],
+    [1, 45.73, 53.0, 8, [[0, "2007-08-04 15:52", 6]]],
+    [1, 65.2, 66.0, 1, [[0, "2007-08-14 16:42", 6]]],
+    [1, 59.63, 66.0, 2, [[0, "2008-02-17 23:06", 6]]],
+    [1, 65.2, 84.0, 9, [[0, "2008-02-20 17:00", 6]]],
+    [1, 41.59, 52.0, 1, [[0, "2009-04-24 02:33", 6]]],
+    [1, 47.18, 59.0, 2, [[0, "2009-05-05 13:43", 6]]],
+    [1, 40.57, 50.0, 10, [[0, "2009-05-10 20:47", 6]]],
+    [1, 55.17, 67.0, 12, [[0, "2009-05-10 20:49", 6]]],
+    [1, 65.2, 88.0, 23, [[0, "2009-08-11 16:40", 6]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 5.84, 0, 1],
+    [0, "TT+", 7.53, 2, 3],
+    [0, "%", 119.75, 4, 4],
+    [0, "%", 123.13, 5, 5]
+  ],
+  "charts": []
+}

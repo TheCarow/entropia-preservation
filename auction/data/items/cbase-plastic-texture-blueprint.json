@@ -1,0 +1,21 @@
+{
+  "item": "cbase-plastic-texture-blueprint",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20090802101821/http://www.peauction.com:80/catlisting.php?id=23",
+    "https://web.archive.org/web/20091002013109/http://www.peauction.com:80/catlisting.php?id=23",
+    "https://web.archive.org/web/20160801183757/http://peauction.com/itemlisting.php?id=5228"
+  ],
+  "sold": [
+    [1, 0.03, 1.0, 1, [[0, "2009-07-09 15:17", 2, 1]]],
+    [1, 0.01, 1.0, 1, [[0, "2009-07-19 14:03", 2]]],
+    [1, 0.01, 1.0, 1, [[0, "2009-08-04 22:17", 2]]],
+    [1, 0.01, 2.0, 2, [[0, "2009-09-28 01:30", 2, 1]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 0.99, 0, 1]
+  ],
+  "charts": []
+}

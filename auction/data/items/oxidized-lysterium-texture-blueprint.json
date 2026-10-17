@@ -1,0 +1,22 @@
+{
+  "item": "oxidized-lysterium-texture-blueprint",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20090802101821/http://www.peauction.com:80/catlisting.php?id=23",
+    "https://web.archive.org/web/20091002013109/http://www.peauction.com:80/catlisting.php?id=23",
+    "https://web.archive.org/web/20160801184648/http://peauction.com/itemlisting.php?id=5337"
+  ],
+  "sold": [
+    [1, 0.01, 1.0, 1, [[0, "2009-07-06 13:20", 2]]],
+    [1, 0.01, 1.0, 1, [[0, "2009-07-10 00:02", 2]]],
+    [1, 0.01, 2.0, 1, [[0, "2009-07-12 10:52", 2]]],
+    [1, 0.01, 1.0, 1, [[0, "2009-07-23 15:12", 2]]],
+    [1, 0.01, 1.0, 1, [[0, "2009-09-25 13:42", 2]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 1.19, 0, 1]
+  ],
+  "charts": []
+}

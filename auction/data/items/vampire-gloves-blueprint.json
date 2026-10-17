@@ -1,0 +1,21 @@
+{
+  "item": "vampire-gloves-blueprint",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20090802101753/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20091002013041/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20160801123353/http://peauction.com/itemlisting.php?id=5943"
+  ],
+  "sold": [
+    [1, 0.01, 7.0, 7, [[0, "2008-05-25 00:49", 2]]],
+    [1, 0.01, 550.0, 1, [[0, "2008-06-01 18:54", 2]]]
+  ],
+  "unsold": [
+    [1, 0.11, 1000.0, [[0, "2008-06-11 18:15", 2]]]
+  ],
+  "readings": [
+    [0, "TT+", 278.49, 0, 1]
+  ],
+  "charts": []
+}

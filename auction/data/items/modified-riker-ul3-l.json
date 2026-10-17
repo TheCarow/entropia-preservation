@@ -1,0 +1,21 @@
+{
+  "item": "modified-riker-ul3-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071008003605/http://www.peauction.com/catlisting.php?id=74",
+    "https://web.archive.org/web/20091002013520/http://www.peauction.com:80/catlisting.php?id=74",
+    "https://web.archive.org/web/20160801125801/http://peauction.com/itemlisting.php?id=4637"
+  ],
+  "sold": [
+    [1, 3189.54, 3997.0, 8, [[0, "2007-08-10 21:42", 2]]],
+    [1, 623.72, 794.0, 1, [[0, "2007-09-02 20:39", 2]]]
+  ],
+  "unsold": [
+    [1, 3189.54, 4100.0, [[0, "2007-07-31 22:47", 2]]]
+  ],
+  "readings": [
+    [0, "%", 126.31, 0, 1]
+  ],
+  "charts": []
+}

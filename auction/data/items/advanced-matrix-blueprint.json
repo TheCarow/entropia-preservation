@@ -1,0 +1,49 @@
+{
+  "item": "advanced-matrix-blueprint",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20060614130745/http://peauction.com:80/catlisting.php?id=20",
+    "https://web.archive.org/web/20061107140947/http://peauction.com/catlisting.php?id=20",
+    "https://web.archive.org/web/20061218232909/http://peauction.com:80/itemlisting.php?id=2239",
+    "https://web.archive.org/web/20071007162201/http://www.peauction.com/catlisting.php?id=20",
+    "https://web.archive.org/web/20071012151736/http://peauction.com:80/catlisting.php?id=20",
+    "https://web.archive.org/web/20071212065912/http://peauction.com:80/catlisting.php?id=20",
+    "https://web.archive.org/web/20080210210012/http://www.peauction.com:80/catlisting.php?id=20",
+    "https://web.archive.org/web/20080411150924/http://www.peauction.com:80/catlisting.php?id=20",
+    "https://web.archive.org/web/20080610213744/http://www.peauction.com:80/catlisting.php?id=20",
+    "https://web.archive.org/web/20080801024341/http://www.peauction.com:80/catlisting.php?id=20",
+    "https://web.archive.org/web/20080817051734/http://www.peauction.com:80/catlisting.php?id=20",
+    "https://web.archive.org/web/20080818212757/http://www.peauction.com:80/catlisting.php?id=20",
+    "https://web.archive.org/web/20081022150047/http://www.peauction.com:80/catlisting.php?id=20",
+    "https://web.archive.org/web/20090223042032/http://peauction.com:80/catlisting.php?id=20",
+    "https://web.archive.org/web/20090802101803/http://www.peauction.com:80/catlisting.php?id=20",
+    "https://web.archive.org/web/20091002013054/http://www.peauction.com:80/catlisting.php?id=20"
+  ],
+  "sold": [
+    [1, 0.01, 42.0, 11, [[0, "2006-04-23 21:55", 2]]]
+  ],
+  "unsold": [
+    [1, 0.01, 111.0, [[0, "2005-12-14 14:11", 2]]],
+    [1, 0.01, 104.0, [[0, "2006-01-13 09:21", 2]]],
+    [1, 0.01, 83.0, [[0, "2006-01-21 16:39", 2]]],
+    [1, 0.01, 71.0, [[0, "2006-02-02 06:13", 2]]],
+    [1, 0.01, 71.0, [[0, "2006-02-11 01:20", 2]]],
+    [1, 0.01, 61.0, [[0, "2006-06-26 07:04", 2]]]
+  ],
+  "readings": [
+    [0, "TT+", 41.99, 0, 1],
+    [0, "TT+", 15.49, 3, 3],
+    [0, "TT+", 16.39, 4, 4],
+    [0, "TT+", 15.79, 5, 5],
+    [0, "TT+", 9.59, 6, 6],
+    [0, "TT+", 8.09, 7, 7],
+    [0, "TT+", 8.79, 8, 8],
+    [0, "TT+", 9.99, 9, 9],
+    [0, "TT+", 5.79, 10, 11],
+    [0, "TT+", 5.89, 12, 12],
+    [0, "TT+", 2.59, 13, 13],
+    [0, "TT+", 3.29, 14, 15]
+  ],
+  "charts": []
+}

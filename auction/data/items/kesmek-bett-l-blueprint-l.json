@@ -1,0 +1,27 @@
+{
+  "item": "kesmek-bett-l-blueprint-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071008002917/http://www.peauction.com/catlisting.php?id=25",
+    "https://web.archive.org/web/20080210212022/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20080411150950/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20081022150112/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20090223042058/http://peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20091002013119/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20160801123307/http://peauction.com/itemlisting.php?id=4576"
+  ],
+  "sold": [
+    [1, 0.01, 454.0, 26, [[0, "2007-07-16 22:27", 6]]],
+    [1, 0.01, 197.0, 8, [[0, "2008-02-18 23:06", 6]]],
+    [1, 0.01, 760.0, 51, [[0, "2008-03-17 10:06", 6]]],
+    [1, 0.02, 900.0, 23, [[0, "2009-02-06 15:53", 6]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "%", 4540000.0, 0, 1],
+    [0, "%", 4703330.0, 2, 3],
+    [0, "%", 4652500.0, 4, 5]
+  ],
+  "charts": []
+}

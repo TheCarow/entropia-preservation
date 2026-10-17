@@ -1,0 +1,16 @@
+{
+  "item": "matterdriller-md-301-l-blueprint-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20090802101823/http://www.peauction.com:80/catlisting.php?id=24",
+    "https://web.archive.org/web/20091002013114/http://www.peauction.com:80/catlisting.php?id=24"
+  ],
+  "sold": [],
+  "unsold": [],
+  "readings": [
+    [0, "%", 44470.0, 0, 0],
+    [0, "%", 45391.6, 1, 1]
+  ],
+  "charts": []
+}

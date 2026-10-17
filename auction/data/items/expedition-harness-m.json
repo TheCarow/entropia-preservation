@@ -1,0 +1,65 @@
+{
+  "item": "expedition-harness-m",
+  "markup": "TT+",
+  "sources": ["pea", "pe-player"],
+  "captures": [
+    "https://web.archive.org/web/20040807114142/http://www.pe-player.com:80/auction/list.php?sort=bytype",
+    "https://web.archive.org/web/20050130134118/http://www.pe-player.com:80/auction/list.php?sort=bytype",
+    "https://web.archive.org/web/20060216220732/http://www.peauction.com:80/catlisting.php?id=6",
+    "https://web.archive.org/web/20060614130545/http://peauction.com:80/catlisting.php?id=6",
+    "https://web.archive.org/web/20070105004542/http://peauction.com:80/catlisting.php?id=6",
+    "https://web.archive.org/web/20070502022303/http://peauction.com:80/catlisting.php?id=6",
+    "https://web.archive.org/web/20071012152049/http://peauction.com:80/catlisting.php?id=6",
+    "https://web.archive.org/web/20071107185944/http://www.peauction.com/itemlisting.php?id=2137",
+    "https://web.archive.org/web/20071107190006/http://www.peauction.com/chart2.php?id=2137&dtype=0",
+    "https://web.archive.org/web/20071212071133/http://peauction.com:80/catlisting.php?id=6",
+    "https://web.archive.org/web/20081022150359/http://www.peauction.com:80/catlisting.php?id=6",
+    "https://web.archive.org/web/20090223042341/http://peauction.com:80/catlisting.php?id=6",
+    "https://web.archive.org/web/20090802102119/http://www.peauction.com:80/catlisting.php?id=6",
+    "https://web.archive.org/web/20091002013404/http://www.peauction.com:80/catlisting.php?id=6",
+    "https://web.archive.org/web/20160801190842/http://peauction.com/itemlisting.php?id=2137"
+  ],
+  "sold": [
+    [1, 7.64, 50.0, 1, [[1, "2004-07-12 15:52", 0]]],
+    [1, 7.64, 50.0, 1, [[1, "2004-10-23 00:56", 1]]],
+    [1, 16.4, 27.0, 6, [[0, "2005-11-29 19:13", 7]]],
+    [1, 0.0, 51.0, 1, [[0, "2006-01-27 03:31", 7]]],
+    [1, 40.96, 51.0, 11, [[0, "2006-01-28 03:05", 7]]],
+    [1, 34.81, 45.0, 1, [[0, "2006-02-18 16:19", 7]]],
+    [1, 40.91, 41.0, 2, [[0, "2006-04-25 00:17", 7]]],
+    [1, 9.82, 42.0, 13, [[0, "2007-02-24 21:16", 7]]],
+    [1, 40.96, 150.0, 10, [[0, "2007-11-21 15:36", 14]]],
+    [1, 40.97, 41.0, 1, [[0, "2008-11-14 13:45", 14]]],
+    [1, 41.0, 132.0, 2, [[0, "2009-07-20 10:26", 14]]],
+    [1, 40.81, 121.0, 28, [[0, "2009-09-13 22:43", 14]]]
+  ],
+  "unsold": [
+    [1, 40.8, 45.0, [[0, "2005-12-02 04:05", 7]]],
+    [1, 13.52, 215.0, [[0, "2006-01-12 00:52", 7]]],
+    [1, 34.81, 45.0, [[0, "2006-02-18 16:13", 7]]],
+    [1, 40.64, 99.0, [[0, "2006-04-23 18:53", 7]]],
+    [1, 40.64, 90.0, [[0, "2006-04-30 09:49", 7]]],
+    [1, 40.64, 65.0, [[0, "2006-05-09 12:21", 7]]],
+    [1, 6.75, 25.0, [[0, "2006-05-21 05:01", 7]]],
+    [1, 0.78, 61.0, [[0, "2006-06-10 21:25", 7]]],
+    [1, 0.78, 41.0, [[0, "2006-06-12 07:59", 7]]],
+    [1, 40.97, 321.0, [[0, "2008-01-01 20:14", 14]]],
+    [1, 14.72, 135.0, [[0, "2009-01-17 01:23", 14]]],
+    [1, 14.73, 135.0, [[0, "2009-02-22 01:22", 14]]],
+    [1, 14.73, 125.0, [[0, "2009-03-01 12:03", 14]]],
+    [1, 14.73, 115.0, [[0, "2009-03-14 18:27", 14]]],
+    [1, 14.73, 115.0, [[0, "2009-03-22 01:55", 14]]]
+  ],
+  "readings": [
+    [0, "TT+", 23.88, 2, 2],
+    [0, "TT+", 16.38, 3, 4],
+    [0, "TT+", 19.02, 5, 6],
+    [0, "TT+", 31.88, 9, 10],
+    [0, "TT+", 27.9, 11, 11],
+    [0, "TT+", 34.91, 12, 12],
+    [0, "TT+", 39.44, 13, 13]
+  ],
+  "charts": [
+    [0, 8, "2137-0-20071107190006.png"]
+  ]
+}

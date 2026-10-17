@@ -1,0 +1,53 @@
+{
+  "item": "ghost-arm-guards-l-blueprint",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071007162213/http://www.peauction.com/catlisting.php?id=18",
+    "https://web.archive.org/web/20071012151726/http://peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20071212065901/http://peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20080210210002/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20080411150913/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20080610174500/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20080801024921/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20080817052548/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20081022150037/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20090223042022/http://peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20090802101753/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20091002013041/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20160801092328/http://peauction.com/itemlisting.php?id=3882"
+  ],
+  "sold": [
+    [1, 0.01, 44.0, 24, [[0, "2008-07-29 16:27", 12]]],
+    [1, 0.01, 70.0, 49, [[0, "2008-08-23 16:35", 12]]],
+    [1, 0.01, 10.0, 5, [[0, "2008-10-10 19:59", 12]]],
+    [1, 0.01, 6.0, 5, [[0, "2008-10-30 00:15", 12]]],
+    [1, 0.01, 3.0, 3, [[0, "2009-01-06 02:32", 12]]],
+    [1, 0.01, 6.0, 6, [[0, "2009-02-07 11:58", 12]]],
+    [1, 0.01, 9.0, 9, [[0, "2009-03-12 21:52", 12]]],
+    [1, 0.01, 11.0, 1, [[0, "2009-03-13 01:31", 12]]],
+    [1, 0.01, 9.0, 2, [[0, "2009-03-13 17:35", 12]]],
+    [1, 0.01, 10.0, 1, [[0, "2009-03-16 22:41", 12]]],
+    [1, 0.01, 3.0, 3, [[0, "2009-05-17 10:18", 12]]],
+    [1, 0.01, 5.0, 5, [[0, "2009-06-08 22:22", 12]]],
+    [1, 0.01, 10.0, 1, [[0, "2009-07-22 00:40", 12]]]
+  ],
+  "unsold": [
+    [1, 0.01, 41.0, [[0, "2009-05-25 17:49", 12]]],
+    [1, 0.01, 30.0, [[0, "2009-07-06 18:59", 12]]],
+    [1, 0.01, 20.0, [[0, "2009-07-13 22:33", 12]]],
+    [1, 0.01, 25.0, [[0, "2009-07-15 22:36", 12]]],
+    [1, 0.01, 20.0, [[0, "2009-07-23 20:04", 12]]]
+  ],
+  "readings": [
+    [0, "%", 1570000.0, 0, 1],
+    [0, "%", 1355000.0, 2, 3],
+    [0, "%", 1430000.0, 4, 4],
+    [0, "%", 1167500.0, 5, 5],
+    [0, "%", 1014000.0, 6, 7],
+    [0, "%", 773000.0, 8, 8],
+    [0, "%", 352000.0, 9, 9],
+    [0, "%", 72000.0, 10, 11]
+  ],
+  "charts": []
+}

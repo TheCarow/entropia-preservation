@@ -1,0 +1,25 @@
+{
+  "item": "eldrin-double-bed-blueprint-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071110073647/http://www.peauction.com/itemlisting.php?id=3152",
+    "https://web.archive.org/web/20071212071259/http://peauction.com:80/catlisting.php?id=77",
+    "https://web.archive.org/web/20091002013535/http://www.peauction.com:80/catlisting.php?id=77",
+    "https://web.archive.org/web/20160801070338/http://peauction.com/itemlisting.php?id=3152"
+  ],
+  "sold": [
+    [1, 0.43, 502.0, 3, [[0, "2007-10-31 14:48", 0]]],
+    [1, 0.43, 502.0, 3, [[0, "2007-10-31 15:48", 3]]]
+  ],
+  "unsold": [
+    [1, 0.21, 900.0, [[0, "2006-10-11 14:46", 0]]],
+    [1, 0.21, 400.0, [[0, "2006-10-19 00:38", 0]]],
+    [1, 0.56, 300.0, [[0, "2006-11-15 14:17", 0]]],
+    [1, 0.56, 300.0, [[0, "2006-11-23 04:56", 0]]]
+  ],
+  "readings": [
+    [0, "%", 116744.0, 1, 2]
+  ],
+  "charts": []
+}

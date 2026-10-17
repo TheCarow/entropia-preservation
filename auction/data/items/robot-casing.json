@@ -1,0 +1,37 @@
+{
+  "item": "robot-casing",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20061220005310/http://peauction.com:80/catlisting.php?id=54",
+    "https://web.archive.org/web/20070610030733/http://peauction.com:80/catlisting.php?id=54",
+    "https://web.archive.org/web/20070805004838/http://peauction.com:80/catlisting.php?id=54",
+    "https://web.archive.org/web/20071007162819/http://www.peauction.com/catlisting.php?id=54",
+    "https://web.archive.org/web/20071012152024/http://peauction.com:80/catlisting.php?id=54",
+    "https://web.archive.org/web/20071212071107/http://peauction.com:80/catlisting.php?id=54",
+    "https://web.archive.org/web/20080210221322/http://www.peauction.com:80/catlisting.php?id=54",
+    "https://web.archive.org/web/20080411151217/http://www.peauction.com:80/catlisting.php?id=54",
+    "https://web.archive.org/web/20080610220625/http://www.peauction.com:80/catlisting.php?id=54",
+    "https://web.archive.org/web/20080801025403/http://www.peauction.com:80/catlisting.php?id=54",
+    "https://web.archive.org/web/20080817053455/http://www.peauction.com:80/catlisting.php?id=54",
+    "https://web.archive.org/web/20081022150334/http://www.peauction.com:80/catlisting.php?id=54",
+    "https://web.archive.org/web/20090223042316/http://peauction.com:80/catlisting.php?id=54",
+    "https://web.archive.org/web/20090921135426/http://www.peauction.com:80/catlisting.php?id=54"
+  ],
+  "sold": [],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 0.15, 0, 0],
+    [0, "%", 103.12, 1, 1],
+    [0, "%", 101.31, 2, 2],
+    [0, "%", 101.2, 3, 4],
+    [0, "%", 100.5, 5, 5],
+    [0, "%", 100.52, 6, 6],
+    [0, "%", 100.41, 7, 8],
+    [0, "%", 100.42, 9, 10],
+    [0, "%", 100.44, 11, 11],
+    [0, "%", 100.48, 12, 12],
+    [0, "%", 100.75, 13, 13]
+  ],
+  "charts": []
+}

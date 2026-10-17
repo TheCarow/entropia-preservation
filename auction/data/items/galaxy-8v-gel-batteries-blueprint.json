@@ -1,0 +1,22 @@
+{
+  "item": "galaxy-8v-gel-batteries-blueprint",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071007162201/http://www.peauction.com/catlisting.php?id=20",
+    "https://web.archive.org/web/20090223042032/http://peauction.com:80/catlisting.php?id=20",
+    "https://web.archive.org/web/20090802101803/http://www.peauction.com:80/catlisting.php?id=20",
+    "https://web.archive.org/web/20091002013054/http://www.peauction.com:80/catlisting.php?id=20",
+    "https://web.archive.org/web/20160801125112/http://peauction.com/itemlisting.php?id=3884"
+  ],
+  "sold": [
+    [1, 0.01, 62.0, 12, [[0, "2007-03-24 21:55", 4]]],
+    [1, 0.01, 664.0, 12, [[0, "2009-03-30 23:01", 4]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 61.99, 0, 1],
+    [0, "TT+", 362.99, 2, 3]
+  ],
+  "charts": []
+}

@@ -1,0 +1,27 @@
+{
+  "item": "ziplex-mt2000-matterseeker-l",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20080411151317/http://www.peauction.com:80/catlisting.php?id=67",
+    "https://web.archive.org/web/20080610222927/http://www.peauction.com:80/catlisting.php?id=67",
+    "https://web.archive.org/web/20080801025440/http://www.peauction.com:80/catlisting.php?id=67",
+    "https://web.archive.org/web/20080817052308/http://www.peauction.com:80/catlisting.php?id=67",
+    "https://web.archive.org/web/20080818212934/http://www.peauction.com:80/catlisting.php?id=67",
+    "https://web.archive.org/web/20081022150434/http://www.peauction.com:80/catlisting.php?id=67",
+    "https://web.archive.org/web/20090802102158/http://www.peauction.com:80/catlisting.php?id=67",
+    "https://web.archive.org/web/20091002013441/http://www.peauction.com:80/catlisting.php?id=67"
+  ],
+  "sold": [],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 394.69, 0, 0],
+    [0, "TT+", 173.63, 1, 1],
+    [0, "TT+", 164.69, 2, 2],
+    [0, "TT+", 126.09, 3, 4],
+    [0, "TT+", 94.38, 5, 5],
+    [0, "%", 138.64, 6, 6],
+    [0, "%", 141.5, 7, 7]
+  ],
+  "charts": []
+}

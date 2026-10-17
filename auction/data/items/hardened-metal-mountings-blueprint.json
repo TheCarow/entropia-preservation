@@ -1,0 +1,20 @@
+{
+  "item": "hardened-metal-mountings-blueprint",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20070804042526/http://peauction.com:80/catlisting.php?id=22",
+    "https://web.archive.org/web/20070805053519/http://peauction.com:80/catlisting.php?id=22",
+    "https://web.archive.org/web/20071008003624/http://www.peauction.com/catlisting.php?id=22",
+    "https://web.archive.org/web/20090802101813/http://www.peauction.com:80/catlisting.php?id=22",
+    "https://web.archive.org/web/20091002013104/http://www.peauction.com:80/catlisting.php?id=22"
+  ],
+  "sold": [],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 1.29, 0, 1],
+    [0, "TT+", 0.99, 2, 3],
+    [0, "TT+", 1.39, 4, 4]
+  ],
+  "charts": []
+}

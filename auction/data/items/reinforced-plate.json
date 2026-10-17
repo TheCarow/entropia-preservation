@@ -1,0 +1,32 @@
+{
+  "item": "reinforced-plate",
+  "markup": "%",
+  "sources": ["pea", "pe-player"],
+  "captures": [
+    "https://web.archive.org/web/20041010022429/http://www.pe-player.com:80/auction/list.php?sort=bytype",
+    "https://web.archive.org/web/20070611154647/http://peauction.com:80/itemlisting.php?id=1495",
+    "https://web.archive.org/web/20071008002943/http://www.peauction.com/catlisting.php?id=38",
+    "https://web.archive.org/web/20081022150218/http://www.peauction.com:80/catlisting.php?id=38",
+    "https://web.archive.org/web/20090223042203/http://peauction.com:80/catlisting.php?id=38",
+    "https://web.archive.org/web/20091002013226/http://www.peauction.com:80/catlisting.php?id=38",
+    "https://web.archive.org/web/20160802010444/http://peauction.com/itemlisting.php?id=1495"
+  ],
+  "sold": [
+    [221, 8.85, 10.0, 0, [[1, "2004-09-24 20:15", 0]]],
+    [48, 1.92, 2.0, 1, [[0, "2007-01-08 18:24", 1]]],
+    [1125, 45.0, 45.0, 1, [[0, "2009-01-24 05:43", 6]]]
+  ],
+  "unsold": [
+    [1, 0.04, 2.0, [[0, "2005-11-01 02:43", 1]]],
+    [50, 2.0, 3.0, [[0, "2006-03-21 16:23", 1]]],
+    [40, 1.6, 2.0, [[0, "2006-07-06 22:01", 1]]],
+    [294, 11.76, 35.0, [[0, "2006-12-28 00:13", 1]]],
+    [275, 11.0, 22.0, [[0, "2007-02-10 22:24", 1]]],
+    [1000, 40.0, 46.0, [[0, "2007-04-24 04:25", 1]]]
+  ],
+  "readings": [
+    [0, "%", 104.17, 2, 3],
+    [0, "%", 100.17, 4, 5]
+  ],
+  "charts": []
+}

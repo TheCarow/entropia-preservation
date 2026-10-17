@@ -1,0 +1,27 @@
+{
+  "item": "orca-harness-m-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20080210223457/http://www.peauction.com:80/catlisting.php?id=6",
+    "https://web.archive.org/web/20081022150359/http://www.peauction.com:80/catlisting.php?id=6",
+    "https://web.archive.org/web/20090223042341/http://peauction.com:80/catlisting.php?id=6",
+    "https://web.archive.org/web/20090802102119/http://www.peauction.com:80/catlisting.php?id=6",
+    "https://web.archive.org/web/20091002013404/http://www.peauction.com:80/catlisting.php?id=6",
+    "https://web.archive.org/web/20160801202807/http://peauction.com/itemlisting.php?id=5488"
+  ],
+  "sold": [
+    [1, 54.02, 87.0, 3, [[0, "2007-12-30 01:09", 5]]],
+    [1, 43.36, 53.0, 10, [[0, "2009-01-25 22:38", 5]]],
+    [1, 60.0, 66.0, 1, [[0, "2009-03-29 21:48", 5]]],
+    [1, 58.3, 61.0, 3, [[0, "2009-09-14 15:54", 5]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 32.98, 0, 1],
+    [0, "TT+", 21.31, 2, 2],
+    [0, "%", 131.09, 3, 3],
+    [0, "%", 124.48, 4, 4]
+  ],
+  "charts": []
+}

@@ -1,0 +1,18 @@
+{
+  "item": "gec-spur-gears-5k-blueprint",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20090802101809/http://www.peauction.com:80/catlisting.php?id=21",
+    "https://web.archive.org/web/20091002013059/http://www.peauction.com:80/catlisting.php?id=21",
+    "https://web.archive.org/web/20160801123807/http://peauction.com/itemlisting.php?id=6053"
+  ],
+  "sold": [
+    [1, 0.01, 433.0, 24, [[0, "2008-06-15 11:14", 2]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 432.99, 0, 1]
+  ],
+  "charts": []
+}

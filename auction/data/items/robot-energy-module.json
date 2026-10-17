@@ -1,0 +1,37 @@
+{
+  "item": "robot-energy-module",
+  "markup": "TT+",
+  "sources": ["pea", "mytwopecs"],
+  "captures": [
+    "https://web.archive.org/web/20060216221157/http://www.peauction.com:80/catlisting.php?id=54",
+    "https://web.archive.org/web/20060614131405/http://peauction.com:80/catlisting.php?id=54",
+    "https://web.archive.org/web/20060830080546/http://www.mytwopecs.com:80/feed-beta/robotics.xml",
+    "https://web.archive.org/web/20070120060510/http://www.mytwopecs.com:80/feed-beta/robotics.xml",
+    "https://web.archive.org/web/20070224160324/http://mytwopecs.com:80/",
+    "https://web.archive.org/web/20070312192000/http://www.mytwopecs.com:80/",
+    "https://web.archive.org/web/20070413194325/http://www.mytwopecs.com:80/feed-beta/robotics.xml",
+    "https://web.archive.org/web/20070611211153/http://peauction.com:80/itemlisting.php?id=2074",
+    "https://web.archive.org/web/20090223042316/http://peauction.com:80/catlisting.php?id=54",
+    "https://web.archive.org/web/20090327053724/http://www.mytwopecs.com:80/feed-beta/robotics.xml",
+    "https://web.archive.org/web/20090921135426/http://www.peauction.com:80/catlisting.php?id=54",
+    "https://web.archive.org/web/20160801185036/http://peauction.com/itemlisting.php?id=2074"
+  ],
+  "sold": [
+    [1, 8.32, 50.0, 2, [[0, "2005-11-23 19:20", 7]]],
+    [1, 5.9, 40.0, 1, [[0, "2005-12-05 08:41", 7]]],
+    [1, 6.28, 28.0, 2, [[0, "2006-06-02 07:49", 7]]],
+    [1, 6.51, 240.0, 22, [[0, "2006-06-09 21:25", 7]]],
+    [1, 4.9, 291.0, 37, [[0, "2009-05-08 18:21", 11]]],
+    [1, 8.67, 290.0, 1, [[0, "2009-08-01 05:30", 11]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 37.89, 0, 0],
+    [0, "TT+", 82.75, 1, 8],
+    [0, "TT+", 149.74, 10, 10],
+    [1, "%", 57.86, 2, 3],
+    [1, "%", 927.34, 4, 5],
+    [1, "%", 57.86, 6, 9]
+  ],
+  "charts": []
+}

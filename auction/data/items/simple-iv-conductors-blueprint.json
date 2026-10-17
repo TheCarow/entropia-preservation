@@ -1,0 +1,20 @@
+{
+  "item": "simple-iv-conductors-blueprint",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071007162201/http://www.peauction.com/catlisting.php?id=20",
+    "https://web.archive.org/web/20091002013054/http://www.peauction.com:80/catlisting.php?id=20",
+    "https://web.archive.org/web/20160801124535/http://peauction.com/itemlisting.php?id=3978"
+  ],
+  "sold": [
+    [1, 0.01, 300.0, 1, [[0, "2007-05-28 17:17", 2]]],
+    [1, 0.01, 563.0, 13, [[0, "2007-06-29 18:46", 2]]],
+    [1, 0.01, 600.0, 1, [[0, "2007-07-07 11:05", 2]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 487.66, 0, 1]
+  ],
+  "charts": []
+}

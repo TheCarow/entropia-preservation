@@ -1,0 +1,18 @@
+{
+  "item": "ghoul-thigh-guards-blueprint",
+  "markup": "TT+",
+  "sources": ["pea", "pe-player"],
+  "captures": [
+    "https://web.archive.org/web/20050130134118/http://www.pe-player.com:80/auction/list.php?sort=bytype",
+    "https://web.archive.org/web/20070807233627/http://peauction.com:80/itemlisting.php?id=1404"
+  ],
+  "sold": [
+    [1, 0.01, 800.0, 0, [[1, "2004-11-27 05:35", 0]]]
+  ],
+  "unsold": [
+    [1, 0.01, 2001.0, [[0, "2005-10-29 09:02", 1]]],
+    [1, 0.01, 501.0, [[0, "2005-10-31 22:13", 1]]]
+  ],
+  "readings": [],
+  "charts": []
+}

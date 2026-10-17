@@ -1,0 +1,17 @@
+{
+  "item": "shadow-helmet-f",
+  "markup": "TT+",
+  "sources": ["pea", "pe-player"],
+  "captures": [
+    "https://web.archive.org/web/20050130134118/http://www.pe-player.com:80/auction/list.php?sort=bytype",
+    "https://web.archive.org/web/20160801211003/http://peauction.com/itemlisting.php?id=4003"
+  ],
+  "sold": [
+    [1, 50.96, 4995.0, 0, [[1, "2004-11-23 05:55", 0]]]
+  ],
+  "unsold": [
+    [1, 49.5, 24050.0, [[0, "2007-06-02 12:07", 1]]]
+  ],
+  "readings": [],
+  "charts": []
+}

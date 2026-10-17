@@ -174,7 +174,7 @@
       "name": "Eunalysis",
       "link": "../sites/#eunalysis",
       "kind": "player",
-      "about": "eunalysis.mine.nu, 2008: the 20 latest globals at each capture, from BruuD's chat-reading program. The creatures and maturities they name are cited by the capture, and the ores, enmatters and manufactured items they name are seen on its day; a global's player and value are not kept. Read from the Archive's Wayback copy of the site."
+      "about": "eunalysis.mine.nu, 2008: the 20 latest globals at each capture, from BruuD's chat-reading program. On the Hall of Fame page each global is kept whole (the time, the player, what was killed, mined or manufactured, its value, a Hall of Fame one marked), the day being the capture's; on the Items and Creatures pages the creatures and maturities they name are cited by the capture, and the ores, enmatters and manufactured items they name are seen on its day. Read from the Archive's Wayback copy of the site."
     },
     "irken-invaders": {
       "name": "Irken Invaders",
@@ -192,12 +192,24 @@
       "name": "Item and creature window screenshot",
       "link": "../media/?tags=item-info-ui",
       "kind": "game",
-      "about": "The game's own item and creature windows, in the Archive's dated screenshots (Media pictures tagged item-info-ui), read by eye: an item's name as the window printed it, its weight, its description (a text the window shows word for word as a client gives it is cited on the client's text), its protection and durability by damage type, a weapon's damage by type, ammo burn, ammo type and range, and a TT value where the window printed the maximum; a creature maturity's Health Level, Damage Potential and Attack Range and the range of each of its attributes. A value cites the picture, whose VU is the one its record states, or else that of the latest day it can date from: a picture dated only \"on or before\" a day shows the value in that day's VU or earlier. The Info tab's Value is the item's value at its condition, not its full TT value, and is not taken; nor is the second column some windows show, the item with an attachment. Read so far: the armour pictures and PE Player's pictures of 2004 (the editor's screenshots/armour.json and screenshots/creatures.json)."
+      "about": "The game's own item and creature windows, in the Archive's dated screenshots (Media pictures tagged item-info-ui), read by eye: an item's name as the window printed it, its weight, its description (a text the window shows word for word as a client gives it is cited on the client's text), its protection and durability by damage type, a weapon's damage by type, ammo burn, ammo type and range, a sight or scope's skill modification, and a TT value where the window printed the maximum; a creature maturity's Health Level, Damage Potential and Attack Range and the range of each of its attributes. A value cites the picture, whose VU is the one its record states, or else that of the latest day it can date from: a picture dated only \"on or before\" a day shows the value in that day's VU or earlier. The Info tab's Value is the item's value at its condition, not its full TT value, and is not taken; nor is the second column some windows show, the item with an attachment. Read so far: every dated picture tagged item-info-ui (the editor's screenshots/armour.json and screenshots/creatures.json); an undated one cannot be cited and waits for a date."
+    },
+    "chat-screenshot": {
+      "name": "Chat window screenshot",
+      "link": "../media/?tags=chat-ui",
+      "kind": "game",
+      "about": "The game's own chat window, in the Archive's screenshots (Media pictures tagged chat-ui), read by eye: each global and Hall of Fame loot it printed whole, with the player or team, what was killed, mined, made or examined and its value. A record's day is its picture's where Media dates the picture to the day (many by the MindArk clock the chat itself printed), else the bounds Media gives it; a global seen in several pictures is one record. Read from the editor's screenshots/globals.json."
     },
     "blueprint-name": {
       "name": "Inferred from the blueprint's name",
       "kind": "owner",
       "about": "What a blueprint makes, where no source names its product: the items its name names with the word Blueprint left out, both genders of an armour or clothing piece (the editor's tools/blueprint_products.py). An inference, ranked below any source that names the product."
+    },
+    "nirfu": {
+      "name": "Nirfu's PE Place",
+      "link": "../sites/#nirfu",
+      "kind": "player",
+      "about": "nirfu.gluonsoft.se, 2006 to 2007: the player Nirfu's list of his own globals, Hall of Fame loots and silent globals, each with the day, where and how it was looted (C crafting, P a private hunt, T a team hunt), what and its value, and his share or the sale price where he gave it. Read from the Archive's Wayback copy of the site."
     }
   }
 }

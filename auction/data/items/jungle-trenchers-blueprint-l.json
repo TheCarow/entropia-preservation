@@ -1,0 +1,22 @@
+{
+  "item": "jungle-trenchers-blueprint-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20090802101821/http://www.peauction.com:80/catlisting.php?id=23",
+    "https://web.archive.org/web/20091002013109/http://www.peauction.com:80/catlisting.php?id=23",
+    "https://web.archive.org/web/20160801181149/http://peauction.com/itemlisting.php?id=6116"
+  ],
+  "sold": [
+    [1, 0.14, 300.0, 1, [[0, "2008-07-17 23:52", 2]]],
+    [1, 0.05, 100.0, 1, [[0, "2009-05-14 17:21", 2]]]
+  ],
+  "unsold": [
+    [1, 0.05, 100.0, [[0, "2009-02-01 16:58", 2]]],
+    [1, 0.05, 100.0, [[0, "2009-05-14 17:10", 2]]]
+  ],
+  "readings": [
+    [0, "%", 207143.0, 0, 1]
+  ],
+  "charts": []
+}

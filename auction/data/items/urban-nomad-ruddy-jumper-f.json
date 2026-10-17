@@ -1,0 +1,19 @@
+{
+  "item": "urban-nomad-ruddy-jumper-f",
+  "markup": "TT+",
+  "sources": ["pea", "pe-player"],
+  "captures": [
+    "https://web.archive.org/web/20040807114142/http://www.pe-player.com:80/auction/list.php?sort=bytype",
+    "https://web.archive.org/web/20050130134118/http://www.pe-player.com:80/auction/list.php?sort=bytype",
+    "https://web.archive.org/web/20070809045634/http://peauction.com:80/itemlisting.php?id=1643"
+  ],
+  "sold": [
+    [1, 5.0, 75.0, 12, [[1, "2004-07-17 01:15", 0]]],
+    [1, 5.0, 75.0, 12, [[1, "2004-10-23 00:57", 1]]]
+  ],
+  "unsold": [
+    [1, 1.47, 800.0, [[0, "2005-11-03 00:10", 2]]]
+  ],
+  "readings": [],
+  "charts": []
+}

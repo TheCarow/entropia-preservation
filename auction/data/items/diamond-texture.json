@@ -1,0 +1,15 @@
+{
+  "item": "diamond-texture",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20160801183055/http://peauction.com/itemlisting.php?id=5388"
+  ],
+  "sold": [],
+  "unsold": [
+    [10, 80.0, 670.0, [[0, "2007-12-21 13:49", 0]]],
+    [5, 40.0, 270.0, [[0, "2007-12-29 17:34", 0]]]
+  ],
+  "readings": [],
+  "charts": []
+}

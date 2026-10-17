@@ -1,0 +1,27 @@
+{
+  "item": "light-metal-plating",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20080210205825/http://www.peauction.com:80/catlisting.php?id=11",
+    "https://web.archive.org/web/20080411150857/http://www.peauction.com:80/catlisting.php?id=11",
+    "https://web.archive.org/web/20080610174444/http://www.peauction.com:80/catlisting.php?id=11",
+    "https://web.archive.org/web/20080818212747/http://www.peauction.com:80/catlisting.php?id=11",
+    "https://web.archive.org/web/20081022150021/http://www.peauction.com:80/catlisting.php?id=11",
+    "https://web.archive.org/web/20090205055202/http://www.peauction.com:80/catlisting.php?id=11",
+    "https://web.archive.org/web/20090304065533/http://peauction.com:80/catlisting.php?id=11",
+    "https://web.archive.org/web/20090802101937/http://www.peauction.com:80/catlisting.php?id=38",
+    "https://web.archive.org/web/20091002013226/http://www.peauction.com:80/catlisting.php?id=38"
+  ],
+  "sold": [],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 30.0, 0, 1],
+    [0, "TT+", 63.67, 2, 3],
+    [0, "TT+", 68.88, 4, 4],
+    [0, "TT+", 79.14, 5, 5],
+    [0, "TT+", 78.65, 6, 6],
+    [0, "%", 10173.3, 7, 8]
+  ],
+  "charts": []
+}

@@ -1,0 +1,35 @@
+{
+  "item": "isis-hl6-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071007161850/http://www.peauction.com/catlisting.php?id=75",
+    "https://web.archive.org/web/20071012152204/http://peauction.com:80/catlisting.php?id=75",
+    "https://web.archive.org/web/20071212071249/http://peauction.com:80/catlisting.php?id=75",
+    "https://web.archive.org/web/20080210230110/http://www.peauction.com:80/catlisting.php?id=75",
+    "https://web.archive.org/web/20080411151401/http://www.peauction.com:80/catlisting.php?id=75",
+    "https://web.archive.org/web/20080610230754/http://www.peauction.com:80/catlisting.php?id=75",
+    "https://web.archive.org/web/20080801025500/http://www.peauction.com:80/catlisting.php?id=75",
+    "https://web.archive.org/web/20080817052333/http://www.peauction.com:80/catlisting.php?id=75",
+    "https://web.archive.org/web/20081022150514/http://www.peauction.com:80/catlisting.php?id=75",
+    "https://web.archive.org/web/20090223042451/http://peauction.com:80/catlisting.php?id=75",
+    "https://web.archive.org/web/20090802102238/http://www.peauction.com:80/catlisting.php?id=75",
+    "https://web.archive.org/web/20091002013525/http://www.peauction.com:80/catlisting.php?id=75"
+  ],
+  "sold": [],
+  "unsold": [],
+  "readings": [
+    [0, "%", 127.78, 0, 1],
+    [0, "%", 137.77, 2, 2],
+    [0, "%", 124.44, 3, 3],
+    [0, "%", 138.99, 4, 4],
+    [0, "%", 136.36, 5, 5],
+    [0, "%", 130.49, 6, 6],
+    [0, "%", 124.36, 7, 7],
+    [0, "%", 122.74, 8, 8],
+    [0, "%", 117.01, 9, 9],
+    [0, "%", 110.95, 10, 10],
+    [0, "%", 115.37, 11, 11]
+  ],
+  "charts": []
+}

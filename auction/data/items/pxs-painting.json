@@ -1,0 +1,14 @@
+{
+  "item": "pxs-painting",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20070810083409/http://peauction.com:80/itemlisting.php?id=2559"
+  ],
+  "sold": [],
+  "unsold": [
+    [1, 122.0, 2750.0, [[0, "2006-03-04 22:45", 0]]]
+  ],
+  "readings": [],
+  "charts": []
+}

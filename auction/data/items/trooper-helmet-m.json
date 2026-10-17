@@ -1,0 +1,35 @@
+{
+  "item": "trooper-helmet-m",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20070106032152/http://peauction.com:80/catlisting.php?id=7",
+    "https://web.archive.org/web/20070611214002/http://peauction.com:80/itemlisting.php?id=2577",
+    "https://web.archive.org/web/20081022150444/http://www.peauction.com:80/catlisting.php?id=7",
+    "https://web.archive.org/web/20090223042421/http://peauction.com:80/catlisting.php?id=7",
+    "https://web.archive.org/web/20090802102208/http://www.peauction.com:80/catlisting.php?id=7",
+    "https://web.archive.org/web/20091002013452/http://www.peauction.com:80/catlisting.php?id=7",
+    "https://web.archive.org/web/20160802010149/http://peauction.com/itemlisting.php?id=2577"
+  ],
+  "sold": [
+    [1, 21.5, 122.0, 1, [[0, "2006-12-25 05:17", 1]]],
+    [1, 21.42, 104.0, 3, [[0, "2008-10-31 09:00", 6]]],
+    [1, 21.5, 64.0, 23, [[0, "2008-11-24 18:56", 6]]],
+    [1, 19.44, 80.0, 1, [[0, "2009-02-25 17:32", 6]]]
+  ],
+  "unsold": [
+    [1, 21.5, 272.0, [[0, "2006-03-12 20:33", 1]]],
+    [1, 21.5, 122.0, [[0, "2006-03-17 20:04", 1]]],
+    [1, 21.42, 322.0, [[0, "2008-08-14 08:09", 6]]],
+    [1, 21.42, 292.0, [[0, "2008-08-21 08:09", 6]]],
+    [1, 21.42, 222.0, [[0, "2008-08-29 08:10", 6]]],
+    [1, 21.42, 172.0, [[0, "2008-09-05 08:15", 6]]],
+    [1, 21.42, 122.0, [[0, "2008-10-21 09:39", 6]]]
+  ],
+  "readings": [
+    [0, "TT+", 100.5, 0, 2],
+    [0, "TT+", 75.19, 3, 3],
+    [0, "TT+", 71.54, 4, 5]
+  ],
+  "charts": []
+}

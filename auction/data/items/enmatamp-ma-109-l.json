@@ -1,0 +1,39 @@
+{
+  "item": "enmatamp-ma-109-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20061107141402/http://peauction.com/catlisting.php?id=67",
+    "https://web.archive.org/web/20071109090900/http://www.peauction.com/itemlisting.php?id=3047",
+    "https://web.archive.org/web/20080411151317/http://www.peauction.com:80/catlisting.php?id=67",
+    "https://web.archive.org/web/20080610222927/http://www.peauction.com:80/catlisting.php?id=67",
+    "https://web.archive.org/web/20081022150434/http://www.peauction.com:80/catlisting.php?id=67",
+    "https://web.archive.org/web/20090802102158/http://www.peauction.com:80/catlisting.php?id=67",
+    "https://web.archive.org/web/20091002013441/http://www.peauction.com:80/catlisting.php?id=67",
+    "https://web.archive.org/web/20160801181257/http://peauction.com/itemlisting.php?id=3047"
+  ],
+  "sold": [
+    [1, 350.0, 752.0, 3, [[0, "2006-10-20 00:35", 1]]],
+    [1, 350.0, 501.0, 2, [[0, "2008-11-19 07:46", 7]]],
+    [1, 350.0, 534.0, 1, [[0, "2009-01-16 19:33", 7]]],
+    [1, 350.0, 500.0, 2, [[0, "2009-05-31 17:02", 7]]],
+    [1, 350.0, 529.0, 1, [[0, "2009-08-09 22:58", 7]]]
+  ],
+  "unsold": [
+    [1, 350.0, 1000.0, [[0, "2006-08-09 12:44", 1]]],
+    [1, 350.0, 1000.0, [[0, "2006-08-10 12:40", 1]]],
+    [1, 350.0, 1000.0, [[0, "2006-08-10 12:45", 1]]],
+    [1, 350.0, 1050.0, [[0, "2006-09-05 19:39", 1]]],
+    [1, 350.0, 1050.0, [[0, "2006-09-05 20:07", 1]]],
+    [1, 350.0, 1350.0, [[0, "2006-09-17 16:05", 1]]],
+    [1, 350.0, 999.0, [[0, "2007-08-24 07:52", 1]]],
+    [1, 350.0, 1049.0, [[0, "2007-09-23 09:55", 1]]]
+  ],
+  "readings": [
+    [0, "TT+", 402.0, 0, 2],
+    [0, "TT+", 451.0, 3, 4],
+    [0, "%", 179.26, 5, 5],
+    [0, "%", 166.76, 6, 6]
+  ],
+  "charts": []
+}

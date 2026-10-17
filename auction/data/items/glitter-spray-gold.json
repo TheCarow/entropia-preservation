@@ -1,0 +1,23 @@
+{
+  "item": "glitter-spray-gold",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20090802102135/http://www.peauction.com:80/catlisting.php?id=63",
+    "https://web.archive.org/web/20091002013420/http://www.peauction.com:80/catlisting.php?id=63",
+    "https://web.archive.org/web/20091003150251/http://www.peauction.com:80/catlisting.php?id=63",
+    "https://web.archive.org/web/20160801183838/http://peauction.com/itemlisting.php?id=5457"
+  ],
+  "sold": [
+    [1, 17.0, 23.0, 7, [[0, "2008-01-03 14:39", 3]]],
+    [1, 17.0, 47.0, 3, [[0, "2008-09-17 23:08", 3]]],
+    [1, 17.0, 18.0, 2, [[0, "2009-02-02 16:18", 3]]],
+    [1, 17.0, 18.0, 2, [[0, "2009-09-26 15:35", 3]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 12.33, 0, 0],
+    [0, "TT+", 9.5, 1, 2]
+  ],
+  "charts": []
+}

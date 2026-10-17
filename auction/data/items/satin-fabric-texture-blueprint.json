@@ -1,0 +1,18 @@
+{
+  "item": "satin-fabric-texture-blueprint",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20090802101821/http://www.peauction.com:80/catlisting.php?id=23",
+    "https://web.archive.org/web/20091002013109/http://www.peauction.com:80/catlisting.php?id=23",
+    "https://web.archive.org/web/20160801181622/http://peauction.com/itemlisting.php?id=5473"
+  ],
+  "sold": [
+    [1, 0.01, 1.0, 1, [[0, "2009-09-23 19:42", 2]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 1.39, 0, 1]
+  ],
+  "charts": []
+}

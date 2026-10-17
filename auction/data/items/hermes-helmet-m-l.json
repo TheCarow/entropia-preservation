@@ -1,0 +1,34 @@
+{
+  "item": "hermes-helmet-m-l",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071007161934/http://www.peauction.com/catlisting.php?id=7",
+    "https://web.archive.org/web/20071012152134/http://peauction.com:80/catlisting.php?id=7",
+    "https://web.archive.org/web/20071212071218/http://peauction.com:80/catlisting.php?id=7",
+    "https://web.archive.org/web/20080210224919/http://www.peauction.com:80/catlisting.php?id=7",
+    "https://web.archive.org/web/20080411151328/http://www.peauction.com:80/catlisting.php?id=7",
+    "https://web.archive.org/web/20080610222937/http://www.peauction.com:80/catlisting.php?id=7",
+    "https://web.archive.org/web/20080801024532/http://www.peauction.com:80/catlisting.php?id=7",
+    "https://web.archive.org/web/20080817053533/http://www.peauction.com:80/catlisting.php?id=7",
+    "https://web.archive.org/web/20081022150444/http://www.peauction.com:80/catlisting.php?id=7",
+    "https://web.archive.org/web/20090223042421/http://peauction.com:80/catlisting.php?id=7",
+    "https://web.archive.org/web/20090802102208/http://www.peauction.com:80/catlisting.php?id=7",
+    "https://web.archive.org/web/20091002013452/http://www.peauction.com:80/catlisting.php?id=7"
+  ],
+  "sold": [],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 655.9, 0, 1],
+    [0, "TT+", 581.52, 2, 2],
+    [0, "TT+", 601.02, 3, 3],
+    [0, "TT+", 693.69, 4, 4],
+    [0, "TT+", 676.01, 5, 5],
+    [0, "TT+", 614.85, 6, 7],
+    [0, "TT+", 503.7, 8, 8],
+    [0, "TT+", 373.89, 9, 9],
+    [0, "%", 686.62, 10, 10],
+    [0, "%", 640.82, 11, 11]
+  ],
+  "charts": []
+}

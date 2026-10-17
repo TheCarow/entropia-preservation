@@ -1,0 +1,30 @@
+{
+  "item": "vumpoor-pug-9-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071012152234/http://peauction.com:80/catlisting.php?id=80",
+    "https://web.archive.org/web/20071212071320/http://peauction.com:80/catlisting.php?id=80",
+    "https://web.archive.org/web/20080210230154/http://www.peauction.com:80/catlisting.php?id=80",
+    "https://web.archive.org/web/20080411151434/http://www.peauction.com:80/catlisting.php?id=80",
+    "https://web.archive.org/web/20080610230824/http://www.peauction.com:80/catlisting.php?id=80",
+    "https://web.archive.org/web/20080801024704/http://www.peauction.com:80/catlisting.php?id=80",
+    "https://web.archive.org/web/20081022150544/http://www.peauction.com:80/catlisting.php?id=80",
+    "https://web.archive.org/web/20090223042521/http://peauction.com:80/catlisting.php?id=80",
+    "https://web.archive.org/web/20090802102513/http://www.peauction.com:80/catlisting.php?id=80",
+    "https://web.archive.org/web/20091002013555/http://www.peauction.com:80/catlisting.php?id=80"
+  ],
+  "sold": [],
+  "unsold": [],
+  "readings": [
+    [0, "%", 379.78, 0, 0],
+    [0, "%", 225.13, 1, 1],
+    [0, "%", 169.81, 2, 2],
+    [0, "%", 167.15, 3, 4],
+    [0, "%", 160.55, 5, 6],
+    [0, "%", 134.14, 7, 7],
+    [0, "%", 116.32, 8, 8],
+    [0, "%", 112.26, 9, 9]
+  ],
+  "charts": []
+}

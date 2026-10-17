@@ -1,0 +1,14 @@
+{
+  "item": "eon-armor-gloves-f",
+  "markup": "TT+",
+  "sources": ["pe-player"],
+  "captures": [
+    "https://web.archive.org/web/20041010022429/http://www.pe-player.com:80/auction/list.php?sort=bytype"
+  ],
+  "sold": [
+    [1, 67.12, 1999.0, 0, [[0, "2004-09-02 10:10", 0]]]
+  ],
+  "unsold": [],
+  "readings": [],
+  "charts": []
+}

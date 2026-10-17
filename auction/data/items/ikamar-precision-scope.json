@@ -1,0 +1,42 @@
+{
+  "item": "ikamar-precision-scope",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071007162144/http://www.peauction.com/catlisting.php?id=12",
+    "https://web.archive.org/web/20071012151719/http://peauction.com:80/catlisting.php?id=12",
+    "https://web.archive.org/web/20071212065851/http://peauction.com:80/catlisting.php?id=12",
+    "https://web.archive.org/web/20080210205836/http://www.peauction.com:80/catlisting.php?id=12",
+    "https://web.archive.org/web/20080411150902/http://www.peauction.com:80/catlisting.php?id=12",
+    "https://web.archive.org/web/20080610174449/http://www.peauction.com:80/catlisting.php?id=12",
+    "https://web.archive.org/web/20080801024912/http://www.peauction.com:80/catlisting.php?id=12",
+    "https://web.archive.org/web/20080817052543/http://www.peauction.com:80/catlisting.php?id=12",
+    "https://web.archive.org/web/20081022150027/http://www.peauction.com:80/catlisting.php?id=12",
+    "https://web.archive.org/web/20090223042015/http://peauction.com:80/catlisting.php?id=12",
+    "https://web.archive.org/web/20090802101742/http://www.peauction.com:80/catlisting.php?id=12",
+    "https://web.archive.org/web/20091002013031/http://www.peauction.com:80/catlisting.php?id=12",
+    "https://web.archive.org/web/20160802005753/http://peauction.com/itemlisting.php?id=3631"
+  ],
+  "sold": [
+    [1, 142.0, 147.0, 3, [[0, "2008-12-18 23:27", 12]]],
+    [1, 32.44, 49.0, 17, [[0, "2009-02-09 02:24", 12]]],
+    [1, 52.71, 69.0, 17, [[0, "2009-02-09 02:24", 12]]],
+    [1, 61.23, 71.0, 10, [[0, "2009-02-23 00:41", 12]]],
+    [1, 61.23, 111.0, 1, [[0, "2009-04-09 17:38", 12]]],
+    [1, 142.0, 145.0, 4, [[0, "2009-04-16 19:02", 12]]],
+    [1, 142.0, 146.0, 5, [[0, "2009-04-16 19:09", 12]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 268.01, 0, 1],
+    [0, "TT+", 282.23, 2, 3],
+    [0, "TT+", 267.17, 4, 4],
+    [0, "TT+", 237.88, 5, 5],
+    [0, "TT+", 146.02, 6, 6],
+    [0, "TT+", 140.42, 7, 7],
+    [0, "TT+", 68.56, 8, 8],
+    [0, "TT+", 30.96, 9, 9],
+    [0, "TT+", 18.73, 10, 11]
+  ],
+  "charts": []
+}

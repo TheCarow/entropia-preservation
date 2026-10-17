@@ -1,0 +1,21 @@
+{
+  "item": "ziplex-mt1000-matterseeker-l-blueprint-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20090802101823/http://www.peauction.com:80/catlisting.php?id=24",
+    "https://web.archive.org/web/20091002013114/http://www.peauction.com:80/catlisting.php?id=24",
+    "https://web.archive.org/web/20160802010116/http://peauction.com/itemlisting.php?id=6075"
+  ],
+  "sold": [
+    [1, 0.21, 973.0, 14, [[0, "2008-06-24 02:35", 2]]]
+  ],
+  "unsold": [
+    [1, 0.03, 300.0, [[0, "2008-10-15 12:34", 2]]],
+    [1, 0.03, 250.0, [[0, "2008-10-22 15:24", 2]]]
+  ],
+  "readings": [
+    [0, "%", 463333.0, 0, 1]
+  ],
+  "charts": []
+}

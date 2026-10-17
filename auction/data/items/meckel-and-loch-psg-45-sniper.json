@@ -1,0 +1,24 @@
+{
+  "item": "meckel-and-loch-psg-45-sniper",
+  "markup": "TT+",
+  "sources": ["pea", "pe-player"],
+  "captures": [
+    "https://web.archive.org/web/20040807114142/http://www.pe-player.com:80/auction/list.php?sort=bytype",
+    "https://web.archive.org/web/20070810161625/http://peauction.com:80/itemlisting.php?id=2940",
+    "https://web.archive.org/web/20160801214050/http://peauction.com/itemlisting.php?id=2940"
+  ],
+  "sold": [
+    [1, 567.4, 30568.0, 0, [[1, "2004-07-24 17:50", 0]]]
+  ],
+  "unsold": [
+    [1, 581.04, 50000.0, [[0, "2006-05-20 23:48", 1]]],
+    [1, 581.04, 50582.0, [[0, "2006-05-24 00:48", 1]]],
+    [1, 562.12, 100000.0, [[0, "2006-06-25 00:49", 1]]],
+    [1, 562.12, 60000.0, [[0, "2006-06-27 00:35", 1]]],
+    [1, 416.48, 45000.0, [[0, "2006-08-08 00:03", 1]]],
+    [1, 585.0, 110585.0, [[0, "2008-07-04 01:25", 2]]],
+    [1, 585.0, 100585.0, [[0, "2008-08-12 00:28", 2]]]
+  ],
+  "readings": [],
+  "charts": []
+}

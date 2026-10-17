@@ -1,0 +1,16 @@
+{
+  "item": "essi-evening-gown-f",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20080417034806/http://www.peauction.com:80/itemlisting.php?id=4703"
+  ],
+  "sold": [
+    [1, 98.37, 2400.0, 24, [[0, "2007-10-07 15:47", 0]]]
+  ],
+  "unsold": [
+    [1, 98.37, 3100.0, [[0, "2007-09-02 15:24", 0]]]
+  ],
+  "readings": [],
+  "charts": []
+}

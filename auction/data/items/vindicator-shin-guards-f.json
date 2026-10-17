@@ -1,0 +1,32 @@
+{
+  "item": "vindicator-shin-guards-f",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20061107141359/http://peauction.com/catlisting.php?id=8",
+    "https://web.archive.org/web/20070805003718/http://peauction.com:80/catlisting.php?id=8",
+    "https://web.archive.org/web/20071008004017/http://www.peauction.com/catlisting.php?id=8",
+    "https://web.archive.org/web/20071212071315/http://peauction.com:80/catlisting.php?id=8",
+    "https://web.archive.org/web/20080210230149/http://www.peauction.com:80/catlisting.php?id=8",
+    "https://web.archive.org/web/20090223042516/http://peauction.com:80/catlisting.php?id=8",
+    "https://web.archive.org/web/20090802102303/http://www.peauction.com:80/catlisting.php?id=8",
+    "https://web.archive.org/web/20091002013550/http://www.peauction.com:80/catlisting.php?id=8",
+    "https://web.archive.org/web/20160801071055/http://peauction.com/itemlisting.php?id=3075"
+  ],
+  "sold": [
+    [1, 3.29, 11.0, 8, [[0, "2006-08-27 19:02", 8]]],
+    [1, 3.29, 11.0, 6, [[0, "2006-10-18 17:32", 8]]],
+    [1, 15.0, 27.0, 3, [[0, "2007-10-01 23:30", 8]]],
+    [1, 3.46, 46.0, 26, [[0, "2007-12-30 16:04", 8]]],
+    [1, 3.46, 54.0, 26, [[0, "2007-12-30 16:14", 8]]],
+    [1, 15.0, 105.0, 9, [[0, "2009-05-17 17:35", 8]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 7.71, 0, 1],
+    [0, "TT+", 9.14, 2, 3],
+    [0, "TT+", 24.1, 4, 5],
+    [0, "TT+", 35.08, 6, 7]
+  ],
+  "charts": []
+}

@@ -1,0 +1,73 @@
+{
+  "item": "vampire-harness-f",
+  "markup": "TT+",
+  "sources": ["pea", "pe-player"],
+  "captures": [
+    "https://web.archive.org/web/20041010022429/http://www.pe-player.com:80/auction/list.php?sort=bytype",
+    "https://web.archive.org/web/20050130134118/http://www.pe-player.com:80/auction/list.php?sort=bytype",
+    "https://web.archive.org/web/20061107141611/http://peauction.com/catlisting.php?id=6",
+    "https://web.archive.org/web/20070105004542/http://peauction.com:80/catlisting.php?id=6",
+    "https://web.archive.org/web/20070502022303/http://peauction.com:80/catlisting.php?id=6",
+    "https://web.archive.org/web/20070807233715/http://peauction.com:80/catlisting.php?id=6",
+    "https://web.archive.org/web/20071007083430/http://www.peauction.com/catlisting.php?id=6",
+    "https://web.archive.org/web/20071012152049/http://peauction.com:80/catlisting.php?id=6",
+    "https://web.archive.org/web/20071107115232/http://www.peauction.com/chart2.php?id=3076&dtype=0",
+    "https://web.archive.org/web/20071212071133/http://peauction.com:80/catlisting.php?id=6",
+    "https://web.archive.org/web/20080210223457/http://www.peauction.com:80/catlisting.php?id=6",
+    "https://web.archive.org/web/20080411151244/http://www.peauction.com:80/catlisting.php?id=6",
+    "https://web.archive.org/web/20080605224639/http://www.peauction.com:80/itemlisting.php?item=Vampire+Harness+(F)",
+    "https://web.archive.org/web/20080610222829/http://www.peauction.com:80/catlisting.php?id=6",
+    "https://web.archive.org/web/20080801024505/http://www.peauction.com:80/catlisting.php?id=6",
+    "https://web.archive.org/web/20080817052248/http://www.peauction.com:80/catlisting.php?id=6",
+    "https://web.archive.org/web/20081022150359/http://www.peauction.com:80/catlisting.php?id=6",
+    "https://web.archive.org/web/20090223042341/http://peauction.com:80/catlisting.php?id=6",
+    "https://web.archive.org/web/20090802102119/http://www.peauction.com:80/catlisting.php?id=6",
+    "https://web.archive.org/web/20091002013404/http://www.peauction.com:80/catlisting.php?id=6",
+    "https://web.archive.org/web/20160801211756/http://peauction.com/itemlisting.php?id=3076"
+  ],
+  "sold": [
+    [1, 18.29, 21.0, 2, [[1, "2004-10-06 17:00", 0]]],
+    [1, 18.29, 21.0, 2, [[1, "2004-10-23 01:39", 1]]],
+    [1, 18.82, 37.0, 14, [[0, "2006-08-27 19:04", 12]]],
+    [1, 5.89, 40.0, 2, [[0, "2007-01-16 00:02", 12]]],
+    [1, 20.0, 120.0, 26, [[0, "2007-09-19 16:29", 12]]],
+    [1, 20.0, 142.0, 26, [[0, "2007-09-19 16:44", 12]]],
+    [1, 20.0, 143.0, 26, [[0, "2007-09-19 16:49", 12]]],
+    [1, 20.0, 326.0, 26, [[0, "2007-09-19 16:59", 12]]],
+    [1, 20.0, 121.0, 16, [[0, "2007-11-08 20:38", 12]]],
+    [1, 5.02, 77.0, 26, [[0, "2007-11-14 01:28", 12]]],
+    [1, 12.9, 350.0, 1, [[0, "2008-02-20 07:17", 12]]],
+    [1, 19.04, 159.0, 7, [[0, "2008-07-23 00:52", 20]]],
+    [1, 20.0, 106.0, 7, [[0, "2008-10-18 13:44", 20]]],
+    [1, 19.79, 71.0, 12, [[0, "2009-02-09 06:39", 20]]],
+    [1, 8.85, 45.0, 27, [[0, "2009-02-11 00:29", 20]]],
+    [1, 19.77, 26.0, 3, [[0, "2009-02-11 21:39", 20]]],
+    [1, 19.98, 35.0, 7, [[0, "2009-05-26 03:50", 20]]],
+    [1, 19.98, 51.0, 2, [[0, "2009-06-06 16:35", 20]]],
+    [1, 6.12, 25.0, 19, [[0, "2009-06-17 19:51", 20]]]
+  ],
+  "unsold": [
+    [1, 5.02, 176.0, [[0, "2007-11-02 15:58", 12]]],
+    [1, 20.0, 180.0, [[0, "2007-11-05 11:13", 12]]],
+    [1, 5.02, 166.0, [[0, "2007-11-16 01:15", 12]]],
+    [1, 5.15, 176.0, [[0, "2007-11-17 17:41", 12]]],
+    [1, 4.97, 125.0, [[0, "2007-11-26 10:52", 12]]],
+    [1, 5.01, 399.0, [[0, "2008-03-03 18:00", 12]]],
+    [1, 6.12, 202.0, [[0, "2008-03-30 12:18", 12]]],
+    [1, 5.01, 209.0, [[0, "2008-04-04 23:53", 12]]]
+  ],
+  "readings": [
+    [0, "TT+", 18.18, 2, 3],
+    [0, "TT+", 26.15, 4, 5],
+    [0, "TT+", 117.22, 6, 7],
+    [0, "TT+", 109.53, 9, 10],
+    [0, "TT+", 134.82, 11, 13],
+    [0, "TT+", 135.33, 14, 15],
+    [0, "TT+", 142.12, 16, 16],
+    [0, "TT+", 125.86, 17, 17],
+    [0, "TT+", 79.36, 18, 19]
+  ],
+  "charts": [
+    [0, 8, "3076-0-20071107115232.png"]
+  ]
+}

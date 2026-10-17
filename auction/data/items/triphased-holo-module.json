@@ -1,0 +1,26 @@
+{
+  "item": "triphased-holo-module",
+  "markup": "%",
+  "sources": ["pea", "pe-player"],
+  "captures": [
+    "https://web.archive.org/web/20050307020126/http://www.pe-player.com:80/auction/list.php?sort=bytype",
+    "https://web.archive.org/web/20090802101937/http://www.peauction.com:80/catlisting.php?id=38",
+    "https://web.archive.org/web/20091002013226/http://www.peauction.com:80/catlisting.php?id=38",
+    "https://web.archive.org/web/20160801204308/http://peauction.com/itemlisting.php?id=6159"
+  ],
+  "sold": [
+    [15, 3.0, 3.0, 1, [[1, "2005-02-28 22:35", 0]]],
+    [98, 19.6, 22.0, 3, [[0, "2008-12-02 19:16", 3]]],
+    [629, 125.8, 146.0, 1, [[0, "2009-08-06 23:07", 3]]],
+    [1311, 262.2, 341.0, 26, [[0, "2009-09-08 21:03", 3]]],
+    [100, 20.0, 27.0, 1, [[0, "2009-09-10 21:25", 3]]],
+    [100, 20.0, 27.0, 1, [[0, "2009-10-04 08:30", 3]]],
+    [21, 4.2, 5.0, 1, [[0, "2009-10-05 23:50", 3]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "%", 112.24, 1, 1],
+    [0, "%", 125.35, 2, 2]
+  ],
+  "charts": []
+}

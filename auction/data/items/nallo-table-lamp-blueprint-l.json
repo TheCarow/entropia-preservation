@@ -1,0 +1,29 @@
+{
+  "item": "nallo-table-lamp-blueprint-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20061107141026/http://peauction.com/catlisting.php?id=77",
+    "https://web.archive.org/web/20071110073828/http://www.peauction.com/itemlisting.php?id=3117",
+    "https://web.archive.org/web/20081022150525/http://www.peauction.com:80/catlisting.php?id=77",
+    "https://web.archive.org/web/20090223042501/http://peauction.com:80/catlisting.php?id=77",
+    "https://web.archive.org/web/20091002013535/http://www.peauction.com:80/catlisting.php?id=77",
+    "https://web.archive.org/web/20160801124152/http://peauction.com/itemlisting.php?id=3117"
+  ],
+  "sold": [
+    [1, 0.53, 201.0, 2, [[0, "2006-09-19 23:26", 1]]],
+    [1, 0.78, 316.0, 14, [[0, "2009-01-15 22:03", 5]]],
+    [1, 0.78, 437.0, 35, [[0, "2009-01-15 22:43", 5]]],
+    [1, 0.96, 603.0, 61, [[0, "2009-01-23 23:58", 5]]]
+  ],
+  "unsold": [
+    [1, 0.56, 900.0, [[0, "2009-02-22 17:04", 5]]],
+    [1, 0.56, 900.0, [[0, "2009-02-22 17:08", 5]]],
+    [1, 0.56, 400.0, [[0, "2009-03-03 06:41", 5]]]
+  ],
+  "readings": [
+    [0, "%", 37924.5, 0, 2],
+    [0, "%", 49318.9, 3, 4]
+  ],
+  "charts": []
+}

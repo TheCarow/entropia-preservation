@@ -1,0 +1,19 @@
+{
+  "item": "enigma-bra-blueprint",
+  "markup": "TT+",
+  "sources": ["pea", "pe-player"],
+  "captures": [
+    "https://web.archive.org/web/20050208180727/http://www.pe-player.com:80/auction/list.php?sort=bytype",
+    "https://web.archive.org/web/20160801185100/http://peauction.com/itemlisting.php?id=5815"
+  ],
+  "sold": [
+    [1, 0.01, 203.0, 3, [[1, "2005-01-31 23:40", 0]]]
+  ],
+  "unsold": [
+    [1, 0.32, 20001.0, [[0, "2008-03-21 00:13", 1]]],
+    [1, 0.48, 13001.0, [[0, "2008-05-28 20:38", 1]]],
+    [1, 0.33, 6001.0, [[0, "2009-05-01 20:04", 1]]]
+  ],
+  "readings": [],
+  "charts": []
+}

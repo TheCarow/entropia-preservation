@@ -1,0 +1,18 @@
+{
+  "item": "montgomery-anabolic-l-blueprint-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20090802101829/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20091002013119/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20160801123226/http://peauction.com/itemlisting.php?id=5108"
+  ],
+  "sold": [
+    [1, 0.01, 152.0, 3, [[0, "2007-12-03 20:16", 2]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "%", 1520000.0, 0, 1]
+  ],
+  "charts": []
+}

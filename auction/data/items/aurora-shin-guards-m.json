@@ -1,0 +1,15 @@
+{
+  "item": "aurora-shin-guards-m",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20070805003718/http://peauction.com:80/catlisting.php?id=8",
+    "https://web.archive.org/web/20090223042516/http://peauction.com:80/catlisting.php?id=8"
+  ],
+  "sold": [],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 200.0, 0, 1]
+  ],
+  "charts": []
+}

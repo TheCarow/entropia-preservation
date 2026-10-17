@@ -1,0 +1,30 @@
+{
+  "item": "adapted-orefinder-of-213-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071109172019/http://www.peauction.com/itemlisting.php?id=3565",
+    "https://web.archive.org/web/20080411151317/http://www.peauction.com:80/catlisting.php?id=67",
+    "https://web.archive.org/web/20081022150434/http://www.peauction.com:80/catlisting.php?id=67",
+    "https://web.archive.org/web/20090802102158/http://www.peauction.com:80/catlisting.php?id=67",
+    "https://web.archive.org/web/20091002013441/http://www.peauction.com:80/catlisting.php?id=67",
+    "https://web.archive.org/web/20160801185840/http://peauction.com/itemlisting.php?id=3565"
+  ],
+  "sold": [
+    [1, 20.33, 70.0, 13, [[0, "2008-02-12 20:17", 5]]],
+    [1, 185.43, 2585.0, 1, [[0, "2008-03-08 11:26", 5]]]
+  ],
+  "unsold": [
+    [1, 460.96, 50461.0, [[0, "2006-12-24 02:56", 0]]],
+    [1, 678.0, 17678.0, [[0, "2007-06-21 08:31", 0]]],
+    [1, 678.0, 18678.0, [[0, "2007-06-25 09:31", 0]]],
+    [1, 678.0, 17678.0, [[0, "2007-07-02 17:07", 0]]],
+    [1, 45.27, 250.0, [[0, "2008-10-11 15:54", 5]]],
+    [1, 557.74, 4758.0, [[0, "2009-05-12 02:19", 5]]]
+  ],
+  "readings": [
+    [0, "TT+", 1224.62, 1, 2],
+    [0, "%", 869.19, 3, 4]
+  ],
+  "charts": []
+}

@@ -1,0 +1,42 @@
+{
+  "item": "adjusted-a-3-justifier-mk-v",
+  "markup": "TT+",
+  "sources": ["pea", "pe-player"],
+  "captures": [
+    "https://web.archive.org/web/20040807114142/http://www.pe-player.com:80/auction/list.php?sort=bytype",
+    "https://web.archive.org/web/20050302144949/http://www.pe-player.com:80/auction/history_info.php?item=Adjusted+A-3+Justifier+Mk.V",
+    "https://web.archive.org/web/20060614131751/http://peauction.com:80/catlisting.php?id=74",
+    "https://web.archive.org/web/20070807232913/http://peauction.com:80/itemlisting.php?id=2245",
+    "https://web.archive.org/web/20080818212959/http://www.peauction.com:80/catlisting.php?id=74",
+    "https://web.archive.org/web/20081022150511/http://www.peauction.com:80/catlisting.php?id=74",
+    "https://web.archive.org/web/20091002013520/http://www.peauction.com:80/catlisting.php?id=74",
+    "https://web.archive.org/web/20160801123957/http://peauction.com/itemlisting.php?id=2245"
+  ],
+  "sold": [
+    [1, 609.92, 6510.0, 0, [[1, "2004-07-08 08:12", 0]]],
+    [1, 609.92, 6510.0, 0, [[1, "2004-07-08 08:34", 1]]],
+    [1, 653.93, 7150.0, 0, [[1, "2004-08-11 12:25", 1]]],
+    [1, 129.0, 8130.0, 0, [[1, "2004-09-23 19:35", 1]]],
+    [1, 512.23, 9666.0, 0, [[1, "2004-11-30 03:05", 1]]],
+    [1, 512.23, 8666.0, 0, [[1, "2004-12-07 13:10", 1]]],
+    [1, 512.23, 8666.0, 0, [[1, "2004-12-14 22:50", 1]]],
+    [1, 670.0, 6670.0, 0, [[1, "2005-02-28 10:10", 1]]],
+    [1, 670.0, 10500.0, 14, [[0, "2005-12-15 22:43", 3]]],
+    [1, 633.62, 40634.0, 1, [[0, "2008-09-10 16:57", 7]]]
+  ],
+  "unsold": [
+    [1, 668.15, 30669.0, [[0, "2006-07-06 13:55", 3]]],
+    [1, 44.83, 50045.0, [[0, "2006-09-13 16:13", 3]]],
+    [1, 670.0, 30670.0, [[0, "2006-09-22 21:38", 3]]],
+    [1, 644.38, 29645.0, [[0, "2006-12-31 03:08", 3]]],
+    [1, 644.38, 29645.0, [[0, "2007-01-07 03:34", 3]]],
+    [1, 31.46, 57032.0, [[0, "2007-05-09 23:56", 3]]],
+    [1, 466.56, 50467.0, [[0, "2008-07-06 18:26", 7]]],
+    [1, 633.62, 40634.0, [[0, "2008-09-10 16:52", 7]]]
+  ],
+  "readings": [
+    [0, "TT+", 9830.0, 2, 4],
+    [0, "TT+", 24915.2, 5, 6]
+  ],
+  "charts": []
+}

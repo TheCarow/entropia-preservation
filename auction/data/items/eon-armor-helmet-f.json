@@ -1,0 +1,14 @@
+{
+  "item": "eon-armor-helmet-f",
+  "markup": "TT+",
+  "sources": ["pe-player"],
+  "captures": [
+    "https://web.archive.org/web/20050130134118/http://www.pe-player.com:80/auction/list.php?sort=bytype"
+  ],
+  "sold": [
+    [1, 170.0, 3799.0, 0, [[0, "2004-10-30 18:50", 0]]]
+  ],
+  "unsold": [],
+  "readings": [],
+  "charts": []
+}

@@ -1,0 +1,16 @@
+{
+  "item": "rascal-foot-guards-blueprint-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20090802101753/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20091002013041/http://www.peauction.com:80/catlisting.php?id=18"
+  ],
+  "sold": [],
+  "unsold": [],
+  "readings": [
+    [0, "%", 4356.46, 0, 0],
+    [0, "%", 3700.48, 1, 1]
+  ],
+  "charts": []
+}

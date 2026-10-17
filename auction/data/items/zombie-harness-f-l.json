@@ -1,0 +1,31 @@
+{
+  "item": "zombie-harness-f-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071107031847/http://www.peauction.com/itemlisting.php?id=3932",
+    "https://web.archive.org/web/20080411151244/http://www.peauction.com:80/catlisting.php?id=6",
+    "https://web.archive.org/web/20081022150359/http://www.peauction.com:80/catlisting.php?id=6",
+    "https://web.archive.org/web/20090223042341/http://peauction.com:80/catlisting.php?id=6",
+    "https://web.archive.org/web/20090802102119/http://www.peauction.com:80/catlisting.php?id=6",
+    "https://web.archive.org/web/20091002013404/http://www.peauction.com:80/catlisting.php?id=6",
+    "https://web.archive.org/web/20160801215754/http://peauction.com/itemlisting.php?id=3932"
+  ],
+  "sold": [
+    [1, 70.0, 72.0, 3, [[0, "2008-04-05 19:43", 6]]],
+    [1, 70.0, 79.0, 1, [[0, "2008-11-09 16:35", 6]]],
+    [1, 65.58, 66.0, 1, [[0, "2009-02-02 15:58", 6]]],
+    [1, 70.0, 71.0, 2, [[0, "2009-04-10 08:18", 6]]]
+  ],
+  "unsold": [
+    [1, 70.0, 85.0, [[0, "2007-04-11 03:31", 0]]],
+    [1, 70.0, 83.0, [[0, "2007-04-20 17:47", 0]]],
+    [1, 70.0, 72.0, [[0, "2007-04-21 20:25", 0]]]
+  ],
+  "readings": [
+    [0, "TT+", 2.0, 1, 2],
+    [0, "TT+", 3.81, 3, 3],
+    [0, "%", 104.45, 4, 5]
+  ],
+  "charts": []
+}

@@ -1,0 +1,29 @@
+{
+  "item": "adapted-vivo-ur125-l-blueprint-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071007160727/http://www.peauction.com/catlisting.php?id=24",
+    "https://web.archive.org/web/20071108181442/http://www.peauction.com/itemlisting.php?id=4643",
+    "https://web.archive.org/web/20081022150107/http://www.peauction.com:80/catlisting.php?id=24",
+    "https://web.archive.org/web/20090223042052/http://peauction.com:80/catlisting.php?id=24",
+    "https://web.archive.org/web/20090802101823/http://www.peauction.com:80/catlisting.php?id=24",
+    "https://web.archive.org/web/20091002013114/http://www.peauction.com:80/catlisting.php?id=24",
+    "https://web.archive.org/web/20160801193509/http://peauction.com/itemlisting.php?id=4643"
+  ],
+  "sold": [
+    [1, 0.01, 90.0, 1, [[0, "2007-08-04 15:32", 1]]],
+    [1, 0.01, 66.0, 15, [[0, "2008-11-30 00:26", 6]]],
+    [1, 0.03, 252.0, 14, [[0, "2009-05-01 01:15", 6]]],
+    [1, 0.03, 252.0, 14, [[0, "2009-05-01 01:19", 6]]]
+  ],
+  "unsold": [
+    [1, 0.06, 2001.0, [[0, "2007-08-14 17:47", 1]]]
+  ],
+  "readings": [
+    [0, "%", 900000.0, 0, 2],
+    [0, "%", 780000.0, 3, 3],
+    [0, "%", 810000.0, 4, 5]
+  ],
+  "charts": []
+}

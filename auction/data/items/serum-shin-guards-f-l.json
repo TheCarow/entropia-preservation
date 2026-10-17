@@ -1,0 +1,25 @@
+{
+  "item": "serum-shin-guards-f-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20090802102303/http://www.peauction.com:80/catlisting.php?id=8",
+    "https://web.archive.org/web/20091002013550/http://www.peauction.com:80/catlisting.php?id=8",
+    "https://web.archive.org/web/20160801072011/http://peauction.com/itemlisting.php?id=5330"
+  ],
+  "sold": [
+    [1, 92.5, 93.0, 1, [[0, "2007-12-19 07:49", 2]]],
+    [1, 58.06, 61.0, 3, [[0, "2009-06-19 20:37", 2]]]
+  ],
+  "unsold": [
+    [1, 92.5, 93.0, [[0, "2007-12-19 07:39", 2]]],
+    [1, 28.6, 33.0, [[0, "2008-05-08 11:45", 2]]],
+    [1, 91.78, 110.0, [[0, "2008-05-28 03:58", 2]]],
+    [1, 77.37, 78.0, [[0, "2008-10-22 18:59", 2]]],
+    [1, 92.5, 125.0, [[0, "2009-08-23 08:16", 2]]]
+  ],
+  "readings": [
+    [0, "%", 102.8, 0, 1]
+  ],
+  "charts": []
+}

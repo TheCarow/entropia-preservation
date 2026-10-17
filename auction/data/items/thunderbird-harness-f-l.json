@@ -1,0 +1,23 @@
+{
+  "item": "thunderbird-harness-f-l",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20080610222829/http://www.peauction.com:80/catlisting.php?id=6",
+    "https://web.archive.org/web/20080801024505/http://www.peauction.com:80/catlisting.php?id=6",
+    "https://web.archive.org/web/20081022150359/http://www.peauction.com:80/catlisting.php?id=6",
+    "https://web.archive.org/web/20090223042341/http://peauction.com:80/catlisting.php?id=6",
+    "https://web.archive.org/web/20090802102119/http://www.peauction.com:80/catlisting.php?id=6",
+    "https://web.archive.org/web/20091002013404/http://www.peauction.com:80/catlisting.php?id=6"
+  ],
+  "sold": [],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 17.91, 0, 0],
+    [0, "TT+", 54.6, 1, 2],
+    [0, "TT+", 44.65, 3, 3],
+    [0, "%", 101.79, 4, 4],
+    [0, "%", 101.99, 5, 5]
+  ],
+  "charts": []
+}

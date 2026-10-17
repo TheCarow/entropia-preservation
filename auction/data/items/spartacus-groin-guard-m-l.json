@@ -1,0 +1,31 @@
+{
+  "item": "spartacus-groin-guard-m-l",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071008003640/http://www.peauction.com/catlisting.php?id=9",
+    "https://web.archive.org/web/20071012152239/http://peauction.com:80/catlisting.php?id=9",
+    "https://web.archive.org/web/20071212071325/http://peauction.com:80/catlisting.php?id=9",
+    "https://web.archive.org/web/20080210230159/http://www.peauction.com:80/catlisting.php?id=9",
+    "https://web.archive.org/web/20080411151439/http://www.peauction.com:80/catlisting.php?id=9",
+    "https://web.archive.org/web/20080610230829/http://www.peauction.com:80/catlisting.php?id=9",
+    "https://web.archive.org/web/20080801024710/http://www.peauction.com:80/catlisting.php?id=9",
+    "https://web.archive.org/web/20081022150550/http://www.peauction.com:80/catlisting.php?id=9",
+    "https://web.archive.org/web/20090223042526/http://peauction.com:80/catlisting.php?id=9",
+    "https://web.archive.org/web/20090802102528/http://www.peauction.com:80/catlisting.php?id=9",
+    "https://web.archive.org/web/20091002013610/http://www.peauction.com:80/catlisting.php?id=9"
+  ],
+  "sold": [],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 491.41, 0, 1],
+    [0, "TT+", 368.79, 2, 2],
+    [0, "TT+", 368.33, 3, 3],
+    [0, "TT+", 436.71, 4, 4],
+    [0, "TT+", 458.34, 5, 5],
+    [0, "TT+", 447.26, 6, 7],
+    [0, "TT+", 301.34, 8, 8],
+    [0, "%", 199.42, 9, 10]
+  ],
+  "charts": []
+}

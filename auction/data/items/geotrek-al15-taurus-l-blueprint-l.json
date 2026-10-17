@@ -1,0 +1,39 @@
+{
+  "item": "geotrek-al15-taurus-l-blueprint-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20070502133511/http://peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20070624165352/http://peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20071008002917/http://www.peauction.com/catlisting.php?id=25",
+    "https://web.archive.org/web/20071012151801/http://peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20071212065937/http://peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20080210212022/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20080411150950/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20080610213818/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20080801024356/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20080817052615/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20080818212812/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20081022150112/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20090223042058/http://peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20090802101829/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20091002013119/http://www.peauction.com:80/catlisting.php?id=25"
+  ],
+  "sold": [],
+  "unsold": [],
+  "readings": [
+    [0, "%", 244230.0, 0, 1],
+    [0, "%", 137892.0, 2, 3],
+    [0, "%", 91901.7, 4, 4],
+    [0, "%", 28048.7, 5, 5],
+    [0, "%", 19501.7, 6, 6],
+    [0, "%", 18835.0, 7, 7],
+    [0, "%", 12809.6, 8, 8],
+    [0, "%", 6808.78, 9, 10],
+    [0, "%", 5113.11, 11, 11],
+    [0, "%", 1349.54, 12, 12],
+    [0, "%", 1525.37, 13, 13],
+    [0, "%", 825.53, 14, 14]
+  ],
+  "charts": []
+}

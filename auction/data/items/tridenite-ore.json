@@ -1,0 +1,62 @@
+{
+  "item": "tridenite-ore",
+  "markup": "%",
+  "sources": ["pea", "pe-player"],
+  "captures": [
+    "https://web.archive.org/web/20041010022429/http://www.pe-player.com:80/auction/list.php?sort=bytype",
+    "https://web.archive.org/web/20060721094803/http://www.peauction.com:80/catlisting.php?id=60",
+    "https://web.archive.org/web/20060805171703/http://peauction.com:80/catlisting.php?id=60",
+    "https://web.archive.org/web/20061107141544/http://peauction.com/catlisting.php?id=60",
+    "https://web.archive.org/web/20070614090548/http://peauction.com:80/itemlisting.php?id=2286",
+    "https://web.archive.org/web/20071008003448/http://www.peauction.com/catlisting.php?id=60",
+    "https://web.archive.org/web/20071012152054/http://peauction.com:80/catlisting.php?id=60",
+    "https://web.archive.org/web/20071212071137/http://peauction.com:80/catlisting.php?id=60",
+    "https://web.archive.org/web/20080210223506/http://www.peauction.com:80/catlisting.php?id=60",
+    "https://web.archive.org/web/20080411151249/http://www.peauction.com:80/catlisting.php?id=60",
+    "https://web.archive.org/web/20080610222834/http://www.peauction.com:80/catlisting.php?id=60",
+    "https://web.archive.org/web/20080801024510/http://www.peauction.com:80/catlisting.php?id=60",
+    "https://web.archive.org/web/20080817053516/http://www.peauction.com:80/catlisting.php?id=60",
+    "https://web.archive.org/web/20081022150404/http://www.peauction.com:80/catlisting.php?id=60",
+    "https://web.archive.org/web/20090223042346/http://peauction.com:80/catlisting.php?id=60",
+    "https://web.archive.org/web/20090802102124/http://www.peauction.com:80/catlisting.php?id=60",
+    "https://web.archive.org/web/20091002013409/http://www.peauction.com:80/catlisting.php?id=60"
+  ],
+  "sold": [
+    [4, 8.0, 24.0, 0, [[1, "2004-08-09 22:15", 0]]],
+    [1, 2.0, 7.0, 5, [[0, "2006-07-02 22:20", 4]]],
+    [2, 4.0, 6.0, 3, [[0, "2006-11-05 20:05", 4]]],
+    [2, 4.0, 44.0, 1, [[0, "2006-11-29 23:01", 4]]],
+    [1, 2.0, 40.0, 1, [[0, "2007-01-21 07:13", 4]]],
+    [1, 2.0, 46.0, 3, [[0, "2007-03-11 14:17", 4]]],
+    [1, 2.0, 34.0, 20, [[0, "2007-04-04 00:24", 4]]],
+    [1, 2.0, 22.0, 3, [[0, "2007-04-17 09:16", 4]]]
+  ],
+  "unsold": [
+    [2, 4.0, 79.0, [[0, "2005-12-21 23:15", 4]]],
+    [4, 8.0, 160.0, [[0, "2006-06-03 23:59", 4]]],
+    [1, 2.0, 50.0, [[0, "2006-08-24 21:08", 4]]],
+    [2, 4.0, 116.0, [[0, "2006-09-25 17:27", 4]]],
+    [1, 2.0, 52.0, [[0, "2006-10-21 20:41", 4]]],
+    [2, 4.0, 100.0, [[0, "2006-10-23 09:50", 4]]],
+    [2, 4.0, 104.0, [[0, "2006-10-27 19:57", 4]]],
+    [2, 4.0, 85.0, [[0, "2006-10-28 19:58", 4]]],
+    [1, 2.0, 50.0, [[0, "2006-11-03 11:16", 4]]],
+    [1, 2.0, 50.0, [[0, "2006-11-19 01:58", 4]]],
+    [2, 4.0, 100.0, [[0, "2007-04-15 11:48", 4]]]
+  ],
+  "readings": [
+    [0, "%", 350.0, 1, 2],
+    [0, "%", 216.67, 3, 3],
+    [0, "%", 1632.14, 5, 6],
+    [0, "%", 2753.85, 7, 7],
+    [0, "%", 3407.69, 8, 8],
+    [0, "%", 4146.43, 9, 10],
+    [0, "%", 5269.23, 11, 11],
+    [0, "%", 5657.69, 12, 12],
+    [0, "%", 6908.33, 13, 13],
+    [0, "%", 9295.45, 14, 14],
+    [0, "%", 7227.27, 15, 15],
+    [0, "%", 5713.64, 16, 16]
+  ],
+  "charts": []
+}

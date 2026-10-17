@@ -1,0 +1,20 @@
+{
+  "item": "vumpoor-obliterator-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20090802102513/http://www.peauction.com:80/catlisting.php?id=80",
+    "https://web.archive.org/web/20091002013555/http://www.peauction.com:80/catlisting.php?id=80",
+    "https://web.archive.org/web/20160801222053/http://peauction.com/itemlisting.php?id=5693"
+  ],
+  "sold": [
+    [1, 46.87, 1450.0, 20, [[0, "2008-02-13 01:32", 2]]]
+  ],
+  "unsold": [
+    [1, 53.0, 1800.0, [[0, "2008-03-27 18:58", 2]]]
+  ],
+  "readings": [
+    [0, "%", 3093.66, 0, 1]
+  ],
+  "charts": []
+}

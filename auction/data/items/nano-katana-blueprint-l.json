@@ -1,0 +1,37 @@
+{
+  "item": "nano-katana-blueprint-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20060216220903/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20060614130848/http://peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20060721094353/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20061107140839/http://peauction.com/catlisting.php?id=25",
+    "https://web.archive.org/web/20070502133511/http://peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20070806044131/http://peauction.com:80/itemlisting.php?id=2419",
+    "https://web.archive.org/web/20091002013119/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20160801125607/http://peauction.com/itemlisting.php?id=2419"
+  ],
+  "sold": [
+    [1, 0.01, 91.0, 1, [[0, "2006-02-02 20:27", 5]]],
+    [1, 0.06, 602.0, 4, [[0, "2006-07-19 21:53", 5]]],
+    [1, 0.01, 173.0, 31, [[0, "2006-08-08 15:46", 5]]],
+    [1, 0.08, 1001.0, 2, [[0, "2006-08-28 08:17", 5]]],
+    [1, 0.01, 111.0, 4, [[0, "2006-09-10 02:47", 5]]],
+    [1, 0.01, 170.0, 51, [[0, "2007-01-04 18:30", 5]]],
+    [1, 0.01, 117.0, 24, [[0, "2007-03-16 10:40", 5]]],
+    [1, 0.01, 117.0, 24, [[0, "2007-03-16 11:40", 7]]]
+  ],
+  "unsold": [
+    [1, 0.02, 250.0, [[0, "2006-01-22 00:08", 5]]],
+    [1, 0.08, 10001.0, [[0, "2006-08-27 07:36", 5]]],
+    [1, 0.05, 1000.0, [[0, "2006-08-28 08:22", 5]]]
+  ],
+  "readings": [
+    [0, "%", 910000.0, 0, 1],
+    [0, "%", 956667.0, 2, 2],
+    [0, "%", 1200920.0, 3, 3],
+    [0, "%", 1267800.0, 4, 6]
+  ],
+  "charts": []
+}

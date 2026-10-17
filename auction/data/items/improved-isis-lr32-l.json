@@ -1,0 +1,31 @@
+{
+  "item": "improved-isis-lr32-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071008003605/http://www.peauction.com/catlisting.php?id=74",
+    "https://web.archive.org/web/20080610230749/http://www.peauction.com:80/catlisting.php?id=74",
+    "https://web.archive.org/web/20080801024542/http://www.peauction.com:80/catlisting.php?id=74",
+    "https://web.archive.org/web/20081022150511/http://www.peauction.com:80/catlisting.php?id=74",
+    "https://web.archive.org/web/20090223042446/http://peauction.com:80/catlisting.php?id=74",
+    "https://web.archive.org/web/20090802102235/http://www.peauction.com:80/catlisting.php?id=74",
+    "https://web.archive.org/web/20091002013520/http://www.peauction.com:80/catlisting.php?id=74",
+    "https://web.archive.org/web/20160801124840/http://peauction.com/itemlisting.php?id=4641"
+  ],
+  "sold": [
+    [1, 394.79, 458.0, 8, [[0, "2007-08-16 13:47", 7]]],
+    [1, 1643.0, 2465.0, 1, [[0, "2008-06-29 19:30", 7]]],
+    [1, 1643.0, 2136.0, 18, [[0, "2008-12-12 08:26", 7]]],
+    [1, 196.54, 240.0, 1, [[0, "2009-09-06 15:32", 7]]]
+  ],
+  "unsold": [
+    [1, 394.79, 790.0, [[0, "2007-08-02 22:48", 7]]]
+  ],
+  "readings": [
+    [0, "%", 116.01, 0, 1],
+    [0, "%", 133.02, 2, 3],
+    [0, "%", 132.02, 4, 5],
+    [0, "%", 129.54, 6, 6]
+  ],
+  "charts": []
+}

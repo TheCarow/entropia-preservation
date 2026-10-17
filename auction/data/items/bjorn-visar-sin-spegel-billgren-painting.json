@@ -1,0 +1,15 @@
+{
+  "item": "bjorn-visar-sin-spegel-billgren-painting",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20160802005845/http://peauction.com/itemlisting.php?id=3125"
+  ],
+  "sold": [],
+  "unsold": [
+    [1, 210.0, 1512.0, [[0, "2006-09-26 08:35", 0]]],
+    [1, 210.0, 1510.0, [[0, "2006-10-06 09:50", 0]]]
+  ],
+  "readings": [],
+  "charts": []
+}

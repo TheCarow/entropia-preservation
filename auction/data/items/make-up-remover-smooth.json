@@ -1,0 +1,18 @@
+{
+  "item": "make-up-remover-smooth",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20090802102135/http://www.peauction.com:80/catlisting.php?id=63",
+    "https://web.archive.org/web/20091003150251/http://www.peauction.com:80/catlisting.php?id=63",
+    "https://web.archive.org/web/20160801185335/http://peauction.com/itemlisting.php?id=5213"
+  ],
+  "sold": [
+    [16, 1.6, 2.0, 1, [[0, "2009-07-27 13:31", 2]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 0.57, 0, 1]
+  ],
+  "charts": []
+}

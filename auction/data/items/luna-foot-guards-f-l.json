@@ -1,0 +1,23 @@
+{
+  "item": "luna-foot-guards-f-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20090802102517/http://www.peauction.com:80/catlisting.php?id=81",
+    "https://web.archive.org/web/20091002013600/http://www.peauction.com:80/catlisting.php?id=81",
+    "https://web.archive.org/web/20160801173446/http://peauction.com/itemlisting.php?id=5446"
+  ],
+  "sold": [
+    [1, 72.64, 73.0, 1, [[0, "2007-12-31 18:44", 2]]]
+  ],
+  "unsold": [
+    [1, 80.95, 190.0, [[0, "2007-12-26 00:19", 2]]],
+    [1, 72.64, 73.0, [[0, "2007-12-31 18:39", 2]]],
+    [1, 72.64, 100.0, [[0, "2008-01-15 05:34", 2]]],
+    [1, 72.64, 90.0, [[0, "2008-01-24 06:19", 2]]]
+  ],
+  "readings": [
+    [0, "%", 100.5, 0, 1]
+  ],
+  "charts": []
+}

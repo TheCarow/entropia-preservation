@@ -1,0 +1,39 @@
+{
+  "item": "berycled-leather-texture",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20080411151145/http://www.peauction.com:80/catlisting.php?id=48",
+    "https://web.archive.org/web/20080610220555/http://www.peauction.com:80/catlisting.php?id=48",
+    "https://web.archive.org/web/20080801025348/http://www.peauction.com:80/catlisting.php?id=48",
+    "https://web.archive.org/web/20080817053429/http://www.peauction.com:80/catlisting.php?id=48",
+    "https://web.archive.org/web/20080818212857/http://www.peauction.com:80/catlisting.php?id=48",
+    "https://web.archive.org/web/20081022150303/http://www.peauction.com:80/catlisting.php?id=48",
+    "https://web.archive.org/web/20090223042243/http://peauction.com:80/catlisting.php?id=48",
+    "https://web.archive.org/web/20090802102025/http://www.peauction.com:80/catlisting.php?id=48",
+    "https://web.archive.org/web/20091002013312/http://www.peauction.com:80/catlisting.php?id=48",
+    "https://web.archive.org/web/20160801183300/http://peauction.com/itemlisting.php?id=5737"
+  ],
+  "sold": [
+    [66, 19.8, 23.0, 4, [[0, "2008-09-19 21:33", 9]]],
+    [167, 50.1, 51.0, 1, [[0, "2008-09-20 18:48", 9]]],
+    [96, 28.8, 30.0, 1, [[0, "2008-09-30 02:13", 9]]],
+    [617, 185.1, 186.0, 1, [[0, "2008-10-20 04:54", 9]]],
+    [30, 9.0, 10.0, 2, [[0, "2008-11-22 05:56", 9]]],
+    [24, 7.2, 8.0, 1, [[0, "2009-01-03 16:47", 9]]],
+    [171, 51.3, 61.0, 10, [[0, "2009-03-04 21:20", 9]]],
+    [200, 60.0, 70.0, 10, [[0, "2009-03-16 19:30", 9]]],
+    [119, 35.7, 37.0, 2, [[0, "2009-06-15 04:42", 9]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "%", 106.67, 0, 0],
+    [0, "%", 132.01, 1, 1],
+    [0, "%", 128.49, 2, 2],
+    [0, "%", 121.82, 3, 4],
+    [0, "%", 106.28, 5, 5],
+    [0, "%", 106.48, 6, 6],
+    [0, "%", 106.41, 7, 8]
+  ],
+  "charts": []
+}

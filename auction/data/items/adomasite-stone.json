@@ -1,0 +1,35 @@
+{
+  "item": "adomasite-stone",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071008003448/http://www.peauction.com/catlisting.php?id=60",
+    "https://web.archive.org/web/20071012152054/http://peauction.com:80/catlisting.php?id=60",
+    "https://web.archive.org/web/20071212071137/http://peauction.com:80/catlisting.php?id=60",
+    "https://web.archive.org/web/20080210223506/http://www.peauction.com:80/catlisting.php?id=60",
+    "https://web.archive.org/web/20080411151249/http://www.peauction.com:80/catlisting.php?id=60",
+    "https://web.archive.org/web/20080610222834/http://www.peauction.com:80/catlisting.php?id=60",
+    "https://web.archive.org/web/20080801024510/http://www.peauction.com:80/catlisting.php?id=60",
+    "https://web.archive.org/web/20080817053516/http://www.peauction.com:80/catlisting.php?id=60",
+    "https://web.archive.org/web/20081022150404/http://www.peauction.com:80/catlisting.php?id=60",
+    "https://web.archive.org/web/20090223042346/http://peauction.com:80/catlisting.php?id=60",
+    "https://web.archive.org/web/20090802102124/http://www.peauction.com:80/catlisting.php?id=60",
+    "https://web.archive.org/web/20091002013409/http://www.peauction.com:80/catlisting.php?id=60"
+  ],
+  "sold": [],
+  "unsold": [],
+  "readings": [
+    [0, "%", 353.47, 0, 1],
+    [0, "%", 383.33, 2, 2],
+    [0, "%", 390.48, 3, 3],
+    [0, "%", 400.79, 4, 4],
+    [0, "%", 420.45, 5, 5],
+    [0, "%", 561.4, 6, 6],
+    [0, "%", 558.56, 7, 7],
+    [0, "%", 445.83, 8, 8],
+    [0, "%", 509.62, 9, 9],
+    [0, "%", 454.86, 10, 10],
+    [0, "%", 411.11, 11, 11]
+  ],
+  "charts": []
+}

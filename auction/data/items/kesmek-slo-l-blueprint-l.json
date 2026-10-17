@@ -1,0 +1,29 @@
+{
+  "item": "kesmek-slo-l-blueprint-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071008002917/http://www.peauction.com/catlisting.php?id=25",
+    "https://web.archive.org/web/20080801024356/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20080817052615/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20081022150112/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20090223042058/http://peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20090802101829/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20091002013119/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20160801115623/http://peauction.com/itemlisting.php?id=4549"
+  ],
+  "sold": [
+    [1, 0.05, 693.0, 26, [[0, "2007-07-10 20:10", 7]]],
+    [1, 0.04, 519.0, 59, [[0, "2008-08-16 13:54", 7]]],
+    [1, 0.02, 250.0, 8, [[0, "2009-02-15 04:49", 7]]],
+    [1, 0.01, 200.0, 21, [[0, "2009-05-11 20:53", 7]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "%", 1386000.0, 0, 1],
+    [0, "%", 1341750.0, 2, 3],
+    [0, "%", 1311170.0, 4, 4],
+    [0, "%", 1483380.0, 5, 6]
+  ],
+  "charts": []
+}

@@ -1,0 +1,14 @@
+{
+  "item": "eomon-leather-texture-blueprint",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20160801184438/http://peauction.com/itemlisting.php?id=5462"
+  ],
+  "sold": [],
+  "unsold": [
+    [1, 0.01, 1100.0, [[0, "2007-12-27 19:34", 0]]]
+  ],
+  "readings": [],
+  "charts": []
+}

@@ -1,0 +1,21 @@
+{
+  "item": "dominax-original-mamba",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20080801025455/http://www.peauction.com:80/catlisting.php?id=73",
+    "https://web.archive.org/web/20091002013515/http://www.peauction.com:80/catlisting.php?id=73",
+    "https://web.archive.org/web/20160801115044/http://peauction.com/itemlisting.php?id=4673"
+  ],
+  "sold": [
+    [1, 2180.0, 2650.0, 8, [[0, "2008-06-13 18:44", 2]]]
+  ],
+  "unsold": [
+    [1, 2180.0, 5679.0, [[0, "2007-08-18 15:47", 2]]],
+    [1, 2180.0, 5179.0, [[0, "2007-09-07 14:59", 2]]]
+  ],
+  "readings": [
+    [0, "TT+", 470.0, 0, 1]
+  ],
+  "charts": []
+}

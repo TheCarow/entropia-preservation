@@ -1,0 +1,22 @@
+{
+  "item": "uncolored-zone-pants-blueprint",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20061107141443/http://peauction.com/catlisting.php?id=23",
+    "https://web.archive.org/web/20080210212015/http://www.peauction.com:80/catlisting.php?id=23",
+    "https://web.archive.org/web/20080411150940/http://www.peauction.com:80/catlisting.php?id=23",
+    "https://web.archive.org/web/20091002013109/http://www.peauction.com:80/catlisting.php?id=23",
+    "https://web.archive.org/web/20160801183147/http://peauction.com/itemlisting.php?id=3026"
+  ],
+  "sold": [
+    [1, 0.01, 301.0, 3, [[0, "2006-07-24 19:25", 4]]],
+    [1, 0.01, 1850.0, 10, [[0, "2008-03-29 23:03", 4]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 300.99, 0, 1],
+    [0, "TT+", 1075.49, 2, 3]
+  ],
+  "charts": []
+}

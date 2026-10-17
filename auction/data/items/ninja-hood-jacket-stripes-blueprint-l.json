@@ -1,0 +1,28 @@
+{
+  "item": "ninja-hood-jacket-stripes-blueprint-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20070803233147/http://peauction.com:80/catlisting.php?id=23",
+    "https://web.archive.org/web/20070807162636/http://peauction.com:80/itemlisting.php?id=2922",
+    "https://web.archive.org/web/20091002013109/http://www.peauction.com:80/catlisting.php?id=23",
+    "https://web.archive.org/web/20160801183509/http://peauction.com/itemlisting.php?id=2922"
+  ],
+  "sold": [
+    [1, 0.02, 201.0, 1, [[0, "2007-01-06 17:11", 1]]]
+  ],
+  "unsold": [
+    [1, 0.05, 1500.0, [[0, "2006-05-07 22:55", 1]]],
+    [1, 0.02, 500.0, [[0, "2006-07-10 19:39", 1]]],
+    [1, 0.02, 499.0, [[0, "2006-07-13 08:41", 1]]],
+    [1, 0.05, 601.0, [[0, "2006-07-25 21:56", 1]]],
+    [1, 0.05, 500.0, [[0, "2006-09-29 01:06", 1]]],
+    [1, 0.05, 701.0, [[0, "2006-10-18 10:50", 1]]],
+    [1, 0.02, 201.0, [[0, "2007-01-06 17:01", 1]]],
+    [1, 0.05, 500.0, [[0, "2007-11-20 19:56", 3]]]
+  ],
+  "readings": [
+    [0, "%", 1005000.0, 0, 2]
+  ],
+  "charts": []
+}

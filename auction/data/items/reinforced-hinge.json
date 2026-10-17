@@ -1,0 +1,20 @@
+{
+  "item": "reinforced-hinge",
+  "markup": "%",
+  "sources": ["pea", "pe-player"],
+  "captures": [
+    "https://web.archive.org/web/20041010022429/http://www.pe-player.com:80/auction/list.php?sort=bytype",
+    "https://web.archive.org/web/20090802101937/http://www.peauction.com:80/catlisting.php?id=38",
+    "https://web.archive.org/web/20091002013226/http://www.peauction.com:80/catlisting.php?id=38",
+    "https://web.archive.org/web/20160801191958/http://peauction.com/itemlisting.php?id=6165"
+  ],
+  "sold": [
+    [20, 3.52, 50.0, 0, [[1, "2004-08-23 20:15", 0]]],
+    [1386, 235.62, 236.0, 1, [[0, "2008-08-29 13:40", 3]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "%", 100.16, 1, 2]
+  ],
+  "charts": []
+}

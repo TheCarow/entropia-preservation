@@ -1,0 +1,52 @@
+{
+  "item": "predator-harness-m-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20070502022303/http://peauction.com:80/catlisting.php?id=6",
+    "https://web.archive.org/web/20070805184204/http://peauction.com:80/catlisting.php?id=6",
+    "https://web.archive.org/web/20070807233715/http://peauction.com:80/catlisting.php?id=6",
+    "https://web.archive.org/web/20071007083430/http://www.peauction.com/catlisting.php?id=6",
+    "https://web.archive.org/web/20071012152049/http://peauction.com:80/catlisting.php?id=6",
+    "https://web.archive.org/web/20071107115733/http://www.peauction.com/itemlisting.php?id=3538",
+    "https://web.archive.org/web/20071107115750/http://www.peauction.com/chart2.php?id=3538&dtype=0",
+    "https://web.archive.org/web/20071212071133/http://peauction.com:80/catlisting.php?id=6",
+    "https://web.archive.org/web/20080210223457/http://www.peauction.com:80/catlisting.php?id=6",
+    "https://web.archive.org/web/20080411151244/http://www.peauction.com:80/catlisting.php?id=6",
+    "https://web.archive.org/web/20080610222829/http://www.peauction.com:80/catlisting.php?id=6",
+    "https://web.archive.org/web/20080801024505/http://www.peauction.com:80/catlisting.php?id=6",
+    "https://web.archive.org/web/20080817052248/http://www.peauction.com:80/catlisting.php?id=6",
+    "https://web.archive.org/web/20081022150359/http://www.peauction.com:80/catlisting.php?id=6",
+    "https://web.archive.org/web/20090223042341/http://peauction.com:80/catlisting.php?id=6",
+    "https://web.archive.org/web/20090802102119/http://www.peauction.com:80/catlisting.php?id=6",
+    "https://web.archive.org/web/20091002013404/http://www.peauction.com:80/catlisting.php?id=6"
+  ],
+  "sold": [
+    [1, 40.0, 41.0, 1, [[0, "2009-01-28 14:43", 5]]],
+    [1, 36.46, 40.0, 1, [[0, "2009-03-02 14:26", 5]]],
+    [1, 40.0, 40.0, 1, [[0, "2009-03-22 22:56", 5]]],
+    [1, 40.0, 41.0, 1, [[0, "2009-04-05 18:40", 5]]],
+    [1, 39.58, 45.0, 1, [[0, "2009-04-17 19:33", 5]]],
+    [1, 40.0, 40.0, 1, [[0, "2009-08-06 21:16", 5]]],
+    [1, 40.0, 40.0, 1, [[0, "2009-08-19 08:27", 5]]],
+    [1, 40.0, 40.0, 1, [[0, "2009-08-19 08:53", 5]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 2.81, 0, 0],
+    [0, "TT+", 1.79, 1, 2],
+    [0, "TT+", 1.98, 3, 4],
+    [0, "TT+", 1.86, 7, 7],
+    [0, "TT+", 0.99, 8, 8],
+    [0, "TT+", 1.4, 9, 9],
+    [0, "TT+", 1.67, 10, 10],
+    [0, "TT+", 1.77, 11, 12],
+    [0, "TT+", 1.81, 13, 13],
+    [0, "TT+", 1.47, 14, 14],
+    [0, "%", 146.64, 15, 15],
+    [0, "%", 103.41, 16, 16]
+  ],
+  "charts": [
+    [0, 6, "3538-0-20071107115750.png"]
+  ]
+}

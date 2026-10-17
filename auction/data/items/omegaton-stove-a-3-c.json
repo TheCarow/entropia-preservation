@@ -1,0 +1,18 @@
+{
+  "item": "omegaton-stove-a-3-c",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20090223042446/http://peauction.com:80/catlisting.php?id=74",
+    "https://web.archive.org/web/20090802102235/http://www.peauction.com:80/catlisting.php?id=74",
+    "https://web.archive.org/web/20091002013520/http://www.peauction.com:80/catlisting.php?id=74"
+  ],
+  "sold": [],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 32.01, 0, 0],
+    [0, "TT+", 18.32, 1, 1],
+    [0, "TT+", 19.68, 2, 2]
+  ],
+  "charts": []
+}

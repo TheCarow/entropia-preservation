@@ -1,0 +1,16 @@
+{
+  "item": "short-polka-valance-c",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20160801210602/http://peauction.com/itemlisting.php?id=5760"
+  ],
+  "sold": [
+    [1, 10.0, 10.0, 1, [[0, "2008-07-28 23:57", 0]]],
+    [1, 10.0, 10.0, 1, [[0, "2009-06-28 20:15", 0]]],
+    [1, 10.0, 10.0, 1, [[0, "2009-06-28 20:20", 0]]]
+  ],
+  "unsold": [],
+  "readings": [],
+  "charts": []
+}

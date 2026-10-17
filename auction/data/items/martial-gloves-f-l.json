@@ -1,0 +1,36 @@
+{
+  "item": "martial-gloves-f-l",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071007161354/http://www.peauction.com/catlisting.php?id=5",
+    "https://web.archive.org/web/20071111042025/http://www.peauction.com/itemlisting.php?id=3921",
+    "https://web.archive.org/web/20080411151156/http://www.peauction.com:80/catlisting.php?id=5",
+    "https://web.archive.org/web/20080610220605/http://www.peauction.com:80/catlisting.php?id=5",
+    "https://web.archive.org/web/20080801025358/http://www.peauction.com:80/catlisting.php?id=5",
+    "https://web.archive.org/web/20080818212902/http://www.peauction.com:80/catlisting.php?id=5",
+    "https://web.archive.org/web/20081022150313/http://www.peauction.com:80/catlisting.php?id=5",
+    "https://web.archive.org/web/20090223042253/http://peauction.com:80/catlisting.php?id=5",
+    "https://web.archive.org/web/20090802102036/http://www.peauction.com:80/catlisting.php?id=5",
+    "https://web.archive.org/web/20091002013322/http://www.peauction.com:80/catlisting.php?id=5"
+  ],
+  "sold": [
+    [1, 18.39, 30.0, 1, [[0, "2007-04-08 14:10", 1]]],
+    [1, 62.4, 86.0, 4, [[0, "2007-05-01 00:46", 1]]],
+    [1, 66.0, 70.0, 5, [[0, "2007-06-26 01:46", 1]]]
+  ],
+  "unsold": [
+    [1, 48.22, 150.0, [[0, "2007-04-06 19:39", 1]]],
+    [1, 57.02, 93.0, [[0, "2007-04-15 17:06", 1]]]
+  ],
+  "readings": [
+    [0, "TT+", 13.07, 0, 2],
+    [0, "TT+", 12.13, 3, 3],
+    [0, "TT+", 12.88, 4, 5],
+    [0, "TT+", 12.91, 6, 6],
+    [0, "TT+", 21.41, 7, 7],
+    [0, "%", 106.56, 8, 8],
+    [0, "%", 106.29, 9, 9]
+  ],
+  "charts": []
+}

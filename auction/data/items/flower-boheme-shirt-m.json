@@ -1,0 +1,17 @@
+{
+  "item": "flower-boheme-shirt-m",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20070811003146/http://peauction.com:80/itemlisting.php?id=495"
+  ],
+  "sold": [],
+  "unsold": [
+    [1, 16.07, 450.0, [[0, "2005-10-18 05:15", 0]]],
+    [1, 16.07, 450.0, [[0, "2005-10-28 00:10", 0]]],
+    [1, 16.07, 400.0, [[0, "2005-12-05 19:35", 0]]],
+    [1, 16.07, 400.0, [[0, "2006-01-04 02:12", 0]]]
+  ],
+  "readings": [],
+  "charts": []
+}

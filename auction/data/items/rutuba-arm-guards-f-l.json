@@ -1,0 +1,25 @@
+{
+  "item": "rutuba-arm-guards-f-l",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071006171149/http://www.peauction.com/catlisting.php?id=3",
+    "https://web.archive.org/web/20071009125134/http://www.peauction.com/itemlisting.php?id=4580",
+    "https://web.archive.org/web/20081022150132/http://www.peauction.com:80/catlisting.php?id=3",
+    "https://web.archive.org/web/20090223042118/http://peauction.com:80/catlisting.php?id=3",
+    "https://web.archive.org/web/20090802101850/http://www.peauction.com:80/catlisting.php?id=3",
+    "https://web.archive.org/web/20091002013141/http://www.peauction.com:80/catlisting.php?id=3"
+  ],
+  "sold": [
+    [1, 74.1, 200.0, 1, [[0, "2007-07-18 05:42", 1]]],
+    [1, 75.94, 225.0, 9, [[0, "2007-09-17 15:34", 1]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 137.48, 0, 2],
+    [0, "TT+", 116.96, 3, 3],
+    [0, "%", 199.13, 4, 4],
+    [0, "%", 188.16, 5, 5]
+  ],
+  "charts": []
+}

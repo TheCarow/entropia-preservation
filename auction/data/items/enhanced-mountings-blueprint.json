@@ -1,0 +1,23 @@
+{
+  "item": "enhanced-mountings-blueprint",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20090802101813/http://www.peauction.com:80/catlisting.php?id=22",
+    "https://web.archive.org/web/20091002013104/http://www.peauction.com:80/catlisting.php?id=22",
+    "https://web.archive.org/web/20160801193641/http://peauction.com/itemlisting.php?id=6050"
+  ],
+  "sold": [
+    [1, 0.01, 115.0, 15, [[0, "2008-08-10 22:28", 2]]],
+    [1, 0.01, 102.0, 2, [[0, "2009-05-10 03:12", 2]]],
+    [1, 0.01, 99.0, 1, [[0, "2009-05-31 21:37", 2]]],
+    [1, 0.01, 53.0, 4, [[0, "2009-08-14 16:55", 2]]],
+    [1, 0.01, 50.0, 1, [[0, "2009-09-12 16:47", 2]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 105.32, 0, 0],
+    [0, "TT+", 83.79, 1, 1]
+  ],
+  "charts": []
+}

@@ -1,0 +1,40 @@
+{
+  "item": "paradox-gloves-m",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20060216220725/http://www.peauction.com:80/catlisting.php?id=5",
+    "https://web.archive.org/web/20071111040914/http://www.peauction.com/itemlisting.php?id=2231",
+    "https://web.archive.org/web/20080610220605/http://www.peauction.com:80/catlisting.php?id=5",
+    "https://web.archive.org/web/20080801025358/http://www.peauction.com:80/catlisting.php?id=5",
+    "https://web.archive.org/web/20081022150313/http://www.peauction.com:80/catlisting.php?id=5",
+    "https://web.archive.org/web/20090223042253/http://peauction.com:80/catlisting.php?id=5",
+    "https://web.archive.org/web/20090802102036/http://www.peauction.com:80/catlisting.php?id=5",
+    "https://web.archive.org/web/20091002013322/http://www.peauction.com:80/catlisting.php?id=5",
+    "https://web.archive.org/web/20160801203609/http://peauction.com/itemlisting.php?id=2231"
+  ],
+  "sold": [
+    [1, 68.37, 333.0, 10, [[0, "2005-12-11 19:34", 1]]],
+    [1, 68.37, 378.0, 19, [[0, "2005-12-11 19:56", 1]]],
+    [1, 48.65, 311.0, 23, [[0, "2005-12-13 03:00", 1]]],
+    [1, 62.0, 305.0, 6, [[0, "2005-12-16 11:46", 1]]],
+    [1, 80.0, 1704.0, 3, [[0, "2008-07-23 07:17", 8]]],
+    [1, 45.31, 1746.0, 1, [[0, "2008-11-01 12:40", 8]]],
+    [1, 77.44, 461.0, 16, [[0, "2009-04-26 19:16", 8]]]
+  ],
+  "unsold": [
+    [1, 44.71, 1500.0, [[0, "2005-12-11 05:53", 1]]],
+    [1, 58.0, 1058.0, [[0, "2005-12-17 09:16", 1]]],
+    [1, 80.0, 580.0, [[0, "2005-12-24 20:45", 1]]],
+    [1, 79.88, 2180.0, [[0, "2006-06-25 17:20", 1]]],
+    [1, 77.09, 1578.0, [[0, "2006-07-14 09:09", 1]]],
+    [1, 79.29, 3080.0, [[0, "2008-10-16 19:54", 8]]]
+  ],
+  "readings": [
+    [0, "TT+", 269.9, 0, 2],
+    [0, "TT+", 540.72, 3, 4],
+    [0, "TT+", 734.05, 5, 5],
+    [0, "TT+", 683.98, 6, 7]
+  ],
+  "charts": []
+}

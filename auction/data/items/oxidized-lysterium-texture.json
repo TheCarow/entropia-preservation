@@ -1,0 +1,22 @@
+{
+  "item": "oxidized-lysterium-texture",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20090802102025/http://www.peauction.com:80/catlisting.php?id=48",
+    "https://web.archive.org/web/20091002013312/http://www.peauction.com:80/catlisting.php?id=48",
+    "https://web.archive.org/web/20160801184046/http://peauction.com/itemlisting.php?id=5721"
+  ],
+  "sold": [
+    [224, 69.44, 70.0, 1, [[0, "2008-09-22 19:58", 2]]],
+    [89, 27.59, 28.0, 1, [[0, "2009-02-21 11:07", 2]]],
+    [50, 15.5, 17.0, 1, [[0, "2009-08-12 04:24", 2]]],
+    [256, 79.36, 83.0, 4, [[0, "2009-09-30 20:23", 2]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "%", 101.0, 0, 0],
+    [0, "%", 103.18, 1, 1]
+  ],
+  "charts": []
+}

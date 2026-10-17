@@ -1,0 +1,29 @@
+{
+  "item": "heavy-duty-joints-2",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20070421090456/http://peauction.com:80/itemlisting.php?id=1798",
+    "https://web.archive.org/web/20071008002943/http://www.peauction.com/catlisting.php?id=38",
+    "https://web.archive.org/web/20091002013226/http://www.peauction.com:80/catlisting.php?id=38",
+    "https://web.archive.org/web/20160801194508/http://peauction.com/itemlisting.php?id=1798",
+    "https://web.archive.org/web/20160802004720/http://peauction.com/itemlisting.php?id=6149"
+  ],
+  "sold": [
+    [72, 2.88, 3.0, 1, [[0, "2007-07-09 00:00", 3]]]
+  ],
+  "unsold": [
+    [180, 7.2, 9.0, [[0, "2005-11-06 05:37", 0]]],
+    [95, 3.8, 8.0, [[0, "2005-11-25 23:45", 0]]],
+    [1000, 40.0, 41.0, [[0, "2006-04-24 04:23", 0]]],
+    [1000, 40.0, 50.0, [[0, "2007-04-09 21:53", 0]]],
+    [2055, 82.2, 86.0, [[0, "2007-04-17 18:49", 0]]],
+    [1000, 40.0, 42.0, [[0, "2007-04-21 18:49", 3]]],
+    [1000, 40.0, 44.0, [[0, "2007-04-27 21:50", 3]]],
+    [632, 25.28, 26.0, [[0, "2008-08-14 23:39", 4]]]
+  ],
+  "readings": [
+    [0, "%", 104.17, 1, 2]
+  ],
+  "charts": []
+}

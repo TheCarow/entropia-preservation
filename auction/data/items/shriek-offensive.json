@@ -1,0 +1,53 @@
+{
+  "item": "shriek-offensive",
+  "markup": "TT+",
+  "sources": ["pea", "pe-player"],
+  "captures": [
+    "https://web.archive.org/web/20040803214626/http://www.pe-player.com:80/auction/list.php?sort=latest&numrows=100",
+    "https://web.archive.org/web/20040807114142/http://www.pe-player.com:80/auction/list.php?sort=bytype",
+    "https://web.archive.org/web/20060411214237/http://peauction.com:80/catlisting.php?id=75",
+    "https://web.archive.org/web/20060718064211/http://www.peauction.com:80/catlisting.php?id=75",
+    "https://web.archive.org/web/20060805172912/http://peauction.com:80/catlisting.php?id=75",
+    "https://web.archive.org/web/20061225025824/http://peauction.com:80/catlisting.php?id=75",
+    "https://web.archive.org/web/20070419223844/http://peauction.com:80/itemlisting.php?id=1809",
+    "https://web.archive.org/web/20071007161850/http://www.peauction.com/catlisting.php?id=75",
+    "https://web.archive.org/web/20071012152204/http://peauction.com:80/catlisting.php?id=75",
+    "https://web.archive.org/web/20071212071249/http://peauction.com:80/catlisting.php?id=75",
+    "https://web.archive.org/web/20080210230110/http://www.peauction.com:80/catlisting.php?id=75",
+    "https://web.archive.org/web/20080411151401/http://www.peauction.com:80/catlisting.php?id=75",
+    "https://web.archive.org/web/20081022150514/http://www.peauction.com:80/catlisting.php?id=75",
+    "https://web.archive.org/web/20090223042451/http://peauction.com:80/catlisting.php?id=75",
+    "https://web.archive.org/web/20091002013525/http://www.peauction.com:80/catlisting.php?id=75",
+    "https://web.archive.org/web/20160802010642/http://peauction.com/itemlisting.php?id=1809"
+  ],
+  "sold": [
+    [1, 35.63, 236.0, 0, [[1, "2004-08-02 19:20", 1]]],
+    [1, 35.63, 160.0, 0, [[1, "2004-08-03 21:45", 0]]],
+    [1, 73.75, 154.0, 1, [[0, "2006-02-05 10:42", 6]]],
+    [1, 18.68, 150.0, 2, [[0, "2006-07-20 16:08", 6]]],
+    [1, 61.82, 362.0, 1, [[0, "2007-05-07 15:07", 15]]],
+    [1, 79.54, 231.0, 27, [[0, "2007-05-19 04:20", 15]]],
+    [1, 70.4, 241.0, 3, [[0, "2007-10-16 14:13", 15]]],
+    [1, 12.49, 270.0, 15, [[0, "2007-11-30 04:31", 15]]],
+    [1, 34.23, 335.0, 1, [[0, "2008-02-20 13:07", 15]]],
+    [1, 80.0, 380.0, 1, [[0, "2009-01-06 19:12", 15]]],
+    [1, 6.38, 211.0, 5, [[0, "2009-02-14 07:49", 15]]]
+  ],
+  "unsold": [
+    [1, 80.0, 120.0, [[0, "2005-11-06 16:28", 6]]],
+    [1, 21.13, 122.0, [[0, "2006-06-26 02:40", 6]]],
+    [1, 7.31, 228.0, [[0, "2006-07-02 22:37", 6]]],
+    [1, 46.37, 637.0, [[0, "2006-08-31 23:31", 6]]],
+    [1, 46.37, 557.0, [[0, "2006-09-08 00:21", 6]]],
+    [1, 80.0, 290.0, [[0, "2006-11-26 12:27", 6]]]
+  ],
+  "readings": [
+    [0, "TT+", 80.25, 2, 3],
+    [0, "TT+", 105.79, 4, 5],
+    [0, "TT+", 165.8, 7, 8],
+    [0, "TT+", 181.89, 9, 10],
+    [0, "TT+", 198.87, 11, 12],
+    [0, "TT+", 210.75, 13, 14]
+  ],
+  "charts": []
+}

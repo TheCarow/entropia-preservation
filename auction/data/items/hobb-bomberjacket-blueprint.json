@@ -1,0 +1,18 @@
+{
+  "item": "hobb-bomberjacket-blueprint",
+  "markup": "TT+",
+  "sources": ["pea", "pe-player"],
+  "captures": [
+    "https://web.archive.org/web/20040807114142/http://www.pe-player.com:80/auction/list.php?sort=bytype",
+    "https://web.archive.org/web/20090802101821/http://www.peauction.com:80/catlisting.php?id=23",
+    "https://web.archive.org/web/20091002013109/http://www.peauction.com:80/catlisting.php?id=23"
+  ],
+  "sold": [
+    [1, 0.21, 1000.0, 0, [[1, "2004-07-11 02:27", 0]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 1503.89, 1, 2]
+  ],
+  "charts": []
+}

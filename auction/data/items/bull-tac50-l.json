@@ -1,0 +1,41 @@
+{
+  "item": "bull-tac50-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20070105192126/http://peauction.com:80/catlisting.php?id=12",
+    "https://web.archive.org/web/20070805002742/http://peauction.com:80/catlisting.php?id=12",
+    "https://web.archive.org/web/20070806045543/http://peauction.com:80/catlisting.php?id=12",
+    "https://web.archive.org/web/20071007162144/http://www.peauction.com/catlisting.php?id=12",
+    "https://web.archive.org/web/20071012151719/http://peauction.com:80/catlisting.php?id=12",
+    "https://web.archive.org/web/20071212065851/http://peauction.com:80/catlisting.php?id=12",
+    "https://web.archive.org/web/20080210205836/http://www.peauction.com:80/catlisting.php?id=12",
+    "https://web.archive.org/web/20080411150902/http://www.peauction.com:80/catlisting.php?id=12",
+    "https://web.archive.org/web/20080610174449/http://www.peauction.com:80/catlisting.php?id=12",
+    "https://web.archive.org/web/20080801024912/http://www.peauction.com:80/catlisting.php?id=12",
+    "https://web.archive.org/web/20080817052543/http://www.peauction.com:80/catlisting.php?id=12",
+    "https://web.archive.org/web/20081022150027/http://www.peauction.com:80/catlisting.php?id=12",
+    "https://web.archive.org/web/20090223042015/http://peauction.com:80/catlisting.php?id=12",
+    "https://web.archive.org/web/20090802101742/http://www.peauction.com:80/catlisting.php?id=12",
+    "https://web.archive.org/web/20091002013031/http://www.peauction.com:80/catlisting.php?id=12"
+  ],
+  "sold": [],
+  "unsold": [],
+  "readings": [
+    [0, "%", 150.88, 0, 0],
+    [0, "%", 115.83, 1, 2],
+    [0, "%", 116.66, 3, 3],
+    [0, "%", 119.77, 4, 4],
+    [0, "%", 124.01, 5, 5],
+    [0, "%", 124.09, 6, 6],
+    [0, "%", 128.64, 7, 7],
+    [0, "%", 120.1, 8, 8],
+    [0, "%", 122.71, 9, 9],
+    [0, "%", 119.14, 10, 10],
+    [0, "%", 114.77, 11, 11],
+    [0, "%", 145.76, 12, 12],
+    [0, "%", 124.14, 13, 13],
+    [0, "%", 136.01, 14, 14]
+  ],
+  "charts": []
+}

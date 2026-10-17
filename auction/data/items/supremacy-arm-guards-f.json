@@ -1,0 +1,20 @@
+{
+  "item": "supremacy-arm-guards-f",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20060216220622/http://www.peauction.com:80/catlisting.php?id=3",
+    "https://web.archive.org/web/20071009125327/http://www.peauction.com/itemlisting.php?id=2503",
+    "https://web.archive.org/web/20091002013141/http://www.peauction.com:80/catlisting.php?id=3"
+  ],
+  "sold": [
+    [1, 250.82, 15200.0, 61, [[0, "2006-02-11 00:42", 1]]]
+  ],
+  "unsold": [
+    [1, 89.19, 15090.0, [[0, "2006-09-29 18:38", 1]]]
+  ],
+  "readings": [
+    [0, "TT+", 14949.2, 0, 2]
+  ],
+  "charts": []
+}

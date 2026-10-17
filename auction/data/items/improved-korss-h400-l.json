@@ -1,0 +1,48 @@
+{
+  "item": "improved-korss-h400-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20061107140851/http://peauction.com/catlisting.php?id=75",
+    "https://web.archive.org/web/20061225025824/http://peauction.com:80/catlisting.php?id=75",
+    "https://web.archive.org/web/20071007161850/http://www.peauction.com/catlisting.php?id=75",
+    "https://web.archive.org/web/20071012152204/http://peauction.com:80/catlisting.php?id=75",
+    "https://web.archive.org/web/20071212071249/http://peauction.com:80/catlisting.php?id=75",
+    "https://web.archive.org/web/20080210230110/http://www.peauction.com:80/catlisting.php?id=75",
+    "https://web.archive.org/web/20080411151401/http://www.peauction.com:80/catlisting.php?id=75",
+    "https://web.archive.org/web/20080610230754/http://www.peauction.com:80/catlisting.php?id=75",
+    "https://web.archive.org/web/20080801025500/http://www.peauction.com:80/catlisting.php?id=75",
+    "https://web.archive.org/web/20081022150514/http://www.peauction.com:80/catlisting.php?id=75",
+    "https://web.archive.org/web/20090223042451/http://peauction.com:80/catlisting.php?id=75",
+    "https://web.archive.org/web/20090802102238/http://www.peauction.com:80/catlisting.php?id=75",
+    "https://web.archive.org/web/20091002013525/http://www.peauction.com:80/catlisting.php?id=75",
+    "https://web.archive.org/web/20160801214356/http://peauction.com/itemlisting.php?id=3134"
+  ],
+  "sold": [
+    [1, 1957.33, 2659.0, 2, [[0, "2007-08-13 08:17", 13]]],
+    [1, 59.47, 61.0, 2, [[0, "2007-08-20 13:22", 13]]],
+    [1, 1331.19, 2001.0, 2, [[0, "2007-09-19 13:39", 13]]],
+    [1, 59.47, 65.0, 3, [[0, "2007-10-14 13:13", 13]]],
+    [1, 1957.66, 2958.0, 1, [[0, "2007-11-21 23:01", 13]]],
+    [1, 1983.0, 2954.0, 8, [[0, "2008-02-23 17:40", 13]]],
+    [1, 526.93, 831.0, 52, [[0, "2008-03-25 00:03", 13]]],
+    [1, 1800.28, 2702.0, 3, [[0, "2008-07-02 09:10", 13]]],
+    [1, 1564.78, 1855.0, 1, [[0, "2008-11-13 23:25", 13]]],
+    [1, 1983.0, 2582.0, 1, [[0, "2008-12-17 20:27", 13]]],
+    [1, 1961.32, 2404.0, 6, [[0, "2009-01-25 09:43", 13]]],
+    [1, 1983.0, 2359.0, 1, [[0, "2009-01-31 11:18", 13]]],
+    [1, 1514.8, 1821.0, 2, [[0, "2009-03-10 23:56", 13]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "%", 200.27, 0, 0],
+    [0, "%", 185.36, 1, 1],
+    [0, "%", 140.33, 2, 3],
+    [0, "%", 135.35, 4, 5],
+    [0, "%", 138.1, 6, 7],
+    [0, "%", 139.12, 8, 9],
+    [0, "%", 135.78, 10, 10],
+    [0, "%", 132.77, 11, 12]
+  ],
+  "charts": []
+}

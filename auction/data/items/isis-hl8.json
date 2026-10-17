@@ -1,0 +1,22 @@
+{
+  "item": "isis-hl8",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20080610230754/http://www.peauction.com:80/catlisting.php?id=75",
+    "https://web.archive.org/web/20080817052333/http://www.peauction.com:80/catlisting.php?id=75",
+    "https://web.archive.org/web/20081022150514/http://www.peauction.com:80/catlisting.php?id=75",
+    "https://web.archive.org/web/20091002013525/http://www.peauction.com:80/catlisting.php?id=75",
+    "https://web.archive.org/web/20160801193230/http://peauction.com/itemlisting.php?id=4695"
+  ],
+  "sold": [
+    [1, 7694.51, 60000.0, 15, [[0, "2008-06-09 04:58", 4]]],
+    [1, 6011.01, 52012.0, 1, [[0, "2008-09-14 09:02", 4]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 52305.5, 0, 1],
+    [0, "TT+", 49153.2, 2, 3]
+  ],
+  "charts": []
+}

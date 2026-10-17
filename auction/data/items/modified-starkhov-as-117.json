@@ -1,0 +1,29 @@
+{
+  "item": "modified-starkhov-as-117",
+  "markup": "TT+",
+  "sources": ["pea", "pe-player"],
+  "captures": [
+    "https://web.archive.org/web/20041010022429/http://www.pe-player.com:80/auction/list.php?sort=bytype",
+    "https://web.archive.org/web/20060614131751/http://peauction.com:80/catlisting.php?id=74",
+    "https://web.archive.org/web/20070809051224/http://peauction.com:80/itemlisting.php?id=2583",
+    "https://web.archive.org/web/20091002013520/http://www.peauction.com:80/catlisting.php?id=74",
+    "https://web.archive.org/web/20160801123458/http://peauction.com/itemlisting.php?id=2583"
+  ],
+  "sold": [
+    [1, 218.01, 25000.0, 0, [[1, "2004-08-19 21:35", 0]]],
+    [1, 1700.0, 18700.0, 1, [[0, "2006-03-14 23:55", 2]]]
+  ],
+  "unsold": [
+    [1, 1700.0, 25700.0, [[0, "2006-03-22 22:37", 2]]],
+    [1, 1700.0, 23700.0, [[0, "2006-03-25 16:07", 2]]],
+    [1, 1656.85, 78500.0, [[0, "2007-09-09 00:04", 4]]],
+    [1, 1578.97, 75000.0, [[0, "2007-10-09 22:53", 4]]],
+    [1, 1578.97, 75579.0, [[0, "2007-10-17 01:38", 4]]],
+    [1, 1265.02, 124266.0, [[0, "2008-02-09 16:07", 4]]],
+    [1, 1265.02, 85266.0, [[0, "2008-02-20 15:17", 4]]]
+  ],
+  "readings": [
+    [0, "TT+", 17000.0, 1, 3]
+  ],
+  "charts": []
+}

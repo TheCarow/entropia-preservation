@@ -1,0 +1,42 @@
+{
+  "item": "rutic-slo-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071008003400/http://www.peauction.com/catlisting.php?id=71",
+    "https://web.archive.org/web/20071012152144/http://peauction.com:80/catlisting.php?id=71",
+    "https://web.archive.org/web/20071212071228/http://peauction.com:80/catlisting.php?id=71",
+    "https://web.archive.org/web/20080210224930/http://www.peauction.com:80/catlisting.php?id=71",
+    "https://web.archive.org/web/20080411151339/http://www.peauction.com:80/catlisting.php?id=71",
+    "https://web.archive.org/web/20080610222950/http://www.peauction.com:80/catlisting.php?id=71",
+    "https://web.archive.org/web/20080801024537/http://www.peauction.com:80/catlisting.php?id=71",
+    "https://web.archive.org/web/20080817052318/http://www.peauction.com:80/catlisting.php?id=71",
+    "https://web.archive.org/web/20080818212944/http://www.peauction.com:80/catlisting.php?id=71",
+    "https://web.archive.org/web/20081022150454/http://www.peauction.com:80/catlisting.php?id=71",
+    "https://web.archive.org/web/20090223042431/http://peauction.com:80/catlisting.php?id=71",
+    "https://web.archive.org/web/20090802102218/http://www.peauction.com:80/catlisting.php?id=71",
+    "https://web.archive.org/web/20091002013506/http://www.peauction.com:80/catlisting.php?id=71",
+    "https://web.archive.org/web/20160802005557/http://peauction.com/itemlisting.php?id=3896"
+  ],
+  "sold": [
+    [1, 590.0, 602.0, 13, [[0, "2009-03-10 12:53", 13]]],
+    [1, 590.0, 590.0, 1, [[0, "2009-03-11 12:47", 13]]],
+    [1, 34.55, 35.0, 1, [[0, "2009-04-15 04:48", 13]]],
+    [1, 4.94, 5.0, 3, [[0, "2009-09-08 01:30", 13]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "%", 110.93, 0, 1],
+    [0, "%", 105.34, 2, 2],
+    [0, "%", 103.93, 3, 3],
+    [0, "%", 103.01, 4, 4],
+    [0, "%", 101.96, 5, 5],
+    [0, "%", 102.08, 6, 6],
+    [0, "%", 101.63, 7, 8],
+    [0, "%", 103.04, 9, 9],
+    [0, "%", 102.94, 10, 10],
+    [0, "%", 102.1, 11, 11],
+    [0, "%", 101.37, 12, 12]
+  ],
+  "charts": []
+}

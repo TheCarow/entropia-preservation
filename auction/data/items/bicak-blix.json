@@ -1,0 +1,21 @@
+{
+  "item": "bicak-blix",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20090802102223/http://www.peauction.com:80/catlisting.php?id=72",
+    "https://web.archive.org/web/20091002013510/http://www.peauction.com:80/catlisting.php?id=72",
+    "https://web.archive.org/web/20160801073912/http://peauction.com/itemlisting.php?id=6016"
+  ],
+  "sold": [
+    [1, 4455.96, 28456.0, 1, [[0, "2008-06-03 03:28", 2]]],
+    [1, 4652.41, 29653.0, 1, [[0, "2008-06-10 05:53", 2]]],
+    [1, 4635.0, 15636.0, 1, [[0, "2009-03-09 22:00", 2]]],
+    [1, 5867.47, 18997.0, 31, [[0, "2009-05-05 17:38", 2]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 18282.8, 0, 1]
+  ],
+  "charts": []
+}

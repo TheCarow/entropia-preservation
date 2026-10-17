@@ -1,0 +1,22 @@
+{
+  "item": "oreamp-oa-107-blueprint-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20070805183422/http://peauction.com:80/catlisting.php?id=24",
+    "https://web.archive.org/web/20071108175502/http://www.peauction.com/itemlisting.php?id=3058",
+    "https://web.archive.org/web/20091002013048/http://www.peauction.com:80/catlisting.php?id=19",
+    "https://web.archive.org/web/20160801125733/http://peauction.com/itemlisting.php?id=3058"
+  ],
+  "sold": [
+    [1, 0.26, 3018.0, 18, [[0, "2007-03-24 20:30", 1]]],
+    [1, 0.26, 3018.0, 18, [[0, "2007-03-24 21:30", 3]]]
+  ],
+  "unsold": [
+    [1, 0.09, 2999.0, [[0, "2006-08-16 04:43", 1]]]
+  ],
+  "readings": [
+    [0, "%", 1160770.0, 0, 2]
+  ],
+  "charts": []
+}

@@ -1,0 +1,42 @@
+{
+  "item": "breer-p4a-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20060718024126/http://www.peauction.com:80/catlisting.php?id=74",
+    "https://web.archive.org/web/20060718064012/http://www.peauction.com:80/catlisting.php?id=74",
+    "https://web.archive.org/web/20060929155503/http://peauction.com:80/catlisting.php?id=75",
+    "https://web.archive.org/web/20061107140851/http://peauction.com/catlisting.php?id=75",
+    "https://web.archive.org/web/20061225025824/http://peauction.com:80/catlisting.php?id=75",
+    "https://web.archive.org/web/20071007161850/http://www.peauction.com/catlisting.php?id=75",
+    "https://web.archive.org/web/20071012152204/http://peauction.com:80/catlisting.php?id=75",
+    "https://web.archive.org/web/20071212071249/http://peauction.com:80/catlisting.php?id=75",
+    "https://web.archive.org/web/20080210230110/http://www.peauction.com:80/catlisting.php?id=75",
+    "https://web.archive.org/web/20080411151401/http://www.peauction.com:80/catlisting.php?id=75",
+    "https://web.archive.org/web/20080610230754/http://www.peauction.com:80/catlisting.php?id=75",
+    "https://web.archive.org/web/20080801025500/http://www.peauction.com:80/catlisting.php?id=75",
+    "https://web.archive.org/web/20080817052333/http://www.peauction.com:80/catlisting.php?id=75",
+    "https://web.archive.org/web/20081022150514/http://www.peauction.com:80/catlisting.php?id=75",
+    "https://web.archive.org/web/20090223042451/http://peauction.com:80/catlisting.php?id=75",
+    "https://web.archive.org/web/20090802102238/http://www.peauction.com:80/catlisting.php?id=75",
+    "https://web.archive.org/web/20091002013525/http://www.peauction.com:80/catlisting.php?id=75"
+  ],
+  "sold": [],
+  "unsold": [],
+  "readings": [
+    [0, "%", 143.62, 0, 1],
+    [0, "%", 135.13, 2, 3],
+    [0, "%", 146.82, 4, 4],
+    [0, "%", 133.88, 5, 6],
+    [0, "%", 134.84, 7, 7],
+    [0, "%", 118.24, 8, 8],
+    [0, "%", 103.73, 9, 9],
+    [0, "%", 106.55, 10, 10],
+    [0, "%", 104.91, 11, 12],
+    [0, "%", 104.51, 13, 13],
+    [0, "%", 105.92, 14, 14],
+    [0, "%", 103.85, 15, 15],
+    [0, "%", 103.56, 16, 16]
+  ],
+  "charts": []
+}

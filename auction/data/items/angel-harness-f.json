@@ -1,0 +1,56 @@
+{
+  "item": "angel-harness-f",
+  "markup": "TT+",
+  "sources": ["pea", "pe-player"],
+  "captures": [
+    "https://web.archive.org/web/20040807114142/http://www.pe-player.com:80/auction/list.php?sort=bytype",
+    "https://web.archive.org/web/20040807114428/http://www.pe-player.com:80/auction/list.php?sort=notbidded&numrows=100",
+    "https://web.archive.org/web/20060216220732/http://www.peauction.com:80/catlisting.php?id=6",
+    "https://web.archive.org/web/20060614130545/http://peauction.com:80/catlisting.php?id=6",
+    "https://web.archive.org/web/20060721094317/http://www.peauction.com:80/catlisting.php?id=6",
+    "https://web.archive.org/web/20061107141611/http://peauction.com/catlisting.php?id=6",
+    "https://web.archive.org/web/20070105004542/http://peauction.com:80/catlisting.php?id=6",
+    "https://web.archive.org/web/20070107092747/http://peauction.com:80/itemlisting.php?id=1940&old=1",
+    "https://web.archive.org/web/20070502022303/http://peauction.com:80/catlisting.php?id=6",
+    "https://web.archive.org/web/20071107191416/http://www.peauction.com/itemlisting.php?id=1940",
+    "https://web.archive.org/web/20071107191436/http://www.peauction.com/chart2.php?id=1940&dtype=0",
+    "https://web.archive.org/web/20091002013404/http://www.peauction.com:80/catlisting.php?id=6",
+    "https://web.archive.org/web/20160801194525/http://peauction.com/itemlisting.php?id=1940"
+  ],
+  "sold": [
+    [1, 58.45, 2259.0, 0, [[1, "2004-07-09 22:31", 0]]],
+    [1, 95.55, 2099.0, 0, [[1, "2004-08-07 11:35", 1]]],
+    [1, 99.0, 3499.0, 1, [[0, "2005-12-26 14:14", 7]]],
+    [1, 9.96, 3525.0, 5, [[0, "2006-07-01 21:44", 7]]],
+    [1, 9.39, 3211.0, 2, [[0, "2006-07-12 08:43", 7]]],
+    [1, 99.0, 3500.0, 40, [[0, "2006-08-14 01:40", 7]]],
+    [1, 97.61, 3333.0, 57, [[0, "2006-09-09 03:00", 7]]],
+    [1, 58.44, 3596.0, 42, [[0, "2007-03-16 21:01", 9]]],
+    [1, 58.44, 3596.0, 42, [[0, "2007-03-16 22:01", 12]]]
+  ],
+  "unsold": [
+    [1, 99.0, 2991.0, [[0, "2005-11-12 22:54", 7]]],
+    [1, 77.68, 3678.0, [[0, "2005-11-28 23:38", 7]]],
+    [1, 68.41, 4000.0, [[0, "2005-12-14 03:35", 7]]],
+    [1, 99.0, 3999.0, [[0, "2005-12-16 01:05", 7]]],
+    [1, 99.0, 7007.0, [[0, "2006-04-05 15:13", 7]]],
+    [1, 99.0, 5099.0, [[0, "2006-04-22 12:44", 7]]],
+    [1, 13.13, 4013.0, [[0, "2006-05-13 15:59", 7]]],
+    [1, 99.0, 4099.0, [[0, "2006-07-10 11:48", 7]]],
+    [1, 96.09, 3477.0, [[0, "2006-07-23 15:30", 7]]],
+    [1, 19.15, 3500.0, [[0, "2006-09-29 18:18", 7]]],
+    [1, 19.15, 3333.0, [[0, "2006-10-06 18:34", 7]]],
+    [1, 32.11, 3233.0, [[0, "2006-10-18 16:16", 7]]],
+    [1, 97.41, 4097.0, [[0, "2006-11-20 18:27", 7]]],
+    [1, 59.41, 3900.0, [[0, "2006-12-25 08:08", 7]]]
+  ],
+  "readings": [
+    [0, "TT+", 3400.0, 2, 3],
+    [0, "TT+", 3372.22, 4, 4],
+    [0, "TT+", 3350.61, 5, 6],
+    [0, "TT+", 3381.77, 8, 11]
+  ],
+  "charts": [
+    [0, 10, "1940-0-20071107191436.png"]
+  ]
+}

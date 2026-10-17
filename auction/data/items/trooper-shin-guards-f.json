@@ -1,0 +1,35 @@
+{
+  "item": "trooper-shin-guards-f",
+  "markup": "TT+",
+  "sources": ["pea", "pe-player"],
+  "captures": [
+    "https://web.archive.org/web/20050130134118/http://www.pe-player.com:80/auction/list.php?sort=bytype",
+    "https://web.archive.org/web/20060721094428/http://www.peauction.com:80/catlisting.php?id=8",
+    "https://web.archive.org/web/20061107141359/http://peauction.com/catlisting.php?id=8",
+    "https://web.archive.org/web/20070611154526/http://peauction.com:80/itemlisting.php?id=2466",
+    "https://web.archive.org/web/20070805003718/http://peauction.com:80/catlisting.php?id=8",
+    "https://web.archive.org/web/20091002013550/http://www.peauction.com:80/catlisting.php?id=8"
+  ],
+  "sold": [
+    [1, 8.11, 80.0, 0, [[1, "2004-10-17 20:55", 0]]],
+    [1, 5.49, 8.0, 2, [[0, "2006-07-05 00:33", 3]]],
+    [1, 5.49, 37.0, 14, [[0, "2007-01-29 15:20", 3]]],
+    [1, 5.49, 7.0, 2, [[0, "2007-02-24 13:49", 3]]]
+  ],
+  "unsold": [
+    [1, 19.98, 1020.0, [[0, "2006-02-03 18:00", 3]]],
+    [1, 5.49, 105.0, [[0, "2006-07-07 14:14", 3]]],
+    [1, 5.49, 99.0, [[0, "2006-07-21 11:30", 3]]],
+    [1, 5.49, 145.0, [[0, "2006-08-23 20:53", 3]]],
+    [1, 5.49, 76.0, [[0, "2006-10-22 15:05", 3]]],
+    [1, 5.49, 76.0, [[0, "2006-11-01 12:25", 3]]],
+    [1, 5.49, 56.0, [[0, "2006-11-16 13:53", 3]]],
+    [1, 5.49, 50.0, [[0, "2007-02-05 18:04", 3]]],
+    [1, 5.49, 25.0, [[0, "2007-02-20 10:35", 3]]]
+  ],
+  "readings": [
+    [0, "TT+", 2.51, 1, 2],
+    [0, "TT+", 11.84, 4, 5]
+  ],
+  "charts": []
+}

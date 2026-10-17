@@ -1,0 +1,26 @@
+{
+  "item": "triphased-intelligence-module",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071008002943/http://www.peauction.com/catlisting.php?id=38",
+    "https://web.archive.org/web/20080801024434/http://www.peauction.com:80/catlisting.php?id=38",
+    "https://web.archive.org/web/20080817052223/http://www.peauction.com:80/catlisting.php?id=38",
+    "https://web.archive.org/web/20090802101937/http://www.peauction.com:80/catlisting.php?id=38",
+    "https://web.archive.org/web/20091002013226/http://www.peauction.com:80/catlisting.php?id=38",
+    "https://web.archive.org/web/20160802011348/http://peauction.com/itemlisting.php?id=3069"
+  ],
+  "sold": [
+    [58, 29.0, 29.0, 1, [[0, "2007-03-23 11:29", 5]]],
+    [61, 30.96, 37.0, 7, [[0, "2008-08-02 04:57", 5]]],
+    [61, 30.96, 67.0, 21, [[0, "2008-08-03 11:53", 5]]],
+    [254, 127.0, 204.0, 23, [[0, "2009-09-10 22:20", 5]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "%", 100.0, 0, 1],
+    [0, "%", 146.06, 2, 3],
+    [0, "%", 154.59, 4, 4]
+  ],
+  "charts": []
+}

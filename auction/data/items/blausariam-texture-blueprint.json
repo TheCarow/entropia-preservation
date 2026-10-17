@@ -1,0 +1,21 @@
+{
+  "item": "blausariam-texture-blueprint",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20090802101821/http://www.peauction.com:80/catlisting.php?id=23",
+    "https://web.archive.org/web/20091002013109/http://www.peauction.com:80/catlisting.php?id=23",
+    "https://web.archive.org/web/20160801185240/http://peauction.com/itemlisting.php?id=5411"
+  ],
+  "sold": [
+    [1, 0.01, 1.0, 1, [[0, "2009-07-26 02:34", 2]]],
+    [1, 0.01, 1.0, 1, [[0, "2009-07-31 08:28", 2]]],
+    [1, 0.01, 1.0, 1, [[0, "2009-08-21 13:40", 2]]],
+    [1, 0.01, 1.0, 1, [[0, "2009-09-24 20:32", 2]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 1.27, 0, 1]
+  ],
+  "charts": []
+}

@@ -1,0 +1,21 @@
+{
+  "item": "pile-of-rubys",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20090802102051/http://www.peauction.com:80/catlisting.php?id=53",
+    "https://web.archive.org/web/20091002013337/http://www.peauction.com:80/catlisting.php?id=53",
+    "https://web.archive.org/web/20160801205528/http://peauction.com/itemlisting.php?id=5403"
+  ],
+  "sold": [
+    [1, 40.0, 45.0, 5, [[0, "2007-12-30 12:29", 2]]],
+    [1, 40.0, 40.0, 1, [[0, "2007-12-31 12:44", 2]]]
+  ],
+  "unsold": [
+    [10, 400.0, 600.0, [[0, "2007-12-22 10:44", 2]]]
+  ],
+  "readings": [
+    [0, "%", 106.25, 0, 1]
+  ],
+  "charts": []
+}

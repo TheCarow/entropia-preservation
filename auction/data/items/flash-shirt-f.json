@@ -1,0 +1,15 @@
+{
+  "item": "flash-shirt-f",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20060721094031/http://www.peauction.com:80/catlisting.php?id=34",
+    "https://web.archive.org/web/20060805180055/http://peauction.com:80/catlisting.php?id=34"
+  ],
+  "sold": [],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 2.93, 0, 1]
+  ],
+  "charts": []
+}

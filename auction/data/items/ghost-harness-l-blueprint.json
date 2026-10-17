@@ -1,0 +1,48 @@
+{
+  "item": "ghost-harness-l-blueprint",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20070803140920/http://peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20071007162213/http://www.peauction.com/catlisting.php?id=18",
+    "https://web.archive.org/web/20071012151726/http://peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20071212065901/http://peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20080210210002/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20080411150913/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20080610174500/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20080801024921/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20080817052548/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20081022150037/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20090223042022/http://peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20090802101753/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20091002013041/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20160801075341/http://peauction.com/itemlisting.php?id=3656"
+  ],
+  "sold": [
+    [1, 0.01, 37.0, 12, [[0, "2008-04-05 03:48", 13]]],
+    [1, 0.01, 3.0, 3, [[0, "2008-04-12 21:38", 13]]],
+    [1, 0.01, 50.0, 10, [[0, "2008-06-15 17:54", 13]]],
+    [1, 0.01, 80.0, 54, [[0, "2008-08-23 16:35", 13]]],
+    [1, 0.01, 50.0, 1, [[0, "2008-08-24 21:35", 13]]],
+    [1, 0.01, 45.0, 1, [[0, "2008-10-18 17:44", 13]]],
+    [1, 0.01, 45.0, 1, [[0, "2008-10-31 15:05", 13]]],
+    [1, 0.01, 7.0, 6, [[0, "2008-11-26 18:36", 13]]],
+    [1, 0.01, 44.0, 1, [[0, "2008-12-03 18:56", 13]]],
+    [1, 0.01, 4.0, 4, [[0, "2009-04-02 04:19", 13]]],
+    [1, 0.01, 11.0, 11, [[0, "2009-05-26 22:19", 13]]],
+    [1, 0.01, 21.0, 8, [[0, "2009-07-18 15:40", 13]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "%", 1030000.0, 0, 0],
+    [0, "%", 1082000.0, 1, 2],
+    [0, "%", 910000.0, 3, 4],
+    [0, "%", 738000.0, 5, 5],
+    [0, "%", 603000.0, 6, 6],
+    [0, "%", 514000.0, 7, 8],
+    [0, "%", 417000.0, 9, 9],
+    [0, "%", 371000.0, 10, 10],
+    [0, "%", 357000.0, 11, 12]
+  ],
+  "charts": []
+}

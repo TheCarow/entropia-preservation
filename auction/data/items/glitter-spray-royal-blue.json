@@ -1,0 +1,29 @@
+{
+  "item": "glitter-spray-royal-blue",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20090802102135/http://www.peauction.com:80/catlisting.php?id=63",
+    "https://web.archive.org/web/20091002013420/http://www.peauction.com:80/catlisting.php?id=63",
+    "https://web.archive.org/web/20091003150251/http://www.peauction.com:80/catlisting.php?id=63",
+    "https://web.archive.org/web/20160801184429/http://peauction.com/itemlisting.php?id=5580"
+  ],
+  "sold": [
+    [1, 17.0, 18.0, 2, [[0, "2008-12-20 16:32", 3]]],
+    [1, 17.0, 17.0, 1, [[0, "2008-12-23 07:17", 3]]],
+    [1, 17.0, 29.0, 8, [[0, "2009-02-15 19:44", 3]]],
+    [1, 17.0, 20.0, 4, [[0, "2009-06-01 15:05", 3]]],
+    [1, 17.0, 18.0, 1, [[0, "2009-10-01 02:30", 3]]]
+  ],
+  "unsold": [
+    [1, 17.0, 87.0, [[0, "2008-11-12 10:20", 3]]],
+    [1, 17.0, 45.0, [[0, "2008-12-21 20:02", 3]]],
+    [1, 17.0, 38.0, [[0, "2009-09-15 19:54", 3]]],
+    [1, 17.0, 37.0, [[0, "2009-09-19 20:48", 3]]]
+  ],
+  "readings": [
+    [0, "TT+", 4.0, 0, 0],
+    [0, "TT+", 3.4, 1, 2]
+  ],
+  "charts": []
+}

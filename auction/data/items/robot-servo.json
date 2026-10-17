@@ -1,0 +1,56 @@
+{
+  "item": "robot-servo",
+  "markup": "%",
+  "sources": ["pea", "mytwopecs"],
+  "captures": [
+    "https://web.archive.org/web/20060216221016/http://www.peauction.com:80/catlisting.php?id=38",
+    "https://web.archive.org/web/20060721094133/http://www.peauction.com:80/catlisting.php?id=38",
+    "https://web.archive.org/web/20060805180310/http://peauction.com:80/catlisting.php?id=38",
+    "https://web.archive.org/web/20060830080546/http://www.mytwopecs.com:80/feed-beta/robotics.xml",
+    "https://web.archive.org/web/20060908032948/http://peauction.com:80/catlisting.php?id=38",
+    "https://web.archive.org/web/20061107141732/http://peauction.com/catlisting.php?id=38",
+    "https://web.archive.org/web/20061218190934/http://peauction.com:80/itemlisting.php?id=2067",
+    "https://web.archive.org/web/20070120060510/http://www.mytwopecs.com:80/feed-beta/robotics.xml",
+    "https://web.archive.org/web/20070302125015/http://mytwopecs.com:80/feed-beta/robotics.xml",
+    "https://web.archive.org/web/20070610030733/http://peauction.com:80/catlisting.php?id=54",
+    "https://web.archive.org/web/20071229222146/http://www.mytwopecs.com:80/feed-beta/robotics.xml",
+    "https://web.archive.org/web/20080509072151/http://www.mytwopecs.com/feed-beta/robotics.xml",
+    "https://web.archive.org/web/20090223042316/http://peauction.com:80/catlisting.php?id=54",
+    "https://web.archive.org/web/20090327053724/http://www.mytwopecs.com:80/feed-beta/robotics.xml",
+    "https://web.archive.org/web/20090921135426/http://www.peauction.com:80/catlisting.php?id=54",
+    "https://web.archive.org/web/20160801184824/http://peauction.com/itemlisting.php?id=2067"
+  ],
+  "sold": [
+    [1, 3.28, 40.0, 2, [[0, "2005-11-22 04:55", 6]]],
+    [1, 4.79, 70.0, 21, [[0, "2006-01-20 02:49", 6]]],
+    [1, 17.0, 196.0, 1, [[0, "2006-07-29 07:58", 6]]],
+    [1, 5.86, 55.0, 1, [[0, "2007-01-31 16:17", 15]]],
+    [1, 5.41, 90.0, 20, [[0, "2009-05-08 17:48", 15]]]
+  ],
+  "unsold": [
+    [1, 5.85, 56.0, [[0, "2005-12-25 11:36", 6]]],
+    [1, 17.0, 1900.0, [[0, "2006-03-13 18:05", 6]]],
+    [1, 17.0, 550.0, [[0, "2006-03-21 04:11", 6]]],
+    [1, 17.0, 750.0, [[0, "2006-03-27 06:40", 6]]],
+    [1, 5.1, 1606.0, [[0, "2006-04-20 05:10", 6]]],
+    [1, 12.41, 313.0, [[0, "2006-04-26 11:04", 6]]],
+    [1, 12.41, 210.0, [[0, "2006-05-03 13:31", 6]]],
+    [1, 17.0, 500.0, [[0, "2006-05-27 10:24", 6]]],
+    [1, 17.0, 2000.0, [[0, "2006-06-26 13:51", 6]]],
+    [1, 17.0, 1000.0, [[0, "2006-07-15 20:11", 6]]],
+    [1, 17.0, 520.0, [[0, "2006-07-21 12:18", 6]]],
+    [1, 17.0, 720.0, [[0, "2006-08-13 16:28", 6]]],
+    [1, 4.79, 305.0, [[0, "2009-04-07 00:12", 15]]]
+  ],
+  "readings": [
+    [0, "TT+", 50.97, 0, 1],
+    [0, "TT+", 93.64, 2, 4],
+    [0, "%", 1277.94, 5, 5],
+    [0, "%", 1193.1, 9, 12],
+    [0, "TT+", 82.93, 14, 14],
+    [1, "%", 48.78, 3, 7],
+    [1, "%", 48.83, 8, 10],
+    [1, "%", 54.66, 11, 13]
+  ],
+  "charts": []
+}

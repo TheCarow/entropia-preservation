@@ -1,0 +1,18 @@
+{
+  "item": "feodora-blueprint",
+  "markup": "TT+",
+  "sources": ["pea", "pe-player"],
+  "captures": [
+    "https://web.archive.org/web/20050130134118/http://www.pe-player.com:80/auction/list.php?sort=bytype",
+    "https://web.archive.org/web/20160801183908/http://peauction.com/itemlisting.php?id=3061"
+  ],
+  "sold": [
+    [1, 0.02, 2499.0, 0, [[1, "2005-01-16 02:50", 0]]]
+  ],
+  "unsold": [
+    [1, 0.02, 5999.0, [[0, "2006-08-16 17:17", 1]]],
+    [1, 0.09, 6001.0, [[0, "2009-08-11 19:26", 1]]]
+  ],
+  "readings": [],
+  "charts": []
+}

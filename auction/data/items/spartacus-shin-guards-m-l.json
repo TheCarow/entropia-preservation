@@ -1,0 +1,32 @@
+{
+  "item": "spartacus-shin-guards-m-l",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071008004017/http://www.peauction.com/catlisting.php?id=8",
+    "https://web.archive.org/web/20071012152229/http://peauction.com:80/catlisting.php?id=8",
+    "https://web.archive.org/web/20071212071315/http://peauction.com:80/catlisting.php?id=8",
+    "https://web.archive.org/web/20080210230149/http://www.peauction.com:80/catlisting.php?id=8",
+    "https://web.archive.org/web/20080411151429/http://www.peauction.com:80/catlisting.php?id=8",
+    "https://web.archive.org/web/20080610230819/http://www.peauction.com:80/catlisting.php?id=8",
+    "https://web.archive.org/web/20080801024557/http://www.peauction.com:80/catlisting.php?id=8",
+    "https://web.archive.org/web/20080818213009/http://www.peauction.com:80/catlisting.php?id=8",
+    "https://web.archive.org/web/20081022150540/http://www.peauction.com:80/catlisting.php?id=8",
+    "https://web.archive.org/web/20090223042516/http://peauction.com:80/catlisting.php?id=8",
+    "https://web.archive.org/web/20090802102303/http://www.peauction.com:80/catlisting.php?id=8",
+    "https://web.archive.org/web/20091002013550/http://www.peauction.com:80/catlisting.php?id=8"
+  ],
+  "sold": [],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 177.37, 0, 1],
+    [0, "TT+", 183.92, 2, 3],
+    [0, "TT+", 207.04, 4, 5],
+    [0, "TT+", 266.69, 6, 7],
+    [0, "TT+", 286.53, 8, 8],
+    [0, "TT+", 294.76, 9, 9],
+    [0, "%", 168.21, 10, 10],
+    [0, "%", 162.59, 11, 11]
+  ],
+  "charts": []
+}

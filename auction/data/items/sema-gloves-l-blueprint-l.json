@@ -1,0 +1,50 @@
+{
+  "item": "sema-gloves-l-blueprint-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20070803140920/http://peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20071007162213/http://www.peauction.com/catlisting.php?id=18",
+    "https://web.archive.org/web/20071012151726/http://peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20071212065901/http://peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20080210210002/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20080411150913/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20080610174500/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20080801024921/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20080817052548/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20081022150037/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20090223042022/http://peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20090802101753/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20091002013041/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20160801064038/http://peauction.com/itemlisting.php?id=3837"
+  ],
+  "sold": [
+    [1, 0.27, 1.0, 1, [[0, "2009-01-07 13:32", 13]]],
+    [1, 0.15, 1.0, 1, [[0, "2009-02-09 15:04", 13]]],
+    [1, 0.27, 1.0, 1, [[0, "2009-02-09 17:54", 13]]],
+    [1, 0.24, 1.0, 1, [[0, "2009-02-24 06:08", 13]]],
+    [1, 0.38, 8.0, 4, [[0, "2009-03-15 19:13", 13]]],
+    [1, 0.31, 2.0, 2, [[0, "2009-03-20 22:58", 13]]],
+    [1, 0.07, 2.0, 2, [[0, "2009-03-21 03:46", 13]]],
+    [1, 0.2, 1.0, 1, [[0, "2009-03-22 03:45", 13]]],
+    [1, 0.42, 3.0, 3, [[0, "2009-03-29 01:09", 13]]],
+    [1, 0.28, 1.0, 1, [[0, "2009-05-12 17:25", 13]]],
+    [1, 0.27, 2.0, 2, [[0, "2009-06-14 16:49", 13]]],
+    [1, 0.37, 2.0, 2, [[0, "2009-06-25 17:36", 13]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "%", 6774.38, 0, 0],
+    [0, "%", 3428.61, 1, 1],
+    [0, "%", 4044.55, 2, 2],
+    [0, "%", 3554.93, 3, 3],
+    [0, "%", 2944.94, 4, 4],
+    [0, "%", 2001.56, 5, 5],
+    [0, "%", 1520.74, 6, 6],
+    [0, "%", 1309.22, 7, 8],
+    [0, "%", 913.41, 9, 9],
+    [0, "%", 565.92, 10, 10],
+    [0, "%", 924.73, 11, 12]
+  ],
+  "charts": []
+}

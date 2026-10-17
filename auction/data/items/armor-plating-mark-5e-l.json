@@ -1,0 +1,29 @@
+{
+  "item": "armor-plating-mark-5e-l",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20080610174444/http://www.peauction.com:80/catlisting.php?id=11",
+    "https://web.archive.org/web/20080801024906/http://www.peauction.com:80/catlisting.php?id=11",
+    "https://web.archive.org/web/20080817052538/http://www.peauction.com:80/catlisting.php?id=11",
+    "https://web.archive.org/web/20080818212747/http://www.peauction.com:80/catlisting.php?id=11",
+    "https://web.archive.org/web/20081022150021/http://www.peauction.com:80/catlisting.php?id=11",
+    "https://web.archive.org/web/20090205055202/http://www.peauction.com:80/catlisting.php?id=11",
+    "https://web.archive.org/web/20090304065533/http://peauction.com:80/catlisting.php?id=11",
+    "https://web.archive.org/web/20090802101737/http://www.peauction.com:80/catlisting.php?id=11",
+    "https://web.archive.org/web/20091002013026/http://www.peauction.com:80/catlisting.php?id=11"
+  ],
+  "sold": [],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 47.93, 0, 0],
+    [0, "TT+", 50.14, 1, 1],
+    [0, "TT+", 48.6, 2, 3],
+    [0, "TT+", 31.26, 4, 4],
+    [0, "TT+", 11.26, 5, 5],
+    [0, "TT+", 13.14, 6, 6],
+    [0, "%", 131.35, 7, 7],
+    [0, "%", 144.01, 8, 8]
+  ],
+  "charts": []
+}

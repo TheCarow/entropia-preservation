@@ -1,0 +1,44 @@
+{
+  "item": "zombie-arm-guards-f-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071009124602/http://www.peauction.com/itemlisting.php?id=4734",
+    "https://web.archive.org/web/20071009125604/http://www.peauction.com/itemlisting.php?id=3623",
+    "https://web.archive.org/web/20080411151012/http://www.peauction.com:80/catlisting.php?id=3",
+    "https://web.archive.org/web/20080818212822/http://www.peauction.com:80/catlisting.php?id=3",
+    "https://web.archive.org/web/20081022150132/http://www.peauction.com:80/catlisting.php?id=3",
+    "https://web.archive.org/web/20090223042118/http://peauction.com:80/catlisting.php?id=3",
+    "https://web.archive.org/web/20090802101850/http://www.peauction.com:80/catlisting.php?id=3",
+    "https://web.archive.org/web/20091002013141/http://www.peauction.com:80/catlisting.php?id=3",
+    "https://web.archive.org/web/20160801212408/http://peauction.com/itemlisting.php?id=4734"
+  ],
+  "sold": [
+    [1, 40.0, 42.0, 1, [[0, "2008-03-30 11:13", 8]]],
+    [1, 40.0, 41.0, 2, [[0, "2008-04-06 12:28", 8]]],
+    [1, 40.0, 41.0, 2, [[0, "2008-04-10 06:28", 8]]],
+    [1, 40.0, 40.0, 1, [[0, "2008-09-06 20:22", 8]]],
+    [1, 39.64, 40.0, 1, [[0, "2008-10-13 21:18", 8]]],
+    [1, 39.64, 41.0, 1, [[0, "2008-10-29 03:35", 8]]],
+    [1, 40.0, 44.0, 1, [[0, "2008-11-09 16:35", 8]]],
+    [1, 40.0, 43.0, 1, [[0, "2008-12-09 20:31", 8]]],
+    [1, 40.0, 41.0, 2, [[0, "2009-01-23 12:28", 8]]]
+  ],
+  "unsold": [
+    [1, 40.0, 59.0, [[0, "2007-01-06 12:05", 1]]],
+    [1, 40.0, 56.0, [[0, "2007-01-08 10:42", 1]]],
+    [1, 40.0, 55.0, [[0, "2007-01-09 18:51", 1]]],
+    [1, 40.0, 55.0, [[0, "2007-01-11 05:50", 1]]],
+    [1, 35.36, 36.0, [[0, "2007-01-14 00:28", 1]]],
+    [1, 9.54, 11.0, [[0, "2007-01-26 10:07", 1]]],
+    [1, 40.0, 50.0, [[0, "2007-04-11 03:31", 1]]],
+    [1, 40.0, 52.0, [[0, "2007-09-23 20:25", 0]]]
+  ],
+  "readings": [
+    [0, "TT+", 1.33, 2, 3],
+    [0, "TT+", 0.87, 4, 4],
+    [0, "TT+", 1.52, 5, 5],
+    [0, "%", 103.82, 6, 7]
+  ],
+  "charts": []
+}

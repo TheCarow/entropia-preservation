@@ -1,0 +1,25 @@
+{
+  "item": "navy-officer-pants-blueprint-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20090802101821/http://www.peauction.com:80/catlisting.php?id=23",
+    "https://web.archive.org/web/20091002013109/http://www.peauction.com:80/catlisting.php?id=23",
+    "https://web.archive.org/web/20160801183925/http://peauction.com/itemlisting.php?id=5096"
+  ],
+  "sold": [
+    [1, 0.03, 42.0, 10, [[0, "2007-11-24 17:51", 2]]],
+    [1, 0.12, 38.0, 8, [[0, "2008-02-26 21:40", 2]]],
+    [1, 0.03, 5.0, 5, [[0, "2008-03-17 17:46", 2]]],
+    [1, 0.08, 39.0, 19, [[0, "2009-03-13 00:14", 2]]],
+    [1, 0.4, 96.0, 2, [[0, "2009-04-03 01:26", 2]]],
+    [1, 0.39, 188.0, 1, [[0, "2009-06-23 17:47", 2]]]
+  ],
+  "unsold": [
+    [1, 0.21, 242.0, [[0, "2008-02-05 15:07", 2]]]
+  ],
+  "readings": [
+    [0, "%", 51548.1, 0, 1]
+  ],
+  "charts": []
+}

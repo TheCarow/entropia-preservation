@@ -1,0 +1,14 @@
+{
+  "item": "genesis-firefly",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20160801074006/http://peauction.com/itemlisting.php?id=6105"
+  ],
+  "sold": [],
+  "unsold": [
+    [1, 6831.94, 66832.0, [[0, "2008-07-12 17:22", 0]]]
+  ],
+  "readings": [],
+  "charts": []
+}

@@ -1,0 +1,18 @@
+{
+  "item": "medium-abbey-valance-blueprint-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20070610030855/http://peauction.com:80/catlisting.php?id=77",
+    "https://web.archive.org/web/20071110001025/http://www.peauction.com/itemlisting.php?id=3670",
+    "https://web.archive.org/web/20091002013535/http://www.peauction.com:80/catlisting.php?id=77"
+  ],
+  "sold": [
+    [1, 0.74, 40.0, 20, [[0, "2007-01-26 11:42", 1]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "%", 5405.41, 0, 2]
+  ],
+  "charts": []
+}

@@ -1,0 +1,21 @@
+{
+  "item": "loughlin-masher-two",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20090802102213/http://www.peauction.com:80/catlisting.php?id=70",
+    "https://web.archive.org/web/20091002013458/http://www.peauction.com:80/catlisting.php?id=70",
+    "https://web.archive.org/web/20160801184627/http://peauction.com/itemlisting.php?id=5931"
+  ],
+  "sold": [
+    [1, 1744.0, 3946.0, 1, [[0, "2009-02-26 22:52", 2]]],
+    [1, 1010.09, 2010.0, 1, [[0, "2009-04-05 20:27", 2]]]
+  ],
+  "unsold": [
+    [1, 874.89, 5875.0, [[0, "2008-05-23 23:54", 2]]]
+  ],
+  "readings": [
+    [0, "TT+", 1600.96, 0, 1]
+  ],
+  "charts": []
+}

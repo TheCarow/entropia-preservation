@@ -1,0 +1,23 @@
+{
+  "item": "nallo-floor-lamp-blueprint-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20070610030855/http://peauction.com:80/catlisting.php?id=77",
+    "https://web.archive.org/web/20071110074914/http://www.peauction.com/itemlisting.php?id=2392",
+    "https://web.archive.org/web/20091002013535/http://www.peauction.com:80/catlisting.php?id=77"
+  ],
+  "sold": [
+    [1, 0.6, 107.0, 7, [[0, "2007-02-24 18:00", 1]]]
+  ],
+  "unsold": [
+    [1, 0.59, 499.0, [[0, "2006-01-13 13:01", 1]]],
+    [1, 0.25, 300.0, [[0, "2006-05-13 22:58", 1]]],
+    [1, 0.6, 601.0, [[0, "2006-09-21 16:32", 1]]],
+    [1, 0.6, 701.0, [[0, "2006-10-22 17:51", 1]]]
+  ],
+  "readings": [
+    [0, "%", 17833.3, 0, 2]
+  ],
+  "charts": []
+}

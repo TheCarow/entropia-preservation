@@ -1,0 +1,22 @@
+{
+  "item": "rutuba-groin-guard-m-l",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071008003640/http://www.peauction.com/catlisting.php?id=9",
+    "https://web.archive.org/web/20080411151439/http://www.peauction.com:80/catlisting.php?id=9",
+    "https://web.archive.org/web/20080610230829/http://www.peauction.com:80/catlisting.php?id=9",
+    "https://web.archive.org/web/20090223042526/http://peauction.com:80/catlisting.php?id=9",
+    "https://web.archive.org/web/20090802102528/http://www.peauction.com:80/catlisting.php?id=9",
+    "https://web.archive.org/web/20091002013610/http://www.peauction.com:80/catlisting.php?id=9"
+  ],
+  "sold": [],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 867.0, 0, 1],
+    [0, "TT+", 707.41, 2, 3],
+    [0, "%", 251.45, 4, 4],
+    [0, "%", 280.45, 5, 5]
+  ],
+  "charts": []
+}

@@ -1,0 +1,18 @@
+{
+  "item": "martial-thigh-guards-f-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20090223042526/http://peauction.com:80/catlisting.php?id=9",
+    "https://web.archive.org/web/20090802102528/http://www.peauction.com:80/catlisting.php?id=9",
+    "https://web.archive.org/web/20091002013610/http://www.peauction.com:80/catlisting.php?id=9"
+  ],
+  "sold": [],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 58.95, 0, 0],
+    [0, "%", 126.48, 1, 1],
+    [0, "%", 106.15, 2, 2]
+  ],
+  "charts": []
+}

@@ -1,0 +1,26 @@
+{
+  "item": "dano-dai-katana-l-blueprint-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071008002917/http://www.peauction.com/catlisting.php?id=25",
+    "https://web.archive.org/web/20071212065937/http://peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20080210212022/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20091002013119/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20160801103715/http://peauction.com/itemlisting.php?id=4623"
+  ],
+  "sold": [
+    [1, 0.02, 294.0, 26, [[0, "2007-07-28 16:01", 4]]],
+    [1, 0.03, 406.0, 26, [[0, "2007-07-31 22:12", 4]]],
+    [1, 0.03, 420.0, 26, [[0, "2007-07-31 22:17", 4]]],
+    [1, 0.05, 1000.0, 7, [[0, "2007-12-15 20:01", 4]]],
+    [1, 0.01, 216.0, 6, [[0, "2008-02-01 00:12", 4]]],
+    [1, 0.01, 216.0, 6, [[0, "2008-02-01 00:17", 4]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "%", 1407780.0, 0, 1],
+    [0, "%", 1857920.0, 2, 3]
+  ],
+  "charts": []
+}

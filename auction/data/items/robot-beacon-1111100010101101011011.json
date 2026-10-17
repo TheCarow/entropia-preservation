@@ -1,0 +1,33 @@
+{
+  "item": "robot-beacon-1111100010101101011011",
+  "markup": "TT+",
+  "sources": ["pea", "mytwopecs"],
+  "captures": [
+    "https://web.archive.org/web/20060216221157/http://www.peauction.com:80/catlisting.php?id=54",
+    "https://web.archive.org/web/20060805170933/http://peauction.com:80/catlisting.php?id=54",
+    "https://web.archive.org/web/20060830080546/http://www.mytwopecs.com:80/feed-beta/robotics.xml",
+    "https://web.archive.org/web/20060920123333/http://www.mytwopecs.com:80/feed-beta/robotics.xml",
+    "https://web.archive.org/web/20061110023244/http://www.mytwopecs.com:80/feed-beta/robotics.xml",
+    "https://web.archive.org/web/20070805003147/http://peauction.com:80/itemlisting.php?id=2056",
+    "https://web.archive.org/web/20090327053724/http://www.mytwopecs.com:80/feed-beta/robotics.xml"
+  ],
+  "sold": [
+    [1, 39.0, 700.0, 1, [[0, "2005-11-21 05:18", 5]]],
+    [1, 39.0, 439.0, 1, [[0, "2005-11-24 03:39", 5]]],
+    [1, 39.0, 326.0, 6, [[0, "2005-12-30 12:38", 5]]],
+    [1, 39.0, 400.0, 2, [[0, "2006-10-09 07:25", 5]]],
+    [1, 39.0, 441.0, 12, [[0, "2006-10-27 12:15", 5]]]
+  ],
+  "unsold": [
+    [1, 39.0, 550.0, [[0, "2005-12-13 01:27", 5]]],
+    [1, 39.0, 500.0, [[0, "2006-02-05 20:32", 5]]],
+    [1, 39.0, 600.0, [[0, "2006-11-21 22:39", 5]]],
+    [1, 39.0, 449.0, [[0, "2007-01-16 00:07", 5]]]
+  ],
+  "readings": [
+    [0, "TT+", 449.33, 0, 1],
+    [1, "%", 531.67, 2, 3],
+    [1, "%", 494.13, 4, 6]
+  ],
+  "charts": []
+}

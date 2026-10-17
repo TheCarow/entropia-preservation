@@ -1,0 +1,21 @@
+{
+  "item": "quality-sense-skill-implant-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20090802102129/http://www.peauction.com:80/catlisting.php?id=61",
+    "https://web.archive.org/web/20091002013414/http://www.peauction.com:80/catlisting.php?id=61",
+    "https://web.archive.org/web/20160801184937/http://peauction.com/itemlisting.php?id=6017"
+  ],
+  "sold": [
+    [1, 0.83, 42.0, 2, [[0, "2009-05-27 23:36", 2]]]
+  ],
+  "unsold": [
+    [1, 0.66, 1000.0, [[0, "2008-06-03 13:18", 2]]],
+    [1, 0.51, 100.0, [[0, "2009-02-13 08:09", 2]]]
+  ],
+  "readings": [
+    [0, "%", 5060.24, 0, 1]
+  ],
+  "charts": []
+}

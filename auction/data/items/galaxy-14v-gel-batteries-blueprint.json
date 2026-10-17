@@ -1,0 +1,19 @@
+{
+  "item": "galaxy-14v-gel-batteries-blueprint",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20090802101803/http://www.peauction.com:80/catlisting.php?id=20",
+    "https://web.archive.org/web/20091002013054/http://www.peauction.com:80/catlisting.php?id=20",
+    "https://web.archive.org/web/20160801115240/http://peauction.com/itemlisting.php?id=6051"
+  ],
+  "sold": [
+    [1, 0.01, 101.0, 1, [[0, "2009-04-30 18:18", 2]]],
+    [1, 0.01, 101.0, 1, [[0, "2009-10-02 16:54", 2]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 100.99, 0, 1]
+  ],
+  "charts": []
+}

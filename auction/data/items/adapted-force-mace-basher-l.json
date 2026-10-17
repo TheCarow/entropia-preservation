@@ -1,0 +1,43 @@
+{
+  "item": "adapted-force-mace-basher-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071204091624/http://peauction.com:80/itemlisting.php?id=4614",
+    "https://web.archive.org/web/20080210224922/http://www.peauction.com:80/catlisting.php?id=70",
+    "https://web.archive.org/web/20080411151333/http://www.peauction.com:80/catlisting.php?id=70",
+    "https://web.archive.org/web/20080610222945/http://www.peauction.com:80/catlisting.php?id=70",
+    "https://web.archive.org/web/20080801025445/http://www.peauction.com:80/catlisting.php?id=70",
+    "https://web.archive.org/web/20081022150449/http://www.peauction.com:80/catlisting.php?id=70",
+    "https://web.archive.org/web/20090223042426/http://peauction.com:80/catlisting.php?id=70",
+    "https://web.archive.org/web/20090802102213/http://www.peauction.com:80/catlisting.php?id=70",
+    "https://web.archive.org/web/20091002013458/http://www.peauction.com:80/catlisting.php?id=70",
+    "https://web.archive.org/web/20160801182812/http://peauction.com/itemlisting.php?id=4614"
+  ],
+  "sold": [
+    [1, 1012.0, 1112.0, 3, [[0, "2008-01-27 22:04", 9]]],
+    [1, 967.32, 1001.0, 2, [[0, "2008-03-23 01:13", 9]]],
+    [1, 41.41, 43.0, 1, [[0, "2008-05-10 23:24", 9]]],
+    [1, 48.44, 49.0, 1, [[0, "2008-08-23 23:45", 9]]],
+    [1, 980.23, 1093.0, 19, [[0, "2008-09-13 22:32", 9]]],
+    [1, 1012.0, 1261.0, 2, [[0, "2009-02-15 23:44", 9]]],
+    [1, 1012.0, 1200.0, 1, [[0, "2009-02-22 22:19", 9]]],
+    [1, 1012.0, 1200.0, 1, [[0, "2009-04-04 19:46", 9]]],
+    [1, 1012.0, 1212.0, 1, [[0, "2009-05-07 14:14", 9]]]
+  ],
+  "unsold": [
+    [1, 1012.0, 1312.0, [[0, "2007-07-26 18:26", 0]]],
+    [1, 1005.68, 1500.0, [[0, "2007-07-29 21:21", 0]]],
+    [1, 1012.0, 1212.0, [[0, "2007-07-30 00:52", 0]]],
+    [1, 84.77, 105.0, [[0, "2009-09-14 17:52", 9]]]
+  ],
+  "readings": [
+    [0, "%", 109.88, 1, 1],
+    [0, "%", 106.68, 2, 2],
+    [0, "%", 105.73, 3, 4],
+    [0, "%", 105.97, 5, 5],
+    [0, "%", 110.44, 6, 6],
+    [0, "%", 112.38, 7, 8]
+  ],
+  "charts": []
+}

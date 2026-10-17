@@ -1,0 +1,14 @@
+{
+  "item": "large-minstrel-vase",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20160801194729/http://peauction.com/itemlisting.php?id=5912"
+  ],
+  "sold": [
+    [1, 8.67, 15.0, 6, [[0, "2008-05-22 19:24", 0]]]
+  ],
+  "unsold": [],
+  "readings": [],
+  "charts": []
+}

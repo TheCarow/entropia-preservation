@@ -1,0 +1,50 @@
+{
+  "item": "riker-ul1",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071008003605/http://www.peauction.com/catlisting.php?id=74",
+    "https://web.archive.org/web/20071012152159/http://peauction.com:80/catlisting.php?id=74",
+    "https://web.archive.org/web/20071212071243/http://peauction.com:80/catlisting.php?id=74",
+    "https://web.archive.org/web/20080210230104/http://www.peauction.com:80/catlisting.php?id=74",
+    "https://web.archive.org/web/20080411151354/http://www.peauction.com:80/catlisting.php?id=74",
+    "https://web.archive.org/web/20080801024542/http://www.peauction.com:80/catlisting.php?id=74",
+    "https://web.archive.org/web/20080817053547/http://www.peauction.com:80/catlisting.php?id=74",
+    "https://web.archive.org/web/20080818212959/http://www.peauction.com:80/catlisting.php?id=74",
+    "https://web.archive.org/web/20081022150511/http://www.peauction.com:80/catlisting.php?id=74",
+    "https://web.archive.org/web/20090223042446/http://peauction.com:80/catlisting.php?id=74",
+    "https://web.archive.org/web/20090802102235/http://www.peauction.com:80/catlisting.php?id=74",
+    "https://web.archive.org/web/20091002013520/http://www.peauction.com:80/catlisting.php?id=74",
+    "https://web.archive.org/web/20160801124606/http://peauction.com/itemlisting.php?id=4713"
+  ],
+  "sold": [
+    [1, 1592.35, 2745.0, 22, [[0, "2007-09-07 20:34", 12]]],
+    [1, 2060.24, 3950.0, 26, [[0, "2007-11-18 20:56", 12]]],
+    [1, 1948.7, 4251.0, 15, [[0, "2007-11-27 20:16", 12]]],
+    [1, 1561.57, 3561.0, 1, [[0, "2007-12-27 19:19", 12]]],
+    [1, 2123.17, 3724.0, 1, [[0, "2008-01-16 18:59", 12]]],
+    [1, 1746.02, 1747.0, 1, [[0, "2008-03-09 19:21", 12]]],
+    [1, 2700.71, 3100.0, 1, [[0, "2008-08-04 13:02", 12]]],
+    [1, 1462.91, 1854.0, 3, [[0, "2008-09-13 18:17", 12]]],
+    [1, 2854.0, 2958.0, 5, [[0, "2008-11-25 06:26", 12]]],
+    [1, 2309.56, 2494.0, 38, [[0, "2008-11-29 16:16", 12]]],
+    [1, 1433.39, 1449.0, 9, [[0, "2009-01-31 17:18", 12]]],
+    [1, 2002.55, 2050.0, 1, [[0, "2009-02-24 18:04", 12]]],
+    [1, 1426.99, 1527.0, 1, [[0, "2009-09-04 18:24", 12]]]
+  ],
+  "unsold": [
+    [1, 2752.28, 2854.0, [[0, "2009-09-15 20:44", 12]]]
+  ],
+  "readings": [
+    [0, "TT+", 1152.65, 0, 1],
+    [0, "TT+", 1781.57, 2, 2],
+    [0, "TT+", 1788.99, 3, 3],
+    [0, "TT+", 1490.99, 4, 5],
+    [0, "TT+", 1335.03, 6, 7],
+    [0, "TT+", 1217.04, 8, 8],
+    [0, "TT+", 888.77, 9, 9],
+    [0, "TT+", 704.54, 10, 10],
+    [0, "TT+", 484.31, 11, 11]
+  ],
+  "charts": []
+}

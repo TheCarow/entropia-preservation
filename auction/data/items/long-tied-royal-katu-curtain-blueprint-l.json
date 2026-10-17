@@ -1,0 +1,30 @@
+{
+  "item": "long-tied-royal-katu-curtain-blueprint-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071007160850/http://www.peauction.com/catlisting.php?id=77",
+    "https://web.archive.org/web/20071110073205/http://www.peauction.com/itemlisting.php?id=4655",
+    "https://web.archive.org/web/20080610230804/http://www.peauction.com:80/catlisting.php?id=77",
+    "https://web.archive.org/web/20080801025505/http://www.peauction.com:80/catlisting.php?id=77",
+    "https://web.archive.org/web/20080817053558/http://www.peauction.com:80/catlisting.php?id=77",
+    "https://web.archive.org/web/20081022150525/http://www.peauction.com:80/catlisting.php?id=77",
+    "https://web.archive.org/web/20091002013535/http://www.peauction.com:80/catlisting.php?id=77",
+    "https://web.archive.org/web/20160801124345/http://peauction.com/itemlisting.php?id=4655"
+  ],
+  "sold": [
+    [1, 0.2, 80.0, 13, [[0, "2007-08-07 18:32", 1]]],
+    [1, 0.13, 14.0, 8, [[0, "2008-07-06 00:31", 7]]],
+    [1, 0.17, 2.0, 2, [[0, "2008-08-21 01:05", 7]]]
+  ],
+  "unsold": [
+    [1, 0.15, 32.0, [[0, "2008-07-16 17:27", 7]]],
+    [1, 0.06, 10.0, [[0, "2009-05-14 17:32", 7]]]
+  ],
+  "readings": [
+    [0, "%", 40000.0, 0, 2],
+    [0, "%", 25384.6, 3, 4],
+    [0, "%", 17315.2, 5, 6]
+  ],
+  "charts": []
+}

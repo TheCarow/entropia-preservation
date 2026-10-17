@@ -1,0 +1,34 @@
+{
+  "item": "chronicle-thigh-guards-m",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20060216220744/http://www.peauction.com:80/catlisting.php?id=9",
+    "https://web.archive.org/web/20070807163956/http://peauction.com:80/itemlisting.php?id=1522",
+    "https://web.archive.org/web/20090223042526/http://peauction.com:80/catlisting.php?id=9",
+    "https://web.archive.org/web/20090802102528/http://www.peauction.com:80/catlisting.php?id=9",
+    "https://web.archive.org/web/20091002013610/http://www.peauction.com:80/catlisting.php?id=9",
+    "https://web.archive.org/web/20160801125632/http://peauction.com/itemlisting.php?id=1522"
+  ],
+  "sold": [
+    [1, 162.76, 3110.0, 2, [[0, "2005-11-14 16:28", 1]]],
+    [1, 240.0, 3010.0, 75, [[0, "2006-01-16 03:24", 1]]],
+    [1, 238.84, 15700.0, 38, [[0, "2009-03-21 20:40", 5]]]
+  ],
+  "unsold": [
+    [1, 162.76, 7500.0, [[0, "2005-11-01 17:55", 1]]],
+    [1, 236.61, 5237.0, [[0, "2005-11-27 04:28", 1]]],
+    [1, 236.61, 5237.0, [[0, "2005-12-04 19:37", 1]]],
+    [1, 236.61, 5237.0, [[0, "2005-12-12 03:20", 1]]],
+    [1, 236.61, 5237.0, [[0, "2005-12-21 02:14", 1]]],
+    [1, 236.61, 5237.0, [[0, "2005-12-28 02:58", 1]]],
+    [1, 236.61, 4737.0, [[0, "2006-01-04 17:47", 1]]],
+    [1, 240.0, 3640.0, [[0, "2006-01-29 00:24", 1]]],
+    [1, 240.0, 4500.0, [[0, "2006-05-23 15:16", 1]]]
+  ],
+  "readings": [
+    [0, "TT+", 2858.62, 0, 2],
+    [0, "TT+", 7059.47, 3, 4]
+  ],
+  "charts": []
+}

@@ -1,0 +1,23 @@
+{
+  "item": "matterfinder-mf-211-l-blueprint",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20090802101823/http://www.peauction.com:80/catlisting.php?id=24",
+    "https://web.archive.org/web/20091002013114/http://www.peauction.com:80/catlisting.php?id=24",
+    "https://web.archive.org/web/20160801194949/http://peauction.com/itemlisting.php?id=4738"
+  ],
+  "sold": [
+    [1, 0.22, 4500.0, 1, [[0, "2007-09-30 13:45", 2]]],
+    [1, 0.31, 3001.0, 1, [[0, "2008-08-31 19:50", 2]]]
+  ],
+  "unsold": [
+    [1, 0.22, 5000.0, [[0, "2007-12-25 23:29", 2]]],
+    [1, 0.31, 4001.0, [[0, "2008-06-16 17:09", 2]]],
+    [1, 0.31, 3001.0, [[0, "2008-06-28 23:45", 2]]]
+  ],
+  "readings": [
+    [0, "%", 1506760.0, 0, 1]
+  ],
+  "charts": []
+}

@@ -1,0 +1,18 @@
+{
+  "item": "solar-16v-gel-batteries-blueprints",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20090802101803/http://www.peauction.com:80/catlisting.php?id=20",
+    "https://web.archive.org/web/20091002013054/http://www.peauction.com:80/catlisting.php?id=20",
+    "https://web.archive.org/web/20160801125714/http://peauction.com/itemlisting.php?id=6049"
+  ],
+  "sold": [
+    [1, 0.01, 128.0, 20, [[0, "2009-04-05 15:15", 2]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 127.99, 0, 1]
+  ],
+  "charts": []
+}

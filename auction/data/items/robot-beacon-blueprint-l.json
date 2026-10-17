@@ -1,0 +1,30 @@
+{
+  "item": "robot-beacon-blueprint-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20060614130835/http://peauction.com:80/catlisting.php?id=24",
+    "https://web.archive.org/web/20060718024103/http://www.peauction.com:80/catlisting.php?id=24",
+    "https://web.archive.org/web/20061107141037/http://peauction.com/catlisting.php?id=24",
+    "https://web.archive.org/web/20071108030343/http://www.peauction.com/itemlisting.php?id=2383",
+    "https://web.archive.org/web/20091002013114/http://www.peauction.com:80/catlisting.php?id=24"
+  ],
+  "sold": [
+    [1, 0.1, 506.0, 7, [[0, "2006-05-11 10:00", 3]]],
+    [1, 0.07, 700.0, 1, [[0, "2006-05-22 19:04", 3]]],
+    [1, 0.03, 390.0, 1, [[0, "2006-09-28 01:28", 3]]]
+  ],
+  "unsold": [
+    [1, 0.11, 1000.0, [[0, "2006-01-10 07:42", 3]]],
+    [1, 0.03, 1500.0, [[0, "2006-02-05 15:06", 3]]],
+    [1, 0.03, 400.0, [[0, "2006-02-12 19:25", 3]]],
+    [1, 0.1, 2000.0, [[0, "2006-05-08 08:25", 3]]],
+    [1, 0.07, 700.0, [[0, "2006-05-22 18:59", 3]]],
+    [1, 0.03, 800.0, [[0, "2006-06-13 08:01", 3]]]
+  ],
+  "readings": [
+    [0, "TT+", 602.92, 0, 1],
+    [0, "%", 935333.0, 2, 4]
+  ],
+  "charts": []
+}

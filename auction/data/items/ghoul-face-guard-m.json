@@ -1,0 +1,60 @@
+{
+  "item": "ghoul-face-guard-m",
+  "markup": "TT+",
+  "sources": ["pea", "pe-player"],
+  "captures": [
+    "https://web.archive.org/web/20050130134118/http://www.pe-player.com:80/auction/list.php?sort=bytype",
+    "https://web.archive.org/web/20060721094412/http://www.peauction.com:80/catlisting.php?id=4",
+    "https://web.archive.org/web/20061107141606/http://peauction.com/catlisting.php?id=4",
+    "https://web.archive.org/web/20070811004004/http://peauction.com:80/itemlisting.php?id=1785",
+    "https://web.archive.org/web/20080210221055/http://www.peauction.com:80/catlisting.php?id=4",
+    "https://web.archive.org/web/20080411151109/http://www.peauction.com:80/catlisting.php?id=4",
+    "https://web.archive.org/web/20080610220520/http://www.peauction.com:80/catlisting.php?id=4",
+    "https://web.archive.org/web/20080801025317/http://www.peauction.com:80/catlisting.php?id=4",
+    "https://web.archive.org/web/20080817053400/http://www.peauction.com:80/catlisting.php?id=4",
+    "https://web.archive.org/web/20081022150228/http://www.peauction.com:80/catlisting.php?id=4",
+    "https://web.archive.org/web/20090223042213/http://peauction.com:80/catlisting.php?id=4",
+    "https://web.archive.org/web/20090802101947/http://www.peauction.com:80/catlisting.php?id=4",
+    "https://web.archive.org/web/20091002013236/http://www.peauction.com:80/catlisting.php?id=4",
+    "https://web.archive.org/web/20160801213520/http://peauction.com/itemlisting.php?id=4570"
+  ],
+  "sold": [
+    [1, 59.97, 1500.0, 0, [[1, "2004-10-30 21:00", 0]]],
+    [1, 48.15, 999.0, 1, [[0, "2006-06-07 12:43", 3]]],
+    [1, 26.25, 727.0, 1, [[0, "2006-08-19 19:17", 3]]],
+    [1, 60.0, 990.0, 26, [[0, "2008-01-04 11:19", 13]]],
+    [1, 60.0, 992.0, 26, [[0, "2008-01-04 11:29", 13]]],
+    [1, 52.55, 1352.0, 1, [[0, "2008-12-28 23:37", 13]]],
+    [1, 60.0, 1250.0, 1, [[0, "2009-05-12 12:35", 13]]]
+  ],
+  "unsold": [
+    [1, 60.0, 410.0, [[0, "2005-11-05 23:45", 3]]],
+    [1, 26.25, 727.0, [[0, "2006-08-19 19:12", 3]]],
+    [1, 26.5, 927.0, [[0, "2007-07-15 23:01", 13]]],
+    [1, 60.0, 1560.0, [[0, "2007-11-22 21:01", 13]]],
+    [1, 60.0, 1260.0, [[0, "2007-12-02 12:01", 13]]],
+    [1, 60.0, 1860.0, [[0, "2008-10-24 18:10", 13]]],
+    [1, 52.55, 1552.0, [[0, "2008-12-14 20:57", 13]]],
+    [1, 60.0, 1500.0, [[0, "2009-05-04 21:13", 13]]],
+    [1, 60.0, 1100.0, [[0, "2009-08-19 13:50", 13]]]
+  ],
+  "readings": [
+    [0, "TT+", 950.85, 1, 1],
+    [0, "TT+", 825.8, 2, 4],
+    [0, "TT+", 931.0, 4, 4],
+    [0, "TT+", 825.8, 5, 5],
+    [0, "TT+", 931.0, 5, 5],
+    [0, "TT+", 825.8, 6, 6],
+    [0, "TT+", 931.0, 6, 6],
+    [0, "TT+", 825.8, 7, 7],
+    [0, "TT+", 931.0, 7, 7],
+    [0, "TT+", 825.8, 8, 8],
+    [0, "TT+", 931.0, 8, 8],
+    [0, "TT+", 825.8, 9, 9],
+    [0, "TT+", 931.0, 9, 9],
+    [0, "TT+", 825.8, 10, 10],
+    [0, "TT+", 1053.82, 10, 10],
+    [0, "TT+", 1087.86, 11, 12]
+  ],
+  "charts": []
+}

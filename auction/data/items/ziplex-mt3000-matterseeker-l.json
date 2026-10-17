@@ -1,0 +1,22 @@
+{
+  "item": "ziplex-mt3000-matterseeker-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20090802102158/http://www.peauction.com:80/catlisting.php?id=67",
+    "https://web.archive.org/web/20091002013441/http://www.peauction.com:80/catlisting.php?id=67",
+    "https://web.archive.org/web/20160801184442/http://peauction.com/itemlisting.php?id=5692"
+  ],
+  "sold": [
+    [1, 275.25, 340.0, 6, [[0, "2008-11-13 00:55", 2]]],
+    [1, 275.25, 278.0, 3, [[0, "2009-04-25 12:51", 2]]],
+    [1, 275.25, 410.0, 25, [[0, "2009-04-25 13:28", 2]]],
+    [1, 275.25, 299.0, 15, [[0, "2009-05-29 21:49", 2]]],
+    [1, 275.25, 301.0, 17, [[0, "2009-05-29 21:59", 2]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "%", 118.29, 0, 1]
+  ],
+  "charts": []
+}

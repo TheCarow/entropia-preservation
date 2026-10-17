@@ -1,0 +1,29 @@
+{
+  "item": "faucervix-leather-texture",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20080210221246/http://www.peauction.com:80/catlisting.php?id=48",
+    "https://web.archive.org/web/20080411151145/http://www.peauction.com:80/catlisting.php?id=48",
+    "https://web.archive.org/web/20080610220555/http://www.peauction.com:80/catlisting.php?id=48",
+    "https://web.archive.org/web/20080801025348/http://www.peauction.com:80/catlisting.php?id=48",
+    "https://web.archive.org/web/20080817053429/http://www.peauction.com:80/catlisting.php?id=48",
+    "https://web.archive.org/web/20080818212857/http://www.peauction.com:80/catlisting.php?id=48",
+    "https://web.archive.org/web/20081022150303/http://www.peauction.com:80/catlisting.php?id=48",
+    "https://web.archive.org/web/20090223042243/http://peauction.com:80/catlisting.php?id=48",
+    "https://web.archive.org/web/20090802102025/http://www.peauction.com:80/catlisting.php?id=48",
+    "https://web.archive.org/web/20091002013312/http://www.peauction.com:80/catlisting.php?id=48"
+  ],
+  "sold": [],
+  "unsold": [],
+  "readings": [
+    [0, "%", 160.26, 0, 1],
+    [0, "%", 309.07, 2, 2],
+    [0, "%", 218.99, 3, 3],
+    [0, "%", 194.44, 4, 5],
+    [0, "%", 181.68, 6, 6],
+    [0, "%", 150.77, 7, 7],
+    [0, "%", 113.54, 8, 9]
+  ],
+  "charts": []
+}

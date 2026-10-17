@@ -1,0 +1,32 @@
+{
+  "item": "kriegerum-g-1-gauss-rifle-l-blueprint-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071008002917/http://www.peauction.com/catlisting.php?id=25",
+    "https://web.archive.org/web/20080818212812/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20081022150112/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20090223042058/http://peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20090802101829/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20091002013119/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20160801125723/http://peauction.com/itemlisting.php?id=4565"
+  ],
+  "sold": [
+    [1, 0.06, 413.0, 11, [[0, "2007-09-30 09:40", 6]]],
+    [1, 0.07, 400.0, 1, [[0, "2008-10-18 01:54", 6]]],
+    [1, 0.1, 142.0, 27, [[0, "2009-01-29 21:23", 6]]],
+    [1, 0.22, 241.0, 41, [[0, "2009-02-01 15:13", 6]]],
+    [1, 0.1, 141.0, 65, [[0, "2009-03-03 20:14", 6]]],
+    [1, 0.22, 171.0, 20, [[0, "2009-03-29 15:58", 6]]],
+    [1, 0.22, 100.0, 1, [[0, "2009-05-10 22:59", 6]]],
+    [1, 0.22, 101.0, 1, [[0, "2009-06-12 05:14", 6]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "%", 688333.0, 0, 1],
+    [0, "%", 629881.0, 2, 2],
+    [0, "%", 377827.0, 3, 3],
+    [0, "%", 227675.0, 4, 5]
+  ],
+  "charts": []
+}

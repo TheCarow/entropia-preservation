@@ -1,0 +1,37 @@
+{
+  "item": "vivo-ur175-l-blueprint-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071007160727/http://www.peauction.com/catlisting.php?id=24",
+    "https://web.archive.org/web/20071012151757/http://peauction.com:80/catlisting.php?id=24",
+    "https://web.archive.org/web/20071108175251/http://www.peauction.com/itemlisting.php?id=4606",
+    "https://web.archive.org/web/20071212065932/http://peauction.com:80/catlisting.php?id=24",
+    "https://web.archive.org/web/20080210212017/http://www.peauction.com:80/catlisting.php?id=24",
+    "https://web.archive.org/web/20081022150107/http://www.peauction.com:80/catlisting.php?id=24",
+    "https://web.archive.org/web/20090223042052/http://peauction.com:80/catlisting.php?id=24",
+    "https://web.archive.org/web/20090802101823/http://www.peauction.com:80/catlisting.php?id=24",
+    "https://web.archive.org/web/20091002013114/http://www.peauction.com:80/catlisting.php?id=24",
+    "https://web.archive.org/web/20160802011324/http://peauction.com/itemlisting.php?id=4606"
+  ],
+  "sold": [
+    [1, 0.01, 20.0, 6, [[0, "2007-07-25 21:13", 2]]],
+    [1, 0.01, 264.0, 13, [[0, "2007-09-03 17:54", 2]]],
+    [1, 0.01, 30.0, 7, [[0, "2007-11-03 13:18", 2]]],
+    [1, 0.01, 30.0, 7, [[0, "2007-11-03 14:18", 9]]],
+    [1, 0.04, 140.0, 13, [[0, "2007-12-13 18:51", 9]]],
+    [1, 0.01, 32.0, 15, [[0, "2008-01-07 20:44", 9]]],
+    [1, 0.01, 11.0, 1, [[0, "2008-02-06 03:47", 9]]],
+    [1, 0.01, 36.0, 4, [[0, "2008-12-12 15:16", 9]]],
+    [1, 0.29, 1050.0, 26, [[0, "2009-04-26 13:06", 9]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "%", 1420000.0, 0, 1],
+    [0, "%", 1046670.0, 3, 3],
+    [0, "%", 653333.0, 4, 5],
+    [0, "%", 611429.0, 6, 6],
+    [0, "%", 580259.0, 7, 8]
+  ],
+  "charts": []
+}

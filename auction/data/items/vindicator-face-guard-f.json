@@ -1,0 +1,19 @@
+{
+  "item": "vindicator-face-guard-f",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20090802101947/http://www.peauction.com:80/catlisting.php?id=4",
+    "https://web.archive.org/web/20091002013236/http://www.peauction.com:80/catlisting.php?id=4",
+    "https://web.archive.org/web/20160801201242/http://peauction.com/itemlisting.php?id=6069"
+  ],
+  "sold": [
+    [1, 3.41, 7.0, 4, [[0, "2008-06-21 10:20", 2]]],
+    [1, 4.0, 9.0, 5, [[0, "2008-08-29 17:00", 2]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 4.3, 0, 1]
+  ],
+  "charts": []
+}

@@ -1,0 +1,17 @@
+{
+  "item": "merger-demuro-painting",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20160801192248/http://peauction.com/itemlisting.php?id=3059"
+  ],
+  "sold": [],
+  "unsold": [
+    [1, 210.0, 1513.0, [[0, "2006-08-16 12:08", 0]]],
+    [1, 210.0, 1515.0, [[0, "2006-08-30 08:39", 0]]],
+    [1, 210.0, 1512.0, [[0, "2006-09-26 08:35", 0]]],
+    [1, 210.0, 1513.0, [[0, "2006-10-04 12:24", 0]]]
+  ],
+  "readings": [],
+  "charts": []
+}

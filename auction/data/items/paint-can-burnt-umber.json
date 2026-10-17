@@ -1,0 +1,26 @@
+{
+  "item": "paint-can-burnt-umber",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071012152109/http://peauction.com:80/catlisting.php?id=64",
+    "https://web.archive.org/web/20071212071153/http://peauction.com:80/catlisting.php?id=64",
+    "https://web.archive.org/web/20080210224844/http://www.peauction.com:80/catlisting.php?id=64",
+    "https://web.archive.org/web/20080411151307/http://www.peauction.com:80/catlisting.php?id=64",
+    "https://web.archive.org/web/20080610222909/http://www.peauction.com:80/catlisting.php?id=64",
+    "https://web.archive.org/web/20080801025429/http://www.peauction.com:80/catlisting.php?id=64",
+    "https://web.archive.org/web/20080817053527/http://www.peauction.com:80/catlisting.php?id=64",
+    "https://web.archive.org/web/20091003145650/http://www.peauction.com:80/catlisting.php?id=64"
+  ],
+  "sold": [],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 3.21, 0, 0],
+    [0, "TT+", 0.02, 1, 1],
+    [0, "TT+", 0.01, 2, 3],
+    [0, "TT+", 0.04, 4, 4],
+    [0, "TT+", 0.03, 5, 5],
+    [0, "TT+", 0.01, 6, 7]
+  ],
+  "charts": []
+}

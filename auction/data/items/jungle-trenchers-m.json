@@ -1,0 +1,16 @@
+{
+  "item": "jungle-trenchers-m",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20160801195043/http://peauction.com/itemlisting.php?id=5054"
+  ],
+  "sold": [
+    [1, 89.0, 120.0, 2, [[0, "2009-06-14 23:44", 0]]],
+    [1, 89.0, 199.0, 1, [[0, "2009-08-28 18:23", 0]]],
+    [1, 88.98, 120.0, 5, [[0, "2009-10-04 15:56", 0]]]
+  ],
+  "unsold": [],
+  "readings": [],
+  "charts": []
+}

@@ -1,0 +1,45 @@
+{
+  "item": "expedition-gloves-m",
+  "markup": "TT+",
+  "sources": ["pea", "pe-player"],
+  "captures": [
+    "https://web.archive.org/web/20040807114142/http://www.pe-player.com:80/auction/list.php?sort=bytype",
+    "https://web.archive.org/web/20060216220725/http://www.peauction.com:80/catlisting.php?id=5",
+    "https://web.archive.org/web/20061107141447/http://peauction.com/catlisting.php?id=5",
+    "https://web.archive.org/web/20071007161354/http://www.peauction.com/catlisting.php?id=5",
+    "https://web.archive.org/web/20071012152004/http://peauction.com:80/catlisting.php?id=5",
+    "https://web.archive.org/web/20071111103352/http://www.peauction.com/itemlisting.php?id=2363",
+    "https://web.archive.org/web/20071212071045/http://peauction.com:80/catlisting.php?id=5",
+    "https://web.archive.org/web/20080818212902/http://www.peauction.com:80/catlisting.php?id=5",
+    "https://web.archive.org/web/20081022150313/http://www.peauction.com:80/catlisting.php?id=5",
+    "https://web.archive.org/web/20090223042253/http://peauction.com:80/catlisting.php?id=5",
+    "https://web.archive.org/web/20090802102036/http://www.peauction.com:80/catlisting.php?id=5",
+    "https://web.archive.org/web/20091002013322/http://www.peauction.com:80/catlisting.php?id=5",
+    "https://web.archive.org/web/20160801200103/http://peauction.com/itemlisting.php?id=2363"
+  ],
+  "sold": [
+    [1, 5.19, 29.0, 0, [[1, "2004-07-13 11:28", 0]]],
+    [1, 8.24, 9.0, 1, [[0, "2006-01-06 17:47", 5]]],
+    [1, 5.08, 40.0, 15, [[0, "2007-02-24 21:16", 5]]],
+    [1, 20.31, 27.0, 3, [[0, "2007-07-31 14:02", 5]]],
+    [1, 21.0, 185.0, 21, [[0, "2007-12-02 00:41", 12]]],
+    [1, 20.98, 221.0, 1, [[0, "2008-09-22 19:58", 12]]],
+    [1, 21.0, 143.0, 3, [[0, "2009-07-20 10:26", 12]]],
+    [1, 20.94, 123.0, 34, [[0, "2009-09-13 22:47", 12]]]
+  ],
+  "unsold": [
+    [1, 5.28, 146.0, [[0, "2006-08-25 15:36", 5]]],
+    [1, 5.28, 116.0, [[0, "2006-09-02 13:42", 5]]],
+    [1, 7.79, 53.0, [[0, "2006-09-10 10:23", 5]]],
+    [1, 20.95, 51.0, [[0, "2007-02-22 21:36", 5]]]
+  ],
+  "readings": [
+    [0, "TT+", 0.76, 1, 2],
+    [0, "TT+", 14.12, 3, 4],
+    [0, "TT+", 51.59, 6, 7],
+    [0, "TT+", 81.28, 8, 9],
+    [0, "TT+", 88.07, 10, 10],
+    [0, "TT+", 90.06, 11, 11]
+  ],
+  "charts": []
+}

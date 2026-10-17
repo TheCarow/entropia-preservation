@@ -1,0 +1,30 @@
+{
+  "item": "paradox-arm-guards-f",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20060216220622/http://www.peauction.com:80/catlisting.php?id=3",
+    "https://web.archive.org/web/20060721094249/http://www.peauction.com:80/catlisting.php?id=3",
+    "https://web.archive.org/web/20061107141532/http://peauction.com/catlisting.php?id=3",
+    "https://web.archive.org/web/20071009124403/http://www.peauction.com/itemlisting.php?id=1869",
+    "https://web.archive.org/web/20091002013141/http://www.peauction.com:80/catlisting.php?id=3"
+  ],
+  "sold": [
+    [1, 28.6, 180.0, 2, [[0, "2005-11-12 20:59", 3]]],
+    [1, 68.23, 250.0, 1, [[0, "2005-11-14 20:44", 3]]],
+    [1, 102.63, 305.0, 3, [[0, "2006-03-09 01:46", 3]]],
+    [1, 120.0, 522.0, 3, [[0, "2006-07-31 21:41", 3]]]
+  ],
+  "unsold": [
+    [1, 68.23, 999.0, [[0, "2005-11-09 02:49", 3]]],
+    [1, 68.23, 699.0, [[0, "2005-11-10 03:38", 3]]],
+    [1, 68.23, 499.0, [[0, "2005-11-11 05:31", 3]]],
+    [1, 68.23, 369.0, [[0, "2005-11-13 11:06", 3]]]
+  ],
+  "readings": [
+    [0, "TT+", 166.59, 0, 0],
+    [0, "TT+", 178.51, 1, 1],
+    [0, "TT+", 234.39, 2, 4]
+  ],
+  "charts": []
+}

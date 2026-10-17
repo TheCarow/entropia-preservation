@@ -1,0 +1,22 @@
+{
+  "item": "tuxedo",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20060216220936/http://www.peauction.com:80/catlisting.php?id=31",
+    "https://web.archive.org/web/20060721094455/http://www.peauction.com:80/catlisting.php?id=31",
+    "https://web.archive.org/web/20071110213015/http://www.peauction.com/itemlisting.php?id=494"
+  ],
+  "sold": [
+    [1, 53.31, 1500.0, 1, [[0, "2005-11-06 14:58", 2]]]
+  ],
+  "unsold": [
+    [1, 53.25, 2000.0, [[0, "2005-10-18 05:15", 2]]],
+    [1, 203.0, 2000.0, [[0, "2005-10-20 12:57", 2]]],
+    [1, 53.31, 1500.0, [[0, "2005-10-30 14:39", 2]]]
+  ],
+  "readings": [
+    [0, "TT+", 1446.69, 0, 1]
+  ],
+  "charts": []
+}

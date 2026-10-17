@@ -1,0 +1,27 @@
+{
+  "item": "tantardion-leather-texture",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20090223042243/http://peauction.com:80/catlisting.php?id=48",
+    "https://web.archive.org/web/20090802102025/http://www.peauction.com:80/catlisting.php?id=48",
+    "https://web.archive.org/web/20091002013312/http://www.peauction.com:80/catlisting.php?id=48",
+    "https://web.archive.org/web/20160801182045/http://peauction.com/itemlisting.php?id=5559"
+  ],
+  "sold": [
+    [6, 3.66, 4.0, 1, [[0, "2008-12-16 09:32", 3]]],
+    [18, 10.98, 13.0, 2, [[0, "2008-12-19 10:14", 3]]],
+    [18, 10.98, 13.0, 2, [[0, "2008-12-19 10:22", 3]]],
+    [53, 32.33, 36.0, 1, [[0, "2009-03-13 19:07", 3]]]
+  ],
+  "unsold": [
+    [41, 25.01, 250.0, [[0, "2008-01-18 13:59", 3]]],
+    [1, 0.61, 1.0, [[0, "2008-03-09 18:16", 3]]],
+    [53, 32.33, 50.0, [[0, "2009-03-06 17:47", 3]]]
+  ],
+  "readings": [
+    [0, "%", 117.1, 0, 0],
+    [0, "%", 113.89, 1, 2]
+  ],
+  "charts": []
+}

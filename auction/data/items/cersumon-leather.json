@@ -1,0 +1,41 @@
+{
+  "item": "cersumon-leather",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20080210221246/http://www.peauction.com:80/catlisting.php?id=48",
+    "https://web.archive.org/web/20080411151145/http://www.peauction.com:80/catlisting.php?id=48",
+    "https://web.archive.org/web/20080610220555/http://www.peauction.com:80/catlisting.php?id=48",
+    "https://web.archive.org/web/20080801025348/http://www.peauction.com:80/catlisting.php?id=48",
+    "https://web.archive.org/web/20080818212857/http://www.peauction.com:80/catlisting.php?id=48",
+    "https://web.archive.org/web/20081022150303/http://www.peauction.com:80/catlisting.php?id=48",
+    "https://web.archive.org/web/20090223042243/http://peauction.com:80/catlisting.php?id=48",
+    "https://web.archive.org/web/20090802102025/http://www.peauction.com:80/catlisting.php?id=48",
+    "https://web.archive.org/web/20091002013312/http://www.peauction.com:80/catlisting.php?id=48",
+    "https://web.archive.org/web/20160801184602/http://peauction.com/itemlisting.php?id=5645"
+  ],
+  "sold": [
+    [15, 18.0, 24.0, 1, [[0, "2009-05-05 21:16", 9]]],
+    [14, 16.8, 18.0, 2, [[0, "2009-05-16 01:31", 9]]],
+    [29, 34.8, 45.0, 1, [[0, "2009-05-23 08:04", 9]]],
+    [15, 18.0, 19.0, 2, [[0, "2009-06-07 12:19", 9]]],
+    [15, 18.0, 18.0, 1, [[0, "2009-06-28 22:26", 9]]],
+    [15, 18.0, 19.0, 2, [[0, "2009-07-18 04:27", 9]]],
+    [82, 98.4, 99.0, 1, [[0, "2009-09-05 18:23", 9]]],
+    [165, 198.0, 200.0, 3, [[0, "2009-09-07 10:09", 9]]],
+    [165, 198.0, 200.0, 3, [[0, "2009-09-07 10:10", 9]]],
+    [22, 26.4, 27.0, 1, [[0, "2009-09-14 15:57", 9]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "%", 119.05, 0, 0],
+    [0, "%", 122.37, 1, 1],
+    [0, "%", 118.79, 2, 2],
+    [0, "%", 118.14, 3, 4],
+    [0, "%", 114.12, 5, 5],
+    [0, "%", 109.08, 6, 6],
+    [0, "%", 113.4, 7, 7],
+    [0, "%", 101.13, 8, 8]
+  ],
+  "charts": []
+}

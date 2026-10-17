@@ -1,0 +1,17 @@
+{
+  "item": "vain-shin-guards-m",
+  "markup": "TT+",
+  "sources": ["pea", "pe-player"],
+  "captures": [
+    "https://web.archive.org/web/20040807114142/http://www.pe-player.com:80/auction/list.php?sort=bytype",
+    "https://web.archive.org/web/20160801083426/http://peauction.com/itemlisting.php?id=2983"
+  ],
+  "sold": [
+    [1, 114.17, 6000.0, 0, [[1, "2004-07-22 21:00", 0]]]
+  ],
+  "unsold": [
+    [1, 48.96, 7049.0, [[0, "2006-06-25 05:37", 1]]]
+  ],
+  "readings": [],
+  "charts": []
+}

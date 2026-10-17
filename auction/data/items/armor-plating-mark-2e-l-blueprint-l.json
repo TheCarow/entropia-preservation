@@ -1,0 +1,18 @@
+{
+  "item": "armor-plating-mark-2e-l-blueprint-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20090802101758/http://www.peauction.com:80/catlisting.php?id=19",
+    "https://web.archive.org/web/20091002013048/http://www.peauction.com:80/catlisting.php?id=19",
+    "https://web.archive.org/web/20160801123855/http://peauction.com/itemlisting.php?id=6044"
+  ],
+  "sold": [],
+  "unsold": [
+    [1, 0.63, 1000.0, [[0, "2008-06-14 10:44", 2]]]
+  ],
+  "readings": [
+    [0, "%", 81754.7, 0, 1]
+  ],
+  "charts": []
+}

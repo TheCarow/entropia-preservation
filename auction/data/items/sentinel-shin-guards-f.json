@@ -1,0 +1,21 @@
+{
+  "item": "sentinel-shin-guards-f",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20070805003718/http://peauction.com:80/catlisting.php?id=8",
+    "https://web.archive.org/web/20070806014405/http://peauction.com:80/itemlisting.php?id=1786",
+    "https://web.archive.org/web/20091002013550/http://www.peauction.com:80/catlisting.php?id=8"
+  ],
+  "sold": [
+    [1, 16.03, 6128.0, 43, [[0, "2007-05-18 16:34", 1]]]
+  ],
+  "unsold": [
+    [1, 215.0, 3725.0, [[0, "2005-11-05 23:46", 1]]],
+    [1, 215.0, 2515.0, [[0, "2005-11-12 22:54", 1]]]
+  ],
+  "readings": [
+    [0, "TT+", 6111.97, 0, 2]
+  ],
+  "charts": []
+}

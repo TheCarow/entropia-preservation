@@ -1,0 +1,40 @@
+{
+  "item": "bull-tac20-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20070105192126/http://peauction.com:80/catlisting.php?id=12",
+    "https://web.archive.org/web/20070805002742/http://peauction.com:80/catlisting.php?id=12",
+    "https://web.archive.org/web/20070806045543/http://peauction.com:80/catlisting.php?id=12",
+    "https://web.archive.org/web/20071007162144/http://www.peauction.com/catlisting.php?id=12",
+    "https://web.archive.org/web/20071012151719/http://peauction.com:80/catlisting.php?id=12",
+    "https://web.archive.org/web/20071212065851/http://peauction.com:80/catlisting.php?id=12",
+    "https://web.archive.org/web/20080210205836/http://www.peauction.com:80/catlisting.php?id=12",
+    "https://web.archive.org/web/20080411150902/http://www.peauction.com:80/catlisting.php?id=12",
+    "https://web.archive.org/web/20080610174449/http://www.peauction.com:80/catlisting.php?id=12",
+    "https://web.archive.org/web/20080801024912/http://www.peauction.com:80/catlisting.php?id=12",
+    "https://web.archive.org/web/20080817052543/http://www.peauction.com:80/catlisting.php?id=12",
+    "https://web.archive.org/web/20081022150027/http://www.peauction.com:80/catlisting.php?id=12",
+    "https://web.archive.org/web/20090223042015/http://peauction.com:80/catlisting.php?id=12",
+    "https://web.archive.org/web/20090802101742/http://www.peauction.com:80/catlisting.php?id=12",
+    "https://web.archive.org/web/20091002013031/http://www.peauction.com:80/catlisting.php?id=12"
+  ],
+  "sold": [],
+  "unsold": [],
+  "readings": [
+    [0, "%", 111.5, 0, 0],
+    [0, "%", 120.63, 1, 2],
+    [0, "%", 113.04, 3, 4],
+    [0, "%", 133.14, 5, 5],
+    [0, "%", 123.2, 6, 6],
+    [0, "%", 118.68, 7, 7],
+    [0, "%", 128.03, 8, 8],
+    [0, "%", 109.83, 9, 9],
+    [0, "%", 110.17, 10, 10],
+    [0, "%", 106.84, 11, 11],
+    [0, "%", 106.8, 12, 12],
+    [0, "%", 111.24, 13, 13],
+    [0, "%", 123.87, 14, 14]
+  ],
+  "charts": []
+}

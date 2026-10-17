@@ -1,0 +1,18 @@
+{
+  "item": "small-bag",
+  "markup": "TT+",
+  "sources": ["pe-player"],
+  "captures": [
+    "https://web.archive.org/web/20040803214626/http://www.pe-player.com:80/auction/list.php?sort=latest&numrows=100",
+    "https://web.archive.org/web/20040807114142/http://www.pe-player.com:80/auction/list.php?sort=bytype",
+    "https://web.archive.org/web/20050130134118/http://www.pe-player.com:80/auction/list.php?sort=bytype"
+  ],
+  "sold": [
+    [1, 0.0, 15.0, 1, [[0, "2004-07-06 14:09", 1]]],
+    [1, 7.0, 11.0, 4, [[0, "2004-08-03 23:10", 0]]],
+    [1, 0.0, 15.0, 1, [[0, "2004-10-23 02:33", 2]]]
+  ],
+  "unsold": [],
+  "readings": [],
+  "charts": []
+}

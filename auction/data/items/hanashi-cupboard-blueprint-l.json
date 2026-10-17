@@ -1,0 +1,23 @@
+{
+  "item": "hanashi-cupboard-blueprint-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20090802102248/http://www.peauction.com:80/catlisting.php?id=77",
+    "https://web.archive.org/web/20091002013535/http://www.peauction.com:80/catlisting.php?id=77",
+    "https://web.archive.org/web/20160801123513/http://peauction.com/itemlisting.php?id=6192"
+  ],
+  "sold": [
+    [1, 0.25, 3003.0, 46, [[0, "2008-09-05 17:27", 2]]],
+    [1, 0.2, 102.0, 3, [[0, "2009-03-29 20:19", 2]]],
+    [1, 0.28, 131.0, 67, [[0, "2009-04-05 17:21", 2]]],
+    [1, 0.36, 200.0, 1, [[0, "2009-04-19 00:04", 2]]]
+  ],
+  "unsold": [
+    [1, 0.2, 300.0, [[0, "2009-03-22 02:53", 2]]]
+  ],
+  "readings": [
+    [0, "%", 338635.0, 0, 1]
+  ],
+  "charts": []
+}

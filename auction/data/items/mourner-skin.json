@@ -1,0 +1,32 @@
+{
+  "item": "mourner-skin",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20080210221242/http://www.peauction.com:80/catlisting.php?id=47",
+    "https://web.archive.org/web/20080411151139/http://www.peauction.com:80/catlisting.php?id=47",
+    "https://web.archive.org/web/20080610220550/http://www.peauction.com:80/catlisting.php?id=47",
+    "https://web.archive.org/web/20080801024440/http://www.peauction.com:80/catlisting.php?id=47",
+    "https://web.archive.org/web/20080817053423/http://www.peauction.com:80/catlisting.php?id=47",
+    "https://web.archive.org/web/20081022150258/http://www.peauction.com:80/catlisting.php?id=47",
+    "https://web.archive.org/web/20090123071800/http://peauction.com:80/catlisting.php?id=47",
+    "https://web.archive.org/web/20090304032513/http://peauction.com:80/catlisting.php?id=47",
+    "https://web.archive.org/web/20090802102019/http://www.peauction.com:80/catlisting.php?id=47",
+    "https://web.archive.org/web/20091002013310/http://www.peauction.com:80/catlisting.php?id=47"
+  ],
+  "sold": [],
+  "unsold": [],
+  "readings": [
+    [0, "%", 390.8, 0, 0],
+    [0, "%", 225.0, 1, 1],
+    [0, "%", 181.03, 2, 2],
+    [0, "%", 162.11, 3, 3],
+    [0, "%", 167.16, 4, 4],
+    [0, "%", 190.88, 5, 5],
+    [0, "%", 262.75, 6, 6],
+    [0, "%", 246.31, 7, 7],
+    [0, "%", 274.14, 8, 8],
+    [0, "%", 293.33, 9, 9]
+  ],
+  "charts": []
+}

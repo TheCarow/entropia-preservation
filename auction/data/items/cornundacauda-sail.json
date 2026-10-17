@@ -1,0 +1,18 @@
+{
+  "item": "cornundacauda-sail",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20060614131324/http://peauction.com:80/catlisting.php?id=51",
+    "https://web.archive.org/web/20070810161442/http://peauction.com:80/itemlisting.php?id=2935",
+    "https://web.archive.org/web/20091002013327/http://www.peauction.com:80/catlisting.php?id=51"
+  ],
+  "sold": [
+    [1, 5.6, 4000.0, 12, [[0, "2006-05-13 17:58", 1]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "%", 71428.6, 0, 2]
+  ],
+  "charts": []
+}

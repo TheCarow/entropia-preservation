@@ -1,0 +1,18 @@
+{
+  "item": "xfire-survival-arm-guards-m-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20081022150459/http://www.peauction.com:80/catlisting.php?id=72",
+    "https://web.archive.org/web/20090223042436/http://peauction.com:80/catlisting.php?id=72",
+    "https://web.archive.org/web/20090802101850/http://www.peauction.com:80/catlisting.php?id=3",
+    "https://web.archive.org/web/20091002013141/http://www.peauction.com:80/catlisting.php?id=3"
+  ],
+  "sold": [],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 3.42, 0, 1],
+    [0, "%", 151.98, 2, 3]
+  ],
+  "charts": []
+}

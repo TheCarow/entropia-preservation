@@ -1,0 +1,42 @@
+{
+  "item": "ignaritz-laser-sight",
+  "markup": "TT+",
+  "sources": ["pea", "pe-player"],
+  "captures": [
+    "https://web.archive.org/web/20050208180727/http://www.pe-player.com:80/auction/list.php?sort=bytype",
+    "https://web.archive.org/web/20070105192126/http://peauction.com:80/catlisting.php?id=12",
+    "https://web.archive.org/web/20070809045512/http://peauction.com:80/itemlisting.php?id=1460",
+    "https://web.archive.org/web/20080817052543/http://www.peauction.com:80/catlisting.php?id=12",
+    "https://web.archive.org/web/20081022150027/http://www.peauction.com:80/catlisting.php?id=12",
+    "https://web.archive.org/web/20090223042015/http://peauction.com:80/catlisting.php?id=12",
+    "https://web.archive.org/web/20090802101742/http://www.peauction.com:80/catlisting.php?id=12",
+    "https://web.archive.org/web/20091002013031/http://www.peauction.com:80/catlisting.php?id=12",
+    "https://web.archive.org/web/20160802010008/http://peauction.com/itemlisting.php?id=1460"
+  ],
+  "sold": [
+    [1, 63.38, 1264.0, 0, [[1, "2005-02-06 12:45", 0]]],
+    [1, 64.96, 965.0, 1, [[0, "2006-11-08 18:34", 2]]],
+    [1, 219.12, 618.0, 38, [[0, "2008-09-20 19:53", 8]]],
+    [1, 134.04, 655.0, 2, [[0, "2009-06-07 17:38", 8]]]
+  ],
+  "unsold": [
+    [1, 246.65, 1647.0, [[0, "2005-10-31 00:16", 2]]],
+    [1, 62.49, 3063.0, [[0, "2006-04-12 20:26", 2]]],
+    [1, 62.49, 3063.0, [[0, "2006-04-16 20:25", 2]]],
+    [1, 62.49, 3063.0, [[0, "2006-04-25 01:14", 2]]],
+    [1, 62.49, 3063.0, [[0, "2006-05-02 01:38", 2]]],
+    [1, 62.49, 3063.0, [[0, "2006-05-09 02:54", 2]]],
+    [1, 55.48, 2556.0, [[0, "2006-05-21 22:35", 2]]],
+    [1, 55.48, 2056.0, [[0, "2006-06-10 07:21", 2]]],
+    [1, 62.49, 2063.0, [[0, "2006-07-16 13:43", 2]]],
+    [1, 62.49, 2563.0, [[0, "2006-07-22 04:24", 2]]],
+    [1, 64.96, 1990.0, [[0, "2006-11-01 16:57", 2]]],
+    [1, 258.97, 659.0, [[0, "2008-11-19 17:51", 8]]]
+  ],
+  "readings": [
+    [0, "TT+", 900.04, 1, 3],
+    [0, "TT+", 649.46, 4, 5],
+    [0, "TT+", 606.63, 6, 7]
+  ],
+  "charts": []
+}

@@ -1,0 +1,19 @@
+{
+  "item": "face-paint-navy-blue",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20090802102135/http://www.peauction.com:80/catlisting.php?id=63",
+    "https://web.archive.org/web/20091003150251/http://www.peauction.com:80/catlisting.php?id=63",
+    "https://web.archive.org/web/20160801184816/http://peauction.com/itemlisting.php?id=5226"
+  ],
+  "sold": [
+    [2, 10.0, 10.0, 1, [[0, "2009-07-02 17:21", 2]]],
+    [3, 15.0, 15.0, 1, [[0, "2009-09-06 21:17", 2]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 0.53, 0, 1]
+  ],
+  "charts": []
+}

@@ -1,0 +1,22 @@
+{
+  "item": "nature-s-eye-painting",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20060614131158/http://peauction.com:80/catlisting.php?id=42",
+    "https://web.archive.org/web/20060721094635/http://www.peauction.com:80/catlisting.php?id=42",
+    "https://web.archive.org/web/20060805181541/http://peauction.com:80/catlisting.php?id=42",
+    "https://web.archive.org/web/20070616045355/http://peauction.com:80/itemlisting.php?id=2880"
+  ],
+  "sold": [
+    [1, 14.75, 1720.0, 37, [[0, "2006-04-21 23:09", 3]]],
+    [1, 129.42, 1629.0, 1, [[0, "2006-05-29 21:30", 3]]],
+    [1, 45.94, 1600.0, 1, [[0, "2006-06-18 20:58", 3]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 1602.42, 0, 0],
+    [0, "TT+", 1586.3, 1, 2]
+  ],
+  "charts": []
+}

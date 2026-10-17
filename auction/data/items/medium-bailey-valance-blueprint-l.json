@@ -1,0 +1,28 @@
+{
+  "item": "medium-bailey-valance-blueprint-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20070610030855/http://peauction.com:80/catlisting.php?id=77",
+    "https://web.archive.org/web/20070807234215/http://peauction.com:80/catlisting.php?id=77",
+    "https://web.archive.org/web/20071007160850/http://www.peauction.com/catlisting.php?id=77",
+    "https://web.archive.org/web/20071110000645/http://www.peauction.com/itemlisting.php?id=3591",
+    "https://web.archive.org/web/20091002013535/http://www.peauction.com:80/catlisting.php?id=77",
+    "https://web.archive.org/web/20160801065900/http://peauction.com/itemlisting.php?id=3591"
+  ],
+  "sold": [
+    [1, 0.81, 50.0, 1, [[0, "2007-01-02 13:22", 3]]],
+    [1, 0.68, 7.0, 7, [[0, "2007-06-22 08:56", 3]]],
+    [1, 0.36, 17.0, 17, [[0, "2007-09-15 10:04", 3]]]
+  ],
+  "unsold": [
+    [1, 0.81, 200.0, [[0, "2006-12-28 16:17", 3]]],
+    [1, 0.31, 7.0, [[0, "2008-07-21 20:27", 5]]]
+  ],
+  "readings": [
+    [0, "%", 6172.84, 0, 0],
+    [0, "%", 3601.13, 1, 1],
+    [0, "%", 3974.82, 2, 4]
+  ],
+  "charts": []
+}

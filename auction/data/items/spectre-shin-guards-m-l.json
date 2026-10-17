@@ -1,0 +1,19 @@
+{
+  "item": "spectre-shin-guards-m-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20090802102303/http://www.peauction.com:80/catlisting.php?id=8",
+    "https://web.archive.org/web/20091002013550/http://www.peauction.com:80/catlisting.php?id=8",
+    "https://web.archive.org/web/20160801083246/http://peauction.com/itemlisting.php?id=5590"
+  ],
+  "sold": [
+    [1, 90.0, 254.0, 23, [[0, "2008-08-11 19:48", 2]]],
+    [1, 88.57, 138.0, 38, [[0, "2008-08-18 18:19", 2]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "%", 219.02, 0, 1]
+  ],
+  "charts": []
+}

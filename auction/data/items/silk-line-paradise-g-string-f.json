@@ -1,0 +1,17 @@
+{
+  "item": "silk-line-paradise-g-string-f",
+  "markup": "TT+",
+  "sources": ["pea", "pe-player"],
+  "captures": [
+    "https://web.archive.org/web/20050130134118/http://www.pe-player.com:80/auction/list.php?sort=bytype",
+    "https://web.archive.org/web/20160801200336/http://peauction.com/itemlisting.php?id=4599"
+  ],
+  "sold": [
+    [1, 7.89, 307.0, 20, [[1, "2005-01-14 20:10", 0]]],
+    [1, 4.21, 160.0, 11, [[0, "2007-07-24 13:08", 1]]],
+    [1, 7.89, 853.0, 61, [[0, "2009-03-07 17:35", 1]]]
+  ],
+  "unsold": [],
+  "readings": [],
+  "charts": []
+}

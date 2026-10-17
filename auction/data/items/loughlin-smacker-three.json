@@ -1,0 +1,18 @@
+{
+  "item": "loughlin-smacker-three",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20090802102213/http://www.peauction.com:80/catlisting.php?id=70",
+    "https://web.archive.org/web/20091002013458/http://www.peauction.com:80/catlisting.php?id=70",
+    "https://web.archive.org/web/20160801190250/http://peauction.com/itemlisting.php?id=6024"
+  ],
+  "sold": [
+    [1, 3052.0, 5053.0, 2, [[0, "2009-06-30 23:02", 2]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 2001.0, 0, 1]
+  ],
+  "charts": []
+}

@@ -1,0 +1,15 @@
+{
+  "item": "musique-pants-m",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20070809103739/http://peauction.com:80/itemlisting.php?id=2944"
+  ],
+  "sold": [],
+  "unsold": [
+    [1, 201.0, 1201.0, [[0, "2006-05-26 22:25", 0]]],
+    [1, 201.0, 750.0, [[0, "2006-05-31 18:41", 0]]]
+  ],
+  "readings": [],
+  "charts": []
+}

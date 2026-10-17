@@ -1,0 +1,18 @@
+{
+  "item": "bank-license-5",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20070806045935/http://peauction.com:80/catlisting.php?id=1",
+    "https://web.archive.org/web/20071105204203/http://peauction.com:80/itemlisting.php?id=3973",
+    "https://web.archive.org/web/20091002013020/http://www.peauction.com:80/catlisting.php?id=1"
+  ],
+  "sold": [
+    [1, 0.0, 600000.0, 87, [[0, "2007-05-03 16:05", 1]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 600000.0, 0, 2]
+  ],
+  "charts": []
+}

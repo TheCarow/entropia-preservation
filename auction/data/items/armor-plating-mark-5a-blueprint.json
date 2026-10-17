@@ -1,0 +1,24 @@
+{
+  "item": "armor-plating-mark-5a-blueprint",
+  "markup": "TT+",
+  "sources": ["pea", "pe-player"],
+  "captures": [
+    "https://web.archive.org/web/20041010022429/http://www.pe-player.com:80/auction/list.php?sort=bytype",
+    "https://web.archive.org/web/20060216220804/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20070805053621/http://peauction.com:80/itemlisting.php?id=2253",
+    "https://web.archive.org/web/20091002013048/http://www.peauction.com:80/catlisting.php?id=19",
+    "https://web.archive.org/web/20160801125032/http://peauction.com/itemlisting.php?id=2253"
+  ],
+  "sold": [
+    [1, 0.01, 601.0, 0, [[1, "2004-09-11 18:25", 0]]],
+    [1, 0.01, 2003.0, 50, [[0, "2005-12-17 15:25", 2]]]
+  ],
+  "unsold": [
+    [1, 0.6, 11000.0, [[0, "2008-07-02 22:50", 4]]],
+    [1, 0.6, 6000.0, [[0, "2008-07-23 17:32", 4]]]
+  ],
+  "readings": [
+    [0, "TT+", 2002.99, 1, 3]
+  ],
+  "charts": []
+}

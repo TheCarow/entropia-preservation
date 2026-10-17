@@ -1,0 +1,17 @@
+{
+  "item": "shadow-gloves-f",
+  "markup": "TT+",
+  "sources": ["pea", "pe-player"],
+  "captures": [
+    "https://web.archive.org/web/20050130134118/http://www.pe-player.com:80/auction/list.php?sort=bytype",
+    "https://web.archive.org/web/20160802005806/http://peauction.com/itemlisting.php?id=4002"
+  ],
+  "sold": [
+    [1, 51.0, 4990.0, 0, [[1, "2004-11-30 21:00", 0]]]
+  ],
+  "unsold": [
+    [1, 49.96, 24050.0, [[0, "2007-06-02 12:02", 1]]]
+  ],
+  "readings": [],
+  "charts": []
+}

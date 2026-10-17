@@ -1,0 +1,22 @@
+{
+  "item": "trooper-helmet-f",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20070106032152/http://peauction.com:80/catlisting.php?id=7",
+    "https://web.archive.org/web/20070420175350/http://peauction.com:80/itemlisting.php?id=2467",
+    "https://web.archive.org/web/20091002013452/http://www.peauction.com:80/catlisting.php?id=7"
+  ],
+  "sold": [
+    [1, 21.5, 38.0, 7, [[0, "2006-11-27 00:15", 1]]]
+  ],
+  "unsold": [
+    [1, 21.46, 1022.0, [[0, "2006-02-03 18:00", 1]]],
+    [1, 21.5, 252.0, [[0, "2006-11-16 00:55", 1]]],
+    [1, 21.5, 122.0, [[0, "2006-11-19 03:03", 1]]]
+  ],
+  "readings": [
+    [0, "TT+", 16.5, 0, 2]
+  ],
+  "charts": []
+}

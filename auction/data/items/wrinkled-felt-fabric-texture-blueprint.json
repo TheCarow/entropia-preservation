@@ -1,0 +1,18 @@
+{
+  "item": "wrinkled-felt-fabric-texture-blueprint",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20090802101821/http://www.peauction.com:80/catlisting.php?id=23",
+    "https://web.archive.org/web/20091002013109/http://www.peauction.com:80/catlisting.php?id=23",
+    "https://web.archive.org/web/20160801190115/http://peauction.com/itemlisting.php?id=5349"
+  ],
+  "sold": [
+    [1, 0.01, 2.0, 1, [[0, "2009-07-24 18:25", 2]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 1.09, 0, 1]
+  ],
+  "charts": []
+}

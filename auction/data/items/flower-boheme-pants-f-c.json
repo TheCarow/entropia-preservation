@@ -1,0 +1,16 @@
+{
+  "item": "flower-boheme-pants-f-c",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20160801124218/http://peauction.com/itemlisting.php?id=5073"
+  ],
+  "sold": [
+    [1, 213.0, 222.0, 6, [[0, "2007-11-13 14:53", 0]]]
+  ],
+  "unsold": [
+    [1, 213.0, 413.0, [[0, "2007-11-12 11:33", 0]]]
+  ],
+  "readings": [],
+  "charts": []
+}

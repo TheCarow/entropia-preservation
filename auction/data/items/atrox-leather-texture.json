@@ -1,0 +1,33 @@
+{
+  "item": "atrox-leather-texture",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20080411151145/http://www.peauction.com:80/catlisting.php?id=48",
+    "https://web.archive.org/web/20080801025348/http://www.peauction.com:80/catlisting.php?id=48",
+    "https://web.archive.org/web/20080817053429/http://www.peauction.com:80/catlisting.php?id=48",
+    "https://web.archive.org/web/20081022150303/http://www.peauction.com:80/catlisting.php?id=48",
+    "https://web.archive.org/web/20090223042243/http://peauction.com:80/catlisting.php?id=48",
+    "https://web.archive.org/web/20091002013312/http://www.peauction.com:80/catlisting.php?id=48",
+    "https://web.archive.org/web/20160801183602/http://peauction.com/itemlisting.php?id=5814"
+  ],
+  "sold": [
+    [15, 18.75, 20.0, 1, [[0, "2008-03-19 12:38", 6]]],
+    [8, 10.0, 14.0, 5, [[0, "2008-08-03 19:37", 6]]],
+    [200, 250.0, 250.0, 1, [[0, "2008-11-30 04:56", 6]]]
+  ],
+  "unsold": [
+    [62, 77.5, 120.0, [[0, "2008-11-11 19:55", 6]]],
+    [6, 7.5, 10.0, [[0, "2008-12-17 07:12", 6]]],
+    [42, 52.5, 60.0, [[0, "2008-12-25 10:17", 6]]],
+    [42, 52.5, 65.0, [[0, "2009-01-01 10:17", 6]]],
+    [16, 20.0, 40.0, [[0, "2009-01-28 13:53", 6]]],
+    [119, 148.75, 298.0, [[0, "2009-03-11 09:15", 6]]]
+  ],
+  "readings": [
+    [0, "%", 106.67, 0, 1],
+    [0, "%", 118.26, 2, 3],
+    [0, "%", 101.88, 4, 5]
+  ],
+  "charts": []
+}

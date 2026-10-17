@@ -1,0 +1,17 @@
+{
+  "item": "fugabarba-leather-texture",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20090223042243/http://peauction.com:80/catlisting.php?id=48",
+    "https://web.archive.org/web/20090802102025/http://www.peauction.com:80/catlisting.php?id=48",
+    "https://web.archive.org/web/20091002013312/http://www.peauction.com:80/catlisting.php?id=48"
+  ],
+  "sold": [],
+  "unsold": [],
+  "readings": [
+    [0, "%", 4642.86, 0, 0],
+    [0, "%", 1851.85, 1, 2]
+  ],
+  "charts": []
+}

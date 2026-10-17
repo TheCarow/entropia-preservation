@@ -1,0 +1,23 @@
+{
+  "item": "oxidized-iron-texture",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20090802102025/http://www.peauction.com:80/catlisting.php?id=48",
+    "https://web.archive.org/web/20091002013312/http://www.peauction.com:80/catlisting.php?id=48",
+    "https://web.archive.org/web/20160801185154/http://peauction.com/itemlisting.php?id=5577"
+  ],
+  "sold": [
+    [2, 0.86, 1.0, 1, [[0, "2008-07-23 09:12", 2]]],
+    [156, 67.08, 68.0, 1, [[0, "2008-12-20 19:42", 2]]],
+    [20, 8.6, 9.0, 1, [[0, "2009-05-10 13:44", 2]]]
+  ],
+  "unsold": [
+    [153, 65.79, 67.0, [[0, "2009-10-01 17:10", 2]]],
+    [153, 65.79, 66.0, [[0, "2009-10-05 03:20", 2]]]
+  ],
+  "readings": [
+    [0, "%", 101.91, 0, 1]
+  ],
+  "charts": []
+}

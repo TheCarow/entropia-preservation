@@ -1,0 +1,14 @@
+{
+  "item": "katsuichi-valor-blueprint",
+  "markup": "TT+",
+  "sources": ["pe-player"],
+  "captures": [
+    "https://web.archive.org/web/20050130134118/http://www.pe-player.com:80/auction/list.php?sort=bytype"
+  ],
+  "sold": [
+    [1, 0.02, 601.0, 0, [[0, "2005-01-04 21:55", 0]]]
+  ],
+  "unsold": [],
+  "readings": [],
+  "charts": []
+}

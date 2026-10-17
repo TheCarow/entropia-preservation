@@ -1,0 +1,15 @@
+{
+  "item": "cauldron",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20160801222414/http://peauction.com/itemlisting.php?id=6183"
+  ],
+  "sold": [
+    [1, 14.02, 155.0, 11, [[0, "2008-09-01 17:15", 0]]],
+    [1, 6.28, 168.0, 2, [[0, "2009-03-05 14:37", 0]]]
+  ],
+  "unsold": [],
+  "readings": [],
+  "charts": []
+}

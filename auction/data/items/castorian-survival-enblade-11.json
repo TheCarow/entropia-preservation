@@ -1,0 +1,18 @@
+{
+  "item": "castorian-survival-enblade-11",
+  "markup": "TT+",
+  "sources": ["pea", "pe-player"],
+  "captures": [
+    "https://web.archive.org/web/20050208180727/http://www.pe-player.com:80/auction/list.php?sort=bytype",
+    "https://web.archive.org/web/20070811010152/http://peauction.com:80/itemlisting.php?id=2206"
+  ],
+  "sold": [
+    [1, 70.61, 999.0, 0, [[1, "2005-01-31 19:40", 0]]]
+  ],
+  "unsold": [
+    [1, 6.57, 3000.0, [[0, "2005-12-07 00:44", 1]]],
+    [1, 6.57, 3000.0, [[0, "2005-12-08 03:17", 1]]]
+  ],
+  "readings": [],
+  "charts": []
+}

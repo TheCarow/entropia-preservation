@@ -1,0 +1,36 @@
+{
+  "item": "vumpoor-hollowman-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071012152234/http://peauction.com:80/catlisting.php?id=80",
+    "https://web.archive.org/web/20071212071320/http://peauction.com:80/catlisting.php?id=80",
+    "https://web.archive.org/web/20080210230154/http://www.peauction.com:80/catlisting.php?id=80",
+    "https://web.archive.org/web/20080411151434/http://www.peauction.com:80/catlisting.php?id=80",
+    "https://web.archive.org/web/20080610230824/http://www.peauction.com:80/catlisting.php?id=80",
+    "https://web.archive.org/web/20080801024704/http://www.peauction.com:80/catlisting.php?id=80",
+    "https://web.archive.org/web/20080817052349/http://www.peauction.com:80/catlisting.php?id=80",
+    "https://web.archive.org/web/20081022150544/http://www.peauction.com:80/catlisting.php?id=80",
+    "https://web.archive.org/web/20090223042521/http://peauction.com:80/catlisting.php?id=80",
+    "https://web.archive.org/web/20090802102513/http://www.peauction.com:80/catlisting.php?id=80",
+    "https://web.archive.org/web/20091002013555/http://www.peauction.com:80/catlisting.php?id=80",
+    "https://web.archive.org/web/20160801193648/http://peauction.com/itemlisting.php?id=4547"
+  ],
+  "sold": [
+    [1, 250.0, 290.0, 4, [[0, "2009-09-19 14:11", 11]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "%", 569.17, 0, 1],
+    [0, "%", 345.87, 2, 2],
+    [0, "%", 336.64, 3, 3],
+    [0, "%", 275.78, 4, 4],
+    [0, "%", 162.09, 5, 5],
+    [0, "%", 163.05, 6, 6],
+    [0, "%", 154.01, 7, 7],
+    [0, "%", 142.56, 8, 8],
+    [0, "%", 128.02, 9, 9],
+    [0, "%", 123.72, 10, 10]
+  ],
+  "charts": []
+}

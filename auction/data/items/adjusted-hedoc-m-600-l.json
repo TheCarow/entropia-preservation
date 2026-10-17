@@ -1,0 +1,30 @@
+{
+  "item": "adjusted-hedoc-m-600-l",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071007161000/http://www.peauction.com/catlisting.php?id=66",
+    "https://web.archive.org/web/20071110080343/http://www.peauction.com/itemlisting.php?id=4574",
+    "https://web.archive.org/web/20081022150429/http://www.peauction.com:80/catlisting.php?id=66",
+    "https://web.archive.org/web/20090223042411/http://peauction.com:80/catlisting.php?id=66",
+    "https://web.archive.org/web/20090802102152/http://www.peauction.com:80/catlisting.php?id=66",
+    "https://web.archive.org/web/20091002013436/http://www.peauction.com:80/catlisting.php?id=66",
+    "https://web.archive.org/web/20160801124453/http://peauction.com/itemlisting.php?id=4574"
+  ],
+  "sold": [
+    [1, 132.99, 133.0, 1, [[0, "2007-10-07 04:07", 1]]],
+    [1, 279.08, 280.0, 1, [[0, "2008-12-29 06:42", 6]]]
+  ],
+  "unsold": [
+    [1, 63.87, 75.0, [[0, "2007-07-16 21:17", 1]]],
+    [1, 63.87, 70.0, [[0, "2007-07-23 21:47", 1]]],
+    [1, 63.87, 64.0, [[0, "2007-08-21 19:02", 1]]],
+    [1, 58.46, 65.0, [[0, "2008-03-09 05:11", 6]]]
+  ],
+  "readings": [
+    [0, "TT+", 0.01, 0, 2],
+    [0, "TT+", 0.47, 3, 3],
+    [0, "%", 100.17, 4, 5]
+  ],
+  "charts": []
+}

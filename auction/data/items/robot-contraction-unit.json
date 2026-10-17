@@ -1,0 +1,48 @@
+{
+  "item": "robot-contraction-unit",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20061220005310/http://peauction.com:80/catlisting.php?id=54",
+    "https://web.archive.org/web/20070610030733/http://peauction.com:80/catlisting.php?id=54",
+    "https://web.archive.org/web/20070805004838/http://peauction.com:80/catlisting.php?id=54",
+    "https://web.archive.org/web/20071007162819/http://www.peauction.com/catlisting.php?id=54",
+    "https://web.archive.org/web/20071012152024/http://peauction.com:80/catlisting.php?id=54",
+    "https://web.archive.org/web/20071212071107/http://peauction.com:80/catlisting.php?id=54",
+    "https://web.archive.org/web/20080210221322/http://www.peauction.com:80/catlisting.php?id=54",
+    "https://web.archive.org/web/20080411151217/http://www.peauction.com:80/catlisting.php?id=54",
+    "https://web.archive.org/web/20080610220625/http://www.peauction.com:80/catlisting.php?id=54",
+    "https://web.archive.org/web/20080801025403/http://www.peauction.com:80/catlisting.php?id=54",
+    "https://web.archive.org/web/20080817053455/http://www.peauction.com:80/catlisting.php?id=54",
+    "https://web.archive.org/web/20081022150334/http://www.peauction.com:80/catlisting.php?id=54",
+    "https://web.archive.org/web/20090223042316/http://peauction.com:80/catlisting.php?id=54",
+    "https://web.archive.org/web/20090921135426/http://www.peauction.com:80/catlisting.php?id=54",
+    "https://web.archive.org/web/20160801184625/http://peauction.com/itemlisting.php?id=3358"
+  ],
+  "sold": [
+    [5, 65.0, 65.0, 1, [[0, "2009-05-08 22:44", 14]]],
+    [2, 26.0, 27.0, 1, [[0, "2009-05-30 03:57", 14]]],
+    [1, 13.0, 13.0, 1, [[0, "2009-07-01 03:49", 14]]],
+    [2, 26.0, 27.0, 1, [[0, "2009-07-03 01:50", 14]]],
+    [1, 13.0, 13.0, 1, [[0, "2009-07-06 19:26", 14]]],
+    [3, 39.0, 39.0, 1, [[0, "2009-07-10 19:48", 14]]],
+    [6, 78.0, 78.0, 1, [[0, "2009-09-16 04:59", 14]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 1.14, 0, 0],
+    [0, "%", 101.78, 1, 1],
+    [0, "%", 103.21, 2, 2],
+    [0, "%", 100.53, 3, 4],
+    [0, "%", 100.34, 5, 5],
+    [0, "%", 100.35, 6, 6],
+    [0, "%", 102.2, 7, 7],
+    [0, "%", 104.62, 8, 8],
+    [0, "%", 102.69, 9, 9],
+    [0, "%", 102.04, 10, 10],
+    [0, "%", 102.33, 11, 11],
+    [0, "%", 100.38, 12, 12],
+    [0, "%", 100.64, 13, 13]
+  ],
+  "charts": []
+}

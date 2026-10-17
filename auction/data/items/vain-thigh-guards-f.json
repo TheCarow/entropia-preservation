@@ -1,0 +1,18 @@
+{
+  "item": "vain-thigh-guards-f",
+  "markup": "TT+",
+  "sources": ["pea", "pe-player"],
+  "captures": [
+    "https://web.archive.org/web/20050130134118/http://www.pe-player.com:80/auction/list.php?sort=bytype",
+    "https://web.archive.org/web/20160801123415/http://peauction.com/itemlisting.php?id=3044"
+  ],
+  "sold": [
+    [1, 201.37, 2802.0, 0, [[1, "2004-10-24 07:05", 0]]]
+  ],
+  "unsold": [
+    [1, 41.47, 20000.0, [[0, "2006-08-07 04:21", 1]]],
+    [1, 41.47, 7543.0, [[0, "2006-08-17 03:19", 1]]]
+  ],
+  "readings": [],
+  "charts": []
+}

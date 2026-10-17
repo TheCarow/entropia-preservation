@@ -1,0 +1,54 @@
+{
+  "item": "martial-arm-guards-m-l",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071006171149/http://www.peauction.com/catlisting.php?id=3",
+    "https://web.archive.org/web/20071009123639/http://www.peauction.com/itemlisting.php?id=3979",
+    "https://web.archive.org/web/20071009123656/http://www.peauction.com/chart2.php?id=3979&dtype=0",
+    "https://web.archive.org/web/20071012151822/http://peauction.com:80/catlisting.php?id=3",
+    "https://web.archive.org/web/20071212065958/http://peauction.com:80/catlisting.php?id=3",
+    "https://web.archive.org/web/20080210212348/http://www.peauction.com:80/catlisting.php?id=3",
+    "https://web.archive.org/web/20080411151012/http://www.peauction.com:80/catlisting.php?id=3",
+    "https://web.archive.org/web/20080610220423/http://www.peauction.com:80/catlisting.php?id=3",
+    "https://web.archive.org/web/20081022150132/http://www.peauction.com:80/catlisting.php?id=3",
+    "https://web.archive.org/web/20090223042118/http://peauction.com:80/catlisting.php?id=3",
+    "https://web.archive.org/web/20090802101850/http://www.peauction.com:80/catlisting.php?id=3",
+    "https://web.archive.org/web/20091002013141/http://www.peauction.com:80/catlisting.php?id=3"
+  ],
+  "sold": [
+    [1, 61.96, 233.0, 52, [[0, "2007-05-26 01:48", 1]]],
+    [1, 59.86, 180.0, 1, [[0, "2007-06-11 18:16", 1]]],
+    [1, 66.0, 216.0, 1, [[0, "2007-06-26 16:46", 1]]],
+    [1, 66.0, 121.0, 20, [[0, "2007-07-11 20:31", 1]]],
+    [1, 66.0, 127.0, 18, [[0, "2007-07-11 20:51", 1]]],
+    [1, 65.46, 143.0, 8, [[0, "2007-07-15 09:26", 1]]],
+    [1, 35.23, 50.0, 12, [[0, "2007-07-17 20:07", 1]]],
+    [1, 66.0, 160.0, 2, [[0, "2007-08-02 22:08", 1]]],
+    [1, 51.18, 113.0, 17, [[0, "2007-09-11 00:09", 1]]],
+    [1, 20.72, 50.0, 8, [[0, "2007-09-21 04:20", 1]]],
+    [1, 50.32, 102.0, 2, [[0, "2007-09-23 01:45", 1]]],
+    [1, 66.0, 71.0, 6, [[0, "2007-09-24 05:00", 1]]]
+  ],
+  "unsold": [
+    [1, 66.0, 266.0, [[0, "2007-05-05 21:36", 1]]],
+    [1, 66.0, 275.0, [[0, "2007-05-14 15:03", 1]]],
+    [1, 66.0, 275.0, [[0, "2007-05-14 15:07", 1]]],
+    [1, 66.0, 266.0, [[0, "2007-05-19 23:28", 1]]],
+    [1, 66.0, 200.0, [[0, "2007-06-25 14:31", 1]]],
+    [1, 20.72, 70.0, [[0, "2007-09-11 22:24", 1]]]
+  ],
+  "readings": [
+    [0, "TT+", 60.01, 0, 3],
+    [0, "TT+", 45.81, 4, 4],
+    [0, "TT+", 47.38, 5, 5],
+    [0, "TT+", 47.08, 6, 6],
+    [0, "TT+", 42.66, 7, 8],
+    [0, "TT+", 24.64, 9, 9],
+    [0, "%", 116.31, 10, 10],
+    [0, "%", 121.57, 11, 11]
+  ],
+  "charts": [
+    [0, 2, "3979-0-20071009123656.png"]
+  ]
+}

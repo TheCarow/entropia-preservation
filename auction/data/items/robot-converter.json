@@ -1,0 +1,22 @@
+{
+  "item": "robot-converter",
+  "markup": "TT+",
+  "sources": ["pea", "mytwopecs"],
+  "captures": [
+    "https://web.archive.org/web/20060830080546/http://www.mytwopecs.com:80/feed-beta/robotics.xml",
+    "https://web.archive.org/web/20070610030733/http://peauction.com:80/catlisting.php?id=54",
+    "https://web.archive.org/web/20090327053724/http://www.mytwopecs.com:80/feed-beta/robotics.xml",
+    "https://web.archive.org/web/20090921135426/http://www.peauction.com:80/catlisting.php?id=54",
+    "https://web.archive.org/web/20160801184844/http://peauction.com/itemlisting.php?id=3609"
+  ],
+  "sold": [
+    [1, 10.26, 200.0, 20, [[0, "2007-01-02 19:49", 4]]],
+    [1, 19.83, 31.0, 2, [[0, "2007-03-12 17:03", 4]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 100.46, 1, 3],
+    [1, "%", 58.14, 0, 2]
+  ],
+  "charts": []
+}

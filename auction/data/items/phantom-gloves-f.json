@@ -1,0 +1,48 @@
+{
+  "item": "phantom-gloves-f",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071007161354/http://www.peauction.com/catlisting.php?id=5",
+    "https://web.archive.org/web/20071012152004/http://peauction.com:80/catlisting.php?id=5",
+    "https://web.archive.org/web/20071111105127/http://www.peauction.com/itemlisting.php?id=3823",
+    "https://web.archive.org/web/20071111105148/http://www.peauction.com/chart2.php?id=3823&dtype=0",
+    "https://web.archive.org/web/20071212071045/http://peauction.com:80/catlisting.php?id=5",
+    "https://web.archive.org/web/20080210221258/http://www.peauction.com:80/catlisting.php?id=5",
+    "https://web.archive.org/web/20080409175120/http://www.peauction.com:80/itemlisting.php?item=Phantom+Gloves+(F)",
+    "https://web.archive.org/web/20080411151156/http://www.peauction.com:80/catlisting.php?id=5",
+    "https://web.archive.org/web/20080818212902/http://www.peauction.com:80/catlisting.php?id=5",
+    "https://web.archive.org/web/20081022150313/http://www.peauction.com:80/catlisting.php?id=5",
+    "https://web.archive.org/web/20091002013322/http://www.peauction.com:80/catlisting.php?id=5",
+    "https://web.archive.org/web/20160802010457/http://peauction.com/itemlisting.php?id=3823"
+  ],
+  "sold": [
+    [1, 56.0, 656.0, 1, [[0, "2007-07-16 12:06", 2]]],
+    [1, 56.0, 560.0, 26, [[0, "2007-07-21 11:57", 2]]],
+    [1, 55.76, 553.0, 26, [[0, "2007-10-03 17:02", 2]]],
+    [1, 55.76, 577.0, 26, [[0, "2007-10-03 17:12", 2]]],
+    [1, 54.28, 354.0, 13, [[0, "2007-10-19 15:23", 2]]],
+    [1, 54.28, 470.0, 26, [[0, "2007-10-19 16:08", 2]]],
+    [1, 54.28, 474.0, 26, [[0, "2007-10-19 16:18", 2]]],
+    [1, 55.56, 846.0, 1, [[0, "2008-03-12 10:26", 6]]],
+    [1, 55.56, 846.0, 1, [[0, "2008-03-12 11:26", 11]]],
+    [1, 55.98, 1160.0, 11, [[0, "2008-08-31 16:40", 11]]]
+  ],
+  "unsold": [
+    [1, 24.89, 504.0, [[0, "2007-03-06 17:46", 2]]],
+    [1, 12.26, 492.0, [[0, "2007-03-20 09:26", 2]]],
+    [1, 12.26, 492.0, [[0, "2007-03-20 10:26", 11]]],
+    [1, 53.79, 554.0, [[0, "2007-07-25 20:43", 2]]],
+    [1, 55.76, 635.0, [[0, "2007-10-10 17:13", 2]]],
+    [1, 55.76, 635.0, [[0, "2007-10-21 13:23", 2]]]
+  ],
+  "readings": [
+    [0, "TT+", 530.62, 0, 1],
+    [0, "TT+", 465.38, 4, 5],
+    [0, "TT+", 506.01, 7, 8],
+    [0, "TT+", 572.46, 9, 10]
+  ],
+  "charts": [
+    [0, 3, "3823-0-20071111105148.png"]
+  ]
+}

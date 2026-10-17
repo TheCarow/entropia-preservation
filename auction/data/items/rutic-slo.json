@@ -1,0 +1,21 @@
+{
+  "item": "rutic-slo",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20090802102218/http://www.peauction.com:80/catlisting.php?id=71",
+    "https://web.archive.org/web/20091002013506/http://www.peauction.com:80/catlisting.php?id=71",
+    "https://web.archive.org/web/20160801203532/http://peauction.com/itemlisting.php?id=5789"
+  ],
+  "sold": [
+    [1, 1408.52, 3408.0, 1, [[0, "2008-08-31 19:05", 2]]]
+  ],
+  "unsold": [
+    [1, 2575.8, 4774.0, [[0, "2008-03-09 04:11", 2]]],
+    [1, 1287.98, 2300.0, [[0, "2009-03-26 23:59", 2]]]
+  ],
+  "readings": [
+    [0, "TT+", 1999.48, 0, 1]
+  ],
+  "charts": []
+}

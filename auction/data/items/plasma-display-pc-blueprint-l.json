@@ -1,0 +1,26 @@
+{
+  "item": "plasma-display-pc-blueprint-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071110000139/http://www.peauction.com/itemlisting.php?id=3821",
+    "https://web.archive.org/web/20071212071259/http://peauction.com:80/catlisting.php?id=77",
+    "https://web.archive.org/web/20081022150525/http://www.peauction.com:80/catlisting.php?id=77",
+    "https://web.archive.org/web/20090223042501/http://peauction.com:80/catlisting.php?id=77",
+    "https://web.archive.org/web/20091002013535/http://www.peauction.com:80/catlisting.php?id=77",
+    "https://web.archive.org/web/20160801124255/http://peauction.com/itemlisting.php?id=3821"
+  ],
+  "sold": [
+    [1, 0.39, 154.0, 25, [[0, "2007-11-03 21:03", 0]]],
+    [1, 0.39, 154.0, 25, [[0, "2007-11-03 22:03", 5]]],
+    [1, 0.17, 43.0, 4, [[0, "2008-11-17 16:15", 5]]]
+  ],
+  "unsold": [
+    [1, 0.19, 200.0, [[0, "2007-03-05 11:23", 0]]]
+  ],
+  "readings": [
+    [0, "%", 39487.2, 1, 2],
+    [0, "%", 32390.7, 3, 4]
+  ],
+  "charts": []
+}

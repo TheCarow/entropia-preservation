@@ -1,0 +1,27 @@
+{
+  "item": "high-grade-screws-2",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20060216221016/http://www.peauction.com:80/catlisting.php?id=38",
+    "https://web.archive.org/web/20060908032948/http://peauction.com:80/catlisting.php?id=38",
+    "https://web.archive.org/web/20061107141732/http://peauction.com/catlisting.php?id=38",
+    "https://web.archive.org/web/20070804204334/http://peauction.com:80/itemlisting.php?id=1893",
+    "https://web.archive.org/web/20090802101937/http://www.peauction.com:80/catlisting.php?id=38",
+    "https://web.archive.org/web/20091002013226/http://www.peauction.com:80/catlisting.php?id=38",
+    "https://web.archive.org/web/20160801222715/http://peauction.com/itemlisting.php?id=1893"
+  ],
+  "sold": [
+    [7, 1.26, 3.0, 1, [[0, "2005-11-10 04:47", 3]]]
+  ],
+  "unsold": [
+    [517, 93.06, 186.0, [[0, "2007-11-24 04:56", 6]]]
+  ],
+  "readings": [
+    [0, "TT+", 0.25, 0, 1],
+    [0, "%", 238.1, 2, 4],
+    [0, "%", 105.2, 5, 5],
+    [0, "%", 238.1, 5, 5]
+  ],
+  "charts": []
+}

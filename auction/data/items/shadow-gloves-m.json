@@ -1,0 +1,43 @@
+{
+  "item": "shadow-gloves-m",
+  "markup": "TT+",
+  "sources": ["pea", "pe-player"],
+  "captures": [
+    "https://web.archive.org/web/20040807114142/http://www.pe-player.com:80/auction/list.php?sort=bytype",
+    "https://web.archive.org/web/20060216220725/http://www.peauction.com:80/catlisting.php?id=5",
+    "https://web.archive.org/web/20060614130532/http://peauction.com:80/catlisting.php?id=5",
+    "https://web.archive.org/web/20060721094041/http://www.peauction.com:80/catlisting.php?id=5",
+    "https://web.archive.org/web/20061107141447/http://peauction.com/catlisting.php?id=5",
+    "https://web.archive.org/web/20071111102705/http://www.peauction.com/itemlisting.php?id=2050",
+    "https://web.archive.org/web/20071111102745/http://www.peauction.com/chart2.php?id=2050&dtype=0",
+    "https://web.archive.org/web/20090223042253/http://peauction.com:80/catlisting.php?id=5",
+    "https://web.archive.org/web/20090802102036/http://www.peauction.com:80/catlisting.php?id=5",
+    "https://web.archive.org/web/20091002013322/http://www.peauction.com:80/catlisting.php?id=5",
+    "https://web.archive.org/web/20160801215332/http://peauction.com/itemlisting.php?id=2050"
+  ],
+  "sold": [
+    [1, 50.58, 7999.0, 0, [[1, "2004-07-24 10:25", 0]]],
+    [1, 51.0, 4551.0, 1, [[0, "2005-11-20 23:22", 5]]],
+    [1, 38.27, 5200.0, 49, [[0, "2005-11-27 08:15", 5]]],
+    [1, 51.0, 6050.0, 36, [[0, "2006-02-19 22:10", 5]]],
+    [1, 51.0, 6099.0, 48, [[0, "2006-02-19 22:31", 5]]],
+    [1, 47.78, 6700.0, 18, [[0, "2006-08-23 11:43", 5]]],
+    [1, 49.92, 6302.0, 56, [[0, "2006-11-06 00:51", 5]]],
+    [1, 49.92, 7004.0, 79, [[0, "2006-11-06 01:31", 5]]],
+    [1, 50.25, 15275.0, 102, [[0, "2009-03-15 19:02", 10]]]
+  ],
+  "unsold": [
+    [1, 51.0, 7050.0, [[0, "2006-02-25 11:02", 5]]],
+    [1, 51.0, 7051.0, [[0, "2006-03-21 14:17", 5]]],
+    [1, 51.0, 15051.0, [[0, "2007-08-05 21:47", 5]]]
+  ],
+  "readings": [
+    [0, "TT+", 4830.86, 1, 1],
+    [0, "TT+", 5427.18, 2, 3],
+    [0, "TT+", 5938.16, 4, 7],
+    [0, "TT+", 7098.98, 8, 9]
+  ],
+  "charts": [
+    [0, 6, "2050-0-20071111102745.png"]
+  ]
+}

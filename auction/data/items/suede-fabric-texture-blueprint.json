@@ -1,0 +1,20 @@
+{
+  "item": "suede-fabric-texture-blueprint",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20090802101821/http://www.peauction.com:80/catlisting.php?id=23",
+    "https://web.archive.org/web/20091002013109/http://www.peauction.com:80/catlisting.php?id=23",
+    "https://web.archive.org/web/20160801171712/http://peauction.com/itemlisting.php?id=5249"
+  ],
+  "sold": [
+    [1, 0.01, 1.0, 1, [[0, "2009-09-09 13:32", 2]]],
+    [1, 0.01, 1.0, 1, [[0, "2009-09-26 14:02", 2]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 1.29, 0, 0],
+    [0, "TT+", 1.09, 1, 1]
+  ],
+  "charts": []
+}

@@ -1,0 +1,55 @@
+{
+  "item": "vegatation-spores",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20070806044911/http://peauction.com:80/catlisting.php?id=59",
+    "https://web.archive.org/web/20071008002758/http://www.peauction.com/catlisting.php?id=59",
+    "https://web.archive.org/web/20071012152044/http://peauction.com:80/catlisting.php?id=59",
+    "https://web.archive.org/web/20071212071127/http://peauction.com:80/catlisting.php?id=59",
+    "https://web.archive.org/web/20080211031016/http://www.peauction.com:80/catlisting.php?id=59",
+    "https://web.archive.org/web/20080801024500/http://www.peauction.com:80/catlisting.php?id=59",
+    "https://web.archive.org/web/20080817053512/http://www.peauction.com:80/catlisting.php?id=59",
+    "https://web.archive.org/web/20080818212924/http://www.peauction.com:80/catlisting.php?id=59",
+    "https://web.archive.org/web/20081022150354/http://www.peauction.com:80/catlisting.php?id=59",
+    "https://web.archive.org/web/20090223042336/http://peauction.com:80/catlisting.php?id=59",
+    "https://web.archive.org/web/20090802102114/http://www.peauction.com:80/catlisting.php?id=59",
+    "https://web.archive.org/web/20091002013359/http://www.peauction.com:80/catlisting.php?id=59",
+    "https://web.archive.org/web/20160801214456/http://peauction.com/itemlisting.php?id=3877"
+  ],
+  "sold": [
+    [3, 1.2, 3.0, 1, [[0, "2007-03-25 14:00", 12]]],
+    [2, 0.8, 2.0, 2, [[0, "2007-04-21 21:36", 12]]],
+    [40, 16.0, 57.0, 2, [[0, "2007-08-05 01:22", 12]]],
+    [2, 0.8, 2.0, 2, [[0, "2007-08-18 08:32", 12]]],
+    [2, 0.8, 4.0, 4, [[0, "2007-09-23 13:40", 12]]],
+    [5, 2.0, 12.0, 1, [[0, "2007-10-16 17:28", 12]]],
+    [3, 1.2, 3.0, 1, [[0, "2007-11-03 00:43", 12]]],
+    [5, 2.0, 8.0, 1, [[0, "2007-12-17 14:36", 12]]],
+    [2, 0.8, 3.0, 3, [[0, "2007-12-27 23:29", 12]]],
+    [3, 1.2, 3.0, 2, [[0, "2008-01-22 19:59", 12]]],
+    [10, 4.0, 11.0, 2, [[0, "2008-08-13 09:59", 12]]],
+    [5, 2.0, 5.0, 1, [[0, "2008-08-16 06:34", 12]]],
+    [1, 0.4, 1.0, 1, [[0, "2008-09-01 12:35", 12]]],
+    [1, 0.4, 1.0, 1, [[0, "2008-09-05 06:20", 12]]],
+    [8, 3.2, 6.0, 3, [[0, "2008-10-02 13:03", 12]]],
+    [12, 4.8, 9.0, 1, [[0, "2008-10-06 17:23", 12]]],
+    [6, 2.4, 4.0, 1, [[0, "2008-10-10 03:58", 12]]],
+    [9, 3.6, 9.0, 1, [[0, "2008-11-29 14:51", 12]]],
+    [31, 12.4, 34.0, 1, [[0, "2009-06-21 00:11", 12]]]
+  ],
+  "unsold": [
+    [60, 24.0, 67.0, [[0, "2009-06-20 00:03", 12]]]
+  ],
+  "readings": [
+    [0, "%", 344.44, 0, 0],
+    [0, "%", 346.94, 1, 2],
+    [0, "%", 364.04, 3, 3],
+    [0, "%", 361.94, 4, 5],
+    [0, "%", 350.65, 6, 7],
+    [0, "%", 240.57, 8, 8],
+    [0, "%", 228.07, 9, 9],
+    [0, "%", 241.28, 10, 11]
+  ],
+  "charts": []
+}

@@ -1,0 +1,60 @@
+{
+  "item": "phasm-wool",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20061220004601/http://peauction.com:80/catlisting.php?id=47",
+    "https://web.archive.org/web/20070805054724/http://peauction.com:80/catlisting.php?id=47",
+    "https://web.archive.org/web/20070807160346/http://peauction.com:80/catlisting.php?id=47",
+    "https://web.archive.org/web/20071008002905/http://www.peauction.com/catlisting.php?id=47",
+    "https://web.archive.org/web/20071012151947/http://peauction.com:80/catlisting.php?id=47",
+    "https://web.archive.org/web/20071212070125/http://peauction.com:80/catlisting.php?id=47",
+    "https://web.archive.org/web/20080210221242/http://www.peauction.com:80/catlisting.php?id=47",
+    "https://web.archive.org/web/20080411151139/http://www.peauction.com:80/catlisting.php?id=47",
+    "https://web.archive.org/web/20081022150258/http://www.peauction.com:80/catlisting.php?id=47",
+    "https://web.archive.org/web/20090123071800/http://peauction.com:80/catlisting.php?id=47",
+    "https://web.archive.org/web/20090304032513/http://peauction.com:80/catlisting.php?id=47",
+    "https://web.archive.org/web/20090802102019/http://www.peauction.com:80/catlisting.php?id=47",
+    "https://web.archive.org/web/20091002013310/http://www.peauction.com:80/catlisting.php?id=47",
+    "https://web.archive.org/web/20160801185826/http://peauction.com/itemlisting.php?id=3448"
+  ],
+  "sold": [
+    [6, 8.4, 28.0, 1, [[0, "2006-11-25 03:38", 13]]],
+    [1, 1.4, 3.0, 1, [[0, "2007-05-08 01:13", 13]]],
+    [1, 1.4, 3.0, 1, [[0, "2007-06-15 00:21", 13]]],
+    [1, 1.4, 3.0, 1, [[0, "2007-06-17 22:26", 13]]],
+    [3, 4.2, 6.0, 2, [[0, "2007-07-23 14:58", 13]]],
+    [13, 18.2, 25.0, 1, [[0, "2007-08-17 05:52", 13]]],
+    [3, 4.2, 6.0, 2, [[0, "2007-11-15 13:50", 13]]],
+    [1, 1.4, 2.0, 1, [[0, "2007-12-05 18:11", 13]]],
+    [1, 1.4, 6.0, 5, [[0, "2008-02-15 13:22", 13]]],
+    [2, 2.8, 4.0, 2, [[0, "2008-02-21 13:30", 13]]],
+    [2, 2.8, 8.0, 3, [[0, "2008-03-09 09:11", 13]]],
+    [3, 4.2, 15.0, 7, [[0, "2008-04-11 00:38", 13]]],
+    [5, 7.0, 25.0, 1, [[0, "2008-11-07 22:35", 13]]],
+    [14, 19.6, 46.0, 7, [[0, "2009-07-26 18:28", 13]]]
+  ],
+  "unsold": [
+    [3, 4.2, 8.0, [[0, "2007-07-23 01:52", 13]]],
+    [13, 18.2, 26.0, [[0, "2007-08-15 17:27", 13]]],
+    [13, 18.2, 25.0, [[0, "2007-08-17 05:47", 13]]],
+    [2, 2.8, 213.0, [[0, "2007-11-05 00:38", 13]]],
+    [2, 2.8, 184.0, [[0, "2007-11-07 05:53", 13]]],
+    [1, 1.4, 13.0, [[0, "2007-11-08 18:13", 13]]],
+    [1, 1.4, 120.0, [[0, "2007-11-11 01:08", 13]]],
+    [1, 1.4, 42.0, [[0, "2007-12-01 13:51", 13]]],
+    [2, 2.8, 12.0, [[0, "2008-01-30 17:16", 13]]],
+    [1, 1.4, 6.0, [[0, "2009-02-05 20:43", 13]]],
+    [4, 5.6, 22.0, [[0, "2009-05-02 08:47", 13]]]
+  ],
+  "readings": [
+    [0, "%", 333.33, 0, 0],
+    [0, "%", 255.95, 1, 2],
+    [0, "%", 194.29, 3, 4],
+    [0, "%", 187.19, 5, 6],
+    [0, "%", 185.71, 7, 8],
+    [0, "%", 210.08, 9, 10],
+    [0, "%", 217.33, 11, 12]
+  ],
+  "charts": []
+}

@@ -1,0 +1,34 @@
+{
+  "item": "surface-composition-skill-implant-l",
+  "markup": "%",
+  "sources": ["pea", "chipping-optimizer"],
+  "captures": [
+    "https://web.archive.org/web/20080610222841/http://www.peauction.com:80/catlisting.php?id=61",
+    "https://web.archive.org/web/20081005040854/http://jdegre.net:80/pe/unlocker.php",
+    "https://web.archive.org/web/20081022134054/http://jdegre.net:80/pe/unlocker.php",
+    "https://web.archive.org/web/20081022150409/http://www.peauction.com:80/catlisting.php?id=61",
+    "https://web.archive.org/web/20081107015805/http://jdegre.net:80/pe/unlocker.php",
+    "https://web.archive.org/web/20081216025043/http://jdegre.net:80/pe/unlocker.php",
+    "https://web.archive.org/web/20090223042351/http://peauction.com:80/catlisting.php?id=61",
+    "https://web.archive.org/web/20090227043757/http://jdegre.net:80/pe/unlocker.php",
+    "https://web.archive.org/web/20091002013414/http://www.peauction.com:80/catlisting.php?id=61",
+    "https://web.archive.org/web/20160801185041/http://peauction.com/itemlisting.php?id=6018"
+  ],
+  "sold": [
+    [1, 1.91, 1000.0, 1, [[0, "2008-06-03 13:23", 9]]],
+    [1, 2.94, 278.0, 29, [[0, "2008-11-02 02:20", 9]]],
+    [1, 9.39, 542.0, 56, [[0, "2008-11-07 19:25", 9]]]
+  ],
+  "unsold": [
+    [1, 0.37, 191.0, [[0, "2008-10-07 08:33", 9]]],
+    [1, 9.39, 4510.0, [[0, "2008-10-17 07:59", 9]]]
+  ],
+  "readings": [
+    [0, "%", 52356.0, 0, 3],
+    [0, "%", 22528.0, 6, 8],
+    [1, "%", 52356.0, 1, 2],
+    [1, "%", 30906.0, 4, 4],
+    [1, "%", 22528.0, 5, 7]
+  ],
+  "charts": []
+}

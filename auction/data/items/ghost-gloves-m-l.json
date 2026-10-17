@@ -1,0 +1,15 @@
+{
+  "item": "ghost-gloves-m-l",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071111040820/http://www.peauction.com/itemlisting.php?id=3664"
+  ],
+  "sold": [],
+  "unsold": [
+    [1, 46.0, 60.0, [[0, "2007-01-25 02:50", 0]]],
+    [1, 46.0, 51.0, [[0, "2007-02-13 05:10", 0]]]
+  ],
+  "readings": [],
+  "charts": []
+}

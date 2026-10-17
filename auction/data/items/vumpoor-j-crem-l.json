@@ -1,0 +1,32 @@
+{
+  "item": "vumpoor-j-crem-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071012152234/http://peauction.com:80/catlisting.php?id=80",
+    "https://web.archive.org/web/20071212071320/http://peauction.com:80/catlisting.php?id=80",
+    "https://web.archive.org/web/20080210230154/http://www.peauction.com:80/catlisting.php?id=80",
+    "https://web.archive.org/web/20080411151434/http://www.peauction.com:80/catlisting.php?id=80",
+    "https://web.archive.org/web/20080610230824/http://www.peauction.com:80/catlisting.php?id=80",
+    "https://web.archive.org/web/20080801024704/http://www.peauction.com:80/catlisting.php?id=80",
+    "https://web.archive.org/web/20080817052349/http://www.peauction.com:80/catlisting.php?id=80",
+    "https://web.archive.org/web/20081022150544/http://www.peauction.com:80/catlisting.php?id=80",
+    "https://web.archive.org/web/20090223042521/http://peauction.com:80/catlisting.php?id=80",
+    "https://web.archive.org/web/20090802102513/http://www.peauction.com:80/catlisting.php?id=80",
+    "https://web.archive.org/web/20091002013555/http://www.peauction.com:80/catlisting.php?id=80"
+  ],
+  "sold": [],
+  "unsold": [],
+  "readings": [
+    [0, "%", 200.97, 0, 0],
+    [0, "%", 195.15, 1, 1],
+    [0, "%", 190.27, 2, 3],
+    [0, "%", 203.35, 4, 4],
+    [0, "%", 190.37, 5, 6],
+    [0, "%", 191.29, 7, 7],
+    [0, "%", 176.34, 8, 8],
+    [0, "%", 134.27, 9, 9],
+    [0, "%", 107.33, 10, 10]
+  ],
+  "charts": []
+}

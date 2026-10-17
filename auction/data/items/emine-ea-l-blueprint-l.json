@@ -1,0 +1,16 @@
+{
+  "item": "emine-ea-l-blueprint-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20090802101758/http://www.peauction.com:80/catlisting.php?id=19",
+    "https://web.archive.org/web/20091002013048/http://www.peauction.com:80/catlisting.php?id=19"
+  ],
+  "sold": [],
+  "unsold": [],
+  "readings": [
+    [0, "%", 175000.0, 0, 0],
+    [0, "%", 156250.0, 1, 1]
+  ],
+  "charts": []
+}

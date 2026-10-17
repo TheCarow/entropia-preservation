@@ -1,0 +1,21 @@
+{
+  "item": "adapted-vivo-ur200-l-blueprint-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071109012428/http://www.peauction.com/itemlisting.php?id=4701",
+    "https://web.archive.org/web/20071212065932/http://peauction.com:80/catlisting.php?id=24",
+    "https://web.archive.org/web/20091002013114/http://www.peauction.com:80/catlisting.php?id=24",
+    "https://web.archive.org/web/20160801200048/http://peauction.com/itemlisting.php?id=4701"
+  ],
+  "sold": [
+    [1, 0.23, 2300.0, 1, [[0, "2007-11-23 21:51", 3]]]
+  ],
+  "unsold": [
+    [1, 0.02, 150.0, [[0, "2007-09-01 20:59", 0]]]
+  ],
+  "readings": [
+    [0, "%", 1000000.0, 1, 2]
+  ],
+  "charts": []
+}

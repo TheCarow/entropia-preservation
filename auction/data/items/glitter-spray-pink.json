@@ -1,0 +1,25 @@
+{
+  "item": "glitter-spray-pink",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20090802102135/http://www.peauction.com:80/catlisting.php?id=63",
+    "https://web.archive.org/web/20091003150251/http://www.peauction.com:80/catlisting.php?id=63",
+    "https://web.archive.org/web/20160801174917/http://peauction.com/itemlisting.php?id=5755"
+  ],
+  "sold": [
+    [1, 17.0, 24.0, 5, [[0, "2008-02-27 15:30", 2]]]
+  ],
+  "unsold": [
+    [1, 17.0, 33.0, [[0, "2008-11-12 23:05", 2]]],
+    [2, 34.0, 35.0, [[0, "2008-12-08 13:41", 2]]],
+    [2, 34.0, 102.0, [[0, "2008-12-11 02:06", 2]]],
+    [1, 17.0, 25.0, [[0, "2008-12-16 02:02", 2]]],
+    [2, 34.0, 48.0, [[0, "2008-12-19 23:52", 2]]],
+    [2, 34.0, 54.0, [[0, "2008-12-27 01:27", 2]]]
+  ],
+  "readings": [
+    [0, "TT+", 7.0, 0, 1]
+  ],
+  "charts": []
+}

@@ -1,0 +1,28 @@
+{
+  "item": "chikara-investafoe-es500",
+  "markup": "TT+",
+  "sources": ["pea", "pe-player"],
+  "captures": [
+    "https://web.archive.org/web/20041010022429/http://www.pe-player.com:80/auction/list.php?sort=bytype",
+    "https://web.archive.org/web/20050130134118/http://www.pe-player.com:80/auction/list.php?sort=bytype",
+    "https://web.archive.org/web/20060614131639/http://peauction.com:80/catlisting.php?id=68",
+    "https://web.archive.org/web/20071110215520/http://www.peauction.com/itemlisting.php?id=2283",
+    "https://web.archive.org/web/20091002013447/http://www.peauction.com:80/catlisting.php?id=68"
+  ],
+  "sold": [
+    [1, 1.02, 1226.0, 15, [[1, "2004-08-12 00:05", 0]]],
+    [1, 1.02, 1226.0, 15, [[1, "2004-10-23 01:06", 1]]],
+    [1, 70.0, 3350.0, 47, [[0, "2005-12-21 14:31", 3]]]
+  ],
+  "unsold": [
+    [1, 68.69, 10069.0, [[0, "2006-04-15 12:08", 3]]],
+    [1, 70.0, 10070.0, [[0, "2006-05-06 21:49", 3]]],
+    [1, 56.41, 8957.0, [[0, "2006-06-24 11:09", 3]]],
+    [1, 56.41, 9356.0, [[0, "2006-07-19 20:01", 3]]],
+    [1, 69.4, 8000.0, [[0, "2007-01-06 12:50", 3]]]
+  ],
+  "readings": [
+    [0, "TT+", 3280.0, 2, 4]
+  ],
+  "charts": []
+}

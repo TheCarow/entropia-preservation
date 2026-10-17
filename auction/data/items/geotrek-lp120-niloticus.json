@@ -1,0 +1,27 @@
+{
+  "item": "geotrek-lp120-niloticus",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071007161922/http://www.peauction.com/catlisting.php?id=76",
+    "https://web.archive.org/web/20071212071254/http://peauction.com:80/catlisting.php?id=76",
+    "https://web.archive.org/web/20080210230128/http://www.peauction.com:80/catlisting.php?id=76",
+    "https://web.archive.org/web/20091002013530/http://www.peauction.com:80/catlisting.php?id=76",
+    "https://web.archive.org/web/20160802004932/http://peauction.com/itemlisting.php?id=4649"
+  ],
+  "sold": [
+    [1, 2180.0, 2220.0, 6, [[0, "2007-08-05 22:52", 4]]],
+    [1, 1261.7, 2493.0, 2, [[0, "2008-01-26 18:39", 4]]]
+  ],
+  "unsold": [
+    [1, 2180.0, 3379.0, [[0, "2008-09-20 21:27", 4]]],
+    [1, 2180.0, 2280.0, [[0, "2009-02-24 23:15", 4]]],
+    [1, 2178.98, 2300.0, [[0, "2009-03-29 00:14", 4]]],
+    [1, 2038.69, 2350.0, [[0, "2009-05-16 15:35", 4]]]
+  ],
+  "readings": [
+    [0, "TT+", 40.0, 0, 1],
+    [0, "TT+", 635.65, 2, 3]
+  ],
+  "charts": []
+}

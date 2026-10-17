@@ -1,0 +1,22 @@
+{
+  "item": "expedition-foot-guards-m",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20090802102517/http://www.peauction.com:80/catlisting.php?id=81",
+    "https://web.archive.org/web/20091002013600/http://www.peauction.com:80/catlisting.php?id=81",
+    "https://web.archive.org/web/20160801161745/http://peauction.com/itemlisting.php?id=5698"
+  ],
+  "sold": [
+    [1, 5.06, 58.0, 3, [[0, "2008-02-14 06:22", 2]]],
+    [1, 5.02, 103.0, 19, [[0, "2008-10-19 12:59", 2]]],
+    [1, 21.0, 243.0, 3, [[0, "2009-07-20 10:26", 2]]],
+    [1, 20.89, 247.0, 28, [[0, "2009-09-13 22:47", 2]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 124.31, 0, 0],
+    [0, "TT+", 149.76, 1, 1]
+  ],
+  "charts": []
+}

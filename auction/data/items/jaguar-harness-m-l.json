@@ -1,0 +1,29 @@
+{
+  "item": "jaguar-harness-m-l",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20080210223457/http://www.peauction.com:80/catlisting.php?id=6",
+    "https://web.archive.org/web/20080411151244/http://www.peauction.com:80/catlisting.php?id=6",
+    "https://web.archive.org/web/20080610222829/http://www.peauction.com:80/catlisting.php?id=6",
+    "https://web.archive.org/web/20080801024505/http://www.peauction.com:80/catlisting.php?id=6",
+    "https://web.archive.org/web/20080817052248/http://www.peauction.com:80/catlisting.php?id=6",
+    "https://web.archive.org/web/20081022150359/http://www.peauction.com:80/catlisting.php?id=6",
+    "https://web.archive.org/web/20090223042341/http://peauction.com:80/catlisting.php?id=6",
+    "https://web.archive.org/web/20090802102119/http://www.peauction.com:80/catlisting.php?id=6",
+    "https://web.archive.org/web/20091002013404/http://www.peauction.com:80/catlisting.php?id=6"
+  ],
+  "sold": [],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 106.5, 0, 0],
+    [0, "TT+", 575.57, 1, 1],
+    [0, "TT+", 355.59, 2, 2],
+    [0, "TT+", 329.96, 3, 4],
+    [0, "TT+", 362.06, 5, 5],
+    [0, "TT+", 21.28, 6, 6],
+    [0, "%", 118.87, 7, 7],
+    [0, "%", 116.13, 8, 8]
+  ],
+  "charts": []
+}

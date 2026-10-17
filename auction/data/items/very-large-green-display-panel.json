@@ -1,0 +1,14 @@
+{
+  "item": "very-large-green-display-panel",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20160801211549/http://peauction.com/itemlisting.php?id=3826"
+  ],
+  "sold": [
+    [1, 15.79, 237.0, 22, [[0, "2007-03-09 08:41", 0]]]
+  ],
+  "unsold": [],
+  "readings": [],
+  "charts": []
+}

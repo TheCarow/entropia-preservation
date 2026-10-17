@@ -1,0 +1,14 @@
+{
+  "item": "sentinel-helmet-m-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20091002013452/http://www.peauction.com:80/catlisting.php?id=7"
+  ],
+  "sold": [],
+  "unsold": [],
+  "readings": [
+    [0, "%", 300.3, 0, 0]
+  ],
+  "charts": []
+}

@@ -1,0 +1,19 @@
+{
+  "item": "uncolored-multi-pattern-shirt-m",
+  "markup": "TT+",
+  "sources": ["pea", "pe-player"],
+  "captures": [
+    "https://web.archive.org/web/20040807114142/http://www.pe-player.com:80/auction/list.php?sort=bytype",
+    "https://web.archive.org/web/20070805000648/http://peauction.com:80/itemlisting.php?id=2864"
+  ],
+  "sold": [
+    [1, 13.33, 44.0, 0, [[1, "2004-07-11 22:41", 0]]]
+  ],
+  "unsold": [
+    [1, 13.32, 35.0, [[0, "2006-04-06 17:01", 1]]],
+    [1, 13.32, 51.0, [[0, "2006-06-29 18:31", 1]]],
+    [1, 13.32, 40.0, [[0, "2006-06-30 20:22", 1]]]
+  ],
+  "readings": [],
+  "charts": []
+}

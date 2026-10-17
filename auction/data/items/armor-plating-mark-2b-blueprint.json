@@ -1,0 +1,49 @@
+{
+  "item": "armor-plating-mark-2b-blueprint",
+  "markup": "TT+",
+  "sources": ["pea", "pe-player"],
+  "captures": [
+    "https://web.archive.org/web/20040807114142/http://www.pe-player.com:80/auction/list.php?sort=bytype",
+    "https://web.archive.org/web/20050130134118/http://www.pe-player.com:80/auction/list.php?sort=bytype",
+    "https://web.archive.org/web/20060216220812/http://www.peauction.com:80/catlisting.php?id=19",
+    "https://web.archive.org/web/20070608192840/http://peauction.com:80/itemlisting.php?id=1784",
+    "https://web.archive.org/web/20070803140920/http://peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20071007162213/http://www.peauction.com/catlisting.php?id=18",
+    "https://web.archive.org/web/20071212065901/http://peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20080210210002/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20091002013048/http://www.peauction.com:80/catlisting.php?id=19",
+    "https://web.archive.org/web/20160801125739/http://peauction.com/itemlisting.php?id=1784"
+  ],
+  "sold": [
+    [1, 0.01, 47.0, 3, [[1, "2004-07-09 23:18", 0]]],
+    [1, 0.01, 47.0, 3, [[1, "2004-10-23 00:55", 1]]],
+    [1, 0.01, 9.0, 9, [[0, "2005-11-05 22:58", 3]]],
+    [1, 0.01, 257.0, 55, [[0, "2006-01-28 09:07", 3]]],
+    [1, 0.01, 302.0, 20, [[0, "2006-01-29 18:45", 3]]],
+    [1, 0.2, 501.0, 5, [[0, "2007-08-05 16:32", 9]]],
+    [1, 0.26, 700.0, 26, [[0, "2007-12-21 18:29", 9]]]
+  ],
+  "unsold": [
+    [1, 0.04, 301.0, [[0, "2006-02-26 05:12", 3]]],
+    [1, 0.15, 2499.0, [[0, "2006-03-24 16:01", 3]]],
+    [1, 0.15, 1999.0, [[0, "2006-03-26 16:32", 3]]],
+    [1, 0.15, 1500.0, [[0, "2006-03-28 18:23", 3]]],
+    [1, 0.15, 1300.0, [[0, "2006-04-02 06:37", 3]]],
+    [1, 0.15, 1301.0, [[0, "2006-04-04 11:08", 3]]],
+    [1, 0.15, 1000.0, [[0, "2006-04-06 14:20", 3]]],
+    [1, 0.15, 1000.0, [[0, "2006-04-09 10:51", 3]]],
+    [1, 0.15, 700.0, [[0, "2006-04-16 13:38", 3]]],
+    [1, 0.17, 2999.0, [[0, "2006-07-15 15:35", 3]]],
+    [1, 0.01, 2000.0, [[0, "2006-07-18 18:36", 3]]],
+    [1, 0.01, 1000.0, [[0, "2006-07-26 06:12", 3]]],
+    [1, 0.26, 620.0, [[0, "2007-08-26 18:22", 9]]],
+    [1, 0.01, 550.0, [[0, "2007-10-07 09:22", 9]]],
+    [1, 0.27, 1100.0, [[0, "2007-11-28 11:36", 9]]]
+  ],
+  "readings": [
+    [0, "TT+", 189.32, 2, 4],
+    [0, "TT+", 267.19, 5, 6],
+    [0, "TT+", 353.7, 7, 8]
+  ],
+  "charts": []
+}

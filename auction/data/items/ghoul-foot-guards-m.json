@@ -1,0 +1,22 @@
+{
+  "item": "ghoul-foot-guards-m",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20090802102517/http://www.peauction.com:80/catlisting.php?id=81",
+    "https://web.archive.org/web/20091002013600/http://www.peauction.com:80/catlisting.php?id=81",
+    "https://web.archive.org/web/20160801184712/http://peauction.com/itemlisting.php?id=5199"
+  ],
+  "sold": [
+    [1, 64.0, 1514.0, 1, [[0, "2008-03-31 17:48", 2]]],
+    [1, 61.79, 1662.0, 2, [[0, "2008-06-25 17:35", 2]]],
+    [1, 64.0, 1181.0, 110, [[0, "2008-12-22 13:12", 2]]],
+    [1, 62.27, 1250.0, 38, [[0, "2009-04-08 08:15", 2]]],
+    [1, 62.58, 1115.0, 23, [[0, "2009-06-07 19:17", 2]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 1281.47, 0, 1]
+  ],
+  "charts": []
+}

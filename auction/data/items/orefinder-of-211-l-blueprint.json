@@ -1,0 +1,31 @@
+{
+  "item": "orefinder-of-211-l-blueprint",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20060614130835/http://peauction.com:80/catlisting.php?id=24",
+    "https://web.archive.org/web/20060718024103/http://www.peauction.com:80/catlisting.php?id=24",
+    "https://web.archive.org/web/20061107141037/http://peauction.com/catlisting.php?id=24",
+    "https://web.archive.org/web/20071108175652/http://www.peauction.com/itemlisting.php?id=2579",
+    "https://web.archive.org/web/20091002013114/http://www.peauction.com:80/catlisting.php?id=24",
+    "https://web.archive.org/web/20160801203632/http://peauction.com/itemlisting.php?id=2579"
+  ],
+  "sold": [
+    [1, 0.01, 505.0, 28, [[0, "2006-03-12 23:43", 3]]],
+    [1, 0.01, 4111.0, 73, [[0, "2006-08-18 15:55", 3]]]
+  ],
+  "unsold": [
+    [1, 0.01, 2000.0, [[0, "2006-03-21 19:51", 3]]],
+    [1, 0.01, 1000.0, [[0, "2006-03-22 21:05", 3]]],
+    [1, 0.4, 5001.0, [[0, "2006-06-18 03:32", 3]]],
+    [1, 0.59, 45000.0, [[0, "2007-01-07 14:17", 3]]],
+    [1, 0.35, 29500.0, [[0, "2007-06-23 22:11", 3]]],
+    [1, 0.78, 40000.0, [[0, "2007-07-13 23:56", 3]]],
+    [1, 1.0, 27001.0, [[0, "2008-06-23 13:40", 5]]]
+  ],
+  "readings": [
+    [0, "TT+", 504.99, 0, 1],
+    [0, "TT+", 2307.99, 2, 4]
+  ],
+  "charts": []
+}

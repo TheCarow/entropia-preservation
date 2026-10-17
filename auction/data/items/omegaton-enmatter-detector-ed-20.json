@@ -1,0 +1,21 @@
+{
+  "item": "omegaton-enmatter-detector-ed-20",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20060614131626/http://peauction.com:80/catlisting.php?id=67",
+    "https://web.archive.org/web/20071109015346/http://www.peauction.com/itemlisting.php?id=2400",
+    "https://web.archive.org/web/20091002013441/http://www.peauction.com:80/catlisting.php?id=67"
+  ],
+  "sold": [
+    [1, 10.9, 21.0, 1, [[0, "2006-01-23 06:17", 1]]]
+  ],
+  "unsold": [
+    [1, 10.9, 61.0, [[0, "2006-01-15 08:01", 1]]],
+    [1, 10.9, 21.0, [[0, "2006-01-23 06:11", 1]]]
+  ],
+  "readings": [
+    [0, "TT+", 10.1, 0, 2]
+  ],
+  "charts": []
+}

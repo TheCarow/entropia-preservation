@@ -1,0 +1,14 @@
+{
+  "item": "exceptional-robot-hyper-charger",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20090921135426/http://www.peauction.com:80/catlisting.php?id=54"
+  ],
+  "sold": [],
+  "unsold": [],
+  "readings": [
+    [0, "%", 156.41, 0, 0]
+  ],
+  "charts": []
+}

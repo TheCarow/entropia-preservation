@@ -1,0 +1,38 @@
+{
+  "item": "isis-cb13-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20070805190657/http://peauction.com:80/catlisting.php?id=76",
+    "https://web.archive.org/web/20070806045203/http://peauction.com:80/catlisting.php?id=76",
+    "https://web.archive.org/web/20071007161922/http://www.peauction.com/catlisting.php?id=76",
+    "https://web.archive.org/web/20071012152209/http://peauction.com:80/catlisting.php?id=76",
+    "https://web.archive.org/web/20071212071254/http://peauction.com:80/catlisting.php?id=76",
+    "https://web.archive.org/web/20080210230128/http://www.peauction.com:80/catlisting.php?id=76",
+    "https://web.archive.org/web/20080411151407/http://www.peauction.com:80/catlisting.php?id=76",
+    "https://web.archive.org/web/20080610230759/http://www.peauction.com:80/catlisting.php?id=76",
+    "https://web.archive.org/web/20080801024547/http://www.peauction.com:80/catlisting.php?id=76",
+    "https://web.archive.org/web/20080817053552/http://www.peauction.com:80/catlisting.php?id=76",
+    "https://web.archive.org/web/20081022150519/http://www.peauction.com:80/catlisting.php?id=76",
+    "https://web.archive.org/web/20090223042456/http://peauction.com:80/catlisting.php?id=76",
+    "https://web.archive.org/web/20090802102243/http://www.peauction.com:80/catlisting.php?id=76",
+    "https://web.archive.org/web/20091002013530/http://www.peauction.com:80/catlisting.php?id=76"
+  ],
+  "sold": [],
+  "unsold": [],
+  "readings": [
+    [0, "%", 128.83, 0, 1],
+    [0, "%", 118.62, 2, 3],
+    [0, "%", 104.07, 4, 4],
+    [0, "%", 102.52, 5, 5],
+    [0, "%", 104.96, 6, 6],
+    [0, "%", 100.93, 7, 7],
+    [0, "%", 100.9, 8, 8],
+    [0, "%", 101.37, 9, 9],
+    [0, "%", 100.83, 10, 10],
+    [0, "%", 100.77, 11, 11],
+    [0, "%", 100.76, 12, 12],
+    [0, "%", 100.49, 13, 13]
+  ],
+  "charts": []
+}

@@ -1,0 +1,18 @@
+{
+  "item": "customized-orefinder-of-213-l",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071109165839/http://www.peauction.com/itemlisting.php?id=3139",
+    "https://web.archive.org/web/20160801190654/http://peauction.com/itemlisting.php?id=3139"
+  ],
+  "sold": [],
+  "unsold": [
+    [1, 2133.35, 152134.0, [[0, "2006-10-02 14:07", 0]]],
+    [1, 1543.44, 123472.0, [[0, "2007-04-23 17:00", 0]]],
+    [1, 1442.36, 21443.0, [[0, "2008-11-25 16:11", 1]]],
+    [1, 1432.75, 14327.0, [[0, "2009-07-10 19:17", 1]]]
+  ],
+  "readings": [],
+  "charts": []
+}

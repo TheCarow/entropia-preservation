@@ -1,0 +1,40 @@
+{
+  "item": "chalmon",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20070804042203/http://peauction.com:80/catlisting.php?id=57",
+    "https://web.archive.org/web/20070807231629/http://peauction.com:80/catlisting.php?id=57",
+    "https://web.archive.org/web/20071008002737/http://www.peauction.com/catlisting.php?id=57",
+    "https://web.archive.org/web/20071012152034/http://peauction.com:80/catlisting.php?id=57",
+    "https://web.archive.org/web/20071212071117/http://peauction.com:80/catlisting.php?id=57",
+    "https://web.archive.org/web/20080210221335/http://www.peauction.com:80/catlisting.php?id=57",
+    "https://web.archive.org/web/20080411151228/http://www.peauction.com:80/catlisting.php?id=57",
+    "https://web.archive.org/web/20080610222810/http://www.peauction.com:80/catlisting.php?id=57",
+    "https://web.archive.org/web/20080801025414/http://www.peauction.com:80/catlisting.php?id=57",
+    "https://web.archive.org/web/20080817053501/http://www.peauction.com:80/catlisting.php?id=57",
+    "https://web.archive.org/web/20080818212912/http://www.peauction.com:80/catlisting.php?id=57",
+    "https://web.archive.org/web/20081022150344/http://www.peauction.com:80/catlisting.php?id=57",
+    "https://web.archive.org/web/20090223042326/http://peauction.com:80/catlisting.php?id=57",
+    "https://web.archive.org/web/20090802102103/http://www.peauction.com:80/catlisting.php?id=57",
+    "https://web.archive.org/web/20091002013349/http://www.peauction.com:80/catlisting.php?id=57"
+  ],
+  "sold": [],
+  "unsold": [],
+  "readings": [
+    [0, "%", 120.57, 0, 1],
+    [0, "%", 171.48, 2, 2],
+    [0, "%", 182.18, 3, 3],
+    [0, "%", 187.62, 4, 4],
+    [0, "%", 160.3, 5, 5],
+    [0, "%", 470.02, 6, 6],
+    [0, "%", 460.99, 7, 7],
+    [0, "%", 819.38, 8, 8],
+    [0, "%", 864.36, 9, 10],
+    [0, "%", 907.38, 11, 11],
+    [0, "%", 744.68, 12, 12],
+    [0, "%", 879.82, 13, 13],
+    [0, "%", 891.98, 14, 14]
+  ],
+  "charts": []
+}

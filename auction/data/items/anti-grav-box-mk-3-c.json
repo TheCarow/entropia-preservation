@@ -1,0 +1,24 @@
+{
+  "item": "anti-grav-box-mk-3-c",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20070803083956/http://peauction.com:80/catlisting.php?id=39",
+    "https://web.archive.org/web/20071105204140/http://peauction.com:80/itemlisting.php?id=3090",
+    "https://web.archive.org/web/20091002013231/http://www.peauction.com:80/catlisting.php?id=39"
+  ],
+  "sold": [
+    [1, 25.15, 229.0, 109, [[0, "2006-12-09 03:39", 1]]]
+  ],
+  "unsold": [
+    [1, 27.51, 1018.0, [[0, "2006-09-12 18:54", 1]]],
+    [1, 27.51, 1008.0, [[0, "2006-09-19 23:16", 1]]],
+    [1, 27.51, 2028.0, [[0, "2006-09-27 02:18", 1]]],
+    [1, 91.33, 1500.0, [[0, "2006-10-28 13:56", 1]]],
+    [1, 91.33, 1100.0, [[0, "2006-10-30 10:38", 1]]]
+  ],
+  "readings": [
+    [0, "TT+", 203.85, 0, 2]
+  ],
+  "charts": []
+}

@@ -1,0 +1,30 @@
+{
+  "item": "orca-shin-guards-f-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20081022150540/http://www.peauction.com:80/catlisting.php?id=8",
+    "https://web.archive.org/web/20090223042516/http://peauction.com:80/catlisting.php?id=8",
+    "https://web.archive.org/web/20090802102303/http://www.peauction.com:80/catlisting.php?id=8",
+    "https://web.archive.org/web/20091002013550/http://www.peauction.com:80/catlisting.php?id=8",
+    "https://web.archive.org/web/20160801063234/http://peauction.com/itemlisting.php?id=4564"
+  ],
+  "sold": [
+    [1, 45.0, 50.0, 3, [[0, "2008-10-08 18:18", 4]]]
+  ],
+  "unsold": [
+    [1, 41.27, 62.0, [[0, "2007-07-14 12:46", 4]]],
+    [1, 45.0, 70.0, [[0, "2007-10-11 21:18", 4]]],
+    [1, 45.0, 72.0, [[0, "2008-05-30 23:54", 4]]],
+    [1, 45.0, 70.0, [[0, "2008-06-07 05:37", 4]]],
+    [1, 45.0, 56.0, [[0, "2008-10-19 20:59", 4]]],
+    [1, 45.0, 53.0, [[0, "2008-11-03 18:50", 4]]],
+    [1, 45.0, 55.0, [[0, "2008-11-15 12:10", 4]]],
+    [1, 45.0, 50.0, [[0, "2009-06-23 20:17", 4]]]
+  ],
+  "readings": [
+    [0, "TT+", 5.0, 0, 1],
+    [0, "%", 111.11, 2, 3]
+  ],
+  "charts": []
+}

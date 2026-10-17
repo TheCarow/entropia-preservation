@@ -1,0 +1,25 @@
+{
+  "item": "caldorite-texture-blueprint",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20090802101821/http://www.peauction.com:80/catlisting.php?id=23",
+    "https://web.archive.org/web/20091002013109/http://www.peauction.com:80/catlisting.php?id=23",
+    "https://web.archive.org/web/20160801185209/http://peauction.com/itemlisting.php?id=5502"
+  ],
+  "sold": [
+    [1, 0.01, 1.0, 1, [[0, "2009-01-22 04:28", 2]]],
+    [1, 0.01, 1.0, 1, [[0, "2009-02-02 22:03", 2]]],
+    [1, 0.01, 1.0, 1, [[0, "2009-02-28 19:21", 2]]],
+    [1, 0.01, 1.0, 1, [[0, "2009-03-29 14:54", 2]]],
+    [1, 0.01, 1.0, 1, [[0, "2009-04-28 07:57", 2]]],
+    [1, 0.01, 1.0, 1, [[0, "2009-05-15 05:27", 2]]],
+    [1, 0.01, 1.0, 1, [[0, "2009-05-19 13:31", 2]]],
+    [1, 0.01, 1.0, 1, [[0, "2009-08-12 03:06", 2]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 0.99, 0, 1]
+  ],
+  "charts": []
+}

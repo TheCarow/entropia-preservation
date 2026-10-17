@@ -1,0 +1,15 @@
+{
+  "item": "frescoquda-tentacles",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20160801202629/http://peauction.com/itemlisting.php?id=6096"
+  ],
+  "sold": [],
+  "unsold": [
+    [1, 6.6, 80000.0, [[0, "2008-07-05 20:20", 0]]],
+    [1, 6.6, 68000.0, [[0, "2008-07-06 20:26", 0]]]
+  ],
+  "readings": [],
+  "charts": []
+}

@@ -1,0 +1,31 @@
+{
+  "item": "polaris-shin-guards-f-l",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071008004017/http://www.peauction.com/catlisting.php?id=8",
+    "https://web.archive.org/web/20071012152229/http://peauction.com:80/catlisting.php?id=8",
+    "https://web.archive.org/web/20071212071315/http://peauction.com:80/catlisting.php?id=8",
+    "https://web.archive.org/web/20080210230149/http://www.peauction.com:80/catlisting.php?id=8",
+    "https://web.archive.org/web/20080411151429/http://www.peauction.com:80/catlisting.php?id=8",
+    "https://web.archive.org/web/20080610230819/http://www.peauction.com:80/catlisting.php?id=8",
+    "https://web.archive.org/web/20080818213009/http://www.peauction.com:80/catlisting.php?id=8",
+    "https://web.archive.org/web/20081022150540/http://www.peauction.com:80/catlisting.php?id=8",
+    "https://web.archive.org/web/20090223042516/http://peauction.com:80/catlisting.php?id=8",
+    "https://web.archive.org/web/20090802102303/http://www.peauction.com:80/catlisting.php?id=8",
+    "https://web.archive.org/web/20091002013550/http://www.peauction.com:80/catlisting.php?id=8"
+  ],
+  "sold": [],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 32.04, 0, 0],
+    [0, "TT+", 17.52, 1, 1],
+    [0, "TT+", 40.01, 2, 2],
+    [0, "TT+", 39.16, 3, 4],
+    [0, "TT+", 36.02, 5, 6],
+    [0, "TT+", 32.7, 7, 7],
+    [0, "TT+", 24.79, 8, 8],
+    [0, "%", 102.86, 9, 10]
+  ],
+  "charts": []
+}

@@ -1,0 +1,24 @@
+{
+  "item": "ghost-arm-guards-blueprint",
+  "markup": "TT+",
+  "sources": ["pea", "pe-player"],
+  "captures": [
+    "https://web.archive.org/web/20050130134118/http://www.pe-player.com:80/auction/list.php?sort=bytype",
+    "https://web.archive.org/web/20060614130721/http://peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20070807231717/http://peauction.com:80/itemlisting.php?id=2575",
+    "https://web.archive.org/web/20091002013041/http://www.peauction.com:80/catlisting.php?id=18"
+  ],
+  "sold": [
+    [1, 0.01, 699.0, 0, [[1, "2004-11-19 21:30", 0]]],
+    [1, 0.01, 2714.0, 1, [[0, "2006-03-12 17:28", 2]]]
+  ],
+  "unsold": [
+    [1, 0.37, 14990.0, [[0, "2007-06-06 13:18", 2]]],
+    [1, 0.01, 10000.0, [[0, "2007-07-18 09:32", 2]]],
+    [1, 0.01, 15000.0, [[0, "2007-07-26 14:31", 2]]]
+  ],
+  "readings": [
+    [0, "TT+", 2713.99, 1, 3]
+  ],
+  "charts": []
+}

@@ -1,0 +1,14 @@
+{
+  "item": "odin",
+  "markup": "TT+",
+  "sources": ["pe-player"],
+  "captures": [
+    "https://web.archive.org/web/20040807114142/http://www.pe-player.com:80/auction/list.php?sort=bytype"
+  ],
+  "sold": [
+    [1, 155.0, 245.0, 0, [[0, "2004-07-06 10:02", 0]]]
+  ],
+  "unsold": [],
+  "readings": [],
+  "charts": []
+}

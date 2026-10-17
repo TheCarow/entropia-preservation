@@ -1,0 +1,35 @@
+{
+  "item": "vesperdite-ore",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20080610222834/http://www.peauction.com:80/catlisting.php?id=60",
+    "https://web.archive.org/web/20080801024510/http://www.peauction.com:80/catlisting.php?id=60",
+    "https://web.archive.org/web/20080817053516/http://www.peauction.com:80/catlisting.php?id=60",
+    "https://web.archive.org/web/20081022150404/http://www.peauction.com:80/catlisting.php?id=60",
+    "https://web.archive.org/web/20090223042346/http://peauction.com:80/catlisting.php?id=60",
+    "https://web.archive.org/web/20090802102124/http://www.peauction.com:80/catlisting.php?id=60",
+    "https://web.archive.org/web/20091002013409/http://www.peauction.com:80/catlisting.php?id=60",
+    "https://web.archive.org/web/20160801064453/http://peauction.com/itemlisting.php?id=6014"
+  ],
+  "sold": [
+    [2, 3.6, 4.0, 1, [[0, "2009-06-06 22:32", 7]]],
+    [2, 3.6, 5.0, 1, [[0, "2009-06-20 17:16", 7]]],
+    [1, 1.8, 3.0, 2, [[0, "2009-08-27 18:37", 7]]],
+    [1, 1.8, 3.0, 1, [[0, "2009-09-16 10:58", 7]]],
+    [11, 19.8, 29.0, 8, [[0, "2009-09-24 21:52", 7]]],
+    [2, 3.6, 7.0, 3, [[0, "2009-09-27 02:16", 7]]],
+    [6, 10.8, 17.0, 7, [[0, "2009-10-02 10:55", 7]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "%", 444.44, 0, 0],
+    [0, "%", 657.41, 1, 1],
+    [0, "%", 628.21, 2, 2],
+    [0, "%", 341.67, 3, 3],
+    [0, "%", 191.24, 4, 4],
+    [0, "%", 121.86, 5, 5],
+    [0, "%", 142.86, 6, 6]
+  ],
+  "charts": []
+}

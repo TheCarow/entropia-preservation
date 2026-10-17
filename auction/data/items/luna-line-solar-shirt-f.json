@@ -1,0 +1,16 @@
+{
+  "item": "luna-line-solar-shirt-f",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20160801075102/http://peauction.com/itemlisting.php?id=3033"
+  ],
+  "sold": [
+    [1, 8.92, 510.0, 26, [[0, "2007-12-29 22:19", 0]]]
+  ],
+  "unsold": [
+    [1, 9.0, 3009.0, [[0, "2006-07-29 14:21", 0]]]
+  ],
+  "readings": [],
+  "charts": []
+}

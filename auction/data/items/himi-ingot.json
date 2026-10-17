@@ -1,0 +1,37 @@
+{
+  "item": "himi-ingot",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20070803233045/http://peauction.com:80/catlisting.php?id=58",
+    "https://web.archive.org/web/20071012152039/http://peauction.com:80/catlisting.php?id=58",
+    "https://web.archive.org/web/20071212071122/http://peauction.com:80/catlisting.php?id=58",
+    "https://web.archive.org/web/20080210221339/http://www.peauction.com:80/catlisting.php?id=58",
+    "https://web.archive.org/web/20080411151234/http://www.peauction.com:80/catlisting.php?id=58",
+    "https://web.archive.org/web/20080610222820/http://www.peauction.com:80/catlisting.php?id=58",
+    "https://web.archive.org/web/20080801025419/http://www.peauction.com:80/catlisting.php?id=58",
+    "https://web.archive.org/web/20080817053506/http://www.peauction.com:80/catlisting.php?id=58",
+    "https://web.archive.org/web/20080818212918/http://www.peauction.com:80/catlisting.php?id=58",
+    "https://web.archive.org/web/20081022150349/http://www.peauction.com:80/catlisting.php?id=58",
+    "https://web.archive.org/web/20090223042331/http://peauction.com:80/catlisting.php?id=58",
+    "https://web.archive.org/web/20090802102109/http://www.peauction.com:80/catlisting.php?id=58",
+    "https://web.archive.org/web/20091002013354/http://www.peauction.com:80/catlisting.php?id=58"
+  ],
+  "sold": [],
+  "unsold": [],
+  "readings": [
+    [0, "%", 151.11, 0, 0],
+    [0, "%", 318.7, 1, 1],
+    [0, "%", 1605.89, 2, 2],
+    [0, "%", 929.34, 3, 3],
+    [0, "%", 1146.99, 4, 4],
+    [0, "%", 1425.86, 5, 5],
+    [0, "%", 1659.45, 6, 6],
+    [0, "%", 1667.85, 7, 8],
+    [0, "%", 1282.37, 9, 9],
+    [0, "%", 785.69, 10, 10],
+    [0, "%", 842.29, 11, 11],
+    [0, "%", 903.86, 12, 12]
+  ],
+  "charts": []
+}

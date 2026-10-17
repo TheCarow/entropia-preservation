@@ -1,0 +1,15 @@
+{
+  "item": "private-jacket-blueprint",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20070806013958/http://peauction.com:80/itemlisting.php?id=2426"
+  ],
+  "sold": [],
+  "unsold": [
+    [1, 0.02, 1899.0, [[0, "2006-01-22 21:22", 0]]],
+    [1, 0.02, 2001.0, [[0, "2006-03-25 11:42", 0]]]
+  ],
+  "readings": [],
+  "charts": []
+}

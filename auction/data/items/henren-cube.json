@@ -1,0 +1,16 @@
+{
+  "item": "henren-cube",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20090802102103/http://www.peauction.com:80/catlisting.php?id=57",
+    "https://web.archive.org/web/20091002013349/http://www.peauction.com:80/catlisting.php?id=57"
+  ],
+  "sold": [],
+  "unsold": [],
+  "readings": [
+    [0, "%", 113.71, 0, 0],
+    [0, "%", 114.12, 1, 1]
+  ],
+  "charts": []
+}

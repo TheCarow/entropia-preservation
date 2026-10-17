@@ -1,0 +1,43 @@
+{
+  "item": "devil-s-tail",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20070226233932/http://www.peauction.com:80/catlisting.php?id=59",
+    "https://web.archive.org/web/20070806044911/http://peauction.com:80/catlisting.php?id=59",
+    "https://web.archive.org/web/20071008002758/http://www.peauction.com/catlisting.php?id=59",
+    "https://web.archive.org/web/20071012152044/http://peauction.com:80/catlisting.php?id=59",
+    "https://web.archive.org/web/20071212071127/http://peauction.com:80/catlisting.php?id=59",
+    "https://web.archive.org/web/20080211031016/http://www.peauction.com:80/catlisting.php?id=59",
+    "https://web.archive.org/web/20080411151239/http://www.peauction.com:80/catlisting.php?id=59",
+    "https://web.archive.org/web/20080610222824/http://www.peauction.com:80/catlisting.php?id=59",
+    "https://web.archive.org/web/20080801024500/http://www.peauction.com:80/catlisting.php?id=59",
+    "https://web.archive.org/web/20080817053512/http://www.peauction.com:80/catlisting.php?id=59",
+    "https://web.archive.org/web/20080818212924/http://www.peauction.com:80/catlisting.php?id=59",
+    "https://web.archive.org/web/20081022150354/http://www.peauction.com:80/catlisting.php?id=59",
+    "https://web.archive.org/web/20090223042336/http://peauction.com:80/catlisting.php?id=59",
+    "https://web.archive.org/web/20090802102114/http://www.peauction.com:80/catlisting.php?id=59",
+    "https://web.archive.org/web/20091002013359/http://www.peauction.com:80/catlisting.php?id=59",
+    "https://web.archive.org/web/20160802005934/http://peauction.com/itemlisting.php?id=3726"
+  ],
+  "sold": [],
+  "unsold": [
+    [2, 0.94, 10.0, [[0, "2009-09-25 12:14", 15]]]
+  ],
+  "readings": [
+    [0, "%", 647.55, 0, 0],
+    [0, "%", 113.33, 1, 1],
+    [0, "%", 122.27, 2, 2],
+    [0, "%", 124.76, 3, 3],
+    [0, "%", 174.94, 4, 4],
+    [0, "%", 159.57, 5, 5],
+    [0, "%", 413.02, 6, 6],
+    [0, "%", 502.9, 7, 7],
+    [0, "%", 638.3, 8, 8],
+    [0, "%", 856.81, 9, 10],
+    [0, "%", 884.31, 11, 11],
+    [0, "%", 851.06, 12, 13],
+    [0, "%", 893.06, 14, 14]
+  ],
+  "charts": []
+}

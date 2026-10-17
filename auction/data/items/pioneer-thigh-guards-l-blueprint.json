@@ -1,0 +1,35 @@
+{
+  "item": "pioneer-thigh-guards-l-blueprint",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20070412213046/http://peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20070803140920/http://peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20071012151726/http://peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20071212065901/http://peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20080210210002/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20080411150913/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20080817052548/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20081022150037/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20090223042022/http://peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20090802101753/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20091002013041/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20160801063804/http://peauction.com/itemlisting.php?id=3369"
+  ],
+  "sold": [
+    [1, 0.01, 1.0, 1, [[0, "2009-09-18 09:07", 11]]],
+    [1, 0.01, 1.0, 1, [[0, "2009-09-25 13:00", 11]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "%", 10000.0, 0, 0],
+    [0, "%", 11000.0, 1, 2],
+    [0, "%", 10250.0, 3, 4],
+    [0, "%", 10000.0, 5, 6],
+    [0, "%", 11000.0, 7, 7],
+    [0, "%", 13000.0, 8, 8],
+    [0, "%", 12000.0, 9, 9],
+    [0, "%", 11000.0, 10, 10]
+  ],
+  "charts": []
+}

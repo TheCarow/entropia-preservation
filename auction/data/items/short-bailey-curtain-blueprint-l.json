@@ -1,0 +1,26 @@
+{
+  "item": "short-bailey-curtain-blueprint-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20070807234215/http://peauction.com:80/catlisting.php?id=77",
+    "https://web.archive.org/web/20071110074210/http://www.peauction.com/itemlisting.php?id=3980",
+    "https://web.archive.org/web/20071212071259/http://peauction.com:80/catlisting.php?id=77",
+    "https://web.archive.org/web/20080210230133/http://www.peauction.com:80/catlisting.php?id=77",
+    "https://web.archive.org/web/20080411151414/http://www.peauction.com:80/catlisting.php?id=77",
+    "https://web.archive.org/web/20091002013535/http://www.peauction.com:80/catlisting.php?id=77",
+    "https://web.archive.org/web/20160801072346/http://peauction.com/itemlisting.php?id=3980"
+  ],
+  "sold": [
+    [1, 0.35, 40.0, 20, [[0, "2007-05-06 04:06", 1]]],
+    [1, 0.39, 13.0, 12, [[0, "2007-12-26 12:34", 6]]],
+    [1, 0.09, 7.0, 3, [[0, "2008-03-17 18:41", 6]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "%", 11428.6, 0, 2],
+    [0, "%", 7380.95, 3, 3],
+    [0, "%", 7513.23, 4, 5]
+  ],
+  "charts": []
+}

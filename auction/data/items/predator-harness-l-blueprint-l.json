@@ -1,0 +1,40 @@
+{
+  "item": "predator-harness-l-blueprint-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20070412213046/http://peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20070803140920/http://peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20071007162213/http://www.peauction.com/catlisting.php?id=18",
+    "https://web.archive.org/web/20071012151726/http://peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20071212065901/http://peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20080210210002/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20080411150913/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20080610174500/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20080801024921/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20080817052548/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20081022150037/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20090223042022/http://peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20090802101753/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20091002013041/http://www.peauction.com:80/catlisting.php?id=18"
+  ],
+  "sold": [],
+  "unsold": [],
+  "readings": [
+    [0, "%", 2872.22, 0, 0],
+    [0, "%", 6670.39, 1, 1],
+    [0, "%", 5461.03, 2, 2],
+    [0, "%", 5137.5, 3, 3],
+    [0, "%", 4938.64, 4, 4],
+    [0, "%", 4949.75, 5, 5],
+    [0, "%", 12111.1, 6, 6],
+    [0, "%", 12166.7, 7, 7],
+    [0, "%", 5977.49, 8, 8],
+    [0, "%", 6477.49, 9, 9],
+    [0, "%", 4352.27, 10, 10],
+    [0, "%", 4648.02, 11, 11],
+    [0, "%", 4190.31, 12, 12],
+    [0, "%", 4030.79, 13, 13]
+  ],
+  "charts": []
+}

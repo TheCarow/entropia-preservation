@@ -1,0 +1,15 @@
+{
+  "item": "ghost-foot-guards-blueprint-l",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20160801075614/http://peauction.com/itemlisting.php?id=5521"
+  ],
+  "sold": [],
+  "unsold": [
+    [1, 0.12, 1000.0, [[0, "2008-01-04 18:04", 0]]],
+    [1, 0.21, 1800.0, [[0, "2008-01-05 17:24", 0]]]
+  ],
+  "readings": [],
+  "charts": []
+}

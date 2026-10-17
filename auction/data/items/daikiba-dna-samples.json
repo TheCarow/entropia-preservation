@@ -1,0 +1,23 @@
+{
+  "item": "daikiba-dna-samples",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20081022150233/http://www.peauction.com:80/catlisting.php?id=40",
+    "https://web.archive.org/web/20090223042218/http://peauction.com:80/catlisting.php?id=40",
+    "https://web.archive.org/web/20090802101955/http://www.peauction.com:80/catlisting.php?id=40",
+    "https://web.archive.org/web/20091002013241/http://www.peauction.com:80/catlisting.php?id=40",
+    "https://web.archive.org/web/20160801183950/http://peauction.com/itemlisting.php?id=4524"
+  ],
+  "sold": [
+    [1, 6.0, 1605.0, 20, [[0, "2008-09-05 17:12", 4]]]
+  ],
+  "unsold": [
+    [1, 6.0, 20000.0, [[0, "2007-07-03 21:27", 4]]]
+  ],
+  "readings": [
+    [0, "%", 26750.0, 0, 1],
+    [0, "TT+", 1599.0, 2, 3]
+  ],
+  "charts": []
+}

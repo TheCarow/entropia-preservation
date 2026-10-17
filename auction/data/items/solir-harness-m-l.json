@@ -1,0 +1,48 @@
+{
+  "item": "solir-harness-m-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071107120335/http://www.peauction.com/itemlisting.php?id=4617",
+    "https://web.archive.org/web/20071212071133/http://peauction.com:80/catlisting.php?id=6",
+    "https://web.archive.org/web/20080210223457/http://www.peauction.com:80/catlisting.php?id=6",
+    "https://web.archive.org/web/20080411151244/http://www.peauction.com:80/catlisting.php?id=6",
+    "https://web.archive.org/web/20080610222829/http://www.peauction.com:80/catlisting.php?id=6",
+    "https://web.archive.org/web/20080801024505/http://www.peauction.com:80/catlisting.php?id=6",
+    "https://web.archive.org/web/20080817052248/http://www.peauction.com:80/catlisting.php?id=6",
+    "https://web.archive.org/web/20081022150359/http://www.peauction.com:80/catlisting.php?id=6",
+    "https://web.archive.org/web/20090223042341/http://peauction.com:80/catlisting.php?id=6",
+    "https://web.archive.org/web/20090802102119/http://www.peauction.com:80/catlisting.php?id=6",
+    "https://web.archive.org/web/20091002013404/http://www.peauction.com:80/catlisting.php?id=6",
+    "https://web.archive.org/web/20160801195940/http://peauction.com/itemlisting.php?id=4617"
+  ],
+  "sold": [
+    [1, 78.17, 149.0, 1, [[0, "2007-10-18 22:08", 0]]],
+    [1, 47.14, 90.0, 4, [[0, "2008-08-25 12:50", 11]]],
+    [1, 7.14, 8.0, 1, [[0, "2008-09-22 17:53", 11]]],
+    [1, 28.33, 57.0, 18, [[0, "2008-10-05 01:43", 11]]],
+    [1, 156.0, 452.0, 19, [[0, "2008-11-23 11:51", 11]]],
+    [1, 142.83, 353.0, 1, [[0, "2009-02-01 09:18", 11]]],
+    [1, 68.7, 150.0, 1, [[0, "2009-05-17 00:06", 11]]],
+    [1, 113.46, 242.0, 13, [[0, "2009-06-11 21:06", 11]]],
+    [1, 113.46, 252.0, 1, [[0, "2009-06-19 21:03", 11]]],
+    [1, 77.56, 83.0, 3, [[0, "2009-06-23 15:45", 11]]],
+    [1, 77.56, 84.0, 4, [[0, "2009-06-23 15:50", 11]]],
+    [1, 23.76, 44.0, 21, [[0, "2009-09-15 19:58", 11]]]
+  ],
+  "unsold": [
+    [1, 54.65, 254.0, [[0, "2007-07-27 17:26", 0]]]
+  ],
+  "readings": [
+    [0, "TT+", 70.83, 1, 1],
+    [0, "TT+", 28.0, 2, 2],
+    [0, "TT+", 29.02, 3, 3],
+    [0, "TT+", 36.4, 4, 5],
+    [0, "TT+", 55.36, 6, 6],
+    [0, "TT+", 44.45, 7, 7],
+    [0, "TT+", 93.75, 8, 8],
+    [0, "%", 191.01, 9, 9],
+    [0, "%", 190.44, 10, 10]
+  ],
+  "charts": []
+}

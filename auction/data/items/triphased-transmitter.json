@@ -1,0 +1,27 @@
+{
+  "item": "triphased-transmitter",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20070807160416/http://peauction.com:80/itemlisting.php?id=1908",
+    "https://web.archive.org/web/20080411151059/http://www.peauction.com:80/catlisting.php?id=38",
+    "https://web.archive.org/web/20091002013226/http://www.peauction.com:80/catlisting.php?id=38",
+    "https://web.archive.org/web/20160802010304/http://peauction.com/itemlisting.php?id=1908"
+  ],
+  "sold": [
+    [46, 1.84, 2.0, 1, [[0, "2008-04-05 22:38", 3]]]
+  ],
+  "unsold": [
+    [1, 0.04, 15.0, [[0, "2005-11-11 03:09", 0]]],
+    [733, 29.32, 100.0, [[0, "2005-12-27 04:29", 0]]],
+    [733, 29.32, 65.0, [[0, "2005-12-28 04:53", 0]]],
+    [733, 29.32, 39.0, [[0, "2006-01-06 04:56", 0]]],
+    [102, 4.08, 10.0, [[0, "2006-09-28 16:00", 0]]],
+    [47, 1.88, 2.0, [[0, "2007-05-26 02:23", 0]]],
+    [40, 1.6, 2.0, [[0, "2007-05-30 16:26", 0]]]
+  ],
+  "readings": [
+    [0, "%", 108.7, 1, 2]
+  ],
+  "charts": []
+}

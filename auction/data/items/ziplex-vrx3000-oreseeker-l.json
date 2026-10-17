@@ -1,0 +1,33 @@
+{
+  "item": "ziplex-vrx3000-oreseeker-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20080411151317/http://www.peauction.com:80/catlisting.php?id=67",
+    "https://web.archive.org/web/20080610222927/http://www.peauction.com:80/catlisting.php?id=67",
+    "https://web.archive.org/web/20080801025440/http://www.peauction.com:80/catlisting.php?id=67",
+    "https://web.archive.org/web/20080818212934/http://www.peauction.com:80/catlisting.php?id=67",
+    "https://web.archive.org/web/20081022150434/http://www.peauction.com:80/catlisting.php?id=67",
+    "https://web.archive.org/web/20090802102158/http://www.peauction.com:80/catlisting.php?id=67",
+    "https://web.archive.org/web/20091002013441/http://www.peauction.com:80/catlisting.php?id=67",
+    "https://web.archive.org/web/20160801182417/http://peauction.com/itemlisting.php?id=5770"
+  ],
+  "sold": [
+    [1, 11.57, 23.0, 1, [[0, "2008-03-04 14:25", 7]]],
+    [1, 387.0, 1400.0, 23, [[0, "2008-07-18 19:32", 7]]],
+    [1, 387.0, 1301.0, 2, [[0, "2008-07-23 01:47", 7]]],
+    [1, 11.57, 13.0, 2, [[0, "2008-10-06 08:23", 7]]],
+    [1, 387.0, 1030.0, 44, [[0, "2009-02-08 03:14", 7]]],
+    [1, 381.39, 781.0, 2, [[0, "2009-07-22 04:49", 7]]],
+    [1, 364.91, 655.0, 1, [[0, "2009-09-15 19:03", 7]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 11.43, 0, 1],
+    [0, "TT+", 646.14, 2, 3],
+    [0, "TT+", 484.97, 4, 4],
+    [0, "%", 246.67, 5, 5],
+    [0, "%", 237.07, 6, 6]
+  ],
+  "charts": []
+}

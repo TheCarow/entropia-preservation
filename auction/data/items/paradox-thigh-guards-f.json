@@ -1,0 +1,18 @@
+{
+  "item": "paradox-thigh-guards-f",
+  "markup": "TT+",
+  "sources": ["pea", "pe-player"],
+  "captures": [
+    "https://web.archive.org/web/20041010022429/http://www.pe-player.com:80/auction/list.php?sort=bytype",
+    "https://web.archive.org/web/20070810163541/http://peauction.com:80/itemlisting.php?id=1058"
+  ],
+  "sold": [
+    [1, 108.36, 651.0, 0, [[1, "2004-08-16 12:40", 0]]]
+  ],
+  "unsold": [
+    [1, 110.0, 410.0, [[0, "2005-10-22 20:16", 1]]],
+    [1, 110.0, 510.0, [[0, "2005-10-30 03:53", 1]]]
+  ],
+  "readings": [],
+  "charts": []
+}

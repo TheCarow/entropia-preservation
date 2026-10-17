@@ -1,0 +1,22 @@
+{
+  "item": "mctiger-golf-pants-blueprint-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20090802101821/http://www.peauction.com:80/catlisting.php?id=23",
+    "https://web.archive.org/web/20091002013109/http://www.peauction.com:80/catlisting.php?id=23",
+    "https://web.archive.org/web/20160801184935/http://peauction.com/itemlisting.php?id=5550"
+  ],
+  "sold": [
+    [1, 0.03, 19.0, 19, [[0, "2008-01-12 02:09", 2]]],
+    [1, 0.3, 450.0, 1, [[0, "2008-01-21 07:24", 2]]],
+    [1, 0.46, 29.0, 29, [[0, "2008-03-11 11:51", 2]]],
+    [1, 0.29, 300.0, 1, [[0, "2008-03-15 03:56", 2]]],
+    [1, 0.37, 200.0, 1, [[0, "2008-03-22 16:58", 2]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "%", 75428.0, 0, 1]
+  ],
+  "charts": []
+}

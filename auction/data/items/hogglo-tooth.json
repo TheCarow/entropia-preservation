@@ -1,0 +1,14 @@
+{
+  "item": "hogglo-tooth",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20160801213525/http://peauction.com/itemlisting.php?id=4543"
+  ],
+  "sold": [],
+  "unsold": [
+    [1, 2.0, 80000.0, [[0, "2007-07-09 17:35", 0]]]
+  ],
+  "readings": [],
+  "charts": []
+}

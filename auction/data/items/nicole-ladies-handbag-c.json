@@ -1,0 +1,16 @@
+{
+  "item": "nicole-ladies-handbag-c",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20090802101942/http://www.peauction.com:80/catlisting.php?id=39",
+    "https://web.archive.org/web/20091002013231/http://www.peauction.com:80/catlisting.php?id=39"
+  ],
+  "sold": [],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 10.11, 0, 0],
+    [0, "TT+", 8.21, 1, 1]
+  ],
+  "charts": []
+}

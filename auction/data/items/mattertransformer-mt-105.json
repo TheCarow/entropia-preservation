@@ -1,0 +1,18 @@
+{
+  "item": "mattertransformer-mt-105",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20070502022402/http://peauction.com:80/catlisting.php?id=67",
+    "https://web.archive.org/web/20071109172050/http://www.peauction.com/itemlisting.php?id=3381",
+    "https://web.archive.org/web/20091002013441/http://www.peauction.com:80/catlisting.php?id=67"
+  ],
+  "sold": [
+    [1, 75.0, 312.0, 1, [[0, "2006-11-15 01:36", 1]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 237.0, 0, 2]
+  ],
+  "charts": []
+}

@@ -1,0 +1,30 @@
+{
+  "item": "tiger-stockings-blueprint",
+  "markup": "TT+",
+  "sources": ["pea", "pe-player"],
+  "captures": [
+    "https://web.archive.org/web/20040807114142/http://www.pe-player.com:80/auction/list.php?sort=bytype",
+    "https://web.archive.org/web/20060216220842/http://www.peauction.com:80/catlisting.php?id=23",
+    "https://web.archive.org/web/20060614130822/http://peauction.com:80/catlisting.php?id=23",
+    "https://web.archive.org/web/20060721093819/http://www.peauction.com:80/catlisting.php?id=23",
+    "https://web.archive.org/web/20070804064820/http://peauction.com:80/itemlisting.php?id=2255",
+    "https://web.archive.org/web/20091002013109/http://www.peauction.com:80/catlisting.php?id=23",
+    "https://web.archive.org/web/20160801184322/http://peauction.com/itemlisting.php?id=2255"
+  ],
+  "sold": [
+    [1, 0.02, 1000.0, 0, [[1, "2004-07-12 14:21", 0]]],
+    [1, 0.01, 402.0, 2, [[0, "2005-12-17 21:20", 4]]],
+    [1, 0.01, 700.0, 8, [[0, "2006-07-07 23:08", 4]]]
+  ],
+  "unsold": [
+    [1, 0.02, 2001.0, [[0, "2009-01-28 07:03", 6]]],
+    [1, 0.09, 3001.0, [[0, "2009-05-15 22:13", 6]]],
+    [1, 0.09, 5001.0, [[0, "2009-05-27 12:31", 6]]],
+    [1, 0.09, 5001.0, [[0, "2009-06-12 12:19", 6]]]
+  ],
+  "readings": [
+    [0, "TT+", 401.99, 1, 2],
+    [0, "TT+", 550.99, 3, 5]
+  ],
+  "charts": []
+}

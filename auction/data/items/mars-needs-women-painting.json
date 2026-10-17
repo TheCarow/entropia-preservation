@@ -1,0 +1,28 @@
+{
+  "item": "mars-needs-women-painting",
+  "markup": "TT+",
+  "sources": ["pea", "pe-player"],
+  "captures": [
+    "https://web.archive.org/web/20050130134118/http://www.pe-player.com:80/auction/list.php?sort=bytype",
+    "https://web.archive.org/web/20060614131158/http://peauction.com:80/catlisting.php?id=42",
+    "https://web.archive.org/web/20060805181541/http://peauction.com:80/catlisting.php?id=42",
+    "https://web.archive.org/web/20070810161418/http://peauction.com:80/itemlisting.php?id=2474",
+    "https://web.archive.org/web/20160801213912/http://peauction.com/itemlisting.php?id=2474"
+  ],
+  "sold": [
+    [1, 30.4, 3031.0, 0, [[1, "2004-10-16 03:30", 0]]],
+    [1, 59.66, 1501.0, 2, [[0, "2006-03-04 22:45", 3]]],
+    [1, 32.42, 4302.0, 44, [[0, "2007-09-21 11:20", 4]]],
+    [1, 33.05, 2036.0, 3, [[0, "2008-09-06 00:17", 4]]]
+  ],
+  "unsold": [
+    [1, 59.66, 2000.0, [[0, "2006-02-04 13:51", 3]]],
+    [1, 59.66, 2500.0, [[0, "2006-02-11 19:38", 3]]],
+    [1, 33.05, 3034.0, [[0, "2008-08-09 06:23", 4]]],
+    [1, 33.05, 2534.0, [[0, "2008-08-21 07:00", 4]]]
+  ],
+  "readings": [
+    [0, "TT+", 1441.34, 1, 2]
+  ],
+  "charts": []
+}

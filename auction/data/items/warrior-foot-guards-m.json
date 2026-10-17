@@ -1,0 +1,19 @@
+{
+  "item": "warrior-foot-guards-m",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20090802102517/http://www.peauction.com:80/catlisting.php?id=81",
+    "https://web.archive.org/web/20091002013600/http://www.peauction.com:80/catlisting.php?id=81",
+    "https://web.archive.org/web/20160801174613/http://peauction.com/itemlisting.php?id=5253"
+  ],
+  "sold": [
+    [1, 0.18, 4.0, 1, [[0, "2009-08-22 23:17", 2]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 0.8, 0, 0],
+    [0, "TT+", 1.13, 1, 1]
+  ],
+  "charts": []
+}

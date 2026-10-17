@@ -1,0 +1,23 @@
+{
+  "item": "urban-nomad-verdant-coat-m",
+  "markup": "TT+",
+  "sources": ["pea", "pe-player"],
+  "captures": [
+    "https://web.archive.org/web/20041010022429/http://www.pe-player.com:80/auction/list.php?sort=bytype",
+    "https://web.archive.org/web/20070612025107/http://peauction.com:80/itemlisting.php?id=2169",
+    "https://web.archive.org/web/20160801201813/http://peauction.com/itemlisting.php?id=2169"
+  ],
+  "sold": [
+    [1, 5.64, 1507.0, 0, [[1, "2004-09-07 21:10", 0]]],
+    [1, 15.0, 1500.0, 18, [[0, "2006-09-16 21:40", 1]]],
+    [1, 15.0, 815.0, 1, [[0, "2009-02-02 20:28", 2]]]
+  ],
+  "unsold": [
+    [1, 5.64, 1000.0, [[0, "2005-12-03 03:27", 1]]],
+    [1, 5.64, 1000.0, [[0, "2005-12-29 22:29", 1]]],
+    [1, 15.0, 1015.0, [[0, "2006-05-03 13:15", 1]]],
+    [1, 15.0, 1015.0, [[0, "2006-05-05 15:49", 1]]]
+  ],
+  "readings": [],
+  "charts": []
+}

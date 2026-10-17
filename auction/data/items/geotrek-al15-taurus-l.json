@@ -1,0 +1,38 @@
+{
+  "item": "geotrek-al15-taurus-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20070805190657/http://peauction.com:80/catlisting.php?id=76",
+    "https://web.archive.org/web/20070806045203/http://peauction.com:80/catlisting.php?id=76",
+    "https://web.archive.org/web/20071007161922/http://www.peauction.com/catlisting.php?id=76",
+    "https://web.archive.org/web/20071012152209/http://peauction.com:80/catlisting.php?id=76",
+    "https://web.archive.org/web/20071212071254/http://peauction.com:80/catlisting.php?id=76",
+    "https://web.archive.org/web/20080210230128/http://www.peauction.com:80/catlisting.php?id=76",
+    "https://web.archive.org/web/20080411151407/http://www.peauction.com:80/catlisting.php?id=76",
+    "https://web.archive.org/web/20080610230759/http://www.peauction.com:80/catlisting.php?id=76",
+    "https://web.archive.org/web/20080801024547/http://www.peauction.com:80/catlisting.php?id=76",
+    "https://web.archive.org/web/20080817053552/http://www.peauction.com:80/catlisting.php?id=76",
+    "https://web.archive.org/web/20081022150519/http://www.peauction.com:80/catlisting.php?id=76",
+    "https://web.archive.org/web/20090223042456/http://peauction.com:80/catlisting.php?id=76",
+    "https://web.archive.org/web/20090802102243/http://www.peauction.com:80/catlisting.php?id=76",
+    "https://web.archive.org/web/20091002013530/http://www.peauction.com:80/catlisting.php?id=76"
+  ],
+  "sold": [],
+  "unsold": [],
+  "readings": [
+    [0, "%", 162.05, 0, 1],
+    [0, "%", 154.48, 2, 3],
+    [0, "%", 137.95, 4, 4],
+    [0, "%", 124.27, 5, 5],
+    [0, "%", 137.55, 6, 6],
+    [0, "%", 148.09, 7, 7],
+    [0, "%", 142.88, 8, 8],
+    [0, "%", 136.72, 9, 9],
+    [0, "%", 134.04, 10, 10],
+    [0, "%", 127.88, 11, 11],
+    [0, "%", 118.19, 12, 12],
+    [0, "%", 124.74, 13, 13]
+  ],
+  "charts": []
+}

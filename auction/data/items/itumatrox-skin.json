@@ -1,0 +1,50 @@
+{
+  "item": "itumatrox-skin",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20080210221242/http://www.peauction.com:80/catlisting.php?id=47",
+    "https://web.archive.org/web/20080411151139/http://www.peauction.com:80/catlisting.php?id=47",
+    "https://web.archive.org/web/20080610220550/http://www.peauction.com:80/catlisting.php?id=47",
+    "https://web.archive.org/web/20080801024440/http://www.peauction.com:80/catlisting.php?id=47",
+    "https://web.archive.org/web/20080817053423/http://www.peauction.com:80/catlisting.php?id=47",
+    "https://web.archive.org/web/20081022150258/http://www.peauction.com:80/catlisting.php?id=47",
+    "https://web.archive.org/web/20090123071800/http://peauction.com:80/catlisting.php?id=47",
+    "https://web.archive.org/web/20090304032513/http://peauction.com:80/catlisting.php?id=47",
+    "https://web.archive.org/web/20090802102019/http://www.peauction.com:80/catlisting.php?id=47",
+    "https://web.archive.org/web/20091002013310/http://www.peauction.com:80/catlisting.php?id=47",
+    "https://web.archive.org/web/20160801184523/http://peauction.com/itemlisting.php?id=5623"
+  ],
+  "sold": [
+    [300, 105.0, 106.0, 1, [[0, "2008-12-15 01:37", 10]]],
+    [300, 105.0, 106.0, 1, [[0, "2009-01-30 17:18", 10]]],
+    [51, 17.85, 21.0, 4, [[0, "2009-02-01 13:03", 10]]],
+    [162, 56.7, 58.0, 2, [[0, "2009-03-23 00:07", 10]]],
+    [27, 9.45, 10.0, 1, [[0, "2009-09-25 15:32", 10]]],
+    [171, 59.85, 61.0, 1, [[0, "2009-10-04 04:57", 10]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "%", 107.14, 0, 0],
+    [0, "%", 109.02, 0, 0],
+    [0, "%", 107.14, 1, 1],
+    [0, "%", 111.24, 1, 1],
+    [0, "%", 107.14, 2, 2],
+    [0, "%", 110.09, 2, 2],
+    [0, "%", 107.14, 3, 3],
+    [0, "%", 108.99, 3, 3],
+    [0, "%", 107.14, 4, 4],
+    [0, "%", 108.99, 4, 4],
+    [0, "%", 105.82, 5, 5],
+    [0, "%", 107.14, 5, 5],
+    [0, "%", 104.11, 6, 6],
+    [0, "%", 107.14, 6, 6],
+    [0, "%", 103.5, 7, 7],
+    [0, "%", 107.14, 7, 7],
+    [0, "%", 103.25, 8, 8],
+    [0, "%", 107.14, 8, 8],
+    [0, "%", 103.3, 9, 9],
+    [0, "%", 107.14, 9, 9]
+  ],
+  "charts": []
+}

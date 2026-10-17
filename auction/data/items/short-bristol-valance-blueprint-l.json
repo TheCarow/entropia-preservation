@@ -1,0 +1,23 @@
+{
+  "item": "short-bristol-valance-blueprint-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20070610030855/http://peauction.com:80/catlisting.php?id=77",
+    "https://web.archive.org/web/20071109172443/http://www.peauction.com/itemlisting.php?id=3625",
+    "https://web.archive.org/web/20091002013535/http://www.peauction.com:80/catlisting.php?id=77",
+    "https://web.archive.org/web/20160801091359/http://peauction.com/itemlisting.php?id=3625"
+  ],
+  "sold": [
+    [1, 0.19, 9.0, 8, [[0, "2007-01-06 22:03", 1]]]
+  ],
+  "unsold": [
+    [1, 0.52, 40.0, [[0, "2007-05-11 16:35", 1]]],
+    [1, 0.52, 400.0, [[0, "2008-07-22 20:32", 3]]],
+    [1, 0.52, 350.0, [[0, "2008-07-25 20:32", 3]]]
+  ],
+  "readings": [
+    [0, "%", 4736.84, 0, 2]
+  ],
+  "charts": []
+}

@@ -1,0 +1,33 @@
+{
+  "item": "isis-cb5",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071007161922/http://www.peauction.com/catlisting.php?id=76",
+    "https://web.archive.org/web/20071012152209/http://peauction.com:80/catlisting.php?id=76",
+    "https://web.archive.org/web/20071212071254/http://peauction.com:80/catlisting.php?id=76",
+    "https://web.archive.org/web/20080210230128/http://www.peauction.com:80/catlisting.php?id=76",
+    "https://web.archive.org/web/20080411151407/http://www.peauction.com:80/catlisting.php?id=76",
+    "https://web.archive.org/web/20080610230759/http://www.peauction.com:80/catlisting.php?id=76",
+    "https://web.archive.org/web/20080801024547/http://www.peauction.com:80/catlisting.php?id=76",
+    "https://web.archive.org/web/20080817053552/http://www.peauction.com:80/catlisting.php?id=76",
+    "https://web.archive.org/web/20081022150519/http://www.peauction.com:80/catlisting.php?id=76",
+    "https://web.archive.org/web/20090223042456/http://peauction.com:80/catlisting.php?id=76",
+    "https://web.archive.org/web/20090802102243/http://www.peauction.com:80/catlisting.php?id=76",
+    "https://web.archive.org/web/20091002013530/http://www.peauction.com:80/catlisting.php?id=76"
+  ],
+  "sold": [],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 265.05, 0, 1],
+    [0, "TT+", 286.58, 2, 3],
+    [0, "TT+", 292.92, 4, 4],
+    [0, "TT+", 294.64, 5, 5],
+    [0, "TT+", 322.1, 6, 7],
+    [0, "TT+", 308.32, 8, 8],
+    [0, "TT+", 300.57, 9, 9],
+    [0, "TT+", 280.65, 10, 10],
+    [0, "TT+", 263.82, 11, 11]
+  ],
+  "charts": []
+}

@@ -1,0 +1,41 @@
+{
+  "item": "grender-precision-scope-blueprint",
+  "markup": "TT+",
+  "sources": ["pea", "pe-player"],
+  "captures": [
+    "https://web.archive.org/web/20050307020126/http://www.pe-player.com:80/auction/list.php?sort=bytype",
+    "https://web.archive.org/web/20061220005015/http://peauction.com:80/catlisting.php?id=19",
+    "https://web.archive.org/web/20071008002827/http://www.peauction.com/catlisting.php?id=19",
+    "https://web.archive.org/web/20071012151731/http://peauction.com:80/catlisting.php?id=19",
+    "https://web.archive.org/web/20071212065906/http://peauction.com:80/catlisting.php?id=19",
+    "https://web.archive.org/web/20080210210008/http://www.peauction.com:80/catlisting.php?id=19",
+    "https://web.archive.org/web/20080411150919/http://www.peauction.com:80/catlisting.php?id=19",
+    "https://web.archive.org/web/20080610174505/http://www.peauction.com:80/catlisting.php?id=19",
+    "https://web.archive.org/web/20080801024335/http://www.peauction.com:80/catlisting.php?id=19",
+    "https://web.archive.org/web/20080817052553/http://www.peauction.com:80/catlisting.php?id=19",
+    "https://web.archive.org/web/20081022150042/http://www.peauction.com:80/catlisting.php?id=19",
+    "https://web.archive.org/web/20090223042027/http://peauction.com:80/catlisting.php?id=19",
+    "https://web.archive.org/web/20090802101758/http://www.peauction.com:80/catlisting.php?id=19",
+    "https://web.archive.org/web/20091002013048/http://www.peauction.com:80/catlisting.php?id=19"
+  ],
+  "sold": [
+    [1, 0.01, 2000.0, 0, [[1, "2005-02-24 02:50", 0]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 25.74, 1, 1],
+    [0, "TT+", 5.09, 2, 2],
+    [0, "TT+", 2.89, 3, 3],
+    [0, "TT+", 3.09, 4, 4],
+    [0, "TT+", 2.39, 5, 5],
+    [0, "TT+", 3.29, 6, 6],
+    [0, "TT+", 1.49, 7, 7],
+    [0, "TT+", 1.39, 8, 8],
+    [0, "TT+", 1.49, 9, 9],
+    [0, "TT+", 0.99, 10, 10],
+    [0, "TT+", 1.49, 11, 11],
+    [0, "TT+", 1.19, 12, 12],
+    [0, "TT+", 1.09, 13, 13]
+  ],
+  "charts": []
+}

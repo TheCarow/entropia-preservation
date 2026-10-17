@@ -1,0 +1,42 @@
+{
+  "item": "geotrek-h41-mina-l-blueprint-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20070502133511/http://peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20070624165352/http://peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20071008002917/http://www.peauction.com/catlisting.php?id=25",
+    "https://web.archive.org/web/20071012151801/http://peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20071212065937/http://peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20080210212022/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20080411150950/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20080610213818/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20080801024356/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20080817052615/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20080818212812/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20081022150112/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20090223042058/http://peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20090802101829/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20091002013119/http://www.peauction.com:80/catlisting.php?id=25"
+  ],
+  "sold": [],
+  "unsold": [],
+  "readings": [
+    [0, "%", 74678.5, 0, 0],
+    [0, "%", 51518.3, 1, 1],
+    [0, "%", 14488.5, 2, 2],
+    [0, "%", 13995.8, 3, 3],
+    [0, "%", 12273.0, 4, 4],
+    [0, "%", 3733.71, 5, 5],
+    [0, "%", 3294.5, 6, 6],
+    [0, "%", 3140.56, 7, 7],
+    [0, "%", 1590.26, 8, 8],
+    [0, "%", 1021.18, 9, 9],
+    [0, "%", 981.29, 10, 10],
+    [0, "%", 667.48, 11, 11],
+    [0, "%", 962.08, 12, 12],
+    [0, "%", 492.21, 13, 13],
+    [0, "%", 491.89, 14, 14]
+  ],
+  "charts": []
+}

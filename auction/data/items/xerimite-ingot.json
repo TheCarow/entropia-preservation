@@ -1,0 +1,23 @@
+{
+  "item": "xerimite-ingot",
+  "markup": "%",
+  "sources": ["pe-player", "mytwopecs"],
+  "captures": [
+    "https://web.archive.org/web/20040807114142/http://www.pe-player.com:80/auction/list.php?sort=bytype",
+    "https://web.archive.org/web/20050924174942/http://www.mytwopecs.com:80/",
+    "https://web.archive.org/web/20060615003227/http://www.mytwopecs.com:80/",
+    "https://web.archive.org/web/20060704211044/http://www.mytwopecs.com:80/",
+    "https://web.archive.org/web/20060707042301/http://www.mytwopecs.com:80/",
+    "https://web.archive.org/web/20090308131723/http://www.mytwopecs.com:80/"
+  ],
+  "sold": [
+    [5, 60.0, 180.0, 0, [[0, "2004-07-10 13:14", 0]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [1, "%", 191.35, 1, 2],
+    [1, "%", 176.44, 3, 3],
+    [1, "%", 190.01, 4, 5]
+  ],
+  "charts": []
+}

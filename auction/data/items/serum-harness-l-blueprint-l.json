@@ -1,0 +1,33 @@
+{
+  "item": "serum-harness-l-blueprint-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20070803140920/http://peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20071212065901/http://peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20080210210002/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20081022150037/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20090223042022/http://peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20090802101753/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20091002013041/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20160801090552/http://peauction.com/itemlisting.php?id=3986"
+  ],
+  "sold": [
+    [1, 0.01, 17.0, 7, [[0, "2007-05-13 20:36", 7]]],
+    [1, 0.01, 10.0, 1, [[0, "2007-12-28 10:59", 7]]],
+    [1, 0.01, 11.0, 5, [[0, "2009-01-03 01:17", 7]]],
+    [1, 0.03, 40.0, 3, [[0, "2009-03-22 03:45", 7]]],
+    [1, 0.03, 43.0, 13, [[0, "2009-05-10 13:39", 7]]]
+  ],
+  "unsold": [
+    [1, 0.01, 20.0, [[0, "2007-10-30 21:38", 7]]],
+    [1, 0.36, 650.0, [[0, "2009-01-11 11:22", 7]]]
+  ],
+  "readings": [
+    [0, "%", 170000.0, 0, 1],
+    [0, "%", 135000.0, 2, 3],
+    [0, "%", 126667.0, 4, 4],
+    [0, "%", 131333.0, 5, 6]
+  ],
+  "charts": []
+}

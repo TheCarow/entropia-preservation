@@ -1,0 +1,31 @@
+{
+  "item": "galaxy-6v-gel-batteries-blueprint",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071007162201/http://www.peauction.com/catlisting.php?id=20",
+    "https://web.archive.org/web/20071012151736/http://peauction.com:80/catlisting.php?id=20",
+    "https://web.archive.org/web/20071212065912/http://peauction.com:80/catlisting.php?id=20",
+    "https://web.archive.org/web/20080210210012/http://www.peauction.com:80/catlisting.php?id=20",
+    "https://web.archive.org/web/20080610213744/http://www.peauction.com:80/catlisting.php?id=20",
+    "https://web.archive.org/web/20080801024341/http://www.peauction.com:80/catlisting.php?id=20",
+    "https://web.archive.org/web/20080818212757/http://www.peauction.com:80/catlisting.php?id=20",
+    "https://web.archive.org/web/20081022150047/http://www.peauction.com:80/catlisting.php?id=20",
+    "https://web.archive.org/web/20090223042032/http://peauction.com:80/catlisting.php?id=20",
+    "https://web.archive.org/web/20090802101803/http://www.peauction.com:80/catlisting.php?id=20",
+    "https://web.archive.org/web/20091002013054/http://www.peauction.com:80/catlisting.php?id=20"
+  ],
+  "sold": [],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 86.59, 0, 1],
+    [0, "TT+", 72.82, 2, 2],
+    [0, "TT+", 57.49, 3, 4],
+    [0, "TT+", 53.88, 5, 6],
+    [0, "TT+", 48.59, 7, 7],
+    [0, "TT+", 39.89, 8, 8],
+    [0, "TT+", 40.59, 9, 9],
+    [0, "TT+", 38.79, 10, 10]
+  ],
+  "charts": []
+}

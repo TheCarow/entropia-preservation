@@ -1,0 +1,25 @@
+{
+  "item": "coarse-frote-fabric-texture-blueprint",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20090802101821/http://www.peauction.com:80/catlisting.php?id=23",
+    "https://web.archive.org/web/20091002013109/http://www.peauction.com:80/catlisting.php?id=23",
+    "https://web.archive.org/web/20160801170652/http://peauction.com/itemlisting.php?id=5383"
+  ],
+  "sold": [
+    [1, 0.01, 1.0, 1, [[0, "2009-03-19 04:54", 2]]],
+    [1, 0.01, 2.0, 1, [[0, "2009-04-08 23:05", 2]]],
+    [1, 0.01, 1.0, 1, [[0, "2009-04-22 15:28", 2]]],
+    [1, 0.01, 1.0, 1, [[0, "2009-05-02 21:21", 2]]],
+    [1, 0.01, 1.0, 1, [[0, "2009-05-12 02:05", 2]]],
+    [1, 0.01, 1.0, 1, [[0, "2009-05-31 18:35", 2]]],
+    [1, 0.01, 1.0, 1, [[0, "2009-09-11 23:58", 2]]],
+    [1, 0.01, 1.0, 1, [[0, "2009-10-02 16:41", 2]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 1.09, 0, 1]
+  ],
+  "charts": []
+}

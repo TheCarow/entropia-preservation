@@ -1,0 +1,39 @@
+{
+  "item": "metal-plating-blueprint",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20070804042526/http://peauction.com:80/catlisting.php?id=22",
+    "https://web.archive.org/web/20070805053519/http://peauction.com:80/catlisting.php?id=22",
+    "https://web.archive.org/web/20071008003624/http://www.peauction.com/catlisting.php?id=22",
+    "https://web.archive.org/web/20071012151746/http://peauction.com:80/catlisting.php?id=22",
+    "https://web.archive.org/web/20071212065922/http://peauction.com:80/catlisting.php?id=22",
+    "https://web.archive.org/web/20080210211304/http://www.peauction.com:80/catlisting.php?id=22",
+    "https://web.archive.org/web/20080411150934/http://www.peauction.com:80/catlisting.php?id=22",
+    "https://web.archive.org/web/20080610213756/http://www.peauction.com:80/catlisting.php?id=22",
+    "https://web.archive.org/web/20080801024346/http://www.peauction.com:80/catlisting.php?id=22",
+    "https://web.archive.org/web/20080817052604/http://www.peauction.com:80/catlisting.php?id=22",
+    "https://web.archive.org/web/20080818212802/http://www.peauction.com:80/catlisting.php?id=22",
+    "https://web.archive.org/web/20081022150057/http://www.peauction.com:80/catlisting.php?id=22",
+    "https://web.archive.org/web/20090223042042/http://peauction.com:80/catlisting.php?id=22",
+    "https://web.archive.org/web/20090802101813/http://www.peauction.com:80/catlisting.php?id=22",
+    "https://web.archive.org/web/20091002013104/http://www.peauction.com:80/catlisting.php?id=22"
+  ],
+  "sold": [],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 1.61, 0, 1],
+    [0, "TT+", 1.9, 2, 3],
+    [0, "TT+", 2.5, 4, 4],
+    [0, "TT+", 2.51, 5, 5],
+    [0, "TT+", 1.61, 6, 6],
+    [0, "TT+", 3.11, 7, 7],
+    [0, "TT+", 3.07, 8, 8],
+    [0, "TT+", 1.9, 9, 10],
+    [0, "TT+", 2.26, 11, 11],
+    [0, "TT+", 1.51, 12, 12],
+    [0, "TT+", 1.41, 13, 13],
+    [0, "TT+", 1.49, 14, 14]
+  ],
+  "charts": []
+}

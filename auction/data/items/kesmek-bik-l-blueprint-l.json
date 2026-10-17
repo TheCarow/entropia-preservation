@@ -1,0 +1,20 @@
+{
+  "item": "kesmek-bik-l-blueprint-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20090802101829/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20091002013119/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20160801125323/http://peauction.com/itemlisting.php?id=5788"
+  ],
+  "sold": [
+    [1, 0.01, 626.0, 30, [[0, "2008-03-08 23:26", 2]]],
+    [1, 0.01, 351.0, 10, [[0, "2009-08-08 11:01", 2]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "%", 6260000.0, 0, 0],
+    [0, "%", 3815560.0, 1, 1]
+  ],
+  "charts": []
+}

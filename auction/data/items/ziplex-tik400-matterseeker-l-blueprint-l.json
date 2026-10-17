@@ -1,0 +1,26 @@
+{
+  "item": "ziplex-tik400-matterseeker-l-blueprint-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071007160727/http://www.peauction.com/catlisting.php?id=24",
+    "https://web.archive.org/web/20071108175349/http://www.peauction.com/itemlisting.php?id=4613",
+    "https://web.archive.org/web/20081022150107/http://www.peauction.com:80/catlisting.php?id=24",
+    "https://web.archive.org/web/20090223042052/http://peauction.com:80/catlisting.php?id=24",
+    "https://web.archive.org/web/20091002013114/http://www.peauction.com:80/catlisting.php?id=24",
+    "https://web.archive.org/web/20160801211332/http://peauction.com/itemlisting.php?id=4613"
+  ],
+  "sold": [
+    [1, 0.03, 400.0, 14, [[0, "2007-07-26 16:11", 1]]],
+    [1, 0.02, 82.0, 16, [[0, "2009-01-09 02:52", 5]]]
+  ],
+  "unsold": [
+    [1, 0.15, 1500.0, [[0, "2008-08-14 05:24", 5]]],
+    [1, 0.15, 501.0, [[0, "2008-08-21 05:24", 5]]]
+  ],
+  "readings": [
+    [0, "%", 1333330.0, 0, 2],
+    [0, "%", 871667.0, 3, 4]
+  ],
+  "charts": []
+}

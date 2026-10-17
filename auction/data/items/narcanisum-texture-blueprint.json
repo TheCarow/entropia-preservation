@@ -1,0 +1,23 @@
+{
+  "item": "narcanisum-texture-blueprint",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20090802101821/http://www.peauction.com:80/catlisting.php?id=23",
+    "https://web.archive.org/web/20091002013109/http://www.peauction.com:80/catlisting.php?id=23",
+    "https://web.archive.org/web/20160801184529/http://peauction.com/itemlisting.php?id=5288"
+  ],
+  "sold": [
+    [1, 0.25, 3.0, 3, [[0, "2009-01-19 02:08", 2]]],
+    [1, 0.09, 1.0, 1, [[0, "2009-03-30 16:09", 2]]],
+    [1, 0.01, 1.0, 1, [[0, "2009-04-30 13:07", 2]]],
+    [1, 0.01, 1.0, 1, [[0, "2009-05-04 22:31", 2]]],
+    [1, 0.01, 1.0, 1, [[0, "2009-05-11 03:11", 2]]],
+    [1, 0.01, 1.0, 1, [[0, "2009-08-10 15:14", 2]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 1.16, 0, 1]
+  ],
+  "charts": []
+}

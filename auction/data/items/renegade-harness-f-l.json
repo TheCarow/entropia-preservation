@@ -1,0 +1,16 @@
+{
+  "item": "renegade-harness-f-l",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071107191237/http://www.peauction.com/itemlisting.php?id=4388",
+    "https://web.archive.org/web/20160801205022/http://peauction.com/itemlisting.php?id=4388"
+  ],
+  "sold": [],
+  "unsold": [
+    [1, 13.41, 17.0, [[0, "2007-06-17 09:16", 0]]],
+    [1, 3.57, 4.0, [[0, "2009-04-23 18:58", 1]]]
+  ],
+  "readings": [],
+  "charts": []
+}

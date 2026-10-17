@@ -1,0 +1,29 @@
+{
+  "item": "gec-coil-springs-2m",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071008002943/http://www.peauction.com/catlisting.php?id=38",
+    "https://web.archive.org/web/20080210220508/http://www.peauction.com:80/catlisting.php?id=38",
+    "https://web.archive.org/web/20080411151059/http://www.peauction.com:80/catlisting.php?id=38",
+    "https://web.archive.org/web/20091002013226/http://www.peauction.com:80/catlisting.php?id=38",
+    "https://web.archive.org/web/20160801193505/http://peauction.com/itemlisting.php?id=4678"
+  ],
+  "sold": [
+    [78, 93.6, 180.0, 26, [[0, "2007-08-19 09:37", 4]]],
+    [78, 93.6, 182.0, 26, [[0, "2007-08-19 09:47", 4]]],
+    [78, 93.6, 183.0, 26, [[0, "2007-08-19 09:52", 4]]],
+    [78, 93.6, 185.0, 26, [[0, "2007-08-19 09:57", 4]]],
+    [78, 93.6, 195.0, 26, [[0, "2007-08-19 10:18", 4]]],
+    [78, 93.6, 198.0, 26, [[0, "2007-08-19 10:23", 4]]],
+    [78, 93.6, 202.0, 26, [[0, "2007-08-19 10:32", 4]]],
+    [78, 93.6, 213.0, 26, [[0, "2007-08-19 10:38", 4]]],
+    [6, 7.2, 10.0, 3, [[0, "2008-03-03 10:35", 4]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "%", 205.4, 0, 1],
+    [0, "%", 204.76, 2, 3]
+  ],
+  "charts": []
+}

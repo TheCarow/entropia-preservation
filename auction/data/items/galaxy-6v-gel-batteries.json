@@ -1,0 +1,15 @@
+{
+  "item": "galaxy-6v-gel-batteries",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20160801213216/http://peauction.com/itemlisting.php?id=5887"
+  ],
+  "sold": [],
+  "unsold": [
+    [2, 2.4, 13.0, [[0, "2008-05-08 21:18", 0]]],
+    [12, 14.4, 115.0, [[0, "2009-06-26 08:39", 0]]]
+  ],
+  "readings": [],
+  "charts": []
+}

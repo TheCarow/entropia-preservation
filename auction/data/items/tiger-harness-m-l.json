@@ -1,0 +1,18 @@
+{
+  "item": "tiger-harness-m-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20090223042341/http://peauction.com:80/catlisting.php?id=6",
+    "https://web.archive.org/web/20090802102119/http://www.peauction.com:80/catlisting.php?id=6",
+    "https://web.archive.org/web/20091002013404/http://www.peauction.com:80/catlisting.php?id=6"
+  ],
+  "sold": [],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 104.18, 0, 0],
+    [0, "%", 290.91, 1, 1],
+    [0, "%", 128.26, 2, 2]
+  ],
+  "charts": []
+}

@@ -1,0 +1,65 @@
+{
+  "item": "angel-arm-guards-m",
+  "markup": "TT+",
+  "sources": ["pea", "pe-player"],
+  "captures": [
+    "https://web.archive.org/web/20050130134118/http://www.pe-player.com:80/auction/list.php?sort=bytype",
+    "https://web.archive.org/web/20060216220622/http://www.peauction.com:80/catlisting.php?id=3",
+    "https://web.archive.org/web/20060721094249/http://www.peauction.com:80/catlisting.php?id=3",
+    "https://web.archive.org/web/20061107141532/http://peauction.com/catlisting.php?id=3",
+    "https://web.archive.org/web/20070107092420/http://peauction.com:80/catlisting.php?id=3",
+    "https://web.archive.org/web/20071009123302/http://www.peauction.com/itemlisting.php?id=1949",
+    "https://web.archive.org/web/20071009123315/http://www.peauction.com/chart2.php?id=1949&dtype=0",
+    "https://web.archive.org/web/20071212065958/http://peauction.com:80/catlisting.php?id=3",
+    "https://web.archive.org/web/20080210212348/http://www.peauction.com:80/catlisting.php?id=3",
+    "https://web.archive.org/web/20080610220423/http://www.peauction.com:80/catlisting.php?id=3",
+    "https://web.archive.org/web/20080801024947/http://www.peauction.com:80/catlisting.php?id=3",
+    "https://web.archive.org/web/20081022150132/http://www.peauction.com:80/catlisting.php?id=3",
+    "https://web.archive.org/web/20090223042118/http://peauction.com:80/catlisting.php?id=3",
+    "https://web.archive.org/web/20090802101850/http://www.peauction.com:80/catlisting.php?id=3",
+    "https://web.archive.org/web/20091002013141/http://www.peauction.com:80/catlisting.php?id=3",
+    "https://web.archive.org/web/20160801211529/http://peauction.com/itemlisting.php?id=1949"
+  ],
+  "sold": [
+    [1, 34.16, 3999.0, 0, [[1, "2004-11-02 14:15", 0]]],
+    [1, 38.13, 4200.96, 36, [[0, "2005-10-31 17:32", 5]]],
+    [1, 66.0, 3966.0, 1, [[0, "2005-11-13 02:11", 5]]],
+    [1, 66.0, 3701.0, 18, [[0, "2005-12-03 22:47", 5]]],
+    [1, 15.17, 4501.0, 1, [[0, "2006-04-08 20:46", 5]]],
+    [1, 65.59, 4150.0, 9, [[0, "2006-06-26 16:59", 5]]],
+    [1, 30.14, 4032.0, 2, [[0, "2006-07-22 17:09", 5]]],
+    [1, 64.9, 4058.0, 29, [[0, "2006-07-28 23:13", 5]]],
+    [1, 66.0, 4067.0, 2, [[0, "2006-07-30 21:39", 5]]],
+    [1, 66.0, 4400.0, 1, [[0, "2006-08-24 21:49", 5]]],
+    [1, 63.06, 4000.0, 28, [[0, "2006-11-16 18:50", 5]]],
+    [1, 65.05, 8501.0, 2, [[0, "2008-01-20 12:39", 15]]],
+    [1, 66.0, 13000.0, 5, [[0, "2008-07-02 22:20", 15]]],
+    [1, 66.0, 10066.0, 1, [[0, "2009-01-22 22:43", 15]]],
+    [1, 66.0, 6066.0, 1, [[0, "2009-06-17 06:00", 15]]],
+    [1, 59.95, 4746.0, 89, [[0, "2009-07-25 23:15", 15]]],
+    [1, 59.95, 4746.0, 89, [[0, "2009-07-25 23:21", 15]]],
+    [1, 64.09, 5266.0, 35, [[0, "2009-10-05 01:37", 15]]]
+  ],
+  "unsold": [
+    [1, 66.0, 4099.0, [[0, "2005-12-01 02:10", 5]]],
+    [1, 58.12, 4259.0, [[0, "2006-04-27 19:25", 5]]],
+    [1, 58.12, 4359.0, [[0, "2006-05-08 16:40", 5]]],
+    [1, 66.0, 4265.0, [[0, "2006-06-29 08:18", 5]]],
+    [1, 66.0, 4466.0, [[0, "2006-08-06 21:53", 5]]],
+    [1, 29.67, 4230.0, [[0, "2006-08-12 16:01", 5]]],
+    [1, 66.0, 5466.0, [[0, "2006-11-04 09:58", 5]]]
+  ],
+  "readings": [
+    [0, "TT+", 3899.28, 1, 1],
+    [0, "TT+", 4053.61, 2, 2],
+    [0, "TT+", 4066.45, 3, 3],
+    [0, "TT+", 4053.5, 4, 7],
+    [0, "TT+", 4480.81, 8, 9],
+    [0, "TT+", 5384.21, 10, 11],
+    [0, "TT+", 6020.71, 12, 12],
+    [0, "TT+", 6300.71, 13, 14]
+  ],
+  "charts": [
+    [0, 6, "1949-0-20071009123315.png"]
+  ]
+}

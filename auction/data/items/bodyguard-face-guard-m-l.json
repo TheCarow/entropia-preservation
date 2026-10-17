@@ -1,0 +1,19 @@
+{
+  "item": "bodyguard-face-guard-m-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20090802101947/http://www.peauction.com:80/catlisting.php?id=4",
+    "https://web.archive.org/web/20091002013236/http://www.peauction.com:80/catlisting.php?id=4",
+    "https://web.archive.org/web/20160801213835/http://peauction.com/itemlisting.php?id=4676"
+  ],
+  "sold": [
+    [1, 1.63, 1.0, 1, [[0, "2008-11-07 11:10", 2]]],
+    [1, 2.93, 6.0, 1, [[0, "2009-06-21 23:46", 2]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "%", 133.06, 0, 1]
+  ],
+  "charts": []
+}

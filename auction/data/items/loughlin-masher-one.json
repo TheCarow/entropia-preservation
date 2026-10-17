@@ -1,0 +1,49 @@
+{
+  "item": "loughlin-masher-one",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071007162724/http://www.peauction.com/catlisting.php?id=70",
+    "https://web.archive.org/web/20071204093419/http://peauction.com:80/itemlisting.php?id=4651",
+    "https://web.archive.org/web/20071212071223/http://peauction.com:80/catlisting.php?id=70",
+    "https://web.archive.org/web/20080210224922/http://www.peauction.com:80/catlisting.php?id=70",
+    "https://web.archive.org/web/20080411151333/http://www.peauction.com:80/catlisting.php?id=70",
+    "https://web.archive.org/web/20080610222945/http://www.peauction.com:80/catlisting.php?id=70",
+    "https://web.archive.org/web/20080801025445/http://www.peauction.com:80/catlisting.php?id=70",
+    "https://web.archive.org/web/20081022150449/http://www.peauction.com:80/catlisting.php?id=70",
+    "https://web.archive.org/web/20090223042426/http://peauction.com:80/catlisting.php?id=70",
+    "https://web.archive.org/web/20090802102213/http://www.peauction.com:80/catlisting.php?id=70",
+    "https://web.archive.org/web/20091002013458/http://www.peauction.com:80/catlisting.php?id=70"
+  ],
+  "sold": [
+    [1, 191.12, 1312.0, 26, [[0, "2007-08-06 17:07", 1]]],
+    [1, 197.08, 1398.0, 26, [[0, "2007-08-10 22:57", 1]]],
+    [1, 197.08, 1687.0, 26, [[0, "2007-08-10 23:12", 1]]],
+    [1, 197.08, 1736.0, 26, [[0, "2007-08-10 23:17", 1]]],
+    [1, 197.08, 1826.0, 26, [[0, "2007-08-10 23:27", 1]]],
+    [1, 198.86, 556.0, 26, [[0, "2007-09-08 10:34", 1]]],
+    [1, 198.86, 800.0, 26, [[0, "2007-09-08 10:39", 1]]],
+    [1, 198.86, 1100.0, 26, [[0, "2007-09-08 10:44", 1]]],
+    [1, 198.86, 1800.0, 26, [[0, "2007-09-08 10:54", 1]]],
+    [1, 200.0, 2202.0, 26, [[0, "2007-11-01 19:58", 1]]],
+    [1, 200.0, 2204.0, 26, [[0, "2007-11-01 20:03", 1]]],
+    [1, 200.0, 2209.0, 26, [[0, "2007-11-01 20:13", 1]]],
+    [1, 200.0, 2222.0, 26, [[0, "2007-11-01 20:23", 1]]],
+    [1, 200.0, 2345.0, 26, [[0, "2007-11-01 20:28", 1]]],
+    [1, 200.0, 2543.0, 26, [[0, "2007-11-01 20:48", 1]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 1160.01, 0, 0],
+    [0, "TT+", 1598.56, 2, 2],
+    [0, "TT+", 2137.73, 3, 3],
+    [0, "TT+", 2098.77, 4, 4],
+    [0, "TT+", 2050.47, 5, 5],
+    [0, "TT+", 1928.06, 6, 6],
+    [0, "TT+", 1794.21, 7, 7],
+    [0, "TT+", 1625.96, 8, 8],
+    [0, "TT+", 651.67, 9, 9],
+    [0, "TT+", 531.71, 10, 10]
+  ],
+  "charts": []
+}

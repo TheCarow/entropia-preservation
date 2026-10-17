@@ -1,0 +1,39 @@
+{
+  "item": "geotrek-hardened-talytic-converters-blueprint",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20070804042526/http://peauction.com:80/catlisting.php?id=22",
+    "https://web.archive.org/web/20070805053519/http://peauction.com:80/catlisting.php?id=22",
+    "https://web.archive.org/web/20071008003624/http://www.peauction.com/catlisting.php?id=22",
+    "https://web.archive.org/web/20071012151746/http://peauction.com:80/catlisting.php?id=22",
+    "https://web.archive.org/web/20071212065922/http://peauction.com:80/catlisting.php?id=22",
+    "https://web.archive.org/web/20080210211304/http://www.peauction.com:80/catlisting.php?id=22",
+    "https://web.archive.org/web/20080411150934/http://www.peauction.com:80/catlisting.php?id=22",
+    "https://web.archive.org/web/20080610213756/http://www.peauction.com:80/catlisting.php?id=22",
+    "https://web.archive.org/web/20080801024346/http://www.peauction.com:80/catlisting.php?id=22",
+    "https://web.archive.org/web/20080817052604/http://www.peauction.com:80/catlisting.php?id=22",
+    "https://web.archive.org/web/20080818212802/http://www.peauction.com:80/catlisting.php?id=22",
+    "https://web.archive.org/web/20081022150057/http://www.peauction.com:80/catlisting.php?id=22",
+    "https://web.archive.org/web/20090223042042/http://peauction.com:80/catlisting.php?id=22",
+    "https://web.archive.org/web/20090802101813/http://www.peauction.com:80/catlisting.php?id=22",
+    "https://web.archive.org/web/20091002013104/http://www.peauction.com:80/catlisting.php?id=22"
+  ],
+  "sold": [],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 85.88, 0, 1],
+    [0, "TT+", 45.19, 2, 3],
+    [0, "TT+", 49.09, 4, 4],
+    [0, "TT+", 49.29, 5, 5],
+    [0, "TT+", 71.39, 6, 6],
+    [0, "TT+", 70.99, 7, 7],
+    [0, "TT+", 50.69, 8, 8],
+    [0, "TT+", 42.89, 9, 10],
+    [0, "TT+", 40.39, 11, 11],
+    [0, "TT+", 28.49, 12, 12],
+    [0, "TT+", 5.67, 13, 13],
+    [0, "TT+", 5.49, 14, 14]
+  ],
+  "charts": []
+}

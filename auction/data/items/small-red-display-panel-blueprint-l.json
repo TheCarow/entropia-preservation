@@ -1,0 +1,45 @@
+{
+  "item": "small-red-display-panel-blueprint-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20061107141026/http://peauction.com/catlisting.php?id=77",
+    "https://web.archive.org/web/20061220004122/http://peauction.com:80/catlisting.php?id=77",
+    "https://web.archive.org/web/20070610030855/http://peauction.com:80/catlisting.php?id=77",
+    "https://web.archive.org/web/20071110000700/http://www.peauction.com/itemlisting.php?id=3083",
+    "https://web.archive.org/web/20071110000726/http://www.peauction.com/chart2.php?id=3083&dtype=1",
+    "https://web.archive.org/web/20081022150525/http://www.peauction.com:80/catlisting.php?id=77",
+    "https://web.archive.org/web/20090223042501/http://peauction.com:80/catlisting.php?id=77",
+    "https://web.archive.org/web/20091002013535/http://www.peauction.com:80/catlisting.php?id=77",
+    "https://web.archive.org/web/20160801075436/http://peauction.com/itemlisting.php?id=3083"
+  ],
+  "sold": [
+    [1, 0.66, 123.0, 5, [[0, "2006-09-25 10:16", 3]]],
+    [1, 0.13, 25.0, 14, [[0, "2006-10-31 18:40", 3]]],
+    [1, 0.01, 5.0, 4, [[0, "2006-11-07 10:33", 3]]],
+    [1, 0.05, 12.0, 10, [[0, "2007-02-22 01:40", 3]]],
+    [1, 0.27, 90.0, 37, [[0, "2007-03-12 05:25", 3]]],
+    [1, 0.27, 90.0, 37, [[0, "2007-03-12 06:25", 8]]],
+    [1, 0.09, 36.0, 4, [[0, "2007-04-22 02:36", 3]]],
+    [1, 0.02, 23.0, 17, [[0, "2008-12-15 22:52", 8]]]
+  ],
+  "unsold": [
+    [1, 0.04, 111.0, [[0, "2006-09-05 00:55", 3]]],
+    [1, 0.01, 5.0, [[0, "2006-10-08 15:18", 3]]],
+    [1, 0.39, 391.0, [[0, "2006-10-22 17:51", 3]]],
+    [1, 0.11, 66.0, [[0, "2006-10-27 09:59", 3]]],
+    [1, 0.08, 48.0, [[0, "2006-10-27 10:04", 3]]],
+    [1, 0.05, 41.0, [[0, "2006-11-15 00:26", 3]]],
+    [1, 0.07, 250.0, [[0, "2009-01-24 10:53", 8]]],
+    [1, 0.07, 250.0, [[0, "2009-01-31 15:58", 8]]],
+    [1, 0.07, 250.0, [[0, "2009-02-01 17:53", 8]]]
+  ],
+  "readings": [
+    [0, "%", 29289.0, 0, 1],
+    [0, "%", 30866.7, 2, 5],
+    [0, "%", 42885.8, 6, 7]
+  ],
+  "charts": [
+    [1, 4, "3083-1-20071110000726.png"]
+  ]
+}

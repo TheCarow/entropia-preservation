@@ -1,0 +1,35 @@
+{
+  "item": "miner-skill-implant-l",
+  "markup": "%",
+  "sources": ["pea", "chipping-optimizer"],
+  "captures": [
+    "https://web.archive.org/web/20070914104959/http://jdegre.net:80/pe/unlocker.php",
+    "https://web.archive.org/web/20071007162315/http://www.peauction.com/catlisting.php?id=61",
+    "https://web.archive.org/web/20071011152832/http://jdegre.net:80/pe/unlocker.php",
+    "https://web.archive.org/web/20081022150409/http://www.peauction.com:80/catlisting.php?id=61",
+    "https://web.archive.org/web/20081219185228/http://jdegre.net:80/pe/unlocker.php",
+    "https://web.archive.org/web/20090127052831/http://jdegre.net:80/pe/unlocker.php",
+    "https://web.archive.org/web/20090223042351/http://peauction.com:80/catlisting.php?id=61",
+    "https://web.archive.org/web/20090227043757/http://jdegre.net:80/pe/unlocker.php",
+    "https://web.archive.org/web/20090802102129/http://www.peauction.com:80/catlisting.php?id=61",
+    "https://web.archive.org/web/20091002013414/http://www.peauction.com:80/catlisting.php?id=61",
+    "https://web.archive.org/web/20160801184812/http://peauction.com/itemlisting.php?id=3072"
+  ],
+  "sold": [
+    [1, 1.3, 400.0, 24, [[0, "2007-09-07 15:54", 10]]],
+    [1, 1.3, 271.0, 9, [[0, "2007-09-17 23:19", 10]]],
+    [1, 14.89, 926.0, 37, [[0, "2009-01-15 18:53", 10]]],
+    [1, 5.75, 518.0, 9, [[0, "2009-03-16 20:33", 10]]],
+    [1, 10.73, 1000.0, 1, [[0, "2009-04-24 21:04", 10]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "%", 25807.7, 1, 3],
+    [0, "%", 19278.1, 6, 6],
+    [0, "%", 15232.5, 8, 9],
+    [1, "%", 30769.0, 0, 0],
+    [1, "%", 25808.0, 2, 4],
+    [1, "%", 19278.0, 5, 7]
+  ],
+  "charts": []
+}

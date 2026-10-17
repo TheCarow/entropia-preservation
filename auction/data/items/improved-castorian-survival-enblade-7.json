@@ -1,0 +1,23 @@
+{
+  "item": "improved-castorian-survival-enblade-7",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20080610222954/http://www.peauction.com:80/catlisting.php?id=72",
+    "https://web.archive.org/web/20091002013510/http://www.peauction.com:80/catlisting.php?id=72",
+    "https://web.archive.org/web/20160801070731/http://peauction.com/itemlisting.php?id=3908"
+  ],
+  "sold": [
+    [1, 14.9, 30000.0, 1, [[0, "2008-06-06 00:27", 2]]]
+  ],
+  "unsold": [
+    [1, 497.35, 100497.0, [[0, "2007-04-01 05:14", 2]]],
+    [1, 55.65, 97156.0, [[0, "2007-06-27 22:01", 2]]],
+    [1, 14.9, 50000.0, [[0, "2008-05-20 20:04", 2]]],
+    [1, 14.9, 45000.0, [[0, "2008-05-29 15:38", 2]]]
+  ],
+  "readings": [
+    [0, "TT+", 29985.1, 0, 1]
+  ],
+  "charts": []
+}

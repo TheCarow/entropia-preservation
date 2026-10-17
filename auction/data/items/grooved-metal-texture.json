@@ -1,0 +1,16 @@
+{
+  "item": "grooved-metal-texture",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20160801183641/http://peauction.com/itemlisting.php?id=5572"
+  ],
+  "sold": [],
+  "unsold": [
+    [5, 2.9, 5.0, [[0, "2008-01-20 19:19", 0]]],
+    [36, 20.88, 22.0, [[0, "2008-11-10 17:25", 0]]],
+    [5, 2.9, 4.0, [[0, "2009-05-11 13:45", 0]]]
+  ],
+  "readings": [],
+  "charts": []
+}

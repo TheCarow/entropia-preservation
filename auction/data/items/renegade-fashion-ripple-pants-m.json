@@ -1,0 +1,17 @@
+{
+  "item": "renegade-fashion-ripple-pants-m",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20160801065106/http://peauction.com/itemlisting.php?id=6089"
+  ],
+  "sold": [
+    [1, 7.98, 501.0, 2, [[0, "2008-10-15 14:09", 0]]]
+  ],
+  "unsold": [
+    [1, 7.98, 900.0, [[0, "2008-07-01 13:30", 0]]],
+    [1, 7.98, 999.0, [[0, "2008-09-25 13:48", 0]]]
+  ],
+  "readings": [],
+  "charts": []
+}

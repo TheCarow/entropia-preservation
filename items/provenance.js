@@ -284,8 +284,70 @@ function context(site, stop, problems) {
     fields: Object.entries(fields).map(([key, f]) => [key, f.label, f.group || null, f.for]), shown,
   }).replace(/</g, "\\u003c");
 
+  // The globals and Hall of Fame loots players recorded (halloffame/data/records.json, the Hall of Fame page's data):
+  // a record names the creature or item it is listed under, and its row gives the day, the loot's value, the player,
+  // what kind of record it was and the player's note, with its sources and captures behind its question mark.
+  const hallFile = path.join(site, "halloffame", "data", "records.json");
+  const hall = fs.existsSync(hallFile) ? load(hallFile, stop) : {records: [], captures: []};
+  const KIND_NAMES = {global: "global", hof: "Hall of Fame", silent: "silent global"};
+  for (const [n, r] of hall.records.entries()) {
+    for (const [source, c] of r.sources || []) {
+      if (!sources[source] || (typeof c === "string" ? !pictures.has(c) : !hall.captures[c])) problems.push(`halloffame/data/records.json, record ${n + 1}: source ${JSON.stringify(source)}, capture or picture ${JSON.stringify(c)} is unknown`);
+    }
+    if (!KIND_NAMES[r.kind]) problems.push(`halloffame/data/records.json, record ${n + 1}: kind ${JSON.stringify(r.kind)} is not one of ${Object.keys(KIND_NAMES).join(", ")}`);
+  }
+  // A record's sources: each site with the captures it was read from, or the pictures that show it.
+  function hallSources(r) {
+    const bySource = new Map();
+    for (const [source, c] of r.sources) bySource.set(source, [...(bySource.get(source) || []), c]);
+    return [...bySource].map(([source, caps]) => {
+      if (typeof caps[0] === "string") {
+        return `<span class="e">${esc(sources[source].name)}: ${caps.map((id) => `<a href="../media/${esc(id)}/">picture ${esc(id)}</a>`).join(", ")}</span>`;
+      }
+      return `<span class="e">${esc(sources[source].name)}, captured ${caps.map((c) => {
+        const url = hall.captures[c];
+        const m = url.match(/\/web\/(\d{4})(\d\d)(\d\d)/);
+        return `<a href="${esc(url)}" target="_blank" rel="noopener">${m[1]}-${m[2]}-${m[3]}</a>`;
+      }).join(", ")}</span>`;
+    }).join("");
+  }
+  // When a record was looted, as a reader sees it: its day, else the bounds its pictures give, else nothing.
+  const hallDay = (r) => r.day || (r.after && r.before ? `${r.after} to ${r.before}` : r.before ? `by ${r.before}` : r.after ? `from ${r.after}` : "");
+  // The VUs a record can be of, [first, last], either null where its dating is open at that end: its day's, else
+  // those a picture that shows it states, else those of its bounds.
+  function hallVus(r) {
+    if (r.day) {
+      return [vuOn(r.day), vuOn(r.day)];
+    }
+    for (const [, id] of r.sources.filter(([, c]) => typeof c === "string")) {
+      const stated = ["start", "end"].map((end) => ((pictures.get(id).vu || {})[end] || "").match(/^\d+\.\d+/));
+      if (stated[0] && RANK.has(stated[0][0])) {
+        return [stated[0][0], (stated[1] || stated[0])[0]];
+      }
+    }
+    return r.after || r.before ? [r.after ? vuOn(r.after) || null : null, r.before ? vuOn(r.before) || null : null] : null;
+  }
+  const hallVuText = (vus) => (!vus ? "" : vus[0] && vus[0] === vus[1] ? vus[0] : vus[0] && vus[1] ? `${vus[0]} to ${vus[1]}`
+    : vus[1] ? `${vus[1]} or earlier` : vus[0] ? `${vus[0]} or later` : "");
+  // Where a record falls in time, newest first: [0, day] for one dated to the day, to a range, or to the VUs its
+  // picture states (by the last's release), [1, day] for one only bounded at one end, [2, ""] for one undated.
+  function hallWhen(r) {
+    const vus = hallVus(r);
+    const day = r.day || (r.after && r.before ? r.before : null) || (vus && vus[0] && vus[1] ? versions[vus[1]].date : null);
+    return day ? [0, day] : r.before || r.after ? [1, r.before || r.after] : [2, ""];
+  }
+  function hallRows(records, label) {
+    return records.map((r, n) => {
+      const where = label(r);
+      return `<tr><th scope="row">${n ? "" : "Hall of Fame"}</th><td class="q">${mark(hallSources(r))}</td>`
+        + `<td class="v">${esc(hallDay(r) || "undated")}${r.time ? ` ${esc(r.time)}` : ""}: ${esc(r.value)} PED, ${esc(r.player || "a name not read")}${where ? `, ${where}` : ""} (${esc(KIND_NAMES[r.kind])})`
+        + `${r.note ? ` \u201c${esc(r.note)}\u201d` : ""}</td></tr>`;
+    }).join("");
+  }
+
   return {VUS, RANK, vuOn, sources, captures, captureDay, pictures, pictureDay, fields, citationVus, vusOf, checkCitation,
-    checkStats, widest, compact, statsHTML, fieldsJSON, provenance, mark, mediaLink, format, tierOf, recipes, setItemLink, esc};
+    checkStats, widest, compact, statsHTML, fieldsJSON, provenance, mark, mediaLink, format, tierOf, recipes, setItemLink, esc,
+    hall, hallRows, hallSources, hallDay, hallVus, hallVuText, hallWhen, KIND_NAMES};
 }
 
 module.exports = {context, esc, load};

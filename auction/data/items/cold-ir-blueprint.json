@@ -1,0 +1,24 @@
+{
+  "item": "cold-ir-blueprint",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20060216220903/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20070612023259/http://peauction.com:80/itemlisting.php?id=1401",
+    "https://web.archive.org/web/20091002013119/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20160801123145/http://peauction.com/itemlisting.php?id=1401"
+  ],
+  "sold": [
+    [1, 0.02, 99.0, 1, [[0, "2005-10-29 09:01", 1]]]
+  ],
+  "unsold": [
+    [1, 0.02, 99.0, [[0, "2005-10-29 08:40", 1]]],
+    [1, 0.01, 751.0, [[0, "2006-06-16 20:17", 1]]],
+    [1, 0.31, 19901.0, [[0, "2008-11-13 09:10", 3]]],
+    [1, 0.31, 13901.0, [[0, "2008-11-20 17:21", 3]]]
+  ],
+  "readings": [
+    [0, "TT+", 98.98, 0, 2]
+  ],
+  "charts": []
+}

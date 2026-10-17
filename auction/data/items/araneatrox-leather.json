@@ -1,0 +1,47 @@
+{
+  "item": "araneatrox-leather",
+  "markup": "%",
+  "sources": ["pea", "pe-player"],
+  "captures": [
+    "https://web.archive.org/web/20050130134118/http://www.pe-player.com:80/auction/list.php?sort=bytype",
+    "https://web.archive.org/web/20071108025626/http://www.peauction.com/itemlisting.php?id=2740",
+    "https://web.archive.org/web/20080411151145/http://www.peauction.com:80/catlisting.php?id=48",
+    "https://web.archive.org/web/20080610220555/http://www.peauction.com:80/catlisting.php?id=48",
+    "https://web.archive.org/web/20080801025348/http://www.peauction.com:80/catlisting.php?id=48",
+    "https://web.archive.org/web/20080818212857/http://www.peauction.com:80/catlisting.php?id=48",
+    "https://web.archive.org/web/20081022150303/http://www.peauction.com:80/catlisting.php?id=48",
+    "https://web.archive.org/web/20090223042243/http://peauction.com:80/catlisting.php?id=48",
+    "https://web.archive.org/web/20090802102025/http://www.peauction.com:80/catlisting.php?id=48",
+    "https://web.archive.org/web/20091002013312/http://www.peauction.com:80/catlisting.php?id=48",
+    "https://web.archive.org/web/20160801165436/http://peauction.com/itemlisting.php?id=2740"
+  ],
+  "sold": [
+    [6, 30.0, 80.0, 0, [[1, "2004-12-12 22:45", 0]]],
+    [4, 60.0, 64.0, 4, [[0, "2008-03-13 11:31", 10]]],
+    [1, 15.0, 15.0, 1, [[0, "2008-06-04 04:28", 10]]],
+    [3, 45.0, 47.0, 3, [[0, "2008-07-11 18:42", 10]]],
+    [2, 30.0, 91.0, 14, [[0, "2008-07-16 14:02", 10]]],
+    [48, 720.0, 800.0, 2, [[0, "2008-09-29 15:58", 10]]],
+    [2, 30.0, 30.0, 1, [[0, "2008-12-28 21:02", 10]]],
+    [12, 180.0, 180.0, 1, [[0, "2009-02-21 21:38", 10]]],
+    [1, 15.0, 15.0, 1, [[0, "2009-04-17 21:48", 10]]],
+    [2, 30.0, 31.0, 1, [[0, "2009-05-04 03:17", 10]]],
+    [2, 30.0, 31.0, 1, [[0, "2009-05-12 00:47", 10]]],
+    [1, 15.0, 15.0, 1, [[0, "2009-06-16 02:37", 10]]],
+    [6, 90.0, 91.0, 1, [[0, "2009-08-06 09:36", 10]]],
+    [3, 45.0, 45.0, 1, [[0, "2009-09-17 22:44", 10]]]
+  ],
+  "unsold": [
+    [62, 930.0, 1116.0, [[0, "2006-03-23 20:03", 1]]]
+  ],
+  "readings": [
+    [0, "%", 106.67, 2, 2],
+    [0, "%", 105.33, 3, 3],
+    [0, "%", 144.67, 4, 5],
+    [0, "%", 116.9, 6, 6],
+    [0, "%", 113.61, 7, 7],
+    [0, "%", 113.06, 8, 8],
+    [0, "%", 112.15, 9, 9]
+  ],
+  "charts": []
+}

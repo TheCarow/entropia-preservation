@@ -8,10 +8,12 @@
 | `clients/index.html` | The Clients page, the version list, drawn from the data below. |
 | `media/` | The Media pages. `files/` holds the pictures and `media.json` their data, both written by the private editor (`media.json` on every save, one picture per line). A video is a picture whose `video` field names it, on YouTube, on the Internet Archive or as a file the archive keeps (`files/<id>.mp4` or `.webm`, beside the pictures): its card carries a play mark. Its page plays the archive's own copy with the browser's player, fetched only once started, or, without one, shows the poster frame and swaps in the site's player (youtube-nocookie.com, or archive.org's embedded player) only when a visitor starts it, so the site asks nothing of either until then. A document (a magazine issue or guide) is a picture of its first page whose `document` field holds the PDF the archive keeps (`files/<id>.pdf`) and, in `online`, where it is read online (an Internet Archive item): its card is marked PDF and its page sends a reader there, or without one to the first place the PDF was found that has an address. The archive's own copy is kept but not linked, so that readers do not draw on the site's bandwidth. An entry's type (picture, video or document) comes from those fields, not from a tag, and the gallery's Show filter selects by it (`?type=document`). `draw-media.js` draws the gallery and one page per picture, `render-media.js` writes them, `media.js` adds the gallery's filters and pages, `media.css` styles them and `thumbs.py` makes the thumbnails. |
 | `articles/` | The Articles page. `articles.json` lists the press releases, articles and magazines, edited by hand; `render-articles.js` draws them into the page, `articles.js` adds its filters and `articles.css` styles it. |
-| `sites/` | The Sites & Tools page. `sites.json` lists MindArk's sites, the players' and the tools players made (see [A site or tool](#a-site-or-tool)), edited by hand; `render-sites.js` draws them into the page, `sites.js` adds its filters and `sites.css` styles it. The media names it gives its sites also group the media page's Source filter. |
+| `sites/` | The Sites page. `sites.json` lists MindArk's sites, the players' and the tools players made (see [A site or tool](#a-site-or-tool)), edited by hand; `render-sites.js` draws them into the page, `sites.js` adds its filters and `sites.css` styles it. The media names it gives its sites also group the media page's Source filter. |
 | `items/` | The Items page. `data/<category>.json` holds one file per category (armor, weapons and so on), one item per line; `icons/` the items' icons and `icons.json` each picture's description; `fields.json` the fields an item's or creature's stats can hold; `sets.json` the armour sets; `captures.json` the Wayback captures the facts were read from; and `sources.json` the sources the facts cite, with their kinds and precedence (see [An item](#an-item)). `render-items.js` draws them into the page, `items.js` adds its filters and picks each value for a chosen VU, and `items.css` styles it; `provenance.js` holds what the Items and Creatures pages share: reading citations, checking stats, and drawing a value with where it comes from. |
 | `creatures/` | The Creatures page. `data/creatures.json` holds the creatures, their details and what they dropped (see [A creature](#a-creature)); `render-creatures.js` draws them into the page, `creatures.js` adds its filters and `creatures.css` styles it. |
 | `skills/` | The Skills page. `data/skills.json` holds the skills and `data/ranks.json` the 5.4 client's rank ladder (see [A skill](#a-skill)); `render-skills.js` draws them into the page, `skills.js` adds its filters and popups and `skills.css` styles it. |
+| `auction/` | The Auction page. `data/items/<item id>.json` holds every auction players recorded of one item and the markups the price sites printed for it, `charts/` PE Auction's own charts and `data/houses.json` the listings of the auction houses players ran (see [An auction record](#an-auction-record)); `render-auction.js` draws the list and the houses, `auction.js` adds its filters and the popup with each item's chart and records, and `auction.css` styles it. |
+| `halloffame/` | The Hall of Fame page. `data/records.json` holds every global and Hall of Fame loot players recorded (see [A Hall of Fame record](#a-hall-of-fame-record)); `render-halloffame.js` draws them into one table, `halloffame.js` adds its filters and `halloffame.css` styles it. |
 | `versions.json` | Every version and every client file. Edited by hand. |
 | `notes.md` | The release notes' text, one `## VU <version>` section per version. Edited by hand. |
 | `images/discs/` | Pictures of the discs that client files were found on. |
@@ -210,6 +212,69 @@ ladder, each band of skill points `{"rank", "from", "to"}`, the rank the client 
 
 The page shows, beside a skill's own facts, the items whose "skills gained" list names it and its implant, both taken
 from the Items data, and below the list the rank ladder, one row per rank with the points each of its ten grades starts at.
+
+### An auction record
+
+`auction/data/items/<item id>.json` holds every auction the harvests recorded of one item of the Items page: PE
+Auction's sales and auctions that ended without a bid (`"pea"`, 2005 to 2009), PE Player's sales (`"pe-player"`, 2004
+to 2006) and Irken Invaders' (`"irken-invaders"`, 2008), each as the site printed it; the markups the price sites
+printed for it, capture by capture (PE Auction's category pages and front page, `"mytwopecs"` and
+`"chipping-optimizer"`); and PE Auction's own charts of its sales. The private editor's
+`tools/auction.py` writes the folder whole, matching items as the imports did. A sale two sites recorded is one sale:
+the same quantity, TT value and bid at times no more than three hours apart, each site's time kept. Nothing that
+follows from the rest is stored: a sale's markup is its bid over its TT value, its VU that of its day.
+
+| Field | What it holds |
+|---|---|
+| `item` | The item's id on the Items page, the file's name. |
+| `markup` | How PE Auction printed the item's markup, and so the page: `"%"`, the bid as a share of the TT value (a stackable), or `"TT+"`, the bid less it. |
+| `sources` | The sources its records cite, keys of `items/sources.json`; a record names one by its place in this list. |
+| `captures` | The Wayback captures its records were read from, as addresses; a record names one by its place in this list. |
+| `sold` | Each sale, oldest first: `[quantity, TT value, winning bid, bids, seen]`. |
+| `unsold` | Each auction that ended without a bid: `[quantity, TT value, starting bid, seen]`. |
+| `readings` | Each markup a price site printed: `[source, kind, value, first capture, last capture]`, `kind` `"%"` or `"TT+"` as the site printed it, a run of captures that printed the same markup being one reading. |
+| `charts` | PE Auction's own charts of the item's sales: `[chart type, capture, file]`, the file in `auction/charts/` under the name it was kept by, the chart type the `dtype` its address named. |
+
+`seen` lists each site that recorded the auction, `[source, time, capture]`, the time as the site printed it on its own
+clock (Irken Invaders' ran about an hour ahead of PE Auction's), with a fourth element `1` where PE Auction showed the
+row greyed out. The page lists each item with an auction, its sale count, the days its sales span and its last sale;
+an item's popup draws the markup of every sale over time, with each month's median, and lists every record, newest
+first, with its sources and captures behind a question mark, the readings as a line per site on the chart and a table
+of their own, and PE Auction's charts. The Items page links an item with auctions to it.
+
+`auction/data/houses.json` holds the auction houses players ran outside the game, shown below the list: PE Auction's
+FREEAuction (`freeauction`, each sighting of a listing `[captured, type, title, TT value, current bid, bids, buyout,
+time left, capture]`, 2006 to 2008) and PERC's peBay (`pebay`, each listing of 20 April 2005 with its list page's
+title, price, time left and payment method and, where Wayback kept its sale page, the seller, current bid and bidder,
+whether the reserve was met and the items in the sale with their TT values). `captures` lists the Wayback captures both
+cite by place.
+
+### A Hall of Fame record
+
+`halloffame/data/records.json` holds every global and Hall of Fame loot players recorded: PE Player's list of its users'
+Hall of Fame loots (`"pe-player"`, 2003 and 2004), Nirfu's list of his own (`"nirfu"`, 2006 and 2007), Eunalysis' 20
+latest globals (`"eunalysis"`, 2008) and Entropia Loot's last five globals on each creature, tracked by Eunalysis
+(`"entropia-loot"`, 2008), each as the site printed it, and the globals the game's own chat window printed in the
+Archive's Media pictures (`"chat-screenshot"`, 2003 to 2009). The private editor's `tools/halloffame.py` writes it
+whole. A record several captures, sites or pictures printed alike is one record. `captures` lists the Wayback captures
+the records cite by place.
+
+| Field | What it holds |
+|---|---|
+| `day`, `time` | When, as printed. `day_from: "capture"` marks a day Eunalysis did not print (its capture's); `year_from: "capture"` a year Entropia Loot did not print (its capture's, or the year before for a later day). A global only pictures show has its picture's day where Media dates it to the day; else `after` and `before` give the bounds Media gives, and a picture Media cannot date leaves it with neither. |
+| `player` | The player, or the team, as printed; empty where the site printed none. `team: true` marks a team; `cut: true` a name the chat window cut off at its edge, `unread: true` one printed in glyphs that cannot be read (left empty). |
+| `target` | What was killed, mined or made, as printed; `as` lists an earlier printing where the site changed it. Empty where a source named only the loot. |
+| `loot` | What the target dropped, where a source named it: Nirfu's note after a creature's name, or the item a silent global from a hunt dropped. |
+| `creature`, `maturity`, `item` | The creature (and maturity) or the item it names, on the Creatures or Items page. |
+| `value` | The loot's value in PED. |
+| `kind` | `"global"`, `"hof"` (recorded in the Hall of Fame) or `"silent"` (Nirfu's silent global, worth one but not announced). `all_time_high: true` marks a loot the chat called an all-time high. |
+| `activity` | `"hunting"`, `"mining"` or `"crafting"`, where the source says or what it names shows it. |
+| `how`, `place`, `share`, `sold`, `note` | What a source added: Nirfu's mark (C crafting, P a private hunt, T a team hunt), where, his share of a team's loot or the sale price, and a player's note. |
+| `sources` | Each source and capture, `[source, capture]`, the capture by its place in `captures`; for `"chat-screenshot"` the picture by its Media id, `[source, "<id>"]`. |
+
+The Hall of Fame page lists every record, newest first, with filters by kind, activity, source, year and words; an
+address naming a creature (`?c=<id>`) or an item (`?i=<id>`) shows its records alone. The Creatures and Items pages
+link each creature and item with records there and list its Hall of Fame loots.
 
 ## Publishing
 

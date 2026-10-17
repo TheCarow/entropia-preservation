@@ -1,0 +1,16 @@
+{
+  "item": "isis-lr59-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20090802102235/http://www.peauction.com:80/catlisting.php?id=74",
+    "https://web.archive.org/web/20091002013520/http://www.peauction.com:80/catlisting.php?id=74"
+  ],
+  "sold": [],
+  "unsold": [],
+  "readings": [
+    [0, "%", 158.63, 0, 0],
+    [0, "%", 158.34, 1, 1]
+  ],
+  "charts": []
+}

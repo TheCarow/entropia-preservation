@@ -1,0 +1,16 @@
+{
+  "item": "breer-p5a-l-blueprint",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20090802101829/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20091002013119/http://www.peauction.com:80/catlisting.php?id=25"
+  ],
+  "sold": [],
+  "unsold": [],
+  "readings": [
+    [0, "%", 11299400.0, 0, 0],
+    [0, "%", 6969330.0, 1, 1]
+  ],
+  "charts": []
+}

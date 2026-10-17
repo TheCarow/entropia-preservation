@@ -1,0 +1,30 @@
+{
+  "item": "advanced-matrix",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20070807232905/http://peauction.com:80/itemlisting.php?id=1090",
+    "https://web.archive.org/web/20071008002943/http://www.peauction.com/catlisting.php?id=38",
+    "https://web.archive.org/web/20080610220510/http://www.peauction.com:80/catlisting.php?id=38",
+    "https://web.archive.org/web/20080801024434/http://www.peauction.com:80/catlisting.php?id=38",
+    "https://web.archive.org/web/20091002013226/http://www.peauction.com:80/catlisting.php?id=38",
+    "https://web.archive.org/web/20160802011158/http://peauction.com/itemlisting.php?id=1090"
+  ],
+  "sold": [
+    [64, 15.36, 18.0, 3, [[0, "2007-08-06 22:32", 0]]],
+    [87, 20.88, 21.0, 1, [[0, "2008-06-29 23:15", 5]]]
+  ],
+  "unsold": [
+    [1, 0.24, 21.0, [[0, "2005-10-23 03:12", 0]]],
+    [5, 1.33, 10.0, [[0, "2007-06-02 08:29", 0]]],
+    [12, 2.88, 5.0, [[0, "2008-07-21 20:22", 5]]],
+    [1640, 393.6, 694.0, [[0, "2008-07-24 20:42", 5]]],
+    [1640, 393.6, 484.0, [[0, "2008-09-09 18:12", 5]]],
+    [100, 24.0, 30.0, [[0, "2009-06-29 02:08", 5]]]
+  ],
+  "readings": [
+    [0, "%", 117.19, 1, 2],
+    [0, "%", 107.62, 3, 4]
+  ],
+  "charts": []
+}

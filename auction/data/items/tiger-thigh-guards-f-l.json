@@ -1,0 +1,16 @@
+{
+  "item": "tiger-thigh-guards-f-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20090802102528/http://www.peauction.com:80/catlisting.php?id=9",
+    "https://web.archive.org/web/20091002013610/http://www.peauction.com:80/catlisting.php?id=9"
+  ],
+  "sold": [],
+  "unsold": [],
+  "readings": [
+    [0, "%", 112.07, 0, 0],
+    [0, "%", 112.48, 1, 1]
+  ],
+  "charts": []
+}

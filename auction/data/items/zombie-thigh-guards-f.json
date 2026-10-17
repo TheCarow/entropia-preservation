@@ -1,0 +1,16 @@
+{
+  "item": "zombie-thigh-guards-f",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20070613045125/http://peauction.com:80/itemlisting.php?id=779",
+    "https://web.archive.org/web/20160801111219/http://peauction.com/itemlisting.php?id=779"
+  ],
+  "sold": [],
+  "unsold": [
+    [1, 38.25, 40.0, [[0, "2005-10-20 00:54", 0]]],
+    [1, 19.07, 40.0, [[0, "2009-02-23 19:28", 1]]]
+  ],
+  "readings": [],
+  "charts": []
+}

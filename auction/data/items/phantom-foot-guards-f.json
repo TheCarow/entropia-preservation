@@ -1,0 +1,19 @@
+{
+  "item": "phantom-foot-guards-f",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20090802102517/http://www.peauction.com:80/catlisting.php?id=81",
+    "https://web.archive.org/web/20091002013600/http://www.peauction.com:80/catlisting.php?id=81",
+    "https://web.archive.org/web/20160801173825/http://peauction.com/itemlisting.php?id=5794"
+  ],
+  "sold": [
+    [1, 12.77, 812.0, 1, [[0, "2007-11-19 06:21", 2]]],
+    [1, 11.54, 511.0, 1, [[0, "2009-05-10 22:37", 2]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 649.35, 0, 1]
+  ],
+  "charts": []
+}

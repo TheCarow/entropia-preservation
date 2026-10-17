@@ -1,0 +1,30 @@
+{
+  "item": "chomper-leather",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20080411151145/http://www.peauction.com:80/catlisting.php?id=48",
+    "https://web.archive.org/web/20080610220555/http://www.peauction.com:80/catlisting.php?id=48",
+    "https://web.archive.org/web/20080801025348/http://www.peauction.com:80/catlisting.php?id=48",
+    "https://web.archive.org/web/20080817053429/http://www.peauction.com:80/catlisting.php?id=48",
+    "https://web.archive.org/web/20080818212857/http://www.peauction.com:80/catlisting.php?id=48",
+    "https://web.archive.org/web/20081022150303/http://www.peauction.com:80/catlisting.php?id=48",
+    "https://web.archive.org/web/20091002013312/http://www.peauction.com:80/catlisting.php?id=48",
+    "https://web.archive.org/web/20160801182858/http://peauction.com/itemlisting.php?id=5675"
+  ],
+  "sold": [
+    [6, 7.56, 8.0, 1, [[0, "2008-02-11 15:47", 7]]],
+    [76, 95.76, 96.0, 1, [[0, "2008-07-13 14:37", 7]]],
+    [117, 147.42, 158.0, 1, [[0, "2008-08-12 15:14", 7]]],
+    [17, 21.42, 23.0, 1, [[0, "2008-10-02 13:43", 7]]],
+    [23, 28.98, 29.0, 1, [[0, "2008-10-20 17:59", 7]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "%", 105.82, 0, 1],
+    [0, "%", 100.66, 2, 2],
+    [0, "%", 104.49, 3, 4],
+    [0, "%", 104.27, 5, 6]
+  ],
+  "charts": []
+}

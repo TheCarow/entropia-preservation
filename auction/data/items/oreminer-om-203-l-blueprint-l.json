@@ -1,0 +1,21 @@
+{
+  "item": "oreminer-om-203-l-blueprint-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20090802101823/http://www.peauction.com:80/catlisting.php?id=24",
+    "https://web.archive.org/web/20091002013114/http://www.peauction.com:80/catlisting.php?id=24",
+    "https://web.archive.org/web/20160801192234/http://peauction.com/itemlisting.php?id=4832"
+  ],
+  "sold": [
+    [1, 0.01, 43.0, 15, [[0, "2007-10-12 02:53", 2]]],
+    [1, 0.03, 123.0, 17, [[0, "2008-02-29 15:55", 2]]],
+    [1, 0.02, 30.0, 8, [[0, "2008-06-18 20:54", 2]]],
+    [1, 0.01, 55.0, 5, [[0, "2008-09-08 13:52", 2]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "%", 385000.0, 0, 1]
+  ],
+  "charts": []
+}

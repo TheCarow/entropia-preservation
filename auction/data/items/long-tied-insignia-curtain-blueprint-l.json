@@ -1,0 +1,39 @@
+{
+  "item": "long-tied-insignia-curtain-blueprint-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20070610030855/http://peauction.com:80/catlisting.php?id=77",
+    "https://web.archive.org/web/20071110001606/http://www.peauction.com/itemlisting.php?id=3934",
+    "https://web.archive.org/web/20080210230133/http://www.peauction.com:80/catlisting.php?id=77",
+    "https://web.archive.org/web/20080411151414/http://www.peauction.com:80/catlisting.php?id=77",
+    "https://web.archive.org/web/20080610230804/http://www.peauction.com:80/catlisting.php?id=77",
+    "https://web.archive.org/web/20080801025505/http://www.peauction.com:80/catlisting.php?id=77",
+    "https://web.archive.org/web/20081022150525/http://www.peauction.com:80/catlisting.php?id=77",
+    "https://web.archive.org/web/20090223042501/http://peauction.com:80/catlisting.php?id=77",
+    "https://web.archive.org/web/20090802102248/http://www.peauction.com:80/catlisting.php?id=77",
+    "https://web.archive.org/web/20091002013535/http://www.peauction.com:80/catlisting.php?id=77",
+    "https://web.archive.org/web/20160801071704/http://peauction.com/itemlisting.php?id=3934"
+  ],
+  "sold": [
+    [1, 0.17, 1.0, 1, [[0, "2007-04-11 04:12", 1]]],
+    [1, 0.32, 3.0, 3, [[0, "2008-02-28 15:15", 10]]],
+    [1, 0.28, 3.0, 3, [[0, "2008-03-05 18:02", 10]]],
+    [1, 0.28, 3.0, 3, [[0, "2008-03-05 18:05", 10]]],
+    [1, 0.13, 14.0, 4, [[0, "2008-06-24 17:25", 10]]],
+    [1, 0.08, 1.0, 1, [[0, "2008-12-01 01:06", 10]]],
+    [1, 0.51, 5.0, 5, [[0, "2009-04-21 09:06", 10]]],
+    [1, 0.09, 2.0, 2, [[0, "2009-06-07 15:52", 10]]]
+  ],
+  "unsold": [
+    [1, 0.08, 1.0, [[0, "2008-12-01 01:01", 10]]]
+  ],
+  "readings": [
+    [0, "%", 588.24, 0, 2],
+    [0, "%", 917.15, 3, 4],
+    [0, "%", 2887.56, 5, 6],
+    [0, "%", 2614.64, 7, 7],
+    [0, "%", 2361.3, 8, 9]
+  ],
+  "charts": []
+}

@@ -1,0 +1,18 @@
+{
+  "item": "bicak-kek",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071008003930/http://www.peauction.com/catlisting.php?id=72",
+    "https://web.archive.org/web/20091002013510/http://www.peauction.com:80/catlisting.php?id=72",
+    "https://web.archive.org/web/20160801062822/http://peauction.com/itemlisting.php?id=4688"
+  ],
+  "sold": [
+    [1, 2102.21, 5104.0, 2, [[0, "2007-08-26 14:52", 2]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 3001.79, 0, 1]
+  ],
+  "charts": []
+}

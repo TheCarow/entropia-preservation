@@ -1,0 +1,35 @@
+{
+  "item": "hansidian-rock",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071008003448/http://www.peauction.com/catlisting.php?id=60",
+    "https://web.archive.org/web/20071012152054/http://peauction.com:80/catlisting.php?id=60",
+    "https://web.archive.org/web/20071212071137/http://peauction.com:80/catlisting.php?id=60",
+    "https://web.archive.org/web/20080210223506/http://www.peauction.com:80/catlisting.php?id=60",
+    "https://web.archive.org/web/20080411151249/http://www.peauction.com:80/catlisting.php?id=60",
+    "https://web.archive.org/web/20080610222834/http://www.peauction.com:80/catlisting.php?id=60",
+    "https://web.archive.org/web/20080801024510/http://www.peauction.com:80/catlisting.php?id=60",
+    "https://web.archive.org/web/20080817053516/http://www.peauction.com:80/catlisting.php?id=60",
+    "https://web.archive.org/web/20081022150404/http://www.peauction.com:80/catlisting.php?id=60",
+    "https://web.archive.org/web/20090223042346/http://peauction.com:80/catlisting.php?id=60",
+    "https://web.archive.org/web/20090802102124/http://www.peauction.com:80/catlisting.php?id=60",
+    "https://web.archive.org/web/20091002013409/http://www.peauction.com:80/catlisting.php?id=60"
+  ],
+  "sold": [],
+  "unsold": [],
+  "readings": [
+    [0, "%", 1161.75, 0, 1],
+    [0, "%", 1148.15, 2, 2],
+    [0, "%", 1088.22, 3, 3],
+    [0, "%", 1200.7, 4, 4],
+    [0, "%", 1147.94, 5, 5],
+    [0, "%", 1453.9, 6, 6],
+    [0, "%", 1403.34, 7, 7],
+    [0, "%", 933.96, 8, 8],
+    [0, "%", 787.93, 9, 9],
+    [0, "%", 677.13, 10, 10],
+    [0, "%", 674.16, 11, 11]
+  ],
+  "charts": []
+}

@@ -1,0 +1,21 @@
+{
+  "item": "foul-suctioncup",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20060614131324/http://peauction.com:80/catlisting.php?id=51",
+    "https://web.archive.org/web/20070809045543/http://peauction.com:80/itemlisting.php?id=2918",
+    "https://web.archive.org/web/20091002013327/http://www.peauction.com:80/catlisting.php?id=51"
+  ],
+  "sold": [
+    [1, 0.19, 4201.0, 22, [[0, "2006-05-07 02:58", 1]]]
+  ],
+  "unsold": [
+    [1, 0.19, 3000.0, [[0, "2006-07-18 19:45", 1]]],
+    [1, 0.19, 3990.0, [[0, "2006-09-01 22:42", 1]]]
+  ],
+  "readings": [
+    [0, "%", 2211050.0, 0, 2]
+  ],
+  "charts": []
+}

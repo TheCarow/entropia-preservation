@@ -1,0 +1,37 @@
+{
+  "item": "isis-lr53-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071008003605/http://www.peauction.com/catlisting.php?id=74",
+    "https://web.archive.org/web/20071012152159/http://peauction.com:80/catlisting.php?id=74",
+    "https://web.archive.org/web/20071212071243/http://peauction.com:80/catlisting.php?id=74",
+    "https://web.archive.org/web/20080210230104/http://www.peauction.com:80/catlisting.php?id=74",
+    "https://web.archive.org/web/20080411151354/http://www.peauction.com:80/catlisting.php?id=74",
+    "https://web.archive.org/web/20080610230749/http://www.peauction.com:80/catlisting.php?id=74",
+    "https://web.archive.org/web/20080801024542/http://www.peauction.com:80/catlisting.php?id=74",
+    "https://web.archive.org/web/20080817053547/http://www.peauction.com:80/catlisting.php?id=74",
+    "https://web.archive.org/web/20080818212959/http://www.peauction.com:80/catlisting.php?id=74",
+    "https://web.archive.org/web/20081022150511/http://www.peauction.com:80/catlisting.php?id=74",
+    "https://web.archive.org/web/20090223042446/http://peauction.com:80/catlisting.php?id=74",
+    "https://web.archive.org/web/20090802102235/http://www.peauction.com:80/catlisting.php?id=74",
+    "https://web.archive.org/web/20091002013520/http://www.peauction.com:80/catlisting.php?id=74"
+  ],
+  "sold": [],
+  "unsold": [],
+  "readings": [
+    [0, "%", 206.71, 0, 0],
+    [0, "%", 197.65, 1, 1],
+    [0, "%", 190.46, 2, 2],
+    [0, "%", 163.58, 3, 3],
+    [0, "%", 154.33, 4, 4],
+    [0, "%", 168.49, 5, 5],
+    [0, "%", 160.17, 6, 6],
+    [0, "%", 154.79, 7, 8],
+    [0, "%", 159.69, 9, 9],
+    [0, "%", 135.89, 10, 10],
+    [0, "%", 134.42, 11, 11],
+    [0, "%", 145.42, 12, 12]
+  ],
+  "charts": []
+}

@@ -1,0 +1,16 @@
+{
+  "item": "iron-texture-blueprint-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20090802101821/http://www.peauction.com:80/catlisting.php?id=23",
+    "https://web.archive.org/web/20091002013109/http://www.peauction.com:80/catlisting.php?id=23"
+  ],
+  "sold": [],
+  "unsold": [],
+  "readings": [
+    [0, "%", 1072.79, 0, 0],
+    [0, "%", 801.95, 1, 1]
+  ],
+  "charts": []
+}

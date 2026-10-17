@@ -1,0 +1,46 @@
+{
+  "item": "polaris-helmet-f-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071007161934/http://www.peauction.com/catlisting.php?id=7",
+    "https://web.archive.org/web/20071012152134/http://peauction.com:80/catlisting.php?id=7",
+    "https://web.archive.org/web/20071212071218/http://peauction.com:80/catlisting.php?id=7",
+    "https://web.archive.org/web/20080210224919/http://www.peauction.com:80/catlisting.php?id=7",
+    "https://web.archive.org/web/20080411151328/http://www.peauction.com:80/catlisting.php?id=7",
+    "https://web.archive.org/web/20080610222937/http://www.peauction.com:80/catlisting.php?id=7",
+    "https://web.archive.org/web/20080817053533/http://www.peauction.com:80/catlisting.php?id=7",
+    "https://web.archive.org/web/20081022150444/http://www.peauction.com:80/catlisting.php?id=7",
+    "https://web.archive.org/web/20090223042421/http://peauction.com:80/catlisting.php?id=7",
+    "https://web.archive.org/web/20090802102208/http://www.peauction.com:80/catlisting.php?id=7",
+    "https://web.archive.org/web/20091002013452/http://www.peauction.com:80/catlisting.php?id=7",
+    "https://web.archive.org/web/20160802005357/http://peauction.com/itemlisting.php?id=4571"
+  ],
+  "sold": [
+    [1, 94.5, 95.0, 1, [[0, "2009-01-26 12:33", 11]]],
+    [1, 20.46, 22.0, 2, [[0, "2009-01-28 06:28", 11]]],
+    [1, 94.5, 95.0, 1, [[0, "2009-01-28 14:23", 11]]],
+    [1, 79.18, 81.0, 2, [[0, "2009-02-07 14:04", 11]]],
+    [1, 65.2, 66.0, 1, [[0, "2009-03-05 22:07", 11]]],
+    [1, 68.82, 69.0, 1, [[0, "2009-03-13 18:34", 11]]],
+    [1, 94.5, 95.0, 1, [[0, "2009-03-14 18:52", 11]]],
+    [1, 94.5, 95.0, 1, [[0, "2009-03-29 23:23", 11]]],
+    [1, 87.87, 90.0, 2, [[0, "2009-04-08 04:30", 11]]],
+    [1, 45.29, 50.0, 5, [[0, "2009-06-04 08:50", 11]]],
+    [1, 23.66, 25.0, 1, [[0, "2009-06-09 00:55", 11]]],
+    [1, 68.6, 70.0, 2, [[0, "2009-06-17 09:58", 11]]],
+    [1, 57.23, 58.0, 1, [[0, "2009-07-11 09:50", 11]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 59.32, 0, 1],
+    [0, "TT+", 47.39, 2, 2],
+    [0, "TT+", 34.19, 3, 3],
+    [0, "TT+", 37.77, 4, 4],
+    [0, "TT+", 35.08, 5, 6],
+    [0, "TT+", 31.82, 7, 7],
+    [0, "TT+", 3.15, 8, 8],
+    [0, "%", 102.67, 9, 10]
+  ],
+  "charts": []
+}

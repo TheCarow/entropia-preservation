@@ -1,0 +1,27 @@
+{
+  "item": "phantom-face-guard-blueprint",
+  "markup": "TT+",
+  "sources": ["pea", "pe-player"],
+  "captures": [
+    "https://web.archive.org/web/20041010022429/http://www.pe-player.com:80/auction/list.php?sort=bytype",
+    "https://web.archive.org/web/20061107141622/http://peauction.com/catlisting.php?id=18",
+    "https://web.archive.org/web/20091002013041/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20160801072604/http://peauction.com/itemlisting.php?id=3015"
+  ],
+  "sold": [
+    [1, 0.01, 101.0, 0, [[1, "2004-08-10 16:25", 0]]],
+    [1, 0.01, 1401.0, 38, [[0, "2006-07-18 22:44", 3]]]
+  ],
+  "unsold": [
+    [1, 0.01, 2000.0, [[0, "2006-07-26 12:08", 3]]],
+    [1, 0.01, 2000.0, [[0, "2006-08-13 17:46", 3]]],
+    [1, 0.01, 2000.0, [[0, "2006-08-20 21:25", 3]]],
+    [1, 0.01, 2000.0, [[0, "2006-09-01 17:19", 3]]],
+    [1, 0.01, 2000.0, [[0, "2006-10-01 20:38", 3]]],
+    [1, 0.01, 1500.0, [[0, "2006-10-31 15:14", 3]]]
+  ],
+  "readings": [
+    [0, "TT+", 1400.99, 1, 2]
+  ],
+  "charts": []
+}

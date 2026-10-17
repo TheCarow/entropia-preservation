@@ -1,0 +1,39 @@
+{
+  "item": "spartacus-gloves-f-l",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071007161354/http://www.peauction.com/catlisting.php?id=5",
+    "https://web.archive.org/web/20071012152004/http://peauction.com:80/catlisting.php?id=5",
+    "https://web.archive.org/web/20071111040927/http://www.peauction.com/itemlisting.php?id=4737",
+    "https://web.archive.org/web/20071212071045/http://peauction.com:80/catlisting.php?id=5",
+    "https://web.archive.org/web/20080210221258/http://www.peauction.com:80/catlisting.php?id=5",
+    "https://web.archive.org/web/20080411151156/http://www.peauction.com:80/catlisting.php?id=5",
+    "https://web.archive.org/web/20080610220605/http://www.peauction.com:80/catlisting.php?id=5",
+    "https://web.archive.org/web/20080801025358/http://www.peauction.com:80/catlisting.php?id=5",
+    "https://web.archive.org/web/20081022150313/http://www.peauction.com:80/catlisting.php?id=5",
+    "https://web.archive.org/web/20090223042253/http://peauction.com:80/catlisting.php?id=5",
+    "https://web.archive.org/web/20090802102036/http://www.peauction.com:80/catlisting.php?id=5",
+    "https://web.archive.org/web/20091002013322/http://www.peauction.com:80/catlisting.php?id=5"
+  ],
+  "sold": [
+    [1, 76.55, 253.0, 5, [[0, "2007-09-28 20:00", 2]]],
+    [1, 121.2, 363.0, 18, [[0, "2007-09-29 19:00", 2]]]
+  ],
+  "unsold": [
+    [1, 121.2, 789.0, [[0, "2007-10-10 22:48", 2]]],
+    [1, 117.37, 399.0, [[0, "2007-10-27 17:08", 2]]],
+    [1, 117.37, 668.0, [[0, "2007-11-02 18:23", 2]]],
+    [1, 117.37, 388.0, [[0, "2007-11-05 22:27", 2]]]
+  ],
+  "readings": [
+    [0, "TT+", 209.13, 0, 1],
+    [0, "TT+", 240.02, 3, 4],
+    [0, "TT+", 302.21, 5, 6],
+    [0, "TT+", 334.08, 7, 8],
+    [0, "TT+", 312.73, 9, 9],
+    [0, "%", 132.21, 10, 10],
+    [0, "%", 129.27, 11, 11]
+  ],
+  "charts": []
+}

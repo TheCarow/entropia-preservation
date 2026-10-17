@@ -1,0 +1,18 @@
+{
+  "item": "personal-revival-terminal",
+  "markup": "TT+",
+  "sources": ["pea", "pe-player"],
+  "captures": [
+    "https://web.archive.org/web/20041010022429/http://www.pe-player.com:80/auction/list.php?sort=bytype",
+    "https://web.archive.org/web/20060913165219/http://peauction.com:80/itemlisting.php?id=775"
+  ],
+  "sold": [
+    [1, 80.0, 2780.0, 0, [[1, "2004-09-20 17:05", 0]]]
+  ],
+  "unsold": [
+    [1, 200.0, 2000.0, [[0, "2005-10-20 00:30", 1]]],
+    [1, 200.0, 2000.0, [[0, "2005-10-27 04:43", 1]]]
+  ],
+  "readings": [],
+  "charts": []
+}

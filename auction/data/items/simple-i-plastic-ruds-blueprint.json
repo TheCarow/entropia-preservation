@@ -1,0 +1,35 @@
+{
+  "item": "simple-i-plastic-ruds-blueprint",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071008003836/http://www.peauction.com/catlisting.php?id=21",
+    "https://web.archive.org/web/20071012151744/http://peauction.com:80/catlisting.php?id=21",
+    "https://web.archive.org/web/20071212065917/http://peauction.com:80/catlisting.php?id=21",
+    "https://web.archive.org/web/20080210210017/http://www.peauction.com:80/catlisting.php?id=21",
+    "https://web.archive.org/web/20080411150929/http://www.peauction.com:80/catlisting.php?id=21",
+    "https://web.archive.org/web/20080610213749/http://www.peauction.com:80/catlisting.php?id=21",
+    "https://web.archive.org/web/20080801024926/http://www.peauction.com:80/catlisting.php?id=21",
+    "https://web.archive.org/web/20080817052559/http://www.peauction.com:80/catlisting.php?id=21",
+    "https://web.archive.org/web/20081022150052/http://www.peauction.com:80/catlisting.php?id=21",
+    "https://web.archive.org/web/20090223042037/http://peauction.com:80/catlisting.php?id=21",
+    "https://web.archive.org/web/20090802101809/http://www.peauction.com:80/catlisting.php?id=21",
+    "https://web.archive.org/web/20091002013059/http://www.peauction.com:80/catlisting.php?id=21"
+  ],
+  "sold": [],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 1.59, 0, 1],
+    [0, "TT+", 1.19, 2, 2],
+    [0, "TT+", 1.59, 3, 3],
+    [0, "TT+", 0.99, 4, 4],
+    [0, "TT+", 1.27, 5, 5],
+    [0, "TT+", 1.08, 6, 6],
+    [0, "TT+", 1.16, 7, 7],
+    [0, "TT+", 1.01, 8, 8],
+    [0, "TT+", 3.19, 9, 9],
+    [0, "TT+", 2.12, 10, 10],
+    [0, "TT+", 1.65, 11, 11]
+  ],
+  "charts": []
+}

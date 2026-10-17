@@ -1,0 +1,24 @@
+{
+  "item": "cornundos-leather-texture-blueprint",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20090802101821/http://www.peauction.com:80/catlisting.php?id=23",
+    "https://web.archive.org/web/20091002013109/http://www.peauction.com:80/catlisting.php?id=23",
+    "https://web.archive.org/web/20160801185031/http://peauction.com/itemlisting.php?id=5409"
+  ],
+  "sold": [
+    [1, 0.01, 1.0, 1, [[0, "2009-04-29 22:09", 2]]],
+    [1, 0.01, 1.0, 1, [[0, "2009-04-30 21:49", 2]]],
+    [1, 0.01, 1.0, 1, [[0, "2009-06-18 08:43", 2]]],
+    [1, 0.01, 1.0, 1, [[0, "2009-06-29 10:58", 2]]],
+    [1, 0.01, 1.0, 1, [[0, "2009-06-29 11:00", 2]]],
+    [1, 0.01, 1.0, 1, [[0, "2009-09-09 13:49", 2]]],
+    [1, 0.01, 1.0, 1, [[0, "2009-09-22 11:43", 2]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 0.99, 0, 1]
+  ],
+  "charts": []
+}

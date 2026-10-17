@@ -1,0 +1,33 @@
+{
+  "item": "detpil-v-rex-1000-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071012152234/http://peauction.com:80/catlisting.php?id=80",
+    "https://web.archive.org/web/20071212071320/http://peauction.com:80/catlisting.php?id=80",
+    "https://web.archive.org/web/20080210230154/http://www.peauction.com:80/catlisting.php?id=80",
+    "https://web.archive.org/web/20080411151434/http://www.peauction.com:80/catlisting.php?id=80",
+    "https://web.archive.org/web/20080610230824/http://www.peauction.com:80/catlisting.php?id=80",
+    "https://web.archive.org/web/20080801024704/http://www.peauction.com:80/catlisting.php?id=80",
+    "https://web.archive.org/web/20080817052349/http://www.peauction.com:80/catlisting.php?id=80",
+    "https://web.archive.org/web/20081022150544/http://www.peauction.com:80/catlisting.php?id=80",
+    "https://web.archive.org/web/20090223042521/http://peauction.com:80/catlisting.php?id=80",
+    "https://web.archive.org/web/20090802102513/http://www.peauction.com:80/catlisting.php?id=80",
+    "https://web.archive.org/web/20091002013555/http://www.peauction.com:80/catlisting.php?id=80"
+  ],
+  "sold": [],
+  "unsold": [],
+  "readings": [
+    [0, "%", 246.45, 0, 0],
+    [0, "%", 199.14, 1, 1],
+    [0, "%", 200.97, 2, 2],
+    [0, "%", 204.24, 3, 3],
+    [0, "%", 200.0, 4, 4],
+    [0, "%", 184.57, 5, 6],
+    [0, "%", 200.07, 7, 7],
+    [0, "%", 176.99, 8, 8],
+    [0, "%", 156.65, 9, 9],
+    [0, "%", 147.49, 10, 10]
+  ],
+  "charts": []
+}

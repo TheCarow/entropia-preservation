@@ -1,0 +1,22 @@
+{
+  "item": "detpil-python-l-blueprint-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20090802101829/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20091002013119/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20160801124425/http://peauction.com/itemlisting.php?id=5566"
+  ],
+  "sold": [
+    [1, 0.24, 1517.0, 17, [[0, "2008-01-19 18:24", 2]]],
+    [1, 0.05, 188.0, 27, [[0, "2009-03-31 01:47", 2]]],
+    [1, 0.1, 154.0, 4, [[0, "2009-06-20 06:41", 2]]],
+    [1, 0.09, 135.0, 1, [[0, "2009-09-19 18:14", 2]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "%", 387361.0, 0, 0],
+    [0, "%", 328021.0, 1, 1]
+  ],
+  "charts": []
+}

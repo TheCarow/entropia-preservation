@@ -1,0 +1,18 @@
+{
+  "item": "robot-secent-head",
+  "markup": "%",
+  "sources": ["pea", "mytwopecs"],
+  "captures": [
+    "https://web.archive.org/web/20060830080546/http://www.mytwopecs.com:80/feed-beta/robotics.xml",
+    "https://web.archive.org/web/20090327053724/http://www.mytwopecs.com:80/feed-beta/robotics.xml",
+    "https://web.archive.org/web/20160801185958/http://peauction.com/itemlisting.php?id=2966"
+  ],
+  "sold": [],
+  "unsold": [
+    [1, 15.81, 4016.0, [[0, "2006-06-11 18:19", 2]]]
+  ],
+  "readings": [
+    [1, "%", 115.55, 0, 1]
+  ],
+  "charts": []
+}

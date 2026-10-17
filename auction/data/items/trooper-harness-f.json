@@ -1,0 +1,17 @@
+{
+  "item": "trooper-harness-f",
+  "markup": "TT+",
+  "sources": ["pea", "pe-player"],
+  "captures": [
+    "https://web.archive.org/web/20050130134118/http://www.pe-player.com:80/auction/list.php?sort=bytype",
+    "https://web.archive.org/web/20071107113944/http://www.peauction.com/itemlisting.php?id=2464"
+  ],
+  "sold": [
+    [1, 9.09, 400.0, 0, [[1, "2004-10-17 20:55", 0]]]
+  ],
+  "unsold": [
+    [1, 39.95, 1040.0, [[0, "2006-02-03 17:59", 1]]]
+  ],
+  "readings": [],
+  "charts": []
+}

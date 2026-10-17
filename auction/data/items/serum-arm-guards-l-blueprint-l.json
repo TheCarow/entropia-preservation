@@ -1,0 +1,35 @@
+{
+  "item": "serum-arm-guards-l-blueprint-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071212065901/http://peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20080210210002/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20080411150913/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20081022150037/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20090223042022/http://peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20090802101753/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20091002013041/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20160801072306/http://peauction.com/itemlisting.php?id=3967"
+  ],
+  "sold": [
+    [1, 0.03, 5.0, 5, [[0, "2007-11-05 13:53", 7]]],
+    [1, 0.08, 56.0, 22, [[0, "2008-02-04 13:52", 7]]],
+    [1, 0.11, 70.0, 1, [[0, "2008-03-27 22:08", 7]]],
+    [1, 0.12, 72.0, 2, [[0, "2008-12-21 16:37", 7]]],
+    [1, 0.01, 7.0, 3, [[0, "2009-03-14 20:56", 7]]],
+    [1, 0.19, 106.0, 7, [[0, "2009-03-20 21:58", 7]]],
+    [1, 0.02, 16.0, 3, [[0, "2009-06-08 14:03", 7]]]
+  ],
+  "unsold": [
+    [1, 0.05, 50.0, [[0, "2007-05-01 18:12", 7]]]
+  ],
+  "readings": [
+    [0, "%", 16666.7, 0, 0],
+    [0, "%", 43333.3, 1, 1],
+    [0, "%", 50101.0, 2, 3],
+    [0, "%", 52575.8, 4, 4],
+    [0, "%", 59441.8, 5, 6]
+  ],
+  "charts": []
+}

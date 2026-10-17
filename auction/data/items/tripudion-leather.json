@@ -1,0 +1,73 @@
+{
+  "item": "tripudion-leather",
+  "markup": "%",
+  "sources": ["pea", "pe-player"],
+  "captures": [
+    "https://web.archive.org/web/20050130134118/http://www.pe-player.com:80/auction/list.php?sort=bytype",
+    "https://web.archive.org/web/20060614131301/http://peauction.com:80/catlisting.php?id=48",
+    "https://web.archive.org/web/20060721094213/http://www.peauction.com:80/catlisting.php?id=48",
+    "https://web.archive.org/web/20061107141708/http://peauction.com/catlisting.php?id=48",
+    "https://web.archive.org/web/20061220004109/http://peauction.com:80/catlisting.php?id=48",
+    "https://web.archive.org/web/20070226234153/http://www.peauction.com:80/catlisting.php?id=48",
+    "https://web.archive.org/web/20070804205348/http://peauction.com:80/catlisting.php?id=48",
+    "https://web.archive.org/web/20071007160653/http://www.peauction.com/catlisting.php?id=48",
+    "https://web.archive.org/web/20071012151953/http://peauction.com:80/catlisting.php?id=48",
+    "https://web.archive.org/web/20071108025142/http://www.peauction.com/itemlisting.php?id=1287",
+    "https://web.archive.org/web/20071108025156/http://www.peauction.com/chart2.php?id=1287&dtype=1",
+    "https://web.archive.org/web/20071212070130/http://peauction.com:80/catlisting.php?id=48",
+    "https://web.archive.org/web/20080210221246/http://www.peauction.com:80/catlisting.php?id=48",
+    "https://web.archive.org/web/20080411151145/http://www.peauction.com:80/catlisting.php?id=48",
+    "https://web.archive.org/web/20080610220555/http://www.peauction.com:80/catlisting.php?id=48",
+    "https://web.archive.org/web/20080801025348/http://www.peauction.com:80/catlisting.php?id=48",
+    "https://web.archive.org/web/20080817053429/http://www.peauction.com:80/catlisting.php?id=48",
+    "https://web.archive.org/web/20080818212857/http://www.peauction.com:80/catlisting.php?id=48",
+    "https://web.archive.org/web/20081022150303/http://www.peauction.com:80/catlisting.php?id=48",
+    "https://web.archive.org/web/20090223042243/http://peauction.com:80/catlisting.php?id=48",
+    "https://web.archive.org/web/20090802102025/http://www.peauction.com:80/catlisting.php?id=48",
+    "https://web.archive.org/web/20091002013312/http://www.peauction.com:80/catlisting.php?id=48"
+  ],
+  "sold": [
+    [35, 31.5, 36.0, 0, [[1, "2004-11-07 14:45", 0]]],
+    [3, 2.7, 6.0, 1, [[0, "2006-03-04 14:53", 9]]],
+    [2, 1.8, 2.0, 1, [[0, "2006-03-19 15:32", 9]]],
+    [10, 9.0, 20.0, 1, [[0, "2006-04-26 03:23", 9]]],
+    [23, 20.7, 43.0, 1, [[0, "2006-05-10 18:56", 9]]],
+    [10, 9.0, 21.0, 3, [[0, "2006-08-11 23:30", 9]]],
+    [9, 8.1, 12.0, 3, [[0, "2006-08-23 19:21", 9]]],
+    [4, 3.6, 6.0, 1, [[0, "2006-09-30 22:53", 9]]],
+    [32, 28.8, 49.0, 1, [[0, "2006-11-26 00:54", 9]]],
+    [5, 4.5, 10.0, 2, [[0, "2007-07-14 13:56", 9]]],
+    [12, 10.8, 21.0, 1, [[0, "2007-07-24 13:18", 9]]],
+    [4, 3.6, 14.0, 8, [[0, "2007-09-08 16:04", 9]]],
+    [5, 4.5, 14.0, 1, [[0, "2007-11-03 19:13", 9]]]
+  ],
+  "unsold": [
+    [3, 2.7, 4.0, [[0, "2005-10-26 02:45", 9]]],
+    [10, 9.0, 135.0, [[0, "2005-12-29 07:17", 9]]],
+    [4, 3.6, 36.0, [[0, "2006-01-04 05:47", 9]]],
+    [5, 4.5, 37.0, [[0, "2006-07-21 21:27", 9]]],
+    [5, 4.5, 37.0, [[0, "2006-07-21 21:30", 9]]],
+    [10, 9.0, 90.0, [[0, "2007-03-30 14:47", 9]]],
+    [7, 6.3, 25.0, [[0, "2007-11-05 07:03", 9]]]
+  ],
+  "readings": [
+    [0, "%", 207.6, 1, 2],
+    [0, "%", 200.36, 3, 3],
+    [0, "%", 189.96, 4, 5],
+    [0, "%", 191.92, 6, 6],
+    [0, "%", 198.2, 7, 8],
+    [0, "%", 204.68, 11, 11],
+    [0, "%", 204.59, 12, 12],
+    [0, "%", 192.01, 13, 13],
+    [0, "%", 151.52, 14, 14],
+    [0, "%", 133.59, 15, 15],
+    [0, "%", 132.9, 16, 17],
+    [0, "%", 125.69, 18, 18],
+    [0, "%", 112.47, 19, 19],
+    [0, "%", 105.75, 20, 20],
+    [0, "%", 111.11, 21, 21]
+  ],
+  "charts": [
+    [1, 10, "1287-1-20071108025156.png"]
+  ]
+}

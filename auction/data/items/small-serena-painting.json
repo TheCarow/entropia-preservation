@@ -1,0 +1,20 @@
+{
+  "item": "small-serena-painting",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20060614131158/http://peauction.com:80/catlisting.php?id=42",
+    "https://web.archive.org/web/20060805181541/http://peauction.com:80/catlisting.php?id=42",
+    "https://web.archive.org/web/20070811003756/http://peauction.com:80/itemlisting.php?id=2584"
+  ],
+  "sold": [
+    [1, 78.34, 1500.0, 42, [[0, "2006-03-23 12:36", 2]]]
+  ],
+  "unsold": [
+    [1, 78.34, 2079.0, [[0, "2006-03-16 10:58", 2]]]
+  ],
+  "readings": [
+    [0, "TT+", 1421.66, 0, 1]
+  ],
+  "charts": []
+}

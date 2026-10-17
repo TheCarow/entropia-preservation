@@ -1,0 +1,25 @@
+/* The Hall of Fame page, on site.css's colours and type: one table of every record, newest first, its sources behind
+   a question mark as on the Items page; the table scrolls sideways on a narrow screen. */
+.h-intro { margin: 20px 0 0; font-size: 14px; color: var(--muted); }
+.i-search { flex: 1 1 220px; }
+.i-search .ftext { flex: 1 1 auto; min-width: 0; min-height: 32px; padding: 0 8px; font: inherit; font-size: 14px; color: var(--fg); background: var(--bg); border: 1px solid var(--control); border-radius: 0; }
+.shown { margin: 12px 0 0; font-size: 14px; color: var(--muted); font-variant-numeric: tabular-nums; }
+html:not(.js) .shown { display: none; }
+.h-scroll { overflow-x: auto; margin-top: 12px; }
+.h-table { width: 100%; border-collapse: collapse; font-size: 14px; font-variant-numeric: tabular-nums; }
+.h-table th, .h-table td { padding: 4px 12px 4px 0; text-align: left; vertical-align: top; border-bottom: 1px solid var(--line); }
+.h-table thead th { font-size: 13px; font-weight: bold; white-space: nowrap; }
+.h-table tr[hidden] { display: none; }
+.h-table .nw { white-space: nowrap; }
+.h-table td.d { min-width: 6em; }
+.h-table .h-time, .h-table td.vu, .h-none { color: var(--muted); }
+.h-none { font-style: italic; }
+.h-table td.n { width: 1%; }
+.h-table .n { text-align: right; white-space: nowrap; }
+.h-table td.q { width: 18px; padding-right: 0; }
+.src { position: relative; display: inline-block; width: 18px; height: 18px; font-size: 12px; line-height: 16px; text-align: center; vertical-align: 1px; color: var(--muted); border: 1px solid var(--control); cursor: help; }
+.src:hover, .src:focus { color: var(--fg); border-color: var(--fg); outline: none; }
+.src > span { position: absolute; left: 0; top: 100%; z-index: 3; width: max-content; max-width: min(440px, calc(100vw - 16px)); padding: 7px 10px; font-size: 14px; line-height: 1.45; text-align: left; white-space: normal; color: var(--fg); background: var(--panel); border: 1px solid var(--line); visibility: hidden; }
+html.js .src > span { position: fixed; }
+.src:hover > span, .src:focus-within > span { visibility: visible; }
+.src .e { display: block; }

@@ -1,0 +1,40 @@
+{
+  "item": "orca-harness-l-blueprint-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20070412213046/http://peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20070803140920/http://peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20071007162213/http://www.peauction.com/catlisting.php?id=18",
+    "https://web.archive.org/web/20071012151726/http://peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20071212065901/http://peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20080210210002/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20080411150913/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20080610174500/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20080801024921/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20080817052548/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20081022150037/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20090223042022/http://peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20090802101753/http://www.peauction.com:80/catlisting.php?id=18",
+    "https://web.archive.org/web/20091002013041/http://www.peauction.com:80/catlisting.php?id=18"
+  ],
+  "sold": [],
+  "unsold": [],
+  "readings": [
+    [0, "%", 18279.4, 0, 0],
+    [0, "%", 13269.8, 1, 1],
+    [0, "%", 9113.89, 2, 2],
+    [0, "%", 9544.44, 3, 3],
+    [0, "%", 6919.05, 4, 4],
+    [0, "%", 10428.6, 5, 5],
+    [0, "%", 10285.7, 6, 6],
+    [0, "%", 5459.96, 7, 7],
+    [0, "%", 4590.91, 8, 8],
+    [0, "%", 4166.67, 9, 9],
+    [0, "%", 2891.23, 10, 10],
+    [0, "%", 4730.43, 11, 11],
+    [0, "%", 2403.05, 12, 12],
+    [0, "%", 2025.28, 13, 13]
+  ],
+  "charts": []
+}

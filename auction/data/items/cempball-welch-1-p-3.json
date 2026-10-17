@@ -1,0 +1,48 @@
+{
+  "item": "cempball-welch-1-p-3",
+  "markup": "TT+",
+  "sources": ["pea", "pe-player"],
+  "captures": [
+    "https://web.archive.org/web/20040807114142/http://www.pe-player.com:80/auction/list.php?sort=bytype",
+    "https://web.archive.org/web/20050130134118/http://www.pe-player.com:80/auction/list.php?sort=bytype",
+    "https://web.archive.org/web/20060614131754/http://peauction.com:80/catlisting.php?id=75",
+    "https://web.archive.org/web/20060929155503/http://peauction.com:80/catlisting.php?id=75",
+    "https://web.archive.org/web/20061107140851/http://peauction.com/catlisting.php?id=75",
+    "https://web.archive.org/web/20061225025824/http://peauction.com:80/catlisting.php?id=75",
+    "https://web.archive.org/web/20070610233019/http://peauction.com:80/itemlisting.php?id=2421",
+    "https://web.archive.org/web/20071007161850/http://www.peauction.com/catlisting.php?id=75",
+    "https://web.archive.org/web/20080210230110/http://www.peauction.com:80/catlisting.php?id=75",
+    "https://web.archive.org/web/20080411151401/http://www.peauction.com:80/catlisting.php?id=75",
+    "https://web.archive.org/web/20081022150514/http://www.peauction.com:80/catlisting.php?id=75",
+    "https://web.archive.org/web/20090223042451/http://peauction.com:80/catlisting.php?id=75",
+    "https://web.archive.org/web/20091002013525/http://www.peauction.com:80/catlisting.php?id=75",
+    "https://web.archive.org/web/20160801195554/http://peauction.com/itemlisting.php?id=2421"
+  ],
+  "sold": [
+    [1, 27.42, 138.0, 1, [[1, "2004-07-08 14:57", 0]]],
+    [1, 27.42, 138.0, 1, [[1, "2004-10-23 00:53", 1]]],
+    [1, 53.0, 105.0, 5, [[0, "2006-05-25 05:03", 6]]],
+    [1, 36.59, 61.0, 4, [[0, "2006-11-01 03:43", 6]]],
+    [1, 30.88, 232.0, 2, [[0, "2007-01-14 19:22", 6]]],
+    [1, 40.44, 301.0, 2, [[0, "2008-04-10 06:08", 13]]],
+    [1, 58.36, 359.0, 1, [[0, "2008-11-21 19:41", 13]]]
+  ],
+  "unsold": [
+    [1, 30.88, 151.0, [[0, "2006-01-22 02:09", 6]]],
+    [1, 80.0, 679.0, [[0, "2007-05-15 23:46", 6]]],
+    [1, 80.0, 780.0, [[0, "2007-05-25 01:46", 6]]],
+    [1, 80.0, 780.0, [[0, "2007-06-03 16:50", 6]]],
+    [1, 80.0, 980.0, [[0, "2007-09-13 00:14", 13]]],
+    [1, 58.36, 400.0, [[0, "2008-10-21 12:24", 13]]],
+    [1, 58.36, 400.0, [[0, "2008-11-09 11:20", 13]]],
+    [1, 58.36, 359.0, [[0, "2008-11-13 09:00", 13]]]
+  ],
+  "readings": [
+    [0, "TT+", 52.0, 2, 3],
+    [0, "TT+", 38.21, 4, 5],
+    [0, "TT+", 92.51, 7, 8],
+    [0, "TT+", 134.52, 9, 10],
+    [0, "TT+", 167.75, 11, 12]
+  ],
+  "charts": []
+}

@@ -1,0 +1,40 @@
+{
+  "item": "geotrek-h46-menes-l-blueprint-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071008002917/http://www.peauction.com/catlisting.php?id=25",
+    "https://web.archive.org/web/20071012151801/http://peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20071212065937/http://peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20080210212022/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20080411150950/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20080610213818/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20080801024356/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20080817052615/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20080818212812/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20081022150112/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20090223042058/http://peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20090802101829/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20091002013119/http://www.peauction.com:80/catlisting.php?id=25",
+    "https://web.archive.org/web/20160801112113/http://peauction.com/itemlisting.php?id=4382"
+  ],
+  "sold": [
+    [1, 0.25, 2.0, 1, [[0, "2009-05-28 19:35", 13]]],
+    [1, 0.13, 1.0, 1, [[0, "2009-06-16 16:26", 13]]],
+    [1, 0.21, 2.0, 2, [[0, "2009-08-08 22:02", 13]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "%", 34485.4, 0, 1],
+    [0, "%", 38364.0, 2, 3],
+    [0, "%", 36565.6, 4, 4],
+    [0, "%", 35757.5, 5, 5],
+    [0, "%", 35197.2, 6, 6],
+    [0, "%", 35164.6, 7, 8],
+    [0, "%", 33003.2, 9, 9],
+    [0, "%", 24124.3, 10, 10],
+    [0, "%", 5609.02, 11, 11],
+    [0, "%", 3598.99, 12, 12]
+  ],
+  "charts": []
+}

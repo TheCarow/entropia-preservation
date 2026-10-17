@@ -1,0 +1,19 @@
+{
+  "item": "adapted-vivo-oxy2000-l-blueprint-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20090802101823/http://www.peauction.com:80/catlisting.php?id=24",
+    "https://web.archive.org/web/20091002013114/http://www.peauction.com:80/catlisting.php?id=24",
+    "https://web.archive.org/web/20160802004635/http://peauction.com/itemlisting.php?id=5049"
+  ],
+  "sold": [
+    [1, 0.23, 1600.0, 3, [[0, "2007-11-03 15:48", 2]]],
+    [1, 0.05, 106.0, 8, [[0, "2008-10-19 20:39", 2]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "%", 453826.0, 0, 1]
+  ],
+  "charts": []
+}

@@ -1,0 +1,34 @@
+{
+  "item": "gec-coil-springs-1m-blueprint",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071008003836/http://www.peauction.com/catlisting.php?id=21",
+    "https://web.archive.org/web/20071012151744/http://peauction.com:80/catlisting.php?id=21",
+    "https://web.archive.org/web/20071212065917/http://peauction.com:80/catlisting.php?id=21",
+    "https://web.archive.org/web/20080210210017/http://www.peauction.com:80/catlisting.php?id=21",
+    "https://web.archive.org/web/20080411150929/http://www.peauction.com:80/catlisting.php?id=21",
+    "https://web.archive.org/web/20080610213749/http://www.peauction.com:80/catlisting.php?id=21",
+    "https://web.archive.org/web/20080801024926/http://www.peauction.com:80/catlisting.php?id=21",
+    "https://web.archive.org/web/20080817052559/http://www.peauction.com:80/catlisting.php?id=21",
+    "https://web.archive.org/web/20081022150052/http://www.peauction.com:80/catlisting.php?id=21",
+    "https://web.archive.org/web/20090223042037/http://peauction.com:80/catlisting.php?id=21",
+    "https://web.archive.org/web/20090802101809/http://www.peauction.com:80/catlisting.php?id=21",
+    "https://web.archive.org/web/20091002013059/http://www.peauction.com:80/catlisting.php?id=21"
+  ],
+  "sold": [],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 17.09, 0, 0],
+    [0, "TT+", 15.39, 1, 1],
+    [0, "TT+", 16.69, 2, 2],
+    [0, "TT+", 15.19, 3, 3],
+    [0, "TT+", 9.79, 4, 4],
+    [0, "TT+", 7.99, 5, 5],
+    [0, "TT+", 11.29, 6, 6],
+    [0, "TT+", 10.49, 7, 7],
+    [0, "TT+", 4.29, 8, 9],
+    [0, "TT+", 3.89, 10, 11]
+  ],
+  "charts": []
+}

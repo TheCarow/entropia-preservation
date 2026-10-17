@@ -1,0 +1,29 @@
+{
+  "item": "infiltrator-thigh-guards-m-l",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071212071325/http://peauction.com:80/catlisting.php?id=9",
+    "https://web.archive.org/web/20080210230159/http://www.peauction.com:80/catlisting.php?id=9",
+    "https://web.archive.org/web/20080411151439/http://www.peauction.com:80/catlisting.php?id=9",
+    "https://web.archive.org/web/20080801024710/http://www.peauction.com:80/catlisting.php?id=9",
+    "https://web.archive.org/web/20080817052354/http://www.peauction.com:80/catlisting.php?id=9",
+    "https://web.archive.org/web/20080818213014/http://www.peauction.com:80/catlisting.php?id=9",
+    "https://web.archive.org/web/20081022150550/http://www.peauction.com:80/catlisting.php?id=9",
+    "https://web.archive.org/web/20090223042526/http://peauction.com:80/catlisting.php?id=9",
+    "https://web.archive.org/web/20090802102528/http://www.peauction.com:80/catlisting.php?id=9",
+    "https://web.archive.org/web/20091002013610/http://www.peauction.com:80/catlisting.php?id=9"
+  ],
+  "sold": [],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 557.48, 0, 1],
+    [0, "TT+", 807.18, 2, 3],
+    [0, "TT+", 801.22, 4, 5],
+    [0, "TT+", 804.1, 6, 6],
+    [0, "TT+", 645.07, 7, 7],
+    [0, "%", 293.87, 8, 8],
+    [0, "%", 273.62, 9, 9]
+  ],
+  "charts": []
+}

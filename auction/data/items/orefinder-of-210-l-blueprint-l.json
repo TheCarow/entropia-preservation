@@ -1,0 +1,27 @@
+{
+  "item": "orefinder-of-210-l-blueprint-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071007160727/http://www.peauction.com/catlisting.php?id=24",
+    "https://web.archive.org/web/20071012151757/http://peauction.com:80/catlisting.php?id=24",
+    "https://web.archive.org/web/20071109013159/http://www.peauction.com/itemlisting.php?id=4720",
+    "https://web.archive.org/web/20071212065932/http://peauction.com:80/catlisting.php?id=24",
+    "https://web.archive.org/web/20091002013114/http://www.peauction.com:80/catlisting.php?id=24",
+    "https://web.archive.org/web/20160801192826/http://peauction.com/itemlisting.php?id=4720"
+  ],
+  "sold": [
+    [1, 0.01, 30.0, 10, [[0, "2007-09-12 18:14", 2]]],
+    [1, 0.09, 284.0, 19, [[0, "2007-11-05 22:03", 2]]],
+    [1, 0.02, 61.0, 3, [[0, "2007-12-10 10:15", 5]]],
+    [1, 0.02, 61.0, 3, [[0, "2007-12-10 10:43", 5]]],
+    [1, 0.02, 61.0, 3, [[0, "2007-12-10 10:44", 5]]],
+    [1, 0.02, 62.0, 4, [[0, "2007-12-10 10:44", 5]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "%", 300000.0, 0, 1],
+    [0, "%", 309500.0, 3, 4]
+  ],
+  "charts": []
+}

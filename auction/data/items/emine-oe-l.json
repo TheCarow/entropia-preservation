@@ -1,0 +1,16 @@
+{
+  "item": "emine-oe-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20090802102158/http://www.peauction.com:80/catlisting.php?id=67",
+    "https://web.archive.org/web/20091002013441/http://www.peauction.com:80/catlisting.php?id=67"
+  ],
+  "sold": [],
+  "unsold": [],
+  "readings": [
+    [0, "%", 103.68, 0, 0],
+    [0, "%", 103.9, 1, 1]
+  ],
+  "charts": []
+}

@@ -1,0 +1,39 @@
+{
+  "item": "serum-gloves-f-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20071007161354/http://www.peauction.com/catlisting.php?id=5",
+    "https://web.archive.org/web/20071012152004/http://peauction.com:80/catlisting.php?id=5",
+    "https://web.archive.org/web/20071212071045/http://peauction.com:80/catlisting.php?id=5",
+    "https://web.archive.org/web/20080210221258/http://www.peauction.com:80/catlisting.php?id=5",
+    "https://web.archive.org/web/20080411151156/http://www.peauction.com:80/catlisting.php?id=5",
+    "https://web.archive.org/web/20080610220605/http://www.peauction.com:80/catlisting.php?id=5",
+    "https://web.archive.org/web/20090223042253/http://peauction.com:80/catlisting.php?id=5",
+    "https://web.archive.org/web/20090802102036/http://www.peauction.com:80/catlisting.php?id=5",
+    "https://web.archive.org/web/20091002013322/http://www.peauction.com:80/catlisting.php?id=5",
+    "https://web.archive.org/web/20160801203117/http://peauction.com/itemlisting.php?id=3944"
+  ],
+  "sold": [
+    [1, 91.0, 115.0, 1, [[0, "2007-09-29 10:30", 9]]],
+    [1, 75.13, 78.0, 3, [[0, "2007-11-05 01:03", 9]]],
+    [1, 91.0, 92.0, 2, [[0, "2007-12-19 07:49", 9]]],
+    [1, 88.33, 90.0, 1, [[0, "2008-03-16 08:46", 9]]],
+    [1, 91.0, 92.0, 1, [[0, "2008-05-26 01:54", 9]]],
+    [1, 91.0, 92.0, 1, [[0, "2008-05-28 23:38", 9]]],
+    [1, 47.52, 49.0, 1, [[0, "2009-06-14 17:10", 9]]]
+  ],
+  "unsold": [
+    [1, 91.0, 101.0, [[0, "2009-05-20 20:40", 9]]],
+    [1, 67.49, 68.0, [[0, "2009-06-19 20:37", 9]]]
+  ],
+  "readings": [
+    [0, "TT+", 24.0, 0, 1],
+    [0, "TT+", 13.44, 2, 2],
+    [0, "TT+", 9.29, 3, 3],
+    [0, "TT+", 7.39, 4, 4],
+    [0, "TT+", 5.26, 5, 6],
+    [0, "%", 105.5, 7, 8]
+  ],
+  "charts": []
+}

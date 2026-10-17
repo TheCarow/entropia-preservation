@@ -1,0 +1,21 @@
+{
+  "item": "spotty-pants-blueprint",
+  "markup": "TT+",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20090802101821/http://www.peauction.com:80/catlisting.php?id=23",
+    "https://web.archive.org/web/20091002013109/http://www.peauction.com:80/catlisting.php?id=23",
+    "https://web.archive.org/web/20160801183223/http://peauction.com/itemlisting.php?id=5855"
+  ],
+  "sold": [
+    [1, 0.01, 1700.0, 66, [[0, "2009-01-09 19:42", 2]]],
+    [1, 0.01, 589.0, 32, [[0, "2009-02-01 14:48", 2]]]
+  ],
+  "unsold": [
+    [1, 0.01, 10001.0, [[0, "2008-04-12 21:59", 2]]]
+  ],
+  "readings": [
+    [0, "TT+", 1144.49, 0, 1]
+  ],
+  "charts": []
+}

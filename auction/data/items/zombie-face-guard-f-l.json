@@ -1,0 +1,30 @@
+{
+  "item": "zombie-face-guard-f-l",
+  "markup": "%",
+  "sources": ["pea"],
+  "captures": [
+    "https://web.archive.org/web/20070117114550/http://www.peauction.com:80/catlisting.php?id=4",
+    "https://web.archive.org/web/20080610220520/http://www.peauction.com:80/catlisting.php?id=4",
+    "https://web.archive.org/web/20080801025317/http://www.peauction.com:80/catlisting.php?id=4",
+    "https://web.archive.org/web/20090223042213/http://peauction.com:80/catlisting.php?id=4",
+    "https://web.archive.org/web/20090802101947/http://www.peauction.com:80/catlisting.php?id=4",
+    "https://web.archive.org/web/20091002013236/http://www.peauction.com:80/catlisting.php?id=4",
+    "https://web.archive.org/web/20160802005926/http://peauction.com/itemlisting.php?id=4635"
+  ],
+  "sold": [
+    [1, 40.0, 41.0, 1, [[0, "2007-01-07 23:19", 6]]],
+    [1, 40.0, 41.0, 1, [[0, "2008-02-01 08:43", 6]]],
+    [1, 40.0, 41.0, 2, [[0, "2008-04-06 12:33", 6]]],
+    [1, 40.0, 41.0, 2, [[0, "2008-05-22 01:59", 6]]],
+    [1, 39.64, 40.0, 1, [[0, "2008-07-24 16:37", 6]]],
+    [1, 40.0, 40.0, 1, [[0, "2009-03-06 08:39", 6]]],
+    [1, 39.87, 40.0, 1, [[0, "2009-03-29 15:06", 6]]]
+  ],
+  "unsold": [],
+  "readings": [
+    [0, "TT+", 1.0, 0, 1],
+    [0, "TT+", 0.87, 2, 3],
+    [0, "%", 101.6, 4, 5]
+  ],
+  "charts": []
+}
