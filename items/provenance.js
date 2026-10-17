@@ -47,7 +47,21 @@ function context(site, stop, problems) {
   const shown = fieldTable.shown || {};
   const fieldOrder = new Map(Object.keys(fields).map((f, n) => [f, n]));
   // The Archive's Media pictures, which a citation of the game's own window names: its page is ../media/<id>/.
-  const pictures = new Map((load(path.join(site, "media", "media.json"), stop).images || []).map((m) => [m.id, m]));
+  const media = load(path.join(site, "media", "media.json"), stop);
+  const pictures = new Map((media.images || []).map((m) => [m.id, m]));
+  // Media's tags by their label with case, spaces and punctuation set aside, each with how many pictures carry it.
+  const tagKey = (text) => String(text).toLowerCase().replace(/[^a-z0-9]+/g, "");
+  const tagged = new Map();
+  for (const picture of pictures.values()) {
+    for (const slug of new Set([...(picture.tags || []), ...(picture.implied || [])])) tagged.set(slug, (tagged.get(slug) || 0) + 1);
+  }
+  const tagsByLabel = new Map(Object.entries(media.tags || {}).filter(([slug]) => tagged.has(slug)).map(([slug, t]) => [tagKey(t.label), slug]));
+  // A link to Media filtered by the tag one of `names` gives (else one of `fallback`), with its picture count; none where
+  // no tag with pictures matches.
+  function mediaLink(names, fallback = []) {
+    const slug = names.map((n) => tagsByLabel.get(tagKey(n))).find(Boolean) || fallback.map((n) => tagsByLabel.get(tagKey(n))).find(Boolean);
+    return slug ? `<p class="i-media"><a href="../media/?tags=${esc(slug)}">Pictures in Media (${tagged.get(slug)})</a></p>` : "";
+  }
 
   // The VUs a picture shows, [first, last]: those its record states, else those of its days, a picture dated only "on
   // or before" a day being of that day's VU; null for an undated picture.
@@ -107,6 +121,7 @@ function context(site, stop, problems) {
       bool: () => typeof value === "boolean",
       skills: () => Array.isArray(value) && value.every((s) => s && typeof s.name === "string" && typeof s.hidden === "boolean"),
       recipe: () => Array.isArray(value) && value.length > 0 && value.every((m) => m && typeof m.item === "string" && typeof m.amount === "number"),
+      items: () => Array.isArray(value) && value.length > 0 && value.every((id) => typeof id === "string"),
       range: () => Array.isArray(value) && value.length === 2 && value.every((n) => typeof n === "number") && value[0] <= value[1],
     }[f.type];
     if (!ok || !ok()) problems.push(`${at}: ${field} ${JSON.stringify(value)} is not a ${f.type}`);
@@ -120,7 +135,7 @@ function context(site, stop, problems) {
         continue;
       }
       if (!fields[field].for.includes(scope)) problems.push(`${at}: ${field} is not a field fields.json gives ${scope}`);
-      if (fields[field].type === "recipe") recipes.push([at, entries]);
+      if (["recipe", "items"].includes(fields[field].type)) recipes.push([at, entries]);
       for (const entry of entries) {
         if (!Array.isArray(entry.sources) || !entry.sources.length) problems.push(`${at}: a ${field} value cites no source`);
         checkValue(field, entry.value, at);
@@ -215,6 +230,9 @@ function context(site, stop, problems) {
     if (f.type === "recipe") {
       return value.map((m) => `${esc(m.amount)} ${itemLink(m.item)}`).join(", ");
     }
+    if (f.type === "items") {
+      return value.map((id) => itemLink(id)).join("<br>");
+    }
     if (f.type === "range") {
       return esc(`${value[0] === value[1] ? value[0] : `${value[0]} to ${value[1]}`}${unit}`);
     }
@@ -267,7 +285,7 @@ function context(site, stop, problems) {
   }).replace(/</g, "\\u003c");
 
   return {VUS, RANK, vuOn, sources, captures, captureDay, pictures, pictureDay, fields, citationVus, vusOf, checkCitation,
-    checkStats, widest, compact, statsHTML, fieldsJSON, provenance, mark, format, tierOf, recipes, setItemLink, esc};
+    checkStats, widest, compact, statsHTML, fieldsJSON, provenance, mark, mediaLink, format, tierOf, recipes, setItemLink, esc};
 }
 
 module.exports = {context, esc, load};

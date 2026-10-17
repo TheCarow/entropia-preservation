@@ -189,10 +189,15 @@
       "about": "entropiatools.com, CareBear's tools, 2006 to 2008: the weapons its damage per PEC comparison listed, each seen from the first to the last capture that listed it; the comparison ran on the server and is not in the pages. Read from the Archive's Wayback copy of the site; an item it names that matches no other is added as it printed it."
     },
     "item-window": {
-      "name": "Item window screenshot",
+      "name": "Item and creature window screenshot",
       "link": "../media/?tags=item-info-ui",
       "kind": "game",
-      "about": "The game's own item window, in the Archive's dated screenshots (Media pictures tagged item-info-ui), read by eye: the item's name as the window printed it, its weight, its protection and durability by damage type, and a TT value where the window printed the maximum. A value cites the picture, whose VU is the one its record states, or else that of the latest day it can date from: a picture dated only \"on or before\" a day shows the value in that day's VU or earlier. The Info tab's Value is the item's value at its condition, not its full TT value, and is not taken; nor is the second column some windows show, the item with an attachment. Read so far: the armour pictures (the editor's screenshots/armour.json)."
+      "about": "The game's own item and creature windows, in the Archive's dated screenshots (Media pictures tagged item-info-ui), read by eye: an item's name as the window printed it, its weight, its description (a text the window shows word for word as a client gives it is cited on the client's text), its protection and durability by damage type, a weapon's damage by type, ammo burn, ammo type and range, and a TT value where the window printed the maximum; a creature maturity's Health Level, Damage Potential and Attack Range and the range of each of its attributes. A value cites the picture, whose VU is the one its record states, or else that of the latest day it can date from: a picture dated only \"on or before\" a day shows the value in that day's VU or earlier. The Info tab's Value is the item's value at its condition, not its full TT value, and is not taken; nor is the second column some windows show, the item with an attachment. Read so far: the armour pictures and PE Player's pictures of 2004 (the editor's screenshots/armour.json and screenshots/creatures.json)."
+    },
+    "blueprint-name": {
+      "name": "Inferred from the blueprint's name",
+      "kind": "owner",
+      "about": "What a blueprint makes, where no source names its product: the items its name names with the word Blueprint left out, both genders of an armour or clothing piece (the editor's tools/blueprint_products.py). An inference, ranked below any source that names the product."
     }
   }
 }

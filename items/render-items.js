@@ -148,10 +148,19 @@ for (const [item] of droppedBy) {
 const byId = new Map(categories.flatMap((c) => c.items.map((i) => [i.id, i])));
 for (const [at, entries] of P.recipes) {
   for (const part of entries.flatMap((entry) => entry.value)) {
-    if (!byId.has(part.item)) problems.push(`${at}: its recipe names item ${JSON.stringify(part.item)}, which no category holds`);
+    const id = typeof part === "string" ? part : part.item;
+    if (!byId.has(id)) problems.push(`${at}: it names item ${JSON.stringify(id)}, which no category holds`);
   }
 }
-P.setItemLink((id) => `<a href="#${esc(id)}">${esc(byId.get(id).name)}</a>`);
+// The names an item can show by VU, each over the VUs its citations cover, in the order they were first used; with no
+// VU chosen it shows the name it carried last, and a link to it says that name too.
+function datedNames(item) {
+  const names = (item.names || []).map((n) => [n.name, widest(n.sources.map(citationVus))])
+    .filter((n) => n[1]).map(([name, w]) => [name, RANK.get(w.first), RANK.get(w.last)]);
+  return names.sort((a, b) => a[1] - b[1] || a[2] - b[2]);
+}
+const shownName = (item, names = datedNames(item)) => (names.length ? [...names].sort((a, b) => a[2] - b[2] || a[1] - b[1]).pop()[0] : item.name);
+P.setItemLink((id) => `<a href="#${esc(id)}">${esc(shownName(byId.get(id)))}</a>`);
 // Every picture is one some item wears.
 const worn = new Set(categories.flatMap((c) => c.items.map((i) => iconFile(i.icon)).filter(Boolean)));
 for (const file of Object.keys(pictures.icons || {})) {
@@ -185,8 +194,10 @@ const iconHTML = (icon) => {
 
 const vus = (first, last) => (first === last ? `VU ${first}` : `VU ${first} to ${last}`);
 
-// The flavour text an item carried in VU 5.4, as the 5.4 client's description gives it.
-const flavour = (item) => (item.descriptions || []).find((d) => d.sources.includes("client-5.4"));
+// The flavour text an item carried in VU 5.4, as the 5.4 client's description gives it, and any other text the game's
+// own item window showed for it in a dated screenshot.
+const flavours = (item) => (item.descriptions || []).filter((d) => d.sources.includes("client-5.4")
+  || d.sources.some((c) => c.source === "item-window")).sort((a, b) => b.sources.includes("client-5.4") - a.sources.includes("client-5.4"));
 
 // A TT value's place among the item's others: its capture's timestamp, or the start of the latest day the picture it was
 // read off can date from.
@@ -210,6 +221,22 @@ function mergeStats(...all) {
   return out;
 }
 
+// The blueprints that make an item, one row each in the stats table's columns, with the sources that say so behind
+// the question mark (a link inferred from a blueprint's name says that too).
+const madeWith = new Map();
+for (const blueprint of categories.find((c) => c.key === "blueprints").items) {
+  for (const entry of (blueprint.stats || {}).product || []) {
+    for (const id of entry.value) {
+      madeWith.set(id, [...(madeWith.get(id) || []), {blueprint, sources: entry.sources}]);
+    }
+  }
+}
+function madeWithHTML(item) {
+  const rows = (madeWith.get(item.id) || []).map((row) => ({...row, name: shownName(row.blueprint)})).sort((a, b) => a.name.localeCompare(b.name));
+  return rows.map(({blueprint, name, sources}, n) => `<tr><th scope="row">${n ? "" : "Made with"}</th><td class="q">${P.mark(P.provenance(sources))}</td>`
+    + `<td class="v"><a href="#${esc(blueprint.id)}">${esc(name)}</a></td></tr>`).join("");
+}
+
 // The creatures an item was looted from, one row each in the stats table's columns: the creature, with the sources of
 // every loot entry of the creature that names the item, and the VUs they recorded it in, behind its question mark.
 function dropsHTML(item) {
@@ -230,20 +257,17 @@ function itemHTML(category, item) {
   const s = span(item);
   const tt = [...(item.tt || [])].sort((a, b) => ttOrder(a).localeCompare(ttOrder(b))).pop();
   const seen = s ? vus(s.first, s.last) : "";
-  // The names the page can show by VU, each over the VUs its citations cover, in the order they were first used.
-  const names = (item.names || []).map((n) => [n.name, widest(n.sources.map(citationVus))])
-    .filter((n) => n[1]).map(([name, w]) => [name, RANK.get(w.first), RANK.get(w.last)]);
-  names.sort((a, b) => a[1] - b[1] || a[2] - b[2]);
-  // With no VU chosen an item shows the name it carried last.
-  const shown = names.length ? [...names].sort((a, b) => a[2] - b[2] || a[1] - b[1]).pop()[0] : item.name;
+  const names = datedNames(item);
+  const shown = shownName(item, names);
   const text = [item.name, ...(item.names || []).map((n) => n.name), ...(item.also || []), item.type, category.name].join(" ").toLowerCase();
   const range = s ? ` data-a="${RANK.get(s.first)}" data-b="${RANK.get(s.last)}"` : "";
   const dated = names.length ? ` data-names="${esc(JSON.stringify(names))}"` : "";
-  const text54 = flavour(item);
+  const texts = flavours(item);
   // A piece of an armour set shows the set's stats beside its own, which every piece of the set has alike.
   const set = pieceSet.get(item.id);
-  const description = text54 ? [{label: "Description", entries: [{html: esc(text54.text), sources: text54.sources}]}] : [];
-  const more = P.statsHTML(mergeStats(set && set.stats, item.stats), category.key, {first: description, last: dropsHTML(item)});
+  const description = texts.length ? [{label: "Description", entries: texts.map((d) => ({html: esc(d.text), sources: d.sources}))}] : [];
+  const pictured = P.mediaLink([item.name, ...(item.names || []).map((n) => n.name), ...(item.also || [])], set ? [`${set.name} Armor`] : []);
+  const more = pictured + P.statsHTML(mergeStats(set && set.stats, item.stats), category.key, {first: description, last: madeWithHTML(item) + dropsHTML(item)});
   return `<li class="item${more ? " has-more" : ""}" id="${esc(item.id)}" data-cat="${category.key}" data-type="${esc(item.type)}"${range}${dated} data-text="${esc(text)}"${item.unused ? " data-unused" : ""}>`
     + iconHTML(item.icon)
     + `<span class="i-name-cell"><span class="i-name">${esc(shown)}</span></span><span class="i-type">${esc(item.type)}</span>`

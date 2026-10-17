@@ -46,6 +46,10 @@ html.js .item .i-more { display: none; }
 .i-pop-close { flex: none; width: 32px; height: 32px; padding: 0; font: inherit; font-size: 20px; line-height: 1; color: var(--fg); background: transparent; border: 1px solid var(--control); border-radius: 0; cursor: pointer; }
 .i-pop-body { padding: 8px 16px 12px; overflow-wrap: anywhere; }
 .i-pop .i-more { margin: 0; font-size: 16px; line-height: 1.5; }
+/* The pictures of the item or creature in Media, filtered by its tag, as a button at the top of its details. */
+.i-media { margin: 0 0 8px; }
+.i-media a { display: inline-block; padding: 4px 10px; font-size: 14px; color: var(--fg); text-decoration: none; border: 1px solid var(--control); }
+.i-media a:hover, .i-media a:focus { border-color: var(--fg); }
 /* In the popup the table spans its width: the field and question mark columns as narrow as their contents, the value
    column taking the rest. */
 .i-pop .i-stats { width: 100%; }

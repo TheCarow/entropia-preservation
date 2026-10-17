@@ -32,6 +32,10 @@ html.js .item .i-more { display: none; }
 .i-pop-close { flex: none; width: 32px; height: 32px; padding: 0; font: inherit; font-size: 20px; line-height: 1; color: var(--fg); background: transparent; border: 1px solid var(--control); border-radius: 0; cursor: pointer; }
 .i-pop-body { padding: 8px 16px 12px; overflow-wrap: anywhere; }
 .i-pop .i-more { margin: 0; font-size: 16px; line-height: 1.5; }
+/* The pictures of the item or creature in Media, filtered by its tag, as a button at the top of its details. */
+.i-media { margin: 0 0 8px; }
+.i-media a { display: inline-block; padding: 4px 10px; font-size: 14px; color: var(--fg); text-decoration: none; border: 1px solid var(--control); }
+.i-media a:hover, .i-media a:focus { border-color: var(--fg); }
 .i-stats { border-collapse: collapse; margin: 2px 0 4px; }
 .i-stats th, .i-stats td { padding: 2px 20px 2px 0; text-align: left; vertical-align: top; }
 .i-stats th { font-weight: normal; white-space: nowrap; color: var(--muted); }

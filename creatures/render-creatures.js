@@ -136,7 +136,8 @@ function creatureHTML(c) {
   const s = span(c);
   const klass = latest(c, "class");
   const lootCount = (c.loot || []).length;
-  const more = P.statsHTML(c.stats, "creatures") + maturitiesHTML(c) + locationsHTML(c) + lootHTML(c);
+  const more = P.mediaLink([c.name, ...(c.names || []).map((n) => n.name)]) + P.statsHTML(c.stats, "creatures") + maturitiesHTML(c)
+    + locationsHTML(c) + lootHTML(c);
   const text = [c.name, ...(c.names || []).map((n) => n.name), ...(c.also || [])].join(" ").toLowerCase();
   return `<li class="item${more ? " has-more" : ""}" id="${esc(c.id)}" data-class="${esc(klass ? klass[0].value : "")}"${s ? ` data-a="${RANK.get(s.first)}" data-b="${RANK.get(s.last)}"` : ""} data-text="${esc(text)}">`
     + `<span class="i-icon"></span><span class="i-name-cell"><span class="i-name">${esc(c.name)}</span></span>`
