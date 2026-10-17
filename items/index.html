@@ -5,6 +5,8 @@
 <!-- A browser that runs scripts gets the filters. Without scripts, or in a copy of the page that lacks items.js,
      every item shows and the filters are left out (site.css, html:not(.js)). -->
 <script>document.documentElement.classList.add("js");addEventListener("load",function(){if(!document.documentElement.dataset.script)document.documentElement.classList.remove("js")});</script>
+<!-- While the long list loads, only the category the address names (or the first) shows, until items.js takes over. -->
+<script>(function(){var q=new URLSearchParams(location.search),c=q.get("cat")||(q.get("type")||"").split(":")[0],s=document.createElement("style");s.id="i-loading";s.textContent=/^[a-z]+$/.test(c)?"html.js .i-group:not(#"+c+"){display:none}":"html.js .i-group~.i-group{display:none}";document.head.appendChild(s)})();</script>
 <title>Items | Entropia Archive</title>
 <meta name="description" content="The items of Project Entropia and early Entropia Universe up to VU 10: their categories, TT values and the Version Updates they were seen in.">
 <meta property="og:type" content="website">
@@ -12,16 +14,13 @@
 <meta property="og:title" content="Items | Entropia Archive">
 <meta property="og:description" content="The items of Project Entropia and early Entropia Universe up to VU 10: their categories, TT values and the Version Updates they were seen in.">
 <link rel="stylesheet" href="../site.css?v=34">
-<link rel="stylesheet" href="items.css?v=12">
-<script src="items.js?v=7" defer></script>
+<link rel="stylesheet" href="items.css?v=31">
+<script src="items.js?v=29" defer></script>
 </head>
 <body>
 <main>
 <h1><img class="logo" src="../images/plcd.png" alt="" width="40" height="40">Entropia Archive</h1>
-<nav class="site-nav"><a href="../">Home</a><a href="../clients/">Clients</a><a href="../media/">Media</a><a href="../articles/">Articles</a><a href="../sites/">Sites &amp; Tools</a><a href="./" aria-current="page">Items</a></nav>
-<div class="intro">
-<p>Note: some item icons are modern reconstructions.</p>
-</div>
+<nav class="site-nav"><a href="../">Home</a><a href="../clients/">Clients</a><a href="../media/">Media</a><a href="../articles/">Articles</a><a href="../sites/">Sites &amp; Tools</a><a href="./" aria-current="page">Items</a><a href="../creatures/">Creatures</a><a href="../skills/">Skills</a></nav>
 <div id="app"></div>
 <footer class="footer">
 <p>Project Entropia and Entropia Universe are the work of MindArk&nbsp;PE&nbsp;AB. This is an independent preservation project, not affiliated with MindArk.</p>

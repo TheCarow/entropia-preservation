@@ -9,7 +9,9 @@
 | `media/` | The Media pages. `files/` holds the pictures and `media.json` their data, both written by the private editor (`media.json` on every save, one picture per line). A video is a picture whose `video` field names it, on YouTube, on the Internet Archive or as a file the archive keeps (`files/<id>.mp4` or `.webm`, beside the pictures): its card carries a play mark. Its page plays the archive's own copy with the browser's player, fetched only once started, or, without one, shows the poster frame and swaps in the site's player (youtube-nocookie.com, or archive.org's embedded player) only when a visitor starts it, so the site asks nothing of either until then. A document (a magazine issue or guide) is a picture of its first page whose `document` field holds the PDF the archive keeps (`files/<id>.pdf`) and, in `online`, where it is read online (an Internet Archive item): its card is marked PDF and its page sends a reader there, or without one to the first place the PDF was found that has an address. The archive's own copy is kept but not linked, so that readers do not draw on the site's bandwidth. An entry's type (picture, video or document) comes from those fields, not from a tag, and the gallery's Show filter selects by it (`?type=document`). `draw-media.js` draws the gallery and one page per picture, `render-media.js` writes them, `media.js` adds the gallery's filters and pages, `media.css` styles them and `thumbs.py` makes the thumbnails. |
 | `articles/` | The Articles page. `articles.json` lists the press releases, articles and magazines, edited by hand; `render-articles.js` draws them into the page, `articles.js` adds its filters and `articles.css` styles it. |
 | `sites/` | The Sites & Tools page. `sites.json` lists MindArk's sites, the players' and the tools players made (see [A site or tool](#a-site-or-tool)), edited by hand; `render-sites.js` draws them into the page, `sites.js` adds its filters and `sites.css` styles it. The media names it gives its sites also group the media page's Source filter. |
-| `items/` | The Items page. `data/<category>.json` holds one file per category (armor, weapons and so on), one item per line; `icons/` the items' icons and `icons.json` each picture's description; `captures.json` the Wayback captures the facts were read from; and `sources.json` the sources the facts cite (see [An item](#an-item)). `render-items.js` draws them into the page, `items.js` adds its filters and `items.css` styles it. |
+| `items/` | The Items page. `data/<category>.json` holds one file per category (armor, weapons and so on), one item per line; `icons/` the items' icons and `icons.json` each picture's description; `fields.json` the fields an item's or creature's stats can hold; `sets.json` the armour sets; `captures.json` the Wayback captures the facts were read from; and `sources.json` the sources the facts cite, with their kinds and precedence (see [An item](#an-item)). `render-items.js` draws them into the page, `items.js` adds its filters and picks each value for a chosen VU, and `items.css` styles it; `provenance.js` holds what the Items and Creatures pages share: reading citations, checking stats, and drawing a value with where it comes from. |
+| `creatures/` | The Creatures page. `data/creatures.json` holds the creatures, their details and what they dropped (see [A creature](#a-creature)); `render-creatures.js` draws them into the page, `creatures.js` adds its filters and `creatures.css` styles it. |
+| `skills/` | The Skills page. `data/skills.json` holds the skills and `data/ranks.json` the 5.4 client's rank ladder (see [A skill](#a-skill)); `render-skills.js` draws them into the page, `skills.js` adds its filters and popups and `skills.css` styles it. |
 | `versions.json` | Every version and every client file. Edited by hand. |
 | `notes.md` | The release notes' text, one `## VU <version>` section per version. Edited by hand. |
 | `images/discs/` | Pictures of the discs that client files were found on. |
@@ -85,17 +87,70 @@ line. Any valid JSON works.
 `sites/sites.json` holds one site or tool per line. The page puts MindArk's sites first, then the players' sites and
 tools grouped by the year they began, and a present-day tribute (no `from`) at the end.
 
-Nothing is stored twice. A fact several sources give is stored once with the sources that give it; a fact that
-follows from another is not stored at all (a day's VU, a key's class and index); and what many items share is stored
-once where they all point (a picture's description, an armour set's colours, a Wayback capture, an unused reason).
-The private editor's `tools/itemdata.py` holds this layout for every tool that writes it.
+| Field | What it holds |
+|---|---|
+| `id` | The entry's link on the page, `sites/#pe-auction`: lowercase letters, digits and hyphens. |
+| `name` | The site's or tool's name. |
+| `maker` | Optional: who made it, shown as "by …". |
+| `by` | `"mindark"` or `"players"`, for the Made by filter. |
+| `kind` | One of Company, Official site, Forum, News, Wiki, Market, Web tool, Program, Spreadsheet, Guide, Society, Fan page, Blog, Tribute. Web tool, Program and Spreadsheet count as tools in the page's Show filter; the rest are sites. |
+| `from`, `to` | The years it ran, such as `"2001"`. `to` is `null` while it runs on or when its end is unknown; `from` is `null` only for a present-day tribute. |
+| `approx` | `true` when the years come from the Wayback Machine's first and last captures; the page then writes "c. 2001". A tool's years are usually its forum announcements, so `false`. |
+| `status` | `"archived"` (the Wayback Machine kept it; for a program or spreadsheet, its download), `"partial"` (it kept a page or a few; for a program, its site but not the download), `"lost"` (never captured) or `"live"`. |
+| `addresses` | Every address the site or tool used, without `http://`. |
+| `summary` | What it was, in a sentence or two. |
+| `note` | Optional, shown under the summary. |
+| `links` | `{"label": …, "url": …}` entries: the archived copy (or a tool's announcement) first, which the name links to. An address starting `../` links to another page of this site, such as `../clients/`. |
+| `media` | The site's source names as the media archive records them, such as `["Entropia Pioneers forum"]`. A picture counts for the site when one of its sources has that name, or that name with a poster in brackets after it; the page shows the count with a link to those pictures. |
+| `evidence` | For a lost or partial entry, the pages that show it existed, as `{"label": …, "url": …}`; shown as "Known from". A lost site needs at least one. |
 
-A **citation** names who says a fact: a source's key, such as `"client-9.1.5"`, for a source that gives one VU for
-everything it says (its `vu` in `sources.json`), or `{"source": "pea", "first", "last"}`, the first and last Wayback
-captures that show the fact. A **capture** is a key of `captures.json`, the capture's timestamp and page, such as
+### An item
+
+`items/data/<category>.json` holds one category's items, one per line: `{"category": "Armor", "items": [...]}`. The
+categories are fixed in `render-items.js` (`CATEGORIES`), which also sets the order the page shows them in. Every fact
+about an item names its source, a key of `items/sources.json`, so an item can gather facts from several sources. The
+facts come from PE Auction (`"pea"`), written by `items.py` in the private editor's `peauction/` folder; from the VU 5.4
+client's items (`"client-5.4"`), written by the editor's `tools/client_items.py`; from the VU 4.2 client's ARMOR BOOK of
+armour blueprints (`"client-5.1"`), written by `tools/client_armour_book.py`; from the VU 9.1.5, 9.2.2 and 9.3.5 clients'
+item names (`"client-9.1.5"` and so on), written by `tools/client9_items.py` for items the page already lists, never
+adding one; from 15 player-run sites of 2002 to 2009 (`"entropia-loot"`, `"pe-wikicharts"`, `"pe-player"`,
+`"perc"`, `"pe-database"` and the rest, each described in `sources.json`), written by `items.py` in the editor's
+`sites/<site>/` folders from the Archive's Wayback copies of those sites; and from the game's own item windows in
+Media's dated screenshots (`"item-window"`), read by eye into the editor's `screenshots/armour.json` and written by
+`screenshots/items.py`. Each tool replaces only its own source's facts
+when rerun, so none undoes another, and an item keeps its name and type once written; the editor's
+`tools/importall.py` runs them all in the fixed order that makes a rerun give the same files.
+
+The player sites are imported without review: a name they print is matched to an item by fixed rules (the private
+editor's `tools/itemmatch.py`), and one that matches none becomes an item of its own, named as printed and typed
+Unsorted. Which source gave each value is in its citations, and the page names it beside the value.
+
+Nothing is stored twice. A fact several sources give is stored once with the sources that give it; a fact that
+follows from another is not stored at all (a day's VU, a key's class and index, a weapon's damage per second); and
+what many items share is stored once where they all point (a picture's description, an armour set's colours, a
+Wayback capture, an unused reason, a field's label and unit). Loot is stored on the creature that dropped it
+(`creatures/data/creatures.json`, see [A creature](#a-creature)), and an item's row lists the creatures that dropped it,
+with the VUs each was recorded in, from there. The private editor's `tools/itemdata.py` holds this layout for every
+tool that writes it.
+
+A **citation** names who says a fact, in one of four ways: a source's key, such as `"client-9.1.5"`, for a source that
+gives one VU for everything it says (its `vu` in `sources.json`); `{"source": "pea", "first", "last"}`, the first and
+last Wayback captures that show the fact, whose VU is the one current when Wayback recorded it, not necessarily when
+the fact was new; `{"source": "entropia-loot", "vus": [...], "capture"}`, for a source that states the VUs itself,
+with the capture that shows them and, in `as`, the names it printed where it spelled the item otherwise; or
+`{"source": "item-window", "media": <picture id>}`, a dated picture in Media (`media/media.json`) of the game's own
+window, whose VU is the one its record states, or else that of the latest day it can date from, and which the page
+links to. A
+**capture** is a key of `captures.json`, the capture's timestamp and page, such as
 `20060614131751/catlisting.php?id=74`. `captures.json` lists each key once under the host spelling Wayback filed it by,
 and its address is `https://web.archive.org/web/<timestamp>/<host>/<page>`. A capture's day is its timestamp's, and a
 day's VU is the last two-part version released on or before it, so neither is stored beside a capture.
+
+Each source in `sources.json` has a `kind`, and its `precedence` ranks the kinds for a field two sources give
+differently in one VU: `"game"` (the game's own windows, in dated screenshots), then `"official"` (MindArk's own
+word), then `"player"` (what players recorded of the live game), then
+`"client"` (a client's files, which name what the game could hold, not what was in circulation), then `"owner"` (the
+owner's judgements and inferences). Among sources of one kind, the value more sources give wins.
 
 | Field | What it holds |
 |---|---|
@@ -104,12 +159,56 @@ day's VU is the last two-part version released on or before it, so neither is st
 | `type` | Its kind within the category, such as `Carbines`; the page's Type filter. |
 | `names` | Every name it went by, `{"name", "sources": [citation, ...]}`. The page shows one: the one it carried last, or, with a VU chosen in the Seen in filter, the one it carried then. Spellings differing only in case are one name. |
 | `also` | Optional: other spellings no source dates; kept for search, not shown. |
-| `descriptions` | Each description text, `{"text", "sources": [citation, ...]}`, a text several clients give alike stored once. The page shows the one the VU 5.4 client gives, as flavour text. |
+| `descriptions` | Each description text, `{"text", "sources": [citation, ...]}`, a text several clients give alike stored once. The page shows the one the VU 5.4 client gives, as the first row of its stats, labelled Description, with its source. |
 | `records` | Anything else a source says of the item, one record per kind of fact, `{...fields, "sources": [citation, ...]}`: a client's `key` (the same key from 5.4 and the VU 9 clients is one record; its class and index are its two halves), the 5.4 client's `category` and `category_basis` or its `inventory_tab`, the armour book's `level`, PE Auction's item `ids`, the `categories` it printed and the `capture` of its item page. |
+| `stats` | What sources say of its use, field by field: `{field: [{"value", "sources": [citation, ...]}]}`, one entry per value the field had. `fields.json` defines each field once (its label, its unit, the type of its value and which categories use it; protection, durability and damage are a field per damage type, as the game's item window listed them, read together as one reading per source, so a type a later reading left out is not shown beside it; and, under shown, the fields every armour piece, weapon, creature or maturity lists, "unknown" where nothing gives a value), so a value is stored in the field's unit whatever its source printed, and nothing that follows from other values is kept (a weapon's damage per second, its cost per shot). A click on the item's row opens a popup showing each field's value, its sources and VUs behind a question mark beside it; with a VU chosen in the Seen in filter it shows the value recorded in that VU, or, failing that, the nearest VU's, marked as such. Without scripts every value shows, each with its source. A piece of an armour set also shows the set's stats as its own (see [An armour set](#an-armour-set)). |
 | `seen` | Dated and inferred sightings. PE Auction's: `{"source", "first_capture", "last_capture", "vus"}`, with `first` or `last` only where the sighting's day is not its capture's (an auction that ended before the capture that listed it), and `vus` every VU it was seen in. An inferred one (source `"set"`: one piece of an armour set seen in a VU puts the set's other pieces there too) has `first_vu`, `last_vu`, `vus` and the items it rests on in `basis`. A client naming the item is its sighting in that client's VU and is not stored again. The page shows the span from the earliest VU any source gives to the latest, and the Seen in filter counts every VU between. |
-| `tt` | Its TT value as it changed: `{"ped": "23.00", "capture", "source"}`, one entry per change, read off the capture on its day. The page shows the latest. |
+| `tt` | Its TT value as it changed: `{"ped": "23.00", "capture", "source"}`, one entry per change, read off the capture on its day, or `{"ped", "media", "source"}`, read off a dated picture of the game's window that printed the maximum; in day order whichever source gave it. The page shows the latest. |
 | `unused` | Optional: the item was never in use in the game, named by one of the owner's reasons in `sources.json` (`"food"`, `"injection"`, `"injection-ingredient"`, `"not-in-use"`), each with its text and day. The page keeps it but hides it and leaves it out of every count; `items/?unused=1` shows such items too, and nothing on the page links there. The private editor's `tools/client_items.py` sets it for the 5.4 client's food, injections and their ingredients and Paint Bottle Orange, unless another source saw the item in the game. |
 | `icon` | Optional: its inventory icon, the file in `icons/`, or `{"file", "shared_from", "assigned"}`. `shared_from` names the item whose picture it borrows (an Adjusted, Improved, Modified or Unique armour piece wore its regular piece's icon, a Castorian EnBlade the 5.4 client does not name the nearest plain blade's); `assigned`, `{"source": "owner", "date", "basis"}`, says the owner chose the picture where the client stores several for the item's class. `icons.json` describes each picture once, `{"source", ...}` with how it was made, and each armour set's colours once under `looks`: the colours its red, green and blue masks were painted with and where they come from. A picture a client stores is named `texture-<texture>_client_<key>.png`, one file per texture whichever items wear it, and one drawn since `<name>_reconstructed_<year>.png`, so a drawing is never taken for a historical picture; `render-items.js` refuses a picture named neither way, a picture no item wears and an item naming a picture `icons.json` lacks. The page fits the icon into a square box beside the name, which every row keeps, icon or not. |
+
+### An armour set
+
+`items/sets.json` holds the stats every piece of an armour set has alike, once for the set rather than on each piece:
+`{"sets": {<id>: {"name", "pieces": [<item id>, ...], "stats": {...}}}}`, the stats laid out as an item's (protection by
+damage type, durability, how it was obtained), the pieces the ids of its items in `data/armor.json`, both genders.
+Each piece's row shows the set's stats among its own (weight, TT value, markup), as a weapon's row shows its stats.
+`render-items.js` refuses a piece that is not an armour item or that two sets claim.
+
+### A creature
+
+`creatures/data/creatures.json` holds the creatures, one per line, laid out as items are and citing the same sources,
+captures and fields (`items/sources.json`, `items/captures.json`, `items/fields.json`). `render-creatures.js` draws them
+into the Creatures page, `creatures.js` adds its filters and `creatures.css` styles it.
+
+| Field | What it holds |
+|---|---|
+| `id` | The creature's link on the page, `creatures/#atrox`: lowercase letters, digits and hyphens. |
+| `name` | Its name. |
+| `names` | Every name it went by, `{"name", "sources": [citation, ...]}`, as for an item, including a site's own spelling where it was matched to the creature spelled alike ("Areneatrox" for Araneatrox). |
+| `stats` | Its details field by field (class, damage types, movement, speed, combat), as an item's stats, shown the same way. |
+| `maturities` | Optional: `{"name", "sources", "stats"}` for each maturity a source names, cited by the sources that name it, with its own stats (health, damage, damage per hit, speed, attribute ranges) laid out as the creature's. A generation however written ("Generation 03", "Gen. 03") is one maturity. The page lists each with its sources and stats, picked by VU as the creature's are. |
+| `locations` | Optional: where it was seen, each `{"continent", "lon", "lat"}` or `{"x", "y", "z"}`, with `label`, the name the source gave the place or the creature there, `found`, the day it was found where the source says, and `sources`. The page lists them under Seen at. |
+| `loot` | What it dropped: `{"item": <item id>, "frequency"?, "sources": [citation, ...]}`, each item once, citing the VUs it was recorded in or the captures that showed it. The page lists it by the Items page's categories, each item linking to its row with, where the source gave one, how often it dropped, and its sources and VUs behind a question mark; with a VU chosen, items not recorded in that VU are dimmed. |
+
+### A skill
+
+`skills/data/skills.json` holds the skills, one per line, laid out as items are and citing the same sources, captures
+and fields: every skill the VU 5.4 client names (its string tables' skills, class 390) and what PE WikiCharts' skill
+pages say of each, a skill the client lacks being one of its own. `skills/data/ranks.json` holds the 5.4 client's rank
+ladder, each band of skill points `{"rank", "from", "to"}`, the rank the client shows for points from `from` up to
+`to`. The private editor's `tools/skills.py` writes both whole. `render-skills.js` draws them into the Skills page,
+`skills.js` adds its filters and popups and `skills.css` styles it.
+
+| Field | What it holds |
+|---|---|
+| `id` | The skill's link on the page, `skills/#aim`: lowercase letters, digits and hyphens. |
+| `name` | Its name. |
+| `names`, `descriptions`, `records` | As for an item: its names, its descriptions (the client's and PE WikiCharts' article text, picked by VU on the page) and its client key. |
+| `stats` | Its category, whether it is hidden, whether it affects health, its requirements, and the activities that train it (`activities`, each `{"name", "hidden"}`), as an item's stats. |
+
+The page shows, beside a skill's own facts, the items whose "skills gained" list names it and its implant, both taken
+from the Items data, and below the list the rank ladder, one row per rank with the points each of its ten grades starts at.
 
 ## Publishing
 

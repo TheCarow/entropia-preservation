@@ -1,6 +1,5 @@
 /* The Items page, on site.css's colours and type: one line per item in four columns, which fold under the name on a
    narrow screen. */
-.intro { margin: 0 0 4px; }
 .i-search { flex: 1 1 220px; }
 .i-search .ftext { flex: 1 1 auto; min-width: 0; min-height: 32px; padding: 0 8px; font: inherit; font-size: 14px; color: var(--fg); background: var(--bg); border: 1px solid var(--control); border-radius: 0; }
 .shown { margin: 12px 0 0; font-size: 14px; color: var(--muted); font-variant-numeric: tabular-nums; }
@@ -9,9 +8,11 @@ html:not(.show-unused) .item[data-unused] { display: none; }
 .i-group h2 { margin: 28px 0 0; padding-bottom: 4px; border-bottom: 1px solid var(--line); font-family: var(--serif); font-size: 1.25rem; }
 .i-count { font-size: 14px; font-weight: normal; color: var(--muted); font-variant-numeric: tabular-nums; }
 .items { list-style: none; margin: 0; padding: 0; }
-.i-cols, .item { display: grid; grid-template-columns: 36px minmax(0, 1fr) 11rem 7rem 9rem 1rem; gap: 0 12px; align-items: center; }
+.i-cols, .item { display: grid; grid-template-columns: 36px minmax(0, 1fr) 11rem 7rem 9rem; gap: 0 12px; align-items: center; }
 .i-cols { padding: 6px 0 4px; border-bottom: 1px solid var(--line); font-size: 13px; font-weight: bold; color: var(--fg); }
 .item { padding: 4px 0; border-bottom: 1px solid var(--line); font-size: 14px; line-height: 1.4; }
+/* A row off screen is not laid out until it scrolls near, which keeps a long list quick to filter. */
+.item { content-visibility: auto; contain-intrinsic-size: auto 45px; }
 .item:target { background: var(--line); }
 .i-name { overflow-wrap: anywhere; }
 /* Every row keeps one square icon box, empty or not, so every row stands the same height. An icon taller than one
@@ -27,21 +28,60 @@ html:not(.show-unused) .item[data-unused] { display: none; }
 .i-icon.recon:hover::after, .i-icon.recon:focus::after { visibility: visible; }
 .i-icon img { display: block; width: 100%; height: 100%; object-fit: contain; }
 .i-type, .i-seen { color: var(--muted); }
-/* Flavour text sits under the row, across all but the icon column. With scripts it waits for a click, so every row
-   keeps one height; without them it shows. */
-.item.has-desc { cursor: pointer; }
-.item.has-desc:hover .i-name { text-decoration: underline dotted; }
-.i-desc { grid-column: 2 / -1; margin: 4px 0 2px; max-width: 70ch; font-size: 13px; line-height: 1.5; color: var(--muted); }
-.i-desc-vu { font-variant-numeric: tabular-nums; color: var(--fg); }
-html.js .item:not(.open) .i-desc { display: none; }
+.i-name-cell { min-width: 0; }
+/* What more there is to say (its description, stats, what dropped it) sits under the row, across all but the icon
+   column; with scripts it opens in a popup on a click, so every row keeps one height. */
+.item.has-more { cursor: pointer; }
+.item.has-more:hover .i-name { text-decoration: underline dotted; }
+.i-more { grid-column: 2 / -1; margin: 4px 0 6px; font-size: 13px; line-height: 1.5; cursor: auto; }
+/* With scripts a row's details open in a popup over the list (items.js, creatures.js); without them they show under
+   the row. */
+html.js .item .i-more { display: none; }
+.i-pop { width: min(860px, calc(100vw - 32px)); max-height: calc(100vh - 64px); padding: 0; color: var(--fg); background: var(--bg); border: 1px solid var(--line); border-radius: 0; }
+.i-pop::backdrop { background: rgba(0, 0, 0, .6); }
+.i-pop-head { position: sticky; top: 0; z-index: 1; display: flex; align-items: flex-start; gap: 12px; padding: 10px 12px 8px 16px; background: var(--bg); border-bottom: 1px solid var(--line); }
+.i-pop-title { flex: 1; min-width: 0; align-self: center; font-size: 20px; font-weight: bold; overflow-wrap: anywhere; }
+.i-pop-icon { width: 64px; height: 64px; margin: 2px 0 6px; }
+.i-pop-icon img { display: block; width: 100%; height: 100%; object-fit: contain; }
+.i-pop-close { flex: none; width: 32px; height: 32px; padding: 0; font: inherit; font-size: 20px; line-height: 1; color: var(--fg); background: transparent; border: 1px solid var(--control); border-radius: 0; cursor: pointer; }
+.i-pop-body { padding: 8px 16px 12px; overflow-wrap: anywhere; }
+.i-pop .i-more { margin: 0; font-size: 16px; line-height: 1.5; }
+/* In the popup the table spans its width: the field and question mark columns as narrow as their contents, the value
+   column taking the rest. */
+.i-pop .i-stats { width: 100%; }
+.i-pop .i-stats th { width: 1%; }
+.i-pop .i-stats td.v { max-width: none; }
+.i-stats th { font-variant-numeric: tabular-nums; }
+/* Each field shows its value and where it comes from; with scripts only the value for the chosen VU, and a value
+   from another VU than the chosen one is marked. The creatures that dropped it follow in the same columns. */
+.i-stats { border-collapse: collapse; margin: 2px 0 4px; }
+.i-stats th, .i-stats td { padding: 2px 20px 2px 0; text-align: left; vertical-align: top; }
+.i-stats th { font-weight: normal; white-space: nowrap; color: var(--muted); }
+.i-stats td.v { min-width: 8rem; max-width: 46ch; }
+html.js .i-stats .sv:not(.on) { display: none; }
+.sv.off .v { font-style: italic; }
+/* A field nothing gives a value for says unknown, quieter than a value. */
+.i-stats .unknown .v { color: var(--muted); font-style: italic; }
+/* A value's sources sit behind a question mark in its own column, between the field and the value: a tip below the mark while the pointer rests on it or it
+   has the focus, placed by the page's script to stay inside the window (beside the mark without it). */
+.i-stats th { padding-right: 12px; }
+.i-stats td.q { width: 18px; padding-right: 10px; }
+.src { position: relative; display: inline-block; width: 18px; height: 18px; font-size: 12px; line-height: 16px; text-align: center; vertical-align: 1px; color: var(--muted); border: 1px solid var(--control); cursor: help; }
+.src:hover, .src:focus { color: var(--fg); border-color: var(--fg); outline: none; }
+.src > span { position: absolute; left: 0; top: 100%; z-index: 3; width: max-content; max-width: min(400px, calc(100vw - 16px)); padding: 7px 10px; font-size: 14px; font-style: normal; font-weight: normal; line-height: 1.45; text-align: left; white-space: normal; color: var(--fg); background: var(--panel); border: 1px solid var(--line); visibility: hidden; }
+html.js .src > span { position: fixed; }
+.src:hover > span, .src:focus-within > span { visibility: visible; }
+.src .e { display: block; }
+.sv.off .src > span::before { content: "Nearest record: "; color: var(--muted); }
+.i-mixed { margin: 2px 0 4px; color: var(--muted); font-style: italic; }
+.drop.off { opacity: .45; }
 .i-tt, .i-cols span:nth-child(4) { text-align: right; font-variant-numeric: tabular-nums; }
 .i-seen { font-variant-numeric: tabular-nums; }
 @media (max-width: 640px) {
   .i-cols { display: none; }
-  .item { grid-template-columns: 36px minmax(0, 1fr) auto 1rem; }
-  .item .permalink { grid-column: 4; grid-row: 1; }
+  .item { grid-template-columns: 36px minmax(0, 1fr) auto; }
   .i-icon { grid-row: 1 / span 3; align-self: start; }
-  .i-name { grid-column: 2 / 4; }
+  .i-name-cell { grid-column: 2 / 4; }
   .i-type { grid-column: 2; }
   .i-tt { grid-column: 3; grid-row: 2; }
   .i-seen { grid-column: 2 / -1; font-size: 13px; }

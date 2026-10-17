@@ -1,0 +1,72 @@
+/* The Creatures page, on site.css's colours and type: one line per creature in four columns after a picture box,
+   which fold under the name on a narrow screen; its maturities, where it was seen and what it dropped open in a popup.
+   Values and their sources look as on the Items page. */
+.i-search { flex: 1 1 220px; }
+.i-search .ftext { flex: 1 1 auto; min-width: 0; min-height: 32px; padding: 0 8px; font: inherit; font-size: 14px; color: var(--fg); background: var(--bg); border: 1px solid var(--control); border-radius: 0; }
+.shown { margin: 12px 0 0; font-size: 14px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.item[hidden], html:not(.js) .shown { display: none; }
+.items { list-style: none; margin: 0; padding: 0; }
+.i-cols, .item { display: grid; grid-template-columns: 36px minmax(0, 1fr) 8rem 6rem 9rem; gap: 0 12px; align-items: center; }
+.i-cols { margin-top: 16px; padding: 6px 0 4px; border-bottom: 1px solid var(--line); font-size: 13px; font-weight: bold; color: var(--fg); }
+.item { padding: 4px 0; border-bottom: 1px solid var(--line); font-size: 14px; line-height: 1.4; }
+/* A row off screen is not laid out until it scrolls near, which keeps a long list quick to filter. */
+.item { content-visibility: auto; contain-intrinsic-size: auto 45px; }
+.item:target { background: var(--line); }
+.i-name-cell { min-width: 0; overflow-wrap: anywhere; }
+/* Every row keeps one square picture box, as on the Items page; no creature has a picture yet. */
+.i-icon { width: 36px; height: 36px; }
+.i-type, .i-seen, .c-count { color: var(--muted); }
+.c-count, .i-seen { font-variant-numeric: tabular-nums; }
+.item.has-more { cursor: pointer; }
+.item.has-more:hover .i-name { text-decoration: underline dotted; }
+.i-more { grid-column: 2 / -1; margin: 4px 0 6px; font-size: 13px; line-height: 1.5; cursor: auto; }
+/* With scripts a row's details open in a popup over the list (items.js, creatures.js); without them they show under
+   the row. */
+html.js .item .i-more { display: none; }
+.i-pop { width: min(860px, calc(100vw - 32px)); max-height: calc(100vh - 64px); padding: 0; color: var(--fg); background: var(--bg); border: 1px solid var(--line); border-radius: 0; }
+.i-pop::backdrop { background: rgba(0, 0, 0, .6); }
+.i-pop-head { position: sticky; top: 0; z-index: 1; display: flex; align-items: flex-start; gap: 12px; padding: 10px 12px 8px 16px; background: var(--bg); border-bottom: 1px solid var(--line); }
+.i-pop-title { flex: 1; min-width: 0; align-self: center; font-size: 20px; font-weight: bold; overflow-wrap: anywhere; }
+.i-pop-icon { width: 64px; height: 64px; margin: 2px 0 6px; }
+.i-pop-icon img { display: block; width: 100%; height: 100%; object-fit: contain; }
+.i-pop-close { flex: none; width: 32px; height: 32px; padding: 0; font: inherit; font-size: 20px; line-height: 1; color: var(--fg); background: transparent; border: 1px solid var(--control); border-radius: 0; cursor: pointer; }
+.i-pop-body { padding: 8px 16px 12px; overflow-wrap: anywhere; }
+.i-pop .i-more { margin: 0; font-size: 16px; line-height: 1.5; }
+.i-stats { border-collapse: collapse; margin: 2px 0 4px; }
+.i-stats th, .i-stats td { padding: 2px 20px 2px 0; text-align: left; vertical-align: top; }
+.i-stats th { font-weight: normal; white-space: nowrap; color: var(--muted); }
+.i-stats td.v { min-width: 8rem; max-width: 46ch; }
+html.js .i-stats .sv:not(.on) { display: none; }
+.sv.off .v { font-style: italic; }
+/* A field nothing gives a value for says unknown, quieter than a value. */
+.i-stats .unknown .v { color: var(--muted); font-style: italic; }
+/* A value's sources sit behind a question mark in its own column, between the field and the value: a tip below the mark while the pointer rests on it or it
+   has the focus, placed by the page's script to stay inside the window (beside the mark without it). */
+.i-stats th { padding-right: 12px; }
+.i-stats td.q { width: 18px; padding-right: 10px; }
+.src { position: relative; display: inline-block; width: 18px; height: 18px; font-size: 12px; line-height: 16px; text-align: center; vertical-align: 1px; color: var(--muted); border: 1px solid var(--control); cursor: help; }
+.src:hover, .src:focus { color: var(--fg); border-color: var(--fg); outline: none; }
+.src > span { position: absolute; left: 0; top: 100%; z-index: 3; width: max-content; max-width: min(400px, calc(100vw - 16px)); padding: 7px 10px; font-size: 14px; font-style: normal; font-weight: normal; line-height: 1.45; text-align: left; white-space: normal; color: var(--fg); background: var(--panel); border: 1px solid var(--line); visibility: hidden; }
+html.js .src > span { position: fixed; }
+.src:hover > span, .src:focus-within > span { visibility: visible; }
+.src .e { display: block; }
+.sv.off .src > span::before { content: "Nearest record: "; color: var(--muted); }
+.i-mixed { margin: 2px 0 4px; color: var(--muted); font-style: italic; }
+.c-head { margin: 10px 0 2px; color: var(--muted); }
+.drop.off { opacity: .45; }
+/* The popup's tables (the creature's stats, each maturity's, where it was seen, what it dropped) share one label
+   width, so labels and values line up from top to bottom. */
+.i-pop .i-stats { width: 100%; table-layout: fixed; }
+.i-pop .i-stats td.q { width: 28px; }
+.i-pop .i-stats th { width: 30%; white-space: normal; }
+.i-pop .i-stats td.v { max-width: none; }
+.c-mname th { padding-top: 8px; font-weight: bold; color: var(--fg); }
+@media (max-width: 640px) {
+  .i-cols { display: none; }
+  .item { grid-template-columns: 36px minmax(0, 1fr) auto; }
+  .i-icon { grid-row: 1 / span 3; align-self: start; }
+  .i-name-cell { grid-column: 2 / 4; }
+  .i-type { grid-column: 2; }
+  .c-count { grid-column: 3; grid-row: 2; }
+  .i-seen { grid-column: 2 / -1; font-size: 13px; }
+}

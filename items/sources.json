@@ -1,59 +1,94 @@
 {
+  "precedence": [
+    "game",
+    "official",
+    "player",
+    "client",
+    "owner"
+  ],
+  "kinds": {
+    "game": "The game's own windows, read off dated screenshots in the Archive's Media: what the live game showed.",
+    "official": "MindArk's own word: release notes, the official site.",
+    "player": "What players recorded of the live game on their sites: auctions, loot, stats read off the items.",
+    "client": "A client's own files, which name what the game could hold, not what was in circulation.",
+    "owner": "The owner's judgements and inferences."
+  },
   "sources": {
     "pea": {
       "name": "PE Auction",
       "link": "../sites/#pe-auction",
+      "kind": "player",
       "about": "The player-run price site that recorded the in-game auction from October 2005, read from the Wayback Machine's captures of peauction.com (harvested 2026-10-09 to 2026-10-11, nothing on or after 2009-10-06). An item seen on a day was on the auction or the site's lists that day, so it existed by then. The earliest auction it recorded ended on 17 October 2005, so a first sighting there is not when an item came into the game. Names, other spellings and categories are as the site printed them; TT values are those of its item pages."
+    },
+    "entropia-loot": {
+      "name": "Entropia Loot",
+      "link": "../sites/#entropia-loot",
+      "kind": "player",
+      "about": "entropia-loot.com, Zap's Loot Table, 2006 to 2009: what each creature dropped, entered by players and listed VU by VU from VU 6.0. A loot entry cites the VUs the site listed it under and, where it spelled the item otherwise, the names it printed; the site gave no drop rates and said a creature's maturity did not change what it dropped. Its creature details (class, damage types, movement, speed and combat) are cited by the first and last captures that printed them. Read from the Archive's Wayback copy of the site; an item it names that matches no other is added as it printed it."
+    },
+    "pe-wikicharts": {
+      "name": "PE WikiCharts",
+      "link": "../sites/#pe-wikicharts",
+      "kind": "player",
+      "about": "pe-wiki.info, later Entropedia, 2005 to 2007: an item and creature wiki written by players. Its values are cited by the first and last captures that printed them, so a value's VU is the one current when Wayback recorded the page, not when a player entered it. Values that follow from others (damage per second, power, cost per shot, economy) are not kept. The markups it printed were PE Auction's averages. It gave an armour piece once for both genders, which always had the same stats; a set's protection and durability, which every piece of the set has alike, are kept once on the set (sets.json). Read from the Archive's Wayback copy of the site; an item it names that matches no other is added as it printed it."
     },
     "itemicon-5.4": {
       "name": "Icons drawn from the VU 5.4 client",
+      "kind": "client",
       "about": "Inventory icons drawn by PEViewer's itemicon.py from the VU 5.4 client's own data: the item's model, skin and pose, rendered the way the client's icon generator draws them, armour on the wearer's body. An icon names the item class it was drawn from (class), the item within it (item) and the body (sex). Armour is drawn without the parts of the body its colour mask leaves uncovered (itemicon.py armour-set --cut), which the client would fill with the wearer's skin. An armour icon's colours are not read from the client, which took them from the server: they are the three colours its red, green and blue masks were painted with, kept once per set under looks in icons.json with where they come from, a fit to a dated picture or a choice made for the Archive. Either way the icon is a reconstruction, not a picture the game showed."
     },
     "itemicon-9.1.5": {
       "name": "Icons drawn from the VU 9.1.5 client",
+      "kind": "client",
       "about": "Inventory icons drawn by PEViewer's itemicon.py from the VU 9.1.5 client's own model, textures and the icon camera it stores with the model, through the record the 9.1.5 icon generator uses for an inventory icon (record 1), at the size that record names. An icon names the item class (class), the model (model), the skin's place (variant), the camera (camera) and why the items it is given wore it (basis). It shows the item as the 2008 client drew it, which can differ from the 2003 to 2006 clients; it is a reconstruction, not a picture the game showed."
     },
     "itemicon-5.7.1": {
       "name": "Icons drawn from the VU 5.7.1 client",
+      "kind": "client",
       "about": "Inventory icons drawn by PEViewer's itemicon.py from the VU 5.7.1 client's model and the icon camera it stores with the model (camera \"record\"), the way the client's icon generator draws them. 5.7.1 ships no textures, so the skin is the VU 9.1.5 client's texture of the same id. An icon names the item class (class), the model (model), the skin's place in the class's skin table (variant) and why the items it is given wore it (basis). The icon is a reconstruction, not a picture the game showed."
     },
     "set": {
       "name": "Inferred from the armour set",
+      "kind": "owner",
       "about": "An armour set came into the game as one release, so when one piece of a set is seen in a VU, the other pieces that set had then are taken to have been in the game too. The fact names the items it rests on (basis). Inferred for the Archive in 2026; no capture shows the piece itself in that VU."
     },
     "client-5.4": {
       "name": "The VU 5.4 client",
       "link": "../clients/#vu-5.4-files",
-      "about": "The VU 5.4 client's own data (the Level 109 install; the E3 2004 disc holds the same files): every item its string tables name, with its key (its class and index are the key's two halves), its description, and the category the client files it under (read from its member table or inferred by a rule, category_basis), or for an item outside that taxonomy its inventory tab (petest's Tools/arkitems.py, arkstrings.py and arkinventory.py, DeepDive/5.4/Catalogue/); for armour also its set (arkwearables.py). An item the client names was in the game's data at VU 5.4, and the name is the one it carried then, misspellings included (Necromancer Armor helemet (female)). Left out: names that are not items, placeholders (RemoveMe), names the client marks retired with X_ prefixes (O_Basic Absorbers) eleven armour working titles, the items of the inventory's Food tab and the injections, as neither was ever used. An icon from this source (file texture-<texture>_client_5.4.png, one per texture) is a picture the client stores, taken where its class keeps one texture for every item; where a class keeps a table of several, the server chose by the item's variant and none is taken.",
-      "vu": "5.4"
+      "vu": "5.4",
+      "kind": "client",
+      "about": "The VU 5.4 client's own data (the Level 109 install; the E3 2004 disc holds the same files): every item its string tables name, with its key (its class and index are the key's two halves), its description, and the category the client files it under (read from its member table or inferred by a rule, category_basis), or for an item outside that taxonomy its inventory tab (petest's Tools/arkitems.py, arkstrings.py and arkinventory.py, DeepDive/5.4/Catalogue/); for armour also its set (arkwearables.py). An item the client names was in the game's data at VU 5.4, and the name is the one it carried then, misspellings included (Necromancer Armor helemet (female)). Left out: names that are not items, placeholders (RemoveMe), names the client marks retired with X_ prefixes (O_Basic Absorbers) eleven armour working titles, the items of the inventory's Food tab and the injections, as neither was ever used. An icon from this source (file texture-<texture>_client_5.4.png, one per texture) is a picture the client stores, taken where its class keeps one texture for every item; where a class keeps a table of several, the server chose by the item's variant and none is taken."
     },
     "client-5.1": {
       "name": "The VU 4.2 client's ARMOR BOOK",
       "link": "../clients/#vu-5.1-files",
-      "about": "The client of January 2003's VU 4.2 data under July 2003's VU 5.1 program (the reference client keyed 5.1). It ships no item names, but its script object 3416.obj, the in-game ARMOR BOOK, names 108 armour blueprints, 18 sets of six pieces, each set at a book level (petest's docs/avatar-model.md). A blueprint the book names was in the game's data at VU 4.2, under the name the book spells, slips included. These are blueprint names: the book does not show that the worn piece carried the same name.",
-      "vu": "4.2"
+      "vu": "4.2",
+      "kind": "client",
+      "about": "The client of January 2003's VU 4.2 data under July 2003's VU 5.1 program (the reference client keyed 5.1). It ships no item names, but its script object 3416.obj, the in-game ARMOR BOOK, names 108 armour blueprints, 18 sets of six pieces, each set at a book level (petest's docs/avatar-model.md). A blueprint the book names was in the game's data at VU 4.2, under the name the book spells, slips included. These are blueprint names: the book does not show that the worn piece carried the same name."
     },
     "client-9.1.5": {
       "name": "The VU 9.1.5 client",
       "link": "../clients/#vu-9.1.5-files",
-      "about": "The VU 9.1.5 client of December 2007: the item names and descriptions of its string tables (tables 1 and 2, language 1, English; petest's Tools/arkstrings.py). Only items the page already lists take facts from it, matched by name: it shows such an item still in the game's data at VU 9.1.5, under the name it carried then. Its other items are not added.",
-      "vu": "9.1"
+      "vu": "9.1",
+      "kind": "client",
+      "about": "The VU 9.1.5 client of December 2007: the item names and descriptions of its string tables (tables 1 and 2, language 1, English; petest's Tools/arkstrings.py). Only items the page already lists take facts from it, matched by name: it shows such an item still in the game's data at VU 9.1.5, under the name it carried then. Its other items are not added."
     },
     "client-9.2.2": {
       "name": "The VU 9.2.2 client",
       "link": "../clients/#vu-9.2.2-files",
-      "about": "The VU 9.2.2 client of February 2008: the item names and descriptions of its string tables (tables 1 and 2, language 1, English; petest's Tools/arkstrings.py). Only items the page already lists take facts from it, matched by name: it shows such an item still in the game's data at VU 9.2.2, under the name it carried then. Its other items are not added.",
-      "vu": "9.2"
+      "vu": "9.2",
+      "kind": "client",
+      "about": "The VU 9.2.2 client of February 2008: the item names and descriptions of its string tables (tables 1 and 2, language 1, English; petest's Tools/arkstrings.py). Only items the page already lists take facts from it, matched by name: it shows such an item still in the game's data at VU 9.2.2, under the name it carried then. Its other items are not added."
     },
     "client-9.3.5": {
       "name": "The VU 9.3.5 client",
       "link": "../clients/#vu-9.3.5-files",
-      "about": "The VU 9.3.5 client of September 2008: the item names and descriptions of its string tables (tables 1 and 2, language 1, English; petest's Tools/arkstrings.py). Only items the page already lists take facts from it, matched by name: it shows such an item still in the game's data at VU 9.3.5, under the name it carried then. Its other items are not added.",
-      "vu": "9.3"
+      "vu": "9.3",
+      "kind": "client",
+      "about": "The VU 9.3.5 client of September 2008: the item names and descriptions of its string tables (tables 1 and 2, language 1, English; petest's Tools/arkstrings.py). Only items the page already lists take facts from it, matched by name: it shows such an item still in the game's data at VU 9.3.5, under the name it carried then. Its other items are not added."
     },
     "owner": {
       "name": "The Archive's owner",
-      "about": "Judgements by the Entropia Archive's owner, who played the game. Which items were never in use: such an item names one of the reasons below in unused, and the page hides it. Which stored picture an item wore where the client cannot say: the item's icon carries assigned, with the day and the basis.",
       "reasons": {
         "food": {
           "text": "Food was never used in the game.",
@@ -71,7 +106,93 @@
           "text": "Not in use in the game.",
           "date": "2026-10-14"
         }
-      }
+      },
+      "kind": "owner",
+      "about": "Judgements by the Entropia Archive's owner, who played the game. Which items were never in use: such an item names one of the reasons below in unused, and the page hides it. Which stored picture an item wore where the client cannot say: the item's icon carries assigned, with the day and the basis."
+    },
+    "pe-player": {
+      "name": "PE Player",
+      "link": "../sites/#pe-player",
+      "kind": "player",
+      "about": "pe-player.com, 2004 to 2005: lists and pages of weapons, armour, minerals, clothes, estates and blueprints, a creature list with each maturity's attribute ranges and health and damage classes, and auction histories from before PE Auction, all entered by players. Its values are cited by the first and last captures that printed them; a 0 meant nobody filled the field in and is not kept. Its auctions show an item on the market from the first to the last day a sale of it was recorded. A creature it spelled otherwise (\"Comundacauda\") is read as the one creature spelled alike. Read from the Archive's Wayback copy of the site; an item it names that matches no other is added as it printed it."
+    },
+    "perc": {
+      "name": "PERC",
+      "link": "../sites/#perc",
+      "kind": "player",
+      "about": "perc.info, Starfinder's site, 2004 to 2005: charts of laser and BLP rifles and pistols, melee weapons, amplifiers, first-aid packs, scanners and mindforce implants, and the TT value of each refined mineral. Its values are cited by the first and last captures that printed them; attacks per minute are the chart's rounds per second times 60, and values that follow from others (damage per second, rating, damage per PEC) are not kept. Read from the Archive's Wayback copy of the site; an item it names that matches no other is added as it printed it."
+    },
+    "weapon-calculator": {
+      "name": "Weapon calculator",
+      "link": "../sites/#weapon-calculator",
+      "kind": "player",
+      "about": "weapcalc.ogre-online.com, Gargamel's Entropia Weapon Tool, 2006 to 2008: each weapon's attacks per minute, decay, ammo and damage at full skill, and the hit points of every creature maturity in its creature list. Its values are cited by the first and last captures that printed them; its economy figures follow from them and are not kept. Read from the Archive's Wayback copy of the site; an item it names that matches no other is added as it printed it."
+    },
+    "pe-database": {
+      "name": "PE Database",
+      "link": "../sites/#pe-database",
+      "kind": "player",
+      "about": "frink.controllercode.com, July 2002: the earliest item and creature data, 19 weapons with damage by type, value, weight and ammo, 89 creature maturities with hit points, the damage players saw them hit for and speed, and 17 sightings of creatures with their X, Y and Z and the day each was found. Cited by the captures of 2 July 2002. A hit point figure given as a lower bound (\"150+\") is not kept. It spelled some creatures otherwise (\"Areneatrox\"), which are read as the one creature spelled alike. Read from the Archive's Wayback copy of the site; an item it names that matches no other is added as it printed it."
+    },
+    "melchiors-armoury": {
+      "name": "Melchior's armoury",
+      "link": "../sites/#melchiors-armoury",
+      "kind": "player",
+      "about": "hem.passagen.se/samuelkarlsson, Melchior's armour crafting pages, 2002: each armour set's protection, duration and where it was had, each piece's TT value (October 2002) and the level of each armour blueprint he held (July 2002). A set's duration is its durability. Its \"Facemask\" is the set's head piece, which its blueprint page calls \"Face\"; a piece's TT value goes to both genders, which had the same stats. Read from the Archive's Wayback copy of the site; an item it names that matches no other is added as it printed it."
+    },
+    "pecharts-loot": {
+      "name": "PE Charts",
+      "link": "../sites/#pecharts-loot",
+      "kind": "player",
+      "about": "pecharts.info, 2004 to 2005: Paul Crystal's weapon chart (damage, range, reload, ammo, decay and TT value), GeeKman's first-aid pack and armour charts, and Roth's armour decay chart of January 2005, the PEC a piece decays for each point of damage it absorbs. Its values are cited by the first and last captures that printed them; the weapon chart's 0 meant not known and is not kept, nor are its burst, power and economy, which follow from the rest. Read from the Archive's Wayback copy of the site; an item it names that matches no other is added as it printed it."
+    },
+    "electra": {
+      "name": "PE-Electra",
+      "link": "../sites/#electra",
+      "kind": "player",
+      "about": "www.wou.de/electra, Electra's fashion page, 2004 to 2005: each clothing item's availability for each gender, TT value and description, the looted lines and the tailored clothes with their blueprint levels and components, and galleries of every item, each listing a sighting on the day of its capture. Cited by the first and last captures that showed each fact. Read from the Archive's Wayback copy of the site; an item it names that matches no other is added as it printed it."
+    },
+    "mytwopecs": {
+      "name": "MyTwoPecs",
+      "link": "../sites/#mytwopecs",
+      "kind": "player",
+      "about": "mytwopecs.com, Entropia Market Watch, 2005 to 2009: the auction markup of stackable goods (minerals, materials, enmatters, alien parts, armour attachments, robotics, carpentry), printed several times a day. One reading is kept for each good and VU, the last capture made in that VU, which the value cites. Read from the Archive's Wayback copy of the site; an item it names that matches no other is added as it printed it."
+    },
+    "chipping-optimizer": {
+      "name": "Chipping Optimizer",
+      "link": "../sites/#chipping-optimizer",
+      "kind": "player",
+      "about": "jdegre.net/pe/unlocker.php, 2007 to 2009: the markup of every skill implant and of the Empty Skill Implant (L), which the tool took from PE Auction. One reading is kept for each implant and VU, the last capture made in that VU, which the value cites. Read from the Archive's Wayback copy of the site; an item it names that matches no other is added as it printed it."
+    },
+    "spencer-blueprints": {
+      "name": "Ghandi's creature catalogue",
+      "link": "../sites/#spencer-blueprints",
+      "kind": "player",
+      "about": "spencer.aurig.us/pe_creatures.htm, October 2003: the creature maturities Ghandi (Spencer) found himself, names only; the pages it linked to, with each creature's details, were not captured. Cited by the capture that listed them. It spelled some creatures otherwise (\"Cornundacacuda\"), which are read as the one creature spelled alike. Read from the Archive's Wayback copy of the site."
+    },
+    "eunalysis": {
+      "name": "Eunalysis",
+      "link": "../sites/#eunalysis",
+      "kind": "player",
+      "about": "eunalysis.mine.nu, 2008: the 20 latest globals at each capture, from BruuD's chat-reading program. The creatures and maturities they name are cited by the capture, and the ores, enmatters and manufactured items they name are seen on its day; a global's player and value are not kept. Read from the Archive's Wayback copy of the site."
+    },
+    "irken-invaders": {
+      "name": "Irken Invaders",
+      "link": "../sites/#irken-invaders",
+      "kind": "player",
+      "about": "irken-invaders.net, Squee's Items DB, 2008: for each item page captured, its TT value, the markup the site worked out from the last 7 days' sales (one reading per VU) and its last 50 auction sales, which show it on the market from the first to the last sale's day; and the site's whole list of item names, each seen on the day of the capture. Read from the Archive's Wayback copy of the site; an item it names that matches no other is added as it printed it."
+    },
+    "entropia-tools": {
+      "name": "Entropia Tools",
+      "link": "../sites/#entropia-tools",
+      "kind": "player",
+      "about": "entropiatools.com, CareBear's tools, 2006 to 2008: the weapons its damage per PEC comparison listed, each seen from the first to the last capture that listed it; the comparison ran on the server and is not in the pages. Read from the Archive's Wayback copy of the site; an item it names that matches no other is added as it printed it."
+    },
+    "item-window": {
+      "name": "Item window screenshot",
+      "link": "../media/?tags=item-info-ui",
+      "kind": "game",
+      "about": "The game's own item window, in the Archive's dated screenshots (Media pictures tagged item-info-ui), read by eye: the item's name as the window printed it, its weight, its protection and durability by damage type, and a TT value where the window printed the maximum. A value cites the picture, whose VU is the one its record states, or else that of the latest day it can date from: a picture dated only \"on or before\" a day shows the value in that day's VU or earlier. The Info tab's Value is the item's value at its condition, not its full TT value, and is not taken; nor is the second column some windows show, the item with an attachment. Read so far: the armour pictures (the editor's screenshots/armour.json)."
     }
   }
 }

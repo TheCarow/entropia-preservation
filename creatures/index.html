@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<!-- A browser that runs scripts gets the filters. Without scripts, or in a copy of the page that lacks creatures.js,
+     every creature and every value shows and the filters are left out (site.css, html:not(.js)). -->
+<script>document.documentElement.classList.add("js");addEventListener("load",function(){if(!document.documentElement.dataset.script)document.documentElement.classList.remove("js")});</script>
+<title>Creatures | Entropia Archive</title>
+<meta name="description" content="The creatures of Project Entropia and early Entropia Universe up to VU 10: their details and what they dropped, VU by VU, with the source of every fact.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Entropia Archive">
+<meta property="og:title" content="Creatures | Entropia Archive">
+<meta property="og:description" content="The creatures of Project Entropia and early Entropia Universe up to VU 10: their details and what they dropped, VU by VU, with the source of every fact.">
+<link rel="stylesheet" href="../site.css?v=34">
+<link rel="stylesheet" href="creatures.css?v=19">
+<script src="creatures.js?v=18" defer></script>
+</head>
+<body>
+<main>
+<h1><img class="logo" src="../images/plcd.png" alt="" width="40" height="40">Entropia Archive</h1>
+<nav class="site-nav"><a href="../">Home</a><a href="../clients/">Clients</a><a href="../media/">Media</a><a href="../articles/">Articles</a><a href="../sites/">Sites &amp; Tools</a><a href="../items/">Items</a><a href="./" aria-current="page">Creatures</a><a href="../skills/">Skills</a></nav>
+<div id="app"></div>
+<footer class="footer">
+<p>Project Entropia and Entropia Universe are the work of MindArk&nbsp;PE&nbsp;AB. This is an independent preservation project, not affiliated with MindArk.</p>
+<p>The data behind this page, with the source of every fact: <!--files--></p>
+<p>Est 2026-08-20.</p>
+</footer>
+</main>
+</body>
+</html>
