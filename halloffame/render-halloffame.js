@@ -64,7 +64,9 @@ const lootHTML = (r) => (!r.loot ? "" : r.target ? esc(r.loot) : named(r, r.loot
 // all-time high, a name the window cut or printed unreadably, an earlier spelling, and how its day was worked out.
 function details(r) {
   const how = {C: "crafted", P: "a private hunt", T: "a team hunt"}[r.how];
-  return [r.team ? "a team" : "", r.all_time_high ? "an all-time high" : "", r.cut ? "the name cut off at the window's edge" : "",
+  const ranks = (r.ranks || []).map(([list, rank]) => `number ${rank} in the ${esc(list)} list`).join(" and ");
+  return [r.team ? "a team" : "", r.society ? `of the society ${esc(r.society)}` : "", r.all_time_high ? "an all-time high" : "",
+    ranks ? `the Hall of Fame window showed it ${ranks}` : "", r.cut ? "the name cut off at the window's edge" : "",
     r.unread ? "the name printed in glyphs that cannot be read" : "", how, r.place ? `at ${esc(r.place)}` : "", r.share !== undefined ? `his share ${esc(r.share)} PED` : "",
     r.sold !== undefined ? `sold for ${esc(r.sold)} PED` : "", r.note ? `“${esc(r.note)}”` : "",
     r.as ? `first listed as ${r.as.map(esc).join(", ")}` : ""].filter(Boolean).join("; ");
@@ -72,8 +74,8 @@ function details(r) {
 function dayNote(r) {
   return r.day_from === "capture" ? "The site printed the time alone; the day is its capture's."
     : r.year_from === "capture" ? "The site printed the day and month alone; the year is its capture's."
-    : r.sources.some(([, c]) => typeof c === "string") && !r.sources.some(([, c]) => typeof c === "number")
-      ? (r.day ? "The day is its picture's in Media." : "Media dates its picture no closer than this.") : "";
+    : r.sources.every(([source]) => source === "chat-screenshot")
+      ? (r.day ? "The day is its picture's in Media." : r.after || r.before ? "Media dates its picture no closer than this." : "Media does not date its picture.") : "";
 }
 // The year a record is of: its day's, or the one year its bounds share.
 const yearOf = (r) => (r.day || (r.after && r.before && r.after.slice(0, 4) === r.before.slice(0, 4) ? r.after : "")).slice(0, 4);
@@ -88,7 +90,7 @@ const option = (value, text) => `<option value="${esc(value)}">${esc(text)}</opt
 function rowHTML(r) {
   const vus = hallVus(r);
   const vu = hallVuText(vus);
-  const text = [r.player, r.target, r.loot || "", ...(r.as || []), r.note || "", r.place || "",
+  const text = [r.player, r.target, r.loot || "", r.society || "", ...(r.as || []), r.note || "", r.place || "",
     r.creature ? creatures.get(r.creature).name : "", r.item ? items.get(r.item).name : ""].join(" ").toLowerCase();
   const note = dayNote(r);
   const more = details(r);

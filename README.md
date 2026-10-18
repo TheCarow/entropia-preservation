@@ -254,8 +254,9 @@ cite by place.
 `halloffame/data/records.json` holds every global and Hall of Fame loot players recorded: PE Player's list of its users'
 Hall of Fame loots (`"pe-player"`, 2003 and 2004), Nirfu's list of his own (`"nirfu"`, 2006 and 2007), Eunalysis' 20
 latest globals (`"eunalysis"`, 2008) and Entropia Loot's last five globals on each creature, tracked by Eunalysis
-(`"entropia-loot"`, 2008), each as the site printed it, and the globals the game's own chat window printed in the
-Archive's Media pictures (`"chat-screenshot"`, 2003 to 2009). The private editor's `tools/halloffame.py` writes it
+(`"entropia-loot"`, 2008), each as the site printed it, the entries the game's own Hall of Fame window listed in the
+Archive's Media pictures (`"hof-window"`), and the globals its chat window printed in them (`"chat-screenshot"`, 2003 to
+2009). The private editor's `tools/halloffame.py` writes it
 whole. A record several captures, sites or pictures printed alike is one record. `captures` lists the Wayback captures
 the records cite by place.
 
@@ -264,13 +265,14 @@ the records cite by place.
 | `day`, `time` | When, as printed. `day_from: "capture"` marks a day Eunalysis did not print (its capture's); `year_from: "capture"` a year Entropia Loot did not print (its capture's, or the year before for a later day). A global only pictures show has its picture's day where Media dates it to the day; else `after` and `before` give the bounds Media gives, and a picture Media cannot date leaves it with neither. |
 | `player` | The player, or the team, as printed; empty where the site printed none. `team: true` marks a team; `cut: true` a name the chat window cut off at its edge, `unread: true` one printed in glyphs that cannot be read (left empty). |
 | `target` | What was killed, mined or made, as printed; `as` lists an earlier printing where the site changed it. Empty where a source named only the loot. |
-| `loot` | What the target dropped, where a source named it: Nirfu's note after a creature's name, or the item a silent global from a hunt dropped. |
+| `loot` | What the target dropped, where a source named it: Nirfu's note after a creature's name, the item a silent global from a hunt dropped, or what the chat says each member of a team received. |
 | `creature`, `maturity`, `item` | The creature (and maturity) or the item it names, on the Creatures or Items page. |
 | `value` | The loot's value in PED. |
-| `kind` | `"global"`, `"hof"` (recorded in the Hall of Fame) or `"silent"` (Nirfu's silent global, worth one but not announced). `all_time_high: true` marks a loot the chat called an all-time high. |
+| `kind` | `"global"`, `"hof"` (recorded in the Hall of Fame) or `"silent"` (Nirfu's silent global, worth one but not announced). `all_time_high: true` marks a loot the chat called an all-time high or the Hall of Fame window listed among them. |
+| `society`, `ranks` | What the Hall of Fame window printed: the player's society, and each list it showed the entry in with its place, `[list, place]`. |
 | `activity` | `"hunting"`, `"mining"` or `"crafting"`, where the source says or what it names shows it. |
 | `how`, `place`, `share`, `sold`, `note` | What a source added: Nirfu's mark (C crafting, P a private hunt, T a team hunt), where, his share of a team's loot or the sale price, and a player's note. |
-| `sources` | Each source and capture, `[source, capture]`, the capture by its place in `captures`; for `"chat-screenshot"` the picture by its Media id, `[source, "<id>"]`. |
+| `sources` | Each source and capture, `[source, capture]`, the capture by its place in `captures`; for `"hof-window"` and `"chat-screenshot"` the picture by its Media id, `[source, "<id>"]`. |
 
 The Hall of Fame page lists every record, newest first, with filters by kind, activity, source, year and words; an
 address naming a creature (`?c=<id>`) or an item (`?i=<id>`) shows its records alone. The Creatures and Items pages

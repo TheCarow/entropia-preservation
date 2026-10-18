@@ -30,7 +30,7 @@ h1, .intro, .news, .section-head h2, .panel.notes, .footer { font-family: var(--
 h1 { display: flex; align-items: center; gap: 12px; margin: 0 0 8px; font-size: 1.6rem; line-height: 1.25; font-weight: 700; }
 h1 .logo { flex: none; width: 40px; height: 40px; }
 /* The site's pages, linked under the heading on each */
-.site-nav { display: flex; gap: 22px; margin: 0 0 22px; font-family: var(--serif); font-size: 1.05rem; }
+.site-nav { display: flex; flex-wrap: wrap; gap: 6px 22px; margin: 0 0 22px; font-family: var(--serif); font-size: 1.05rem; }
 .site-nav a { text-decoration: none; }
 .site-nav a[aria-current="page"] { color: var(--fg); font-weight: 600; border-bottom: 2px solid var(--fg); }
 .intro { margin: 0 0 24px; }
