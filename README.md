@@ -14,6 +14,7 @@
 | `skills/` | The Skills page. `data/skills.json` holds the skills and `data/ranks.json` the 5.4 client's rank ladder (see [A skill](#a-skill)); `render-skills.js` draws them into the page, `skills.js` adds its filters and popups and `skills.css` styles it. |
 | `auction/` | The Auction page. `data/items/<item id>.json` holds every auction players recorded of one item and the markups the price sites printed for it, `charts/` PE Auction's own charts and `data/houses.json` the listings of the auction houses players ran (see [An auction record](#an-auction-record)); `render-auction.js` draws the list and the houses, `auction.js` adds its filters and the popup with each item's chart and records, and `auction.css` styles it. |
 | `halloffame/` | The Hall of Fame page. `data/records.json` holds every global and Hall of Fame loot players recorded (see [A Hall of Fame record](#a-hall-of-fame-record)); `render-halloffame.js` draws them into one table, `halloffame.js` adds its filters and `halloffame.css` styles it. |
+| `societies/` | The Societies page. `data/societies.json` holds every society the sources name (see [A society](#a-society)); `render-societies.js` draws them into one list, `societies.js` adds its filters and `societies.css` styles it. |
 | `versions.json` | Every version and every client file. Edited by hand. |
 | `notes.md` | The release notes' text, one `## VU <version>` section per version. Edited by hand. |
 | `images/discs/` | Pictures of the discs that client files were found on. |
@@ -277,6 +278,29 @@ the records cite by place.
 The Hall of Fame page lists every record, newest first, with filters by kind, activity, source, year and words; an
 address naming a creature (`?c=<id>`) or an item (`?i=<id>`) shows its records alone. The Creatures and Items pages
 link each creature and item with records there and list its Hall of Fame loots.
+
+### A society
+
+`societies/data/societies.json` holds every society the archive's sources name: the game's own Hall of Fame window in
+the Archive's pictures (`"hof-window"`, each player listed with the society the window printed), PE WikiCharts
+(`"pe-wikicharts"`, its chart of societies, each society's page and each avatar's page) and Entropia Loot's list of
+society websites (`"entropia-loot"`). The private editor's `tools/societies.py` writes it whole. A society is one name,
+its case, spacing and punctuation aside; "Freelancer", the Hall of Fame window's word for a player in no society, is
+not one. `captures` lists the Wayback captures the facts cite by place.
+
+| Field | What it holds |
+|---|---|
+| `id`, `name`, `as` | Its address on the page (`#<id>`), the name the sources print most, and the other ways they print it. |
+| `founded`, `founder`, `leader`, `skill_rank`, `people_rank` | What PE WikiCharts says, each value with its sources and the days it was seen. |
+| `websites` | Each home page a source gives, with its sources and the days it was seen. |
+| `land` | Each land area PE WikiCharts says it owned: deed, land, type, taxes, continent, position and size. |
+| `members` | Each player seen in it, with the days seen, the society rank where PE WikiCharts gives one, and the sources. |
+| `site` | Its entry on the Sites page, where it has one. |
+| `sources`, `seen` | Every source that names it, each source's first and last capture (or every picture), and the first and last day seen. |
+
+A fact's `sources` are `[source, capture]`, the capture by its place in `captures`, or `[source, "<id>"]` for a picture.
+The Societies page lists every society; each opens to its facts, its members and its land, and links its Hall of Fame
+records. The Hall of Fame page links a record's society here.
 
 ## Publishing
 

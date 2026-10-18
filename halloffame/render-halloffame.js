@@ -47,6 +47,16 @@ if (problems.length) {
   stop(`${problems.length} problem(s) in the Hall of Fame data. Nothing was written.\n  ${problems.slice(0, 50).join("\n  ")}`);
 }
 
+// A society, linked to its entry on the Societies page where it has one.
+const societyIds = new Map();
+const societiesFile = path.join(SITE, "societies", "data", "societies.json");
+for (const s of fs.existsSync(societiesFile) ? load(societiesFile).societies : []) {
+  for (const name of [s.name, ...(s.as || [])]) societyIds.set(name.toLowerCase().replace(/[^a-z0-9]/g, ""), s.id);
+}
+function societyLink(name) {
+  const id = societyIds.get(name.toLowerCase().replace(/[^a-z0-9]/g, ""));
+  return id ? `<a href="../societies/#${esc(id)}">${esc(name)}</a>` : esc(name);
+}
 // What a record names, linked to its page where it has one: its target, the creature (with its maturity as printed)
 // or the item; else its loot, the item a silent global dropped, shown behind its question mark.
 function named(r, text) {
@@ -65,7 +75,7 @@ const lootHTML = (r) => (!r.loot ? "" : r.target ? esc(r.loot) : named(r, r.loot
 function details(r) {
   const how = {C: "crafted", P: "a private hunt", T: "a team hunt"}[r.how];
   const ranks = (r.ranks || []).map(([list, rank]) => `number ${rank} in the ${esc(list)} list`).join(" and ");
-  return [r.team ? "a team" : "", r.society ? `of the society ${esc(r.society)}` : "", r.all_time_high ? "an all-time high" : "",
+  return [r.team ? "a team" : "", r.society ? `of the society ${societyLink(r.society)}` : "", r.all_time_high ? "an all-time high" : "",
     ranks ? `the Hall of Fame window showed it ${ranks}` : "", r.cut ? "the name cut off at the window's edge" : "",
     r.unread ? "the name printed in glyphs that cannot be read" : "", how, r.place ? `at ${esc(r.place)}` : "", r.share !== undefined ? `his share ${esc(r.share)} PED` : "",
     r.sold !== undefined ? `sold for ${esc(r.sold)} PED` : "", r.note ? `“${esc(r.note)}”` : "",
