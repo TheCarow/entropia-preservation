@@ -37,6 +37,11 @@
       "kind": "client",
       "about": "Inventory icons drawn by PEViewer's itemicon.py from the VU 5.4 client's own data: the item's model, skin and pose, rendered the way the client's icon generator draws them, armour on the wearer's body. An icon names the item class it was drawn from (class), the item within it (item) and the body (sex). Armour is drawn without the parts of the body its colour mask leaves uncovered (itemicon.py armour-set --cut), which the client would fill with the wearer's skin. An armour icon's colours are not read from the client, which took them from the server: they are the three colours its red, green and blue masks were painted with, kept once per set under looks in icons.json with where they come from, a fit to a dated picture or a choice made for the Archive. Either way the icon is a reconstruction, not a picture the game showed."
     },
+    "icongenerator-5.4": {
+      "name": "Icons drawn by PEViewer's port of the VU 5.4 icon generator",
+      "kind": "client",
+      "about": "Inventory icons drawn by PEViewer, the project's viewer, through its port of the VU 5.4 client's icon generator (IconGenerator, script 5893) and its item preview (script 1541): the item's model for its sex with only its own shapes, held in the client's display pose, framed by the client's icon pose and drawn at the size the client asks for. An icon names the item class it was drawn from (class), the item within it (item) and the body (sex). The colours are not read from the client, which took them from the server: each icon's basis says where they come from. Either way the icon is a reconstruction, not a picture the game showed."
+    },
     "itemicon-9.1.5": {
       "name": "Icons drawn from the VU 9.1.5 client",
       "kind": "client",
