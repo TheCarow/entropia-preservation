@@ -2,8 +2,9 @@
    <folder>/skills/index.html (default: _out beside this file), beside skills.js, skills.css and the data. Every skill is
    in the page, so it reads in full without JavaScript; skills.js only filters it, picks each value for a chosen VU and
    opens a skill's details in a popup. The sources, captures and fields are the Items page's (../items/), which this page
-   cites too, and a skill's details name the items that train it and its implant from the Items data. A mistake in the
-   data stops it before writing. */
+   cites too, and a skill's details name the items that train it and its implant from the Items data. A skill's icon is
+   the picture in icons/ its data names, the one the VU 5.4 skills window drew for it. A mistake in the data stops it
+   before writing. */
 "use strict";
 const fs = require("fs");
 const path = require("path");
@@ -50,6 +51,14 @@ for (const [n, skill] of skills.entries()) {
     for (const c of entry.sources || []) P.checkCitation(c, at);
   }
   P.checkStats(skill.stats, "skills", at);
+  // A skill's icon is a picture in icons/ that its sources say a client drew for it.
+  if (skill.icon) {
+    if (!/^texture-\d+_client_[\d.]+\.png$/.test(skill.icon.file || "") || !fs.existsSync(path.join(ROOT, "icons", skill.icon.file))) {
+      problems.push(`${at}: its icon ${JSON.stringify(skill.icon.file)} is not a picture in icons/`);
+    }
+    if (!Array.isArray(skill.icon.sources) || !skill.icon.sources.length) problems.push(`${at}: its icon cites no source`);
+    for (const c of skill.icon.sources || []) P.checkCitation(c, at);
+  }
 }
 const ladder = load(path.join(ROOT, "data", "ranks.json"));
 const bands = ladder.ranks || [];
@@ -101,7 +110,7 @@ function skillHTML(s) {
   const more = P.statsHTML(s.stats, "skills", {first: description, last: trainersHTML(s)});
   const text = [s.name, ...(s.names || []).map((n) => n.name), category ? category.value : ""].join(" ").toLowerCase();
   return `<li class="item${more ? " has-more" : ""}" id="${esc(s.id)}" data-category="${esc(category ? category.value : "")}"${seen ? ` data-a="${RANK.get(seen.first)}" data-b="${RANK.get(seen.last)}"` : ""} data-text="${esc(text)}">`
-    + `<span class="i-icon"></span><span class="i-name-cell"><span class="i-name">${esc(s.name)}</span></span>`
+    + `<span class="i-icon">${s.icon ? `<img src="icons/${esc(s.icon.file)}" alt="" title="${esc(s.icon.sources.map((c) => P.sources[typeof c === "string" ? c : c.source].name).join("; "))}" loading="lazy">` : ""}</span><span class="i-name-cell"><span class="i-name">${esc(s.name)}</span></span>`
     + `<span class="i-type">${esc(category ? category.value : "")}</span><span class="s-hidden">${hidden && hidden.value ? "Hidden" : ""}</span>`
     + `<span class="i-seen">${seen ? esc(seen.first === seen.last ? `VU ${seen.first}` : `VU ${seen.first} to ${seen.last}`) : ""}</span>`
     + (more ? `<div class="i-more">${more}</div>` : "") + "</li>";
@@ -159,6 +168,7 @@ fs.writeFileSync(path.join(OUT, "index.html"), template.replace(APP, () => `<div
 for (const name of ["skills.js", "skills.css"]) {
   fs.copyFileSync(path.join(ROOT, name), path.join(OUT, name));
 }
+fs.cpSync(path.join(ROOT, "icons"), path.join(OUT, "icons"), {recursive: true});
 for (const name of ["skills.json", "ranks.json"]) {
   fs.copyFileSync(path.join(ROOT, "data", name), path.join(OUT, "data", name));
 }

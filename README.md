@@ -210,6 +210,7 @@ ladder, each band of skill points `{"rank", "from", "to"}`, the rank the client 
 | `name` | Its name. |
 | `names`, `descriptions`, `records` | As for an item: its names, its descriptions (the client's and PE WikiCharts' article text, picked by VU on the page) and its client key. |
 | `stats` | Its category, whether it is hidden, whether it affects health, its requirements, and the activities that train it (`activities`, each `{"name", "hidden"}`), as an item's stats. |
+| `icon` | Where the client had one: the picture the VU 5.4 skills window drew on its row, `{"file", "texture", "sources"}`, the file in `skills/icons/` (`texture-<texture>_client_5.4.png`) and the source `"skill-window-5.4"`. 114 skills have one: the 113 the 5.4 client names and Health. |
 
 The page shows, beside a skill's own facts, the items whose "skills gained" list names it and its implant, both taken
 from the Items data, and below the list the rank ladder, one row per rank with the points each of its ten grades starts at.

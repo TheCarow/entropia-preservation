@@ -92,6 +92,13 @@
       "kind": "client",
       "about": "The VU 9.3.5 client of September 2008: the item names and descriptions of its string tables (tables 1 and 2, language 1, English; petest's Tools/arkstrings.py). Only items the page already lists take facts from it, matched by name: it shows such an item still in the game's data at VU 9.3.5, under the name it carried then. Its other items are not added."
     },
+    "skill-window-5.4": {
+      "name": "The VU 5.4 client's skills window",
+      "link": "../clients/#vu-5.4-files",
+      "vu": "5.4",
+      "kind": "client",
+      "about": "The icon the VU 5.4 client of December 2003 (the Level 109 install, also on the E3 2004 CD) draws on each skill's row of its skills window, the Avatar Info window's skills page (AvatarUI, 1869.obj): a table of pictures by skill, and for Health the attribute table beside it (petest's Tools/skillicons.py). Every skill that client names has its own."
+    },
     "owner": {
       "name": "The Archive's owner",
       "reasons": {

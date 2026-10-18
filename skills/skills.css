@@ -13,6 +13,10 @@
 .i-name-cell { min-width: 0; overflow-wrap: anywhere; }
 /* Every row keeps one square picture box, as on the Items page; no skill has a picture yet. */
 .i-icon { width: 36px; height: 36px; }
+/* A skill's icon, the 50 x 50 picture the VU 5.4 skills window drew on its row; the popup shows it larger. */
+.i-icon img { display: block; width: 100%; height: 100%; object-fit: contain; }
+.i-pop-icon { width: 64px; height: 64px; margin: 2px 0 6px; }
+.i-pop-icon img { display: block; width: 100%; height: 100%; object-fit: contain; }
 .i-type, .s-hidden, .i-seen { color: var(--muted); }
 .i-seen { font-variant-numeric: tabular-nums; }
 .item.has-more { cursor: pointer; }
