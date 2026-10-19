@@ -30,15 +30,17 @@ const problems = [];
 const P = context(SITE, stop, problems);
 const {VUS, RANK, vuOn, sources, captures, captureDay, citationVus, widest} = P;
 const reasons = (sources.owner && sources.owner.reasons) || {};
-// Each picture is described once, and each armour set's colours once, in icons.json; an item names the file.
+// Each picture is described once in icons.json; an item names the file. A picture drawn in an armour set's colours
+// names the set as its look, and the colours are the set's own in sets.json, which the page does not show.
 const pictures = load(path.join(ROOT, "icons.json"));
+const sets = load(path.join(ROOT, "sets.json")).sets || {};
 const ICON_FILE = /^[a-z0-9-]+_(reconstructed_\d{4}|client_[0-9.]+)\.png$/;
 for (const [file, picture] of Object.entries(pictures.icons || {})) {
   // An icon's file name says what it is: <name>_client_<key>.png, a picture a client stores, or
   // <name>_reconstructed_<year>.png, one drawn since, so a drawing is never taken for the game's own.
   if (!ICON_FILE.test(file) || !fs.existsSync(path.join(ROOT, "icons", file))) problems.push(`icons.json: ${file} is not a PNG in icons/ named <name>_client_<key>.png or <name>_reconstructed_<year>.png`);
   if (!sources[picture.source]) problems.push(`icons.json: ${file}'s source ${JSON.stringify(picture.source)} is not in sources.json`);
-  if (picture.look !== undefined && !(pictures.looks || {})[picture.look]) problems.push(`icons.json: ${file}'s look ${JSON.stringify(picture.look)} is not in its looks`);
+  if (picture.look !== undefined && !(sets[picture.look] || {}).colours) problems.push(`icons.json: ${file}'s look ${JSON.stringify(picture.look)} is not a set of sets.json with colours`);
 }
 // The Archive's own words carry no en or em dash; what a source says is quoted as it wrote it, dashes and all.
 if (/[–—]/.test(JSON.stringify(pictures))) problems.push("icons.json uses an en or em dash");
@@ -46,14 +48,17 @@ const iconFile = (icon) => (typeof icon === "string" ? icon : icon && icon.file)
 // A dated sighting keeps its own day only where it is not its capture's.
 const seenDays = (x) => [x.first || (x.first_capture && captureDay(x.first_capture)), x.last || (x.last_capture && captureDay(x.last_capture))];
 
-// Armour sets (sets.json): the stats every piece of a set has alike, kept once, and the set's pieces.
-const sets = load(path.join(ROOT, "sets.json")).sets || {};
+// Armour sets (sets.json): the stats every piece of a set has alike, kept once, and the set's pieces. A set's colours,
+// the colour each channel of its armour's mask was painted for the icons and why, are checked here and not shown.
 const pieceSet = new Map();
 for (const [key, set] of Object.entries(sets)) {
   const at = `sets.json, set ${key}`;
   if (!ID.test(key) || typeof set.name !== "string" || !set.name) problems.push(`${at}: a set needs an id and a name`);
   P.checkStats(set.stats, "sets", at);
-  if (!Object.keys(set.stats || {}).length) problems.push(`${at}: nothing about it has a source`);
+  if (!Object.keys(set.stats || {}).length && !set.colours) problems.push(`${at}: nothing about it has a source`);
+  if (set.colours && (!["red", "green", "blue"].every((c) => /^#[0-9A-F]{6}$/.test(set.colours[c] || "")) || !set.colours.basis)) {
+    problems.push(`${at}: its colours need red, green and blue as #RRGGBB and a basis`);
+  }
   for (const piece of set.pieces || []) {
     if (pieceSet.has(piece)) problems.push(`${at}: ${piece} is a piece of two sets`);
     pieceSet.set(piece, set);
