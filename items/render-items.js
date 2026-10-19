@@ -31,7 +31,9 @@ const P = context(SITE, stop, problems);
 const {VUS, RANK, vuOn, sources, captures, captureDay, citationVus, widest} = P;
 const reasons = (sources.owner && sources.owner.reasons) || {};
 // Each picture is described once in icons.json; an item names the file. A picture drawn in an armour set's colours
-// names the set as its look, and the colours are the set's own in sets.json, which the page does not show.
+// names the set as its look and the VU it shows; the colours are the set's own in sets.json for that VU, which the
+// page does not show. A VU is one of versions.json's, or blank for a set 5.4 does not list.
+const lookVu = (vu) => vu === "" || RANK.has(vu);
 const pictures = load(path.join(ROOT, "icons.json"));
 const sets = load(path.join(ROOT, "sets.json")).sets || {};
 const ICON_FILE = /^[a-z0-9-]+_(reconstructed_\d{4}|client_[0-9.]+)\.png$/;
@@ -40,7 +42,9 @@ for (const [file, picture] of Object.entries(pictures.icons || {})) {
   // <name>_reconstructed_<year>.png, one drawn since, so a drawing is never taken for the game's own.
   if (!ICON_FILE.test(file) || !fs.existsSync(path.join(ROOT, "icons", file))) problems.push(`icons.json: ${file} is not a PNG in icons/ named <name>_client_<key>.png or <name>_reconstructed_<year>.png`);
   if (!sources[picture.source]) problems.push(`icons.json: ${file}'s source ${JSON.stringify(picture.source)} is not in sources.json`);
-  if (picture.look !== undefined && !(sets[picture.look] || {}).colours) problems.push(`icons.json: ${file}'s look ${JSON.stringify(picture.look)} is not a set of sets.json with colours`);
+  if (picture.look !== undefined && !((sets[picture.look] || {}).colours || []).some((c) => c.vu === picture.vu)) {
+    problems.push(`icons.json: ${file}'s look ${JSON.stringify(picture.look)} has no colours in sets.json for VU ${JSON.stringify(picture.vu)}`);
+  }
 }
 // The Archive's own words carry no en or em dash; what a source says is quoted as it wrote it, dashes and all.
 if (/[–—]/.test(JSON.stringify(pictures))) problems.push("icons.json uses an en or em dash");
@@ -56,8 +60,9 @@ for (const [key, set] of Object.entries(sets)) {
   if (!ID.test(key) || typeof set.name !== "string" || !set.name) problems.push(`${at}: a set needs an id and a name`);
   P.checkStats(set.stats, "sets", at);
   if (!Object.keys(set.stats || {}).length && !set.colours) problems.push(`${at}: nothing about it has a source`);
-  if (set.colours && (!["red", "green", "blue"].every((c) => /^#[0-9A-F]{6}$/.test(set.colours[c] || "")) || !set.colours.basis)) {
-    problems.push(`${at}: its colours need red, green and blue as #RRGGBB and a basis`);
+  if (set.colours && (!Array.isArray(set.colours) || set.colours.some((c) => !lookVu(c.vu)
+      || !["red", "green", "blue"].every((k) => /^#[0-9A-F]{6}$/.test(c[k] || "")) || !c.basis))) {
+    problems.push(`${at}: its colours need, per VU, red, green and blue as #RRGGBB and a basis`);
   }
   for (const piece of set.pieces || []) {
     if (pieceSet.has(piece)) problems.push(`${at}: ${piece} is a piece of two sets`);
@@ -96,6 +101,14 @@ const categories = CATEGORIES.map((key) => {
     const file = iconFile(item.icon);
     if (item.unused !== undefined && !reasons[item.unused]) problems.push(`${at}: unused ${JSON.stringify(item.unused)} is not one of the owner's reasons in sources.json`);
     if (item.icon && !(pictures.icons || {})[file]) problems.push(`${at}: icon ${JSON.stringify(file)} is not in icons.json`);
+    // How the Archive reproduces an armour piece, per VU: the model's class, the detail sheet and mask, the channels and
+    // why. Checked here and not shown.
+    for (const look of item.look || []) {
+      if (!lookVu(look.vu) || !Number.isInteger(look.class) || ![0, 1].includes(look.detail) || ![5, 6, 7].includes(look.mask)
+          || !/^[123],[123],[123]$/.test(look.channels || "") || !look.basis) {
+        problems.push(`${at}: a look needs a VU, a class, a detail sheet (0, 1), a mask (5, 6, 7), channels and a basis`);
+      }
+    }
     if (item.icon && item.icon.shared_from !== undefined && !ID.test(item.icon.shared_from)) problems.push(`${at}: shared_from should be an item id`);
     const statEntries = Object.values(item.stats || {}).flat();
     const anything = shared.length || statEntries.length || (item.seen || []).length || (item.tt || []).length || file
