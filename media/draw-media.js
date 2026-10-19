@@ -214,20 +214,28 @@ function originalHTML(m, original) {
   return `<li><span class="fname">${esc(original.name)}</span>${parts.length ? ` <span class="where">${parts.join("; ")}</span>` : ""}</li>`;
 }
 
+// A linked copy holds only a thumbnail; its full file stays where it was found, at its url.
+function fullFile(variant) {
+  return variant.held ? variant.url : `../${variant.file}`;
+}
+
 function copyHTML(m, p, variant) {
-  const ext = variant.file.split(".").pop().toLowerCase();
+  const ext = (variant.held ? variant.url.split("?")[0] : variant.file).split(".").pop().toLowerCase();
   const [w, h] = thumbSize(variant, 120);
   const facts = [`${variant.width} × ${variant.height}`, FORMATS[ext] || ext.toUpperCase(), size(variant.bytes)];
   if (variant.frames) {
     facts.push(`${variant.frames} frames`);
   }
   const marks = [...(variant.alterations || []), ...(variant.native ? ["full size"] : [])];
+  const open = variant.held
+    ? `<a href="${esc(variant.url)}" target="_blank" rel="noopener">Full file at ${esc(new URL(variant.url).hostname)}</a><span class="meta">only a thumbnail is kept here</span>`
+    : `<a href="../${esc(variant.file)}" download>Original file</a>`;
   return `<div class="card copy">
-<a class="copy-thumb" href="../${esc(variant.file)}"><img src="../thumbs/${esc(variant.id)}.jpg" width="${w}" height="${h}" loading="lazy" alt=""></a>
+<a class="copy-thumb" href="${esc(fullFile(variant))}"><img src="../thumbs/${esc(variant.id)}.jpg" width="${w}" height="${h}" loading="lazy" alt=""></a>
 <div>
 <div class="card-head"><span class="flabel">${esc(facts.join(", "))}</span>${marks.length ? `<span class="muted">${esc(marks.join(", "))}</span>` : ""}${variant.id === p.image.master ? `<span class="badge">Best copy</span>` : ""}</div>
 <ul class="found">${variant.originals.map((o) => originalHTML(m, o)).join("")}</ul>
-<div class="card-meta"><a href="../${esc(variant.file)}" download>Original file</a><span class="meta">SHA-256 <code>${esc(variant.sha256.slice(0, 16))}</code></span></div>
+<div class="card-meta">${open}<span class="meta">SHA-256 <code>${esc(variant.sha256.slice(0, 16))}</code></span></div>
 </div>
 </div>`;
 }
@@ -266,7 +274,8 @@ function imageHTML(m, position) {
   const video = image.video;
   const copy = video && video.copy;
   const site = video && VIDEO_SITES[video.site];
-  const poster = `<img src="../${esc(p.master.file)}" width="${p.master.width}" height="${p.master.height}" alt="${esc(p.heading)}">`;
+  const shown = p.master.held || p.master;
+  const poster = `<img src="../${esc(p.master.file)}" width="${shown.width}" height="${shown.height}" alt="${esc(p.heading)}">`;
   let viewer;
   if (copy) {
     const [w, h] = copy.width && copy.height ? [copy.width, copy.height] : [p.master.width, p.master.height];
@@ -282,6 +291,9 @@ function imageHTML(m, position) {
   } else if (site) {
     viewer = `<figure class="viewer"><div class="frame video-frame" data-${site.key}="${esc(video.id)}"><a class="video-start" href="${esc(watchURL(video))}" target="_blank" rel="noopener" aria-label="Play ${esc(video.title || "the video")}">${poster}<span class="play"></span></a></div>
 <figcaption class="video-note">Plays from ${site.name} when started; nothing is loaded from ${site.name} until then.</figcaption></figure>`;
+  } else if (p.master.held) {
+    viewer = `<figure class="viewer"><a class="frame" href="${esc(p.master.url)}" target="_blank" rel="noopener">${poster}${regionsHTML(m, p)}</a>
+<figcaption class="video-note">A thumbnail; the full picture, ${p.master.width} × ${p.master.height}, ${link(p.master.url, `is at ${new URL(p.master.url).hostname}`)}.</figcaption></figure>`;
   } else {
     viewer = `<figure class="viewer"><div class="frame">${poster}${regionsHTML(m, p)}</div></figure>`;
   }

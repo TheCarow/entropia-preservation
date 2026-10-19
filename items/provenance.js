@@ -103,7 +103,7 @@ function context(site, stop, problems) {
       return;
     }
     if (c.media !== undefined) {
-      if (!pictures.has(c.media) || !pictureVus(c.media)) problems.push(`${at}: picture ${JSON.stringify(c.media)} is not a dated picture in media.json`);
+      if (!pictures.has(c.media)) problems.push(`${at}: picture ${JSON.stringify(c.media)} is not a picture in media.json`);
     } else if (c.vus !== undefined) {
       if (!Array.isArray(c.vus) || !c.vus.length || c.vus.some((v) => !RANK.has(v))) problems.push(`${at}: a citation's vus should be versions in versions.json`);
       if (c.capture !== undefined && !captures[c.capture]) problems.push(`${at}: capture ${JSON.stringify(c.capture)} is not in captures.json`);
@@ -197,7 +197,10 @@ function context(site, stop, problems) {
       const key = typeof c === "string" ? c : c.source;
       bySource.set(key, [...(bySource.get(key) || []), c]);
     }
-    const pictureLink = (id, text) => `<a href="../media/${esc(id)}/" title="${esc(`Picture dated ${pictures.get(id).date_text}`)}">${text}</a>`;
+    const pictureLink = (id, text) => {
+      const dated = pictures.get(id).date_text;
+      return `<a href="../media/${esc(id)}/" title="${esc(dated ? `Picture dated ${dated}` : "Undated picture")}">${text}</a>`;
+    };
     return [...bySource].map(([key, cited]) => {
       const shown = cited.filter((c) => c.media);
       const name = shown.length === 1 ? pictureLink(shown[0].media, esc(sources[key].name))
@@ -205,7 +208,9 @@ function context(site, stop, problems) {
       if (cited.every((c) => typeof c === "string")) {
         return `<span class="e">${name}</span>`;
       }
-      const when = `${name}, VU ${esc(compact(cited.flatMap(vusOf)))}`;
+      // An undated picture gives no VU: a source whose citations give none shows its name alone.
+      const vus = compact(cited.flatMap(vusOf));
+      const when = vus ? `${name}, VU ${esc(vus)}` : name;
       const days = cited.filter((c) => c.first).flatMap((c) => [captureDay(c.first), captureDay(c.last)]).sort();
       if (!days.length) {
         return `<span class="e">${when}</span>`;

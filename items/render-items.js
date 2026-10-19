@@ -102,11 +102,13 @@ const categories = CATEGORIES.map((key) => {
     if (item.unused !== undefined && !reasons[item.unused]) problems.push(`${at}: unused ${JSON.stringify(item.unused)} is not one of the owner's reasons in sources.json`);
     if (item.icon && !(pictures.icons || {})[file]) problems.push(`${at}: icon ${JSON.stringify(file)} is not in icons.json`);
     // How the Archive reproduces an armour piece, per VU: the model's class, the detail sheet and mask, the channels and
-    // why. Checked here and not shown.
+    // why. Checked here and not shown. A look without a basis of its own shares its set's: the basis of the set's colours
+    // for the same VU.
+    const setBasis = (vu) => ((pieceSet.get(item.id) || {}).colours || []).some((c) => c.vu === vu && c.basis);
     for (const look of item.look || []) {
       if (!lookVu(look.vu) || !Number.isInteger(look.class) || ![0, 1].includes(look.detail) || ![5, 6, 7].includes(look.mask)
-          || !/^[123],[123],[123]$/.test(look.channels || "") || !look.basis) {
-        problems.push(`${at}: a look needs a VU, a class, a detail sheet (0, 1), a mask (5, 6, 7), channels and a basis`);
+          || !/^[123],[123],[123]$/.test(look.channels || "") || !(look.basis || setBasis(look.vu))) {
+        problems.push(`${at}: a look needs a VU, a class, a detail sheet (0, 1), a mask (5, 6, 7), channels and a basis, its own or its set's colours' for that VU`);
       }
     }
     if (item.icon && item.icon.shared_from !== undefined && !ID.test(item.icon.shared_from)) problems.push(`${at}: shared_from should be an item id`);
@@ -146,8 +148,8 @@ const categories = CATEGORIES.map((key) => {
       }
     }
     for (const t of item.tt || []) {
-      const read = t.media !== undefined ? P.pictures.has(t.media) && P.pictureDay(t.media) : captures[t.capture];
-      if (!/^\d+\.\d+$/.test(t.ped || "") || !read) problems.push(`${at}: a TT value needs ped and the capture or dated picture it was read off`);
+      const read = t.media !== undefined ? P.pictures.has(t.media) : captures[t.capture];
+      if (!/^\d+\.\d+$/.test(t.ped || "") || !read) problems.push(`${at}: a TT value needs ped and the capture or picture it was read off`);
     }
     // The Archive's own words carry no en or em dash; what a source says is quoted as it wrote it, dashes and all.
     const own = [item.type, item.icon && item.icon.assigned && item.icon.assigned.basis];
@@ -219,7 +221,7 @@ const flavours = (item) => (item.descriptions || []).filter((d) => d.sources.inc
 
 // A TT value's place among the item's others: its capture's timestamp, or the start of the latest day the picture it was
 // read off can date from.
-const ttOrder = (t) => t.capture || `${P.pictureDay(t.media).replace(/-/g, "")}000000/`;
+const ttOrder = (t) => t.capture || `${(P.pictureDay(t.media) || "").replace(/-/g, "")}000000/`;
 
 // A piece of an armour set shows the set's stats beside its own, field by field: a value both give is one line with the
 // sources of both.

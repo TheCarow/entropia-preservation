@@ -43,9 +43,14 @@ for (const p of m.pictures) {
     m.problems.push(`image ${p.image.id}: its document's online address ${JSON.stringify(online)} is not an https address`);
   }
   for (const variant of p.image.variants) {
+    // A linked copy holds only its thumbnail (`held`); its full file is at its url.
+    const bytes = variant.held ? variant.held.bytes : variant.bytes;
     const file = path.join(ROOT, variant.file);
-    if (!fs.existsSync(file) || fs.statSync(file).size !== variant.bytes) {
-      m.problems.push(`image ${p.image.id}: ${variant.file} is missing or not ${variant.bytes} bytes`);
+    if (!fs.existsSync(file) || fs.statSync(file).size !== bytes) {
+      m.problems.push(`image ${p.image.id}: ${variant.file} is missing or not ${bytes} bytes`);
+    }
+    if (variant.held && !/^https:\/\/\S+$/.test(variant.url || "")) {
+      m.problems.push(`image ${p.image.id}: linked copy ${variant.id} has no https url`);
     }
   }
 }
