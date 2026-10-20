@@ -190,22 +190,13 @@ if (problems.length) {
   stop(`${problems.length} problem(s) in the items data. Nothing was written.\n  ${problems.slice(0, 50).join("\n  ")}`);
 }
 
-// An armour part the game added after its sets: foot guards came with VU 9.0 (notes.md, VU 9: "Armor Foot Guards are
-// finally introduced"). A set's stats, cited since its first pieces, date such a piece only from then.
-const PART_SINCE = {"Foot Guards": "9.0"};
-const notBefore = (vu) => (pair) => (!pair || RANK.get(pair[1]) < RANK.get(vu) ? null
-  : [RANK.get(pair[0]) < RANK.get(vu) ? vu : pair[0], pair[1]]);
-
 // An item was seen from the earliest VU any source shows it in to the latest: its dated and inferred sightings, the
-// clients that name it, the values players recorded, the loot that names it and its set's stats.
+// clients that name it, the values players recorded and the loot that names it.
 function span(item) {
   const cited = [...(item.names || []), ...(item.descriptions || []), ...(item.records || []), ...Object.values(item.stats || {}).flat(),
-    ...(droppedBy.get(item.id) || []).map((d) => d.entry)]
+    ...(droppedBy.get(item.id) || []).map((d) => d.entry), ...Object.values((pieceSet.get(item.id) || {}).stats || {}).flat()]
     .flatMap((entry) => entry.sources).map(citationVus);
-  const since = PART_SINCE[item.type];
-  const fromSet = Object.values((pieceSet.get(item.id) || {}).stats || {}).flat()
-    .flatMap((entry) => entry.sources).map(citationVus).map((pair) => (since ? notBefore(since)(pair) : pair));
-  return widest([...(item.seen || []).map((x) => (x.first_capture ? seenDays(x).map(vuOn) : [x.first_vu, x.last_vu])), ...cited, ...fromSet]);
+  return widest([...(item.seen || []).map((x) => (x.first_capture ? seenDays(x).map(vuOn) : [x.first_vu, x.last_vu])), ...cited]);
 }
 
 // An icon drawn since, not stored by a client, says so when the pointer rests on it.

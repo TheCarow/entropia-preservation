@@ -623,7 +623,7 @@
     {"player": "Orko", "value": 166, "target": "Longu Guardian", "kind": "hof", "ranks": [["Last 24 hours", 13]], "activity": "hunting", "creature": "longu", "maturity": "guardian", "sources": [["hof-window", "wnp697af"]]},
     {"player": "PPK", "value": 371, "target": "Zinc", "kind": "hof", "ranks": [["Last 24 hours", 1]], "activity": "mining", "item": "zinc-ingot", "sources": [["hof-window", "c5s4czxe"]]},
     {"player": "PaLssoN", "value": 862, "target": "Cornundacauda Provider", "kind": "hof", "ranks": [["Last 24 hours", 2]], "activity": "hunting", "creature": "cornundacauda", "maturity": "Provider", "sources": [["hof-window", "gz57hqae"]]},
-    {"player": "Parker Parker Van Helsing", "value": 51, "target": "Zombie Foot Guards (M,L)", "kind": "global", "activity": "crafting", "item": "zombie-foot-guards-m-l", "sources": [["chat-screenshot", "p373e5x6"]]},
+    {"player": "Parker Parker Van Helsing", "value": 51, "target": "Zombie Foot Guards (M,L)", "kind": "global", "activity": "crafting", "sources": [["chat-screenshot", "p373e5x6"]]},
     {"player": "Per arcus Isaksen", "value": 105, "target": "Thorifoid Seeker", "kind": "global", "activity": "hunting", "creature": "thorifoid", "maturity": "Seeker", "sources": [["chat-screenshot", "vs6cxqv5"]]},
     {"player": "PigBenis Pig Hateraid", "value": 135, "target": "E-Amp 12", "kind": "global", "activity": "crafting", "item": "e-amp-12", "sources": [["chat-screenshot", "mcn342ws"]]},
     {"player": "Polonia Dilon Madu", "value": 146, "target": "Blausariam Stone", "kind": "hof", "activity": "mining", "item": "blausariam-stone", "sources": [["chat-screenshot", "jd6fa2v4"]]},
