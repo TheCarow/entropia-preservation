@@ -372,4 +372,9 @@ for (const name of ["items.js", "items.css", "sources.json", "icons.json", "sets
 for (const c of categories) {
   fs.copyFileSync(path.join(ROOT, "data", `${c.key}.json`), path.join(OUT, "data", `${c.key}.json`));
 }
+// PEViewer pulls a copy of the item database from the published site: the category files, listed in data/index.json,
+// and classes.json, what the VU 5.4 client does with each item class. The page shows neither.
+fs.copyFileSync(path.join(ROOT, "classes.json"), path.join(OUT, "classes.json"));
+fs.writeFileSync(path.join(OUT, "data", "index.json"),
+  `${JSON.stringify({files: categories.map((c) => `${c.key}.json`)})}\n`);
 console.log(`Drew ${total} items in ${categories.length} categories into ${OUT}`);
