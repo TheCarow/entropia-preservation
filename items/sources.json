@@ -225,7 +225,7 @@
       "name": "Item and creature window screenshot",
       "link": "../media/?tags=item-info-ui",
       "kind": "game",
-      "about": "The game's own item and creature windows, in the Archive's dated screenshots (Media pictures tagged item-info-ui), read by eye: an item's name as the window printed it, its weight, its description (a text the window shows word for word as a client gives it is cited on the client's text), its protection and durability by damage type, a weapon's damage by type, ammo burn, ammo type and range, a sight or scope's skill modification, a blueprint's materials and its profession requirement with the recommended level, a weapon's category, attacks per minute and profession requirements where a 2006 or later window prints them, and a TT value where the window printed the maximum, and the names the game printed beside a window (the avatar's equipment list, an armour piece's list of attachments, a chat line); a creature maturity's Health Level, Damage Potential and Attack Range and the range of each of its attributes. A value cites the picture, whose VU is the one its record states, or else that of the latest day it can date from: a picture dated only \"on or before\" a day shows the value in that day's VU or earlier. The Info tab's Value is the item's value at its condition, not its full TT value, and is not taken; nor is the second column some windows show, the item with an attachment. Read so far, and read again at full size on 2026-10-20: every dated picture tagged item-info-ui (the editor's screenshots/armour.json and screenshots/creatures.json); an undated one cannot be cited and waits for a date."
+      "about": "The game's own item and creature windows, in the Archive's dated screenshots (Media pictures tagged item-info-ui), read by eye: an item's name as the window printed it, its weight, its description (a text the window shows word for word as a client gives it is cited on the client's text), its protection and durability by damage type, a weapon's damage by type, ammo burn, ammo type and range, a sight or scope's skill modification, a blueprint's materials and its profession requirement with the recommended level, a weapon's category, attacks per minute and profession requirements where a 2006 or later window prints them, and a TT value where the window printed the maximum, and the names the game printed beside a window (the avatar's equipment list, an armour piece's list of attachments, a chat line); a creature maturity's Health Level, Damage Potential and Attack Range and the range of each of its attributes. A value cites the picture, whose VU is the one its record states, or else that of the latest day it can date from: a picture dated only \"on or before\" a day shows the value in that day's VU or earlier. The Info tab's Value is the item's value at its condition, not its full TT value, and is not taken; nor is the second column some windows show, the item with an attachment. Read so far, and read again at full size on 2026-10-20: every dated picture tagged item-info-ui (the editor's screenshots/armour.json and screenshots/creatures.json); an undated one cannot be cited and waits for a date. A claim deed's window gives its site, its size word, its resource and depth where it names them, and its expiry: the Maps page's mineral finds cite each such picture."
     },
     "hof-window": {
       "name": "Hall of Fame window screenshot",
@@ -249,6 +249,30 @@
       "link": "../sites/#nirfu",
       "kind": "player",
       "about": "nirfu.gluonsoft.se, 2006 to 2007: the player Nirfu's list of his own globals, Hall of Fame loots and silent globals, each with the day, where and how it was looted (C crafting, P a private hunt, T a team hunt), what and its value, and his share or the sale price where he gave it. Read from the Archive's Wayback copy of the site."
+    },
+    "entropia-pioneers": {
+      "name": "Entropia Pioneers forum",
+      "link": "../sites/#entropia-pioneers",
+      "kind": "player",
+      "about": "entropia-pioneers.kicks-ass.org, the Entropia Pioneers' phpBB forum, 2003 to 2006: Sharpshot's Anti-Scam Guide (topic 15972, posted 22 October 2004, last edited 28 January 2005), whose \"TT scams\" section lists the items the Trade Terminal sold with their prices, marks with a star those sold by the weapons, clothes and armour dealers and the Feffoid traders instead, and lists the blueprints and blueprint books the Technician sold. A Trade Terminal item's price is its TT value, kept per unit (\"1.0 per 4\" is 0.25); a dealer's or the Technician's price is not kept, and where each item was had is its \"Obtained by\": Trade Terminal, Trader or Technician. Settler and Pioneer armour, named once for both genders, goes to both; so do the clothes, and the slacks and jumpers to each colour named. Every fact cites the first and last captures of the guide's pages (2005-04-16 to 2005-05-05, all showing the edit of 28 January 2005). Read from the Archive's Wayback copy of the forum (the editor's pioneers/ harvest) by the editor's pioneers/items.py."
+    },
+    "release-notes": {
+      "name": "Release notes",
+      "link": "../clients/",
+      "kind": "official",
+      "about": "MindArk's release notes for each VU, as the Archive's Clients page gives them (notes.md): where they say an item was sold, each fact cited to the VU whose notes say it. A note that an item was removed from a seller is cited to the last VU it was sold in (5.7 for a removal in a 5.7.X patch). Written by the editor's tools/release_notes.py, which checks each quoted line against the notes."
+    },
+    "mining-scatter-map": {
+      "name": "Mining scatter map",
+      "link": "../media/hh3bqzvk/",
+      "kind": "player",
+      "about": "A players' plot of mineral finds on Eudoria, 18 minerals in as many colours over the map, on axes in the game's metres (X 4,560 to about 18,400, Y 7,630 to about 18,450), titled \"Project Entropia Beta Phase II Mining Map\" and undated (Media hh3bqzvk; j5bnc3sc is a smaller copy of the same plot, Salkenex's linemap.jpg). Its 18 minerals leave out Lysterium, Belkar, Blausariam and Narcanisum, which the 2003 newsletter prices first, so it is likely of the 2002 beta. Digitized by colour by petest's Tools/resourcesites.py: each find is a 4-pixel cell, about 72 by 86 m, the pale and grey minerals the least certain, Erdorium and Quantium one find of either."
+    },
+    "golden-ingots": {
+      "name": "The Golden Ingots",
+      "link": "../media/mr7jye9g/",
+      "kind": "player",
+      "about": "The United People of Calypso society's newsletter for miners, issues 1 and 2 (August and September 2003, VU 5.1; Media mr7jye9g and zz609x68): the ores around East Scylla Mountains and Minopolis, each placed at the Maps page's point for the place."
     }
   }
 }
