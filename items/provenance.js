@@ -269,9 +269,12 @@ function context(site, stop, problems) {
     const listed = shown[scope] || [];
     const place = (f) => (listed.includes(f) ? listed.indexOf(f) : listed.length + fieldOrder.get(f));
     const keys = Object.keys(fields).filter((f) => stats && stats[f]).sort((a, b) => place(a) - place(b));
-    // Damage through armour is a value per armour set, each set a body of its own so the VU picks one for each.
+    // Damage through armour is a value per armour set, each set a body of its own so the VU picks one for each, the
+    // set that lets most through first.
+    const most = (entries) => Math.max(...entries.map((entry) => entry.value.damage));
     const split = (field) => (fields[field].type === "armour_damage"
       ? [...new Set(stats[field].map((entry) => entry.value.set))].map((set) => stats[field].filter((entry) => entry.value.set === set))
+        .sort((x, y) => most(y) - most(x) || armourSets[x[0].value.set].name.localeCompare(armourSets[y[0].value.set].name))
       : [stats[field]]);
     const rows = [...first, ...keys.flatMap((field) => split(field).map((entries) => ({
       field, label: fields[field].label, group: fields[field].group,

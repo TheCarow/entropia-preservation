@@ -43,9 +43,13 @@ for (const [n, creature] of creatures.entries()) {
   if (ids.has(creature.id)) problems.push(`${at}: the id is used twice`);
   ids.add(creature.id);
   if (typeof creature.name !== "string" || !creature.name.trim()) problems.push(`${at}: no name`);
-  for (const entry of [...(creature.names || []), ...(creature.loot || []), ...(creature.locations || [])]) {
-    if (!Array.isArray(entry.sources) || !entry.sources.length) problems.push(`${at}: a name, loot or location entry cites no source`);
+  const descriptions = [...(creature.descriptions || []), ...(creature.maturities || []).flatMap((m) => m.descriptions || [])];
+  for (const entry of [...(creature.names || []), ...descriptions, ...(creature.loot || []), ...(creature.locations || [])]) {
+    if (!Array.isArray(entry.sources) || !entry.sources.length) problems.push(`${at}: a name, description, loot or location entry cites no source`);
     for (const c of entry.sources || []) P.checkCitation(c, at);
+  }
+  for (const d of descriptions) {
+    if (typeof d.text !== "string" || !d.text) problems.push(`${at}: a description entry has no text`);
   }
   P.checkStats(creature.stats, "creatures", at);
   for (const maturity of creature.maturities || []) {
@@ -61,7 +65,7 @@ for (const [n, creature] of creatures.entries()) {
     if (!placed) problems.push(`${at}: a location needs a longitude and latitude, or an X and Y`);
     if (where.found !== undefined && !/^\d{4}-\d\d-\d\d$/.test(where.found)) problems.push(`${at}: a location's found should be a day`);
   }
-  if (![creature.names, creature.stats && Object.keys(creature.stats), creature.loot, creature.maturities, creature.locations]
+  if (![creature.names, creature.descriptions, creature.stats && Object.keys(creature.stats), creature.loot, creature.maturities, creature.locations]
     .some((x) => x && x.length)) {
     problems.push(`${at}: nothing about it has a source`);
   }
@@ -70,8 +74,12 @@ if (problems.length) {
   stop(`${problems.length} problem(s) in the creatures data. Nothing was written.\n  ${problems.slice(0, 50).join("\n  ")}`);
 }
 
-const allCitations = (c) => [...(c.names || []), ...(c.loot || []), ...(c.locations || []), ...Object.values(c.stats || {}).flat(),
-  ...(c.maturities || []), ...(c.maturities || []).flatMap((m) => Object.values(m.stats || {}).flat())].flatMap((entry) => entry.sources);
+const allCitations = (c) => [...(c.names || []), ...(c.descriptions || []), ...(c.loot || []), ...(c.locations || []),
+  ...Object.values(c.stats || {}).flat(), ...(c.maturities || []), ...(c.maturities || []).flatMap((m) => m.descriptions || []),
+  ...(c.maturities || []).flatMap((m) => Object.values(m.stats || {}).flat())].flatMap((entry) => entry.sources);
+// A creature's or a maturity's descriptions, as the first rows of its table, each with its sources.
+const descriptionRows = (descriptions) => ((descriptions || []).length
+  ? [{label: "Description", entries: descriptions.map((d) => ({html: esc(d.text), sources: d.sources}))}] : []);
 // A creature was seen from the earliest VU any source shows it in to the latest.
 const span = (c) => widest(allCitations(c).map(citationVus));
 // The value a field had last, for the list's columns: the latest line of the field, as the page shows with no VU.
@@ -115,6 +123,7 @@ function lootHTML(c) {
 function maturitiesHTML(c) {
   const tables = (c.maturities || []).map((m) => P.statsHTML(m.stats, "maturities", {
     head: `<tr class="c-mname"><th scope="row">${esc(m.name)}</th><td class="q">${P.mark(P.provenance(m.sources))}</td><td class="v"></td></tr>`,
+    first: descriptionRows(m.descriptions),
   }));
   return tables.length ? `<p class="c-head">Maturities</p>${tables.join("")}` : "";
 }
@@ -152,7 +161,7 @@ function creatureHTML(c) {
   const s = span(c);
   const klass = latest(c, "class");
   const lootCount = (c.loot || []).length;
-  const more = P.mediaLink([c.name, ...(c.names || []).map((n) => n.name)]) + P.statsHTML(c.stats, "creatures") + maturitiesHTML(c)
+  const more = P.mediaLink([c.name, ...(c.names || []).map((n) => n.name)]) + P.statsHTML(c.stats, "creatures", {first: descriptionRows(c.descriptions)}) + maturitiesHTML(c)
     + locationsHTML(c) + hallHTML(c) + lootHTML(c);
   const text = [c.name, ...(c.names || []).map((n) => n.name), ...(c.also || [])].join(" ").toLowerCase();
   return `<li class="item${more ? " has-more" : ""}" id="${esc(c.id)}" data-class="${esc(klass ? klass[0].value : "")}"${s ? ` data-a="${RANK.get(s.first)}" data-b="${RANK.get(s.last)}"` : ""} data-text="${esc(text)}">`

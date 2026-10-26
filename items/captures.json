@@ -779,9 +779,6 @@
       "20091005190005/Info.aspx?chart=Weapon&name=EWE_EP-41_Military"
     ],
     "http://entropia-loot.com:80": [
-      "20071011223558/7_4.php",
-      "20071011224714/8_12.php",
-      "20071011230148/8_7.php",
       "20090212032930/?s=loot&mobname=Mulmun"
     ],
     "http://entropia-pioneers.kicks-ass.org:80": [
@@ -818,6 +815,10 @@
     "http://hem.passagen.se:80": [
       "20020713154723/samuelkarlsson/blueprint.html",
       "20021011201749/samuelkarlsson/data.html"
+    ],
+    "http://home.comcast.net:80": [
+      "20050224175043/~alien3d/Mob_Dmg_List.rtf",
+      "20050514224657/~alien3d/Mob_Dmg_List.rtf"
     ],
     "http://irken-invaders.net:80": [
       "20080412102055/?page=items&s=details&id=105",
@@ -8301,7 +8302,6 @@
       "20070208041420/mobloot.php?mobname=Calamusoid+Male",
       "20070208041437/mobloot.php?mobname=Umbranoid+Female",
       "20071029031038/mobloot.php?mobname=Tantillion",
-      "20071211211159/8_8.php",
       "20071211211234/mobloot.php?mobname=Chomper",
       "20071211211612/7_5.php",
       "20071228190854/8_12.php",

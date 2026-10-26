@@ -262,6 +262,12 @@
       "kind": "player",
       "about": "nirfu.gluonsoft.se, 2006 to 2007: the player Nirfu's list of his own globals, Hall of Fame loots and silent globals, each with the day, where and how it was looted (C crafting, P a private hunt, T a team hunt), what and its value, and his share or the sale price where he gave it. Read from the Archive's Wayback copy of the site."
     },
+    "faustian-mob-damage": {
+      "name": "Faustian's Mob Damage List",
+      "link": "../sites/#faustian-mob-damage",
+      "kind": "player",
+      "about": "Faustian's table of what each creature maturity's hit did to a player, unarmoured and through a full set of Pixie, Goblin, Rascal, Vigilante, Nemesis, Angel and Shadow armour, gathered from players on the Entropia Pioneers forum (topic 18111, December 2004) and on IRC and kept at home.comcast.net/~alien3d/ as a Rich Text file. The damage unarmoured is kept as the maturity's damage per hit and the damage through a set as its damage through that set; a maturity that did no damage keeps its 0 per hit and nothing through armour. The figures the list marks in red, unconfirmed, are not kept. Every fact cites the file's two captures (2005-02-24 and 2005-05-14, the same file). Read from the editor's sites/faustian-mob-damage/ harvest by its items.py."
+    },
     "entropia-pioneers": {
       "name": "Entropia Pioneers forum",
       "link": "../sites/#entropia-pioneers",
