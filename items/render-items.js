@@ -104,13 +104,17 @@ const categories = CATEGORIES.map((key) => {
     if (item.icon && !(pictures.icons || {})[file]) problems.push(`${at}: icon ${JSON.stringify(file)} is not in icons.json`);
     // How the Archive reproduces an armour piece or a garment, per VU: the model's class, the detail sheet and mask, the
     // channels and why. Checked here and not shown. A look without a basis of its own shares its colours': its set's for an
-    // armour piece, its own for a clothing item, which belongs to no set and keeps its colours itself.
+    // armour piece, its own for a clothing item, which belongs to no set and keeps its colours itself. A garment's mask may
+    // be any entry of its class's table from 5 on, and "painted": false draws that entry as it is, unpainted (the Jolly
+    // Christmas clothes' entry 15 is red and white art, not a mask).
     if (item.colours !== undefined && !coloursValid(item.colours)) problems.push(`${at}: its colours need, per VU, red, green and blue as #RRGGBB and a basis`);
     const setBasis = (vu) => [...((pieceSet.get(item.id) || {}).colours || []), ...(item.colours || [])].some((c) => c.vu === vu && c.basis);
     for (const look of item.look || []) {
-      if (!lookVu(look.vu) || !Number.isInteger(look.class) || ![0, 1].includes(look.detail) || ![5, 6, 7].includes(look.mask)
+      const maskValid = key === "clothing" ? Number.isInteger(look.mask) && look.mask >= 5 && look.mask <= 15 : [5, 6, 7].includes(look.mask);
+      const paintedValid = look.painted === undefined || (key === "clothing" && look.painted === false);
+      if (!lookVu(look.vu) || !Number.isInteger(look.class) || ![0, 1].includes(look.detail) || !maskValid || !paintedValid
           || !/^[123],[123],[123]$/.test(look.channels || "") || !(look.basis || setBasis(look.vu))) {
-        problems.push(`${at}: a look needs a VU, a class, a detail sheet (0, 1), a mask (5, 6, 7), channels and a basis, its own or its set's colours' for that VU`);
+        problems.push(`${at}: a look needs a VU, a class, a detail sheet (0, 1), a mask (5, 6, 7; a garment's 5 to 15, and "painted": false for one drawn as it is), channels and a basis, its own or its set's colours' for that VU`);
       }
     }
     if (item.icon && item.icon.shared_from !== undefined && !ID.test(item.icon.shared_from)) problems.push(`${at}: shared_from should be an item id`);
