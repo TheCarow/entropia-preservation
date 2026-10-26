@@ -1,0 +1,90 @@
+/* The Maps page, on site.css's colours and type: each map twice side by side (the whole, and closer on its areas),
+   one above the other on a narrow screen, its areas outlined over the picture; the list below, its sources behind a
+   question mark as on the other pages; the list scrolls sideways on a narrow screen. */
+.m-continent { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 18px; margin: 28px 0 14px; padding: 10px 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); font-size: 14px; }
+.m-continent label { display: inline-flex; align-items: center; gap: 6px; }
+.m-note { margin: 0 0 10px; font-size: 14px; color: var(--muted); }
+.m-views { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr)); gap: 16px; }
+.m-view { margin: 0; min-width: 0; }
+.m-view svg { display: block; width: 100%; height: auto; aspect-ratio: 1; background: var(--line); }
+.m-area rect { fill: rgba(255, 210, 60, .12); stroke: #ffd23c; stroke-width: 2px; vector-effect: non-scaling-stroke; }
+.m-area:hover rect, .m-area:focus rect, .m-area.on rect { fill: rgba(255, 90, 60, .35); stroke: #ff5a3c; stroke-width: 3px; }
+.m-area[data-type="LA area"] rect { stroke: #6ad0ff; fill: rgba(106, 208, 255, .12); }
+/* Places: a teleporter larger than a settlement or a point; only the chosen build's listings show (the newest without
+   scripts). Globals and Hall of Fame loots: a circle per place, sized by how many. */
+.m-place circle { fill: #fff; stroke: #1b2a3a; stroke-width: 1.5px; vector-effect: non-scaling-stroke; }
+.m-place[data-kind="teleporter"] circle { fill: #7fe3ff; }
+.m-place:hover circle, .m-place:focus circle, .m-place.on circle { fill: #ff5a3c; }
+.m-map[data-build="9.3.5"] .m-place:not([data-client="9.3.5"]),
+.m-map[data-build="9.2.2"] .m-place:not([data-client="9.2.2"]),
+.m-map[data-build="5.4"] .m-place:not([data-client="5.4"]) { display: none; }
+.m-hall circle { fill: rgba(255, 60, 160, .35); stroke: #ff3ca0; stroke-width: 2px; vector-effect: non-scaling-stroke; }
+.m-hall[data-kinds~="hof"] circle { stroke: #ffe14d; stroke-width: 3px; }
+.m-hall:hover circle, .m-hall:focus circle, .m-hall.on circle { fill: rgba(255, 60, 160, .7); }
+/* Pictures with known coordinates: a square each, opening the picture's page. */
+.m-pic rect { fill: #9cff6a; stroke: #12320a; stroke-width: 1.5px; vector-effect: non-scaling-stroke; }
+.m-pic:hover rect, .m-pic:focus rect, .m-pic.on rect { fill: #ff5a3c; }
+.m-thumb img { display: block; width: 72px; height: 54px; object-fit: cover; }
+.m-pics td { vertical-align: middle; }
+.m-pics td.m-basis { white-space: normal; min-width: 16rem; color: var(--muted); font-size: 13px; }
+.m-map.off-areas .m-layer[data-layer="areas"], .m-map.off-places .m-layer[data-layer="places"], .m-map.off-pictures .m-layer[data-layer="pictures"], .m-map.off-hall .m-layer[data-layer="hall"], .m-map.off-minerals .m-layer[data-layer="minerals"], .m-map.off-revival .m-layer[data-layer="revival"] { display: none; }
+/* Mineral finds: a digitized map's as small squares, a site a source names as a larger diamond, outlined; each mineral
+   in the colour the scatter map's legend gives it, the ores it leaves out in colours of their own. */
+/* The revival areas dashed, each zone a terminal served faintly filled, under every marker. */
+.m-rev-area { fill: none; stroke: #ffe14d; stroke-width: 2px; stroke-dasharray: 8 5; vector-effect: non-scaling-stroke; }
+.m-rev-zone { fill: rgba(255, 225, 77, 0.05); stroke: #ffe14d; stroke-width: 1px; vector-effect: non-scaling-stroke; }
+.m-rev-zone:hover { fill: rgba(255, 225, 77, 0.22); }
+.m-min path, .m-min circle { fill: #ddd; }
+.m-min circle { stroke: #10202e; stroke-width: 0.6px; vector-effect: non-scaling-stroke; }
+.m-min-named path { stroke: #10202e; stroke-width: 1.5px; vector-effect: non-scaling-stroke; }
+.m-min-named[data-item="several"] path { fill: #fff; }
+.m-min.on path, .m-min:hover path, .m-min:focus path, .m-min.on circle, .m-min circle:hover { fill: #ff5a3c; }
+.m-min[data-item="zinc-stone"] path, .m-min[data-item="zinc-stone"] circle { fill: #e3fbf2; }
+.m-min[data-item="frigulite-stone"] path, .m-min[data-item="frigulite-stone"] circle { fill: #ffffff; }
+.m-min[data-item="iron-stone"] path, .m-min[data-item="iron-stone"] circle { fill: #a1a1a1; }
+.m-min[data-item="cumbriz-stone"] path, .m-min[data-item="cumbriz-stone"] circle { fill: #8a2a27; }
+.m-min[data-item="copper-stone"] path, .m-min[data-item="copper-stone"] circle { fill: #df7835; }
+.m-min[data-item="caldorite-stone"] path, .m-min[data-item="caldorite-stone"] circle { fill: #a1b633; }
+.m-min[data-item="megan-stone"] path, .m-min[data-item="megan-stone"] circle { fill: #433b75; }
+.m-min[data-item="cobalt-stone"] path, .m-min[data-item="cobalt-stone"] circle { fill: #0a08e6; }
+.m-min[data-item="gazzurdite-stone"] path, .m-min[data-item="gazzurdite-stone"] circle { fill: #e9d64b; }
+.m-min[data-item="erdorium-stone"] path, .m-min[data-item="erdorium-stone"] circle { fill: #7a7496; }
+.m-min[data-item="ignisium-stone"] path, .m-min[data-item="ignisium-stone"] circle { fill: #b2c7e4; }
+.m-min[data-item="durulium-stone"] path, .m-min[data-item="durulium-stone"] circle { fill: #7d7e80; }
+.m-min[data-item="gold-stone"] path, .m-min[data-item="gold-stone"] circle { fill: #f5ffa8; }
+.m-min[data-item="terrudite-stone"] path, .m-min[data-item="terrudite-stone"] circle { fill: #66105f; }
+.m-min[data-item="azzurdite-stone"] path, .m-min[data-item="azzurdite-stone"] circle { fill: #f9071b; }
+.m-min[data-item="platinum-stone"] path, .m-min[data-item="platinum-stone"] circle { fill: #c4c4c4; }
+.m-min[data-item="valurite-stone"] path, .m-min[data-item="valurite-stone"] circle { fill: #f0a4bd; }
+.m-min[data-item="lysterium-stone"] path, .m-min[data-item="lysterium-stone"] circle { fill: #3fd0c4; }
+.m-min[data-item="blausariam-stone"] path, .m-min[data-item="blausariam-stone"] circle { fill: #3f7fd0; }
+.m-min[data-item="narcanisum-stone"] path, .m-min[data-item="narcanisum-stone"] circle { fill: #d03fa8; }
+.m-mins td.m-held { white-space: normal; min-width: 18rem; }
+.m-mins td.m-basis { white-space: normal; min-width: 16rem; color: var(--muted); font-size: 13px; }
+html:not(.js) .m-controls { display: none; }
+.m-controls { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 20px; margin: 0 0 10px; font-size: 14px; }
+.m-controls label { display: inline-flex; align-items: center; gap: 6px; }
+.m-lists { margin: 18px 0 0; }
+.m-lists details { margin: 0 0 8px; }
+.m-lists summary { cursor: pointer; font-size: 14px; }
+.m-places td { white-space: nowrap; }
+.m-printed, .m-moved { font-size: 13px; color: var(--muted); }
+.m-scroll { margin-top: 14px; overflow-x: auto; }
+.m-table { border-collapse: collapse; font-size: 14px; font-variant-numeric: tabular-nums; }
+.m-table th, .m-table td { padding: 4px 16px 4px 0; text-align: left; vertical-align: top; border-bottom: 1px solid var(--line); white-space: nowrap; }
+.m-table thead th { font-size: 13px; }
+.m-table .n { text-align: right; }
+.m-table td.q { width: 18px; padding-right: 0; }
+.m-table tr.on, .m-table tr:target { background: var(--line); }
+.src { position: relative; display: inline-block; width: 18px; height: 18px; font-size: 12px; line-height: 16px; text-align: center; vertical-align: 1px; color: var(--muted); border: 1px solid var(--control); cursor: help; }
+.src:hover, .src:focus { color: var(--fg); border-color: var(--fg); outline: none; }
+.src > span { position: absolute; left: 0; top: 100%; z-index: 3; width: max-content; max-width: min(440px, calc(100vw - 16px)); padding: 7px 10px; font-size: 14px; line-height: 1.45; text-align: left; white-space: normal; color: var(--fg); background: var(--panel); border: 1px solid var(--line); visibility: hidden; }
+html.js .src > span { position: fixed; }
+.src:hover > span, .src:focus-within > span { visibility: visible; }
+.src .e { display: block; }
+
+/* A map's older pictures and their notes, shown one at a time; without the script only the map's own picture shows. */
+.m-picture-off { display: none; }
+html[data-script] .m-map-off { display: none; }
+.m-continent label { font-weight: 600; }
+.m-continent .m-picture-choice, .m-continent .m-build-choice { font-weight: normal; }

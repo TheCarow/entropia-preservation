@@ -1,0 +1,5707 @@
+{
+ "maps": [
+  {
+   "id": "eudoria",
+   "name": "Eudoria",
+   "image": "eudoria.jpg",
+   "west": 0,
+   "south": 0,
+   "east": 30157,
+   "north": 30157,
+   "picture": "The 9.x clients' own map of Eudoria, texture 437871, over the frame their map window gives it, 0 to 30,157 m on both axes.",
+   "label": "VU 9.x, the clients' own map",
+   "builds": [
+    "9.3.5",
+    "9.2.2"
+   ],
+   "pictures": [
+    {
+     "id": "vu6-0",
+     "label": "VU 6.0, MindArk's map",
+     "image": "eudoria-vu6-0.jpg",
+     "media": "ww0egw10",
+     "builds": [
+      "5.4"
+     ],
+     "west": 146,
+     "south": 62,
+     "east": 28236,
+     "north": 30259,
+     "fitted": true,
+     "picture": "MindArk's map of Eudoria for Project Entropia Version 6.0, updated 24 September 2004, extended by Darts with teleporters and points of interest (Media ww0egw10). Its frame is fitted, not read: the 31 teleporters it draws against where the VU 5.4 client's location table puts them, to within 96 m on average and 318 m at most (Zychion Citadel)."
+    },
+    {
+     "id": "vu4-1",
+     "label": "VU 4.1, Entropia World's map",
+     "image": "eudoria-vu4-1.jpg",
+     "media": "q46bsv50",
+     "builds": [],
+     "west": -46,
+     "south": 103,
+     "east": 28181,
+     "north": 30518,
+     "fitted": true,
+     "picture": "Entropia World's map of Eudoria with its teleporters and the PvP area, titled VU 4.1 by its uploader (Media q46bsv50). Its frame is fitted, not read: the 24 teleporters it draws against where the VU 5.4 client's location table puts them, to within 65 m on average and 161 m at most; the marker it labels Atlas Island South is at 5.4's Tethys Creek, and Fort Ithaca, Hadesheim C, Camp Echidna, Minopolis and Zychion Citadel are not on it yet."
+    }
+   ]
+  },
+  {
+   "id": "amethera",
+   "name": "Amethera",
+   "image": "amethera.png",
+   "west": 0,
+   "south": 0,
+   "east": 65536,
+   "north": 65536,
+   "picture": "Amethera's ground as the 9.x clients grow it from their control texture 429259, drawn north up; the clients ship no picture of Amethera's map."
+  }
+ ],
+ "areas": [
+  {
+   "id": "emerald-lakes-land-area",
+   "map": "amethera",
+   "name": "Emerald Lakes Land Area",
+   "type": "LA area",
+   "west": 13768,
+   "south": 25068,
+   "east": 15768,
+   "north": 26268,
+   "sources": [
+    [
+     "map-table-9.3.5",
+     "267712"
+    ],
+    [
+     "pe-wikicharts",
+     "https://web.archive.org/web/20071012130215/http://entropedia.info:80/Location.aspx?edit=1490"
+    ]
+   ]
+  },
+  {
+   "id": "landgrab-area-01",
+   "map": "amethera",
+   "name": "Landgrab Area 01",
+   "type": "Land Area",
+   "west": 21268,
+   "south": 17768,
+   "east": 22568,
+   "north": 18968,
+   "sources": [
+    [
+     "map-table-9.3.5",
+     "267651"
+    ],
+    [
+     "pe-wikicharts",
+     "https://web.archive.org/web/20060526053549/http://www.pe-wiki.info:80/Location.aspx?edit=815"
+    ]
+   ]
+  },
+  {
+   "id": "landgrab-area-02",
+   "map": "amethera",
+   "name": "Landgrab Area 02",
+   "type": "Land Area",
+   "west": 20768,
+   "south": 13968,
+   "east": 22768,
+   "north": 16468,
+   "sources": [
+    [
+     "map-table-9.3.5",
+     "267652"
+    ],
+    [
+     "pe-wikicharts",
+     "https://web.archive.org/web/20060526053549/http://www.pe-wiki.info:80/Location.aspx?edit=815"
+    ]
+   ]
+  },
+  {
+   "id": "landgrab-area-03",
+   "map": "amethera",
+   "name": "Landgrab Area 03",
+   "type": "Land Area",
+   "west": 20568,
+   "south": 8868,
+   "east": 23268,
+   "north": 10768,
+   "sources": [
+    [
+     "map-table-9.3.5",
+     "267650"
+    ],
+    [
+     "pe-wikicharts",
+     "https://web.archive.org/web/20070224023418/http://www.pe-wiki.info:80/Location.aspx?edit=742"
+    ]
+   ]
+  },
+  {
+   "id": "landgrab-area-04",
+   "map": "amethera",
+   "name": "Landgrab Area 04",
+   "type": "Land Area",
+   "west": 13768,
+   "south": 12568,
+   "east": 15668,
+   "north": 14368,
+   "sources": [
+    [
+     "map-table-9.3.5",
+     "267656"
+    ],
+    [
+     "pe-wikicharts",
+     "https://web.archive.org/web/20070302133636/http://www.pe-wiki.info:80/Location.aspx?edit=86"
+    ]
+   ]
+  },
+  {
+   "id": "landgrab-area-05",
+   "map": "amethera",
+   "name": "Landgrab Area 05",
+   "type": "Land Area",
+   "west": 9768,
+   "south": 10968,
+   "east": 12768,
+   "north": 13768,
+   "sources": [
+    [
+     "map-table-9.3.5",
+     "267657"
+    ],
+    [
+     "pe-wikicharts",
+     "https://web.archive.org/web/20070224023539/http://www.pe-wiki.info:80/Location.aspx?edit=1417"
+    ]
+   ]
+  },
+  {
+   "id": "landgrab-area-06",
+   "map": "amethera",
+   "name": "Landgrab Area 06",
+   "type": "Land Area",
+   "west": 13568,
+   "south": 9968,
+   "east": 15268,
+   "north": 11768,
+   "sources": [
+    [
+     "map-table-9.3.5",
+     "267649"
+    ],
+    [
+     "pe-wikicharts",
+     "https://web.archive.org/web/20070302133636/http://www.pe-wiki.info:80/Location.aspx?edit=86"
+    ]
+   ]
+  },
+  {
+   "id": "landgrab-area-07",
+   "map": "amethera",
+   "name": "Landgrab Area 07",
+   "type": "Land Area",
+   "west": 9268,
+   "south": 7068,
+   "east": 12768,
+   "north": 10268,
+   "sources": [
+    [
+     "map-table-9.3.5",
+     "267658"
+    ],
+    [
+     "pe-wikicharts",
+     "https://web.archive.org/web/20070302133647/http://www.pe-wiki.info:80/Location.aspx?edit=780"
+    ]
+   ]
+  },
+  {
+   "id": "landgrab-area-08",
+   "map": "amethera",
+   "name": "Landgrab Area 08",
+   "type": "Land Area",
+   "west": 17668,
+   "south": 6668,
+   "east": 19168,
+   "north": 8768,
+   "sources": [
+    [
+     "map-table-9.3.5",
+     "267653"
+    ],
+    [
+     "pe-wikicharts",
+     "https://web.archive.org/web/20070224023418/http://www.pe-wiki.info:80/Location.aspx?edit=742"
+    ]
+   ]
+  },
+  {
+   "id": "landgrab-area-09",
+   "map": "amethera",
+   "name": "Landgrab Area 09",
+   "type": "Land Area",
+   "west": 20068,
+   "south": 2468,
+   "east": 24168,
+   "north": 3768,
+   "sources": [
+    [
+     "map-table-9.3.5",
+     "267654"
+    ],
+    [
+     "pe-wikicharts",
+     "https://web.archive.org/web/20070224023418/http://www.pe-wiki.info:80/Location.aspx?edit=742"
+    ]
+   ]
+  },
+  {
+   "id": "landgrab-area-10",
+   "map": "amethera",
+   "name": "Landgrab Area 10",
+   "type": "Land Area",
+   "west": 2868,
+   "south": 1168,
+   "east": 6068,
+   "north": 4068,
+   "sources": [
+    [
+     "map-table-9.3.5",
+     "267659"
+    ],
+    [
+     "pe-wikicharts",
+     "https://web.archive.org/web/20070302133443/http://www.pe-wiki.info:80/Location.aspx?edit=59"
+    ]
+   ]
+  },
+  {
+   "id": "landgrab-area-11",
+   "map": "amethera",
+   "name": "Landgrab Area 11",
+   "type": "Land Area",
+   "west": 2568,
+   "south": 8568,
+   "east": 4468,
+   "north": 11618,
+   "sources": [
+    [
+     "map-table-9.3.5",
+     "267665"
+    ],
+    [
+     "pe-wikicharts",
+     "https://web.archive.org/web/20070224023539/http://www.pe-wiki.info:80/Location.aspx?edit=1417"
+    ]
+   ]
+  },
+  {
+   "id": "landgrab-area-12",
+   "map": "amethera",
+   "name": "Landgrab Area 12",
+   "type": "Land Area",
+   "west": 13068,
+   "south": 6068,
+   "east": 15468,
+   "north": 7868,
+   "sources": [
+    [
+     "map-table-9.3.5",
+     "267660"
+    ],
+    [
+     "pe-wikicharts",
+     "https://web.archive.org/web/20080111043133/http://www.entropedia.info:80/Location.aspx?edit=789"
+    ]
+   ]
+  },
+  {
+   "id": "landgrab-area-13",
+   "map": "amethera",
+   "name": "Landgrab Area 13",
+   "type": "Land Area",
+   "west": 13068,
+   "south": 7868,
+   "east": 15468,
+   "north": 9536,
+   "sources": [
+    [
+     "map-table-9.3.5",
+     "267666"
+    ],
+    [
+     "pe-wikicharts",
+     "https://web.archive.org/web/20080111043133/http://www.entropedia.info:80/Location.aspx?edit=789"
+    ]
+   ]
+  },
+  {
+   "id": "landgrab-area-14",
+   "map": "amethera",
+   "name": "Landgrab Area 14",
+   "type": "Land Area",
+   "west": 20868,
+   "south": 6768,
+   "east": 22868,
+   "north": 8768,
+   "sources": [
+    [
+     "map-table-9.3.5",
+     "267664"
+    ],
+    [
+     "pe-wikicharts",
+     "https://web.archive.org/web/20070224023418/http://www.pe-wiki.info:80/Location.aspx?edit=742"
+    ]
+   ]
+  },
+  {
+   "id": "landgrab-area-15",
+   "map": "amethera",
+   "name": "Landgrab Area 15",
+   "type": "Land Area",
+   "west": 17768,
+   "south": 13968,
+   "east": 20418,
+   "north": 15668,
+   "sources": [
+    [
+     "map-table-9.3.5",
+     "267655"
+    ],
+    [
+     "pe-wikicharts",
+     "https://web.archive.org/web/20070504014323/http://www.pe-wiki.info:80/Location.aspx?edit=798"
+    ]
+   ]
+  },
+  {
+   "id": "landgrab-area-16",
+   "map": "amethera",
+   "name": "Landgrab Area 16",
+   "type": "Land Area",
+   "west": 17768,
+   "south": 15668,
+   "east": 20418,
+   "north": 20468,
+   "sources": [
+    [
+     "map-table-9.3.5",
+     "267667"
+    ],
+    [
+     "pe-wikicharts",
+     "https://web.archive.org/web/20060526053549/http://www.pe-wiki.info:80/Location.aspx?edit=815"
+    ]
+   ]
+  },
+  {
+   "id": "landgrab-area-17",
+   "map": "amethera",
+   "name": "Landgrab Area 17",
+   "type": "Land Area",
+   "west": 16968,
+   "south": 8968,
+   "east": 19068,
+   "north": 9668,
+   "sources": [
+    [
+     "map-table-9.3.5",
+     "267663"
+    ],
+    [
+     "pe-wikicharts",
+     "https://web.archive.org/web/20070224023418/http://www.pe-wiki.info:80/Location.aspx?edit=742"
+    ]
+   ]
+  },
+  {
+   "id": "landgrab-area-18",
+   "map": "amethera",
+   "name": "Landgrab Area 18",
+   "type": "Land Area",
+   "west": 19368,
+   "south": 5968,
+   "east": 20768,
+   "north": 7368,
+   "sources": [
+    [
+     "map-table-9.3.5",
+     "267662"
+    ],
+    [
+     "pe-wikicharts",
+     "https://web.archive.org/web/20070224023418/http://www.pe-wiki.info:80/Location.aspx?edit=742"
+    ]
+   ]
+  },
+  {
+   "id": "landgrab-area-19",
+   "map": "amethera",
+   "name": "Landgrab Area 19",
+   "type": "Land Area",
+   "west": 22468,
+   "south": 11068,
+   "east": 24068,
+   "north": 12468,
+   "sources": [
+    [
+     "map-table-9.3.5",
+     "267661"
+    ],
+    [
+     "pe-wikicharts",
+     "https://web.archive.org/web/20070504014323/http://www.pe-wiki.info:80/Location.aspx?edit=798"
+    ]
+   ]
+  },
+  {
+   "id": "new-switzerland",
+   "map": "amethera",
+   "name": "New Switzerland",
+   "type": "Land Area",
+   "west": 11868,
+   "south": 38668,
+   "east": 15368,
+   "north": 41068,
+   "sources": [
+    [
+     "map-table-9.3.5",
+     "267718"
+    ],
+    [
+     "pe-wikicharts",
+     "https://web.archive.org/web/20080215235657/http://www.entropedia.info:80/Location.aspx?edit=1678"
+    ]
+   ]
+  },
+  {
+   "id": "outback-area-01",
+   "map": "amethera",
+   "name": "Outback Area 01",
+   "type": "Land Area",
+   "west": 17678,
+   "south": 9768,
+   "east": 18768,
+   "north": 10768,
+   "sources": [
+    [
+     "map-table-9.3.5",
+     "267669"
+    ],
+    [
+     "pe-wikicharts",
+     "https://web.archive.org/web/20070504014323/http://www.pe-wiki.info:80/Location.aspx?edit=798"
+    ]
+   ]
+  },
+  {
+   "id": "outback-area-02",
+   "map": "amethera",
+   "name": "Outback Area 02",
+   "type": "Land Area",
+   "west": 18778,
+   "south": 9768,
+   "east": 19768,
+   "north": 10968,
+   "sources": [
+    [
+     "map-table-9.3.5",
+     "267670"
+    ],
+    [
+     "pe-wikicharts",
+     "https://web.archive.org/web/20070224023418/http://www.pe-wiki.info:80/Location.aspx?edit=742"
+    ]
+   ]
+  },
+  {
+   "id": "outback-area-03",
+   "map": "amethera",
+   "name": "Outback Area 03",
+   "type": "Land Area",
+   "west": 16768,
+   "south": 9768,
+   "east": 17668,
+   "north": 10768,
+   "sources": [
+    [
+     "map-table-9.3.5",
+     "267671"
+    ],
+    [
+     "pe-wikicharts",
+     "https://web.archive.org/web/20070504160530/http://www.pe-wiki.info:80/Location.aspx?edit=797"
+    ]
+   ]
+  },
+  {
+   "id": "outback-area-04",
+   "map": "amethera",
+   "name": "Outback Area 04",
+   "type": "Land Area",
+   "west": 19778,
+   "south": 9768,
+   "east": 20568,
+   "north": 10968,
+   "sources": [
+    [
+     "map-table-9.3.5",
+     "267672"
+    ],
+    [
+     "pe-wikicharts",
+     "https://web.archive.org/web/20070224023418/http://www.pe-wiki.info:80/Location.aspx?edit=742"
+    ]
+   ]
+  },
+  {
+   "id": "outback-area-05",
+   "map": "amethera",
+   "name": "Outback Area 05",
+   "type": "Land Area",
+   "west": 19878,
+   "south": 10988,
+   "east": 20668,
+   "north": 12168,
+   "sources": [
+    [
+     "map-table-9.3.5",
+     "267673"
+    ],
+    [
+     "pe-wikicharts",
+     "https://web.archive.org/web/20070504014323/http://www.pe-wiki.info:80/Location.aspx?edit=798"
+    ]
+   ]
+  },
+  {
+   "id": "outback-area-06",
+   "map": "amethera",
+   "name": "Outback Area 06",
+   "type": "Land Area",
+   "west": 21268,
+   "south": 10968,
+   "east": 22418,
+   "north": 12268,
+   "sources": [
+    [
+     "map-table-9.3.5",
+     "267674"
+    ],
+    [
+     "pe-wikicharts",
+     "https://web.archive.org/web/20070504014323/http://www.pe-wiki.info:80/Location.aspx?edit=798"
+    ]
+   ]
+  },
+  {
+   "id": "outback-area-07",
+   "map": "amethera",
+   "name": "Outback Area 07",
+   "type": "Land Area",
+   "west": 8618,
+   "south": 11168,
+   "east": 9768,
+   "north": 12048,
+   "sources": [
+    [
+     "map-table-9.3.5",
+     "267675"
+    ],
+    [
+     "pe-wikicharts",
+     "https://web.archive.org/web/20070224023539/http://www.pe-wiki.info:80/Location.aspx?edit=1417"
+    ]
+   ]
+  },
+  {
+   "id": "outback-area-08",
+   "map": "amethera",
+   "name": "Outback Area 08",
+   "type": "Land Area",
+   "west": 12768,
+   "south": 12618,
+   "east": 13568,
+   "north": 13768,
+   "sources": [
+    [
+     "map-table-9.3.5",
+     "267676"
+    ],
+    [
+     "pe-wikicharts",
+     "https://web.archive.org/web/20070302133636/http://www.pe-wiki.info:80/Location.aspx?edit=86"
+    ]
+   ]
+  },
+  {
+   "id": "outback-area-09",
+   "map": "amethera",
+   "name": "Outback Area 09",
+   "type": "Land Area",
+   "west": 9118,
+   "south": 5648,
+   "east": 10468,
+   "north": 7068,
+   "sources": [
+    [
+     "map-table-9.3.5",
+     "267677"
+    ],
+    [
+     "pe-wikicharts",
+     "https://web.archive.org/web/20070302133443/http://www.pe-wiki.info:80/Location.aspx?edit=59"
+    ]
+   ]
+  },
+  {
+   "id": "outback-area-10",
+   "map": "amethera",
+   "name": "Outback Area 10",
+   "type": "Land Area",
+   "west": 19368,
+   "south": 4868,
+   "east": 20628,
+   "north": 5668,
+   "sources": [
+    [
+     "map-table-9.3.5",
+     "267678"
+    ],
+    [
+     "pe-wikicharts",
+     "https://web.archive.org/web/20070224023418/http://www.pe-wiki.info:80/Location.aspx?edit=742"
+    ]
+   ]
+  },
+  {
+   "id": "outback-area-11",
+   "map": "amethera",
+   "name": "Outback Area 11",
+   "type": "Land Area",
+   "west": 16668,
+   "south": 12818,
+   "east": 18648,
+   "north": 13938,
+   "sources": [
+    [
+     "map-table-9.3.5",
+     "267679"
+    ],
+    [
+     "pe-wikicharts",
+     "https://web.archive.org/web/20071218125427/http://entropedia.info:80/Location.aspx?edit=804"
+    ]
+   ]
+  },
+  {
+   "id": "outback-area-12",
+   "map": "amethera",
+   "name": "Outback Area 12",
+   "type": "Land Area",
+   "west": 17668,
+   "south": 10988,
+   "east": 19068,
+   "north": 12568,
+   "sources": [
+    [
+     "map-table-9.3.5",
+     "267680"
+    ],
+    [
+     "pe-wikicharts",
+     "https://web.archive.org/web/20070504014323/http://www.pe-wiki.info:80/Location.aspx?edit=798"
+    ]
+   ]
+  },
+  {
+   "id": "outback-area-13",
+   "map": "amethera",
+   "name": "Outback Area 13",
+   "type": "Land Area",
+   "west": 7768,
+   "south": 5588,
+   "east": 9118,
+   "north": 7468,
+   "sources": [
+    [
+     "map-table-9.3.5",
+     "267681"
+    ],
+    [
+     "pe-wikicharts",
+     "https://web.archive.org/web/20070302133443/http://www.pe-wiki.info:80/Location.aspx?edit=59"
+    ]
+   ]
+  },
+  {
+   "id": "outback-area-14",
+   "map": "amethera",
+   "name": "Outback Area 14",
+   "type": "Land Area",
+   "west": 10518,
+   "south": 5688,
+   "east": 11668,
+   "north": 7068,
+   "sources": [
+    [
+     "map-table-9.3.5",
+     "267682"
+    ],
+    [
+     "pe-wikicharts",
+     "https://web.archive.org/web/20070302133647/http://www.pe-wiki.info:80/Location.aspx?edit=780"
+    ]
+   ]
+  },
+  {
+   "id": "outback-area-15",
+   "map": "amethera",
+   "name": "Outback Area 15",
+   "type": "Land Area",
+   "west": 12768,
+   "south": 4968,
+   "east": 14768,
+   "north": 5938,
+   "sources": [
+    [
+     "map-table-9.3.5",
+     "267683"
+    ],
+    [
+     "pe-wikicharts",
+     "https://web.archive.org/web/20070302133647/http://www.pe-wiki.info:80/Location.aspx?edit=780"
+    ]
+   ]
+  },
+  {
+   "id": "outback-area-16",
+   "map": "amethera",
+   "name": "Outback Area 16",
+   "type": "Land Area",
+   "west": 12788,
+   "south": 9718,
+   "east": 13548,
+   "north": 12668,
+   "sources": [
+    [
+     "map-table-9.3.5",
+     "267684"
+    ],
+    [
+     "pe-wikicharts",
+     "https://web.archive.org/web/20070302133636/http://www.pe-wiki.info:80/Location.aspx?edit=86"
+    ]
+   ]
+  },
+  {
+   "id": "outback-area-17",
+   "map": "amethera",
+   "name": "Outback Area 17",
+   "type": "Land Area",
+   "west": 13628,
+   "south": 11828,
+   "east": 15868,
+   "north": 12548,
+   "sources": [
+    [
+     "map-table-9.3.5",
+     "267685"
+    ],
+    [
+     "pe-wikicharts",
+     "https://web.archive.org/web/20070302133636/http://www.pe-wiki.info:80/Location.aspx?edit=86"
+    ]
+   ]
+  },
+  {
+   "id": "outback-area-18",
+   "map": "amethera",
+   "name": "Outback Area 18",
+   "type": "Land Area",
+   "west": 5068,
+   "south": 8418,
+   "east": 8868,
+   "north": 11158,
+   "sources": [
+    [
+     "map-table-9.3.5",
+     "267686"
+    ],
+    [
+     "pe-wikicharts",
+     "https://web.archive.org/web/20070224023539/http://www.pe-wiki.info:80/Location.aspx?edit=1417"
+    ]
+   ]
+  },
+  {
+   "id": "outback-area-19",
+   "map": "amethera",
+   "name": "Outback Area 19",
+   "type": "Land Area",
+   "west": 17768,
+   "south": 1638,
+   "east": 19968,
+   "north": 2928,
+   "sources": [
+    [
+     "map-table-9.3.5",
+     "267687"
+    ],
+    [
+     "pe-wikicharts",
+     "https://web.archive.org/web/20070302133453/http://www.pe-wiki.info:80/Location.aspx?edit=83"
+    ]
+   ]
+  },
+  {
+   "id": "outback-area-20",
+   "map": "amethera",
+   "name": "Outback Area 20",
+   "type": "Land Area",
+   "west": 17798,
+   "south": 2998,
+   "east": 19968,
+   "north": 4578,
+   "sources": [
+    [
+     "map-table-9.3.5",
+     "267688"
+    ],
+    [
+     "pe-wikicharts",
+     "https://web.archive.org/web/20070224023418/http://www.pe-wiki.info:80/Location.aspx?edit=742"
+    ]
+   ]
+  },
+  {
+   "id": "outback-area-21",
+   "map": "amethera",
+   "name": "Outback Area 21",
+   "type": "Land Area",
+   "west": 22598,
+   "south": 18998,
+   "east": 23968,
+   "north": 20578,
+   "sources": [
+    [
+     "map-table-9.3.5",
+     "267689"
+    ],
+    [
+     "pe-wikicharts",
+     "https://web.archive.org/web/20060526053549/http://www.pe-wiki.info:80/Location.aspx?edit=815"
+    ]
+   ]
+  },
+  {
+   "id": "outback-area-22",
+   "map": "amethera",
+   "name": "Outback Area 22",
+   "type": "Land Area",
+   "west": 20888,
+   "south": 19308,
+   "east": 22368,
+   "north": 20088,
+   "sources": [
+    [
+     "map-table-9.3.5",
+     "267690"
+    ],
+    [
+     "pe-wikicharts",
+     "https://web.archive.org/web/20060526053549/http://www.pe-wiki.info:80/Location.aspx?edit=815"
+    ]
+   ]
+  },
+  {
+   "id": "outback-area-23",
+   "map": "amethera",
+   "name": "Outback Area 23",
+   "type": "Land Area",
+   "west": 13518,
+   "south": 14968,
+   "east": 14748,
+   "north": 17088,
+   "sources": [
+    [
+     "map-table-9.3.5",
+     "267696"
+    ],
+    [
+     "pe-wikicharts",
+     "https://web.archive.org/web/20070301184954/http://www.pe-wiki.info:80/Location.aspx?cont=2&long=14890&lat=18840"
+    ]
+   ]
+  },
+  {
+   "id": "outback-area-24",
+   "map": "amethera",
+   "name": "Outback Area 24",
+   "type": "Land Area",
+   "west": 14868,
+   "south": 14968,
+   "east": 16118,
+   "north": 17088,
+   "sources": [
+    [
+     "map-table-9.3.5",
+     "267697"
+    ],
+    [
+     "pe-wikicharts",
+     "https://web.archive.org/web/20070301184954/http://www.pe-wiki.info:80/Location.aspx?cont=2&long=14890&lat=18840"
+    ]
+   ]
+  },
+  {
+   "id": "outback-area-25",
+   "map": "amethera",
+   "name": "Outback Area 25",
+   "type": "Land Area",
+   "west": 13428,
+   "south": 21068,
+   "east": 16198,
+   "north": 22598,
+   "sources": [
+    [
+     "map-table-9.3.5",
+     "267698"
+    ],
+    [
+     "pe-wikicharts",
+     "https://web.archive.org/web/20070301184159/http://www.pe-wiki.info:80/Location.aspx?cont=2&long=15110&lat=19020"
+    ]
+   ]
+  },
+  {
+   "id": "outback-area-26",
+   "map": "amethera",
+   "name": "Outback Area 26",
+   "type": "Land Area",
+   "west": 10368,
+   "south": 14968,
+   "east": 12768,
+   "north": 17168,
+   "sources": [
+    [
+     "map-table-9.3.5",
+     "267699"
+    ],
+    [
+     "pe-wikicharts",
+     "https://web.archive.org/web/20070224023357/http://www.pe-wiki.info:80/Location.aspx?edit=1455"
+    ]
+   ]
+  },
+  {
+   "id": "outback-area-27",
+   "map": "amethera",
+   "name": "Outback Area 27",
+   "type": "Land Area",
+   "west": 10968,
+   "south": 19418,
+   "east": 12868,
+   "north": 22468,
+   "sources": [
+    [
+     "map-table-9.3.5",
+     "267700"
+    ],
+    [
+     "pe-wikicharts",
+     "https://web.archive.org/web/20070224023348/http://www.pe-wiki.info:80/Location.aspx?edit=1513"
+    ]
+   ]
+  },
+  {
+   "id": "outback-area-28",
+   "map": "amethera",
+   "name": "Outback Area 28",
+   "type": "Land Area",
+   "west": 9468,
+   "south": 21168,
+   "east": 10768,
+   "north": 22568,
+   "sources": [
+    [
+     "map-table-9.3.5",
+     "267701"
+    ],
+    [
+     "pe-wikicharts",
+     "https://web.archive.org/web/20070224023348/http://www.pe-wiki.info:80/Location.aspx?edit=1513"
+    ]
+   ]
+  },
+  {
+   "id": "outback-area-29",
+   "map": "amethera",
+   "name": "Outback Area 29",
+   "type": "Land Area",
+   "west": 12868,
+   "south": 23068,
+   "east": 15968,
+   "north": 24418,
+   "sources": [
+    [
+     "map-table-9.3.5",
+     "267702"
+    ],
+    [
+     "pe-wikicharts",
+     "https://web.archive.org/web/20070224023628/http://www.pe-wiki.info:80/Location.aspx?edit=1644"
+    ]
+   ]
+  },
+  {
+   "id": "outback-area-30",
+   "map": "amethera",
+   "name": "Outback Area 30",
+   "type": "Land Area",
+   "west": 11768,
+   "south": 24918,
+   "east": 13068,
+   "north": 27168,
+   "sources": [
+    [
+     "map-table-9.3.5",
+     "267703"
+    ],
+    [
+     "pe-wikicharts",
+     "https://web.archive.org/web/20070224023628/http://www.pe-wiki.info:80/Location.aspx?edit=1644"
+    ]
+   ]
+  },
+  {
+   "id": "outback-area-31",
+   "map": "amethera",
+   "name": "Outback Area 31",
+   "type": "Land Area",
+   "west": 13468,
+   "south": 27668,
+   "east": 16068,
+   "north": 29508,
+   "sources": [
+    [
+     "map-table-9.3.5",
+     "267704"
+    ],
+    [
+     "pe-wikicharts",
+     "https://web.archive.org/web/20070224023628/http://www.pe-wiki.info:80/Location.aspx?edit=1644"
+    ]
+   ]
+  },
+  {
+   "id": "outback-area-32",
+   "map": "amethera",
+   "name": "Outback Area 32",
+   "type": "Land Area",
+   "west": 11368,
+   "south": 30718,
+   "east": 14118,
+   "north": 31468,
+   "sources": [
+    [
+     "map-table-9.3.5",
+     "267705"
+    ],
+    [
+     "pe-wikicharts",
+     "https://web.archive.org/web/20070224023628/http://www.pe-wiki.info:80/Location.aspx?edit=1644"
+    ]
+   ]
+  },
+  {
+   "id": "outback-area-33",
+   "map": "amethera",
+   "name": "Outback Area 33",
+   "type": "Land Area",
+   "west": 5168,
+   "south": 17498,
+   "east": 6768,
+   "north": 19568,
+   "sources": [
+    [
+     "map-table-9.3.5",
+     "267706"
+    ],
+    [
+     "pe-wikicharts",
+     "https://web.archive.org/web/20070224023348/http://www.pe-wiki.info:80/Location.aspx?edit=1513"
+    ]
+   ]
+  },
+  {
+   "id": "outback-area-34",
+   "map": "amethera",
+   "name": "Outback Area 34",
+   "type": "Land Area",
+   "west": 7068,
+   "south": 17868,
+   "east": 8418,
+   "north": 20668,
+   "sources": [
+    [
+     "map-table-9.3.5",
+     "267707"
+    ],
+    [
+     "pe-wikicharts",
+     "https://web.archive.org/web/20070224023348/http://www.pe-wiki.info:80/Location.aspx?edit=1513"
+    ]
+   ]
+  },
+  {
+   "id": "outback-area-35",
+   "map": "amethera",
+   "name": "Outback Area 35",
+   "type": "Land Area",
+   "west": 3768,
+   "south": 25918,
+   "east": 5508,
+   "north": 27768,
+   "sources": [
+    [
+     "map-table-9.3.5",
+     "267708"
+    ],
+    [
+     "pe-wikicharts",
+     "https://web.archive.org/web/20070224023348/http://www.pe-wiki.info:80/Location.aspx?edit=1513"
+    ]
+   ]
+  },
+  {
+   "id": "outback-area-36",
+   "map": "amethera",
+   "name": "Outback Area 36",
+   "type": "Land Area",
+   "west": 5768,
+   "south": 26268,
+   "east": 6618,
+   "north": 28118,
+   "sources": [
+    [
+     "map-table-9.3.5",
+     "267709"
+    ],
+    [
+     "pe-wikicharts",
+     "https://web.archive.org/web/20070224023348/http://www.pe-wiki.info:80/Location.aspx?edit=1513"
+    ]
+   ]
+  },
+  {
+   "id": "outback-area-37",
+   "map": "amethera",
+   "name": "Outback Area 37",
+   "type": "Land Area",
+   "west": 2598,
+   "south": 25638,
+   "east": 3518,
+   "north": 28548,
+   "sources": [
+    [
+     "map-table-9.3.5",
+     "267710"
+    ],
+    [
+     "pe-wikicharts",
+     "https://web.archive.org/web/20070224023348/http://www.pe-wiki.info:80/Location.aspx?edit=1513"
+    ]
+   ]
+  },
+  {
+   "id": "outback-area-38",
+   "map": "amethera",
+   "name": "Outback Area 38",
+   "type": "Land Area",
+   "west": 468,
+   "south": 16348,
+   "east": 3683,
+   "north": 18248,
+   "sources": [
+    [
+     "map-table-9.3.5",
+     "267711"
+    ],
+    [
+     "pe-wikicharts",
+     "https://web.archive.org/web/20070224023348/http://www.pe-wiki.info:80/Location.aspx?edit=1513"
+    ]
+   ]
+  },
+  {
+   "id": "outback-area-39",
+   "map": "amethera",
+   "name": "Outback Area 39",
+   "type": "LA area",
+   "west": 11768,
+   "south": 768,
+   "east": 14768,
+   "north": 2668,
+   "sources": [
+    [
+     "map-table-9.3.5",
+     "267715"
+    ],
+    [
+     "pe-wikicharts",
+     "https://web.archive.org/web/20071218125546/http://entropedia.info:80/Location.aspx?edit=930"
+    ]
+   ]
+  },
+  {
+   "id": "outback-area-40",
+   "map": "amethera",
+   "name": "Outback Area 40",
+   "type": "LA area",
+   "west": 11668,
+   "south": 2768,
+   "east": 13368,
+   "north": 4268,
+   "sources": [
+    [
+     "map-table-9.3.5",
+     "267716"
+    ],
+    [
+     "pe-wikicharts",
+     "https://web.archive.org/web/20080121044821/http://www.entropedia.info:80/Location.aspx?edit=1541"
+    ]
+   ]
+  },
+  {
+   "id": "outback-area-42",
+   "map": "amethera",
+   "name": "Outback Area 42",
+   "type": "Land Area",
+   "west": 12968,
+   "south": 34968,
+   "east": 15968,
+   "north": 36468,
+   "sources": [
+    [
+     "map-table-9.3.5",
+     "267719"
+    ],
+    [
+     "pe-wikicharts",
+     "https://web.archive.org/web/20071012130215/http://entropedia.info:80/Location.aspx?edit=1490"
+    ]
+   ]
+  },
+  {
+   "id": "outback-area-44",
+   "map": "amethera",
+   "name": "Outback Area 44",
+   "type": "Land Area",
+   "west": 5843,
+   "south": 36468,
+   "east": 7393,
+   "north": 38068,
+   "sources": [
+    [
+     "map-table-9.3.5",
+     "267721"
+    ],
+    [
+     "pe-wikicharts",
+     "https://web.archive.org/web/20080215235657/http://www.entropedia.info:80/Location.aspx?edit=1678"
+    ]
+   ]
+  },
+  {
+   "id": "outback-area-45",
+   "map": "amethera",
+   "name": "Outback Area 45",
+   "type": "Land Area",
+   "west": 2068,
+   "south": 33868,
+   "east": 4268,
+   "north": 35868,
+   "sources": [
+    [
+     "map-table-9.3.5",
+     "267722"
+    ],
+    [
+     "pe-wikicharts",
+     "https://web.archive.org/web/20080215235657/http://www.entropedia.info:80/Location.aspx?edit=1678"
+    ]
+   ]
+  },
+  {
+   "id": "treasure-island",
+   "map": "amethera",
+   "name": "Treasure Island",
+   "type": "Land Area",
+   "west": 18368,
+   "south": 21768,
+   "east": 23668,
+   "north": 27418,
+   "sources": [
+    [
+     "map-table-9.3.5",
+     "267668"
+    ],
+    [
+     "pe-wikicharts",
+     "https://web.archive.org/web/20060526053549/http://www.pe-wiki.info:80/Location.aspx?edit=815"
+    ]
+   ]
+  },
+  {
+   "id": "area-267720",
+   "map": "amethera",
+   "name": "",
+   "type": "Land Area",
+   "west": 2818,
+   "south": 44918,
+   "east": 5118,
+   "north": 46218,
+   "sources": [
+    [
+     "map-table-9.3.5",
+     "267720"
+    ]
+   ]
+  }
+ ],
+ "places": [
+  {
+   "id": "akmuul-island",
+   "map": "amethera",
+   "name": "Akmuul Island",
+   "kinds": [
+    "teleporter"
+   ],
+   "lon": 10858,
+   "lat": 3038,
+   "listed": [
+    {
+     "client": "9.3.5",
+     "kind": "teleporter",
+     "name": "Akmuul Island",
+     "lon": 10858,
+     "lat": 3038,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "238519"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "billton-towers",
+   "map": "amethera",
+   "name": "Billton Towers",
+   "kinds": [
+    "teleporter"
+   ],
+   "lon": 14862,
+   "lat": 18929,
+   "listed": [
+    {
+     "client": "9.3.5",
+     "kind": "teleporter",
+     "name": "Billton Towers",
+     "lon": 14862,
+     "lat": 18929,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "201614"
+      ]
+     ]
+    },
+    {
+     "client": "9.2.2",
+     "kind": "teleporter",
+     "name": "Billton Towers",
+     "lon": 14862,
+     "lat": 18929,
+     "sources": [
+      [
+       "map-table-9.2.2",
+       "201614"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "emerald-lakes",
+   "map": "amethera",
+   "name": "Emerald Lakes",
+   "kinds": [
+    "teleporter"
+   ],
+   "lon": 14225,
+   "lat": 24876,
+   "listed": [
+    {
+     "client": "9.3.5",
+     "kind": "teleporter",
+     "name": "Emerald Lakes",
+     "lon": 14225,
+     "lat": 24876,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "236305"
+      ]
+     ]
+    },
+    {
+     "client": "9.2.2",
+     "kind": "teleporter",
+     "name": "Emerald Lakes",
+     "lon": 14225,
+     "lat": 24876,
+     "sources": [
+      [
+       "map-table-9.2.2",
+       "236305"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "emerald-lakes-mall",
+   "map": "amethera",
+   "name": "Emerald Lakes Mall",
+   "kinds": [
+    "teleporter",
+    "point"
+   ],
+   "lon": 14220,
+   "lat": 25115,
+   "listed": [
+    {
+     "client": "9.3.5",
+     "kind": "teleporter",
+     "name": "Emerald Lakes Mall",
+     "lon": 14220,
+     "lat": 25115,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "236058"
+      ]
+     ]
+    },
+    {
+     "client": "9.3.5",
+     "kind": "point",
+     "name": "Emerald Lakes Mall",
+     "lon": 14179,
+     "lat": 25116,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "236311"
+      ]
+     ]
+    },
+    {
+     "client": "9.2.2",
+     "kind": "teleporter",
+     "name": "Emerald Lakes Mall",
+     "lon": 14220,
+     "lat": 25115,
+     "sources": [
+      [
+       "map-table-9.2.2",
+       "236058"
+      ]
+     ]
+    },
+    {
+     "client": "9.2.2",
+     "kind": "point",
+     "name": "Emerald Lakes Mall",
+     "lon": 14179,
+     "lat": 25116,
+     "sources": [
+      [
+       "map-table-9.2.2",
+       "236311"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "genesis-amethera-headquarters",
+   "map": "amethera",
+   "name": "Genesis Amethera Headquarters",
+   "kinds": [
+    "settlement",
+    "teleporter"
+   ],
+   "lon": 16847,
+   "lat": 19853,
+   "listed": [
+    {
+     "client": "9.3.5",
+     "kind": "settlement",
+     "name": "Genesis Amethera Headquarters",
+     "lon": 16847,
+     "lat": 19853,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "124729"
+      ]
+     ]
+    },
+    {
+     "client": "9.3.5",
+     "kind": "teleporter",
+     "name": "Genesis Amethera Headquarters",
+     "lon": 16942,
+     "lat": 19927,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "124731"
+      ]
+     ]
+    },
+    {
+     "client": "9.2.2",
+     "kind": "settlement",
+     "name": "Genesis Amethera Headquarters",
+     "lon": 16847,
+     "lat": 19853,
+     "sources": [
+      [
+       "map-table-9.2.2",
+       "124729"
+      ]
+     ]
+    },
+    {
+     "client": "9.2.2",
+     "kind": "teleporter",
+     "name": "Genesis Amethera Headquarters",
+     "lon": 16942,
+     "lat": 19927,
+     "sources": [
+      [
+       "map-table-9.2.2",
+       "124731"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "grave-of-generations",
+   "map": "amethera",
+   "name": "Grave of Generations",
+   "kinds": [
+    "point"
+   ],
+   "lon": 9478,
+   "lat": 3481,
+   "listed": [
+    {
+     "client": "9.3.5",
+     "kind": "point",
+     "name": "Grave of Generations",
+     "lon": 9478,
+     "lat": 3481,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "238781"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "memorial-island",
+   "map": "amethera",
+   "name": "Memorial Island",
+   "kinds": [
+    "settlement",
+    "teleporter"
+   ],
+   "lon": 6975,
+   "lat": 7518,
+   "listed": [
+    {
+     "client": "9.3.5",
+     "kind": "settlement",
+     "name": "Memorial Island",
+     "lon": 6975,
+     "lat": 7518,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "124693"
+      ]
+     ]
+    },
+    {
+     "client": "9.3.5",
+     "kind": "teleporter",
+     "name": "Memorial Island",
+     "lon": 7154,
+     "lat": 7553,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "124695"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "mulhaag-tilfen",
+   "map": "amethera",
+   "name": "Mulhaag Tilfen",
+   "kinds": [
+    "point"
+   ],
+   "lon": 9645,
+   "lat": 2727,
+   "listed": [
+    {
+     "client": "9.3.5",
+     "kind": "point",
+     "name": "Mulhaag Tilfen",
+     "lon": 9645,
+     "lat": 2727,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "238780"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "myrene-island",
+   "map": "amethera",
+   "name": "Myrene Island",
+   "kinds": [
+    "teleporter"
+   ],
+   "lon": 4538,
+   "lat": 3369,
+   "listed": [
+    {
+     "client": "9.3.5",
+     "kind": "teleporter",
+     "name": "Myrene Island",
+     "lon": 4538,
+     "lat": 3369,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "119580"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "nate-valley",
+   "map": "amethera",
+   "name": "Nate Valley",
+   "kinds": [
+    "teleporter"
+   ],
+   "lon": 19899,
+   "lat": 8599,
+   "listed": [
+    {
+     "client": "9.3.5",
+     "kind": "teleporter",
+     "name": "Nate Valley",
+     "lon": 19899,
+     "lat": 8599,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "119578"
+      ]
+     ]
+    },
+    {
+     "client": "9.2.2",
+     "kind": "teleporter",
+     "name": "Nate Valley",
+     "lon": 19899,
+     "lat": 8599,
+     "sources": [
+      [
+       "map-table-9.2.2",
+       "119578"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "nea-s-place",
+   "map": "amethera",
+   "name": "Nea's Place",
+   "kinds": [
+    "teleporter"
+   ],
+   "lon": 12985,
+   "lat": 10599,
+   "listed": [
+    {
+     "client": "9.3.5",
+     "kind": "teleporter",
+     "name": "Nea's Place",
+     "lon": 12985,
+     "lat": 10599,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "119576"
+      ]
+     ]
+    },
+    {
+     "client": "9.2.2",
+     "kind": "teleporter",
+     "name": "Nea's Place",
+     "lon": 12985,
+     "lat": 10599,
+     "sources": [
+      [
+       "map-table-9.2.2",
+       "119576"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "new-oxford",
+   "map": "amethera",
+   "name": "New Oxford",
+   "kinds": [
+    "settlement",
+    "teleporter"
+   ],
+   "lon": 15098,
+   "lat": 19313,
+   "listed": [
+    {
+     "client": "9.3.5",
+     "kind": "settlement",
+     "name": "New Oxford",
+     "lon": 15098,
+     "lat": 19313,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "198868"
+      ]
+     ]
+    },
+    {
+     "client": "9.3.5",
+     "kind": "teleporter",
+     "name": "New Oxford",
+     "lon": 15604,
+     "lat": 19310,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "198867"
+      ]
+     ]
+    },
+    {
+     "client": "9.2.2",
+     "kind": "settlement",
+     "name": "New Oxford",
+     "lon": 15098,
+     "lat": 19313,
+     "sources": [
+      [
+       "map-table-9.2.2",
+       "198868"
+      ]
+     ]
+    },
+    {
+     "client": "9.2.2",
+     "kind": "teleporter",
+     "name": "New Oxford",
+     "lon": 15604,
+     "lat": 19310,
+     "sources": [
+      [
+       "map-table-9.2.2",
+       "198867"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "new-switzerland",
+   "map": "amethera",
+   "name": "New Switzerland",
+   "kinds": [
+    "teleporter"
+   ],
+   "lon": 12175,
+   "lat": 39564,
+   "listed": [
+    {
+     "client": "9.3.5",
+     "kind": "teleporter",
+     "name": "New Switzerland",
+     "lon": 12175,
+     "lat": 39564,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "240015"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "omegaton-west-habitat",
+   "map": "amethera",
+   "name": "Omegaton West Habitat",
+   "kinds": [
+    "settlement",
+    "teleporter"
+   ],
+   "lon": 10428,
+   "lat": 10533,
+   "listed": [
+    {
+     "client": "9.3.5",
+     "kind": "settlement",
+     "name": "Omegaton West Habitat",
+     "lon": 10428,
+     "lat": 10533,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "124700"
+      ]
+     ]
+    },
+    {
+     "client": "9.3.5",
+     "kind": "teleporter",
+     "name": "Omegaton West Habitat",
+     "lon": 10331,
+     "lat": 10682,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "124702"
+      ]
+     ]
+    },
+    {
+     "client": "9.2.2",
+     "kind": "settlement",
+     "name": "Omegaton West Habitat",
+     "lon": 10428,
+     "lat": 10533,
+     "sources": [
+      [
+       "map-table-9.2.2",
+       "124700"
+      ]
+     ]
+    },
+    {
+     "client": "9.2.2",
+     "kind": "teleporter",
+     "name": "Omegaton West Habitat",
+     "lon": 10331,
+     "lat": 10682,
+     "sources": [
+      [
+       "map-table-9.2.2",
+       "124702"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "oshiri-hearts",
+   "map": "amethera",
+   "name": "Oshiri Hearts",
+   "kinds": [
+    "teleporter"
+   ],
+   "lon": 7042,
+   "lat": 39002,
+   "listed": [
+    {
+     "client": "9.3.5",
+     "kind": "teleporter",
+     "name": "Oshiri Hearts",
+     "lon": 7042,
+     "lat": 39002,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "239039"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "oyster-isle",
+   "map": "amethera",
+   "name": "Oyster Isle",
+   "kinds": [
+    "teleporter"
+   ],
+   "lon": 4025,
+   "lat": 9268,
+   "listed": [
+    {
+     "client": "9.3.5",
+     "kind": "teleporter",
+     "name": "Oyster Isle",
+     "lon": 4025,
+     "lat": 9268,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "119581"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "palms-corner",
+   "map": "amethera",
+   "name": "Palms corner",
+   "kinds": [
+    "settlement",
+    "teleporter"
+   ],
+   "lon": 16888,
+   "lat": 11231,
+   "listed": [
+    {
+     "client": "9.3.5",
+     "kind": "settlement",
+     "name": "Palms corner",
+     "lon": 16888,
+     "lat": 11231,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "238296"
+      ]
+     ]
+    },
+    {
+     "client": "9.3.5",
+     "kind": "teleporter",
+     "name": "Palms corner",
+     "lon": 16826,
+     "lat": 11230,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "238294"
+      ]
+     ]
+    },
+    {
+     "client": "9.2.2",
+     "kind": "settlement",
+     "name": "Palms corner",
+     "lon": 16888,
+     "lat": 11231,
+     "sources": [
+      [
+       "map-table-9.2.2",
+       "238296"
+      ]
+     ]
+    },
+    {
+     "client": "9.2.2",
+     "kind": "teleporter",
+     "name": "Palms corner",
+     "lon": 16826,
+     "lat": 11230,
+     "sources": [
+      [
+       "map-table-9.2.2",
+       "238294"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rei-s-defense",
+   "map": "amethera",
+   "name": "Rei's Defense",
+   "kinds": [
+    "teleporter"
+   ],
+   "lon": 20304,
+   "lat": 4605,
+   "listed": [
+    {
+     "client": "9.3.5",
+     "kind": "teleporter",
+     "name": "Rei's Defense",
+     "lon": 20304,
+     "lat": 4605,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "119579"
+      ]
+     ]
+    },
+    {
+     "client": "9.2.2",
+     "kind": "teleporter",
+     "name": "Rei's Defense",
+     "lon": 20304,
+     "lat": 4605,
+     "sources": [
+      [
+       "map-table-9.2.2",
+       "119579"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "robot-mine",
+   "map": "amethera",
+   "name": "Robot Mine",
+   "kinds": [
+    "point"
+   ],
+   "lon": 21419,
+   "lat": 23497,
+   "listed": [
+    {
+     "client": "9.3.5",
+     "kind": "point",
+     "name": "Robot Mine",
+     "lon": 21419,
+     "lat": 23497,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "230351"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sakura-city",
+   "map": "amethera",
+   "name": "Sakura City",
+   "kinds": [
+    "settlement",
+    "teleporter"
+   ],
+   "lon": 23292,
+   "lat": 5787,
+   "listed": [
+    {
+     "client": "9.3.5",
+     "kind": "settlement",
+     "name": "Sakura City",
+     "lon": 23292,
+     "lat": 5787,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "124707"
+      ]
+     ]
+    },
+    {
+     "client": "9.3.5",
+     "kind": "teleporter",
+     "name": "Sakura City",
+     "lon": 23227,
+     "lat": 5650,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "124709"
+      ]
+     ]
+    },
+    {
+     "client": "9.2.2",
+     "kind": "settlement",
+     "name": "Sakura City",
+     "lon": 23292,
+     "lat": 5787,
+     "sources": [
+      [
+       "map-table-9.2.2",
+       "124707"
+      ]
+     ]
+    },
+    {
+     "client": "9.2.2",
+     "kind": "teleporter",
+     "name": "Sakura City",
+     "lon": 23227,
+     "lat": 5650,
+     "sources": [
+      [
+       "map-table-9.2.2",
+       "124709"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "segna-forest",
+   "map": "amethera",
+   "name": "Segna Forest",
+   "kinds": [
+    "teleporter"
+   ],
+   "lon": 2385,
+   "lat": 19012,
+   "listed": [
+    {
+     "client": "9.3.5",
+     "kind": "teleporter",
+     "name": "Segna Forest",
+     "lon": 2385,
+     "lat": 19012,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "202740"
+      ]
+     ]
+    },
+    {
+     "client": "9.2.2",
+     "kind": "teleporter",
+     "name": "Segna Forest",
+     "lon": 2385,
+     "lat": 19012,
+     "sources": [
+      [
+       "map-table-9.2.2",
+       "202740"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "shinook-jungle",
+   "map": "amethera",
+   "name": "Shinook Jungle",
+   "kinds": [
+    "teleporter"
+   ],
+   "lon": 11504,
+   "lat": 26040,
+   "listed": [
+    {
+     "client": "9.3.5",
+     "kind": "teleporter",
+     "name": "Shinook Jungle",
+     "lon": 11504,
+     "lat": 26040,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "202734"
+      ]
+     ]
+    },
+    {
+     "client": "9.2.2",
+     "kind": "teleporter",
+     "name": "Shinook Jungle",
+     "lon": 11504,
+     "lat": 26040,
+     "sources": [
+      [
+       "map-table-9.2.2",
+       "202734"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "solfais-crater",
+   "map": "amethera",
+   "name": "Solfais Crater",
+   "kinds": [
+    "teleporter"
+   ],
+   "lon": 4931,
+   "lat": 29303,
+   "listed": [
+    {
+     "client": "9.3.5",
+     "kind": "teleporter",
+     "name": "Solfais Crater",
+     "lon": 4931,
+     "lat": 29303,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "202743"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "the-treasure-island-castle",
+   "map": "amethera",
+   "name": "The Treasure Island Castle.",
+   "kinds": [
+    "teleporter"
+   ],
+   "lon": 20679,
+   "lat": 24846,
+   "listed": [
+    {
+     "client": "9.3.5",
+     "kind": "teleporter",
+     "name": "The Treasure Island Castle.",
+     "lon": 20679,
+     "lat": 24846,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "120175"
+      ]
+     ]
+    },
+    {
+     "client": "9.2.2",
+     "kind": "teleporter",
+     "name": "The Treasure Island castle.",
+     "lon": 20679,
+     "lat": 24846,
+     "sources": [
+      [
+       "map-table-9.2.2",
+       "120175"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "thorifoid-sacrifice-stone",
+   "map": "amethera",
+   "name": "Thorifoid Sacrifice Stone",
+   "kinds": [
+    "point"
+   ],
+   "lon": 10529,
+   "lat": 14145,
+   "listed": [
+    {
+     "client": "9.3.5",
+     "kind": "point",
+     "name": "Thorifoid Sacrifice Stone",
+     "lon": 10529,
+     "lat": 14145,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "230350"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "treasure-island-city",
+   "map": "amethera",
+   "name": "Treasure Island City",
+   "kinds": [
+    "settlement",
+    "teleporter"
+   ],
+   "lon": 18461,
+   "lat": 21774,
+   "listed": [
+    {
+     "client": "9.3.5",
+     "kind": "settlement",
+     "name": "Treasure Island City",
+     "lon": 18461,
+     "lat": 21774,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "124680"
+      ]
+     ]
+    },
+    {
+     "client": "9.3.5",
+     "kind": "teleporter",
+     "name": "Treasure Island City",
+     "lon": 18516,
+     "lat": 21859,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "124682"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "treasure-island-northern-shores",
+   "map": "amethera",
+   "name": "Treasure Island Northern Shores",
+   "kinds": [
+    "teleporter",
+    "area"
+   ],
+   "lon": 22974,
+   "lat": 26511,
+   "listed": [
+    {
+     "client": "9.3.5",
+     "kind": "teleporter",
+     "name": "Treasure Island Northern Shores",
+     "lon": 22974,
+     "lat": 26511,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "189838"
+      ]
+     ]
+    },
+    {
+     "client": "9.3.5",
+     "kind": "area",
+     "name": "Treasure Island Northern Shores",
+     "lon": 23020,
+     "lat": 26570,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "189837"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tresutte",
+   "map": "amethera",
+   "name": "Tresutte",
+   "kinds": [
+    "point"
+   ],
+   "lon": 7913,
+   "lat": 1966,
+   "listed": [
+    {
+     "client": "9.3.5",
+     "kind": "point",
+     "name": "Tresutte",
+     "lon": 7913,
+     "lat": 1966,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "238778"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "willunsong-north",
+   "map": "amethera",
+   "name": "Willunsong North",
+   "kinds": [
+    "point"
+   ],
+   "lon": 8584,
+   "lat": 4479,
+   "listed": [
+    {
+     "client": "9.3.5",
+     "kind": "point",
+     "name": "Willunsong North",
+     "lon": 8584,
+     "lat": 4479,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "238779"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "willunsong-west",
+   "map": "amethera",
+   "name": "Willunsong West",
+   "kinds": [
+    "point"
+   ],
+   "lon": 6028,
+   "lat": 2521,
+   "listed": [
+    {
+     "client": "9.3.5",
+     "kind": "point",
+     "name": "Willunsong West",
+     "lon": 6028,
+     "lat": 2521,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "238777"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "wolverine-hope",
+   "map": "amethera",
+   "name": "Wolverine Hope",
+   "kinds": [
+    "teleporter"
+   ],
+   "lon": 21104,
+   "lat": 17122,
+   "listed": [
+    {
+     "client": "9.3.5",
+     "kind": "teleporter",
+     "name": "Wolverine Hope",
+     "lon": 21104,
+     "lat": 17122,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "119577"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "aegis-mound",
+   "map": "eudoria",
+   "name": "Aegis Mound",
+   "kinds": [
+    "teleporter",
+    "point"
+   ],
+   "lon": 14400,
+   "lat": 16188,
+   "listed": [
+    {
+     "client": "9.3.5",
+     "kind": "teleporter",
+     "name": "Aegis Mound",
+     "lon": 14400,
+     "lat": 16188,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "116925"
+      ]
+     ]
+    },
+    {
+     "client": "9.3.5",
+     "kind": "point",
+     "name": "Aegis Mound",
+     "lon": 14511,
+     "lat": 16010,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "117001"
+      ]
+     ]
+    },
+    {
+     "client": "5.4",
+     "kind": "teleporter",
+     "name": "Aegis Mound",
+     "lon": 14400,
+     "lat": 16188,
+     "sources": [
+      [
+       "location-table-5.4",
+       "slot 6"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "anok-sellims",
+   "map": "eudoria",
+   "name": "Anok Sellims",
+   "kinds": [
+    "area"
+   ],
+   "lon": 12984,
+   "lat": 15546,
+   "listed": [
+    {
+     "client": "9.3.5",
+     "kind": "area",
+     "name": "Anok Sellims",
+     "lon": 12984,
+     "lat": 15546,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "237530"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "atlas-haven",
+   "map": "eudoria",
+   "name": "Atlas Haven",
+   "kinds": [
+    "settlement",
+    "teleporter"
+   ],
+   "lon": 12420,
+   "lat": 15749,
+   "listed": [
+    {
+     "client": "9.3.5",
+     "kind": "settlement",
+     "name": "Atlas Haven",
+     "lon": 12420,
+     "lat": 15749,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "116959"
+      ]
+     ]
+    },
+    {
+     "client": "9.3.5",
+     "kind": "teleporter",
+     "name": "Atlas Haven",
+     "lon": 12388,
+     "lat": 15846,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "116941"
+      ]
+     ]
+    },
+    {
+     "client": "9.2.2",
+     "kind": "settlement",
+     "name": "Atlas Haven",
+     "lon": 12420,
+     "lat": 15749,
+     "sources": [
+      [
+       "map-table-9.2.2",
+       "116959"
+      ]
+     ]
+    },
+    {
+     "client": "9.2.2",
+     "kind": "teleporter",
+     "name": "Atlas Haven",
+     "lon": 12388,
+     "lat": 15846,
+     "sources": [
+      [
+       "map-table-9.2.2",
+       "116941"
+      ]
+     ]
+    },
+    {
+     "client": "5.4",
+     "kind": "teleporter",
+     "name": "AtlasHaven",
+     "lon": 12388,
+     "lat": 15846,
+     "sources": [
+      [
+       "location-table-5.4",
+       "slot 22"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "atlas-haven-west",
+   "map": "eudoria",
+   "name": "Atlas Haven West",
+   "kinds": [
+    "area"
+   ],
+   "lon": 10539,
+   "lat": 15241,
+   "listed": [
+    {
+     "client": "9.3.5",
+     "kind": "area",
+     "name": "Atlas Haven West",
+     "lon": 10539,
+     "lat": 15241,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "116981"
+      ]
+     ]
+    },
+    {
+     "client": "9.2.2",
+     "kind": "area",
+     "name": "Atlas Haven West",
+     "lon": 10539,
+     "lat": 15241,
+     "sources": [
+      [
+       "map-table-9.2.2",
+       "116981"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "atlas-island-north",
+   "map": "eudoria",
+   "name": "Atlas Island North",
+   "kinds": [
+    "teleporter",
+    "point"
+   ],
+   "lon": 12583,
+   "lat": 17214,
+   "listed": [
+    {
+     "client": "9.3.5",
+     "kind": "teleporter",
+     "name": "Atlas Island North",
+     "lon": 12583,
+     "lat": 17214,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "116924"
+      ]
+     ]
+    },
+    {
+     "client": "9.3.5",
+     "kind": "point",
+     "name": "Atlas Island North",
+     "lon": 12522,
+     "lat": 17260,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "116994"
+      ]
+     ]
+    },
+    {
+     "client": "9.2.2",
+     "kind": "teleporter",
+     "name": "Atlas Island North",
+     "lon": 12583,
+     "lat": 17214,
+     "sources": [
+      [
+       "map-table-9.2.2",
+       "116924"
+      ]
+     ]
+    },
+    {
+     "client": "9.2.2",
+     "kind": "point",
+     "name": "Atlas Island North",
+     "lon": 12522,
+     "lat": 17260,
+     "sources": [
+      [
+       "map-table-9.2.2",
+       "116994"
+      ]
+     ]
+    },
+    {
+     "client": "5.4",
+     "kind": "teleporter",
+     "name": "Atlas Island North",
+     "lon": 12583,
+     "lat": 17214,
+     "sources": [
+      [
+       "location-table-5.4",
+       "slot 5"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "atlas-island-south",
+   "map": "eudoria",
+   "name": "Atlas Island South",
+   "kinds": [
+    "teleporter",
+    "point"
+   ],
+   "lon": 10535,
+   "lat": 14935,
+   "listed": [
+    {
+     "client": "9.3.5",
+     "kind": "teleporter",
+     "name": "Atlas Island South",
+     "lon": 10535,
+     "lat": 14935,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "116932"
+      ]
+     ]
+    },
+    {
+     "client": "9.3.5",
+     "kind": "point",
+     "name": "Atlas Island South",
+     "lon": 10468,
+     "lat": 14970,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "116998"
+      ]
+     ]
+    },
+    {
+     "client": "9.2.2",
+     "kind": "teleporter",
+     "name": "Atlas Island South",
+     "lon": 10535,
+     "lat": 14935,
+     "sources": [
+      [
+       "map-table-9.2.2",
+       "116932"
+      ]
+     ]
+    },
+    {
+     "client": "9.2.2",
+     "kind": "point",
+     "name": "Atlas Island South",
+     "lon": 10468,
+     "lat": 14970,
+     "sources": [
+      [
+       "map-table-9.2.2",
+       "116998"
+      ]
+     ]
+    },
+    {
+     "client": "5.4",
+     "kind": "teleporter",
+     "name": "Atlas Island South",
+     "lon": 10535,
+     "lat": 14935,
+     "sources": [
+      [
+       "location-table-5.4",
+       "slot 13"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "billy-s-spaceship-afterworld",
+   "map": "eudoria",
+   "name": "Billy's Spaceship Afterworld",
+   "kinds": [
+    "settlement",
+    "teleporter"
+   ],
+   "lon": 8150,
+   "lat": 10622,
+   "listed": [
+    {
+     "client": "9.3.5",
+     "kind": "settlement",
+     "name": "Billy's Spaceship Afterworld",
+     "lon": 8150,
+     "lat": 10622,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "116960"
+      ]
+     ]
+    },
+    {
+     "client": "9.3.5",
+     "kind": "teleporter",
+     "name": "Billy's Spaceship Afterworld",
+     "lon": 8127,
+     "lat": 10543,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "116943"
+      ]
+     ]
+    },
+    {
+     "client": "9.2.2",
+     "kind": "settlement",
+     "name": "Billy's Spaceship Afterworld",
+     "lon": 8150,
+     "lat": 10622,
+     "sources": [
+      [
+       "map-table-9.2.2",
+       "116960"
+      ]
+     ]
+    },
+    {
+     "client": "9.2.2",
+     "kind": "teleporter",
+     "name": "Billy's Spaceship Afterworld",
+     "lon": 8127,
+     "lat": 10543,
+     "sources": [
+      [
+       "map-table-9.2.2",
+       "116943"
+      ]
+     ]
+    },
+    {
+     "client": "5.4",
+     "kind": "teleporter",
+     "name": "Billy's Spaceship Afterworld",
+     "lon": 8152,
+     "lat": 10543,
+     "sources": [
+      [
+       "location-table-5.4",
+       "slot 24"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "blue-zone-base",
+   "map": "eudoria",
+   "name": "Blue Zone Base",
+   "kinds": [
+    "area"
+   ],
+   "lon": 24515,
+   "lat": 28213,
+   "listed": [
+    {
+     "client": "9.3.5",
+     "kind": "area",
+     "name": "Blue Zone Base",
+     "lon": 24515,
+     "lat": 28213,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "117250"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "camp-caravan",
+   "map": "eudoria",
+   "name": "Camp Caravan",
+   "kinds": [
+    "settlement",
+    "teleporter"
+   ],
+   "lon": 23995,
+   "lat": 23590,
+   "listed": [
+    {
+     "client": "9.3.5",
+     "kind": "settlement",
+     "name": "Camp Caravan",
+     "lon": 23995,
+     "lat": 23590,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "116966"
+      ]
+     ]
+    },
+    {
+     "client": "9.3.5",
+     "kind": "teleporter",
+     "name": "Camp Caravan",
+     "lon": 24015,
+     "lat": 23520,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "116945"
+      ]
+     ]
+    },
+    {
+     "client": "5.4",
+     "kind": "teleporter",
+     "name": "Camp Caravan",
+     "lon": 24015,
+     "lat": 23520,
+     "sources": [
+      [
+       "location-table-5.4",
+       "slot 26"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "camp-echidna",
+   "map": "eudoria",
+   "name": "Camp Echidna",
+   "kinds": [
+    "settlement",
+    "teleporter"
+   ],
+   "lon": 17938,
+   "lat": 19617,
+   "listed": [
+    {
+     "client": "9.3.5",
+     "kind": "settlement",
+     "name": "Camp Echidna",
+     "lon": 17938,
+     "lat": 19617,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "116961"
+      ]
+     ]
+    },
+    {
+     "client": "9.3.5",
+     "kind": "teleporter",
+     "name": "Camp Echidna",
+     "lon": 17950,
+     "lat": 19640,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "116948"
+      ]
+     ]
+    },
+    {
+     "client": "9.2.2",
+     "kind": "settlement",
+     "name": "Camp Echidna",
+     "lon": 17938,
+     "lat": 19617,
+     "sources": [
+      [
+       "map-table-9.2.2",
+       "116961"
+      ]
+     ]
+    },
+    {
+     "client": "9.2.2",
+     "kind": "teleporter",
+     "name": "Camp Echidna",
+     "lon": 17950,
+     "lat": 19640,
+     "sources": [
+      [
+       "map-table-9.2.2",
+       "116948"
+      ]
+     ]
+    },
+    {
+     "client": "5.4",
+     "kind": "teleporter",
+     "name": "Camp Echidna",
+     "lon": 17950,
+     "lat": 19640,
+     "sources": [
+      [
+       "location-table-5.4",
+       "slot 29"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "camp-phoenix",
+   "map": "eudoria",
+   "name": "Camp Phoenix",
+   "kinds": [
+    "teleporter",
+    "point"
+   ],
+   "lon": 9790,
+   "lat": 10583,
+   "listed": [
+    {
+     "client": "9.3.5",
+     "kind": "teleporter",
+     "name": "Camp Phoenix",
+     "lon": 9790,
+     "lat": 10583,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "116929"
+      ]
+     ]
+    },
+    {
+     "client": "9.3.5",
+     "kind": "point",
+     "name": "Camp Phoenix",
+     "lon": 9900,
+     "lat": 10625,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "117006"
+      ]
+     ]
+    },
+    {
+     "client": "9.2.2",
+     "kind": "teleporter",
+     "name": "Camp Phoenix",
+     "lon": 9790,
+     "lat": 10583,
+     "sources": [
+      [
+       "map-table-9.2.2",
+       "116929"
+      ]
+     ]
+    },
+    {
+     "client": "9.2.2",
+     "kind": "point",
+     "name": "Camp Phoenix",
+     "lon": 9900,
+     "lat": 10625,
+     "sources": [
+      [
+       "map-table-9.2.2",
+       "117006"
+      ]
+     ]
+    },
+    {
+     "client": "5.4",
+     "kind": "teleporter",
+     "name": "Camp Phoenix",
+     "lon": 9796,
+     "lat": 10590,
+     "sources": [
+      [
+       "location-table-5.4",
+       "slot 10"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cape-corinth",
+   "map": "eudoria",
+   "name": "Cape Corinth",
+   "kinds": [
+    "settlement",
+    "teleporter"
+   ],
+   "lon": 3350,
+   "lat": 21079,
+   "listed": [
+    {
+     "client": "9.3.5",
+     "kind": "settlement",
+     "name": "Cape Corinth",
+     "lon": 3350,
+     "lat": 21079,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "116962"
+      ]
+     ]
+    },
+    {
+     "client": "9.3.5",
+     "kind": "teleporter",
+     "name": "Cape Corinth",
+     "lon": 3330,
+     "lat": 21020,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "116947"
+      ]
+     ]
+    },
+    {
+     "client": "9.2.2",
+     "kind": "settlement",
+     "name": "Cape Corinth",
+     "lon": 3350,
+     "lat": 21079,
+     "sources": [
+      [
+       "map-table-9.2.2",
+       "116962"
+      ]
+     ]
+    },
+    {
+     "client": "9.2.2",
+     "kind": "teleporter",
+     "name": "Cape Corinth",
+     "lon": 3330,
+     "lat": 21020,
+     "sources": [
+      [
+       "map-table-9.2.2",
+       "116947"
+      ]
+     ]
+    },
+    {
+     "client": "5.4",
+     "kind": "teleporter",
+     "name": "Cape Corinth",
+     "lon": 3330,
+     "lat": 21020,
+     "sources": [
+      [
+       "location-table-5.4",
+       "slot 28"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "chimera-canyons",
+   "map": "eudoria",
+   "name": "Chimera Canyons",
+   "kinds": [
+    "teleporter",
+    "point"
+   ],
+   "lon": 15595,
+   "lat": 16325,
+   "listed": [
+    {
+     "client": "9.3.5",
+     "kind": "teleporter",
+     "name": "Chimera Canyons",
+     "lon": 15595,
+     "lat": 16325,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "116926"
+      ]
+     ]
+    },
+    {
+     "client": "9.3.5",
+     "kind": "point",
+     "name": "Chimera Canyons",
+     "lon": 15724,
+     "lat": 16286,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "117002"
+      ]
+     ]
+    },
+    {
+     "client": "9.2.2",
+     "kind": "teleporter",
+     "name": "Chimera Canyons",
+     "lon": 15595,
+     "lat": 16325,
+     "sources": [
+      [
+       "map-table-9.2.2",
+       "116926"
+      ]
+     ]
+    },
+    {
+     "client": "9.2.2",
+     "kind": "point",
+     "name": "Chimera Canyons",
+     "lon": 15724,
+     "lat": 16286,
+     "sources": [
+      [
+       "map-table-9.2.2",
+       "117002"
+      ]
+     ]
+    },
+    {
+     "client": "5.4",
+     "kind": "teleporter",
+     "name": "Chimera Canyons",
+     "lon": 15595,
+     "lat": 16325,
+     "sources": [
+      [
+       "location-table-5.4",
+       "slot 7"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "chug-s-hideout",
+   "map": "eudoria",
+   "name": "Chug's Hideout",
+   "kinds": [
+    "point"
+   ],
+   "lon": 9108,
+   "lat": 8994,
+   "listed": [
+    {
+     "client": "9.3.5",
+     "kind": "point",
+     "name": "Chug's Hideout",
+     "lon": 9108,
+     "lat": 8994,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "202393"
+      ]
+     ]
+    },
+    {
+     "client": "9.2.2",
+     "kind": "point",
+     "name": "Chug's Hideout",
+     "lon": 9108,
+     "lat": 8994,
+     "sources": [
+      [
+       "map-table-9.2.2",
+       "202393"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "corinth-beach",
+   "map": "eudoria",
+   "name": "Corinth Beach",
+   "kinds": [
+    "area"
+   ],
+   "lon": 5276,
+   "lat": 20173,
+   "listed": [
+    {
+     "client": "9.3.5",
+     "kind": "area",
+     "name": "Corinth Beach",
+     "lon": 5276,
+     "lat": 20173,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "116978"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "corinth-hangar",
+   "map": "eudoria",
+   "name": "Corinth Hangar",
+   "kinds": [
+    "area"
+   ],
+   "lon": 5267,
+   "lat": 19328,
+   "listed": [
+    {
+     "client": "9.3.5",
+     "kind": "area",
+     "name": "Corinth Hangar",
+     "lon": 5267,
+     "lat": 19328,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "116979"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "corinth-hills",
+   "map": "eudoria",
+   "name": "Corinth Hills",
+   "kinds": [
+    "area"
+   ],
+   "lon": 6282,
+   "lat": 19205,
+   "listed": [
+    {
+     "client": "9.3.5",
+     "kind": "area",
+     "name": "Corinth Hills",
+     "lon": 6282,
+     "lat": 19205,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "119140"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "east-scylla-mountains",
+   "map": "eudoria",
+   "name": "East Scylla Mountains",
+   "kinds": [
+    "teleporter",
+    "point"
+   ],
+   "lon": 13812,
+   "lat": 9114,
+   "listed": [
+    {
+     "client": "9.3.5",
+     "kind": "teleporter",
+     "name": "East Scylla Mountains",
+     "lon": 13812,
+     "lat": 9114,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "116936"
+      ]
+     ]
+    },
+    {
+     "client": "9.3.5",
+     "kind": "point",
+     "name": "East Scylla Mountains",
+     "lon": 13935,
+     "lat": 9085,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "117254"
+      ]
+     ]
+    },
+    {
+     "client": "9.2.2",
+     "kind": "teleporter",
+     "name": "East Scylla Mountains",
+     "lon": 13812,
+     "lat": 9114,
+     "sources": [
+      [
+       "map-table-9.2.2",
+       "116936"
+      ]
+     ]
+    },
+    {
+     "client": "9.2.2",
+     "kind": "point",
+     "name": "East Scylla Mountains",
+     "lon": 13935,
+     "lat": 9085,
+     "sources": [
+      [
+       "map-table-9.2.2",
+       "117254"
+      ]
+     ]
+    },
+    {
+     "client": "5.4",
+     "kind": "teleporter",
+     "name": "East Scylla Mountains",
+     "lon": 13812,
+     "lat": 9114,
+     "sources": [
+      [
+       "location-table-5.4",
+       "slot 17"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fort-ares",
+   "map": "eudoria",
+   "name": "Fort Ares",
+   "kinds": [
+    "settlement",
+    "teleporter"
+   ],
+   "lon": 14500,
+   "lat": 14435,
+   "listed": [
+    {
+     "client": "9.3.5",
+     "kind": "settlement",
+     "name": "Fort Ares",
+     "lon": 14500,
+     "lat": 14435,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "116963"
+      ]
+     ]
+    },
+    {
+     "client": "9.3.5",
+     "kind": "teleporter",
+     "name": "Fort Ares",
+     "lon": 14478,
+     "lat": 14399,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "116927"
+      ]
+     ]
+    },
+    {
+     "client": "9.2.2",
+     "kind": "settlement",
+     "name": "Fort Ares",
+     "lon": 14500,
+     "lat": 14435,
+     "sources": [
+      [
+       "map-table-9.2.2",
+       "116963"
+      ]
+     ]
+    },
+    {
+     "client": "9.2.2",
+     "kind": "teleporter",
+     "name": "Fort Ares",
+     "lon": 14478,
+     "lat": 14399,
+     "sources": [
+      [
+       "map-table-9.2.2",
+       "116927"
+      ]
+     ]
+    },
+    {
+     "client": "5.4",
+     "kind": "teleporter",
+     "name": "Fort Ares",
+     "lon": 14478,
+     "lat": 14399,
+     "sources": [
+      [
+       "location-table-5.4",
+       "slot 8"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fort-argus",
+   "map": "eudoria",
+   "name": "Fort Argus",
+   "kinds": [
+    "settlement",
+    "teleporter"
+   ],
+   "lon": 15190,
+   "lat": 23521,
+   "listed": [
+    {
+     "client": "9.3.5",
+     "kind": "settlement",
+     "name": "Fort Argus",
+     "lon": 15190,
+     "lat": 23521,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "116964"
+      ]
+     ]
+    },
+    {
+     "client": "9.3.5",
+     "kind": "teleporter",
+     "name": "Fort Argus",
+     "lon": 15206,
+     "lat": 23532,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "116940"
+      ]
+     ]
+    },
+    {
+     "client": "9.2.2",
+     "kind": "settlement",
+     "name": "Fort Argus",
+     "lon": 15190,
+     "lat": 23521,
+     "sources": [
+      [
+       "map-table-9.2.2",
+       "116964"
+      ]
+     ]
+    },
+    {
+     "client": "9.2.2",
+     "kind": "teleporter",
+     "name": "Fort Argus",
+     "lon": 15206,
+     "lat": 23532,
+     "sources": [
+      [
+       "map-table-9.2.2",
+       "116940"
+      ]
+     ]
+    },
+    {
+     "client": "5.4",
+     "kind": "teleporter",
+     "name": "Fort Argus",
+     "lon": 15195,
+     "lat": 23530,
+     "sources": [
+      [
+       "location-table-5.4",
+       "slot 21"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fort-fury",
+   "map": "eudoria",
+   "name": "Fort Fury",
+   "kinds": [
+    "settlement",
+    "teleporter"
+   ],
+   "lon": 11157,
+   "lat": 13208,
+   "listed": [
+    {
+     "client": "9.3.5",
+     "kind": "settlement",
+     "name": "Fort Fury",
+     "lon": 11157,
+     "lat": 13208,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "116967"
+      ]
+     ]
+    },
+    {
+     "client": "9.3.5",
+     "kind": "teleporter",
+     "name": "Fort Fury",
+     "lon": 11080,
+     "lat": 13230,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "116933"
+      ]
+     ]
+    },
+    {
+     "client": "9.2.2",
+     "kind": "settlement",
+     "name": "Fort Fury",
+     "lon": 11157,
+     "lat": 13208,
+     "sources": [
+      [
+       "map-table-9.2.2",
+       "116967"
+      ]
+     ]
+    },
+    {
+     "client": "9.2.2",
+     "kind": "teleporter",
+     "name": "Fort Fury",
+     "lon": 11080,
+     "lat": 13230,
+     "sources": [
+      [
+       "map-table-9.2.2",
+       "116933"
+      ]
+     ]
+    },
+    {
+     "client": "5.4",
+     "kind": "teleporter",
+     "name": "Fort Fury",
+     "lon": 11080,
+     "lat": 13230,
+     "sources": [
+      [
+       "location-table-5.4",
+       "slot 14"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fort-ithaca",
+   "map": "eudoria",
+   "name": "Fort Ithaca",
+   "kinds": [
+    "settlement",
+    "teleporter"
+   ],
+   "lon": 9110,
+   "lat": 22396,
+   "listed": [
+    {
+     "client": "9.3.5",
+     "kind": "settlement",
+     "name": "Fort Ithaca",
+     "lon": 9110,
+     "lat": 22396,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "116968"
+      ]
+     ]
+    },
+    {
+     "client": "9.3.5",
+     "kind": "teleporter",
+     "name": "Fort Ithaca",
+     "lon": 9127,
+     "lat": 22354,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "116928"
+      ]
+     ]
+    },
+    {
+     "client": "9.2.2",
+     "kind": "settlement",
+     "name": "Fort Ithaca",
+     "lon": 9110,
+     "lat": 22396,
+     "sources": [
+      [
+       "map-table-9.2.2",
+       "116968"
+      ]
+     ]
+    },
+    {
+     "client": "9.2.2",
+     "kind": "teleporter",
+     "name": "Fort Ithaca",
+     "lon": 9127,
+     "lat": 22354,
+     "sources": [
+      [
+       "map-table-9.2.2",
+       "116928"
+      ]
+     ]
+    },
+    {
+     "client": "5.4",
+     "kind": "teleporter",
+     "name": "Fort Ithaca",
+     "lon": 9130,
+     "lat": 22370,
+     "sources": [
+      [
+       "location-table-5.4",
+       "slot 9"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fort-medusa",
+   "map": "eudoria",
+   "name": "Fort Medusa",
+   "kinds": [
+    "settlement",
+    "teleporter"
+   ],
+   "lon": 12558,
+   "lat": 13568,
+   "listed": [
+    {
+     "client": "9.3.5",
+     "kind": "settlement",
+     "name": "Fort Medusa",
+     "lon": 12558,
+     "lat": 13568,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "116969"
+      ]
+     ]
+    },
+    {
+     "client": "9.3.5",
+     "kind": "teleporter",
+     "name": "Fort Medusa",
+     "lon": 12634,
+     "lat": 13602,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "116934"
+      ]
+     ]
+    },
+    {
+     "client": "9.2.2",
+     "kind": "settlement",
+     "name": "Fort Medusa",
+     "lon": 12558,
+     "lat": 13568,
+     "sources": [
+      [
+       "map-table-9.2.2",
+       "116969"
+      ]
+     ]
+    },
+    {
+     "client": "9.2.2",
+     "kind": "teleporter",
+     "name": "Fort Medusa",
+     "lon": 12634,
+     "lat": 13602,
+     "sources": [
+      [
+       "map-table-9.2.2",
+       "116934"
+      ]
+     ]
+    },
+    {
+     "client": "5.4",
+     "kind": "teleporter",
+     "name": "Fort Meduza",
+     "lon": 12634,
+     "lat": 13602,
+     "sources": [
+      [
+       "location-table-5.4",
+       "slot 15"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fort-pandora",
+   "map": "eudoria",
+   "name": "Fort Pandora",
+   "kinds": [
+    "teleporter",
+    "point"
+   ],
+   "lon": 19650,
+   "lat": 15380,
+   "listed": [
+    {
+     "client": "9.3.5",
+     "kind": "teleporter",
+     "name": "Fort Pandora",
+     "lon": 19650,
+     "lat": 15380,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "116937"
+      ]
+     ]
+    },
+    {
+     "client": "9.3.5",
+     "kind": "point",
+     "name": "Fort Pandora",
+     "lon": 19588,
+     "lat": 15374,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "117003"
+      ]
+     ]
+    },
+    {
+     "client": "5.4",
+     "kind": "teleporter",
+     "name": "Fort Pandora",
+     "lon": 19650,
+     "lat": 15380,
+     "sources": [
+      [
+       "location-table-5.4",
+       "slot 18"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fort-troy",
+   "map": "eudoria",
+   "name": "Fort Troy",
+   "kinds": [
+    "settlement",
+    "teleporter"
+   ],
+   "lon": 13282,
+   "lat": 4047,
+   "listed": [
+    {
+     "client": "9.3.5",
+     "kind": "settlement",
+     "name": "Fort Troy",
+     "lon": 13282,
+     "lat": 4047,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "116970"
+      ]
+     ]
+    },
+    {
+     "client": "9.3.5",
+     "kind": "teleporter",
+     "name": "Fort Troy",
+     "lon": 13354,
+     "lat": 3962,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "116938"
+      ]
+     ]
+    },
+    {
+     "client": "9.2.2",
+     "kind": "settlement",
+     "name": "Fort Troy",
+     "lon": 13282,
+     "lat": 4047,
+     "sources": [
+      [
+       "map-table-9.2.2",
+       "116970"
+      ]
+     ]
+    },
+    {
+     "client": "9.2.2",
+     "kind": "teleporter",
+     "name": "Fort Troy",
+     "lon": 13354,
+     "lat": 3962,
+     "sources": [
+      [
+       "map-table-9.2.2",
+       "116938"
+      ]
+     ]
+    },
+    {
+     "client": "5.4",
+     "kind": "teleporter",
+     "name": "Fort Troy",
+     "lon": 13354,
+     "lat": 3962,
+     "sources": [
+      [
+       "location-table-5.4",
+       "slot 19"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fort-zeus",
+   "map": "eudoria",
+   "name": "Fort Zeus",
+   "kinds": [
+    "settlement",
+    "teleporter"
+   ],
+   "lon": 22493,
+   "lat": 27665,
+   "listed": [
+    {
+     "client": "9.3.5",
+     "kind": "settlement",
+     "name": "Fort Zeus",
+     "lon": 22493,
+     "lat": 27665,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "116971"
+      ]
+     ]
+    },
+    {
+     "client": "9.3.5",
+     "kind": "teleporter",
+     "name": "Fort Zeus",
+     "lon": 22467,
+     "lat": 27705,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "116939"
+      ]
+     ]
+    },
+    {
+     "client": "9.2.2",
+     "kind": "settlement",
+     "name": "Fort Zeus",
+     "lon": 22493,
+     "lat": 27665,
+     "sources": [
+      [
+       "map-table-9.2.2",
+       "116971"
+      ]
+     ]
+    },
+    {
+     "client": "9.2.2",
+     "kind": "teleporter",
+     "name": "Fort Zeus",
+     "lon": 22467,
+     "lat": 27705,
+     "sources": [
+      [
+       "map-table-9.2.2",
+       "116939"
+      ]
+     ]
+    },
+    {
+     "client": "5.4",
+     "kind": "teleporter",
+     "name": "Fort Zeus",
+     "lon": 22467,
+     "lat": 27705,
+     "sources": [
+      [
+       "location-table-5.4",
+       "slot 20"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "gurun-dal-camp",
+   "map": "eudoria",
+   "name": "Gurun Dal Camp",
+   "kinds": [
+    "settlement"
+   ],
+   "lon": 3454,
+   "lat": 20125,
+   "listed": [
+    {
+     "client": "9.3.5",
+     "kind": "settlement",
+     "name": "Gurun Dal Camp",
+     "lon": 3454,
+     "lat": 20125,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "237531"
+      ]
+     ]
+    },
+    {
+     "client": "9.2.2",
+     "kind": "settlement",
+     "name": "Gurun Dal Camp",
+     "lon": 3454,
+     "lat": 20125,
+     "sources": [
+      [
+       "map-table-9.2.2",
+       "237531"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hadesheim",
+   "map": "eudoria",
+   "name": "Hadesheim",
+   "kinds": [
+    "settlement"
+   ],
+   "lon": 7174,
+   "lat": 16935,
+   "listed": [
+    {
+     "client": "9.3.5",
+     "kind": "settlement",
+     "name": "Hadesheim",
+     "lon": 7174,
+     "lat": 16935,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "116972"
+      ]
+     ]
+    },
+    {
+     "client": "9.2.2",
+     "kind": "settlement",
+     "name": "Hadesheim",
+     "lon": 7174,
+     "lat": 16935,
+     "sources": [
+      [
+       "map-table-9.2.2",
+       "116972"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hadesheim-c",
+   "map": "eudoria",
+   "name": "Hadesheim C",
+   "kinds": [
+    "teleporter"
+   ],
+   "lon": 7126,
+   "lat": 17093,
+   "listed": [
+    {
+     "client": "9.3.5",
+     "kind": "teleporter",
+     "name": "Hadesheim C",
+     "lon": 7126,
+     "lat": 17093,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "116923"
+      ]
+     ]
+    },
+    {
+     "client": "9.2.2",
+     "kind": "teleporter",
+     "name": "Hadesheim C",
+     "lon": 7126,
+     "lat": 17093,
+     "sources": [
+      [
+       "map-table-9.2.2",
+       "116923"
+      ]
+     ]
+    },
+    {
+     "client": "5.4",
+     "kind": "teleporter",
+     "name": "Hadesheim C",
+     "lon": 7126,
+     "lat": 17093,
+     "sources": [
+      [
+       "location-table-5.4",
+       "slot 4"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hadesheim-east-city",
+   "map": "eudoria",
+   "name": "Hadesheim East City",
+   "kinds": [
+    "teleporter"
+   ],
+   "lon": 8080,
+   "lat": 17347,
+   "listed": [
+    {
+     "client": "9.3.5",
+     "kind": "teleporter",
+     "name": "Hadesheim East City",
+     "lon": 8080,
+     "lat": 17347,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "116920"
+      ]
+     ]
+    },
+    {
+     "client": "9.2.2",
+     "kind": "teleporter",
+     "name": "Hadesheim East City",
+     "lon": 8080,
+     "lat": 17347,
+     "sources": [
+      [
+       "map-table-9.2.2",
+       "116920"
+      ]
+     ]
+    },
+    {
+     "client": "5.4",
+     "kind": "teleporter",
+     "name": "Hadesheim East City",
+     "lon": 8080,
+     "lat": 17347,
+     "sources": [
+      [
+       "location-table-5.4",
+       "slot 1"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hadesheim-outpost",
+   "map": "eudoria",
+   "name": "Hadesheim Outpost",
+   "kinds": [
+    "teleporter"
+   ],
+   "lon": 7670,
+   "lat": 15970,
+   "listed": [
+    {
+     "client": "9.3.5",
+     "kind": "teleporter",
+     "name": "Hadesheim Outpost",
+     "lon": 7670,
+     "lat": 15970,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "116919"
+      ]
+     ]
+    },
+    {
+     "client": "9.2.2",
+     "kind": "teleporter",
+     "name": "Hadesheim Outpost",
+     "lon": 7670,
+     "lat": 15970,
+     "sources": [
+      [
+       "map-table-9.2.2",
+       "116919"
+      ]
+     ]
+    },
+    {
+     "client": "5.4",
+     "kind": "teleporter",
+     "name": "Hadesheim Outpost",
+     "lon": 7670,
+     "lat": 15970,
+     "sources": [
+      [
+       "location-table-5.4",
+       "slot 0"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hadesheim-south-city",
+   "map": "eudoria",
+   "name": "Hadesheim South City",
+   "kinds": [
+    "teleporter"
+   ],
+   "lon": 6910,
+   "lat": 16468,
+   "listed": [
+    {
+     "client": "9.3.5",
+     "kind": "teleporter",
+     "name": "Hadesheim South City",
+     "lon": 6910,
+     "lat": 16468,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "116922"
+      ]
+     ]
+    },
+    {
+     "client": "9.2.2",
+     "kind": "teleporter",
+     "name": "Hadesheim South City",
+     "lon": 6910,
+     "lat": 16468,
+     "sources": [
+      [
+       "map-table-9.2.2",
+       "116922"
+      ]
+     ]
+    },
+    {
+     "client": "5.4",
+     "kind": "teleporter",
+     "name": "Hadesheim South City",
+     "lon": 6910,
+     "lat": 16468,
+     "sources": [
+      [
+       "location-table-5.4",
+       "slot 3"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "jason-centre",
+   "map": "eudoria",
+   "name": "Jason Centre",
+   "kinds": [
+    "settlement",
+    "teleporter"
+   ],
+   "lon": 14466,
+   "lat": 10891,
+   "listed": [
+    {
+     "client": "9.3.5",
+     "kind": "settlement",
+     "name": "Jason Centre",
+     "lon": 14466,
+     "lat": 10891,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "116973"
+      ]
+     ]
+    },
+    {
+     "client": "9.3.5",
+     "kind": "teleporter",
+     "name": "Jason Centre",
+     "lon": 14455,
+     "lat": 10865,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "116942"
+      ]
+     ]
+    },
+    {
+     "client": "9.2.2",
+     "kind": "settlement",
+     "name": "Jason Centre",
+     "lon": 14466,
+     "lat": 10891,
+     "sources": [
+      [
+       "map-table-9.2.2",
+       "116973"
+      ]
+     ]
+    },
+    {
+     "client": "9.2.2",
+     "kind": "teleporter",
+     "name": "Jason Centre",
+     "lon": 14455,
+     "lat": 10865,
+     "sources": [
+      [
+       "map-table-9.2.2",
+       "116942"
+      ]
+     ]
+    },
+    {
+     "client": "5.4",
+     "kind": "teleporter",
+     "name": "Jason Centre",
+     "lon": 14455,
+     "lat": 10865,
+     "sources": [
+      [
+       "location-table-5.4",
+       "slot 23"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lake-serene",
+   "map": "eudoria",
+   "name": "Lake Serene",
+   "kinds": [
+    "area"
+   ],
+   "lon": 26008,
+   "lat": 11706,
+   "listed": [
+    {
+     "client": "9.3.5",
+     "kind": "area",
+     "name": "Lake Serene",
+     "lon": 26008,
+     "lat": 11706,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "117252"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "limnadian-district",
+   "map": "eudoria",
+   "name": "Limnadian District",
+   "kinds": [
+    "teleporter",
+    "point"
+   ],
+   "lon": 12107,
+   "lat": 12070,
+   "listed": [
+    {
+     "client": "9.3.5",
+     "kind": "teleporter",
+     "name": "Limnadian District",
+     "lon": 12107,
+     "lat": 12070,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "116935"
+      ]
+     ]
+    },
+    {
+     "client": "9.3.5",
+     "kind": "point",
+     "name": "Limnadian District",
+     "lon": 12242,
+     "lat": 12049,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "116999"
+      ]
+     ]
+    },
+    {
+     "client": "9.2.2",
+     "kind": "teleporter",
+     "name": "Limnadian District",
+     "lon": 12107,
+     "lat": 12070,
+     "sources": [
+      [
+       "map-table-9.2.2",
+       "116935"
+      ]
+     ]
+    },
+    {
+     "client": "9.2.2",
+     "kind": "point",
+     "name": "Limnadian District",
+     "lon": 12242,
+     "lat": 12049,
+     "sources": [
+      [
+       "map-table-9.2.2",
+       "116999"
+      ]
+     ]
+    },
+    {
+     "client": "5.4",
+     "kind": "teleporter",
+     "name": "Limnadian District",
+     "lon": 12196,
+     "lat": 12153,
+     "sources": [
+      [
+       "location-table-5.4",
+       "slot 16"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "minopolis",
+   "map": "eudoria",
+   "name": "Minopolis",
+   "kinds": [
+    "settlement",
+    "teleporter"
+   ],
+   "lon": 25510,
+   "lat": 17499,
+   "listed": [
+    {
+     "client": "9.3.5",
+     "kind": "settlement",
+     "name": "Minopolis",
+     "lon": 25510,
+     "lat": 17499,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "116974"
+      ]
+     ]
+    },
+    {
+     "client": "9.3.5",
+     "kind": "teleporter",
+     "name": "Minopolis",
+     "lon": 25489,
+     "lat": 17486,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "116950"
+      ]
+     ]
+    },
+    {
+     "client": "5.4",
+     "kind": "teleporter",
+     "name": "Minopolis",
+     "lon": 25489,
+     "lat": 17486,
+     "sources": [
+      [
+       "location-table-5.4",
+       "slot 31"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "morningtear-castle",
+   "map": "eudoria",
+   "name": "Morningtear Castle",
+   "kinds": [
+    "area"
+   ],
+   "lon": 21093,
+   "lat": 18162,
+   "listed": [
+    {
+     "client": "9.3.5",
+     "kind": "area",
+     "name": "Morningtear Castle",
+     "lon": 21093,
+     "lat": 18162,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "117253"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "north-space-base",
+   "map": "eudoria",
+   "name": "North Space Base",
+   "kinds": [
+    "teleporter",
+    "area"
+   ],
+   "lon": 24493,
+   "lat": 28913,
+   "listed": [
+    {
+     "client": "9.3.5",
+     "kind": "teleporter",
+     "name": "North Space Base",
+     "lon": 24493,
+     "lat": 28913,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "201877"
+      ]
+     ]
+    },
+    {
+     "client": "9.3.5",
+     "kind": "area",
+     "name": "North Space Base",
+     "lon": 24722,
+     "lat": 28939,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "116988"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "north-west-echidna",
+   "map": "eudoria",
+   "name": "North West Echidna",
+   "kinds": [
+    "area"
+   ],
+   "lon": 17811,
+   "lat": 20194,
+   "listed": [
+    {
+     "client": "9.3.5",
+     "kind": "area",
+     "name": "North West Echidna",
+     "lon": 17811,
+     "lat": 20194,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "117251"
+      ],
+      [
+       "map-table-9.3.5",
+       "237379"
+      ],
+      [
+       "map-table-9.3.5",
+       "237380"
+      ]
+     ]
+    },
+    {
+     "client": "9.2.2",
+     "kind": "area",
+     "name": "North-West Echidna",
+     "lon": 18121,
+     "lat": 20234,
+     "sources": [
+      [
+       "map-table-9.2.2",
+       "237379"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "nus-lull",
+   "map": "eudoria",
+   "name": "Nus Lull",
+   "kinds": [
+    "settlement"
+   ],
+   "lon": 6138,
+   "lat": 9780,
+   "listed": [
+    {
+     "client": "9.3.5",
+     "kind": "settlement",
+     "name": "Nus Lull",
+     "lon": 6138,
+     "lat": 9780,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "237536"
+      ]
+     ]
+    },
+    {
+     "client": "9.2.2",
+     "kind": "settlement",
+     "name": "Nus Lull",
+     "lon": 6138,
+     "lat": 9780,
+     "sources": [
+      [
+       "map-table-9.2.2",
+       "237536"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "nymphtown",
+   "map": "eudoria",
+   "name": "Nymphtown",
+   "kinds": [
+    "settlement",
+    "teleporter"
+   ],
+   "lon": 24928,
+   "lat": 12414,
+   "listed": [
+    {
+     "client": "9.3.5",
+     "kind": "settlement",
+     "name": "Nymphtown",
+     "lon": 24928,
+     "lat": 12414,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "116975"
+      ]
+     ]
+    },
+    {
+     "client": "9.3.5",
+     "kind": "teleporter",
+     "name": "Nymphtown",
+     "lon": 24901,
+     "lat": 12416,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "116946"
+      ]
+     ]
+    },
+    {
+     "client": "9.2.2",
+     "kind": "settlement",
+     "name": "Nymphtown",
+     "lon": 24928,
+     "lat": 12414,
+     "sources": [
+      [
+       "map-table-9.2.2",
+       "116975"
+      ]
+     ]
+    },
+    {
+     "client": "9.2.2",
+     "kind": "teleporter",
+     "name": "Nymphtown",
+     "lon": 24901,
+     "lat": 12416,
+     "sources": [
+      [
+       "map-table-9.2.2",
+       "116946"
+      ]
+     ]
+    },
+    {
+     "client": "5.4",
+     "kind": "teleporter",
+     "name": "Nymphtown",
+     "lon": 24978,
+     "lat": 12400,
+     "sources": [
+      [
+       "location-table-5.4",
+       "slot 27"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "orthos-west-mound",
+   "map": "eudoria",
+   "name": "Orthos West Mound",
+   "kinds": [
+    "teleporter",
+    "point"
+   ],
+   "lon": 6380,
+   "lat": 12145,
+   "listed": [
+    {
+     "client": "9.3.5",
+     "kind": "teleporter",
+     "name": "Orthos West Mound",
+     "lon": 6380,
+     "lat": 12145,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "116931"
+      ]
+     ]
+    },
+    {
+     "client": "9.3.5",
+     "kind": "point",
+     "name": "Orthos West Mound",
+     "lon": 6506,
+     "lat": 12212,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "116997"
+      ]
+     ]
+    },
+    {
+     "client": "9.2.2",
+     "kind": "teleporter",
+     "name": "Orthos West Mound",
+     "lon": 6380,
+     "lat": 12145,
+     "sources": [
+      [
+       "map-table-9.2.2",
+       "116931"
+      ]
+     ]
+    },
+    {
+     "client": "9.2.2",
+     "kind": "point",
+     "name": "Orthos West Mound",
+     "lon": 6506,
+     "lat": 12212,
+     "sources": [
+      [
+       "map-table-9.2.2",
+       "116997"
+      ]
+     ]
+    },
+    {
+     "client": "5.4",
+     "kind": "teleporter",
+     "name": "Orthos West Mound",
+     "lon": 6380,
+     "lat": 12145,
+     "sources": [
+      [
+       "location-table-5.4",
+       "slot 12"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "port-atlantis",
+   "map": "eudoria",
+   "name": "Port Atlantis",
+   "kinds": [
+    "settlement",
+    "teleporter"
+   ],
+   "lon": 6100,
+   "lat": 8350,
+   "listed": [
+    {
+     "client": "9.3.5",
+     "kind": "settlement",
+     "name": "Port Atlantis",
+     "lon": 6100,
+     "lat": 8350,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "116965"
+      ]
+     ]
+    },
+    {
+     "client": "9.3.5",
+     "kind": "teleporter",
+     "name": "Port Atlantis",
+     "lon": 6055,
+     "lat": 8442,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "116930"
+      ]
+     ]
+    },
+    {
+     "client": "9.2.2",
+     "kind": "settlement",
+     "name": "Port Atlantis",
+     "lon": 6100,
+     "lat": 8350,
+     "sources": [
+      [
+       "map-table-9.2.2",
+       "116965"
+      ]
+     ]
+    },
+    {
+     "client": "9.2.2",
+     "kind": "teleporter",
+     "name": "Port Atlantis",
+     "lon": 6055,
+     "lat": 8442,
+     "sources": [
+      [
+       "map-table-9.2.2",
+       "116930"
+      ]
+     ]
+    },
+    {
+     "client": "5.4",
+     "kind": "teleporter",
+     "name": "Port Atlantis",
+     "lon": 6055,
+     "lat": 8442,
+     "sources": [
+      [
+       "location-table-5.4",
+       "slot 11"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "port-atlantis-mall",
+   "map": "eudoria",
+   "name": "Port Atlantis Mall",
+   "kinds": [
+    "teleporter",
+    "point"
+   ],
+   "lon": 5860,
+   "lat": 8375,
+   "listed": [
+    {
+     "client": "9.3.5",
+     "kind": "teleporter",
+     "name": "Port Atlantis Mall",
+     "lon": 5860,
+     "lat": 8375,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "236887"
+      ]
+     ]
+    },
+    {
+     "client": "9.3.5",
+     "kind": "point",
+     "name": "Port Atlantis Mall",
+     "lon": 5860,
+     "lat": 8415,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "236673"
+      ]
+     ]
+    },
+    {
+     "client": "9.2.2",
+     "kind": "teleporter",
+     "name": "Port Atlantis Mall",
+     "lon": 5860,
+     "lat": 8375,
+     "sources": [
+      [
+       "map-table-9.2.2",
+       "236887"
+      ]
+     ]
+    },
+    {
+     "client": "9.2.2",
+     "kind": "point",
+     "name": "Port Atlantis Mall",
+     "lon": 5860,
+     "lat": 8415,
+     "sources": [
+      [
+       "map-table-9.2.2",
+       "236673"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "port-atlantis-swamp-camp",
+   "map": "eudoria",
+   "name": "Port Atlantis Swamp Camp",
+   "kinds": [
+    "point"
+   ],
+   "lon": 5627,
+   "lat": 9170,
+   "listed": [
+    {
+     "client": "9.3.5",
+     "kind": "point",
+     "name": "Port Atlantis Swamp Camp",
+     "lon": 5627,
+     "lat": 9170,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "237364"
+      ]
+     ]
+    },
+    {
+     "client": "9.2.2",
+     "kind": "point",
+     "name": "Port Atlantis Swamp Camp",
+     "lon": 5627,
+     "lat": 9170,
+     "sources": [
+      [
+       "map-table-9.2.2",
+       "237364"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "raven-valley",
+   "map": "eudoria",
+   "name": "Raven Valley",
+   "kinds": [
+    "area"
+   ],
+   "lon": 16700,
+   "lat": 23876,
+   "listed": [
+    {
+     "client": "9.3.5",
+     "kind": "area",
+     "name": "Raven Valley",
+     "lon": 16700,
+     "lat": 23876,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "116986"
+      ]
+     ]
+    },
+    {
+     "client": "9.2.2",
+     "kind": "area",
+     "name": "Raven Valley",
+     "lon": 16700,
+     "lat": 23876,
+     "sources": [
+      [
+       "map-table-9.2.2",
+       "116986"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "raven-village",
+   "map": "eudoria",
+   "name": "Raven Village",
+   "kinds": [
+    "area"
+   ],
+   "lon": 18643,
+   "lat": 25269,
+   "listed": [
+    {
+     "client": "9.3.5",
+     "kind": "area",
+     "name": "Raven Village",
+     "lon": 18643,
+     "lat": 25269,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "116987"
+      ]
+     ]
+    },
+    {
+     "client": "9.2.2",
+     "kind": "area",
+     "name": "Raven Village",
+     "lon": 18643,
+     "lat": 25269,
+     "sources": [
+      [
+       "map-table-9.2.2",
+       "116987"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rogue-plains",
+   "map": "eudoria",
+   "name": "Rogue Plains",
+   "kinds": [
+    "area"
+   ],
+   "lon": 14015,
+   "lat": 23249,
+   "listed": [
+    {
+     "client": "9.3.5",
+     "kind": "area",
+     "name": "Rogue Plains",
+     "lon": 14015,
+     "lat": 23249,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "116982"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rogue-plains-hangar",
+   "map": "eudoria",
+   "name": "Rogue Plains Hangar",
+   "kinds": [
+    "area"
+   ],
+   "lon": 14895,
+   "lat": 23362,
+   "listed": [
+    {
+     "client": "9.3.5",
+     "kind": "area",
+     "name": "Rogue Plains Hangar",
+     "lon": 14895,
+     "lat": 23362,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "116984"
+      ]
+     ]
+    },
+    {
+     "client": "9.2.2",
+     "kind": "area",
+     "name": "Rogue Plains Hangar",
+     "lon": 14895,
+     "lat": 23362,
+     "sources": [
+      [
+       "map-table-9.2.2",
+       "116984"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rogue-plains-north",
+   "map": "eudoria",
+   "name": "Rogue Plains North",
+   "kinds": [
+    "area"
+   ],
+   "lon": 15095,
+   "lat": 24139,
+   "listed": [
+    {
+     "client": "9.3.5",
+     "kind": "area",
+     "name": "Rogue Plains North",
+     "lon": 15095,
+     "lat": 24139,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "116985"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rogue-plains-south",
+   "map": "eudoria",
+   "name": "Rogue Plains South",
+   "kinds": [
+    "area"
+   ],
+   "lon": 14370,
+   "lat": 22736,
+   "listed": [
+    {
+     "client": "9.3.5",
+     "kind": "area",
+     "name": "Rogue Plains South",
+     "lon": 14370,
+     "lat": 22736,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "116983"
+      ]
+     ]
+    },
+    {
+     "client": "9.2.2",
+     "kind": "area",
+     "name": "Rogue Plains South",
+     "lon": 14370,
+     "lat": 22736,
+     "sources": [
+      [
+       "map-table-9.2.2",
+       "116983"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "strength-keep",
+   "map": "eudoria",
+   "name": "Strength Keep",
+   "kinds": [
+    "area"
+   ],
+   "lon": 17242,
+   "lat": 5935,
+   "listed": [
+    {
+     "client": "9.3.5",
+     "kind": "area",
+     "name": "Strength Keep",
+     "lon": 17242,
+     "lat": 5935,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "116989"
+      ]
+     ]
+    },
+    {
+     "client": "9.2.2",
+     "kind": "area",
+     "name": "Strength Keep",
+     "lon": 17242,
+     "lat": 5935,
+     "sources": [
+      [
+       "map-table-9.2.2",
+       "116989"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tethys-creek",
+   "map": "eudoria",
+   "name": "Tethys Creek",
+   "kinds": [
+    "teleporter",
+    "point"
+   ],
+   "lon": 10485,
+   "lat": 15933,
+   "listed": [
+    {
+     "client": "9.3.5",
+     "kind": "teleporter",
+     "name": "Tethys Creek",
+     "lon": 10485,
+     "lat": 15933,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "116921"
+      ]
+     ]
+    },
+    {
+     "client": "9.3.5",
+     "kind": "point",
+     "name": "Tethys Creek",
+     "lon": 10598,
+     "lat": 16026,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "116995"
+      ]
+     ]
+    },
+    {
+     "client": "9.2.2",
+     "kind": "teleporter",
+     "name": "Tethys Creek",
+     "lon": 10485,
+     "lat": 15933,
+     "sources": [
+      [
+       "map-table-9.2.2",
+       "116921"
+      ]
+     ]
+    },
+    {
+     "client": "9.2.2",
+     "kind": "point",
+     "name": "Tethys Creek",
+     "lon": 10598,
+     "lat": 16026,
+     "sources": [
+      [
+       "map-table-9.2.2",
+       "116995"
+      ]
+     ]
+    },
+    {
+     "client": "5.4",
+     "kind": "teleporter",
+     "name": "Tethys Creek",
+     "lon": 10485,
+     "lat": 15933,
+     "sources": [
+      [
+       "location-table-5.4",
+       "slot 2"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "twin-peaks",
+   "map": "eudoria",
+   "name": "Twin Peaks",
+   "kinds": [
+    "settlement",
+    "teleporter"
+   ],
+   "lon": 16979,
+   "lat": 8096,
+   "listed": [
+    {
+     "client": "9.3.5",
+     "kind": "settlement",
+     "name": "Twin Peaks",
+     "lon": 16979,
+     "lat": 8096,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "116976"
+      ]
+     ]
+    },
+    {
+     "client": "9.3.5",
+     "kind": "teleporter",
+     "name": "Twin Peaks",
+     "lon": 17033,
+     "lat": 8097,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "116944"
+      ]
+     ]
+    },
+    {
+     "client": "9.2.2",
+     "kind": "settlement",
+     "name": "Twin Peaks",
+     "lon": 16979,
+     "lat": 8096,
+     "sources": [
+      [
+       "map-table-9.2.2",
+       "116976"
+      ]
+     ]
+    },
+    {
+     "client": "9.2.2",
+     "kind": "teleporter",
+     "name": "Twin Peaks",
+     "lon": 17033,
+     "lat": 8097,
+     "sources": [
+      [
+       "map-table-9.2.2",
+       "116944"
+      ]
+     ]
+    },
+    {
+     "client": "5.4",
+     "kind": "teleporter",
+     "name": "Twin Peaks",
+     "lon": 17033,
+     "lat": 8107,
+     "sources": [
+      [
+       "location-table-5.4",
+       "slot 25"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "twin-peaks-mall",
+   "map": "eudoria",
+   "name": "Twin Peaks Mall",
+   "kinds": [
+    "teleporter",
+    "point"
+   ],
+   "lon": 16815,
+   "lat": 8373,
+   "listed": [
+    {
+     "client": "9.3.5",
+     "kind": "teleporter",
+     "name": "Twin Peaks Mall",
+     "lon": 16815,
+     "lat": 8373,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "236541"
+      ]
+     ]
+    },
+    {
+     "client": "9.3.5",
+     "kind": "point",
+     "name": "Twin Peaks Mall",
+     "lon": 16814,
+     "lat": 8332,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "236327"
+      ]
+     ]
+    },
+    {
+     "client": "9.2.2",
+     "kind": "teleporter",
+     "name": "Twin Peaks Mall",
+     "lon": 16815,
+     "lat": 8373,
+     "sources": [
+      [
+       "map-table-9.2.2",
+       "236541"
+      ]
+     ]
+    },
+    {
+     "client": "9.2.2",
+     "kind": "point",
+     "name": "Twin Peaks Mall",
+     "lon": 16814,
+     "lat": 8332,
+     "sources": [
+      [
+       "map-table-9.2.2",
+       "236327"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "west-hadesheim",
+   "map": "eudoria",
+   "name": "West Hadesheim",
+   "kinds": [
+    "area"
+   ],
+   "lon": 5679,
+   "lat": 16931,
+   "listed": [
+    {
+     "client": "9.3.5",
+     "kind": "area",
+     "name": "West Hadesheim",
+     "lon": 5679,
+     "lat": 16931,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "116980"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "zychion-citadel",
+   "map": "eudoria",
+   "name": "Zychion Citadel",
+   "kinds": [
+    "settlement",
+    "teleporter"
+   ],
+   "lon": 10820,
+   "lat": 9580,
+   "listed": [
+    {
+     "client": "9.3.5",
+     "kind": "settlement",
+     "name": "Zychion Citadel",
+     "lon": 10820,
+     "lat": 9580,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "117255"
+      ]
+     ]
+    },
+    {
+     "client": "9.3.5",
+     "kind": "teleporter",
+     "name": "Zychion Citadel",
+     "lon": 10851,
+     "lat": 9676,
+     "sources": [
+      [
+       "map-table-9.3.5",
+       "116949"
+      ]
+     ]
+    },
+    {
+     "client": "9.2.2",
+     "kind": "settlement",
+     "name": "Zychion Citadel",
+     "lon": 10820,
+     "lat": 9580,
+     "sources": [
+      [
+       "map-table-9.2.2",
+       "117255"
+      ]
+     ]
+    },
+    {
+     "client": "9.2.2",
+     "kind": "teleporter",
+     "name": "Zychion Citadel",
+     "lon": 10851,
+     "lat": 9676,
+     "sources": [
+      [
+       "map-table-9.2.2",
+       "116949"
+      ]
+     ]
+    },
+    {
+     "client": "5.4",
+     "kind": "teleporter",
+     "name": "Zychion Citadel",
+     "lon": 10851,
+     "lat": 9676,
+     "sources": [
+      [
+       "location-table-5.4",
+       "slot 30"
+      ]
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -14,6 +14,7 @@
 | `skills/` | The Skills page. `data/skills.json` holds the skills and `data/ranks.json` the 5.4 client's rank ladder (see [A skill](#a-skill)); `render-skills.js` draws them into the page, `skills.js` adds its filters and popups and `skills.css` styles it. |
 | `auction/` | The Auction page. `data/items/<item id>.json` holds every auction players recorded of one item and the markups the price sites printed for it, `charts/` PE Auction's own charts and `data/houses.json` the listings of the auction houses players ran (see [An auction record](#an-auction-record)); `render-auction.js` draws the list and the houses, `auction.js` adds its filters and the popup with each item's chart and records, and `auction.css` styles it. |
 | `halloffame/` | The Hall of Fame page. `data/records.json` holds every global and Hall of Fame loot players recorded (see [A Hall of Fame record](#a-hall-of-fame-record)); `render-halloffame.js` draws them into one table, `halloffame.js` adds its filters and `halloffame.css` styles it. |
+| `maps/` | The Maps page. `data/maps.json` is the Archive's own map database (see [A map](#a-map)): each map's frame, the areas drawn on it and its places; `data/minerals.json` holds the known mineral finds; `data/revival.json` the revival areas and zones of 2006; `amethera.png` and `eudoria.jpg` are the pictures, `render-maps.js` draws the page, `maps.js` adds its layers and `maps.css` styles it. |
 | `societies/` | The Societies page. `data/societies.json` holds every society the sources name (see [A society](#a-society)); `render-societies.js` draws them into one list, `societies.js` adds its filters and `societies.css` styles it. |
 | `versions.json` | Every version and every client file. Edited by hand. |
 | `notes.md` | The release notes' text, one `## VU <version>` section per version. Edited by hand. |
@@ -288,6 +289,7 @@ the records cite by place.
 | `society`, `ranks` | What the Hall of Fame window printed: the player's society, and each list it showed the entry in with its place, `[list, place]`. |
 | `activity` | `"hunting"`, `"mining"` or `"crafting"`, where the source says or what it names shows it. |
 | `how`, `place`, `share`, `sold`, `note` | What a source added: Nirfu's mark (C crafting, P a private hunt, T a team hunt), where, his share of a team's loot or the sale price, and a player's note. |
+| `place_id` | Where it happened, as a place of the Maps page's data (`maps/data/maps.json`, see [A map](#a-map)), when the place a source printed names one; `place` keeps it as printed. A source that gives a position itself would add it here the same way, as a place. |
 | `sources` | Each source and capture, `[source, capture]`, the capture by its place in `captures`; for `"hof-window"` and `"chat-screenshot"` the picture by its Media id, `[source, "<id>"]`. |
 
 The Hall of Fame page lists every record, newest first, with filters by kind, activity, source, year and words; an
@@ -316,6 +318,42 @@ not one. `captures` lists the Wayback captures the facts cite by place.
 A fact's `sources` are `[source, capture]`, the capture by its place in `captures`, or `[source, "<id>"]` for a picture.
 The Societies page lists every society; each opens to its facts, its members and its land, and links its Hall of Fame
 records. The Hall of Fame page links a record's society here.
+
+### A map
+
+`maps/data/maps.json` is the Archive's own map database. Everything in it is in the game's own coordinates, the
+longitude and latitude its readout printed, in metres (on Amethera the client's world position plus 32,768 on both
+axes). The private editor's `tools/maps.py` seeds it from the clients' own tables and adds only what it does not hold,
+so an entry written or corrected by hand stays.
+
+| Part | What it holds |
+|---|---|
+| `maps` | Each map: `id`, `name`, its picture (`image`), the frame the picture covers (`west`, `south`, `east`, `north`) and what the picture is (`picture`). Eudoria's is the 9.x clients' own map, texture 437871, over the frame their map window gives it; Amethera's is its ground as the 9.x clients grow it from their control texture 429259, since they ship no picture of it. |
+| `areas` | Each area as a rectangle: `id`, `map`, `name`, `type` (`"Land Area"`, `"LA area"`), `west`, `south`, `east`, `north`, and `sources`. Amethera's 66 land areas are the boxes of the 9.3.5 client's map table (`"map-table-9.3.5"`, by record id), named by PE WikiCharts' Locations page (`"pe-wikicharts"`, by capture). |
+| `places` | Each named place: `id`, `map`, `name`, `kinds` (`"settlement"`, `"teleporter"`, `"area"`, `"point"`), the position it is drawn at (`lon`, `lat`, its newest build's), and `listed`: one entry per client build and kind that lists it, `{"client", "kind", "name", "lon", "lat", "sources"}`, with the name as that build printed it. The builds are 5.4 (`"location-table-5.4"`, Eudoria's 32 teleporters, by slot), 9.2.2 (`"map-table-9.2.2"`, a cache, so a place missing from it was not necessarily gone) and 9.3.5 (`"map-table-9.3.5"`). |
+
+A fact's `sources` are `[source, reference]`: a Wayback capture's address, a client record's id, a slot, or a Media
+picture's id. The Maps page draws each map with five layers, the areas, the places as the chosen build listed them, the
+Media pictures with known `coordinates` (on the map whose continent their tags, or the tags those imply, name; one that
+names none is listed apart until it is tagged), the globals and Hall of Fame loots whose record's `place_id` names a
+place, and the mineral finds, and lists them below.
+
+`maps/data/minerals.json` holds the known mineral finds, written by petest's `Tools/resourcesites.py archive`: `groups`, one per source, each with `id`, `map`, `name`, `sources`, a
+`note` and `finds`, each find `[longitude, latitude, item ids...]` in the game's metres, the ids the Items page's, two
+or more where the source cannot tell them apart or names several ores at a place. The groups today are the scatter map
+of mineral finds, one find per marker as placed by eye in the editor's `tools/scatteredit.py` and still in
+progress (`"mining-scatter-map"`, Media hh3bqzvk), the four claim deeds in dated
+screenshots that name their resource (`"item-window"`, by picture) and The Golden Ingots' East Scylla Mountains and
+Minopolis (`"golden-ingots"`, Media mr7jye9g). The page draws a group of many finds as small circles, one per find, and
+a group of a few as diamonds.
+
+`maps/data/revival.json` holds Eudoria's revival areas and the zone each revival terminal served, as PE WikiCharts'
+Locations map drew them with its Lines option in late 2006 (Media vvsgpk3w), written by the editor's
+`tools/revival.py` from lines traced there by hand: `areas`, each with `id`, `map`, a `box` `[west, south, east, north]`
+and `zones`, each zone an `id`, a `centre` and a `polygon` of `[longitude, latitude]` corners, in the game's metres. The
+site never named what the lines show; reading them as revival areas and terminal zones is the Archive's (the areas
+match the site's own revival area records, and most zones hold one teleporter or outpost). The page draws it as a
+layer, the areas dashed and each zone outlined.
 
 ## Publishing
 

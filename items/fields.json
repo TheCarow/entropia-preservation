@@ -95,6 +95,7 @@
     "skill_category": {"label": "Category", "type": "text", "for": ["skills"]},
     "hidden": {"label": "Hidden", "type": "bool", "for": ["skills"]},
     "affects_health": {"label": "Affects health", "type": "bool", "for": ["skills"]},
+    "health_levels": {"label": "Levels per health point", "unit": "levels", "type": "number", "for": ["skills"]},
     "requirements": {"label": "Requirements", "type": "text", "for": ["skills"]},
     "activities": {"label": "Trained by", "type": "skills", "for": ["skills"]}
   },
@@ -102,7 +103,7 @@
     "armor": ["protection_stab", "protection_cut", "protection_impact", "protection_penetration", "protection_shrapnel", "protection_burn", "protection_cold", "protection_acid", "protection_electric", "weight", "durability"],
     "weapons": ["damage_stab", "damage_cut", "damage_impact", "damage_penetration", "damage_shrapnel", "damage_burn", "damage_cold", "damage_acid", "damage_electric", "range", "attacks", "reload", "ammo", "ammo_type", "decay", "weight"],
     "creatures": ["class", "damage_share_stab", "damage_share_cut", "damage_share_impact", "damage_share_penetration", "damage_share_shrapnel", "damage_share_burn", "damage_share_cold", "damage_share_acid", "damage_share_electric", "movement", "speed", "combat", "aggression", "attacks", "tamable", "sweatable"],
-    "skills": ["skill_category", "hidden", "affects_health", "requirements", "activities"],
+    "skills": ["skill_category", "hidden", "affects_health", "health_levels", "requirements", "activities"],
     "maturities": ["health", "max_damage", "taming_level", "damage_range", "speed", "combat", "health_class", "damage_class", "agility", "intelligence", "psyche", "stamina", "strength"]
   }
 }

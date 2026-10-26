@@ -36,13 +36,13 @@
       "name": "PE WikiCharts screenshot",
       "link": "../sites/#pe-wikicharts",
       "kind": "player",
-      "about": "Players' screenshots of PE WikiCharts' (Entropedia's) Creature Maturity Levels and armour charts, shared in the Entropia Universe Forum gallery and held in the Archive's Media, read by eye: each maturity's health, damage and taming level, and an armour set's protection, durability and how it was obtained, as the chart printed them. The chart's threat follows from health and damage and is not kept, nor the decay figures it computed for armour sets a viewer chose. A value cites the picture; most such pictures are undated, and an undated one gives the value no VU. Read from the editor's screenshots/charts.json."
+      "about": "Players' screenshots of PE WikiCharts' (Entropedia's) Creature Maturity Levels and armour charts, shared in the Entropia Universe Forum gallery and held in the Archive's Media, read by eye: each maturity's health, damage and taming level, an armour set's protection, durability and how it was obtained, and a weapon's damage, range, attacks, ammo burn, decay, type and value, as the chart printed them. The chart's threat follows from health and damage and is not kept, nor the decay figures it computed for armour sets a viewer chose. A value cites the picture; most such pictures are undated, and an undated one gives the value no VU. Read from the editor's screenshots/charts.json."
     },
     "player-table-screenshot": {
       "name": "Player's table screenshot",
       "link": "../media/?tags=website",
       "kind": "player",
-      "about": "Tables players made themselves and shared as pictures in the Entropia Universe Forum gallery, held in the Archive's Media and read by eye: armour sets' protection by damage type as a player typed it, and armour pieces' full TT values from a player's spreadsheet. A value cites the picture; such pictures are undated, so a value gives no VU. Read from the editor's screenshots/charts.json."
+      "about": "Tables players made themselves and shared as pictures in the Entropia Universe Forum gallery, held in the Archive's Media and read by eye: armour sets' protection by damage type as a player typed it, armour pieces' full TT values from a player's spreadsheet, and a weapon's decay from a player's table of the weapons made from blueprints. A value cites the picture; such pictures are undated, so a value gives no VU. Read from the editor's screenshots/charts.json."
     },
     "itemicon-5.4": {
       "name": "Icons drawn from the VU 5.4 client",
