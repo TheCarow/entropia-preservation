@@ -32,6 +32,18 @@
       "kind": "player",
       "about": "pe-wiki.info, later Entropedia, 2005 to 2007: an item and creature wiki written by players. Its values are cited by the first and last captures that printed them, so a value's VU is the one current when Wayback recorded the page, not when a player entered it. Values that follow from others (damage per second, power, cost per shot, economy) are not kept. The markups it printed were PE Auction's averages. It gave an armour piece once for both genders, which always had the same stats; a set's protection and durability, which every piece of the set has alike, are kept once on the set (sets.json). Read from the Archive's Wayback copy of the site; an item it names that matches no other is added as it printed it."
     },
+    "pe-wikicharts-screenshot": {
+      "name": "PE WikiCharts screenshot",
+      "link": "../sites/#pe-wikicharts",
+      "kind": "player",
+      "about": "Players' screenshots of PE WikiCharts' (Entropedia's) Creature Maturity Levels and armour charts, shared in the Entropia Universe Forum gallery and held in the Archive's Media, read by eye: each maturity's health, damage and taming level, and an armour set's protection, durability and how it was obtained, as the chart printed them. The chart's threat follows from health and damage and is not kept, nor the decay figures it computed for armour sets a viewer chose. A value cites the picture; most such pictures are undated, and an undated one gives the value no VU. Read from the editor's screenshots/charts.json."
+    },
+    "player-table-screenshot": {
+      "name": "Player's table screenshot",
+      "link": "../media/?tags=website",
+      "kind": "player",
+      "about": "Tables players made themselves and shared as pictures in the Entropia Universe Forum gallery, held in the Archive's Media and read by eye: armour sets' protection by damage type as a player typed it, and armour pieces' full TT values from a player's spreadsheet. A value cites the picture; such pictures are undated, so a value gives no VU. Read from the editor's screenshots/charts.json."
+    },
     "itemicon-5.4": {
       "name": "Icons drawn from the VU 5.4 client",
       "kind": "client",

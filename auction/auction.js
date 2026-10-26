@@ -278,6 +278,7 @@
       + `${at ? `<span class="a-at">in VU ${esc(at)}</span>` : ""}</div>`
       + (rows.length ? `<div class="a-scroll"><table class="a-table"><thead>${head}</thead><tbody>${body}</tbody></table></div>${more}` : `<p class="a-wait">None recorded${at ? ` in VU ${esc(at)}` : ""}.</p>`)
       + chartsHTML(data)
+      + windowsHTML(data)
       + `<p class="a-note">Times are as each site printed them, on its own clock. A reading is a markup a price site printed, the same markup at several captures in a row being one reading. Markup is ${data.markup === "%" ? "the bid as a share of the TT value" : "the bid less the TT value, in PED"}, as PE Auction showed it for this item. A greyed row is one the site showed greyed out.</p>`;
   }
 
@@ -289,6 +290,20 @@
     }
     return `<details class="a-pea-charts"><summary>PE Auction's own charts (${list.length})</summary>${list.map(([dtype, c, name]) =>
       `<figure><img src="charts/${esc(name)}" alt="PE Auction's chart of the item's sales" loading="lazy" width="700" height="300"><figcaption>Captured ${esc(captureDay(data.captures[c]))} (chart type ${esc(dtype)}); <a href="${esc(data.captures[c])}" target="_blank" rel="noopener">the capture</a>.</figcaption></figure>`).join("")}</details>`;
+  }
+
+  // The game's own auction markup windows, read off the Archive's pictures: each period's average markup and sales.
+  function windowsHTML(data) {
+    const list = data.windows || [];
+    if (!list.length) {
+      return "";
+    }
+    const periods = ["Day", "Week", "Month", "Year", "Decade"];
+    const value = (kind, m) => (m === null ? "N/A" : kind === "%" ? `${m}%` : `TT${m < 0 ? "-" : "+"}${money(Math.abs(m))} PED`);
+    return `<details class="a-pea-charts" open><summary>The game's markup windows (${list.length})</summary>${list.map(([media, kind, rows]) =>
+      `<table class="a-table"><thead><tr><th>Period</th><th class="n">Markup</th><th class="n">Sales</th></tr></thead><tbody>${rows.map(([m, n], i) =>
+        `<tr><td>${periods[i]}</td><td class="n">${esc(value(kind, m))}</td><td class="n">${esc(n.toLocaleString("en"))}</td></tr>`).join("")}</tbody></table>`
+      + `<p class="a-note">As the game's auction window printed it, from the game's own auction data; <a href="../media/${esc(media)}/">the picture</a>.</p>`).join("")}</details>`;
   }
 
   popupBody.addEventListener("click", (event) => {

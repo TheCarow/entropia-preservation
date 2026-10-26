@@ -83,6 +83,7 @@
     "sweatable": {"label": "Sweatable", "type": "bool", "for": ["creatures"]},
     "health": {"label": "Health", "unit": "HP", "type": "number", "for": ["maturities"]},
     "max_damage": {"label": "Damage", "unit": "HP", "type": "number", "for": ["maturities"]},
+    "taming_level": {"label": "Taming level", "type": "number", "for": ["maturities"]},
     "damage_range": {"label": "Damage per hit", "unit": "HP", "type": "range", "for": ["maturities"]},
     "health_class": {"label": "Health level", "type": "text", "for": ["maturities"]},
     "damage_class": {"label": "Damage potential", "type": "text", "for": ["maturities"]},
@@ -102,6 +103,6 @@
     "weapons": ["damage_stab", "damage_cut", "damage_impact", "damage_penetration", "damage_shrapnel", "damage_burn", "damage_cold", "damage_acid", "damage_electric", "range", "attacks", "reload", "ammo", "ammo_type", "decay", "weight"],
     "creatures": ["class", "damage_share_stab", "damage_share_cut", "damage_share_impact", "damage_share_penetration", "damage_share_shrapnel", "damage_share_burn", "damage_share_cold", "damage_share_acid", "damage_share_electric", "movement", "speed", "combat", "aggression", "attacks", "tamable", "sweatable"],
     "skills": ["skill_category", "hidden", "affects_health", "requirements", "activities"],
-    "maturities": ["health", "max_damage", "damage_range", "speed", "combat", "health_class", "damage_class", "agility", "intelligence", "psyche", "stamina", "strength"]
+    "maturities": ["health", "max_damage", "taming_level", "damage_range", "speed", "combat", "health_class", "damage_class", "agility", "intelligence", "psyche", "stamina", "strength"]
   }
 }

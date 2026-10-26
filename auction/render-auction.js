@@ -76,6 +76,13 @@ for (const file of fs.readdirSync(DATA).filter((f) => f.endsWith(".json")).sort(
   for (const [, c, name] of data.charts || []) {
     if (!data.captures[c] || !fs.existsSync(path.join(ROOT, "charts", name))) problems.push(`${at}: chart ${name} is missing or has no capture`);
   }
+  // The game's own markup windows: a Media picture, how the markup is given, and five periods of [markup or null, sales].
+  for (const [media, kind, periods] of data.windows || []) {
+    if (!P.pictures.has(media) || !["%", "TT+"].includes(kind) || !Array.isArray(periods) || periods.length !== 5
+      || periods.some(([m, n]) => (m !== null && typeof m !== "number") || !Number.isInteger(n))) {
+      problems.push(`${at}: a markup window is wrong: ${JSON.stringify([media, kind, periods])}`);
+    }
+  }
   records.push({data, ...known});
 }
 if (problems.length) {
