@@ -52,6 +52,10 @@ const iconFile = (icon) => (typeof icon === "string" ? icon : icon && icon.file)
 // A dated sighting keeps its own day only where it is not its capture's.
 const seenDays = (x) => [x.first || (x.first_capture && captureDay(x.first_capture)), x.last || (x.last_capture && captureDay(x.last_capture))];
 
+// Colours, per VU: the colour each channel of a mask is painted and why, a set's or a clothing item's own.
+const coloursValid = (colours) => Array.isArray(colours) && colours.every((c) => lookVu(c.vu)
+  && ["red", "green", "blue"].every((k) => /^#[0-9A-F]{6}$/.test(c[k] || "")) && c.basis);
+
 // Armour sets (sets.json): the stats every piece of a set has alike, kept once, and the set's pieces. A set's colours,
 // the colour each channel of its armour's mask was painted for the icons and why, are checked here and not shown.
 const pieceSet = new Map();
@@ -60,10 +64,7 @@ for (const [key, set] of Object.entries(sets)) {
   if (!ID.test(key) || typeof set.name !== "string" || !set.name) problems.push(`${at}: a set needs an id and a name`);
   P.checkStats(set.stats, "sets", at);
   if (!Object.keys(set.stats || {}).length && !set.colours) problems.push(`${at}: nothing about it has a source`);
-  if (set.colours && (!Array.isArray(set.colours) || set.colours.some((c) => !lookVu(c.vu)
-      || !["red", "green", "blue"].every((k) => /^#[0-9A-F]{6}$/.test(c[k] || "")) || !c.basis))) {
-    problems.push(`${at}: its colours need, per VU, red, green and blue as #RRGGBB and a basis`);
-  }
+  if (set.colours && !coloursValid(set.colours)) problems.push(`${at}: its colours need, per VU, red, green and blue as #RRGGBB and a basis`);
   for (const piece of set.pieces || []) {
     if (pieceSet.has(piece)) problems.push(`${at}: ${piece} is a piece of two sets`);
     pieceSet.set(piece, set);
@@ -101,10 +102,11 @@ const categories = CATEGORIES.map((key) => {
     const file = iconFile(item.icon);
     if (item.unused !== undefined && !reasons[item.unused]) problems.push(`${at}: unused ${JSON.stringify(item.unused)} is not one of the owner's reasons in sources.json`);
     if (item.icon && !(pictures.icons || {})[file]) problems.push(`${at}: icon ${JSON.stringify(file)} is not in icons.json`);
-    // How the Archive reproduces an armour piece, per VU: the model's class, the detail sheet and mask, the channels and
-    // why. Checked here and not shown. A look without a basis of its own shares its set's: the basis of the set's colours
-    // for the same VU.
-    const setBasis = (vu) => ((pieceSet.get(item.id) || {}).colours || []).some((c) => c.vu === vu && c.basis);
+    // How the Archive reproduces an armour piece or a garment, per VU: the model's class, the detail sheet and mask, the
+    // channels and why. Checked here and not shown. A look without a basis of its own shares its colours': its set's for an
+    // armour piece, its own for a clothing item, which belongs to no set and keeps its colours itself.
+    if (item.colours !== undefined && !coloursValid(item.colours)) problems.push(`${at}: its colours need, per VU, red, green and blue as #RRGGBB and a basis`);
+    const setBasis = (vu) => [...((pieceSet.get(item.id) || {}).colours || []), ...(item.colours || [])].some((c) => c.vu === vu && c.basis);
     for (const look of item.look || []) {
       if (!lookVu(look.vu) || !Number.isInteger(look.class) || ![0, 1].includes(look.detail) || ![5, 6, 7].includes(look.mask)
           || !/^[123],[123],[123]$/.test(look.channels || "") || !(look.basis || setBasis(look.vu))) {
