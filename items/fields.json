@@ -31,7 +31,7 @@
     "damage_acid": {"label": "Damage Acid", "unit": "HP", "type": "number", "group": "damage", "for": ["weapons", "armor", "attachments", "tools", "clothing", "housing", "blueprints", "components", "materials", "resources", "misc"]},
     "damage_electric": {"label": "Damage Electric", "unit": "HP", "type": "number", "group": "damage", "for": ["weapons", "armor", "attachments", "tools", "clothing", "housing", "blueprints", "components", "materials", "resources", "misc"]},
     "damage_total": {"label": "Total damage", "unit": "HP", "type": "number", "for": ["weapons", "armor", "attachments", "tools", "clothing", "housing", "blueprints", "components", "materials", "resources", "misc"]},
-    "range": {"label": "Range", "unit": "m", "type": "number", "for": ["weapons", "armor", "attachments", "tools", "clothing", "housing", "blueprints", "components", "materials", "resources", "misc"]},
+    "range": {"label": "Range", "unit": "m", "type": "number", "for": ["weapons", "armor", "attachments", "tools", "clothing", "housing", "blueprints", "components", "materials", "resources", "misc", "creatures"]},
     "attacks": {"label": "Attacks", "unit": "per minute", "type": "number", "for": ["weapons", "armor", "attachments", "tools", "clothing", "housing", "blueprints", "components", "materials", "resources", "misc", "creatures", "maturities"]},
     "reload": {"label": "Reload", "unit": "s", "type": "number", "for": ["weapons", "armor", "attachments", "tools", "clothing", "housing", "blueprints", "components", "materials", "resources", "misc"]},
     "ammo": {"label": "Ammo", "unit": "per shot", "type": "number", "for": ["weapons", "armor", "attachments", "tools", "clothing", "housing", "blueprints", "components", "materials", "resources", "misc"]},
@@ -79,12 +79,15 @@
     "profession_hit_level": {"label": "Recommended level (hit)", "type": "number", "for": ["weapons"]},
     "armor_decay": {"label": "Decay per HP absorbed", "unit": "PEC", "type": "number", "for": ["weapons", "armor", "attachments", "tools", "clothing", "housing", "blueprints", "components", "materials", "resources", "misc"]},
     "aggression": {"label": "Aggression", "type": "text", "for": ["creatures"]},
+    "hit_risk": {"label": "Hit risk", "type": "text", "for": ["creatures"]},
+    "outruns": {"label": "Will outrun you?", "type": "text", "for": ["maturities"]},
     "tamable": {"label": "Tamable", "type": "bool", "for": ["creatures"]},
     "sweatable": {"label": "Sweatable", "type": "bool", "for": ["creatures"]},
     "health": {"label": "Health", "unit": "HP", "type": "number", "for": ["maturities"]},
     "max_damage": {"label": "Damage", "unit": "HP", "type": "number", "for": ["maturities"]},
     "taming_level": {"label": "Taming level", "type": "number", "for": ["maturities"]},
     "damage_range": {"label": "Damage per hit", "unit": "HP", "type": "range", "for": ["maturities"]},
+    "damage_through_armour": {"label": "Damage through armour", "unit": "HP", "type": "armour_damage", "for": ["maturities"]},
     "health_class": {"label": "Health level", "type": "text", "for": ["maturities"]},
     "damage_class": {"label": "Damage potential", "type": "text", "for": ["maturities"]},
     "agility": {"label": "Agility", "type": "range", "for": ["maturities"]},
@@ -102,8 +105,8 @@
   "shown": {
     "armor": ["protection_stab", "protection_cut", "protection_impact", "protection_penetration", "protection_shrapnel", "protection_burn", "protection_cold", "protection_acid", "protection_electric", "weight", "durability"],
     "weapons": ["damage_stab", "damage_cut", "damage_impact", "damage_penetration", "damage_shrapnel", "damage_burn", "damage_cold", "damage_acid", "damage_electric", "range", "attacks", "reload", "ammo", "ammo_type", "decay", "weight"],
-    "creatures": ["class", "damage_share_stab", "damage_share_cut", "damage_share_impact", "damage_share_penetration", "damage_share_shrapnel", "damage_share_burn", "damage_share_cold", "damage_share_acid", "damage_share_electric", "movement", "speed", "combat", "aggression", "attacks", "tamable", "sweatable"],
+    "creatures": ["class", "damage_share_stab", "damage_share_cut", "damage_share_impact", "damage_share_penetration", "damage_share_shrapnel", "damage_share_burn", "damage_share_cold", "damage_share_acid", "damage_share_electric", "movement", "speed", "combat", "range", "aggression", "attacks", "hit_risk", "tamable", "sweatable"],
     "skills": ["skill_category", "hidden", "affects_health", "health_levels", "requirements", "activities"],
-    "maturities": ["health", "max_damage", "taming_level", "damage_range", "speed", "combat", "health_class", "damage_class", "agility", "intelligence", "psyche", "stamina", "strength"]
+    "maturities": ["health", "max_damage", "taming_level", "damage_range", "damage_through_armour", "speed", "outruns", "combat", "health_class", "damage_class", "agility", "intelligence", "psyche", "stamina", "strength"]
   }
 }

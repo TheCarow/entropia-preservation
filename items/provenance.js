@@ -41,6 +41,8 @@ function context(site, stop, problems) {
     }
   }
   const captureDay = (key) => key.replace(CAPTURE, "$1-$2-$3").slice(0, 10);
+  // The armour sets (sets.json), which a creature's damage through armour names.
+  const armourSets = load(path.join(site, "items", "sets.json"), stop).sets || {};
   const fieldTable = load(path.join(site, "items", "fields.json"), stop);
   const fields = fieldTable.fields || {};
   // The fields an item category, the creatures or their maturities always list, in order (fields.json's shown).
@@ -123,6 +125,7 @@ function context(site, stop, problems) {
       recipe: () => Array.isArray(value) && value.length > 0 && value.every((m) => m && typeof m.item === "string" && typeof m.amount === "number"),
       items: () => Array.isArray(value) && value.length > 0 && value.every((id) => typeof id === "string"),
       range: () => Array.isArray(value) && value.length === 2 && value.every((n) => typeof n === "number") && value[0] <= value[1],
+      armour_damage: () => value && armourSets[value.set] !== undefined && typeof value.damage === "number",
     }[f.type];
     if (!ok || !ok()) problems.push(`${at}: ${field} ${JSON.stringify(value)} is not a ${f.type}`);
   }
@@ -238,6 +241,11 @@ function context(site, stop, problems) {
     if (f.type === "items") {
       return value.map((id) => itemLink(id)).join("<br>");
     }
+    // The damage a creature's hit did through a full set of armour, the set linked to its pieces on the Items page.
+    if (f.type === "armour_damage") {
+      const name = armourSets[value.set].name;
+      return `${esc(`${value.damage}${unit}`)} through <a href="../items/?cat=armor&amp;q=${esc(encodeURIComponent(name))}">${esc(name)}</a>`;
+    }
     if (f.type === "range") {
       return esc(`${value[0] === value[1] ? value[0] : `${value[0]} to ${value[1]}`}${unit}`);
     }
@@ -261,10 +269,14 @@ function context(site, stop, problems) {
     const listed = shown[scope] || [];
     const place = (f) => (listed.includes(f) ? listed.indexOf(f) : listed.length + fieldOrder.get(f));
     const keys = Object.keys(fields).filter((f) => stats && stats[f]).sort((a, b) => place(a) - place(b));
-    const rows = [...first, ...keys.map((field) => ({
+    // Damage through armour is a value per armour set, each set a body of its own so the VU picks one for each.
+    const split = (field) => (fields[field].type === "armour_damage"
+      ? [...new Set(stats[field].map((entry) => entry.value.set))].map((set) => stats[field].filter((entry) => entry.value.set === set))
+      : [stats[field]]);
+    const rows = [...first, ...keys.flatMap((field) => split(field).map((entries) => ({
       field, label: fields[field].label, group: fields[field].group,
-      entries: stats[field].map((entry) => ({html: format(field, entry.value), sources: entry.sources})),
-    }))];
+      entries: entries.map((entry) => ({html: format(field, entry.value), sources: entry.sources})),
+    })))];
     const bodies = rows.map(({field, label, group, entries}) => {
       const lines = entries.map((entry) => {
         const w = widest(entry.sources.map(citationVus));

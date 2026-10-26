@@ -97,20 +97,24 @@
       const scope = table.dataset.scope;
       const listed = layout.shown[scope] || [];
       const bodies = [...table.tBodies];
-      const present = new Map(bodies.filter((b) => b.dataset.field).map((b) => [b.dataset.field, b]));
+      // A field can have several bodies (damage through each armour set), kept together in their order.
+      const present = new Map();
+      for (const b of bodies.filter((body) => body.dataset.field)) {
+        present.set(b.dataset.field, [...(present.get(b.dataset.field) || []), b]);
+      }
       const groups = new Set([...present.keys()].map((f) => fieldInfo.get(f).group).filter(Boolean));
       const place = (f) => (listed.includes(f) ? listed.indexOf(f) : listed.length + fieldInfo.get(f).n);
       const wanted = [...fieldInfo.keys()].filter((f) => present.has(f) || listed.includes(f)
         || (groups.has(fieldInfo.get(f).group) && fieldInfo.get(f).scopes.includes(scope))).sort((a, b) => place(a) - place(b));
-      const middle = wanted.map((f) => {
-        const body = present.get(f);
-        if (body) {
-          if (body.dataset.group) {
+      const middle = wanted.flatMap((f) => {
+        const found = present.get(f);
+        if (found) {
+          for (const body of found.filter((b) => b.dataset.group)) {
             const row = unknownRow(fieldInfo.get(f).label);
             row.hidden = true;
             body.append(row);
           }
-          return body;
+          return found;
         }
         const added = document.createElement("tbody");
         added.className = "fixed";
