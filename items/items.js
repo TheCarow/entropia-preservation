@@ -85,19 +85,20 @@
     }
   }
 
-  // An item with pictures for several VUs shows the one for the chosen VU: the latest at or before it, or before its
-  // first picture that one. With no VU chosen, its latest. A reconstruction says which VU it shows.
+  // An item shows the picture of the chosen VU: the latest at or before it, and none before its first picture, since a
+  // picture is of its own VU and not of an earlier one. With no VU chosen, its latest. A reconstruction says which VU
+  // it shows.
   function reicon(item, at) {
     if (!item.icons) {
       return;
     }
-    const before = item.icons.filter((i) => at === null || i[1] <= at);
-    const [file, , tip] = before.pop() || item.icons[0];
+    const picked = item.icons.filter((i) => at === null || i[1] <= at).pop();
     const image = item.icon.querySelector("img");
-    if (image.getAttribute("src") === `icons/${file}`) {
-      return;
+    image.hidden = !picked;
+    const [file, , tip] = picked || [null, null, ""];
+    if (file && image.getAttribute("src") !== `icons/${file}`) {
+      image.setAttribute("src", `icons/${file}`);
     }
-    image.setAttribute("src", `icons/${file}`);
     item.icon.classList.toggle("recon", Boolean(tip));
     for (const [name, value] of [["data-tip", tip], ["aria-label", tip], ["tabindex", "0"]]) {
       if (tip) {
@@ -250,8 +251,11 @@
     if (opened) {
       const own = opened.querySelector(".i-icon img");
       const shown = popupBody.querySelector(".i-pop-icon img");
-      if (own && shown && shown.getAttribute("src") !== own.getAttribute("src")) {
-        shown.setAttribute("src", own.getAttribute("src"));
+      if (own && shown) {
+        if (shown.getAttribute("src") !== own.getAttribute("src")) {
+          shown.setAttribute("src", own.getAttribute("src"));
+        }
+        shown.hidden = own.hidden;
       }
       pickValues(popupBody, at, f.vu);
     }    for (const group of groups) {

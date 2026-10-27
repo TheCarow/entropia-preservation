@@ -241,18 +241,16 @@ function span(item) {
 
 // An icon drawn since, not stored by a client, says so when the pointer rests on it, with the VU it shows the item in.
 const reconstructed = (file) => /_reconstructed_\d{4}\.png$/.test(file);
-const tipFor = (icon) => `The client rendered this icon at runtime. This is a modern reconstruction of it in VU ${pictures.icons[icon.file].vu}.`;
-// The row shows the picture of the latest VU; an item with pictures for several VUs lists them all (file, VU rank,
-// tip), and the page shows the one for the chosen VU as it shows the name.
+const tipFor = (icon) => `This is a modern reconstruction for VU ${pictures.icons[icon.file].vu}.`;
+// The row shows the picture of the latest VU and lists them all (file, VU rank, tip); the page shows the one for the
+// chosen VU, the latest from that VU or before, and none where every picture is of a later VU.
 const iconHTML = (item) => {
   const icons = iconsOf(item);
   if (!icons.length) {
     return `<span class="i-icon"></span>`;
   }
   const shown = icons[icons.length - 1];
-  const all = icons.length > 1
-    ? ` data-icons="${esc(JSON.stringify(icons.map((icon) => [icon.file, icon.rank, reconstructed(icon.file) ? tipFor(icon) : ""])))}"`
-    : "";
+  const all = ` data-icons="${esc(JSON.stringify(icons.map((icon) => [icon.file, icon.rank, reconstructed(icon.file) ? tipFor(icon) : ""])))}"`;
   const image = `<img src="icons/${esc(shown.file)}" alt="" loading="lazy">`;
   return reconstructed(shown.file)
     ? `<span class="i-icon recon" tabindex="0" aria-label="${esc(tipFor(shown))}" data-tip="${esc(tipFor(shown))}"${all}>${image}</span>`
