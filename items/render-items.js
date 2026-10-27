@@ -147,6 +147,13 @@ const categories = CATEGORIES.map((key) => {
       }
       const maskValid = key === "clothing" ? Number.isInteger(look.mask) && look.mask >= 5 && look.mask <= 15 : [5, 6, 7].includes(look.mask);
       const paintedValid = look.painted === undefined || (key === "clothing" && look.painted === false);
+      // A garment may name its model, the index GetMeshId reads into its class's model table (the trousers' second is the
+      // creased dress pair); absent, the first.
+      const lookClass = (classes.classes[((classes.look_classes[item.id] || {})[look.vu]) || ""] || {}).wearable;
+      const models = lookClass ? Math.min(...lookClass.shapes.map((s) => Math.min(s.male_models.length, s.female_models.length))) : 1;
+      const modelValid = look.model_index === undefined
+        || (key === "clothing" && Number.isInteger(look.model_index) && look.model_index >= 0 && look.model_index < models);
+      if (!modelValid) problems.push(`${at}: a look's model_index is a garment's index into its class's model table, 0 to ${models - 1}`);
       if (!lookVu(look.vu) || !Number.isInteger(look.class) || ![0, 1].includes(look.detail) || !maskValid || !paintedValid
           || !/^[123],[123],[123]$/.test(look.channels || "") || !(look.basis || setBasis(look.vu))) {
         problems.push(`${at}: a look needs a VU, a class, a detail sheet (0, 1), a mask (5, 6, 7; a garment's 5 to 15, and "painted": false for one drawn as it is), channels and a basis, its own or its set's colours' for that VU`);
