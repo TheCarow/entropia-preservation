@@ -85,18 +85,17 @@
     }
   }
 
-  // An item shows the picture of the chosen VU: the latest at or before it, and none before its first picture, since a
-  // picture is of its own VU and not of an earlier one. With no VU chosen, its latest. A reconstruction says which VU
-  // it shows.
+  // An item shows the picture whose VU is closest to the chosen one, either way, the earlier on a tie; with no VU chosen,
+  // its latest. A reconstruction says which VU it shows.
   function reicon(item, at) {
     if (!item.icons) {
       return;
     }
-    const picked = item.icons.filter((i) => at === null || i[1] <= at).pop();
+    const picked = at === null ? item.icons[item.icons.length - 1]
+      : item.icons.reduce((best, i) => (Math.abs(i[1] - at) < Math.abs(best[1] - at) ? i : best));
     const image = item.icon.querySelector("img");
-    image.hidden = !picked;
-    const [file, , tip] = picked || [null, null, ""];
-    if (file && image.getAttribute("src") !== `icons/${file}`) {
+    const [file, , tip] = picked;
+    if (image.getAttribute("src") !== `icons/${file}`) {
       image.setAttribute("src", `icons/${file}`);
     }
     item.icon.classList.toggle("recon", Boolean(tip));
@@ -251,11 +250,8 @@
     if (opened) {
       const own = opened.querySelector(".i-icon img");
       const shown = popupBody.querySelector(".i-pop-icon img");
-      if (own && shown) {
-        if (shown.getAttribute("src") !== own.getAttribute("src")) {
-          shown.setAttribute("src", own.getAttribute("src"));
-        }
-        shown.hidden = own.hidden;
+      if (own && shown && shown.getAttribute("src") !== own.getAttribute("src")) {
+        shown.setAttribute("src", own.getAttribute("src"));
       }
       pickValues(popupBody, at, f.vu);
     }    for (const group of groups) {

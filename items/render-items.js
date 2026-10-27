@@ -242,8 +242,8 @@ function span(item) {
 // An icon drawn since, not stored by a client, says so when the pointer rests on it, with the VU it shows the item in.
 const reconstructed = (file) => /_reconstructed_\d{4}\.png$/.test(file);
 const tipFor = (icon) => `This is a modern reconstruction for VU ${pictures.icons[icon.file].vu}.`;
-// The row shows the picture of the latest VU and lists them all (file, VU rank, tip); the page shows the one for the
-// chosen VU, the latest from that VU or before, and none where every picture is of a later VU.
+// The row shows the picture of the latest VU and lists them all (file, VU rank, tip); the page shows the one whose VU
+// is closest to the chosen VU.
 const iconHTML = (item) => {
   const icons = iconsOf(item);
   if (!icons.length) {

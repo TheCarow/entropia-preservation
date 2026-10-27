@@ -27,8 +27,6 @@ html:not(.show-unused) .item[data-unused] { display: none; }
   visibility: hidden; pointer-events: none; }
 .i-icon.recon:hover::after, .i-icon.recon:focus::after { visibility: visible; }
 .i-icon img { display: block; width: 100%; height: 100%; object-fit: contain; }
-/* A picture of a later VU than the chosen one is hidden, leaving the box empty. */
-.i-icon img[hidden], .i-pop-icon img[hidden] { display: none; }
 .i-type, .i-seen { color: var(--muted); }
 .i-name-cell { min-width: 0; }
 /* What more there is to say (its description, stats, what dropped it) sits under the row, across all but the icon
