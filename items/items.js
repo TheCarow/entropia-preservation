@@ -24,6 +24,8 @@
     li, cat: li.dataset.cat, type: `${li.dataset.cat}:${li.dataset.type}`, text: li.dataset.text,
     a: li.dataset.a ? Number(li.dataset.a) : null, b: li.dataset.b ? Number(li.dataset.b) : null,
     names: li.dataset.names ? JSON.parse(li.dataset.names) : null, name: li.querySelector(".i-name"),
+    icon: li.querySelector(".i-icon"), icons: li.querySelector(".i-icon").dataset.icons
+      ? JSON.parse(li.querySelector(".i-icon").dataset.icons) : null,
     latest: li.querySelector(".i-name").textContent,
   }));
   const rank = new Map(Array.from(bar.querySelector('[data-filter="vu"]').options).filter((o) => o.value)
@@ -80,6 +82,29 @@
     }
     if (item.name.textContent !== shown) {
       item.name.textContent = shown;
+    }
+  }
+
+  // An item with pictures for several VUs shows the one for the chosen VU: the latest at or before it, or before its
+  // first picture that one. With no VU chosen, its latest. A reconstruction says which VU it shows.
+  function reicon(item, at) {
+    if (!item.icons) {
+      return;
+    }
+    const before = item.icons.filter((i) => at === null || i[1] <= at);
+    const [file, , tip] = before.pop() || item.icons[0];
+    const image = item.icon.querySelector("img");
+    if (image.getAttribute("src") === `icons/${file}`) {
+      return;
+    }
+    image.setAttribute("src", `icons/${file}`);
+    item.icon.classList.toggle("recon", Boolean(tip));
+    for (const [name, value] of [["data-tip", tip], ["aria-label", tip], ["tabindex", "0"]]) {
+      if (tip) {
+        item.icon.setAttribute(name, value);
+      } else {
+        item.icon.removeAttribute(name);
+      }
     }
   }
 
@@ -218,10 +243,16 @@
       item.li.hidden = !matches(item, f);
       if (!item.li.hidden) {
         rename(item, at);
+        reicon(item, at);
         shown += 1;
       }
     }
     if (opened) {
+      const own = opened.querySelector(".i-icon img");
+      const shown = popupBody.querySelector(".i-pop-icon img");
+      if (own && shown && shown.getAttribute("src") !== own.getAttribute("src")) {
+        shown.setAttribute("src", own.getAttribute("src"));
+      }
       pickValues(popupBody, at, f.vu);
     }    for (const group of groups) {
       group.hidden = !group.querySelector(unused ? ".item:not([hidden])" : ".item:not([hidden]):not([data-unused])");

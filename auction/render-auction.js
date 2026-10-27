@@ -43,7 +43,11 @@ function shownName(item) {
     .map(([name, w]) => [name, RANK.get(w.first), RANK.get(w.last)]);
   return names.length ? names.sort((a, b) => a[2] - b[2] || a[1] - b[1]).pop()[0] : item.name;
 }
-const iconFile = (icon) => (typeof icon === "string" ? icon : icon && icon.file);
+// The picture the Items page shows with no VU chosen: an item lists one per VU, oldest first, and the last is the latest.
+const iconFile = (icons) => {
+  const entry = Array.isArray(icons) ? icons[icons.length - 1] : undefined;
+  return typeof entry === "string" ? entry : entry && entry.file;
+};
 
 const records = [];
 for (const file of fs.readdirSync(DATA).filter((f) => f.endsWith(".json")).sort()) {

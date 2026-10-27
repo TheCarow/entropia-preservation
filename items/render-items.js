@@ -30,9 +30,10 @@ const problems = [];
 const P = context(SITE, stop, problems);
 const {VUS, RANK, vuOn, sources, captures, captureDay, citationVus, widest} = P;
 const reasons = (sources.owner && sources.owner.reasons) || {};
-// Each picture is described once in icons.json; an item names the file. A picture drawn in an armour set's colours
-// names the set as its look and the VU it shows; the colours are the set's own in sets.json for that VU, which the
-// page does not show. A VU is one of versions.json's, or blank for a set 5.4 does not list.
+// Each picture is described once in icons.json, with the VU it shows the item in (vu), as an item's other facts are per
+// VU; an item lists its pictures, at most one per VU. A picture drawn in an armour set's colours names the set as its
+// look and the colours' VU (colours); the colours are the set's own in sets.json for that VU, which the page does not
+// show. A VU is one of versions.json's, or for the colours blank, for a set 5.4 does not list.
 const lookVu = (vu) => vu === "" || RANK.has(vu);
 const pictures = load(path.join(ROOT, "icons.json"));
 const sets = load(path.join(ROOT, "sets.json")).sets || {};
@@ -43,13 +44,18 @@ for (const [file, picture] of Object.entries(pictures.icons || {})) {
   // <name>_reconstructed_<year>.png, one drawn since, so a drawing is never taken for the game's own.
   if (!ICON_FILE.test(file) || !fs.existsSync(path.join(ROOT, "icons", file))) problems.push(`icons.json: ${file} is not a PNG in icons/ named <name>_client_<key>.png or <name>_reconstructed_<year>.png`);
   if (!sources[picture.source]) problems.push(`icons.json: ${file}'s source ${JSON.stringify(picture.source)} is not in sources.json`);
-  if (picture.look !== undefined && !((sets[picture.look] || {}).colours || []).some((c) => c.vu === picture.vu)) {
-    problems.push(`icons.json: ${file}'s look ${JSON.stringify(picture.look)} has no colours in sets.json for VU ${JSON.stringify(picture.vu)}`);
+  if (!RANK.has(picture.vu)) problems.push(`icons.json: ${file}'s vu ${JSON.stringify(picture.vu)} is not a VU in versions.json`);
+  if ((picture.look === undefined) !== (picture.colours === undefined)) problems.push(`icons.json: ${file} names a look without its colours' VU, or colours without a look`);
+  if (picture.look !== undefined && !((sets[picture.look] || {}).colours || []).some((c) => c.vu === picture.colours)) {
+    problems.push(`icons.json: ${file}'s look ${JSON.stringify(picture.look)} has no colours in sets.json for VU ${JSON.stringify(picture.colours)}`);
   }
 }
 // The Archive's own words carry no en or em dash; what a source says is quoted as it wrote it, dashes and all.
 if (/[–—]/.test(JSON.stringify(pictures))) problems.push("icons.json uses an en or em dash");
-const iconFile = (icon) => (typeof icon === "string" ? icon : icon && icon.file);
+const iconFile = (entry) => (typeof entry === "string" ? entry : entry && entry.file);
+// An item's pictures, oldest VU first, each with its file and its VU's rank.
+const iconsOf = (item) => (Array.isArray(item.icon) ? item.icon : []).map((entry) => ({entry, file: iconFile(entry),
+  rank: RANK.get(((pictures.icons || {})[iconFile(entry)] || {}).vu)}));
 // A dated sighting keeps its own day only where it is not its capture's.
 const seenDays = (x) => [x.first || (x.first_capture && captureDay(x.first_capture)), x.last || (x.last_capture && captureDay(x.last_capture))];
 
@@ -100,9 +106,15 @@ const categories = CATEGORIES.map((key) => {
     // A fact several sources give is stored once with its citations (the private editor's tools/itemdata.py
     // describes the layout).
     const shared = [...(item.names || []), ...(item.descriptions || []), ...(item.records || [])];
-    const file = iconFile(item.icon);
+    const icons = iconsOf(item);
+    const file = icons.length > 0;
     if (item.unused !== undefined && !reasons[item.unused]) problems.push(`${at}: unused ${JSON.stringify(item.unused)} is not one of the owner's reasons in sources.json`);
-    if (item.icon && !(pictures.icons || {})[file]) problems.push(`${at}: icon ${JSON.stringify(file)} is not in icons.json`);
+    if (item.icon !== undefined && (!Array.isArray(item.icon) || !item.icon.length)) problems.push(`${at}: icon should be a list of its pictures, one per VU`);
+    for (const icon of icons) {
+      if (!(pictures.icons || {})[icon.file]) problems.push(`${at}: icon ${JSON.stringify(icon.file)} is not in icons.json`);
+      if (icon.entry.shared_from !== undefined && !ID.test(icon.entry.shared_from)) problems.push(`${at}: shared_from should be an item id`);
+    }
+    if (icons.some((icon, n) => n && !(icons[n - 1].rank < icon.rank))) problems.push(`${at}: its icons should be one per VU, oldest VU first`);
     // How the Archive reproduces an armour piece or a garment, per VU: the model's class, the detail sheet and mask, the
     // channels and why. Checked here and not shown. A look without a basis of its own shares its colours': its set's for an
     // armour piece, its own for a clothing item, which belongs to no set and keeps its colours itself. A garment's mask may
@@ -140,7 +152,6 @@ const categories = CATEGORIES.map((key) => {
         problems.push(`${at}: a look needs a VU, a class, a detail sheet (0, 1), a mask (5, 6, 7; a garment's 5 to 15, and "painted": false for one drawn as it is), channels and a basis, its own or its set's colours' for that VU`);
       }
     }
-    if (item.icon && item.icon.shared_from !== undefined && !ID.test(item.icon.shared_from)) problems.push(`${at}: shared_from should be an item id`);
     const statEntries = Object.values(item.stats || {}).flat();
     const anything = shared.length || statEntries.length || (item.seen || []).length || (item.tt || []).length || file
       || item.unused || droppedBy.has(item.id);
@@ -181,7 +192,7 @@ const categories = CATEGORIES.map((key) => {
       if (!/^\d+\.\d+$/.test(t.ped || "") || !read) problems.push(`${at}: a TT value needs ped and the capture or picture it was read off`);
     }
     // The Archive's own words carry no en or em dash; what a source says is quoted as it wrote it, dashes and all.
-    const own = [item.type, item.icon && item.icon.assigned && item.icon.assigned.basis];
+    const own = [item.type, ...iconsOf(item).map((icon) => icon.entry.assigned && icon.entry.assigned.basis)];
     if (own.some((text) => /[–—]/.test(text || ""))) problems.push(`${at}: the Archive's own text uses an en or em dash`);
     return item;
   });
@@ -211,7 +222,7 @@ function datedNames(item) {
 const shownName = (item, names = datedNames(item)) => (names.length ? [...names].sort((a, b) => a[2] - b[2] || a[1] - b[1]).pop()[0] : item.name);
 P.setItemLink((id) => `<a href="#${esc(id)}">${esc(shownName(byId.get(id)))}</a>`);
 // Every picture is one some item wears.
-const worn = new Set(categories.flatMap((c) => c.items.map((i) => iconFile(i.icon)).filter(Boolean)));
+const worn = new Set(categories.flatMap((c) => c.items.flatMap((i) => iconsOf(i).map((icon) => icon.file))));
 for (const file of Object.keys(pictures.icons || {})) {
   if (!worn.has(file)) problems.push(`icons.json: no item wears ${file}`);
 }
@@ -228,17 +239,24 @@ function span(item) {
   return widest([...(item.seen || []).map((x) => (x.first_capture ? seenDays(x).map(vuOn) : [x.first_vu, x.last_vu])), ...cited]);
 }
 
-// An icon drawn since, not stored by a client, says so when the pointer rests on it.
-const RECONSTRUCTED = "The client rendered this icon at runtime. This is a modern reconstruction.";
-const iconHTML = (icon) => {
-  const file = iconFile(icon);
-  if (!file) {
+// An icon drawn since, not stored by a client, says so when the pointer rests on it, with the VU it shows the item in.
+const reconstructed = (file) => /_reconstructed_\d{4}\.png$/.test(file);
+const tipFor = (icon) => `The client rendered this icon at runtime. This is a modern reconstruction of it in VU ${pictures.icons[icon.file].vu}.`;
+// The row shows the picture of the latest VU; an item with pictures for several VUs lists them all (file, VU rank,
+// tip), and the page shows the one for the chosen VU as it shows the name.
+const iconHTML = (item) => {
+  const icons = iconsOf(item);
+  if (!icons.length) {
     return `<span class="i-icon"></span>`;
   }
-  const image = `<img src="icons/${esc(file)}" alt="" loading="lazy">`;
-  return /_reconstructed_\d{4}\.png$/.test(file)
-    ? `<span class="i-icon recon" tabindex="0" aria-label="${RECONSTRUCTED}" data-tip="${RECONSTRUCTED}">${image}</span>`
-    : `<span class="i-icon">${image}</span>`;
+  const shown = icons[icons.length - 1];
+  const all = icons.length > 1
+    ? ` data-icons="${esc(JSON.stringify(icons.map((icon) => [icon.file, icon.rank, reconstructed(icon.file) ? tipFor(icon) : ""])))}"`
+    : "";
+  const image = `<img src="icons/${esc(shown.file)}" alt="" loading="lazy">`;
+  return reconstructed(shown.file)
+    ? `<span class="i-icon recon" tabindex="0" aria-label="${esc(tipFor(shown))}" data-tip="${esc(tipFor(shown))}"${all}>${image}</span>`
+    : `<span class="i-icon"${all}>${image}</span>`;
 };
 
 const vus = (first, last) => (first === last ? `VU ${first}` : `VU ${first} to ${last}`);
@@ -348,7 +366,7 @@ function itemHTML(category, item) {
   const pictured = P.mediaLink([item.name, ...(item.names || []).map((n) => n.name), ...(item.also || [])], set ? [`${set.name} Armor`] : []);
   const more = pictured + P.statsHTML(mergeStats(set && set.stats, item.stats), category.key, {first: description, last: madeWithHTML(item) + auctionHTML(item) + hallHTML(item) + dropsHTML(item)});
   return `<li class="item${more ? " has-more" : ""}" id="${esc(item.id)}" data-cat="${category.key}" data-type="${esc(item.type)}"${range}${dated} data-text="${esc(text)}"${item.unused ? " data-unused" : ""}>`
-    + iconHTML(item.icon)
+    + iconHTML(item)
     + `<span class="i-name-cell"><span class="i-name">${esc(shown)}</span></span><span class="i-type">${esc(item.type)}</span>`
     + `<span class="i-tt">${tt ? `${esc(tt.ped)} PED` : ""}</span><span class="i-seen">${esc(seen)}</span>`
     + (more ? `<div class="i-more">${more}</div>` : "") + "</li>";
