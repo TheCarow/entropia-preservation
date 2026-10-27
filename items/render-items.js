@@ -360,6 +360,17 @@ function dropsHTML(item) {
   }).join("");
 }
 
+// An armour piece's or a garment's sex, as its names state it: "(F)", "(female)", "(M,L)"; none where they state none
+// (a miniskirt), which the Gender filter shows under either.
+const SEXED = new Set(["armor", "clothing"]);
+function sexOf(item) {
+  for (const name of [item.name, ...(item.names || []).map((n) => n.name)]) {
+    const m = /\((m|male|f|female)\b[^)]*\)?\s*$/i.exec(name);
+    if (m) return m[1][0].toLowerCase();
+  }
+  return "";
+}
+
 function itemHTML(category, item) {
   const s = span(item);
   const tt = [...(item.tt || [])].sort((a, b) => ttOrder(a).localeCompare(ttOrder(b))).pop();
@@ -375,7 +386,8 @@ function itemHTML(category, item) {
   const description = texts.length ? [{label: "Description", entries: texts.map((d) => ({html: esc(d.text), sources: d.sources}))}] : [];
   const pictured = P.mediaLink([item.name, ...(item.names || []).map((n) => n.name), ...(item.also || [])], set ? [`${set.name} Armor`] : []);
   const more = pictured + P.statsHTML(mergeStats(set && set.stats, item.stats), category.key, {first: description, last: madeWithHTML(item) + auctionHTML(item) + hallHTML(item) + dropsHTML(item)});
-  return `<li class="item${more ? " has-more" : ""}" id="${esc(item.id)}" data-cat="${category.key}" data-type="${esc(item.type)}"${range}${dated} data-text="${esc(text)}"${item.unused ? " data-unused" : ""}>`
+  const sex = SEXED.has(category.key) ? sexOf(item) : "";
+  return `<li class="item${more ? " has-more" : ""}" id="${esc(item.id)}" data-cat="${category.key}" data-type="${esc(item.type)}"${sex ? ` data-sex="${sex}"` : ""}${range}${dated} data-text="${esc(text)}"${item.unused ? " data-unused" : ""}>`
     + iconHTML(item)
     + `<span class="i-name-cell"><span class="i-name">${esc(shown)}</span></span><span class="i-type">${esc(item.type)}</span>`
     + `<span class="i-tt">${tt ? `${esc(tt.ped)} PED` : ""}</span><span class="i-seen">${esc(seen)}</span>`
@@ -402,6 +414,7 @@ ${c.items.map((i) => itemHTML(c, i)).join("\n")}
 const body = `<div class="filters" role="search">
 <label>Category <select class="fsel" data-filter="cat">${listed.map((c) => option(c.key, c.name)).join("")}</select></label>
 <label>Type <select class="fsel" data-filter="type"><option value="">Any</option>${types}</select></label>
+<label class="i-sex" hidden>Gender <select class="fsel" data-filter="sex"><option value="">Any</option><option value="m">Male</option><option value="f">Female</option></select></label>
 <label>Seen in <select class="fsel" data-filter="vu" aria-label="Seen in VU"><option value="">any VU</option>${VUS.filter((v) => used.has(v)).map((v) => `<option value="${v}" data-rank="${RANK.get(v)}">VU ${v}</option>`).join("")}</select></label>
 <label class="i-search">Search <input class="ftext" type="search" data-filter="q" placeholder="Name or other spelling"></label>
 <span class="spacer"></span>

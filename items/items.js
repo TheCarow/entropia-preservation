@@ -13,6 +13,9 @@
   const category = bar.querySelector('[data-filter="cat"]');
   const firstCategory = category.options[0].value;
   const type = bar.querySelector('[data-filter="type"]');
+  // Armour and clothing can be narrowed to one sex; an item whose names state none shows under either.
+  const sex = bar.querySelector('[data-filter="sex"]');
+  const SEXED = ["armor", "clothing"];
   const clear = bar.querySelector(".fclear");
   const tally = document.querySelector(".shown");
   const none = document.querySelector(".nomatch");
@@ -21,7 +24,7 @@
   const unused = new URLSearchParams(location.search).get("unused") === "1";
   document.documentElement.classList.toggle("show-unused", unused);
   const items = Array.from(document.querySelectorAll(unused ? ".item" : ".item:not([data-unused])"), (li) => ({
-    li, cat: li.dataset.cat, type: `${li.dataset.cat}:${li.dataset.type}`, text: li.dataset.text,
+    li, cat: li.dataset.cat, type: `${li.dataset.cat}:${li.dataset.type}`, text: li.dataset.text, sex: li.dataset.sex || "",
     a: li.dataset.a ? Number(li.dataset.a) : null, b: li.dataset.b ? Number(li.dataset.b) : null,
     names: li.dataset.names ? JSON.parse(li.dataset.names) : null, name: li.querySelector(".i-name"),
     icon: li.querySelector(".i-icon"), icons: li.querySelector(".i-icon").dataset.icons
@@ -64,6 +67,7 @@
     const words = (f.q || "").toLowerCase().split(/\s+/).filter(Boolean);
     return (!f.cat || item.cat === f.cat)
       && (!f.type || item.type === f.type)
+      && (!f.sex || !SEXED.includes(item.cat) || !item.sex || item.sex === f.sex)
       && (at === null || (item.a !== null && item.a <= at && item.b >= at))
       && words.every((w) => item.text.includes(w));
   }
@@ -235,6 +239,11 @@
     }
     if (type.value && category.value && !type.value.startsWith(`${category.value}:`)) {
       type.value = "";
+    }
+    const sexed = SEXED.includes(category.value);
+    sex.closest("label").hidden = !sexed;
+    if (!sexed) {
+      sex.value = "";
     }
   }
 

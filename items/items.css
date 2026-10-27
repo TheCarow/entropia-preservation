@@ -18,6 +18,8 @@ html:not(.show-unused) .item[data-unused] { display: none; }
 /* Every row keeps one square icon box, empty or not, so every row stands the same height. An icon taller than one
    inventory slot (a harness is two) is fitted into the square whole rather than cropped. */
 .i-icon { position: relative; width: 36px; height: 36px; }
+/* The Gender filter shows only for armour and clothing. */
+.filters label.i-sex[hidden] { display: none; }
 /* A reconstructed icon explains itself when the pointer rests on it or it has the focus. */
 .i-icon.recon { cursor: help; }
 .i-icon.recon:focus { outline: 1px dotted var(--muted); outline-offset: 1px; }
