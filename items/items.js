@@ -110,8 +110,13 @@
 
   // A field shows one value: for a chosen VU the value recorded in it (the best-ranked source first, then the one
   // most sources give), failing that the nearest earlier record, then the nearest later one; with no VU chosen the
-  // latest. A value from another VU than the chosen one is marked.
+  // latest. A value from another VU than the chosen one is marked. An undated value (a secondary source's, Entropia
+  // Nexus's) stands only where the field has no dated one.
   function pick(lines, at) {
+    const dated = lines.filter((l) => l.a >= 0);
+    if (dated.length && dated.length < lines.length) {
+      lines = dated;
+    }
     const by = (...keys) => (x, y) => keys.reduce((d, k) => d || k(x, y), 0);
     if (at === null) {
       return [...lines].sort(by((x, y) => y.b - x.b, (x, y) => x.t - y.t, (x, y) => y.n - x.n))[0];
