@@ -195,8 +195,13 @@ const categories = CATEGORIES.map((key) => {
       }
     }
     for (const t of item.tt || []) {
-      const read = t.media !== undefined ? P.pictures.has(t.media) : captures[t.capture];
-      if (!/^\d+\.\d+$/.test(t.ped || "") || !read) problems.push(`${at}: a TT value needs ped and the capture or picture it was read off`);
+      // A secondary source's TT value (Entropia Nexus) has no capture or picture: it is undated, and sorts below every
+      // dated one.
+      // An owner's TT value with no reading of its own (a piece given its counterpart's) is dated by its VUs and its basis.
+      const undated = t.media === undefined && t.capture === undefined && (sources[t.source] || {}).kind === "secondary";
+      const stated = t.vus !== undefined && Array.isArray(t.vus) && t.vus.length > 0 && t.vus.every((v) => RANK.has(v)) && Boolean(t.basis);
+      const read = undated || stated || (t.media !== undefined ? P.pictures.has(t.media) : captures[t.capture]);
+      if (!/^\d+\.\d+$/.test(t.ped || "") || !read) problems.push(`${at}: a TT value needs ped and the capture or picture it was read off, its VUs and basis, or a secondary source`);
     }
     // The Archive's own words carry no en or em dash; what a source says is quoted as it wrote it, dashes and all.
     const own = [item.type, ...iconsOf(item).map((icon) => icon.entry.assigned && icon.entry.assigned.basis)];
@@ -272,8 +277,8 @@ const flavours = (item) => (item.descriptions || []).filter((d) => d.sources.inc
   || d.sources.some((c) => c.source === "item-window")).sort((a, b) => b.sources.includes("client-5.4") - a.sources.includes("client-5.4"));
 
 // A TT value's place among the item's others: its capture's timestamp, or the start of the latest day the picture it was
-// read off can date from.
-const ttOrder = (t) => t.capture || `${(P.pictureDay(t.media) || "").replace(/-/g, "")}000000/`;
+// read off can date from; an undated one (a secondary source's) before them all, so the row shows it only alone.
+const ttOrder = (t) => t.capture || (t.media !== undefined ? `${(P.pictureDay(t.media) || "").replace(/-/g, "")}000000/` : "");
 
 // A piece of an armour set shows the set's stats beside its own, field by field: a value both give is one line with the
 // sources of both.

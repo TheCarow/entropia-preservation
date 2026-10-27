@@ -4,16 +4,19 @@
     "official",
     "player",
     "client",
-    "owner"
+    "owner",
+    "secondary"
   ],
   "kinds": {
     "game": "The game's own windows, read off dated screenshots in the Archive's Media: what the live game showed.",
     "official": "MindArk's own word: release notes, the official site.",
     "player": "What players recorded of the live game on their sites: auctions, loot, stats read off the items.",
     "client": "A client's own files, which name what the game could hold, not what was in circulation.",
-    "owner": "The owner's judgements and inferences."
+    "owner": "The owner's judgements and inferences.",
+    "secondary": "A site that gives values with no date and no source of its own: they show where no dated source gives the field, and date nothing."
   },
   "sources": {
+    "entropia-nexus": {"name": "Entropia Nexus", "kind": "secondary", "about": "The present-day item database at entropianexus.com, read from its API (api.entropianexus.com) on 2026-10-27 by the editor's tools/nexus_items.py. It gives each item's values as they are now, with no date and no source, so they date nothing and show only where no dated source gives the field. Entropia Museum's item database is a copy of the same API, record for record. Armour: weight, durability, protection by damage type (0 where none) and maximum TT value, a piece named without its sex given to both its items."},
     "pea": {
       "name": "PE Auction",
       "link": "../sites/#pe-auction",
