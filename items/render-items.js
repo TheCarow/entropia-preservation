@@ -36,6 +36,7 @@ const reasons = (sources.owner && sources.owner.reasons) || {};
 const lookVu = (vu) => vu === "" || RANK.has(vu);
 const pictures = load(path.join(ROOT, "icons.json"));
 const sets = load(path.join(ROOT, "sets.json")).sets || {};
+const classes = load(path.join(ROOT, "classes.json"));
 const ICON_FILE = /^[a-z0-9-]+_(reconstructed_\d{4}|client_[0-9.]+)\.png$/;
 for (const [file, picture] of Object.entries(pictures.icons || {})) {
   // An icon's file name says what it is: <name>_client_<key>.png, a picture a client stores, or
@@ -110,6 +111,28 @@ const categories = CATEGORIES.map((key) => {
     if (item.colours !== undefined && !coloursValid(item.colours)) problems.push(`${at}: its colours need, per VU, red, green and blue as #RRGGBB and a basis`);
     const setBasis = (vu) => [...((pieceSet.get(item.id) || {}).colours || []), ...(item.colours || [])].some((c) => c.vu === vu && c.basis);
     for (const look of item.look || []) {
+      // Any other item's look is the variant its class's icon table is read at (343 +0x10, which 5.4's server sent),
+      // and why; it is allowed only on an item whose class has such a table, and must fall inside it.
+      if (!["weapons", "armor", "clothing"].includes(key)) {
+        const table = (classes.item_classes[item.id] || []).map((c) => ((classes.classes[c] || {}).icon || {}).textures)
+          .find((t) => Array.isArray(t));
+        if (!table) {
+          problems.push(`${at}: a look is the variant of its class's icon table, and its class has none`);
+        } else if (!lookVu(look.vu) || !Number.isInteger(look.variant) || look.variant < 0 || look.variant >= table.length
+            || !look.basis || Object.keys(look).some((k) => !["vu", "variant", "basis"].includes(k))) {
+          problems.push(`${at}: a look needs a VU, a variant within its class's icon table (0 to ${table.length - 1}) and a basis`);
+        }
+        continue;
+      }
+      // A weapon's look is the class whose model table and texture lists it takes, one model of that table, the variant
+      // its texture lists are read at, and why; it has no colours to share a basis with.
+      if (key === "weapons") {
+        if (!lookVu(look.vu) || !Number.isInteger(look.class) || !Number.isInteger(look.model) || look.model <= 0
+            || !Number.isInteger(look.variant) || look.variant < 0 || !look.basis) {
+          problems.push(`${at}: a weapon's look needs a VU, a class, a model, a variant (0 or more) and a basis`);
+        }
+        continue;
+      }
       const maskValid = key === "clothing" ? Number.isInteger(look.mask) && look.mask >= 5 && look.mask <= 15 : [5, 6, 7].includes(look.mask);
       const paintedValid = look.painted === undefined || (key === "clothing" && look.painted === false);
       if (!lookVu(look.vu) || !Number.isInteger(look.class) || ![0, 1].includes(look.detail) || !maskValid || !paintedValid
