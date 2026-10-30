@@ -72,6 +72,8 @@
   const kind = document.getElementById("range-kind");
   const ranges = Array.from(bar.querySelectorAll("[data-range]"));
   const selects = Array.from(bar.querySelectorAll("select[data-filter]"));
+  const ticks = Array.from(bar.querySelectorAll("input[data-tick]"));
+  const search = bar.querySelector("input[data-search]");
   const input = document.getElementById("tag-input");
   const suggest = document.getElementById("tag-suggest");
   const chips = bar.querySelector(".tag-chips");
@@ -82,6 +84,7 @@
   const items = Array.from(gallery.querySelectorAll(".pic"), (li) => {
     const d = li.dataset;
     return {li, type: d.type, tags: words(d.tags), sources: words(d.source), dated: d.from !== undefined,
+            coords: d.coords !== undefined, text: `${d.text} ${d.tags} ${d.source}`.replace(/-/g, " "),
             from: bound(d.from, -Infinity), to: bound(d.to, Infinity), vu: d.vu ? d.vu.split(" ").map(Number) : null};
   });
   // How many pictures carry each tag, broader tags included: the count a suggestion shows.
@@ -104,6 +107,18 @@
       select.value = wanted;
     }
   }
+  // A tickbox has three states: empty for either, ticked for true, a dash for false.
+  function setTick(box, value) {
+    box.dataset.value = value;
+    box.checked = value === "true";
+    box.indeterminate = value === "false";
+    box.title = {"": "Either. Click for true.", true: "True. Click for false.", false: "False. Click for either."}[value];
+  }
+  for (const box of ticks) {
+    const wanted = params.get(box.dataset.tick);
+    setTick(box, wanted === "true" || wanted === "false" ? wanted : "");
+  }
+  search.value = params.get("q") || "";
   kind.value = params.get("vufrom") || params.get("vuto") ? "vu" : "year";
   let page = Math.max(1, Number.parseInt(params.get("page"), 10) || 1);
   let tags = [];
@@ -139,6 +154,14 @@
         f[select.dataset.filter] = select.value;
       }
     }
+    for (const box of ticks) {
+      if (box.dataset.value) {
+        f[box.dataset.tick] = box.dataset.value;
+      }
+    }
+    if (search.value.trim()) {
+      f.q = search.value.trim();
+    }
     return f;
   }
 
@@ -147,9 +170,13 @@
     const years = f.from || f.to ? [bound(f.from, -Infinity), bound(f.to, Infinity)] : null;
     const vus = f.vufrom || f.vuto
       ? [f.vufrom ? places.vufrom.get(f.vufrom) : -Infinity, f.vuto ? places.vuto.get(f.vuto) : Infinity] : null;
+    const wanted = (f.q || "").toLowerCase().replace(/-/g, " ").split(/\s+/).filter(Boolean);
     return (item) => tags.every((t) => item.tags.has(t.s) !== t.not)
+      && wanted.every((word) => item.text.includes(word))
       && (!f.type || item.type === f.type)
       && (!f.source || item.sources.has(f.source))
+      && (!f.coords || item.coords === (f.coords === "true"))
+      && (!f.dated || item.dated === (f.dated === "true"))
       && (!vus || (item.vu !== null && item.vu[0] <= vus[1] && item.vu[1] >= vus[0]))
       && (!years || (item.dated && item.from <= years[1] && item.to >= years[0]));
   }
@@ -404,11 +431,22 @@
   for (const select of selects) {
     select.addEventListener("change", () => show(true));
   }
+  for (const box of ticks) {
+    box.addEventListener("change", () => {
+      setTick(box, {"": "true", true: "false", false: ""}[box.dataset.value]);
+      show(true);
+    });
+  }
+  search.addEventListener("input", () => show(true));
   kind.addEventListener("change", () => {
     showRange();
     show(true);
   });
   clear.addEventListener("click", () => {
+    search.value = "";
+    for (const box of ticks) {
+      setTick(box, "");
+    }
     for (const select of selects) {
       select.value = "";
     }

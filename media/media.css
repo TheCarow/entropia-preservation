@@ -4,10 +4,13 @@
 /* The gallery */
 .gallery { list-style: none; margin: 24px 0 0; padding: 0; display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 19px 6px; }
 .pic[hidden], .filters .range[hidden] { display: none; }
+.ftick { width: 16px; height: 16px; margin: 0; cursor: pointer; }
 .pic .shot { display: flex; align-items: center; justify-content: center; aspect-ratio: 4 / 3; background: var(--panel); overflow: hidden; }
 .pic .shot:hover { outline: 1px solid var(--fg); outline-offset: 0; }
 .pic .shot img, .copy-thumb img { display: block; max-width: 100%; max-height: 100%; width: auto; height: auto; }
 .pic-line { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 0 8px; margin-top: 5px; font-size: 13px; font-variant-numeric: tabular-nums; }
+.m-search .ftext { width: 220px; max-width: 100%; }
+.pic-name { margin-top: 5px; font-size: 13px; }
 .pic-place { font-size: 13px; color: var(--muted); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .pager { display: flex; flex-wrap: wrap; justify-content: center; align-items: baseline; gap: 6px 14px; margin: 28px 0 0; padding-top: 12px; border-top: 1px solid var(--line); font-size: 15px; font-variant-numeric: tabular-nums; }
 .pager:empty, html:not(.js) .pager { display: none; }

@@ -118,12 +118,15 @@ function filtersHTML(m) {
 <span class="tag-box"><input id="tag-input" class="ftext" type="text" autocomplete="off" spellcheck="false" placeholder="Add a tag" title="Click a suggestion to require it, or press without to leave it out. Start with - to leave a tag out." role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="tag-suggest"><ul id="tag-suggest" class="suggest" role="listbox" hidden></ul></span>
 </div>
 <script type="application/json" id="tag-list">${tags}</script>
+<label class="m-search">Search <input class="ftext" type="search" data-search="q" placeholder="Name, file or source"></label>
 <label>Show <select class="fsel" data-filter="type"><option value="">Everything</option><option value="picture">Pictures</option><option value="video">Videos</option><option value="document">Documents</option></select></label>
 <label>Filter by <select class="fsel" id="range-kind"><option value="year">Year</option><option value="vu">VU</option></select></label>
 <span class="range" data-range="year"><select class="fsel" data-filter="from" aria-label="From year"><option value="">any</option>${options(years)}</select>
 to <select class="fsel" data-filter="to" aria-label="To year"><option value="">any</option>${options(years)}</select></span>
 <span class="range" data-range="vu" hidden><select class="fsel" data-filter="vufrom" aria-label="From VU"><option value="">any</option>${vuOptions(false)}</select>
 to <select class="fsel" data-filter="vuto" aria-label="To VU"><option value="">any</option>${vuOptions(true)}</select></span>
+<label><input class="ftick" type="checkbox" data-tick="coords"> Coordinates</label>
+<label><input class="ftick" type="checkbox" data-tick="dated"> Dated</label>
 <label>Source <select class="fsel" data-filter="source"><option value="">Anyone</option>${sources}</select></label>
 <span class="spacer"></span>
 <button class="fclear" type="button" hidden>Clear filters</button>
@@ -136,6 +139,15 @@ function entries(found, all) {
   return `${found.toLocaleString("en-US")} of ${all.toLocaleString("en-US")} ${all === 1 ? "entry" : "entries"}`;
 }
 
+// What the search box looks through beside the tags: a video's or document's name and maker, the names its files
+// went by, and where they were found. Hyphens count as spaces, as they do in a tag.
+function searchText(p) {
+  const {video, document: doc} = p.image;
+  const names = p.image.variants.flatMap((v) => v.originals.map((o) => o.name));
+  return [p.image.id, video && video.title, video && video.channel, doc && doc.title, doc && doc.publisher, ...names, ...p.sources]
+    .filter(Boolean).join(" ").toLowerCase().replace(/-/g, " ");
+}
+
 function card(p) {
   const [w, h] = thumbSize(p.master, 360);
   const keys = p.image.date_keys;
@@ -145,7 +157,9 @@ function card(p) {
     `data-tags="${esc(p.tags.join(" "))}"`,
     `data-source="${esc(p.sources.map(slug).join(" "))}"`,
     keys ? `data-from="${year(keys[0]) ?? ""}" data-to="${year(keys[1]) ?? ""}"` : "",
-    vu && !vu.includes(null) ? `data-vu="${vu.join(" ")}"` : "",
+    vu ? `data-vu="${vu.join(" ")}"` : "",
+    p.image.coordinates ? "data-coords" : "",
+    `data-text="${esc(searchText(p))}"`,
   ].filter(Boolean).join(" ");
   const alt = [p.where, p.image.date_text].filter(Boolean).join(", ") || p.heading;
   const date = p.image.date_short ? esc(p.image.date_short) : `<span class="undated">undated</span>`;
@@ -155,8 +169,10 @@ function card(p) {
   const video = p.image.video ? `<span class="play" title="Video${p.image.video.duration ? `, ${minutes(p.image.video.duration)}` : ""}"></span>` : "";
   const doc = p.image.document ? `<span class="doc" title="${esc(pages(p.image.document) || "Document")}">PDF</span>` : "";
   const kind = p.image.video ? " is-video" : p.image.document ? " is-doc" : "";
+  // A video or document is named under its picture, a picture by the place it shows.
+  const name = (p.image.video || p.image.document || {}).title;
   return `<li class="pic" id="p-${esc(p.image.id)}" ${data}><a class="shot${kind}" href="${esc(p.image.id)}/"><img src="thumbs/${esc(p.master.id)}.jpg" width="${w}" height="${h}" loading="lazy" alt="${esc(p.image.document ? p.heading : alt)}">${video}${doc}</a>
-<div class="pic-line">${date}${vuText}</div>${p.where ? `<div class="pic-place">${esc(p.where)}</div>` : ""}</li>`;
+${name ? `<div class="pic-name">${esc(name)}</div>` : ""}<div class="pic-line">${date}${vuText}</div>${p.where && !name ? `<div class="pic-place">${esc(p.where)}</div>` : ""}</li>`;
 }
 
 function galleryHTML(m) {
@@ -266,7 +282,7 @@ function imageHTML(m, position) {
     ? `<dt>Date</dt><dd>${esc(image.date_text)}${image.dating_basis ? `<div class="meta">Dating basis: ${esc(image.dating_basis)}</div>` : ""}</dd>`
     : `<dt>Date</dt><dd class="undated">unknown</dd>`;
   const vu = image.vu_text
-    ? `<dt>Version</dt><dd>${image.vu_link ? `<a href="../../clients/#vu-${esc(image.vu_link)}">${esc(image.vu_text)}</a>` : esc(image.vu_text)}</dd>`
+    ? `<dt>Version</dt><dd><a href="../../clients/#vu-${esc(image.vu_link)}">${esc(image.vu_text)}</a><div class="meta">Worked out from the date.</div></dd>`
     : "";
   // The archive's own copy plays in the browser's player, fetched only once started (preload="none"). Without one,
   // the player of the site the video is on is swapped in when the poster is started (media.js). Either way nothing is
