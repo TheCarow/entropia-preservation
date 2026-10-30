@@ -280,6 +280,17 @@ const flavours = (item) => (item.descriptions || []).filter((d) => d.sources.inc
 // read off can date from; an undated one (a secondary source's) before them all, so the row shows it only alone.
 const ttOrder = (t) => t.capture || (t.media !== undefined ? `${(P.pictureDay(t.media) || "").replace(/-/g, "")}000000/` : "");
 
+// A TT record as a citation: the picture it was read off, its capture, the VUs it states, or its source alone.
+function ttCitation(t) {
+  if (t.media !== undefined) {
+    return {source: t.source, media: t.media};
+  }
+  if (t.capture !== undefined) {
+    return {source: t.source, first: t.capture, last: t.capture};
+  }
+  return t.vus ? {source: t.source, vus: t.vus} : t.source;
+}
+
 // A piece of an armour set shows the set's stats beside its own, field by field: a value both give is one line with the
 // sources of both.
 function mergeStats(...all) {
@@ -374,6 +385,8 @@ function sexOf(item) {
 function itemHTML(category, item) {
   const s = span(item);
   const tt = [...(item.tt || [])].sort((a, b) => ttOrder(a).localeCompare(ttOrder(b))).pop();
+  // The row's value, with every source that gives it; the popup shows them beside the value (items.js).
+  const ttSources = tt ? P.mark(P.provenance(item.tt.filter((t) => t.ped === tt.ped).map(ttCitation))) : "";
   const seen = s ? vus(s.first, s.last) : "";
   const names = datedNames(item);
   const shown = shownName(item, names);
@@ -390,7 +403,7 @@ function itemHTML(category, item) {
   return `<li class="item${more ? " has-more" : ""}" id="${esc(item.id)}" data-cat="${category.key}" data-type="${esc(item.type)}"${sex ? ` data-sex="${sex}"` : ""}${range}${dated} data-text="${esc(text)}"${item.unused ? " data-unused" : ""}>`
     + iconHTML(item)
     + `<span class="i-name-cell"><span class="i-name">${esc(shown)}</span></span><span class="i-type">${esc(item.type)}</span>`
-    + `<span class="i-tt">${tt ? `${esc(tt.ped)} PED` : ""}</span><span class="i-seen">${esc(seen)}</span>`
+    + `<span class="i-tt"${ttSources ? ` data-sources="${esc(ttSources)}"` : ""}>${tt ? `${esc(tt.ped)} PED` : ""}</span><span class="i-seen">${esc(seen)}</span>`
     + (more ? `<div class="i-more">${more}</div>` : "") + "</li>";
 }
 

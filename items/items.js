@@ -341,13 +341,15 @@
     const body = document.createElement("tbody");
     body.className = "fixed i-pop-added";
     for (const [label, selector] of SUMMARY) {
-      const text = ((li.querySelector(selector) || {}).textContent || "").trim();
+      const cell = li.querySelector(selector) || {};
+      const text = (cell.textContent || "").trim();
       const row = body.insertRow();
       const head = document.createElement("th");
       head.scope = "row";
       head.textContent = label;
       row.append(head);
       row.insertCell().className = "q";
+      row.cells[1].innerHTML = (cell.dataset && cell.dataset.sources) || "";
       row.insertCell().textContent = text || "unknown";
       row.cells[2].className = "v";
       if (!text) {
@@ -367,10 +369,6 @@
     popupTitle.textContent = li.querySelector(".i-name").textContent;
     const more = li.querySelector(".i-more");
     complete(more);
-    for (const mark of more.querySelectorAll(".src:not([role])")) {
-      mark.setAttribute("role", "button");
-      mark.setAttribute("aria-label", `Sources: ${Array.from(mark.querySelectorAll(".e"), (e) => e.textContent).join("; ")}`);
-    }
     const table = more.querySelector(".i-stats");
     if (table) {
       table.prepend(summaryRows(li));
@@ -379,6 +377,10 @@
       own.className = "i-stats i-pop-added";
       own.append(summaryRows(li));
       more.prepend(own);
+    }
+    for (const mark of more.querySelectorAll(".src:not([role])")) {
+      mark.setAttribute("role", "button");
+      mark.setAttribute("aria-label", `Sources: ${Array.from(mark.querySelectorAll(".e"), (e) => e.textContent).join("; ")}`);
     }
     const picture = li.querySelector(".i-icon img");
     if (picture) {
