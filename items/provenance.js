@@ -51,8 +51,9 @@ function context(site, stop, problems) {
   // The Archive's Media pictures, which a citation of the game's own window names: its page is ../media/<id>/.
   const media = load(path.join(site, "media", "media.json"), stop);
   const pictures = new Map((media.images || []).map((m) => [m.id, m]));
-  // Media's tags by their label with case, spaces and punctuation set aside, each with how many pictures carry it.
-  const tagKey = (text) => String(text).toLowerCase().replace(/[^a-z0-9]+/g, "");
+  // Media's tags by their label with case, spaces and punctuation set aside, each with how many pictures carry it. A tag
+  // names an armour piece or garment without its sex, so an item's "(F)", "(male)" or "(M,C)" is set aside too.
+  const tagKey = (text) => String(text).toLowerCase().replace(/\((?:m|f|male|female)(?:,\s*|\))/g, "(").replace(/[^a-z0-9]+/g, "");
   const tagged = new Map();
   for (const picture of pictures.values()) {
     for (const slug of new Set([...(picture.tags || []), ...(picture.implied || [])])) tagged.set(slug, (tagged.get(slug) || 0) + 1);
