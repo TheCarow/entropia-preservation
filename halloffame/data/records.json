@@ -519,7 +519,6 @@
     {"player": "AoW Skarpa Skött", "value": 93, "target": "Falxangius Young", "kind": "global", "team": true, "activity": "hunting", "creature": "falxangius", "maturity": "Young", "sources": [["chat-screenshot", "m03f2pd2"]]},
     {"player": "Are Kozi Insulting", "value": 132, "target": "Caldonite Stone", "kind": "global", "activity": "mining", "sources": [["chat-screenshot", "4hvzqe1j"]]},
     {"player": "Argentum Sleazegrinder Astrum", "value": 151, "target": "Allophyl Guardian", "kind": "global", "activity": "hunting", "creature": "allophyl", "maturity": "Guardian", "sources": [["chat-screenshot", "r852rvg4"]]},
-    {"player": "Arrun Arrun de Warsash", "value": 90, "target": "Atrox Guardian", "kind": "global", "activity": "hunting", "creature": "atrox", "maturity": "Guardian", "sources": [["chat-screenshot", "5ynfdcby"]]},
     {"player": "Arthur Starman Dent", "value": 105, "target": "Zone Shirt (M,C)", "kind": "global", "activity": "crafting", "item": "zone-shirt-m-c", "sources": [["chat-screenshot", "4hvzqe1j"]]},
     {"player": "Arthur Starman Dent", "value": 161, "target": "Bristlehog Provider", "kind": "global", "activity": "hunting", "creature": "bristlehog", "maturity": "Provider", "sources": [["chat-screenshot", "vdpm8xx7"]]},
     {"player": "Askellard Aske Hallard", "value": 54, "target": "Atrax Prowler", "kind": "global", "activity": "hunting", "creature": "atrax", "maturity": "Prowler", "sources": [["chat-screenshot", "7q2zfh1m"]]},
