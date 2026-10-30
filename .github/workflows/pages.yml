@@ -4,6 +4,8 @@
 # full without JavaScript and web archives keep all of it. Nothing needs running by hand. A mistake in versions.json,
 # notes.md, media.json, articles.json, sites.json, the items, creatures or auction data, or a missing picture, stops the publish and the last good version stays up;
 # the Publish run on the Actions tab lists the mistake.
+# render-seo.js runs last: it gives every page built its canonical address and preview image, and lists them in sitemap.xml,
+# beside a robots.txt that points to it.
 #
 # The repository's Settings > Pages > Build and deployment > Source must be set to "GitHub Actions".
 name: Publish
@@ -49,6 +51,7 @@ jobs:
       - run: node halloffame/render-halloffame.js _site
       - run: node societies/render-societies.js _site
       - run: node maps/render-maps.js _site
+      - run: node render-seo.js _site
       - uses: actions/upload-pages-artifact@v5
         with:
           path: _site
