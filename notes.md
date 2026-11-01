@@ -3710,7 +3710,50 @@ while we implment VU 8.9.2, which includes:
 
 [More...](http://www.entropiauniverse.com/en/rich/5377.html)
 ## VU 8.9.X
+**Upcoming Maintenance**  
+_14 Mar 2007_
+
+Beginning on Tuesday 27 March 2007 and continuing for 6 - 10 weeks, Entropia Universe server maintenance will be performed:
+
+Every Tuesday at 09:00 UTC for a period of 10 - 15 minutes
+
+This may result in the servers being temporarily unavailable during this period. This necessary maintenance will allow us to keep the Entropia Universe in top condition.
+
+--
+
+**Entropia Universe Mini Update**  
+_6 Mar 2007_
+
 This mini update was aimed at fixing some minor issues affecting system stability.
+
+--
+
+**Server Park Upgrade: IP Address Confirmation**  
+_26 Feb 2007_
+
+As part of the server park upgrade, your internet security software may now require that you accept connection to the following addresses:
+
+Entropia Universe: 62.4.93.231, 62.4.93.232, 62.4.93.233, 62.4.93.234
+
+Entropia Universe Website: 62.93.236.11, 62.93.236.12, 62.93.236.13, 62.93.236.14
+
+Please allow these connections.
+
+--
+
+**Server Park Update**  
+_26 Feb 2007_
+
+The second stage of the Server Park Upgrade has been completed. MindArk are monitoring the system in the event that further calibrations may be necessary.
+
+--
+
+**Server Park Update Continues**  
+_23 Feb 2007_
+
+The Entropia Universe servers will be temporarily unavailable while we continue the process of upgrading our server park on: Monday, 26 Feb., 07:30 UTC
+
+We apologize for any inconvenience caused.
 
 --
 
@@ -3718,6 +3761,21 @@ This mini update was aimed at fixing some minor issues affecting system stabilit
 _22 Feb 2007_
 
 Crash related problems when visiting shopping malls have been fixed.
+
+--
+
+**Entropia Universe Server Park Update**  
+_21 Feb 2007_
+
+The first stage of the server park update has been successfully completed. The remainder of the update will be carried out in the coming days. We will keep participants informed of any planned downtime through this Support News section.
+
+--
+
+**Entropia Universe Server Park Upgrade**
+
+Due to increased demand from new participants in the Entropia Universe, MindArk PE AB will be upgrading the Entropia Universe server park to the next generation of servers on: Wednesday, 21st Feb. 2007, 08:00 UTC
+
+Temporary disruptions and login difficulties may be experienced during this upgrade, and we thank all participants for their patience while this performance enhancing upgrade is implemented.
 ## VU 8.11
 **Akmuul Island**  
 A whole new island has been opened up for PvP combat excitement in southern Amethera. Akmuul Island holds a few surprises for everybody, with new areas and settlements to explore, undiscovered native inhabitants, undiscovered raw materials and even two new land areas available for sale.  
@@ -3786,6 +3844,9 @@ Entropia Universe update between 10:30 - 11:30 MA Time.
 
 [More...](http://www.entropiauniverse.com/en/rich/5377.html)
 ## VU 8.11.X
+**New Icon Design, 21 Mar 2007**
+The new icon designs introduced in VU 8.11 have allowed us to come away from time consuming hand drawn icons by automating the process. This allows our graphic artists to concentrate on other more important tasks. Please note that icon appearance depends on the visual quality slider option as well as your graphics card capabilities. Unfortunately, lesser graphics cards will not provide the optimal visual experience.
+
 **21 Mar 2007**
 Todays mini update (circa 11:00 UTC) will fix a bug that made avatars invincible in the new PvP zone introduced in VU 8.11.
 
@@ -3925,6 +3986,14 @@ _5 June 2007_
 
 1. Scanning an avatar that has an equipped mindforce chip is now safe.
 2. The oil rig extracts oil again.
+3. The Blueprint generator calibrated for a more balanced output.
+
+--
+
+**Auction Orders System**  
+_13 June 2007_
+
+Auction orders for limited items have been temporarily disabled. We hope to have this issue fixed as soon as possible. Further developments will be made available in this Support News section.
 ## VU 8.12.3
 1. The 'ignore request' feature now applies to all kinds of requests. If you chose to ignore a request from another avatar, this will apply for the rest of your session, meaning that the ignored avatar cannot send any further requests until the next time you login.
 2. Team members now appear in the correct color on the radar.
@@ -4300,6 +4369,13 @@ Land areas are once again populated with creatures.
 Precious stones can be refined properly again.
 
 [Originally Posted Here](http://www.entropiauniverse.com/en/rich/5377.html)
+
+--
+
+**Virus Warnings**  
+_14 Dec 2007_
+
+The Support Dept. has received a number of enquiries from concerned participants who note their security software is detecting the installation of a trojan virus in connection with of our latest Version Update 9.1. We wish to assure all participants that the traffic coming from rp.entropiauniverse.com is safe. A dialogue is currently ongoing with security software providers to update their files and recognize the Entropia application as completely safe. AVG have already completed this update. We expect other providers to update very soon. Thank you for your patience in this matter.
 ## VU 9.1.2
 **Version Update 9.1.2**
 _17 Dec 2007_

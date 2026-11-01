@@ -1220,12 +1220,14 @@
       "date": "2007-03-06",
       "transcribed_from": [
         {"label": "entropiauniverse.com - Entropia Universe Mini Update", "url": "https://web.archive.org/web/20070308150907/http://www.entropiauniverse.com:80/en/rich/5377.html"},
-        {"label": "Entropia Universe forum - Entropia Universe Mini-Update (news bot)", "url": "https://forum.entropiauniverse.com/t/entropia-universe-mini-update/53808"}
+        {"label": "Entropia Universe forum - Entropia Universe Mini-Update (news bot)", "url": "https://forum.entropiauniverse.com/t/entropia-universe-mini-update/53808"},
+        {"label": "Entropia Directory wiki - Mini-updates after VU 8.9", "url": "https://web.archive.org/web/20080809020343/http://www.entropiadirectory.com:80/wiki/VU_8.9"}
       ],
       "sources": [
         {"tier": 1, "label": "entropiauniverse.com - Entropia Universe Mini Update", "url": "https://web.archive.org/web/20070308150907/http://www.entropiauniverse.com:80/en/rich/5377.html", "date": "2007-03-06"},
         {"tier": 3, "label": "Entropia Universe forum - Entropia Universe Mini Update 6 Mar 2007", "url": "https://forum.entropiauniverse.com/t/55427", "date": "2007-03-06"},
-        {"tier": 3, "label": "Entropia Universe forum - Entropia Universe Mini-Update (news bot)", "url": "https://forum.entropiauniverse.com/t/entropia-universe-mini-update/53808", "date": "2007-02-22"}
+        {"tier": 3, "label": "Entropia Universe forum - Entropia Universe Mini-Update (news bot)", "url": "https://forum.entropiauniverse.com/t/entropia-universe-mini-update/53808", "date": "2007-02-22"},
+        {"tier": 5, "label": "Entropia Directory wiki - Mini-updates after VU 8.9", "url": "https://web.archive.org/web/20080809020343/http://www.entropiadirectory.com:80/wiki/VU_8.9", "date": "2008-08-09"}
       ]
     },
     "8.11": {
@@ -1262,12 +1264,14 @@
       "date": "2007-03-21",
       "transcribed_from": [
         {"label": "entropiauniverse.com - Mini Update, 21 Mar 2007", "url": "https://web.archive.org/web/20070325195533/http://www.entropiauniverse.com:80/en/rich/5377.html"},
-        {"label": "entropiauniverse.com - Mini Update, 23 Mar 2007", "url": "https://web.archive.org/web/20070325195533/http://www.entropiauniverse.com:80/en/rich/5377.html#2007-03-23"}
+        {"label": "entropiauniverse.com - Mini Update, 23 Mar 2007", "url": "https://web.archive.org/web/20070325195533/http://www.entropiauniverse.com:80/en/rich/5377.html#2007-03-23"},
+        {"label": "Entropia Directory wiki - New Icon Design", "url": "https://web.archive.org/web/20080530140252/http://www.entropiadirectory.com:80/wiki/VU_8.11"}
       ],
       "sources": [
         {"tier": 1, "label": "entropiauniverse.com - Mini Update, 21 Mar 2007", "url": "https://web.archive.org/web/20070325195533/http://www.entropiauniverse.com:80/en/rich/5377.html", "date": "2007-03-21"},
         {"tier": 1, "label": "entropiauniverse.com - Mini Update, 23 Mar 2007", "url": "https://web.archive.org/web/20070325195533/http://www.entropiauniverse.com:80/en/rich/5377.html#2007-03-23", "date": "2007-03-23"},
-        {"tier": 3, "label": "Entropia Universe forum - Mini Update 21 Mar 2007", "url": "https://forum.entropiauniverse.com/t/57099", "date": "2007-03-21"}
+        {"tier": 3, "label": "Entropia Universe forum - Mini Update 21 Mar 2007", "url": "https://forum.entropiauniverse.com/t/57099", "date": "2007-03-21"},
+        {"tier": 5, "label": "Entropia Directory wiki - New Icon Design", "url": "https://web.archive.org/web/20080530140252/http://www.entropiadirectory.com:80/wiki/VU_8.11", "date": "2008-05-30"}
       ]
     },
     "8.12": {
@@ -1307,7 +1311,8 @@
         {"tier": 5, "label": "Entropia Museum - VU search results for \"8.12\"", "url": "https://www.entropiamuseum.com/vu/search/8.12", "from_sheet": true},
         {"tier": 5, "label": "Entropia Museum - Version Updates archive", "url": "https://www.entropiamuseum.com/vu/"},
         {"tier": 5, "label": "Entropia Universe forum - A Brief History of Cities, TPs and Locations", "url": "https://forum.entropiauniverse.com/t/a-brief-history-of-cities-tps-and-locations/103895", "from_sheet": true},
-        {"tier": 5, "label": "PE WikiCharts - VU 8.12.2: mini update, bug fixes", "url": "https://web.archive.org/web/20070917170205/http://www.entropedia.info:80/Info.aspx?chart=VU&id=75", "date": "2007-06-07"}
+        {"tier": 5, "label": "PE WikiCharts - VU 8.12.2: mini update, bug fixes", "url": "https://web.archive.org/web/20070917170205/http://www.entropedia.info:80/Info.aspx?chart=VU&id=75", "date": "2007-06-07"},
+        {"tier": 5, "label": "Entropia Directory wiki - VU 8.12 Update Announcements", "url": "https://web.archive.org/web/20070819123913/http://www.entropiadirectory.com:80/wiki/VU_8.12", "date": "2007-08-19"}
       ]
     },
     "8.12.3": {
@@ -1432,11 +1437,13 @@
     "9.1.1": {
       "date": "2007-12-12",
       "transcribed_from": [
-        {"label": "Entropia Universe forum - Version Update 9.1.1 (news bot)", "url": "https://forum.entropiauniverse.com/t/version-update-9-1-1/83813"}
+        {"label": "Entropia Universe forum - Version Update 9.1.1 (news bot)", "url": "https://forum.entropiauniverse.com/t/version-update-9-1-1/83813"},
+        {"label": "Entropia Directory wiki - VU 9.1 Update Announcements", "url": "https://web.archive.org/web/20080211120852/http://www.entropiadirectory.com:80/wiki/VU_9.1"}
       ],
       "sources": [
         {"tier": 3, "label": "Entropia Universe forum - Version Update 9.1.1 (news bot)", "url": "https://forum.entropiauniverse.com/t/version-update-9-1-1/83813", "date": "2007-12-12"},
-        {"tier": 5, "label": "PE WikiCharts - VU 9.1.1: mini update, bug fixes", "url": "https://web.archive.org/web/20071216202630/http://entropedia.info:80/Info.aspx?chart=VU&id=83", "date": "2007-12-13"}
+        {"tier": 5, "label": "PE WikiCharts - VU 9.1.1: mini update, bug fixes", "url": "https://web.archive.org/web/20071216202630/http://entropedia.info:80/Info.aspx?chart=VU&id=83", "date": "2007-12-13"},
+        {"tier": 5, "label": "Entropia Directory wiki - VU 9.1 Update Announcements", "url": "https://web.archive.org/web/20080211120852/http://www.entropiadirectory.com:80/wiki/VU_9.1", "date": "2008-02-11"}
       ]
     },
     "9.1.2": {

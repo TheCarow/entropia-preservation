@@ -265,6 +265,12 @@
       "kind": "player",
       "about": "nirfu.gluonsoft.se, 2006 to 2007: the player Nirfu's list of his own globals, Hall of Fame loots and silent globals, each with the day, where and how it was looted (C crafting, P a private hunt, T a team hunt), what and its value, and his share or the sale price where he gave it. Read from the Archive's Wayback copy of the site."
     },
+    "entropia-directory": {
+      "name": "Entropia Directory",
+      "link": "../sites/#entropia-directory",
+      "kind": "player",
+      "about": "pedirectory.info, later entropiadirectory.com, 2006 to 2009: a player wiki. Its weapon, tool and plating pages, armour set pages, stackable pages, creature pages and land area pages are read; every fact cites the first and last captures that printed it, so a value's VU is the one current when Wayback recorded the page, not when a player entered it. Many of its item pages say they were taken from PE WikiCharts, so a value both give is not two independent readings. Its markups were PE Auction's and are not kept, nor are values that follow from others (damage per second, power, cost per shot, economy). Read from the editor's sites/entropia-directory/ harvest by its items.py."
+    },
     "faustian-mob-damage": {
       "name": "Faustian's Mob Damage List",
       "link": "../sites/#faustian-mob-damage",
