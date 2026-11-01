@@ -1,5 +1,5 @@
 {
-  "about": "The VU 5.4 client's skill rank ladder, the live one in 6564.obj: each band of skill points [from, to) and the rank the client shows for it, read by petest's Tools/arkladder.py. 41 ranks of 10 grades; 8100 points or more match no band.",
+  "about": "The VU 5.4 client's skill rank ladder, the live one in 6564.obj: each band of skill points [from, to) and the rank the client shows for it, read by petest's Tools/arkladder.py. 41 ranks of 10 grades; 8100 points or more match no band. above holds the higher ranks as Entropia Directory listed them: each rank with the points it printed, from and to both inclusive, null where it gave none.",
   "source": "client-5.4",
   "ranks": [
     {"rank": "Newbie (Grade 1)", "from": 1, "to": 2},
@@ -412,5 +412,6 @@
     {"rank": "Supreme (Grade 8)", "from": 8010, "to": 8040},
     {"rank": "Supreme (Grade 9)", "from": 8040, "to": 8070},
     {"rank": "Supreme (Grade 10)", "from": 8070, "to": 8100}
-  ]
+  ],
+  "above": {"source": "entropia-directory", "first": "20071018192354/wiki/index.php?title=Skill_Ranks", "last": "20090419170738/wiki/Skill_Ranks", "url": "https://web.archive.org/web/20090419170738/http://www.entropiadirectory.com:80/wiki/Skill_Ranks", "ranks": [{"rank": "Master", "from": 8100, "to": 8399}, {"rank": "Grand Master", "from": 8400, "to": 8699}, {"rank": "Arch Master", "from": 8700, "to": 9099}, {"rank": "Supreme Master", "from": 9100, "to": 9499}, {"rank": "Ultimate Master", "from": 9500, "to": 9999}, {"rank": "Great Master", "from": 10000, "to": 11999}, {"rank": "Great Grand Master", "from": 12000, "to": null}, {"rank": "Great Arch Master", "from": null, "to": 15999}, {"rank": "Great Supreme Master", "from": 16000, "to": 17999}, {"rank": "Great Ultimate Master", "from": 18000, "to": null}]}
 }

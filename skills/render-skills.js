@@ -63,6 +63,8 @@ for (const [n, skill] of skills.entries()) {
 const ladder = load(path.join(ROOT, "data", "ranks.json"));
 const bands = ladder.ranks || [];
 if (!P.sources[ladder.source]) problems.push(`data/ranks.json: source ${JSON.stringify(ladder.source)} is not in sources.json`);
+const above = ladder.above;
+if (!above || !P.sources[above.source] || !above.url || !(above.ranks || []).length) problems.push("data/ranks.json: above needs a source in sources.json, a url and ranks");
 for (const [n, band] of bands.entries()) {
   if (typeof band.rank !== "string" || typeof band.from !== "number" || typeof band.to !== "number" || band.to <= band.from) {
     problems.push(`data/ranks.json, band ${n + 1}: needs a rank and from < to`);
@@ -128,7 +130,11 @@ function ranksHTML() {
   return `<section class="s-ranks" id="ranks"><h2>Ranks</h2>
 <p>The rank the VU 5.4 client shows beside a skill's points, from its rank ladder: ${tiers.size} ranks of ten grades. The points each grade starts at are listed in order; 8100 points or more match no rank.</p>
 <div class="s-scroll"><table class="s-ladder"><thead><tr><th scope="col">Rank</th><th scope="col">Points</th><th scope="col">Grades 1 to 10 start at</th></tr></thead>
-<tbody>${rows.join("")}</tbody></table></div></section>`;
+<tbody>${rows.join("")}</tbody></table></div>
+<h3>Above the 5.4 ladder</h3>
+<p>The ${above.ranks.length} higher ranks as <a href="${esc(above.url)}">Entropia Directory's Skill Ranks page</a> listed them. Its bands agree with the client's up to Supreme.</p>
+<div class="s-scroll"><table class="s-ladder"><thead><tr><th scope="col">Rank</th><th scope="col">Points</th></tr></thead>
+<tbody>${above.ranks.map((r) => `<tr><th scope="row">${esc(r.rank)}</th><td>${r.from ?? "unknown"} to ${r.to ?? "unknown"}</td></tr>`).join("")}</tbody></table></div></section>`;
 }
 
 const sorted = [...skills].sort((a, b) => a.name.localeCompare(b.name, "en", {sensitivity: "base"}));

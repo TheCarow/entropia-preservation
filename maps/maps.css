@@ -27,7 +27,9 @@
 .m-thumb img { display: block; width: 72px; height: 54px; object-fit: cover; }
 .m-pics td { vertical-align: middle; }
 .m-pics td.m-basis { white-space: normal; min-width: 16rem; color: var(--muted); font-size: 13px; }
-.m-map.off-areas .m-layer[data-layer="areas"], .m-map.off-places .m-layer[data-layer="places"], .m-map.off-pictures .m-layer[data-layer="pictures"], .m-map.off-hall .m-layer[data-layer="hall"], .m-map.off-minerals .m-layer[data-layer="minerals"], .m-map.off-revival .m-layer[data-layer="revival"] { display: none; }
+.m-map.off-areas .m-layer[data-layer="areas"], .m-map.off-places .m-layer[data-layer="places"], .m-map.off-pictures .m-layer[data-layer="pictures"], .m-map.off-hall .m-layer[data-layer="hall"], .m-map.off-minerals .m-layer[data-layer="minerals"], .m-map.off-revival .m-layer[data-layer="revival"], .m-map.off-landmarks .m-layer[data-layer="landmarks"] { display: none; }
+.m-land circle { fill: #b48cff; stroke: #1b2a3a; stroke-width: 1.5px; vector-effect: non-scaling-stroke; }
+.m-land:hover circle, .m-land:focus circle { fill: #ff5a3c; }
 /* Mineral finds: a digitized map's as small squares, a site a source names as a larger diamond, outlined; each mineral
    in the colour the scatter map's legend gives it, the ores it leaves out in colours of their own. */
 /* The revival areas dashed, each zone a terminal served faintly filled, under every marker. */

@@ -100,6 +100,10 @@ const minerals = fs.existsSync(MINERALS) ? load(MINERALS).groups : [];
 const REVIVAL = path.join(ROOT, "data", "revival.json");
 const revivalData = fs.existsSync(REVIVAL) ? load(REVIVAL) : {areas: []};
 const revival = revivalData.areas;
+// The places Entropia Directory's pages locate that the maps do not hold (data/landmarks.json), a layer of their own.
+const LANDMARKS = path.join(ROOT, "data", "landmarks.json");
+const landmarkData = fs.existsSync(LANDMARKS) ? load(LANDMARKS) : {places: []};
+const landmarks = landmarkData.places;
 if (revival.length) checkSources(revivalData.sources, "data/revival.json");
 const revivalIds = new Set();
 for (const [n, r] of revival.entries()) {
@@ -244,12 +248,14 @@ function viewSVG(m, box, title, mapAreas, mapPlaces) {
       + (r.zones || []).map((z, k) => `<polygon class="m-rev-zone" points="${z.polygon.map(([x, yy]) => `${x},${y(yy)}`).join(" ")}"><title>Revival zone ${n + 1}.${k + 1}, served by one terminal, PE WikiCharts 2006</title></polygon>`).join("")
       + `<rect class="m-rev-area" x="${w}" y="${y(north)}" width="${e - w}" height="${north - s}"><title>Revival area ${n + 1}, PE WikiCharts 2006: ${metres(w)} to ${metres(e)}, ${metres(s)} to ${metres(north)}</title></rect></g>`;
   }).join("");
+  const lands = landmarks.filter((p) => p.map === m.id).map((p) => `<a href="${esc(p.url)}" class="m-land" data-id="land-${esc(p.id)}">`
+    + `<circle cx="${p.lon}" cy="${y(p.lat)}" r="${(3.5 * unit).toFixed(1)}"><title>${esc(p.name)}, Entropia Directory: ${metres(p.lon)}, ${metres(p.lat)}</title></circle></a>`).join("");
   const side = 7 * unit;
   const pics = picturesOn.get(m.id).map((p) => `<a href="../media/${esc(p.image.id)}/" class="m-pic" data-id="pic-${esc(p.image.id)}">`
     + `<rect x="${p.x - side / 2}" y="${y(p.y) - side / 2}" width="${side}" height="${side}"><title>Picture ${esc(p.image.id)}${p.places.length ? `, ${esc(p.places.map(tagLabel).join(", "))}` : ""}: ${esc(p.image.coordinates_text || `${p.x}, ${p.y}`)}${pictureWhen(p.image) ? `, ${esc(pictureWhen(p.image))}` : ""}</title></rect></a>`).join("");
   return `<figure class="m-view"><svg viewBox="${box.west} ${y(box.north)} ${box.east - box.west} ${box.north - box.south}" role="img" aria-label="${esc(title)}">`
     + picturesOf(m).map((pic, n) => `<image class="m-picture${n ? " m-picture-off" : ""}" data-picture="${esc(pic.id)}" href="${esc(pic.image)}" x="${pic.west}" y="${y(pic.north)}" width="${pic.east - pic.west}" height="${pic.north - pic.south}" preserveAspectRatio="none"/>`).join("")
-    + `<g class="m-layer" data-layer="revival">${revs}</g><g class="m-layer" data-layer="areas">${rects}</g><g class="m-layer" data-layer="places">${marks}</g><g class="m-layer" data-layer="pictures">${pics}</g><g class="m-layer" data-layer="hall">${hall}</g><g class="m-layer" data-layer="minerals">${mins}</g></svg>`
+    + `<g class="m-layer" data-layer="revival">${revs}</g><g class="m-layer" data-layer="areas">${rects}</g><g class="m-layer" data-layer="places">${marks}</g><g class="m-layer" data-layer="pictures">${pics}</g><g class="m-layer" data-layer="hall">${hall}</g><g class="m-layer" data-layer="minerals">${mins}</g><g class="m-layer" data-layer="landmarks">${lands}</g></svg>`
     + `</figure>`;
 }
 
@@ -308,7 +314,8 @@ function mapHTML(m) {
   const pictures = picturesOn.get(m.id);
   const mapMinerals = minerals.filter((g) => g.map === m.id);
   const finds = mapMinerals.reduce((n, g) => n + g.finds.length, 0);
-  const layers = [mapAreas.length ? ["areas", "Land areas"] : null, ["places", "Places"], pictures.length ? ["pictures", "Pictures"] : null,
+  const mapLandmarks = landmarks.filter((p) => p.map === m.id);
+  const layers = [mapAreas.length ? ["areas", "Land areas"] : null, ["places", "Places"], mapLandmarks.length ? ["landmarks", "Landmarks"] : null, pictures.length ? ["pictures", "Pictures"] : null,
     hall ? ["hall", "Globals and Hall of Fame"] : null, finds ? ["minerals", "Minerals"] : null,
     revival.some((r) => r.map === m.id) ? ["revival", "Revival zones"] : null].filter(Boolean);
   return `<section class="m-map${m === maps[0] ? "" : " m-map-off"}" id="map-${esc(m.id)}" data-build="${esc(builds[0])}">`
@@ -317,6 +324,7 @@ function mapHTML(m) {
     + `<div class="m-views">${viewSVG(m, m, `The whole of ${m.name}`, mapAreas, mapPlaces)}</div>`
     + folded([mapAreas.length ? [`Areas (${mapAreas.length})`, areasTable(mapAreas)] : null,
       [`Places, as each build lists them (${mapPlaces.length})`, placesTable(mapPlaces)],
+      mapLandmarks.length ? [`Landmarks, from Entropia Directory (${mapLandmarks.length})`, `<table class="m-places"><thead><tr><th scope="col">Place</th><th scope="col">Longitude</th><th scope="col">Latitude</th></tr></thead><tbody>${mapLandmarks.map((p) => `<tr><td><a href="${esc(p.url)}">${esc(p.name)}</a></td><td>${metres(p.lon)}</td><td>${metres(p.lat)}</td></tr>`).join("")}</tbody></table>`] : null,
       mapMinerals.length ? [`Mineral finds (${finds.toLocaleString("en")} from ${mapMinerals.length} sources)`, mineralsTable(mapMinerals)] : null].filter(Boolean))
     + `</section>`;
 }
@@ -331,11 +339,12 @@ if (!APP.test(template) || !FILES.test(template)) {
 fs.rmSync(OUT, {recursive: true, force: true});
 fs.mkdirSync(path.join(OUT, "data"), {recursive: true});
 fs.writeFileSync(path.join(OUT, "index.html"), template.replace(APP, () => `<div id="app" data-rendered="1">\n${body}\n</div>`)
-  .replace(FILES, () => `<a href="data/maps.json">maps.json</a> and <a href="data/minerals.json">minerals.json</a> and <a href="data/revival.json">revival.json</a>, with <a href="../halloffame/data/records.json">records.json</a> (Hall of Fame) and <a href="../items/sources.json">sources.json</a>.`));
+  .replace(FILES, () => `<a href="data/maps.json">maps.json</a> and <a href="data/minerals.json">minerals.json</a> and <a href="data/revival.json">revival.json</a> and <a href="data/landmarks.json">landmarks.json</a>, with <a href="../halloffame/data/records.json">records.json</a> (Hall of Fame) and <a href="../items/sources.json">sources.json</a>.`));
 for (const name of ["maps.js", "maps.css", ...maps.flatMap((m) => picturesOf(m).map((pic) => pic.image))]) {
   fs.copyFileSync(path.join(ROOT, name), path.join(OUT, name));
 }
 fs.copyFileSync(path.join(ROOT, "data", "maps.json"), path.join(OUT, "data", "maps.json"));
 if (fs.existsSync(MINERALS)) fs.copyFileSync(MINERALS, path.join(OUT, "data", "minerals.json"));
 if (fs.existsSync(REVIVAL)) fs.copyFileSync(REVIVAL, path.join(OUT, "data", "revival.json"));
+if (fs.existsSync(LANDMARKS)) fs.copyFileSync(LANDMARKS, path.join(OUT, "data", "landmarks.json"));
 console.log(`Drew ${maps.length} maps, ${areas.length} areas, ${places.length} places and ${[...hallAt.values()].flat().length} records at a place; ${[...picturesOn.values()].flat().length} pictures on a map, ${unplaced.length} with coordinates and no map; ${minerals.reduce((n, g) => n + g.finds.length, 0)} mineral finds in ${minerals.length} groups, into ${OUT}`);

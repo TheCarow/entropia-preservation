@@ -217,7 +217,8 @@ into the Creatures page, `creatures.js` adds its filters and `creatures.css` sty
 and fields: every skill the VU 5.4 client names (its string tables' skills, class 390) and what PE WikiCharts' skill
 pages say of each, a skill the client lacks being one of its own. `skills/data/ranks.json` holds the 5.4 client's rank
 ladder, each band of skill points `{"rank", "from", "to"}`, the rank the client shows for points from `from` up to
-`to`. The private editor's `tools/skills.py` writes both whole. `render-skills.js` draws them into the Skills page,
+`to`, and under `above` the higher ranks as Entropia Directory listed them, `from` and `to` inclusive and null where it
+gave none. The private editor's `tools/skills.py` writes both whole. `render-skills.js` draws them into the Skills page,
 `skills.js` adds its filters and popups and `skills.css` styles it.
 
 | Field | What it holds |
@@ -347,6 +348,10 @@ progress (`"mining-scatter-map"`, Media hh3bqzvk), the four claim deeds in dated
 screenshots that name their resource (`"item-window"`, by picture) and The Golden Ingots' East Scylla Mountains and
 Minopolis (`"golden-ingots"`, Media mr7jye9g). The page draws a group of many finds as small circles, one per find, and
 a group of a few as diamonds.
+
+`maps/data/landmarks.json` holds the places Entropia Directory's pages locate and the maps did not hold, each `{"id", "map", "name", "kind", "lon", "lat", "first", "url"}`,
+written by the editor's `sites/entropia-directory/items.py`. The wiki's positions agree with the client's to within a few tens of
+metres where both give one. The page draws them as a layer of their own.
 
 `maps/data/revival.json` holds Eudoria's revival areas and the zone each revival terminal served, as PE WikiCharts'
 Locations map drew them with its Lines option in late 2006 (Media vvsgpk3w), written by the editor's
