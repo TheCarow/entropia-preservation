@@ -3,7 +3,8 @@
   "markup": "TT+",
   "sources": ["pea"],
   "captures": [
-    "https://web.archive.org/web/20160801222024/http://peauction.com/itemlisting.php?id=4689"
+    "https://web.archive.org/web/20160801222024/http://peauction.com/itemlisting.php?id=4689",
+    "https://web.archive.org/web/20160802004716/http://peauction.com/itemlisting.php?id=5884"
   ],
   "sold": [
     [1, 10.72, 13.0, 4, [[0, "2007-10-30 06:23", 0]]],
@@ -11,7 +12,8 @@
   ],
   "unsold": [
     [1, 11.43, 39.0, [[0, "2007-08-26 18:07", 0]]],
-    [1, 6.24, 34.0, [[0, "2007-08-26 18:12", 0]]]
+    [1, 6.24, 34.0, [[0, "2007-08-26 18:12", 0]]],
+    [1, 5.97, 16.0, [[0, "2009-08-15 18:52", 1]]]
   ],
   "readings": [],
   "charts": []

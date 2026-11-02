@@ -12,7 +12,8 @@
     "https://web.archive.org/web/20090223042421/http://peauction.com:80/catlisting.php?id=7",
     "https://web.archive.org/web/20090802102208/http://www.peauction.com:80/catlisting.php?id=7",
     "https://web.archive.org/web/20091002013452/http://www.peauction.com:80/catlisting.php?id=7",
-    "https://web.archive.org/web/20160801192253/http://peauction.com/itemlisting.php?id=4711"
+    "https://web.archive.org/web/20160801192253/http://peauction.com/itemlisting.php?id=4711",
+    "https://web.archive.org/web/20160801194355/http://peauction.com/itemlisting.php?id=3399"
   ],
   "sold": [
     [1, 31.73, 40.0, 6, [[0, "2007-09-07 09:14", 9]]],
@@ -24,6 +25,7 @@
     [1, 48.5, 49.0, 1, [[0, "2009-04-08 23:41", 9]]]
   ],
   "unsold": [
+    [1, 48.5, 500.0, [[0, "2006-11-17 23:21", 10]]],
     [1, 48.2, 99.0, [[0, "2007-10-08 18:32", 9]]],
     [1, 48.2, 69.0, [[0, "2007-10-11 20:43", 9]]],
     [1, 48.5, 70.0, [[0, "2008-05-14 21:28", 9]]],

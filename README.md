@@ -128,7 +128,12 @@ when rerun, so none undoes another, and an item keeps its name and type once wri
 
 The player sites are imported without review: a name they print is matched to an item by fixed rules (the private
 editor's `tools/itemmatch.py`), and one that matches none becomes an item of its own, named as printed and typed
-Unsorted. Which source gave each value is in its citations, and the page names it beside the value.
+Unsorted. Which source gave each value is in its citations, and the page names it beside the value. Rules cannot see
+every spelling, so the editor's `tools/dedupe_items.py` then joins the items that are one under two names: two items on
+one client key, a name no client has with its marked twin (`Cadet jacket (F)`, `Cadet Jacket (F,C)`), a shorthand with
+the one item it names, read by its values where several fit (`FF4400M`, Fire Forge BGH 4400M). Each joined name stays on
+the item in `also`. Items with different client keys are never joined, however alike. A name that could be any of
+several items and carries nothing to choose by is removed, as `EnBlade-10` is either the Combat or the Survival blade.
 
 Nothing is stored twice. A fact several sources give is stored once with the sources that give it; a fact that
 follows from another is not stored at all (a day's VU, a key's class and index, a weapon's damage per second); and

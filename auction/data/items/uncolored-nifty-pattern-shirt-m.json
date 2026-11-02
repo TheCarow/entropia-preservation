@@ -4,13 +4,16 @@
   "sources": ["pea", "pe-player"],
   "captures": [
     "https://web.archive.org/web/20040807114142/http://www.pe-player.com:80/auction/list.php?sort=bytype",
-    "https://web.archive.org/web/20070612025909/http://peauction.com:80/itemlisting.php?id=2967"
+    "https://web.archive.org/web/20070612025909/http://peauction.com:80/itemlisting.php?id=2967",
+    "https://web.archive.org/web/20160801124508/http://peauction.com/itemlisting.php?id=5812"
   ],
   "sold": [
-    [1, 23.54, 34.0, 0, [[1, "2004-07-16 00:25", 0]]]
+    [1, 23.54, 34.0, 0, [[1, "2004-07-16 00:25", 0]]],
+    [1, 87.98, 95.0, 1, [[0, "2008-03-18 21:22", 2]]]
   ],
   "unsold": [
-    [1, 22.54, 222.0, [[0, "2006-06-13 18:47", 1]]]
+    [1, 22.54, 222.0, [[0, "2006-06-13 18:47", 1]]],
+    [1, 22.54, 222.0, [[0, "2006-06-13 18:47", 2]]]
   ],
   "readings": [],
   "charts": []
