@@ -371,15 +371,13 @@ function dropsHTML(item) {
   }).join("");
 }
 
-// An armour piece's or a garment's sex, as its names state it: "(F)", "(female)", "(M,L)"; none where they state none
-// (a miniskirt), which the Gender filter shows under either.
+// An armour piece's or a garment's "sex"; none on an item for either or of unknown sex, which the Gender filter shows under
+// either.
 const SEXED = new Set(["armor", "clothing"]);
+const SEXES = { male: "m", female: "f" };
 function sexOf(item) {
-  for (const name of [item.name, ...(item.names || []).map((n) => n.name)]) {
-    const m = /\((m|male|f|female)\b[^)]*\)?\s*$/i.exec(name);
-    if (m) return m[1][0].toLowerCase();
-  }
-  return "";
+  if (item.sex !== undefined && !SEXES[item.sex]) throw new Error(`${item.id}: sex "${item.sex}" is neither male nor female`);
+  return SEXES[item.sex] || "";
 }
 
 function itemHTML(category, item) {

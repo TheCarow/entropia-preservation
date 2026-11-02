@@ -13,7 +13,7 @@
   const category = bar.querySelector('[data-filter="cat"]');
   const firstCategory = category.options[0].value;
   const type = bar.querySelector('[data-filter="type"]');
-  // Armour and clothing can be narrowed to one sex; an item whose names state none shows under either.
+  // Armour and clothing can be narrowed to one sex; an item with none shows under either.
   const sex = bar.querySelector('[data-filter="sex"]');
   const SEXED = ["armor", "clothing"];
   const clear = bar.querySelector(".fclear");
