@@ -107,6 +107,13 @@
       "kind": "client",
       "about": "The VU 9.3.5 client of September 2008: the item names and descriptions of its string tables (tables 1 and 2, language 1, English; petest's Tools/arkstrings.py). Only items the page already lists take facts from it, matched by name: it shows such an item still in the game's data at VU 9.3.5, under the name it carried then. Its other items are not added."
     },
+    "skill-window-9.3.5": {
+      "name": "The VU 9.3.5 client's skills window",
+      "link": "../clients/#vu-9.3.5-files",
+      "vu": "9.3.5",
+      "kind": "client",
+      "about": "The icon the VU 9.3.5 client gives a skill the VU 5.4 window has no icon for: a table of pictures by skill id in the program's own code, the same in the 9.1.5, 9.2.2 and 9.3.5 clients, read by petest's Tools/skillicons.py and named from the client's string tables. Where the two clients share a skill, 112 of 113 keep the same picture. A skill's picture here shows it in 2008, whenever the skill or picture first appeared."
+    },
     "skill-window-5.4": {
       "name": "The VU 5.4 client's skills window",
       "link": "../clients/#vu-5.4-files",
