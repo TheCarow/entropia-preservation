@@ -1,6 +1,7 @@
 /* Entropia Archive: node render-seo.js [folder] finishes the built site for search engines and link previews (default:
    _site beside this file). Every page gets its canonical address, and an og:image: a media page its own picture, any
-   other the logo. sitemap.xml lists every page, and robots.txt points to it. It runs last, so it covers what was really
+   other the logo. sitemap.xml lists every page but an unlisted one, which asks search engines to leave it out
+   (<meta name="robots" content="noindex...">), and robots.txt points to it. It runs last, so it covers what was really
    built. A folder with no home page, or a page with no <head>, stops it, as a publish missing its pages should stop. */
 "use strict";
 const fs = require("fs");
@@ -42,11 +43,15 @@ if (!fs.existsSync(path.join(OUT, "index.html"))) {
 }
 const addresses = pages(OUT, "").sort();
 const pictures = previews();
+const unlisted = new Set();
 for (const address of addresses) {
   const file = path.join(OUT, address, "index.html");
   const html = fs.readFileSync(file, "utf8");
   if (!html.includes("</head>")) {
     stop(`${address || "the home page"} has no <head>.`);
+  }
+  if (/<meta name="robots" content="noindex/.test(html)) {
+    unlisted.add(address);
   }
   if (html.includes('rel="canonical"')) {
     continue;
@@ -57,8 +62,8 @@ for (const address of addresses) {
   const tags = `<link rel="canonical" href="${url}">\n<meta property="og:url" content="${url}">\n<meta property="og:image" content="${image}">\n`;
   fs.writeFileSync(file, html.replace("</head>", () => `${tags}</head>`));
 }
-const lines = addresses.map((address) => `<url><loc>${SITE}/${encodeURI(address).replace(/&/g, "&amp;")}</loc></url>`);
+const lines = addresses.filter((address) => !unlisted.has(address)).map((address) => `<url><loc>${SITE}/${encodeURI(address).replace(/&/g, "&amp;")}</loc></url>`);
 fs.writeFileSync(path.join(OUT, "sitemap.xml"),
   `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${lines.join("\n")}\n</urlset>\n`);
 fs.writeFileSync(path.join(OUT, "robots.txt"), `User-agent: *\nAllow: /\n\nSitemap: ${SITE}/sitemap.xml\n`);
-console.log(`Gave ${addresses.length} pages their canonical address and preview image, listed them in ${path.join(OUT, "sitemap.xml")}, and wrote robots.txt`);
+console.log(`Gave ${addresses.length} pages their canonical address and preview image, listed ${lines.length} in ${path.join(OUT, "sitemap.xml")} (${unlisted.size} unlisted), and wrote robots.txt`);
