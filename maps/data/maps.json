@@ -3,47 +3,12 @@
   {
    "id": "eudoria",
    "name": "Eudoria",
-   "image": "eudoria.jpg",
+   "image": "eudoriawebcontemporary.jpg",
    "west": 0,
    "south": 0,
-   "east": 30157,
-   "north": 30157,
-   "picture": "The 9.x clients' own map of Eudoria, texture 437871, over the frame their map window gives it, 0 to 30,157 m on both axes.",
-   "label": "VU 9.x, the clients' own map",
-   "builds": [
-    "9.3.5",
-    "9.2.2"
-   ],
-   "pictures": [
-    {
-     "id": "vu6-0",
-     "label": "VU 6.0, MindArk's map",
-     "image": "eudoria-vu6-0.jpg",
-     "media": "ww0egw10",
-     "builds": [
-      "5.4"
-     ],
-     "west": 146,
-     "south": 62,
-     "east": 28236,
-     "north": 30259,
-     "fitted": true,
-     "picture": "MindArk's map of Eudoria for Project Entropia Version 6.0, updated 24 September 2004, extended by Darts with teleporters and points of interest (Media ww0egw10). Its frame is fitted, not read: the 31 teleporters it draws against where the VU 5.4 client's location table puts them, to within 96 m on average and 318 m at most (Zychion Citadel)."
-    },
-    {
-     "id": "vu4-1",
-     "label": "VU 4.1, Entropia World's map",
-     "image": "eudoria-vu4-1.jpg",
-     "media": "q46bsv50",
-     "builds": [],
-     "west": -46,
-     "south": 103,
-     "east": 28181,
-     "north": 30518,
-     "fitted": true,
-     "picture": "Entropia World's map of Eudoria with its teleporters and the PvP area, titled VU 4.1 by its uploader (Media q46bsv50). Its frame is fitted, not read: the 24 teleporters it draws against where the VU 5.4 client's location table puts them, to within 65 m on average and 161 m at most; the marker it labels Atlas Island South is at 5.4's Tethys Creek, and Fort Ithaca, Hadesheim C, Camp Echidna, Minopolis and Zychion Citadel are not on it yet."
-    }
-   ]
+   "east": 28160,
+   "north": 30208,
+   "picture": "The VU 5.4 client's own terrain, every one of its 220 by 236 patches as the client composes its ground, with the water standing over it, rendered by PE Classic's Continent Map: 0 to 28,160 m east and 0 to 30,208 m north, in the client's coordinates."
   },
   {
    "id": "amethera",

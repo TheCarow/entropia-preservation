@@ -1,12 +1,24 @@
-/* The Maps page, on site.css's colours and type: each map twice side by side (the whole, and closer on its areas),
-   one above the other on a narrow screen, its areas outlined over the picture; the list below, its sources behind a
+/* The Maps page, on site.css's colours and type: each map's one picture, zoomed with its buttons, the wheel or a
+   pinch, its areas outlined over it; the list below, its sources behind a
    question mark as on the other pages; the list scrolls sideways on a narrow screen. */
 .m-continent { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 18px; margin: 28px 0 14px; padding: 10px 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); font-size: 14px; }
 .m-continent label { display: inline-flex; align-items: center; gap: 6px; }
 .m-note { margin: 0 0 10px; font-size: 14px; color: var(--muted); }
 .m-views { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr)); gap: 16px; }
-.m-view { margin: 0; min-width: 0; }
-.m-view svg { display: block; width: 100%; height: auto; aspect-ratio: 1; background: var(--line); }
+.m-view { position: relative; margin: 0; min-width: 0; }
+/* The view takes its frame's shape from its own style. With the script it zooms: a pinch is the map's, not the page's,
+   and while zoomed a finger moves the map. Its markers are scaled back by --m-zoom so they keep their size. */
+.m-view svg { --m-zoom: 1; display: block; width: 100%; height: auto; background: var(--line); }
+html.js .m-view svg { touch-action: pan-x pan-y; }
+html.js .m-view svg.m-zoomed { touch-action: none; cursor: grab; }
+html.js .m-view svg.m-dragging { cursor: grabbing; }
+.m-place circle, .m-hall circle, .m-land circle, .m-min circle, .m-min path, .m-pic rect { transform-box: fill-box; transform-origin: center; transform: scale(var(--m-zoom)); }
+html:not(.js) .m-zoom { display: none; }
+.m-zoom { position: absolute; top: 8px; right: 8px; display: flex; gap: 4px; }
+.m-zoom button { min-width: 30px; height: 30px; padding: 0 8px; font: inherit; font-size: 15px; line-height: 1; color: var(--fg); background: var(--panel); border: 1px solid var(--control); cursor: pointer; }
+.m-zoom button:hover:not(:disabled), .m-zoom button:focus-visible { border-color: var(--fg); }
+.m-zoom button:disabled { opacity: .45; cursor: default; }
+.m-zoom button[data-zoom="reset"] { font-size: 13px; }
 .m-area rect { fill: rgba(255, 210, 60, .12); stroke: #ffd23c; stroke-width: 2px; vector-effect: non-scaling-stroke; }
 .m-area:hover rect, .m-area:focus rect, .m-area.on rect { fill: rgba(255, 90, 60, .35); stroke: #ff5a3c; stroke-width: 3px; }
 .m-area[data-type="LA area"] rect { stroke: #6ad0ff; fill: rgba(106, 208, 255, .12); }
@@ -85,8 +97,6 @@ html.js .src > span { position: fixed; }
 .src:hover > span, .src:focus-within > span { visibility: visible; }
 .src .e { display: block; }
 
-/* A map's older pictures and their notes, shown one at a time; without the script only the map's own picture shows. */
-.m-picture-off { display: none; }
 html[data-script] .m-map-off { display: none; }
 .m-continent label { font-weight: 600; }
-.m-continent .m-picture-choice, .m-continent .m-build-choice { font-weight: normal; }
+.m-continent .m-build-choice { font-weight: normal; }

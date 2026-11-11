@@ -47,18 +47,7 @@ for (const [n, m] of maps.entries()) {
   const at = `data/maps.json, map ${n + 1} (${m.name})`;
   if (!m.id || !m.name || !m.image || !fs.existsSync(path.join(ROOT, m.image))) problems.push(`${at}: needs an id, a name and a picture beside this file`);
   if (!SIDES.every((s) => Number.isFinite(m[s])) || m.west >= m.east || m.south >= m.north) problems.push(`${at}: its frame needs west < east and south < north`);
-  // Older pictures of the map, each over its own frame, shown for the builds it names or when chosen.
-  for (const [k, pic] of (m.pictures || []).entries()) {
-    const pat = `${at}, picture ${k + 1} (${pic.id})`;
-    if (!pic.id || !pic.label || !pic.picture || !pic.image || !fs.existsSync(path.join(ROOT, pic.image))) problems.push(`${pat}: needs an id, a label, a description and a picture beside this file`);
-    if (!SIDES.every((s) => Number.isFinite(pic[s])) || pic.west >= pic.east || pic.south >= pic.north) problems.push(`${pat}: its frame needs west < east and south < north`);
-    if (pic.media && !P.pictures.has(pic.media)) problems.push(`${pat}: Media picture ${pic.media} is not in media.json`);
-    if (!Array.isArray(pic.builds) || pic.builds.some((b) => !BUILDS.includes(b))) problems.push(`${pat}: builds should name builds of ${BUILDS.join(", ")}`);
-  }
 }
-// A map's pictures: its own first, then the older ones; each names the builds it is shown for.
-const picturesOf = (m) => [{id: "own", label: m.label || "The map", image: m.image, west: m.west, south: m.south, east: m.east, north: m.north,
-  picture: m.picture, builds: m.builds || BUILDS}, ...(m.pictures || [])];
 const ids = new Set();
 for (const [n, a] of areas.entries()) {
   const at = `data/maps.json, area ${n + 1} (${a.name || a.id})`;
@@ -253,9 +242,13 @@ function viewSVG(m, box, title, mapAreas, mapPlaces) {
   const side = 7 * unit;
   const pics = picturesOn.get(m.id).map((p) => `<a href="../media/${esc(p.image.id)}/" class="m-pic" data-id="pic-${esc(p.image.id)}">`
     + `<rect x="${p.x - side / 2}" y="${y(p.y) - side / 2}" width="${side}" height="${side}"><title>Picture ${esc(p.image.id)}${p.places.length ? `, ${esc(p.places.map(tagLabel).join(", "))}` : ""}: ${esc(p.image.coordinates_text || `${p.x}, ${p.y}`)}${pictureWhen(p.image) ? `, ${esc(pictureWhen(p.image))}` : ""}</title></rect></a>`).join("");
-  return `<figure class="m-view"><svg viewBox="${box.west} ${y(box.north)} ${box.east - box.west} ${box.north - box.south}" role="img" aria-label="${esc(title)}">`
-    + picturesOf(m).map((pic, n) => `<image class="m-picture${n ? " m-picture-off" : ""}" data-picture="${esc(pic.id)}" href="${esc(pic.image)}" x="${pic.west}" y="${y(pic.north)}" width="${pic.east - pic.west}" height="${pic.north - pic.south}" preserveAspectRatio="none"/>`).join("")
+  // The view keeps its frame's shape; with scripts it zooms and pans (maps.js) through the buttons, the wheel and a drag.
+  const width = box.east - box.west;
+  const height = box.north - box.south;
+  return `<figure class="m-view"><svg viewBox="${box.west} ${y(box.north)} ${width} ${height}" style="aspect-ratio: ${width} / ${height}" role="img" aria-label="${esc(title)}">`
+    + `<image class="m-picture" href="${esc(m.image)}" x="${m.west}" y="${y(m.north)}" width="${m.east - m.west}" height="${m.north - m.south}" preserveAspectRatio="none"/>`
     + `<g class="m-layer" data-layer="revival">${revs}</g><g class="m-layer" data-layer="areas">${rects}</g><g class="m-layer" data-layer="places">${marks}</g><g class="m-layer" data-layer="pictures">${pics}</g><g class="m-layer" data-layer="hall">${hall}</g><g class="m-layer" data-layer="minerals">${mins}</g><g class="m-layer" data-layer="landmarks">${lands}</g></svg>`
+    + `<div class="m-zoom"><button type="button" data-zoom="in" aria-label="Zoom in" title="Zoom in">+</button><button type="button" data-zoom="out" aria-label="Zoom out" title="Zoom out">&minus;</button><button type="button" data-zoom="reset" title="Show the whole map">Whole map</button></div>`
     + `</figure>`;
 }
 
@@ -294,9 +287,6 @@ function mineralsTable(list) {
   return `<div class="m-scroll"><table class="m-table m-mins"><thead><tr><th>Source</th><th>Where</th><th>What</th><th>Note</th><th></th></tr></thead><tbody>${rows}</tbody></table></div>`;
 }
 
-// A map's choice of picture, beside the continent's, shown while its continent is.
-const pictureChoice = (m) => (m.pictures && m.pictures.length ? `<label class="m-picture-choice${m === maps[0] ? "" : " m-map-off"}" data-for="map-${esc(m.id)}">Map <select class="fsel" data-picture>${picturesOf(m).map((pic) => `<option value="${esc(pic.id)}" data-builds="${esc(pic.builds.join(" "))}">${esc(pic.label)}</option>`).join("")}</select></label>` : "");
-
 // The builds whose tables list a place on a map, newest first, and the choice of them beside the continent's.
 const buildsOf = (m) => BUILDS.filter((b) => places.some((p) => p.map === m.id && p.listed.some((e) => e.client === b)));
 const buildChoice = (m) => `<label class="m-build-choice${m === maps[0] ? "" : " m-map-off"}" data-for="map-${esc(m.id)}">Places as listed by <select class="fsel" data-build>${buildsOf(m).map((b) => `<option value="${esc(b)}">VU ${esc(b)}</option>`).join("")}</select></label>`;
@@ -329,7 +319,7 @@ function mapHTML(m) {
     + `</section>`;
 }
 
-const body = `<p class="m-continent"><label>Continent <select class="fsel" data-continent>${maps.map((m) => `<option value="map-${esc(m.id)}">${esc(m.name)}</option>`).join("")}</select></label>${maps.map((m) => pictureChoice(m) + buildChoice(m)).join("")}</p>
+const body = `<p class="m-continent"><label>Continent <select class="fsel" data-continent>${maps.map((m) => `<option value="map-${esc(m.id)}">${esc(m.name)}</option>`).join("")}</select></label>${maps.map(buildChoice).join("")}</p>
 ${maps.map(mapHTML).join("\n")}`;
 
 const template = fs.readFileSync(path.join(ROOT, "index.html"), "utf8");
@@ -340,7 +330,7 @@ fs.rmSync(OUT, {recursive: true, force: true});
 fs.mkdirSync(path.join(OUT, "data"), {recursive: true});
 fs.writeFileSync(path.join(OUT, "index.html"), template.replace(APP, () => `<div id="app" data-rendered="1">\n${body}\n</div>`)
   .replace(FILES, () => `<a href="data/maps.json">maps.json</a> and <a href="data/minerals.json">minerals.json</a> and <a href="data/revival.json">revival.json</a> and <a href="data/landmarks.json">landmarks.json</a>, with <a href="../halloffame/data/records.json">records.json</a> (Hall of Fame) and <a href="../items/sources.json">sources.json</a>.`));
-for (const name of ["maps.js", "maps.css", ...maps.flatMap((m) => picturesOf(m).map((pic) => pic.image))]) {
+for (const name of ["maps.js", "maps.css", ...maps.map((m) => m.image)]) {
   fs.copyFileSync(path.join(ROOT, name), path.join(OUT, name));
 }
 fs.copyFileSync(path.join(ROOT, "data", "maps.json"), path.join(OUT, "data", "maps.json"));
