@@ -16,7 +16,6 @@
 | `halloffame/` | The Hall of Fame page. `data/records.json` holds every global and Hall of Fame loot players recorded (see [A Hall of Fame record](#a-hall-of-fame-record)); `render-halloffame.js` draws them into one table, `halloffame.js` adds its filters and `halloffame.css` styles it. |
 | `maps/` | The Maps page. `data/maps.json` is the Archive's own map database (see [A map](#a-map)): each map's frame, the areas drawn on it and its places; `data/minerals.json` holds the known mineral finds; `data/revival.json` the revival areas and zones of 2006; `amethera.png` and `eudoria.jpg` are the pictures, `render-maps.js` draws the page, `maps.js` adds its layers and `maps.css` styles it. |
 | `societies/` | The Societies page. `data/societies.json` holds every society the sources name (see [A society](#a-society)); `render-societies.js` draws them into one list, `societies.js` adds its filters and `societies.css` styles it. |
-| `peclassic/` | The unlisted PE Classic download page, written by hand and published as it is. No page links to it, it asks search engines to leave it out, and `render-seo.js` leaves it out of the sitemap. |
 | `versions.json` | Every version and every client file. Edited by hand. |
 | `notes.md` | The release notes' text, one `## VU <version>` section per version. Edited by hand. |
 | `images/discs/` | Pictures of the discs that client files were found on. |
